@@ -3,7 +3,8 @@
 Usage
 -----
     # build every PDF under FinanceBench/, write trees/<name>.tree.json
-    python build_all.py FinanceBench --out-dir trees --skip-existing
+    # already-built trees are skipped automatically; pass --force to rebuild.
+    python build_all.py FinanceBench --out-dir trees
 
     # only build PDFs that have an embedded TOC (no LLM fallback)
     python build_all.py FinanceBench --skip-on-no-toc
@@ -12,11 +13,24 @@ Usage
     python build_all.py FinanceBench --limit 1
 """
 import argparse
+import json
 import sys
 import time
 from pathlib import Path
 
 from pageindex import Config, PageIndex
+
+
+def _is_successful_tree(path: Path) -> bool:
+    """A tree counts as successfully built if it exists and parses as JSON."""
+    if not path.exists() or path.stat().st_size == 0:
+        return False
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return False
+    return True
 
 
 def main() -> int:
@@ -27,8 +41,8 @@ def main() -> int:
     parser.add_argument("--mode",
                         choices=["auto", "toc", "embedded", "printed", "window"],
                         default="auto", help="How to build each tree (default: auto).")
-    parser.add_argument("--skip-existing", action="store_true",
-                        help="Skip PDFs whose tree.json already exists in --out-dir.")
+    parser.add_argument("--force", action="store_true",
+                        help="Rebuild even when a successful tree.json already exists.")
     parser.add_argument("--skip-on-no-toc", action="store_true",
                         help="Use only the embedded TOC; skip PDFs that lack one.")
     parser.add_argument("--limit", type=int,
@@ -66,7 +80,7 @@ def main() -> int:
             out_path = out_dir / (pdf_path.stem + ".tree.json")
             tag = f"[{i}/{len(pdfs)}] {pdf_path.name}"
 
-            if args.skip_existing and out_path.exists():
+            if not args.force and _is_successful_tree(out_path):
                 print(f"{tag}: already built, skipping.")
                 skipped.append(pdf_path.name)
                 continue
