@@ -109,6 +109,11 @@ def build_from_toc(pdf: PDFDocument, toc: List[Dict], config: Config) -> List[No
 # multi-line layout - we drop them rather than carry a half-entry forward.
 _BARE_ITEM_TITLE = re.compile(r"^\s*item\s+\d+[a-z]?\.?\s*$", re.IGNORECASE)
 
+# A title that is only an organizational part label ("Part I", "PART II.").
+# These are groupings in SEC filings with no content of their own - we don't
+# want them as nodes; the items inside them become the top-level nodes.
+_PART_ONLY_TITLE = re.compile(r"^\s*part\s+([ivxlcdm]+|\d+)\.?\s*$", re.IGNORECASE)
+
 
 def _detect_page_offset(pdf: PDFDocument, headings: List[Dict],
                         toc_pages: List[int], max_search: int = 60) -> int:
@@ -154,6 +159,7 @@ def build_from_printed_toc(pdf: PDFDocument, config: Config, llm: LLMClient,
 
     headings: List[Dict] = []
     dropped_bare = 0
+    dropped_parts = 0
     for e in raw or []:
         try:
             page = int(e["page"])
@@ -167,11 +173,16 @@ def build_from_printed_toc(pdf: PDFDocument, config: Config, llm: LLMClient,
         if _BARE_ITEM_TITLE.match(title):
             dropped_bare += 1
             continue
+        if _PART_ONLY_TITLE.match(title):
+            dropped_parts += 1
+            continue
         level = max(1, int(e.get("level", 1)))
         headings.append({"level": level, "title": title, "page": page})
 
     if verbose and dropped_bare:
         print(f"[build] dropped {dropped_bare} bare-identifier TOC entries (e.g. 'Item 1' with no description)")
+    if verbose and dropped_parts:
+        print(f"[build] dropped {dropped_parts} organizational 'Part N' TOC entries")
 
     if len(headings) < config.toc_min_entries:
         if verbose:

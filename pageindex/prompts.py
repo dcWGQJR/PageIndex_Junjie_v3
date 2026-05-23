@@ -57,11 +57,11 @@ entry. For example, this raw text:
     Unresolved Staff Comments
     12
 
-represents FOUR entries:
-    {{"title": "Part I",                         "level": 1, "page": 4}}
-    {{"title": "Item 1. Business",               "level": 2, "page": 4}}
-    {{"title": "Item 1A. Risk Factors",          "level": 2, "page": 10}}
-    {{"title": "Item 1B. Unresolved Staff Comments", "level": 2, "page": 12}}
+represents THREE entries (Part I is a purely organizational label and is
+DROPPED, not emitted):
+    {{"title": "Item 1. Business",               "level": 1, "page": 4}}
+    {{"title": "Item 1A. Risk Factors",          "level": 1, "page": 10}}
+    {{"title": "Item 1B. Unresolved Staff Comments", "level": 1, "page": 12}}
 
 Rules for each entry:
 - "title":
@@ -70,17 +70,20 @@ Rules for each entry:
       like "Item 1A. Risk Factors". NEVER return a bare identifier like
       "Item 1" without the section name.
     * Use Title Case ("Item 1. Business"), not ALL CAPS ("ITEM 1 BUSINESS").
-    * If a part has no descriptive name (just "PART I"), output "Part I".
 - "level":
-    * 1 = top-level groupings such as "Part I", "Part II".
-    * 2 = items within a part: "Item 1. Business", "Item 1A. Risk Factors",
-          numbered "Note N." entries, etc.
-    * 3+ = sub-items shown as indented bullets under an item (e.g. the sub-list
-          under "Item 7. MD&A": Overview, Results of Operations, ...).
+    * 1 = a main item in the document outline ("Item 1. Business",
+          "Item 1A. Risk Factors", "Note 1. Significant Accounting Policies").
+    * 2+ = sub-items shown as indented bullets directly UNDER an item (e.g.
+          the sub-list under "Item 7. MD&A": Overview, Results of Operations,
+          Performance by Business Segment, ...).
 - "page": the page number printed next to the heading, as an integer.
 
-Skip purely decorative lines (the words "Table of Contents", "Beginning Page",
-"Page", column labels, blank rows, the document title, the company name).
+DROP these lines completely - do NOT emit entries for them:
+- Organizational part labels like "PART I", "PART II", "PART III", "PART IV"
+  (they are just groupings; the items inside them are what matters).
+- The words "Table of Contents", "Beginning Page", "Page", column labels,
+  blank rows, the document title, the company name, dates.
+
 If a candidate entry has no page number, skip it.
 Keep entries in the order they appear in the table.
 
