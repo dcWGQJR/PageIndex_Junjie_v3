@@ -40,23 +40,51 @@ PRINTED_TOC_SYS = (
 
 def printed_toc_user(text: str, total_pages: int) -> str:
     return f"""The text below is the printed Table of Contents from a {total_pages}-page PDF.
-Dot leaders and trailing numbers indicate the page each section starts on.
 
-Extract every section / item / heading into a JSON outline.
+IMPORTANT: a single TOC entry may be laid out across several lines because the
+identifier, the section title, and the page number are in separate columns and
+end up on separate lines after extraction. You MUST fuse them back into one
+entry. For example, this raw text:
 
-For each entry give:
-- "title": the heading exactly as printed, cleaned of dot leaders and trailing page numbers.
-- "level": hierarchy depth.
-    1  = top-level groupings such as "PART I", "PART II"
-    2  = items within a part, e.g. "Item 1. Business", "Item 1A. Risk Factors"
-    3+ = sub-items / subsections, only when sub-structure is clearly shown
+    PART I
+    ITEM 1
+    Business
+    4
+    ITEM 1A
+    Risk Factors
+    10
+    ITEM 1B
+    Unresolved Staff Comments
+    12
+
+represents FOUR entries:
+    {{"title": "Part I",                         "level": 1, "page": 4}}
+    {{"title": "Item 1. Business",               "level": 2, "page": 4}}
+    {{"title": "Item 1A. Risk Factors",          "level": 2, "page": 10}}
+    {{"title": "Item 1B. Unresolved Staff Comments", "level": 2, "page": 12}}
+
+Rules for each entry:
+- "title":
+    * Always combine the identifier ("Item 1", "Item 1A", "Note 5") with the
+      descriptive section name on the next non-empty line into a single string
+      like "Item 1A. Risk Factors". NEVER return a bare identifier like
+      "Item 1" without the section name.
+    * Use Title Case ("Item 1. Business"), not ALL CAPS ("ITEM 1 BUSINESS").
+    * If a part has no descriptive name (just "PART I"), output "Part I".
+- "level":
+    * 1 = top-level groupings such as "Part I", "Part II".
+    * 2 = items within a part: "Item 1. Business", "Item 1A. Risk Factors",
+          numbered "Note N." entries, etc.
+    * 3+ = sub-items shown as indented bullets under an item (e.g. the sub-list
+          under "Item 7. MD&A": Overview, Results of Operations, ...).
 - "page": the page number printed next to the heading, as an integer.
 
-Skip purely decorative lines (running headers, blank rows, the word "Page" alone).
-If a heading has no page number, skip it.
+Skip purely decorative lines (the words "Table of Contents", "Beginning Page",
+"Page", column labels, blank rows, the document title, the company name).
+If a candidate entry has no page number, skip it.
 Keep entries in the order they appear in the table.
 
-Return JSON: {{"entries": [{{"title": "...", "level": 1, "page": 1}}, ...]}}
+Return JSON: {{"entries": [{{"title": "Part I", "level": 1, "page": 4}}, ...]}}
 
 TABLE OF CONTENTS:
 {text}

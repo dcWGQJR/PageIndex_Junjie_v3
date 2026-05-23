@@ -48,7 +48,9 @@ class LLMClient:
             self._client = OpenAI(api_key=config.api_key)
 
     # -- low level ----------------------------------------------------------
-    def _call(self, system: str, user: str, max_tokens: int) -> str:
+    def _call(self, system: str, user: str, max_tokens: int,
+              json_mode: bool = False) -> tuple[str, str]:
+        """Return (content, finish_reason). finish_reason aids diagnosing empty replies."""
         cfg = self.config
         if self.provider == "anthropic":
             resp = self._client.messages.create(
@@ -63,38 +65,64 @@ class LLMClient:
                 }],
                 messages=[{"role": "user", "content": user}],
             )
-            return "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
-        resp = self._client.chat.completions.create(
-            model=cfg.model,
-            max_tokens=max_tokens,
-            temperature=cfg.temperature,
-            messages=[
+            text = "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
+            return text, getattr(resp, "stop_reason", "") or ""
+        kwargs: dict = {
+            "model": cfg.model,
+            "max_tokens": max_tokens,
+            "temperature": cfg.temperature,
+            "messages": [
                 {"role": "system", "content": system},
                 {"role": "user", "content": user},
             ],
-        )
-        return resp.choices[0].message.content or ""
+        }
+        if json_mode:
+            kwargs["response_format"] = {"type": "json_object"}
+        resp = self._client.chat.completions.create(**kwargs)
+        choice = resp.choices[0]
+        return (choice.message.content or "", choice.finish_reason or "")
 
-    def complete(self, system: str, user: str, max_tokens: Optional[int] = None) -> str:
+    def complete(self, system: str, user: str, max_tokens: Optional[int] = None,
+                 json_mode: bool = False) -> str:
         """Plain text completion with a small retry on transient errors."""
         max_tokens = max_tokens or self.config.max_tokens
         last_err: Optional[Exception] = None
         for attempt in range(3):
             try:
-                return self._call(system, user, max_tokens)
+                text, _reason = self._call(system, user, max_tokens, json_mode=json_mode)
+                return text
             except Exception as err:  # noqa: BLE001 - retry any transient API error
                 last_err = err
                 time.sleep(1.5 * (attempt + 1))
         raise RuntimeError(f"LLM request failed after retries: {last_err}")
 
-    def complete_json(self, system: str, user: str, retries: int = 2) -> Any:
-        """Completion that must yield JSON; re-prompts if parsing fails."""
-        system = system + "\n\nRespond with valid JSON only - no prose, no markdown fences."
+    def complete_json(self, system: str, user: str, retries: int = 2,
+                      max_tokens: Optional[int] = None) -> Any:
+        """Completion that must yield JSON; re-prompts if parsing fails.
+
+        Uses OpenAI's structured JSON mode when the provider is OpenAI so the
+        model is forced to emit a JSON object. Allocates a generous output
+        budget (4096) so multi-entry outlines don't get truncated mid-array.
+        """
+        system_full = system + "\n\nRespond with valid JSON only - no prose, no markdown fences."
+        budget = max_tokens or max(4096, self.config.max_tokens)
         raw = ""
+        reason = ""
         for _ in range(retries + 1):
-            raw = self.complete(system, user)
+            try:
+                raw, reason = self._call(system_full, user, budget, json_mode=True)
+            except Exception as err:  # noqa: BLE001 - one chance to retry on transient errors
+                time.sleep(1.5)
+                try:
+                    raw, reason = self._call(system_full, user, budget, json_mode=True)
+                except Exception:
+                    raise RuntimeError(f"LLM JSON request failed: {err}")
             parsed = extract_json(raw)
             if parsed is not None:
                 return parsed
             user = user + "\n\nYour previous reply was not valid JSON. Reply with JSON only."
-        raise ValueError(f"LLM did not return valid JSON. Last reply:\n{raw}")
+        raise ValueError(
+            f"LLM did not return valid JSON "
+            f"(finish_reason={reason!r}, reply length={len(raw)} chars). "
+            f"Last reply:\n{raw[:2000]}"
+        )

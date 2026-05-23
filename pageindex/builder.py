@@ -104,6 +104,12 @@ def build_from_toc(pdf: PDFDocument, toc: List[Dict], config: Config) -> List[No
 # --------------------------------------------------------------------------
 # Path 2: build from a printed (in-body) table-of-contents page
 # --------------------------------------------------------------------------
+# A title that is *just* an item identifier ("Item 1", "Item 1A.") with no
+# descriptive section name. Such entries mean the LLM failed to fuse the
+# multi-line layout - we drop them rather than carry a half-entry forward.
+_BARE_ITEM_TITLE = re.compile(r"^\s*item\s+\d+[a-z]?\.?\s*$", re.IGNORECASE)
+
+
 def _detect_page_offset(pdf: PDFDocument, headings: List[Dict],
                         toc_pages: List[int], max_search: int = 60) -> int:
     """Estimate `(physical - printed)` page offset by locating the first heading.
@@ -147,6 +153,7 @@ def build_from_printed_toc(pdf: PDFDocument, config: Config, llm: LLMClient,
     raw = result.get("entries", []) if isinstance(result, dict) else result
 
     headings: List[Dict] = []
+    dropped_bare = 0
     for e in raw or []:
         try:
             page = int(e["page"])
@@ -154,9 +161,17 @@ def build_from_printed_toc(pdf: PDFDocument, config: Config, llm: LLMClient,
             continue
         if not (1 <= page <= pdf.page_count):
             continue
-        title = str(e.get("title", "")).strip() or "Untitled"
+        title = str(e.get("title", "")).strip()
+        if not title:
+            continue
+        if _BARE_ITEM_TITLE.match(title):
+            dropped_bare += 1
+            continue
         level = max(1, int(e.get("level", 1)))
         headings.append({"level": level, "title": title, "page": page})
+
+    if verbose and dropped_bare:
+        print(f"[build] dropped {dropped_bare} bare-identifier TOC entries (e.g. 'Item 1' with no description)")
 
     if len(headings) < config.toc_min_entries:
         if verbose:
