@@ -30,6 +30,40 @@ TEXT:
 
 
 # --------------------------------------------------------------------------
+# Printed table-of-contents parsing
+# --------------------------------------------------------------------------
+PRINTED_TOC_SYS = (
+    "You convert a printed Table-of-Contents page into a clean, machine-readable "
+    "JSON outline. You read every heading entry and the page number it points to."
+)
+
+
+def printed_toc_user(text: str, total_pages: int) -> str:
+    return f"""The text below is the printed Table of Contents from a {total_pages}-page PDF.
+Dot leaders and trailing numbers indicate the page each section starts on.
+
+Extract every section / item / heading into a JSON outline.
+
+For each entry give:
+- "title": the heading exactly as printed, cleaned of dot leaders and trailing page numbers.
+- "level": hierarchy depth.
+    1  = top-level groupings such as "PART I", "PART II"
+    2  = items within a part, e.g. "Item 1. Business", "Item 1A. Risk Factors"
+    3+ = sub-items / subsections, only when sub-structure is clearly shown
+- "page": the page number printed next to the heading, as an integer.
+
+Skip purely decorative lines (running headers, blank rows, the word "Page" alone).
+If a heading has no page number, skip it.
+Keep entries in the order they appear in the table.
+
+Return JSON: {{"entries": [{{"title": "...", "level": 1, "page": 1}}, ...]}}
+
+TABLE OF CONTENTS:
+{text}
+"""
+
+
+# --------------------------------------------------------------------------
 # Node summarization (bottom-up)
 # --------------------------------------------------------------------------
 SUMMARY_SYS = (

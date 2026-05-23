@@ -1,0 +1,31 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+
+# Virtual environments
+.venv/
+.env/
+venv/
+env/
+
+# Local environment / secrets (keep the example file)
+.env
+pageindex.env
+
+# PageIndex generated output
+trees/
+
+# Datasets (large)
+FinanceBench/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

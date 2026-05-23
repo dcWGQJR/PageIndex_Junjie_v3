@@ -4,16 +4,15 @@ from dataclasses import dataclass
 
 
 def _load_env_file() -> None:
-    """Load environment variables from a `pageindex.env` file if present.
+    """Load environment variables from a `.env` file if present.
 
-    The project virtualenv here is named `.env` (a directory), so we avoid the
-    conventional `.env` filename to prevent a clash.
+    Override the filename with the `PAGEINDEX_ENV` environment variable.
     """
     try:
         from dotenv import load_dotenv
     except ImportError:
         return
-    for name in (os.getenv("PAGEINDEX_ENV", ""), "pageindex.env"):
+    for name in (os.getenv("PAGEINDEX_ENV", ""), ".env"):
         if name and os.path.isfile(name):
             load_dotenv(name)
             return

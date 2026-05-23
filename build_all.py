@@ -24,8 +24,9 @@ def main() -> int:
     parser.add_argument("input_dir", help="Directory containing PDFs (searched recursively).")
     parser.add_argument("--out-dir", default="trees",
                         help="Directory to write *.tree.json files into.")
-    parser.add_argument("--mode", choices=["auto", "toc", "window"], default="auto",
-                        help="How to build each tree (default: auto).")
+    parser.add_argument("--mode",
+                        choices=["auto", "toc", "embedded", "printed", "window"],
+                        default="auto", help="How to build each tree (default: auto).")
     parser.add_argument("--skip-existing", action="store_true",
                         help="Skip PDFs whose tree.json already exists in --out-dir.")
     parser.add_argument("--skip-on-no-toc", action="store_true",

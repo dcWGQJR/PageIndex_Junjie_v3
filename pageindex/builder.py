@@ -1,11 +1,20 @@
-"""Tree construction: from the PDF's embedded TOC, or via sliding-window analysis."""
+"""Tree construction: from the PDF's embedded TOC, the printed TOC, or sliding window."""
 import os
-from typing import Dict, List, Tuple
+import re
+from typing import Dict, List, Optional, Tuple
 
 from .config import Config
 from .llm import LLMClient
 from .pdf_utils import PDFDocument
-from .prompts import HEADING_SYS, SUMMARY_SYS, heading_user, leaf_summary_user, parent_summary_user
+from .prompts import (
+    HEADING_SYS,
+    PRINTED_TOC_SYS,
+    SUMMARY_SYS,
+    heading_user,
+    leaf_summary_user,
+    parent_summary_user,
+    printed_toc_user,
+)
 from .tree import Node, iter_post_order
 
 
@@ -76,7 +85,7 @@ def build_front_matter(start: int, end: int, config: Config) -> List[Node]:
 
 
 # --------------------------------------------------------------------------
-# Path 1: build from the embedded table of contents
+# Path 1: build from the embedded table of contents (PDF bookmark outline)
 # --------------------------------------------------------------------------
 def build_from_toc(pdf: PDFDocument, toc: List[Dict], config: Config) -> List[Node]:
     headings = [
@@ -88,7 +97,85 @@ def build_from_toc(pdf: PDFDocument, toc: List[Dict], config: Config) -> List[No
         for e in toc
     ]
     front = build_front_matter(1, headings[0]["page"] - 1, config)
-    content = build_hierarchy(headings, source="toc", id_prefix="t")
+    content = build_hierarchy(headings, source="embedded_toc", id_prefix="t")
+    return front + content
+
+
+# --------------------------------------------------------------------------
+# Path 2: build from a printed (in-body) table-of-contents page
+# --------------------------------------------------------------------------
+def _detect_page_offset(pdf: PDFDocument, headings: List[Dict],
+                        toc_pages: List[int], max_search: int = 60) -> int:
+    """Estimate `(physical - printed)` page offset by locating the first heading.
+
+    The page numbers a printed TOC lists are document-print page numbers, which
+    often differ from PDF page indices (cover, TOC etc. shift everything by a
+    few pages). We find where the first heading actually appears in the PDF and
+    return the implied shift.
+    """
+    if not headings:
+        return 0
+    needle = re.sub(r"[^a-zA-Z0-9]", "", headings[0]["title"]).lower()[:40]
+    if len(needle) < 5:
+        return 0
+    last_toc = max(toc_pages) if toc_pages else 0
+    upper = min(last_toc + max_search, pdf.page_count)
+    for p in range(last_toc + 1, upper + 1):
+        text = re.sub(r"[^a-zA-Z0-9]", "", pdf.page_text(p)).lower()
+        if needle in text:
+            return p - headings[0]["page"]
+    return 0
+
+
+def build_from_printed_toc(pdf: PDFDocument, config: Config, llm: LLMClient,
+                           verbose: bool = True) -> Optional[List[Node]]:
+    """Scan early pages for a printed TOC, LLM-parse it, then build the hierarchy.
+
+    Returns the list of root-level Nodes, or None if no usable printed TOC
+    could be extracted (caller falls back to the next mode).
+    """
+    toc_pages = pdf.find_printed_toc_pages()
+    if not toc_pages:
+        if verbose:
+            print("[build] no printed TOC page detected")
+        return None
+    if verbose:
+        print(f"[build] candidate printed TOC pages: {toc_pages}")
+
+    text = pdf.text_range(toc_pages[0], toc_pages[-1])
+    result = llm.complete_json(PRINTED_TOC_SYS, printed_toc_user(text, pdf.page_count))
+    raw = result.get("entries", []) if isinstance(result, dict) else result
+
+    headings: List[Dict] = []
+    for e in raw or []:
+        try:
+            page = int(e["page"])
+        except (KeyError, ValueError, TypeError):
+            continue
+        if not (1 <= page <= pdf.page_count):
+            continue
+        title = str(e.get("title", "")).strip() or "Untitled"
+        level = max(1, int(e.get("level", 1)))
+        headings.append({"level": level, "title": title, "page": page})
+
+    if len(headings) < config.toc_min_entries:
+        if verbose:
+            print(f"[build] printed TOC yielded only {len(headings)} entries; skipping")
+        return None
+
+    offset = _detect_page_offset(pdf, headings, toc_pages)
+    if offset:
+        if verbose:
+            print(f"[build] printed-to-physical page offset: {offset:+d}")
+        for h in headings:
+            h["page"] = min(pdf.page_count, max(1, h["page"] + offset))
+
+    headings.sort(key=lambda h: (h["page"], h["level"]))
+    if verbose:
+        print(f"[build] using printed TOC ({len(headings)} entries)")
+
+    front = build_front_matter(1, headings[0]["page"] - 1, config)
+    content = build_hierarchy(headings, source="printed_toc", id_prefix="p")
     return front + content
 
 
@@ -168,7 +255,19 @@ def build_from_windows(pdf: PDFDocument, config: Config, llm: LLMClient,
 # --------------------------------------------------------------------------
 def build_tree(pdf: PDFDocument, config: Config, llm: LLMClient,
                mode: str = "auto", verbose: bool = True) -> Tuple[Node, str]:
-    """Build the structural tree (no summaries yet). Returns (root, mode_used)."""
+    """Build the structural tree (no summaries yet). Returns (root, mode_used).
+
+    Modes
+    -----
+    - "auto"     : try embedded outline, then printed TOC, then sliding-window.
+    - "toc"      : try embedded outline, then printed TOC; error if neither works.
+    - "embedded" : only the PDF's embedded outline (bookmarks).
+    - "printed"  : only a printed (in-body) TOC page.
+    - "window"   : skip TOC paths and use the sliding-window LLM scan.
+    """
+    if mode not in ("auto", "toc", "embedded", "printed", "window"):
+        raise ValueError(f"unknown build mode {mode!r}")
+
     root = Node(
         node_id="root",
         title=os.path.basename(pdf.path),
@@ -179,17 +278,31 @@ def build_tree(pdf: PDFDocument, config: Config, llm: LLMClient,
     )
 
     children = None
-    used = None
-    if mode in ("auto", "toc"):
+    used: Optional[str] = None
+
+    # 1. Embedded outline (cheap; no LLM call).
+    if mode in ("auto", "toc", "embedded"):
         toc = pdf.embedded_toc()
         if len(toc) >= config.toc_min_entries:
             if verbose:
-                print(f"[build] using embedded table of contents ({len(toc)} entries)")
+                print(f"[build] using embedded outline ({len(toc)} entries)")
             children = build_from_toc(pdf, toc, config)
-            used = "toc"
-        elif mode == "toc":
-            raise ValueError("PDF has no usable embedded table of contents.")
+            used = "embedded_toc"
+        elif mode == "embedded":
+            raise ValueError("PDF has no usable embedded outline.")
 
+    # 2. Printed in-body TOC (one LLM call to parse it).
+    if children is None and mode in ("auto", "toc", "printed"):
+        children = build_from_printed_toc(pdf, config, llm, verbose=verbose)
+        if children is not None:
+            used = "printed_toc"
+        elif mode in ("toc", "printed"):
+            raise ValueError(
+                "PDF has no usable table of contents "
+                "(neither an embedded outline nor a parseable printed TOC)."
+            )
+
+    # 3. Sliding-window LLM scan over the whole document.
     if children is None:
         if verbose:
             print("[build] analyzing document with a sliding window")

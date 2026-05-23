@@ -50,20 +50,20 @@ passed to the LLM, which answers the question and cites page numbers.
 
 ## Setup
 
-The virtualenv in this folder is the directory named `.env`.
+The virtualenv lives in `.venv\`.
 
 ```powershell
-# install dependencies into the existing virtualenv
-.env\Scripts\python.exe -m pip install -r requirements.txt
+# install dependencies into the virtualenv
+.venv\Scripts\python.exe -m pip install -r requirements.txt
 
 # configure your API key
-copy pageindex.env.example pageindex.env
-# then edit pageindex.env and paste in your key
+copy .env.example .env
+# then edit .env and paste in your key
 ```
 
 PageIndex works with **OpenAI** (default — `gpt-4o-mini-2024-07-18`) or
-**Anthropic** (`claude-sonnet-4-6`). Switch with `LLM_PROVIDER` in
-`pageindex.env`. Override the model with `PAGEINDEX_MODEL`.
+**Anthropic** (`claude-sonnet-4-6`). Switch with `LLM_PROVIDER` in `.env`.
+Override the model with `PAGEINDEX_MODEL`.
 
 ## Usage
 
@@ -71,16 +71,16 @@ PageIndex works with **OpenAI** (default — `gpt-4o-mini-2024-07-18`) or
 
 ```powershell
 # Build a tree and save it
-.env\Scripts\python.exe main.py build paper.pdf --out paper.tree.json
+.venv\Scripts\python.exe main.py build paper.pdf --out paper.tree.json
 
 # Inspect the tree (add --summaries to see node summaries)
-.env\Scripts\python.exe main.py show paper.tree.json --summaries
+.venv\Scripts\python.exe main.py show paper.tree.json --summaries
 
 # Ask a question against a saved tree
-.env\Scripts\python.exe main.py ask paper.pdf paper.tree.json "What dataset was used?"
+.venv\Scripts\python.exe main.py ask paper.pdf paper.tree.json "What dataset was used?"
 
 # Build + ask in a single command
-.env\Scripts\python.exe main.py query paper.pdf "What dataset was used?"
+.venv\Scripts\python.exe main.py query paper.pdf "What dataset was used?"
 ```
 
 Force a build mode with `--mode toc` or `--mode window` (default `auto`).

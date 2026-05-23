@@ -64,7 +64,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     b = sub.add_parser("build", help="Build a tree index from a PDF.")
     b.add_argument("pdf")
-    b.add_argument("--mode", choices=["auto", "toc", "window"], default="auto")
+    b.add_argument("--mode", choices=["auto", "toc", "embedded", "printed", "window"], default="auto")
     b.add_argument("--out", help="Path for the saved tree JSON.")
     b.add_argument("--window-size", type=int, help="Pages per sliding window.")
     b.set_defaults(func=cmd_build)
@@ -83,7 +83,7 @@ def build_parser() -> argparse.ArgumentParser:
     q = sub.add_parser("query", help="Build a tree and answer a query in one go.")
     q.add_argument("pdf")
     q.add_argument("query")
-    q.add_argument("--mode", choices=["auto", "toc", "window"], default="auto")
+    q.add_argument("--mode", choices=["auto", "toc", "embedded", "printed", "window"], default="auto")
     q.add_argument("--window-size", type=int, help="Pages per sliding window.")
     q.set_defaults(func=cmd_query)
     return parser

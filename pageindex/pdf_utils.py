@@ -1,7 +1,16 @@
 """PDF access: page text extraction and embedded table-of-contents reading."""
+import re
 from typing import Dict, List, Optional
 
 import fitz  # PyMuPDF
+
+
+# A "Item 1A. Risk Factors .......... 12" style entry (single-line dot-leader TOC).
+_LEADER_LINE = re.compile(r"\.{3,}\s*\d{1,4}\s*$")
+# A line that is just a page-number cell, e.g. "12" on its own line — the
+# tell-tale sign of a column-layout TOC where titles and page numbers are in
+# separate columns. Body prose effectively never produces these.
+_PAGE_NUM_LINE = re.compile(r"^\s*\d{1,4}\s*$")
 
 
 class PDFDocument:
@@ -49,6 +58,51 @@ class PDFDocument:
                 "page": int(page),
             })
         return toc
+
+    def find_printed_toc_pages(self, max_scan: int = 25,
+                               max_pages: int = 3) -> List[int]:
+        """Locate the page(s) of a printed (in-body) table of contents.
+
+        A page is classified as TOC-like when it shows one of these structural
+        patterns (header phrases are deliberately ignored - "Table of Contents"
+        is often a running header on every page in financial filings):
+          - several dot-leader lines like ".......... 12", or
+          - many lines that are just a page-number cell (column-layout TOC)
+            *and* a short median line length (rules out body prose).
+
+        We pick the first TOC-like page as the anchor and extend forward up to
+        `max_pages` total only while following pages are also TOC-like.
+        Returns the page numbers (1-indexed) or [] if no TOC page was found.
+        """
+        is_toc: List[bool] = []
+        upper = min(max_scan, self.page_count)
+        for p in range(1, upper + 1):
+            text = self.page_text(p)
+            if not text.strip():
+                is_toc.append(False)
+                continue
+            lines = [ln for ln in text.splitlines() if ln.strip()]
+            leaders = sum(1 for ln in lines if _LEADER_LINE.search(ln))
+            pure_nums = sum(1 for ln in lines if _PAGE_NUM_LINE.match(ln))
+            sorted_lens = sorted(len(ln) for ln in lines)
+            median_len = sorted_lens[len(sorted_lens) // 2] if sorted_lens else 0
+            is_toc.append(
+                leaders >= 5
+                or (pure_nums >= 5 and median_len < 60)
+            )
+
+        try:
+            start = is_toc.index(True)
+        except ValueError:
+            return []
+
+        pages = [start + 1]
+        for step in range(1, max_pages):
+            i = start + step
+            if i >= len(is_toc) or not is_toc[i]:
+                break
+            pages.append(i + 1)
+        return pages
 
     def close(self) -> None:
         self.doc.close()
