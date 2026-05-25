@@ -12,7 +12,7 @@ For each row of `financebench_subset_QA.xlsx`:
 - Concatenate the selected sections' text into one excerpt block; answer.
 - Use an LLM judge to compare the predicted answer to the benchmark answer.
 - Append a row to an output xlsx with: <all original columns> + predicted_answer
-  + retrieval_path + verdict (T/F/?/SKIP/ERROR) + judge_reason.
+  + retrieval_path + verdict (T/F/?/SKIP/ERROR).
 
 Usage
 -----
@@ -265,7 +265,7 @@ def main() -> int:
     out_wb = Workbook()
     out_ws = out_wb.active
     out_ws.title = "results"
-    out_ws.append(header + ["predicted_answer", "retrieval_path", "verdict", "judge_reason"])
+    out_ws.append(header + ["predicted_answer", "retrieval_path", "verdict"])
 
     config = Config()
     llm = LLMClient(config)
@@ -286,7 +286,7 @@ def main() -> int:
 
         if not doc_name or not question or not expected_str:
             n_skipped += 1
-            out_ws.append(row_data + ["", "", "SKIP", "missing doc_name/question/answer"])
+            out_ws.append(row_data + ["", "", "SKIP"])
             continue
 
         tree_path = trees_dir / f"{doc_name}.tree.json"
@@ -296,13 +296,13 @@ def main() -> int:
             n_skipped += 1
             reason = f"no tree at {tree_path}"
             print(f"[{r-1}/{n_total}] SKIP  {doc_name}  ({reason})")
-            out_ws.append(row_data + ["", "", "SKIP", reason])
+            out_ws.append(row_data + ["", "", "SKIP"])
             continue
         if not pdf_path.exists():
             n_skipped += 1
             reason = f"no pdf at {pdf_path}"
             print(f"[{r-1}/{n_total}] SKIP  {doc_name}  ({reason})")
-            out_ws.append(row_data + ["", "", "SKIP", reason])
+            out_ws.append(row_data + ["", "", "SKIP"])
             continue
 
         if doc_name not in tree_cache:
@@ -324,7 +324,7 @@ def main() -> int:
                 n_errored += 1
                 msg = str(err)[:300]
                 print(f"[{r-1}/{n_total}] ERR   {doc_name}: {msg}")
-                out_ws.append(row_data + ["", "", "ERROR", msg])
+                out_ws.append(row_data + ["", "", "ERROR"])
                 if (r - 1) % args.save_every == 0:
                     out_wb.save(out_path)
                 continue
@@ -338,10 +338,8 @@ def main() -> int:
             verdict = str(judged.get("verdict", "")).strip().upper()
             if verdict not in ("T", "F"):
                 verdict = "?"
-            reason = str(judged.get("reason", "")).strip()
-        except Exception as err:  # noqa: BLE001 - record judge failures
+        except Exception:  # noqa: BLE001 - record judge failures
             verdict = "?"
-            reason = f"judge failed: {err}"
 
         if verdict == "T":
             n_t += 1
@@ -357,7 +355,27 @@ def main() -> int:
         running = f"running {n_t}/{judged_so_far}" if judged_so_far else "running -"
         print(f"[{r-1}/{n_total}] {verdict}  {doc_name}  ({dt:.1f}s)  [{running}]  q={q_preview!r}")
 
-        out_ws.append(row_data + [predicted, breadcrumb, verdict, reason])
+        out_ws.append(row_data + [predicted, breadcrumb, verdict])
+
+        if verdict == "F":
+            out_wb.save(out_path)
+            justification = row[header.index("justification")] if "justification" in header else ""
+            evidence = row[header.index("evidence")] if "evidence" in header else ""
+            print(f"\n{'=' * 60}")
+            print("First F detected - stopping.")
+            print(f"{'=' * 60}")
+            for field, value in [
+                ("question", question),
+                ("answer", expected_str),
+                ("justification", justification),
+                ("evidence", evidence),
+                ("predicted_answer", predicted),
+                ("retrieval_path", breadcrumb),
+                ("verdict", verdict),
+            ]:
+                print(f"\n--- {field} ---\n{value}")
+            print(f"\nResults saved to {out_path}")
+            return 0
 
         if (r - 1) % args.save_every == 0:
             out_wb.save(out_path)
