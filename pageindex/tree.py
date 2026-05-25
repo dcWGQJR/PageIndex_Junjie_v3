@@ -20,6 +20,7 @@ class Node:
     end_page: int
     summary: str = ""
     source: str = ""
+    text: str = ""
     children: List["Node"] = field(default_factory=list)
 
     def is_leaf(self) -> bool:
@@ -38,6 +39,7 @@ class Node:
             "end_page": self.end_page,
             "summary": self.summary,
             "source": self.source,
+            "text": self.text,
             "children": [c.to_dict() for c in self.children],
         }
 
@@ -51,6 +53,7 @@ class Node:
             end_page=d["end_page"],
             summary=d.get("summary", ""),
             source=d.get("source", ""),
+            text=d.get("text", ""),
         )
         node.children = [Node.from_dict(c) for c in d.get("children", [])]
         return node

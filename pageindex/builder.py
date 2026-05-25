@@ -342,11 +342,12 @@ def build_tree(pdf: PDFDocument, config: Config, llm: LLMClient,
 
 def summarize_tree(root: Node, pdf: PDFDocument, config: Config, llm: LLMClient,
                    verbose: bool = True) -> None:
-    """Fill in `summary` (and refined titles) for every node, children first."""
+    """Fill in `summary`, `text` (and refined titles) for every node, children first."""
     for node in iter_post_order(root):
+        text = pdf.text_range(node.start_page, node.end_page, config.max_chars_per_block)
+        node.text = text
         needs_title = node.source in ("window", "front_matter")
         if node.is_leaf():
-            text = pdf.text_range(node.start_page, node.end_page, config.max_chars_per_block)
             result = llm.complete_json(SUMMARY_SYS, leaf_summary_user(node, text, needs_title))
         else:
             children_block = "\n".join(

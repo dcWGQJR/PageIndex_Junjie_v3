@@ -29,7 +29,6 @@ from typing import Any, Dict, List, Tuple
 from openpyxl import Workbook, load_workbook
 
 from pageindex import Config, LLMClient
-from pageindex.pdf_utils import PDFDocument
 from pageindex.tree import Node, load_tree
 
 
@@ -198,16 +197,22 @@ def retrieve_multi(root: Node, query: str, config: Config, llm: LLMClient,
     return final[:max_leaves]
 
 
-def answer_multi(root: Node, pdf: PDFDocument, query: str, config: Config,
+def answer_multi(root: Node, query: str, config: Config,
                  llm: LLMClient, beam_size: int = 2, max_leaves: int = 4,
                  verbose: bool = False) -> Dict[str, Any]:
     paths = retrieve_multi(root, query, config, llm, beam_size, max_leaves, verbose)
     leaves = [p[-1] for p in paths]
     per_section = max(2000, config.max_chars_answer_context // max(1, len(leaves)))
-    excerpts = [
-        pdf.text_range(leaf.start_page, leaf.end_page, per_section)
-        for leaf in leaves
-    ]
+    excerpts = []
+    for leaf in leaves:
+        if len(leaf.text) > per_section:
+            print(
+                f"[answer] WARN truncating '{leaf.title}' "
+                f"(pages {leaf.start_page}-{leaf.end_page}): "
+                f"{len(leaf.text)} -> {per_section} chars",
+                file=sys.stderr,
+            )
+        excerpts.append(leaf.text[:per_section])
     breadcrumb = "  |  ".join(" > ".join(n.title for n in path) for path in paths)
     answer = llm.complete(
         ANSWER_MULTI_SYS,
@@ -230,7 +235,6 @@ def main() -> int:
     )
     parser.add_argument("--qa-file", default="FinanceBench/financebench_subset_QA.xlsx")
     parser.add_argument("--trees-dir", default="trees")
-    parser.add_argument("--pdfs-dir", default="FinanceBench")
     parser.add_argument("--out", default="financebench_results.xlsx")
     parser.add_argument("--limit", type=int, help="Process at most N rows.")
     parser.add_argument("--beam-size", type=int, default=2,
@@ -246,7 +250,6 @@ def main() -> int:
     qa_path = Path(args.qa_file)
     out_path = Path(args.out)
     trees_dir = Path(args.trees_dir)
-    pdfs_dir = Path(args.pdfs_dir)
 
     if not qa_path.is_file():
         print(f"Error: QA file not found: {qa_path}", file=sys.stderr)
@@ -290,17 +293,10 @@ def main() -> int:
             continue
 
         tree_path = trees_dir / f"{doc_name}.tree.json"
-        pdf_path = pdfs_dir / f"{doc_name}.pdf"
 
         if not tree_path.exists():
             n_skipped += 1
             reason = f"no tree at {tree_path}"
-            print(f"[{r-1}/{n_total}] SKIP  {doc_name}  ({reason})")
-            out_ws.append(row_data + ["", "", "SKIP"])
-            continue
-        if not pdf_path.exists():
-            n_skipped += 1
-            reason = f"no pdf at {pdf_path}"
             print(f"[{r-1}/{n_total}] SKIP  {doc_name}  ({reason})")
             out_ws.append(row_data + ["", "", "SKIP"])
             continue
@@ -310,26 +306,22 @@ def main() -> int:
         root = tree_cache[doc_name]
 
         t0 = time.time()
-        pdf = PDFDocument(str(pdf_path))
         try:
-            try:
-                result = answer_multi(
-                    root, pdf, str(question), config, llm,
-                    beam_size=args.beam_size, max_leaves=args.max_leaves,
-                    verbose=args.verbose,
-                )
-                predicted = result["answer"]
-                breadcrumb = result["breadcrumb"]
-            except Exception as err:  # noqa: BLE001 - keep batch alive
-                n_errored += 1
-                msg = str(err)[:300]
-                print(f"[{r-1}/{n_total}] ERR   {doc_name}: {msg}")
-                out_ws.append(row_data + ["", "", "ERROR"])
-                if (r - 1) % args.save_every == 0:
-                    out_wb.save(out_path)
-                continue
-        finally:
-            pdf.close()
+            result = answer_multi(
+                root, str(question), config, llm,
+                beam_size=args.beam_size, max_leaves=args.max_leaves,
+                verbose=args.verbose,
+            )
+            predicted = result["answer"]
+            breadcrumb = result["breadcrumb"]
+        except Exception as err:  # noqa: BLE001 - keep batch alive
+            n_errored += 1
+            msg = str(err)[:300]
+            print(f"[{r-1}/{n_total}] ERR   {doc_name}: {msg}")
+            out_ws.append(row_data + ["", "", "ERROR"])
+            if (r - 1) % args.save_every == 0:
+                out_wb.save(out_path)
+            continue
 
         try:
             judged = llm.complete_json(
