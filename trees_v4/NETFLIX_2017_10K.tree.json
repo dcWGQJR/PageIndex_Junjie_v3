@@ -1,0 +1,221 @@
+{
+  "node_id": "root",
+  "title": "NETFLIX_2017_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 73,
+  "summary": "The section provides a comprehensive overview of Netflix, Inc.'s 2017 Form 10-K, detailing the company's business operations, risk factors, financial performance, and governance structure. It includes information on Netflix's streaming services, membership growth, and revenue generation, as well as selected financial data and management's analysis of financial conditions. The document also addresses legal proceedings, market risks, and internal controls, while referencing additional details in the Proxy Statement for the Annual Meeting of Stockholders. Furthermore, it outlines the company's properties, executive compensation, and accounting practices, ensuring stakeholders have a complete understanding of Netflix's financial health and operational strategies.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Netflix 2017 Form 10-K Front Matter",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 2,
+      "summary": "This section contains the front matter of Netflix, Inc.'s Form 10-K for the fiscal year ending December 31, 2017. It includes essential company information such as the registrant's name, jurisdiction of incorporation, and IRS Employer Identification Number. The section also confirms compliance with filing requirements under the Securities Exchange Act of 1934, including checks for well-known seasoned issuer status and large accelerated filer designation. Additionally, it provides the market value of voting stock held by non-affiliates and the number of outstanding shares as of January 25, 2018. Lastly, it lists the documents incorporated by reference, specifically the Proxy Statement for the 2018 Annual Meeting of Stockholders.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "Netflix, Inc. is a leading internet television network with over 117 million streaming memberships globally, offering a vast library of TV shows and movies, including original content. The company operates three segments: Domestic streaming, International streaming, and Domestic DVD, generating revenue from monthly membership fees. Netflix's core strategy focuses on expanding its streaming service and enhancing user experience through improved content and technology. The competitive landscape includes various entertainment providers, and Netflix aims to capture consumer attention during their leisure time. The company also emphasizes the importance of intellectual property and had approximately 5,500 employees as of December 31, 2017.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 5,
+      "end_page": 14,
+      "summary": "This section outlines various risk factors that could adversely affect the company's business, financial condition, and operational results. Key risks include challenges in attracting and retaining members due to competition, the impact of piracy on market share, and the long-term fixed costs associated with content commitments. Additionally, the company faces potential liabilities related to content production and distribution, difficulties in securing favorable licensing agreements, and risks associated with international operations. Cybersecurity threats and reliance on third-party technology, particularly Amazon Web Services, also pose significant risks that could disrupt service and harm the company's reputation.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This section states that there are no unresolved staff comments related to the company's filings or operations. It indicates that the company has addressed all inquiries or issues raised by regulatory staff. This lack of unresolved comments may suggest compliance with regulatory standards and could be viewed positively by investors. Additionally, it implies that the company is not currently facing any significant regulatory scrutiny that could impact its operations or financial reporting.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This section details the corporate properties of the company, including the headquarters in Los Gatos, California, which occupies approximately 600,000 square feet of leased space. It also mentions additional leased offices in Los Angeles (400,000 square feet) for various operations and facilities in other countries for international streaming. The company asserts that its current facilities are sufficient for present needs and anticipates that additional space will be available for future expansion.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This section refers readers to Note 5 Commitments and Contingencies in the consolidated financial statements for details on legal proceedings involving the company. It indicates that specific information about ongoing or potential legal issues can be found under the caption 'Legal Proceedings' in the financial statements section of the report. This allows stakeholders to understand any legal risks or liabilities the company may face.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This section, Item 4, Mine Safety Disclosures, states that the disclosures are not applicable to the company. It indicates that there are no mine safety-related issues or disclosures required for the reporting period. Readers can learn that the company does not operate in mining or related industries that would necessitate such disclosures.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 18,
+      "summary": "This section provides information on the market for the registrant's common equity, specifically focusing on the trading of its stock on the NASDAQ under the symbol 'NFLX'. It includes a table detailing the high and low sales prices per share for each quarter in 2016 and 2017. As of January 25, 2018, there were approximately 327 stockholders of record, with a larger number of beneficial owners. The section also notes that the company has not declared or paid any cash dividends and has no intention to do so in the near future. Additionally, it features a stock performance graph comparing the company's cumulative stockholder return against major indices over a five-year period, adjusted for a stock split in July 2015.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Selected Financial Data",
+      "level": 1,
+      "start_page": 19,
+      "end_page": 20,
+      "summary": "This section presents selected consolidated financial data for the years ended December 31 from 2013 to 2017, including revenues, operating income, net income, and earnings per share, adjusted for a seven-for-one stock split in July 2015. It details cash flow from operating activities and free cash flow, highlighting significant cash usage in recent years. The consolidated balance sheets provide insights into total assets, long-term debt, and stockholders' equity. Additionally, it includes data on global streaming membership additions and total memberships, illustrating growth trends in Netflix's subscriber base.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 21,
+      "end_page": 32,
+      "summary": "This section provides a detailed analysis of the company's financial performance for the year ended December 31, 2017, highlighting significant growth in global streaming memberships, revenues, and net income. Key metrics include a 32% increase in consolidated revenues, driven by a 25% rise in global streaming memberships and a 10% increase in average monthly revenue per membership. The Domestic and International streaming segments showed distinct growth patterns, with international revenues growing by 58%. The section also discusses operating expenses, including increased content costs and marketing expenses, and outlines the impact of the Tax Cuts and Jobs Act on the company's tax provision. Additionally, it covers liquidity and capital resources, noting a significant increase in cash and long-term debt, and anticipates continued investment in original content, affecting future cash flows.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "This section discusses the company's exposure to market risks, specifically interest rate and foreign currency risks. As of December 31, 2017, the company had $6.6 billion in fixed-rate unsecured debt, with its fair value fluctuating based on interest rate movements. Additionally, 44% of international revenues and 54% of costs are in foreign currencies, exposing the company to foreign currency risk, particularly with the euro and British pound. The section notes a $127.9 million foreign exchange loss for the year ended December 31, 2017, and highlights that fluctuations in exchange rates could significantly impact future operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "This section provides an overview of the consolidated financial statements and supplementary data for the company, which are detailed in Part IV, Item 15(a)(1) of the Annual Report on Form 10-K. It indicates that these financial statements are incorporated by reference and are essential for understanding the company's financial position and performance. Readers can expect to find key financial metrics, notes on accounting policies, and disclosures that are critical for evaluating the company's financial health. The section serves as a reference point for stakeholders seeking detailed financial information.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "This section states that there are no changes or disagreements with accountants regarding accounting and financial disclosure. It indicates that the company has maintained consistent accounting practices and has not encountered any issues that would necessitate disclosure of disagreements with their accountants. This section serves to assure stakeholders that there are no unresolved accounting issues that could impact financial reporting.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 34,
+      "end_page": 35,
+      "summary": "This section discusses the evaluation of disclosure controls and procedures by Netflix's management, including the Chief Executive Officer and Chief Financial Officer, confirming their effectiveness as of the end of the reporting period. It highlights the management's responsibility for internal control over financial reporting, assessed using COSO criteria, and concludes that these controls were effective as of December 31, 2017. Additionally, it notes that there were no changes in internal control that materially affected financial reporting during the quarter. An independent audit by Ernst & Young LLP corroborates the effectiveness of these controls, emphasizing the inherent limitations of such systems.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 36,
+      "end_page": 36,
+      "summary": "This section, Item 9B, indicates that there is no additional information to report. It explicitly states 'None,' suggesting that there are no updates, disclosures, or relevant details beyond what has already been provided in previous sections. Readers can conclude that all pertinent information has been covered elsewhere in the document.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This section provides information about the company's directors and executive officers, referencing details from the Proxy Statement for the Annual Meeting of Stockholders. It includes topics such as the election of directors, compliance with beneficial ownership reporting, and the company's code of ethics. Readers can learn about the governance structure and ethical guidelines that govern the actions of the company's leadership.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This section references the executive compensation details found in the Proxy Statement for the Annual Meeting of Stockholders, specifically under the section titled 'Compensation of Executive Officers and Other Matters.' Readers can learn about the compensation structure, including salaries, bonuses, stock options, and other financial benefits provided to executive officers. The information is essential for understanding how executive pay aligns with company performance and governance practices.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This section references information about the security ownership of certain beneficial owners and management, as well as related stockholder matters. It indicates that detailed data can be found in the Proxy Statement for the Annual Meeting of Stockholders, specifically under the sections titled 'Security Ownership of Certain Beneficial Owners and Management' and 'Equity Compensation Plan Information.' Readers can learn about the ownership stakes of key stakeholders and the structure of equity compensation plans.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This section references information about certain relationships and related transactions involving the company, as well as details on director independence. Readers can learn about any potential conflicts of interest or transactions that may affect governance. The information is incorporated by reference from the Proxy Statement for the Annual Meeting of Stockholders, which provides further details on these topics.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This section provides information about the fees and services of the principal independent registered public accounting firm. It indicates that detailed information can be found under the caption \"Proposal Two: Ratification of Appointment of Independent Registered Public Accounting Firm\" in the Proxy Statement for the Annual Meeting of Stockholders. Readers can learn about the specific accounting fees charged and the nature of the services provided by the accounting firm.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 15. Exhibits, Financial Statement Schedules",
+      "level": 1,
+      "start_page": 38,
+      "end_page": 73,
+      "summary": "This section outlines the exhibits and financial statement schedules included in Netflix's Annual Report on Form 10-K. It specifies that the financial statements are detailed in Item 8 and that certain financial statement schedules are omitted as they are not applicable or are included in the financial statements. Additionally, it provides an index to the financial statements, including the report of the independent auditor, consolidated statements of operations, comprehensive income, cash flows, balance sheets, and stockholders' equity. The section also includes notes to the consolidated financial statements, which cover significant accounting policies, revenue recognition, and other financial details relevant to stakeholders.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

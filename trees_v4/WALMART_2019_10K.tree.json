@@ -1,0 +1,251 @@
+{
+  "node_id": "root",
+  "title": "WALMART_2019_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 155,
+  "summary": "This section of Walmart Inc.'s Form 10-K for the fiscal year ending January 31, 2019, provides a comprehensive overview of the company's business operations, risk factors, financial performance, and governance. It details Walmart's global retail and eCommerce services, financial data, and legal proceedings, while also addressing market risks and internal controls. The document includes insights into executive compensation, stockholder matters, and corporate governance practices, along with a summary of significant financial statements and disclosures. Additionally, it outlines the company's commitment to ethical standards and compliance with SEC regulations.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Walmart Inc. Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 6,
+      "summary": "This section contains the front matter of Walmart Inc.'s Form 10-K for the fiscal year ending January 31, 2019. It includes essential company information such as the registrant's name, address, and IRS identification number, as well as details about its securities registered with the SEC. The section also outlines the company's compliance with filing requirements and provides a cautionary statement regarding forward-looking statements, highlighting various risks and uncertainties that could impact future performance. Additionally, it lists the table of contents for the report, indicating the structure and key topics covered in subsequent sections.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 7,
+      "end_page": 14,
+      "summary": "Walmart Inc. operates globally, providing retail and eCommerce services to nearly 275 million customers weekly across over 11,300 stores in 27 countries. The company focuses on a customer-centric strategy that emphasizes price leadership through its everyday low prices (EDLP) and everyday low costs (EDLC). Walmart's operations are divided into three segments: Walmart U.S., Walmart International, and Sam's Club, with Walmart U.S. being the largest, generating $331.7 billion in net sales for fiscal 2019. The section details Walmart's historical development, including its expansion into eCommerce and international markets, and outlines the competitive landscape and operational strategies for each segment, including merchandise offerings and distribution methods.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 15,
+      "end_page": 22,
+      "summary": "This section outlines various risk factors that could significantly impact Walmart's business, financial performance, and operational results. Key risks include macroeconomic factors such as inflation, unemployment, and changes in consumer spending, which could affect demand for products. The company faces intense competition from other retailers, necessitating effective responses to market changes and consumer preferences. Operational risks include potential disruptions from natural disasters, geopolitical events, and cybersecurity threats that could compromise information systems and customer data. Additionally, challenges related to supplier reliability and pharmacy operations are highlighted, emphasizing the importance of maintaining safety standards and managing reimbursement rates.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 23,
+      "end_page": 23,
+      "summary": "This section states that there are no unresolved staff comments related to the company's filings. It indicates that the company has addressed all inquiries or issues raised by regulatory staff, suggesting compliance with reporting requirements. The absence of unresolved comments may reflect positively on the company's governance and regulatory standing. Readers can infer that the company is in good standing with regulatory bodies regarding its disclosures.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 25,
+      "summary": "This section details the properties of Walmart's U.S. and International segments as of January 31, 2019. It provides a comprehensive breakdown of unit counts by format for Walmart U.S. and Sam's Club across various states, totaling 5,368 retail units. Additionally, it outlines the international operations, listing unit counts by geographic market, with a total of 5,993 units. The section also includes specifics on owned and leased properties, detailing the distribution facilities and retail units in both U.S. and international markets, totaling 11,766 properties. Readers can learn about the scale and distribution of Walmart's operations across different regions and formats.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This section outlines various legal proceedings involving the Company, including significant lawsuits such as the ASDA Equal Value Claims and the National Prescription Opiate Litigation. It details the nature of these cases, the courts involved, and the dates they were filed. Additionally, it discusses a securities class action lawsuit related to alleged violations of the U.S. Foreign Corrupt Practices Act, including the proposed settlement amount of $160 million. The section also addresses environmental matters, including penalties from the EPA and a fine imposed in Mexico, indicating the Company's cooperation and challenges regarding these issues.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 27,
+      "end_page": 27,
+      "summary": "This section addresses mine safety disclosures, stating that they are not applicable to the Company. It also includes information about two legal matters: one involving the California Air Resources Board's claim regarding unclaimed deposits from automotive refrigerant sales, where the Company is accused of retaining $4.2 million improperly; and another concerning a subsidiary in Costa Rica facing a $380,000 penalty related to a retaining wall construction, which the Municipality claims is non-conforming despite prior permits being obtained.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This section provides an overview of Walmart's common stock market, including its listing on the New York Stock Exchange under the symbol 'WMT'. As of March 26, 2019, there were 223,968 holders of record for Walmart's common stock. It includes a stock performance chart comparing Walmart's cumulative total shareholder return over five fiscal years to the S&P 500 Retailing Index and the S&P 500 Index, illustrating investment growth since February 1, 2014. Additionally, it details the company's share repurchase activities, noting a $20.0 billion program authorized in October 2017, with $11.3 billion remaining for future repurchases as of January 31, 2019.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Selected Financial Data",
+      "level": 1,
+      "start_page": 29,
+      "end_page": 29,
+      "summary": "This section provides a detailed overview of Walmart Inc.'s selected financial data for the fiscal years ended January 31 from 2015 to 2019. Key metrics include total revenues, net sales, gross profit margin, operating income, and diluted income per share, highlighting trends such as a 2.8% increase in total revenues from the previous year. It also outlines share repurchase activity, detailing the number of shares repurchased each month in the quarter ended January 31, 2019, along with the average price paid and the remaining dollar value of shares available for repurchase. Additionally, it presents inventory levels, total assets, long-term debt, and unit counts across various segments, providing a comprehensive snapshot of Walmart's financial health and operational scale over the five-year period.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 30,
+      "end_page": 42,
+      "summary": "This section provides a detailed analysis of Walmart's financial performance for fiscal years 2019, 2018, and 2017, including revenue growth, operating income, and net income. Key metrics such as comparable store sales, eCommerce contributions, and operating expenses as a percentage of net sales are discussed. The impact of strategic decisions, including acquisitions and divestitures, on financial results is highlighted, along with the effects of currency exchange rates. Additionally, the section outlines Walmart's capital allocation strategy, focusing on investments in eCommerce and technology, and presents metrics for return on assets and free cash flow.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 43,
+      "end_page": 44,
+      "summary": "This section discusses the company's exposure to market risks, including interest rate risk, foreign currency risk, and investment risk. It details the management of interest rate risk through a mix of fixed and variable rate debt and interest rate swaps, highlighting a $110 million potential change in annual interest costs from a 100 basis point shift in rates. The section also covers foreign currency risk, noting a $2.1 billion loss due to currency translation and the use of currency swaps to hedge this risk. Additionally, it addresses the impact of fluctuations in the stock price of JD.com on the company's equity investment, which resulted in a $3.5 billion loss since February 2018.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 45,
+      "end_page": 78,
+      "summary": "This section contains Walmart Inc.'s consolidated financial statements for the fiscal year ended January 31, 2019, including the independent auditor's reports on the financial statements and internal controls. Key financial documents include the consolidated statements of income, comprehensive income, balance sheets, statements of shareholders' equity, and cash flows, detailing revenues, expenses, net income, and cash flow activities. The notes to the financial statements provide significant accounting policies, including the adoption of new accounting standards and the principles of consolidation. Readers can learn about Walmart's financial performance, asset management, and compliance with U.S. GAAP.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 79,
+      "end_page": 79,
+      "summary": "This section provides a detailed breakdown of total revenues and long-lived assets for the Company's U.S. and non-U.S. operations over the fiscal years 2017 to 2019. It highlights that total revenues increased from $485.9 million in 2017 to $514.4 million in 2019, with U.S. operations contributing the majority. The section also disaggregates revenues by merchandise category for Walmart U.S. and by market for Walmart International, revealing significant eCommerce sales figures. Notably, no individual country outside the U.S. contributed materially to total revenues or long-lived assets, and no single customer generated material revenues for the Company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 79,
+      "end_page": 79,
+      "summary": "This section provides a detailed breakdown of total revenues and long-lived assets for the Company's U.S. and non-U.S. operations over the fiscal years 2017 to 2019. It highlights that total revenues increased from $485.9 billion in 2017 to $514.4 billion in 2019, with U.S. operations contributing the majority. The section also disaggregates revenues by merchandise category for Walmart U.S. and by market for Walmart International, revealing significant eCommerce sales figures, such as $15.7 billion for Walmart U.S. and $6.7 billion for International in fiscal 2019. Additionally, it notes that no individual country outside the U.S. had material revenues or long-lived assets, and no single customer generated material revenues for the Company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 80,
+      "end_page": 80,
+      "summary": "This section provides information on subsequent events, specifically the declaration of an annual dividend of $2.12 per share by the Board of Directors, effective February 19, 2019, which represents an increase from the previous year's dividend. It outlines the payment schedule for the fiscal 2020 dividend, detailing the record and payable dates for each quarterly installment. Additionally, the section includes unaudited quarterly financial data for the fiscal years ended January 31, 2019, and January 31, 2018, presenting total revenues, net sales, cost of sales, and consolidated net income for each quarter, along with earnings per share figures.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 81,
+      "end_page": 81,
+      "summary": "This section outlines the responsibilities of management regarding the preparation and integrity of Walmart Inc.'s Consolidated Financial Statements, emphasizing adherence to generally accepted accounting principles. It details the role of the Audit Committee in overseeing financial reporting and auditing processes, including the engagement of Ernst & Young LLP as the independent auditor. The section also discusses the company's disclosure controls and procedures, highlighting their design to ensure timely communication of required information to management. Additionally, it mentions ongoing improvements to internal controls and the evaluation of their effectiveness by the Chief Executive Officer and Chief Financial Officer.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 81,
+      "end_page": 81,
+      "summary": "This section outlines the responsibilities of management regarding the preparation and integrity of Walmart Inc.'s Consolidated Financial Statements, which comply with U.S. generally accepted accounting principles. It details the oversight role of the Audit Committee, which includes regular reviews of financial policies, auditor independence, and internal controls. The section also mentions the retention of Ernst & Young LLP for auditing and the filing of required certifications with the SEC and the New York Stock Exchange. Additionally, it discusses the evaluation of disclosure controls and procedures, emphasizing their effectiveness in ensuring timely and accurate financial reporting.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 81,
+      "end_page": 81,
+      "summary": "This section outlines the security ownership of certain beneficial owners and management at Walmart Inc., detailing the percentage of shares held by key stakeholders. It provides insights into the voting power and financial interests of these individuals and entities, which can influence corporate governance and decision-making. Additionally, it discusses related stockholder matters, including any potential conflicts of interest and the alignment of management's interests with those of shareholders. The information is crucial for investors assessing the company's governance structure and ownership dynamics.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 81,
+      "end_page": 81,
+      "summary": "This section outlines the responsibilities of management regarding the preparation and integrity of Walmart Inc.'s Consolidated Financial Statements, emphasizing adherence to generally accepted accounting principles. It details the role of the Audit Committee in overseeing financial reporting and auditing processes, including the engagement of Ernst & Young LLP as the independent auditor. The section also discusses the evaluation of disclosure controls and procedures, highlighting management's assessment of their effectiveness in ensuring timely and accurate financial disclosures. Additionally, it mentions ongoing improvements to internal controls and the impact of outsourcing certain accounting activities on the control environment.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 81,
+      "end_page": 81,
+      "summary": "This section outlines the responsibilities of management and the Audit Committee regarding Walmart Inc.'s financial reporting and internal controls. It details the engagement of Ernst & Young LLP as the independent auditor for the Consolidated Financial Statements and mentions the availability of financial records for the audit. The section also discusses the evaluation of disclosure controls and procedures, emphasizing their design to ensure timely communication of required information to management. Additionally, it notes ongoing improvements to internal controls and the effectiveness of these controls as assessed by the Chief Executive Officer and Chief Financial Officer.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 15. Exhibits, Financial Statement Schedules",
+      "level": 1,
+      "start_page": 82,
+      "end_page": 82,
+      "summary": "This section discusses Walmart's internal control over financial reporting, emphasizing management's responsibility to maintain effective controls as of January 31, 2019. It details the assessment process based on COSO criteria, concluding that Walmart's controls were effective, with an audit conducted by Ernst & Young LLP. The section also notes the exclusion of Flipkart from the initial assessment due to SEC guidelines, while providing specific figures regarding its impact on total assets and net sales. Additionally, it outlines Walmart's commitment to ethical standards, including an 'Open Door' policy for communication, a Statement of Ethics for associates, and a Related-Party Transaction Policy for senior officers and directors.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 82,
+      "end_page": 82,
+      "summary": "This section outlines Walmart's internal control over financial reporting, detailing management's responsibility for establishing and maintaining these controls to ensure reliable financial reporting. As of January 31, 2019, management assessed the effectiveness of these controls, concluding they were effective, with an audit conducted by Ernst & Young LLP. The assessment excluded the recently acquired Flipkart, which represented a small percentage of total assets and net sales. Additionally, the section discusses Walmart's commitment to ethical standards, including an 'Open Door' policy for communication, a Statement of Ethics for associates, and a Code of Ethics for senior financial officers, along with mechanisms for reporting ethical concerns.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Signatures",
+      "level": 1,
+      "start_page": 83,
+      "end_page": 84,
+      "summary": "This section provides an overview of corporate governance, including details about the company's directors, executive officers, and compliance with SEC regulations. It references the Proxy Statement for information on director nominations, executive compensation, and stock ownership. Additionally, it discusses the Audit Committee, Codes of Ethics, and the processes for related transactions and director independence. The section also outlines the filing of financial statements and exhibits as part of the Annual Report on Form 10-K.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p23",
+      "title": "Exhibit Index",
+      "level": 1,
+      "start_page": 85,
+      "end_page": 155,
+      "summary": "The Exhibit Index section provides a comprehensive list of exhibits filed or incorporated by reference in Walmart Inc.'s Form 10-K for the fiscal year ended January 31, 2019. It includes key documents such as the Restated Certificate of Incorporation, Amended and Restated Bylaws, various indentures related to long-term debt, and multiple compensation plans for executives. Readers can learn about the specific legal and financial documents that support the company's reporting, including details on executive compensation plans and agreements related to mergers and acquisitions. Additionally, the section outlines the availability of these documents for public review through the SEC's EDGAR system.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "node_id": "root",
+  "title": "PAYPAL_2022_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 134,
+  "summary": "The PayPal 2022 Form 10-K section provides a comprehensive overview of the company's business operations, financial performance, and compliance with regulatory requirements for the fiscal year ending December 31, 2022. It includes details on PayPal's payment solutions, risk factors, properties, legal proceedings, and market for its common equity. The section also covers management's discussion and analysis of financial results, including revenue growth and challenges faced, as well as disclosures related to executive compensation, director independence, and accounting fees. Additionally, it highlights the effectiveness of internal controls and includes financial statements audited by an independent auditor, affirming the company's financial governance and compliance with the Sarbanes-Oxley Act.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "PayPal 2022 Form 10-K Front Matter",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 3,
+      "summary": "This section includes the front matter of PayPal Holdings, Inc.'s Form 10-K for the fiscal year ending December 31, 2022. It provides essential company information such as the registrant's name, jurisdiction of incorporation, and contact details. The section confirms PayPal's status as a well-known seasoned issuer and outlines its compliance with filing requirements under the Securities Exchange Act. Additionally, it includes the market value of common stock held by non-affiliates and the number of shares outstanding as of February 3, 2023. The table of contents outlines the structure of the report, detailing various items covered in subsequent sections.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 4,
+      "end_page": 16,
+      "summary": "This section provides an overview of PayPal Holdings, Inc., detailing its incorporation, mission to democratize financial services, and commitment to improving financial health globally. It outlines the company's payment solutions, which facilitate transactions for 435 million active accounts across over 200 markets, and describes its revenue generation methods, including transaction fees and value-added services. Key performance metrics such as total payment volume and active accounts are defined, alongside the company's competitive strengths, including its two-sided network and trusted brand reputation. The section also discusses PayPal's strategies for growth, including expanding its value proposition for merchants and consumers, forming strategic partnerships, and managing ESG risks and opportunities.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 30,
+      "summary": "This section outlines various risk factors that could adversely affect the company's business, financial condition, and stock price. Key risks include cybersecurity threats, such as data breaches and system failures, which could lead to significant financial losses and reputational damage. The company also faces legal and regulatory risks due to complex and evolving laws governing its operations, including those related to payments, consumer protection, and anti-money laundering. Additionally, the section discusses the challenges posed by rapid technological changes and the potential impact of regulatory scrutiny on the company's ability to innovate and expand its services.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "This section indicates that there are no unresolved staff comments regarding the company's operations or compliance. It highlights the challenges the company faces in attracting and retaining skilled employees, particularly in technology roles, due to intense competition and potential immigration restrictions. Additionally, it addresses risks related to information disseminated through its services, including potential legal claims and the need for effective measures to mitigate these risks. The section emphasizes the importance of maintaining a skilled workforce and the implications of legal liabilities on business operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "This section details the company's properties, including both owned and leased facilities in the United States and other countries. As of December 31, 2022, the company has a total of 5.3 million square feet across 106 acres of land, with 85 acres located in the U.S. The breakdown includes 1.1 million square feet of owned facilities and 4.2 million square feet of leased facilities. The corporate headquarters is situated in San Jose, California, occupying approximately 0.7 million square feet.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 32,
+      "end_page": 32,
+      "summary": "This section references the legal proceedings related to the company, specifically incorporating information from 'Note 13—Commitments and Contingencies—Litigation and Regulatory Matters' found in the consolidated financial statements. Readers can learn about ongoing litigation and regulatory issues that may impact the company's financial position or operations. The section serves to inform stakeholders of potential legal risks and obligations the company faces.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 32,
+      "end_page": 32,
+      "summary": "This section indicates that the Mine Safety Disclosures are not applicable for the reporting period. It does not provide any specific information or data regarding mine safety or related regulatory matters. Readers will learn that the company has no relevant disclosures to report under this item for the current filing.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters, and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 32,
+      "end_page": 32,
+      "summary": "This section provides an overview of PayPal's common stock, including its listing on the NASDAQ under the ticker symbol 'PYPL' and the number of record holders as of February 3, 2023. It outlines the company's dividend policy, stating that no cash dividends have been paid and none are anticipated in the near future. Additionally, it details the stock repurchase programs authorized by the Board of Directors, including a $10 billion program initiated in July 2018 and a $15 billion program authorized in June 2022, aimed at offsetting dilution and potentially reducing the outstanding share count. The section also summarizes stock repurchase activity for the three months ending December 31, 2022, including the number of shares purchased and the average price paid per share.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Removed and Reserved",
+      "level": 1,
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "Item 6, titled 'Removed and Reserved', indicates that no specific information is provided in this section of the Form 10-K. It serves as a placeholder, suggesting that the subsequent section, Item 7, will cover Management’s Discussion and Analysis of Financial Condition and Results of Operations. Readers should refer to Item 7 for insights into the company's financial performance and strategic outlook.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 33,
+      "end_page": 52,
+      "summary": "This section provides a comprehensive analysis of PayPal's financial condition and operational results for 2022 compared to 2021. Key topics include the impact of macroeconomic factors, regulatory changes, and security risks on the business. Financial highlights show an 8% increase in net revenues to $27.5 billion, driven by a 9% growth in total payment volume (TPV). However, operating income decreased by 10% due to rising operating expenses, leading to a 42% drop in net income. The section also discusses the effects of foreign currency exchange rates and outlines key performance metrics such as transaction revenues and active accounts, which increased to 435 million in 2022, reflecting a 2% growth from the previous year.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 53,
+      "end_page": 54,
+      "summary": "This section discusses market risk, specifically the potential economic losses from adverse changes in interest rates, foreign currency exchange rates, and equity investment risk. It outlines management's policies for mitigating these risks and ongoing monitoring of exposures. The section details interest rate risk, highlighting the impact of interest rate fluctuations on the company's investment portfolio and customer balances, including potential decreases in fair value. Additionally, it addresses foreign currency exchange rate risk, noting the company's international operations and the effects of currency fluctuations on financial results, with a focus on the implications of a strengthening U.S. dollar.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 55,
+      "end_page": 55,
+      "summary": "This section outlines the company's foreign currency exchange exposure management program, which aims to mitigate the effects of currency fluctuations on cash flows and operations through foreign currency exchange contracts. It details the use of forward contracts as cash flow hedges and net investment hedges, including their accounting treatment and potential impacts on accumulated other comprehensive income (AOCI). The section also discusses the financial implications of hypothetical adverse changes in exchange rates on income before taxes for the years ending December 31, 2022, and 2021. Additionally, it addresses the risks associated with strategic investments, including market-related risks and the potential volatility in net income due to changes in the fair value of these investments, with specific figures provided for carrying values and hypothetical adverse changes.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 56,
+      "end_page": 56,
+      "summary": "This section reports that there are no changes or disagreements with accountants regarding accounting and financial disclosure. It indicates a clean slate in terms of auditor relationships, suggesting stability in financial reporting practices. Readers can learn that the company has not faced any significant issues with its accountants during the reporting period, which may reflect positively on its financial governance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 56,
+      "end_page": 56,
+      "summary": "This section discusses the evaluation of disclosure controls and procedures, confirming their effectiveness as of December 31, 2022, by the principal executive and financial officers. It details management's responsibility for internal control over financial reporting, which was also deemed effective based on the 2013 COSO framework. Additionally, it notes that PricewaterhouseCoopers LLP audited the internal control effectiveness. Importantly, there were no changes in internal controls over financial reporting during the last fiscal quarter that could materially affect them.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 56,
+      "end_page": 56,
+      "summary": "This section, Item 9B, states that there is no additional information to report. It confirms that there are no changes or disclosures relevant to the company's operations or financial reporting that need to be communicated to stakeholders. Readers can learn that the company has not identified any significant issues or updates that would require disclosure in this section.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections",
+      "level": 1,
+      "start_page": 56,
+      "end_page": 56,
+      "summary": "This section states that there are no disclosures regarding foreign jurisdictions that prevent inspections. It indicates compliance with regulations concerning foreign operations and the ability to conduct audits. The absence of such disclosures suggests that the company is not facing any restrictions in foreign jurisdictions that would hinder inspection processes.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 56,
+      "end_page": 56,
+      "summary": "This section references the Proxy Statement for the 2023 Annual Meeting of Stockholders, which will be filed with the SEC within 120 days after December 31, 2022. It indicates that details regarding the company's directors, executive officers, and corporate governance practices will be included in that Proxy Statement. Readers can expect to find information about the leadership structure, governance policies, and any relevant changes or updates concerning the company's management and board of directors.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 56,
+      "end_page": 56,
+      "summary": "This section references the Executive Compensation details that will be included in the Proxy Statement for the 2023 Annual Meeting of Stockholders. Readers can expect to find information regarding the compensation packages for executive officers, including salary, bonuses, stock options, and other incentives. The section indicates that this information will be filed with the SEC within 120 days after December 31, 2022, providing a timeline for when the details will be available.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 56,
+      "end_page": 56,
+      "summary": "This section references the security ownership of certain beneficial owners and management, as well as related stockholder matters. It indicates that detailed information will be incorporated by reference from the Proxy Statement for the 2023 Annual Meeting of Stockholders, which will be filed with the SEC within 120 days after December 31, 2022. Readers can expect to find specifics on stock ownership percentages, major shareholders, and any relevant stockholder proposals in the referenced document.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 57,
+      "end_page": 57,
+      "summary": "This section references the Proxy Statement for the 2023 Annual Meeting of Stockholders, which will be filed with the SEC within 120 days after December 31, 2022. It addresses certain relationships and related transactions involving the company, as well as the independence of its directors. Readers can expect to find disclosures regarding any potential conflicts of interest and the criteria used to determine director independence.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 57,
+      "end_page": 57,
+      "summary": "This section references the principal accounting fees and services, indicating that detailed information will be provided in the Proxy Statement for the 2023 Annual Meeting of Stockholders. It highlights the importance of transparency regarding accounting fees and the services rendered by the auditors. Readers can expect to find specifics about the costs associated with these services and the nature of the services provided, which are crucial for understanding the company's financial governance and compliance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 15. Exhibits, Financial Statement Schedules",
+      "level": 1,
+      "start_page": 58,
+      "end_page": 125,
+      "summary": "Item 15 includes the consolidated financial statements of PayPal Holdings, Inc. for the years ended December 31, 2022, 2021, and 2020, detailing the company's financial position, results of operations, and cash flows. It features the report of the independent auditor, which confirms the fairness of the financial statements and the effectiveness of internal controls over financial reporting. The section also provides a financial statement schedule, specifically Schedule II for valuation and qualifying accounts, and an index of exhibits required by Regulation S-K. Readers can learn about the company's assets, liabilities, equity, income, and cash flow details, as well as significant accounting policies and changes in accounting principles affecting the financial statements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 126,
+      "end_page": 134,
+      "summary": "Item 16 of the Form 10-K provides a summary of the report, including signatures from key executives such as Daniel H. Schulman and Gabrielle Rabinovitch, certifying the accuracy of the financial statements and internal controls. It lists subsidiaries of PayPal Holdings, Inc. across various jurisdictions, highlighting its global presence. Additionally, it includes certifications required by the Sarbanes-Oxley Act, affirming compliance with financial reporting standards and the integrity of the financial information presented. This section serves to validate the report's authenticity and adherence to regulatory requirements.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

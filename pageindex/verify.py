@@ -4,12 +4,20 @@ If a leaf's title does NOT appear on its declared start_page, repair by searchin
 the pages between the nearest CORRECT leaves before and after it, and snap
 start_page to the first page where the title is found. Repeat until the tree
 stops improving or 100% is reached. Revert any iteration that drops accuracy.
+
+Front-matter leaves (source "preface" / node_id "f*") carry conventional titles
+("preface", "toc") rather than text drawn from a page, so they auto-pass the
+string check. Leaves that string-fail after repair are forwarded to an LLM
+verifier (when an LLM client is supplied) that knows about the common PDF
+extraction artifacts ("Incom e", scattered year columns in table headers).
 """
 import re
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Set
 
 from .builder import assign_end_pages
+from .llm import LLMClient
 from .pdf_utils import PDFDocument
+from .prompts import VERIFY_TITLE_SYS, verify_title_user
 from .tree import Node, iter_post_order
 
 
@@ -38,19 +46,31 @@ def _ordered_leaves(root: Node) -> List[Node]:
     return leaves
 
 
+def _is_front_matter(node: Node) -> bool:
+    """Front-matter leaves (preface, TOC) carry conventional titles, not text
+    pulled from a page, so any string-vs-page check is meaningless for them.
+    Detect via `source` (fresh builds) or the "f" id prefix (loaded trees).
+    """
+    return node.source in ("preface", "toc", "front_matter") \
+        or node.node_id.startswith("f")
+
+
 def verify_leaves(root: Node, pdf: PDFDocument) -> Dict:
     """Classify every leaf as correct / wrong / skipped.
 
     A leaf is `correct` if its title (normalized, first 40 chars) appears on
     `start_page`, `wrong` if not, and `skipped` if its normalized title is too
     short to be a reliable search needle. Skipped leaves are excluded from the
-    accuracy denominator.
+    accuracy denominator. Front-matter leaves auto-pass (conventional titles).
     """
     leaves = _ordered_leaves(root)
     correct: List[Node] = []
     wrong: List[Node] = []
     skipped: List[Node] = []
     for leaf in leaves:
+        if _is_front_matter(leaf):
+            correct.append(leaf)
+            continue
         needle = _make_needle(leaf.title)
         if needle is None:
             skipped.append(leaf)
@@ -141,6 +161,7 @@ def repair_leaves(root: Node, pdf: PDFDocument, verification: Dict,
 _DROP_TOLERANCE = 0.02     # drops up to this are "fluctuation" -> revert+retry once
 _STALL_AFTER_ITERS = 5     # after this many iters, require >= _STALL_MIN_GAIN improvement
 _STALL_MIN_GAIN = 0.05     # otherwise stop
+_LLM_VERIFY_MAX_PAGE_CHARS = 8000   # cap page text sent to the LLM verifier
 
 
 def _set_accurate_flags(root: Node, correct_ids: set, skipped_ids: set) -> None:
@@ -157,7 +178,51 @@ def _set_accurate_flags(root: Node, correct_ids: set, skipped_ids: set) -> None:
             node.accurate = all(c.accurate for c in node.children)
 
 
-def verify_and_repair(root: Node, pdf: PDFDocument, max_iters: int = 10,
+def _llm_verify_wrong(wrong: List[Node], pdf: PDFDocument, llm: LLMClient,
+                      verbose: bool = True) -> Set[int]:
+    """Ask the LLM whether each remaining wrong leaf's title appears on its page.
+
+    Returns the set of leaf ids the LLM approves. The LLM prompt explicitly
+    teaches the model about the artifacts the string match cannot handle
+    (whitespace splits inside words, scattered year columns in table headers).
+    Network/parse errors leave the leaf classified as wrong.
+    """
+    approved: Set[int] = set()
+    for leaf in wrong:
+        text = pdf.page_text(leaf.start_page)
+        if not text.strip():
+            continue
+        if len(text) > _LLM_VERIFY_MAX_PAGE_CHARS:
+            text = text[:_LLM_VERIFY_MAX_PAGE_CHARS] + "\n...[truncated]..."
+        try:
+            result = llm.complete_json(
+                VERIFY_TITLE_SYS,
+                verify_title_user(leaf.title, leaf.start_page, text),
+                max_tokens=400,
+            )
+        except Exception as err:  # noqa: BLE001 - keep verifying remaining leaves
+            if verbose:
+                print(f"[llm_verify] error on '{leaf.title[:50]}': {err}")
+            continue
+        match = ""
+        reason = ""
+        if isinstance(result, dict):
+            match = str(result.get("match", "")).strip().lower()
+            reason = str(result.get("reason", "")).strip()
+        preview = leaf.title[:60]
+        if match == "yes":
+            approved.add(id(leaf))
+            if verbose:
+                print(f"[llm_verify] ACCEPT '{preview}' on p.{leaf.start_page}"
+                      + (f" ({reason})" if reason else ""))
+        elif verbose:
+            print(f"[llm_verify] REJECT '{preview}' on p.{leaf.start_page}"
+                  + (f" ({reason})" if reason else ""))
+    return approved
+
+
+def verify_and_repair(root: Node, pdf: PDFDocument,
+                      llm: Optional[LLMClient] = None, max_iters: int = 10,
                       verbose: bool = True) -> Dict:
     """Verify, then loop repair/re-verify until 100%, stall, or sustained drop.
 
@@ -171,6 +236,10 @@ def verify_and_repair(root: Node, pdf: PDFDocument, max_iters: int = 10,
 
     On a single small drop (<= 2%), revert to the best snapshot and retry one
     more time before giving up. The tree is always left at the best state seen.
+
+    When `llm` is supplied, any leaves still classified `wrong` after the repair
+    loop are forwarded to an LLM verifier that tolerates PDF-extraction
+    artifacts (split words, scattered year columns) the string match cannot.
 
     Status values: `success` (100%), `acceptable` (>=60%), `below_60` (<60%).
     """
@@ -257,9 +326,21 @@ def verify_and_repair(root: Node, pdf: PDFDocument, max_iters: int = 10,
     v_final = verify_leaves(root, pdf)
     correct_ids = {id(n) for n in v_final["correct"]}
     skipped_ids = {id(n) for n in v_final["skipped"]}
+
+    llm_approved: Set[int] = set()
+    if llm is not None and v_final["wrong"]:
+        if verbose:
+            print(f"[llm_verify] checking {len(v_final['wrong'])} leaves the "
+                  f"string match could not confirm")
+        llm_approved = _llm_verify_wrong(v_final["wrong"], pdf, llm, verbose=verbose)
+        correct_ids |= llm_approved
+
     _set_accurate_flags(root, correct_ids, skipped_ids)
 
-    final_acc = v_final["accuracy"]
+    if v_final["verifiable"]:
+        final_acc = (len(v_final["correct"]) + len(llm_approved)) / v_final["verifiable"]
+    else:
+        final_acc = 1.0
     if final_acc >= 1.0:
         status = "success"
     elif final_acc >= 0.60:

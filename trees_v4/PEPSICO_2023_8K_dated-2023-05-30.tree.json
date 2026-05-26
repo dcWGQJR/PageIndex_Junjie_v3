@@ -1,0 +1,661 @@
+{
+  "node_id": "root",
+  "title": "PEPSICO_2023_8K_dated-2023-05-30.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 172,
+  "summary": "This section of PepsiCo's Form 8-K filing details the company's recent credit agreements, including the termination of a $3.8 billion revolving credit agreement and the establishment of two new $4.2 billion credit agreements. It defines key terms, outlines borrowing procedures, and specifies conditions for advances, repayments, and fees. The section also addresses legal compliance, representations and warranties, covenants, events of default, and the roles of the Agent and Lenders. Additionally, it includes provisions for guarantees, indemnification, and the handling of erroneous payments, ensuring clarity in the financial obligations and rights of all parties involved.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "PepsiCo's Recent Credit Agreements and Securities Registration",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 8,
+      "summary": "This section provides the front matter for PepsiCo's Form 8-K filing, detailing the company's recent financial agreements. It includes the termination of a $3.8 billion revolving credit agreement and the establishment of two new credit agreements: a $4.2 billion 364-day and a $4.2 billion five-year unsecured revolving credit agreement, both effective May 26, 2023. The section outlines the terms, conditions, and purposes of these agreements, including borrowing limits and potential increases. Additionally, it lists the securities registered under the Securities Exchange Act and includes signatures from company officials.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Section 1.01. Certain Defined Terms",
+      "level": 1,
+      "start_page": 9,
+      "end_page": 20,
+      "summary": "Section 1.01 defines key terms used throughout the 364-Day Credit Agreement, including financial concepts such as 'Adjusted Term SOFR', 'Base Rate', and 'Advance'. It clarifies the roles of various parties, such as the 'Agent' and 'Lenders', and outlines definitions related to borrowing, interest rates, and legal compliance. The section also specifies terms related to financial instruments, obligations, and conditions that affect the lending process. Readers can learn about the specific meanings of terms that will be referenced in the agreement, which is crucial for understanding the contractual obligations and rights of the parties involved.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Section 1.02. Computation of Time Periods",
+      "level": 1,
+      "start_page": 21,
+      "end_page": 21,
+      "summary": "This section defines how to compute time periods within the agreement. It specifies that the term \"from\" includes the starting date, while \"to\" and \"until\" exclude the ending date. This clarification is essential for understanding deadlines and time-sensitive obligations outlined in the agreement. The section ensures that all parties interpret timeframes consistently, which is crucial for compliance and legal clarity.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Section 1.03. Accounting Terms",
+      "level": 1,
+      "start_page": 21,
+      "end_page": 21,
+      "summary": "This section defines the treatment of accounting terms not explicitly defined within the document, stating that they should be interpreted according to Generally Accepted Accounting Principles (GAAP) in the United States. It emphasizes consistency with the financial statements mentioned in Section 4.01(e). Readers can learn about the reliance on GAAP for understanding accounting terminology used throughout the agreement.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Section 1.04. Divisions",
+      "level": 1,
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This section outlines the treatment of assets, rights, obligations, and liabilities during a division or plan of division under Delaware law or similar laws in other jurisdictions. It specifies that if any asset or liability is transferred from one person to another, it is considered a transfer for all purposes under the Loan Documents. This ensures clarity in the legal handling of such transfers, which may impact the rights and responsibilities of the parties involved in the loan agreement.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Section 1.05. Rates",
+      "level": 1,
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "Section 1.05 outlines the Agent's lack of responsibility and liability regarding various interest rates and benchmarks, including the Base Rate, Term SOFR, and EURIBO Rate. It specifies that the Agent does not guarantee the continuation or accuracy of these rates or any successor rates, nor their economic equivalence. Additionally, the section highlights that the Agent may engage in transactions that could adversely affect these rates and that it has discretion in selecting information sources for rate calculations. Importantly, the Agent is not liable for any damages resulting from errors in rate calculations provided by these sources.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Section 2.01. The Advances",
+      "level": 1,
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "Section 2.01 outlines the terms under which Lenders agree to provide Advances to the Company and its Borrowing Subsidiaries in either Dollars or Euros. It specifies that the total amount of Advances cannot exceed each Lender's Commitment and must be made in minimum amounts defined as the Borrowing Minimum or in multiples of the Borrowing Multiple. Additionally, it states that all Advances must be of the same Type and currency, and that Borrowers can borrow, prepay, and reborrow within the limits of their Commitments.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Section 2.02. Making the Advances",
+      "level": 1,
+      "start_page": 23,
+      "end_page": 23,
+      "summary": "Section 2.02 outlines the procedures for making Borrowings, including the required notice times for different types of Advances: Term SOFR, Eurocurrency Rate, and Base Rate. It specifies that the Company must provide a Notice of Borrowing detailing the date, type, amount, currency, interest period, and relevant Borrower. Lenders must make their portion of the Borrowing available by a specified time, and the Agent will then disburse the funds to the Borrower. Additionally, it states conditions under which Term SOFR and Eurocurrency Rate Advances cannot be selected, and emphasizes the irrevocability of the Notice of Borrowing, along with the Company's indemnification obligations for any related losses incurred by Lenders due to non-fulfillment of conditions.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Section 2.04. Fees",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "Section 2.04 outlines the fees associated with the loan agreement, specifically detailing the commitment fee and agent's fees. The Company is required to pay a commitment fee of 0.025% on the unused portion of each Lender's commitment, calculated daily and payable quarterly. Additionally, the Company must pay the Agent fees as mutually agreed upon. This section establishes the financial obligations of the Company towards the Lenders and the Agent, ensuring clarity on fee structures and payment schedules.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Section 2.05. Termination, Reduction or Increase of Commitments",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 26,
+      "summary": "Section 2.05 outlines the procedures for the termination, reduction, or increase of lender commitments. The Company can terminate or reduce unused commitments with three business days' notice, ensuring reductions are in specified increments and do not fall below outstanding advances. It also details the Company's rights to terminate a defaulting lender's commitment and the process for increasing commitments, including requirements for new lenders and existing lenders to commit to increases. The section specifies conditions for increases, including the necessity of no defaults and limits on total commitments.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Section 2.06. Repayment of Advances; Extension of Termination Date",
+      "level": 1,
+      "start_page": 27,
+      "end_page": 27,
+      "summary": "This section outlines the repayment obligations of Borrowers to the Agent and Lenders on the Termination Date, including the principal amount of Advances and accrued interest. It details the process for the Company to elect a Term Loan Conversion, allowing outstanding Advances to be converted into a term loan, subject to specific conditions. Additionally, it describes the procedure for extending the Termination Date by 364 days, including the roles of Extending and Declining Lenders, and the requirements for replacing Declining Lenders with Eligible Assignees. The section emphasizes the need for written notice and compliance with certain conditions for both repayment and extension requests.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Section 2.07. Interest on Advances",
+      "level": 1,
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This section outlines the interest payment obligations for Borrowers on Advances from Lenders, specifying different rates based on the type of Advance: Base Rate, Term SOFR, and Eurocurrency Rate. For Base Rate Advances, interest is calculated based on the current Base Rate and paid quarterly. Term SOFR and Eurocurrency Rate Advances have interest rates tied to their respective benchmarks plus a margin of 0.625%, with payments made at the end of each Interest Period. Additionally, it details the Default Rate applicable during an Event of Default, which allows for interest to be charged on demand. The section also describes the process for determining interest rates and the conditions under which Advances may convert to Base Rate Advances due to market disruptions.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Section 2.08. Interest Rate Determination",
+      "level": 1,
+      "start_page": 28,
+      "end_page": 29,
+      "summary": "Section 2.08 outlines the procedures for determining interest rates applicable to various types of advances, including Base Rate, Term SOFR, and Eurocurrency Rate Advances. The Agent is responsible for notifying the Company and Lenders of the applicable interest rates. In cases of market disruption affecting Term SOFR or Eurocurrency Rates, advances may automatically convert to Base Rate Advances. Additionally, if the Company fails to select an Interest Period, a one-month period is deemed selected. The section also details the consequences of an Event of Default on the interest rate determination and the obligations of the Lenders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Section 2.09. Optional Conversion or Continuation of Advances",
+      "level": 1,
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "Section 2.09 outlines the Company's ability to convert or continue advances on any Business Day, provided that notice is given to the Agent by 11:00 A.M. on the third U.S. Government Securities Business Day prior to the desired action. The section specifies the conditions under which conversions can occur, including restrictions on converting Term SOFR Advances to Base Rate Advances and the minimum amounts required for such conversions. Additionally, it mandates that each notice of conversion or continuation must include the date, the specific advances involved, and the duration of the interest period if applicable. The section emphasizes that these notices are irrevocable and binding on the Company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Section 2.10. Prepayments of Advances",
+      "level": 1,
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "Section 2.10 outlines the procedures for prepayments of advances, detailing both optional and mandatory prepayment conditions. The Company can prepay Base Rate Advances with one Business Day's notice and Term SOFR Advances with three Business Days' notice, specifying the amount and date of prepayment. Mandatory prepayments are required if the total outstanding advances exceed 105% of the aggregate commitments, with a five Business Day window to comply. All prepayments must include accrued interest and may require reimbursement to lenders for certain advance types. The section ensures that prepayments are managed within specified limits and timelines to maintain compliance with borrowing agreements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Section 2.11. Increased Costs",
+      "level": 1,
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "Section 2.11 addresses the concept of Increased Costs for lenders due to changes in laws or regulations. It specifies that if a lender incurs higher costs related to making or maintaining Term SOFR Advances or Eurocurrency Rate Advances due to regulatory changes, the company must compensate the lender for these costs upon demand. Additionally, if there is an increase in capital or liquidity requirements for the lender due to such changes, the company is also obligated to pay additional amounts to cover these increases. The section emphasizes the lender's right to provide a certificate detailing the increased costs, which is binding unless there is manifest error.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Section 2.12. Illegality",
+      "level": 1,
+      "start_page": 32,
+      "end_page": 32,
+      "summary": "This section addresses the implications of illegality in the context of lending agreements. It specifies that if a lender notifies the agent that a law or regulation makes it unlawful for them to fulfill their obligations regarding Term SOFR or Eurocurrency Rate Advances, those advances will automatically convert to Base Rate Advances. Additionally, the obligation of lenders to make such advances will be suspended until the agent confirms that the illegality issue has been resolved. This ensures compliance with legal requirements while protecting the interests of both lenders and borrowers.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Section 2.13. Payments and Computations; Evidence of Advances",
+      "level": 1,
+      "start_page": 32,
+      "end_page": 33,
+      "summary": "Section 2.13 outlines the payment procedures and computations related to advances under the agreement. Borrowers must make payments in U.S. dollars or euros by 11:00 A.M. New York City time on the due date, without deductions or offsets. The Agent is responsible for distributing payments to lenders based on their respective accounts. Interest computations are specified for different rates, with the Agent's determinations being conclusive unless there is a manifest error. Additionally, the section addresses the handling of payments due on non-business days and the conversion of currencies for proper distribution of funds.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Section 2.14. Taxes",
+      "level": 1,
+      "start_page": 34,
+      "end_page": 36,
+      "summary": "Section 2.14 outlines the tax obligations and exemptions for Lenders and the Agent under U.S. law. It specifies that U.S. Persons are exempt from withholding taxes on payments received, while Foreign Lenders must provide appropriate IRS forms to certify their tax status. The section details the responsibilities of Borrowers regarding tax deductions, including indemnification for any taxes paid on behalf of Lenders. It also addresses the implications of changes in law affecting tax obligations and the process for claiming refunds on taxes previously indemnified. Additionally, it includes provisions related to FATCA compliance and the overall tax liabilities of the Company and its Subsidiaries.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Section 2.15. Sharing of Payments, Etc.",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "Section 2.15 outlines the process for Lenders to share excess payments received on Advances. If a Lender receives a payment exceeding its share, it must purchase participations from other Lenders to ensure equitable distribution. Should the excess payment be recovered from the purchasing Lender, the purchase is rescinded, and the Lenders must repay the purchasing Lender accordingly. Additionally, a Lender purchasing a participation can exercise rights of payment as if it were the direct creditor of the Borrower for that amount.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Section 2.16. Use of Proceeds",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This section outlines the permitted uses of the proceeds from the Advances, which are designated for general corporate purposes of the Company and its Subsidiaries. Specific uses include working capital, capital investments, and acquisitions. Additionally, it prohibits Borrowers from using the proceeds to fund activities involving individuals or entities on the SDN List or in Sanctioned Countries, unless licensed by OFAC or permissible under U.S. law. This ensures compliance with legal and regulatory requirements regarding sanctions.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Section 2.17. Borrowings by Borrowing Subsidiaries",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 38,
+      "summary": "Section 2.17 outlines the process for designating Subsidiaries as Borrowing Subsidiaries, allowing them to borrow Advances under the agreement. The Company must provide a Designation Letter to the Agent, who will notify the Lenders. If a designated Subsidiary is not U.S.-organized, Lenders may fulfill their commitments through an Affiliate or branch. Protesting Lenders must notify the Company if they cannot lend to the foreign Subsidiary, and the Company must either terminate their commitments or cancel the designation. Additionally, the Company can terminate a Subsidiary's status as a Borrower once all debts are paid, with specific procedures for notification and obligations remaining in effect.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Section 2.18. Benchmark Replacement Setting",
+      "level": 1,
+      "start_page": 39,
+      "end_page": 42,
+      "summary": "Section 2.18 outlines the procedures for replacing benchmarks in loan agreements following a Benchmark Transition Event. It specifies that a Benchmark Replacement will automatically take effect without requiring further consent from parties involved, detailing the conditions under which this occurs. The section also discusses the Agent's authority to implement Conforming Changes and the notification requirements for Benchmark Replacement Dates. Additionally, it defines key terms such as 'Benchmark Replacement,' 'Benchmark Unavailability Period,' and 'Relevant Governmental Body,' providing clarity on the processes and definitions related to benchmark adjustments.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p23",
+      "title": "Section 2.19. Defaulting Lenders",
+      "level": 1,
+      "start_page": 43,
+      "end_page": 43,
+      "summary": "This section outlines the treatment of Defaulting Lenders within the agreement. It specifies that a Defaulting Lender's rights to approve amendments or waivers are limited, and details a payment waterfall for amounts received by the Agent on behalf of the Defaulting Lender. Payments are prioritized to cover the Defaulting Lender's obligations, fund advances, and satisfy any judgments against them, with specific conditions for applying payments to non-defaulting lenders. Additionally, it states that Defaulting Lenders are not entitled to receive Commitment Fees during the period of default.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p24",
+      "title": "Section 3.01. Conditions Precedent to Effectiveness",
+      "level": 1,
+      "start_page": 44,
+      "end_page": 44,
+      "summary": "Section 3.01 outlines the conditions that must be met for the agreement to become effective. Key conditions include the absence of a Material Adverse Change since December 31, 2022, and no pending legal actions that could negatively impact the agreement. Additionally, all necessary governmental and third-party approvals must be obtained, and the Company must pay all accrued fees to the Agent and Lenders. The Company must also provide a certificate confirming the accuracy of representations and the absence of any Defaults. Lastly, the Agent must receive any requested Notes from Lenders prior to the Effective Date.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p25",
+      "title": "Section 3.02. Conditions Precedent to Each Borrowing",
+      "level": 1,
+      "start_page": 45,
+      "end_page": 45,
+      "summary": "This section outlines the conditions that must be met before each borrowing can occur, specifically detailing the requirements for lenders to advance funds. Key prerequisites include certified corporate resolutions, a certificate of authorized signatures, favorable legal opinions, and executed agreements from all parties. Additionally, it mandates compliance with anti-money laundering regulations and the submission of a Beneficial Ownership Certification for qualifying borrowers. The section also requires evidence of the termination of existing credit commitments and full payment of amounts owed under prior agreements, ensuring that all conditions are satisfied before funds are disbursed.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p26",
+      "title": "Section 3.03. Conditions Precedent to Term Loan Conversion Date",
+      "level": 1,
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "Section 3.03 outlines the conditions that must be met for the Term Loan Election and Conversion Date to proceed. It specifies that no default events should be occurring or anticipated as a result of the Term Loan Election. Additionally, it requires the Agent to receive a fee of 0.50% of the total principal amount of Advances outstanding on the Conversion Date. This section ensures that both the Company and the Lenders are protected and that necessary fees are accounted for before the loan conversion can take place.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p27",
+      "title": "Section 3.04. Determinations Under Section 3.01",
+      "level": 1,
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "Section 3.04 outlines the process for determining compliance with conditions specified in Section 3.01 regarding Lender approvals. It states that each Lender is considered to have consented to required documents unless the Agent receives a written objection from the Lender before the proposed Effective Date. The Agent is responsible for notifying both the Lenders and the Company of the Effective Date's occurrence. This section ensures clarity in communication and consent among parties involved in the agreement.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p28",
+      "title": "Section 4.01. Representations and Warranties of the Company",
+      "level": 1,
+      "start_page": 46,
+      "end_page": 47,
+      "summary": "Section 4.01 outlines the representations and warranties made by the Company, confirming its legal status as a corporation in North Carolina and its authority to execute the Agreement and Notes. It asserts that no additional governmental approvals are needed for the Agreement's execution and that the Agreement and Notes will be legally binding. The section includes financial disclosures, stating that the Company's consolidated financial statements for the year ending December 31, 2022, fairly represent its financial condition and operations, with no undisclosed material adverse changes since that date. It also addresses ongoing legal matters, confirming no pending actions that could materially affect the Agreement, and compliance with regulations regarding margin stock and investment company registration.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p29",
+      "title": "Section 5.01. Affirmative Covenants",
+      "level": 1,
+      "start_page": 48,
+      "end_page": 48,
+      "summary": "Section 5.01 outlines the affirmative covenants the Company must adhere to while any advances remain unpaid or commitments exist. Key obligations include compliance with applicable laws, timely payment of taxes and claims, preservation of corporate existence and rights, and specific reporting requirements to the Agent. The Company must ensure compliance with laws such as ERISA and Environmental Laws, maintain its corporate existence, and provide financial statements to the Agent within specified timeframes. Failure to comply with these covenants could result in a Material Adverse Effect.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p30",
+      "title": "Section 5.02. Negative Covenants",
+      "level": 1,
+      "start_page": 49,
+      "end_page": 49,
+      "summary": "Section 5.02 outlines the negative covenants that the Company must adhere to while any Advances remain unpaid or any Lender has a Commitment. It specifically prohibits the creation of secured Debt by the Company or its Restricted Subsidiaries on Principal Property, shares of stock, or Debt of Restricted Subsidiaries unless certain conditions are met, including that such Debt does not exceed 15% of Consolidated Net Tangible Assets. Exceptions to this restriction include existing Liens, Liens on property of newly acquired Restricted Subsidiaries, and certain governmental Liens. The section emphasizes the importance of maintaining financial stability and protecting the interests of Lenders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p31",
+      "title": "Section 6.01. Events of Default",
+      "level": 1,
+      "start_page": 50,
+      "end_page": 51,
+      "summary": "Section 6.01 outlines the Events of Default that can occur under the Agreement. Key events include failure to pay principal or interest within five business days, inaccuracies in representations or warranties, and failure to observe covenants or agreements. Additional defaults include non-payment of significant debt, general inability to pay debts, bankruptcy proceedings, and judgments exceeding $500 million. The section specifies conditions under which these defaults are recognized and the implications for the Company and its Material Subsidiaries.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p32",
+      "title": "Section 7.01. Appointment and Authority",
+      "level": 1,
+      "start_page": 52,
+      "end_page": 52,
+      "summary": "Section 7.01 outlines the appointment of Citibank, N.A. as the Agent for the Lenders, granting it authority to act on their behalf under the Loan Documents. The section clarifies that the Agent's role is administrative and does not imply any fiduciary duties. It emphasizes that the provisions benefit only the Agent and the Lenders, with Borrowers having no third-party rights. Additionally, the Agent must promptly notify each Lender of communications from the Company, ensuring transparency in the relationship.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p33",
+      "title": "Section 7.02. Rights as a Lender",
+      "level": 1,
+      "start_page": 52,
+      "end_page": 52,
+      "summary": "Section 7.02 outlines the rights of the Agent in its capacity as a Lender, affirming that the Agent possesses the same rights and powers as any other Lender. It clarifies that the term 'Lender' includes the Agent acting in its individual capacity unless specified otherwise. Additionally, the section allows the Agent and its Affiliates to engage in various business activities with the Company or its Affiliates, such as accepting deposits or providing financial advice, without any obligation to disclose these activities to the other Lenders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p34",
+      "title": "Section 7.03. Exculpatory Provisions",
+      "level": 1,
+      "start_page": 53,
+      "end_page": 53,
+      "summary": "Section 7.03 outlines the exculpatory provisions for the Agent in a loan agreement, specifying that the Agent has limited duties, primarily administrative, and is not subject to fiduciary responsibilities. It clarifies that the Agent is not liable for actions taken at the request of Required Lenders, nor for failures to disclose information unless explicitly stated in the Loan Documents. The section also states that the Agent is not responsible for verifying the validity of documents or the performance of covenants unless notified of a Default. Additionally, the Agent is permitted to rely on documents and communications believed to be genuine without incurring liability.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p35",
+      "title": "Section 7.04. Reliance by Agent",
+      "level": 1,
+      "start_page": 53,
+      "end_page": 53,
+      "summary": "Section 7.04 outlines the Agent's right to rely on various forms of communication, including notices, requests, and documents, which it believes to be genuine and properly authenticated. The Agent is not liable for actions taken based on these communications, whether written or oral, as long as they are believed to be made by the appropriate parties. Additionally, the Agent can assume that conditions for making an Advance are satisfactory unless notified otherwise by a Lender. The section also allows the Agent to seek advice from legal counsel and other experts without incurring liability for actions taken based on that advice.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p36",
+      "title": "Section 7.05. Indemnification",
+      "level": 1,
+      "start_page": 54,
+      "end_page": 54,
+      "summary": "Section 7.05 outlines the indemnification obligations of the Lenders towards the Agent, specifying that Lenders will indemnify the Agent for any liabilities or expenses incurred in relation to the Agreement, except in cases of the Agent's gross negligence or willful misconduct. The indemnification is to be done ratably based on the outstanding principal amounts of Advances or Commitments. Additionally, Lenders must promptly reimburse the Agent for out-of-pocket expenses related to the Agreement that are not covered by the Company. This section ensures that the Agent is protected from financial losses arising from its role under the Agreement, while also delineating the limits of liability for the Lenders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p37",
+      "title": "Section 7.06. Delegation of Duties",
+      "level": 1,
+      "start_page": 54,
+      "end_page": 54,
+      "summary": "Section 7.06 outlines the Agent's ability to delegate its duties and powers to sub-agents, provided these sub-agents are approved by the Company. It specifies that both the Agent and sub-agents can perform their responsibilities through related parties. The section also includes exculpatory provisions that protect the Agent and sub-agents from liability for negligence or misconduct, except in cases of gross negligence or willful misconduct in selecting sub-agents. This delegation framework ensures that the Agent can efficiently manage its obligations while maintaining accountability.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p38",
+      "title": "Section 7.07. Resignation of Agent",
+      "level": 1,
+      "start_page": 54,
+      "end_page": 54,
+      "summary": "Section 7.07 outlines the process for the resignation of the Agent in a lending agreement. The Agent can resign by notifying the Lenders and the Company, after which the Required Lenders have the right to appoint a successor, which must be a bank or its affiliate with a U.S. office. If no successor is appointed within 30 days, the retiring Agent may appoint one. Additionally, if the Agent is a Defaulting Lender, the Required Lenders can remove the Agent and appoint a successor, with similar time constraints for acceptance. The resignation or removal becomes effective on the specified dates regardless of successor appointment.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p39",
+      "title": "Section 7.08. Non-Reliance on Agent and Other Lenders",
+      "level": 1,
+      "start_page": 55,
+      "end_page": 55,
+      "summary": "Section 7.08 emphasizes that each Lender must conduct its own independent credit analysis and decision-making without relying on the Agent or other Lenders. It clarifies that Lenders are responsible for their own actions and decisions regarding the Agreement and related documents. This section underscores the importance of individual due diligence and the autonomy of each Lender in the lending process, ensuring that they are not dependent on the assessments or actions of the Agent or their peers.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p40",
+      "title": "Section 7.09. Syndication Agent and Lead Arrangers",
+      "level": 1,
+      "start_page": 55,
+      "end_page": 55,
+      "summary": "This section clarifies that the Syndication Agent and Lead Arrangers do not have any duties, obligations, or responsibilities under the Agreement, thereby limiting their liability and involvement. It emphasizes that the Agent retains its obligations, while the roles of the Syndication Agent and Lead Arrangers are more administrative and do not extend to decision-making or management of the loan process. Readers can learn about the delineation of responsibilities among the parties involved in the syndication of loans, particularly regarding the roles of agents and lenders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p41",
+      "title": "Section 7.10. Certain ERISA Matters",
+      "level": 1,
+      "start_page": 55,
+      "end_page": 56,
+      "summary": "Section 7.10 addresses certain ERISA matters relevant to lenders participating in the agreement. It requires each lender to represent and warrant that they are not using plan assets from benefit plans in relation to their participation in the agreement, or that they qualify for specific prohibited transaction exemptions (PTEs). The section outlines various PTEs applicable to transactions involving investment funds and asset managers. Additionally, it clarifies that unless certain conditions are met, the agent and lead arrangers are not considered fiduciaries regarding the lender's assets involved in the agreement. Definitions for 'Benefit Plan' and 'PTE' are also provided to clarify the terms used in this context.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p42",
+      "title": "Section 7.11. Erroneous Payments",
+      "level": 1,
+      "start_page": 57,
+      "end_page": 58,
+      "summary": "Section 7.11 addresses the handling of Erroneous Payments, which are funds mistakenly received by a Payment Recipient. It outlines the obligations of the Agent and Lenders regarding the return of such payments, including the requirement to return the funds within two business days along with interest. The section also specifies that if an Erroneous Payment is not recovered, the Lender may be deemed to assign its Advances to cover the deficiency. Additionally, it clarifies that Erroneous Payments do not satisfy any obligations of Borrowers unless they are specifically related to payments made by Borrowers. The section emphasizes the waiver of claims by Payment Recipients regarding Erroneous Payments and states that obligations under this section survive various changes in the agreement.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p43",
+      "title": "Section 8.01. Amendments, Etc.",
+      "level": 1,
+      "start_page": 59,
+      "end_page": 59,
+      "summary": "Section 8.01 outlines the requirements for amendments, waivers, or consents related to the Agreement or the Notes. Any such changes must be in writing and signed by the Company and the Required Lenders, with specific provisions requiring the consent of all affected Lenders for significant alterations, such as changes to principal amounts, interest rates, or payment dates. Additionally, the section allows the Agent and the Company to correct minor errors or ambiguities without further consent if no objections are raised by the Required Lenders within five business days. This section ensures that all parties are protected and that changes are formally documented to maintain clarity and agreement among Lenders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p44",
+      "title": "Section 8.02. Notices, Etc.",
+      "level": 1,
+      "start_page": 59,
+      "end_page": 59,
+      "summary": "Section 8.02 outlines the requirements for notices and communications under the agreement. It specifies that all notices must be in writing and can be delivered via mail, email, telecopier, or in person. The section provides specific addresses for the Company, Initial Lenders, and the Agent for sending notices. It also details the timing of when notices are considered given, depending on the method of delivery. Additionally, it allows for the acceptance of electronic communications if agreed upon by the Company and the Agent.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p45",
+      "title": "Section 8.03. No Waiver; Remedies",
+      "level": 1,
+      "start_page": 60,
+      "end_page": 60,
+      "summary": "Section 8.03 outlines that any failure or delay by a Lender or the Agent to exercise their rights under the agreement does not constitute a waiver of those rights. It clarifies that partial exercise of a right does not prevent further exercise of that right or any other rights. Additionally, it states that the remedies available are cumulative and not exclusive of legal remedies, ensuring that parties retain all available options for enforcement.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p46",
+      "title": "Section 8.04. Costs and Expenses",
+      "level": 1,
+      "start_page": 60,
+      "end_page": 60,
+      "summary": "This section outlines the Company's obligation to pay all reasonable costs and expenses incurred by the Agent and the Lenders related to the enforcement of the Agreement and associated documents. It specifically includes provisions for covering reasonable counsel fees and expenses. The section emphasizes that these costs are payable on demand, ensuring that the Agent and Lenders are compensated for their legal and enforcement efforts.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p47",
+      "title": "Section 8.05. Right of Set-off",
+      "level": 1,
+      "start_page": 61,
+      "end_page": 61,
+      "summary": "Section 8.05 outlines the right of set-off for Lenders and their Affiliates in the event of a default by the Borrower. It authorizes Lenders to apply any deposits or debts owed to the Borrower against the Borrower's obligations under the Agreement and Notes, even if those obligations are not yet due. The section specifies that if a Defaulting Lender exercises this right, the amounts set off must be paid to the Agent and held in trust for the benefit of all Lenders. Additionally, Lenders are required to notify the Company of any set-off actions taken, although failure to do so does not invalidate the set-off. This right of set-off is supplementary to other rights and remedies available to Lenders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p48",
+      "title": "Section 8.06. Binding Effect",
+      "level": 1,
+      "start_page": 62,
+      "end_page": 62,
+      "summary": "Section 8.06 outlines the binding effect of the Agreement, stating that it becomes effective on the Effective Date and is binding on the Company, Borrowing Subsidiaries, the Agent, and each Lender, along with their successors and assigns. It specifies that the Company cannot assign its rights and obligations without the prior written consent of all Lenders, except as permitted in Section 5.02(b). This section ensures that the terms of the Agreement are enforceable and clarifies the limitations on assignment by the Company, thereby protecting the interests of the Lenders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p49",
+      "title": "Section 8.07. Assignments and Participations",
+      "level": 1,
+      "start_page": 62,
+      "end_page": 64,
+      "summary": "Section 8.07 outlines the procedures for Lenders to assign their rights and obligations under the Agreement, requiring prior consent from the Company and notice to the Agent. Assignments must be for a constant percentage of rights and obligations, with a minimum amount of $10,000,000 unless certain conditions are met. The section also allows Lenders to grant special purpose vehicles (SPVs) the option to provide Advances, detailing the responsibilities of both the Granting Lender and the SPV. Additionally, it establishes the process for recording assignments in a Register maintained by the Agent, ensuring that all parties can verify Lender commitments and obligations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p50",
+      "title": "Section 8.08. Confidentiality",
+      "level": 1,
+      "start_page": 65,
+      "end_page": 65,
+      "summary": "Section 8.08 outlines the confidentiality obligations of the Agent and Lenders regarding Confidential Information related to the Company and Borrowers. Disclosure of such information is prohibited without the Company's consent, except in specific circumstances such as to affiliates, legal requirements, rating agencies, regulatory authorities, or in connection with legal proceedings. The section emphasizes the need for confidentiality agreements when sharing information with assignees or participants. Additionally, it allows for limited disclosures to data service providers while protecting sensitive business information.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p51",
+      "title": "Section 8.09. Governing Law",
+      "level": 1,
+      "start_page": 66,
+      "end_page": 66,
+      "summary": "Section 8.09 establishes that the Agreement and related Loan Documents will be governed by the laws of the State of New York. It specifies that any claims or disputes arising from the Agreement will also be interpreted under New York law. This section is crucial for determining the legal framework applicable to the Agreement and any associated legal proceedings.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p52",
+      "title": "Section 8.10. Execution in Counterparts",
+      "level": 1,
+      "start_page": 66,
+      "end_page": 66,
+      "summary": "Section 8.10 outlines the provisions for executing the Agreement in counterparts, allowing multiple parties to sign separate copies that collectively form a single agreement. It specifies that delivery of signed counterparts via email or fax is considered effective as a manual signature. The section also clarifies that terms related to execution, such as 'signature' and 'signed', encompass electronic signatures and digital records, which hold the same legal validity as traditional signatures under applicable laws, including the Federal Electronic Signatures in Global and National Commerce Act and New York State laws.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p53",
+      "title": "Section 8.11. Jurisdiction, Etc.",
+      "level": 1,
+      "start_page": 66,
+      "end_page": 66,
+      "summary": "Section 8.11 outlines the jurisdictional agreements of the parties involved in the Agreement. It specifies that any legal actions related to the Agreement or Loan Documents must be initiated exclusively in the courts of New York County or the United States District Court for the Southern District of New York. The section emphasizes that all parties submit to the jurisdiction of these courts and that judgments from these courts can be enforced in other jurisdictions. Additionally, it clarifies that this jurisdictional clause does not limit any party's rights to enforce judgments in other courts.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p54",
+      "title": "Section 8.12. Waiver of Jury Trial",
+      "level": 1,
+      "start_page": 67,
+      "end_page": 67,
+      "summary": "Section 8.12 outlines the waiver of the right to a jury trial by each borrower, the agent, and the lenders for any legal actions related to the agreement or loan documents. It specifies that this waiver applies to all claims, whether based on contract or tort. Additionally, the section emphasizes that this waiver is irrevocable and unconditional, reinforcing the parties' consent to resolve disputes without a jury. The section also includes provisions regarding the consent to service of process and the waiver of objections to venue and inconvenient forum.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p55",
+      "title": "Section 8.13. USA PATRIOT Act Notice",
+      "level": 1,
+      "start_page": 67,
+      "end_page": 67,
+      "summary": "Section 8.13 outlines the obligations of Lenders and the Agent under the USA PATRIOT Act, specifically the requirement to obtain, verify, and record identifying information about the Company. This includes the Company's name, address, and other relevant details necessary for compliance with the Act. The section emphasizes the importance of these measures in preventing financial crimes and ensuring transparency in financial transactions. Readers can learn about the legal framework that mandates these identification processes and the implications for the Company in terms of compliance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p56",
+      "title": "Section 8.14. No Fiduciary Duties",
+      "level": 1,
+      "start_page": 67,
+      "end_page": 67,
+      "summary": "Section 8.14 clarifies that the Company acknowledges the potential for conflicting economic interests between itself and the Agent, Lenders, and their Affiliates. It explicitly states that the business relationship established does not create any fiduciary duties for the Agent or Lenders towards the Company or its Affiliates. This section emphasizes that no fiduciary duty will arise from any transactions or communications related to the agreement, thereby protecting the interests of the Lenders and Agent.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p57",
+      "title": "Section 8.15. Acknowledgement and Consent to Bail-In of Affected Financial Institutions",
+      "level": 1,
+      "start_page": 67,
+      "end_page": 68,
+      "summary": "This section outlines the acknowledgment and consent of parties regarding the potential 'Bail-In' of Affected Financial Institutions, specifically addressing liabilities that may be subject to Write-Down and Conversion Powers by relevant Resolution Authorities. It details the implications of such actions, including the reduction, cancellation, or conversion of liabilities into equity or other ownership instruments. Definitions are provided for key terms such as 'Affected Financial Institution,' 'Bail-In Action,' and 'Bail-In Legislation,' clarifying the scope and application of these concepts within the agreement. Additionally, it mandates that lenders notify the agent of any Bail-In Action notifications from Resolution Authorities.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p58",
+      "title": "Section 8.16. Judgment",
+      "level": 1,
+      "start_page": 69,
+      "end_page": 69,
+      "summary": "Section 8.16 outlines the procedures for currency conversion in the event of obtaining a judgment in court. It specifies that the exchange rate for converting sums due in Dollars or Euros will be based on the rate at which Citibank can purchase the respective currency at 11:00 A.M. London time on the business day before the judgment. Additionally, it clarifies that a Borrower's obligation in the primary currency is only discharged to the extent that the Lender or Agent can purchase the primary currency with the judgment currency, and any shortfall must be indemnified by the Borrower. Conversely, any excess amount purchased must be returned to the Borrower.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p59",
+      "title": "Section 9.01. Guarantee",
+      "level": 1,
+      "start_page": 70,
+      "end_page": 70,
+      "summary": "Section 9.01 outlines the Company's unconditional and irrevocable guarantee to Lenders and the Agent for the prompt payment of principal and interest on Advances and Notes related to Borrowing Subsidiaries. It specifies that the Company will pay any Guaranteed Obligations without demand or notice if a Borrowing Subsidiary fails to do so. The section emphasizes that the Company's obligations are absolute and unconditional, regardless of various circumstances that could affect the Guaranteed Obligations. Additionally, the Company waives certain rights, such as the need for diligence or presentment, reinforcing that this guarantee is one of payment, not collection.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p60",
+      "title": "Section 9.02. Obligations Unconditional",
+      "level": 1,
+      "start_page": 70,
+      "end_page": 70,
+      "summary": "Section 9.02 outlines the unconditional nature of the Company's obligations under Article IX, emphasizing that these obligations remain intact regardless of various circumstances, such as the legality or enforceability of the Guaranteed Obligations, modifications to their terms, or any waivers of performance. The Company waives rights such as diligence, presentment, and demand, indicating that the obligations are guarantees of payment rather than collection. This section ensures that the Company's responsibilities are absolute and not subject to defenses typically available to guarantors, thereby reinforcing the security of lenders and agents involved.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p61",
+      "title": "Section 9.03. Reinstatement",
+      "level": 1,
+      "start_page": 71,
+      "end_page": 71,
+      "summary": "Section 9.03 outlines the automatic reinstatement of guarantees if any payment related to the Guaranteed Obligations by a Borrowing Subsidiary is rescinded or restored due to bankruptcy or other reasons. This reinstatement ensures that the guarantee remains effective despite any payment issues that may arise. The section emphasizes the continuity of the guarantee in relation to the obligations of the Borrowing Subsidiaries, providing clarity on the conditions under which the guarantee is maintained.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p62",
+      "title": "Section 9.04. Subrogation",
+      "level": 1,
+      "start_page": 71,
+      "end_page": 71,
+      "summary": "Section 9.04 addresses the concept of subrogation, stating that the Company waives all rights of subrogation or contribution until the Commitments are terminated and all amounts owed to the Agent or Lenders are paid in full. This waiver applies to rights arising by law, including those under the Federal Bankruptcy Code, and is irrevocable. The section emphasizes the Company's commitment to fulfilling its obligations without seeking reimbursement from other parties for payments made under the agreement.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p63",
+      "title": "Section 9.05. Remedies",
+      "level": 1,
+      "start_page": 71,
+      "end_page": 71,
+      "summary": "Section 9.05 outlines the remedies available to Lenders and the Agent in the event of a default by a Borrowing Subsidiary. It states that the obligations guaranteed by the Company can be declared immediately due and payable, or automatically accelerated, regardless of any legal prohibitions such as stays or injunctions that may affect the Borrowing Subsidiary. This means that the Company is liable for these obligations even if they are not yet due, ensuring that Lenders can act swiftly in case of default. The section emphasizes the enforceability of the guarantees provided by the Company under various circumstances.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p64",
+      "title": "Section 9.06. Continuing Guarantee",
+      "level": 1,
+      "start_page": 71,
+      "end_page": 172,
+      "summary": "Section 9.06 establishes that the guarantee outlined in Article IX is a continuing guarantee, meaning it applies to all Guaranteed Obligations that arise over time. This section emphasizes the perpetual nature of the guarantee, ensuring that it remains in effect regardless of when the obligations occur. Readers can learn about the implications of a continuing guarantee, including its impact on the obligations of the guarantor and the scope of liabilities covered under this agreement.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

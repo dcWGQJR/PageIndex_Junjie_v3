@@ -154,6 +154,51 @@ Return JSON: {{"summary": "...", "title": "..."}}
 
 
 # --------------------------------------------------------------------------
+# Leaf title verification (final pass over string-match failures)
+# --------------------------------------------------------------------------
+VERIFY_TITLE_SYS = (
+    "You decide whether a given section title actually appears on a specific "
+    "page of a PDF. PDF text extraction introduces predictable artifacts; you "
+    "tolerate them and only say 'no' when the page clearly is not the start of "
+    "that section."
+)
+
+
+def verify_title_user(title: str, page: int, page_text: str) -> str:
+    return f"""Section title (from the document outline):
+"{title}"
+
+Claimed start page: {page}
+
+Decide whether page {page} is the start of the section named by the title above.
+Answer "yes" if the title appears on this page (allowing for the artifacts
+below), "no" otherwise.
+
+PDF text-extraction artifacts to tolerate when judging the match:
+- Extra whitespace inside words: letters separated by spaces or split across
+  lines, e.g. "Income" extracted as "Incom e" or "I n c o m e".
+- Trailing year/date lists inside titles like
+    "...for the years ended December 31, 2018, 2017 and 2016"  or
+    "...at December 31, 2018 and 2017"
+  are typically rendered as scattered column headers in a table (each year on
+  its own line: "2018", "2017", "2016"). They will NOT appear as one contiguous
+  string. Match the descriptive part of the title (e.g. "Consolidated Statement
+  of Income ... December 31") and accept the trailing years if those individual
+  years appear anywhere on the page.
+- Filler/connector words ("for the", "at", "and") may be missing on the page
+  even when present in the title; ignore them.
+- Running headers/footers ("Table of Contents", page numbers) are noise; ignore
+  them.
+- Casing differences are irrelevant.
+
+Return JSON: {{"match": "yes" | "no", "reason": "<one short sentence>"}}
+
+PAGE {page} TEXT:
+{page_text}
+"""
+
+
+# --------------------------------------------------------------------------
 # Retrieval routing (descend the most relevant branch)
 # --------------------------------------------------------------------------
 ROUTING_SYS = (

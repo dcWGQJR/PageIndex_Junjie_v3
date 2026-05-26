@@ -1,0 +1,121 @@
+{
+  "node_id": "root",
+  "title": "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 27,
+  "summary": "This section of the Johnson & Johnson 8-K report dated August 30, 2023, provides comprehensive updates on the company's financial status following the Kenvue Separation. It includes front matter details, updated financial guidance for 2023, and insights into the company's mission and commitment to health. Key financial metrics such as projected sales growth, adjusted EPS, and the impact of share count reduction are highlighted. Additionally, it discusses non-GAAP financial measures, forward-looking statements, and detailed sales data by geographic area, emphasizing the company's performance and strategic direction post-separation.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Form 8-K Front Matter for Johnson & Johnson",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section contains the front matter for Form 8-K, a current report filed with the SEC by Johnson & Johnson. It includes the date of the report, the company's name, jurisdiction of incorporation, and IRS employer identification number. The section also provides the address of the principal executive offices and the registrant's telephone number. Additionally, it includes checkboxes for various filing obligations and indicates whether the registrant is an emerging growth company. Lastly, it lists the securities registered under Section 12(b) of the Act, including common stock and various notes with their respective trading symbols and exchanges.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "w1",
+      "title": "Kenvue Separation and Financial Update",
+      "level": 2,
+      "start_page": 2,
+      "end_page": 2,
+      "summary": "This section discusses Johnson & Johnson's completion of the Kenvue Separation through an exchange offer. It references a press release dated August 30, 2023, which provides updated financial information and guidance for 2023 following the separation. The section also lists related exhibits, including the press release and updated financial data.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w2",
+      "title": "Financial Statements and Exhibits Overview",
+      "level": 2,
+      "start_page": 2,
+      "end_page": 2,
+      "summary": "This section details the financial statements and exhibits related to Johnson & Johnson's recent Kenvue Separation. It lists the specific exhibits included, such as a press release dated August 30, 2023 (Exhibit 99.1), updated financial data (Exhibit 99.2), and the cover page formatted in Inline XBRL (Exhibit 104). Readers can find key financial updates and guidance for 2023 following the separation.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w3",
+      "title": "Signatures for Compliance with Securities Exchange Act",
+      "level": 2,
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This section contains the signatures required for compliance with the Securities Exchange Act of 1934. It confirms that the report is officially signed on behalf of Johnson & Johnson by Robert J. Decker, Jr., who is identified as the Controller and Principal Accounting Officer. The date of the signature is August 30, 2023, indicating when the report was finalized. This section serves to authenticate the document and affirm the responsibility of the signatory for its contents.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w4",
+      "title": "Johnson & Johnson 2023 Financials and Guidance Update",
+      "level": 2,
+      "start_page": 4,
+      "end_page": 5,
+      "summary": "Johnson & Johnson updated its 2023 financial guidance post-Kenvue separation, projecting reported sales growth of 7.0%-8.0% and adjusted EPS of $10.00-$10.10. The company reduced its share count by approximately 191 million, contributing to an EPS benefit of $0.28. It secured $13.2 billion from Kenvue's debt offering and IPO, while maintaining a quarterly dividend of $1.19 per share. The separation allows J&J to focus on its Pharmaceutical and MedTech operations, with the Consumer Health business now classified as discontinued operations, reflecting a $20 billion gain in Q3 2023.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w5",
+      "title": "Johnson & Johnson 2023 Financial Guidance Update",
+      "level": 2,
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This section provides updated financial guidance for Johnson & Johnson for the full year 2023, excluding Consumer Health. It outlines projected adjusted operational sales growth of 6.2% to 7.2% and adjusted EPS of $9.90 to $10.00. The guidance reflects a reduction in outstanding shares due to the Kenvue exchange offer, impacting the adjusted diluted EPS by $0.28. The company also generated $13.2 billion from Kenvue's debt offering and IPO, maintaining a 9.5% stake in Kenvue for potential future monetization.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w6",
+      "title": "Johnson & Johnson Investor Webinar Details",
+      "level": 2,
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This section provides information about a recorded webinar by Johnson & Johnson aimed at investors, offering insights into the company's updated financials and 2023 guidance. Readers can learn how to access the webinar and supplemental materials through the Investors section of the company's website. Additionally, it emphasizes the company's commitment to health and community well-being, alongside details on non-GAAP financial measures relevant to understanding their financial performance.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w7",
+      "title": "Overview of Johnson & Johnson's Mission and Commitment",
+      "level": 2,
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This section provides an overview of Johnson & Johnson's mission and commitment to health, emphasizing their role as the largest diversified healthcare products company. It highlights their focus on improving access to healthcare, creating healthier communities, and enhancing overall well-being. The company has a history of over 135 years and aims to leverage its size and reach for positive impact on global health. Additionally, it mentions the availability of a recorded investor webinar and financial measures related to their performance.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w8",
+      "title": "Overview of Non-GAAP Financial Measures",
+      "level": 2,
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This section explains various non-GAAP financial measures used by Johnson & Johnson, including 'operational sales growth', 'adjusted operational sales growth', and adjusted earnings metrics. It emphasizes that these measures exclude certain impacts such as currency fluctuations, acquisitions, divestitures, and intangible amortization expenses. The section advises that these non-GAAP measures should not replace GAAP measures and provides guidance on where to find reconciliations to GAAP figures. Additionally, it mentions the availability of financial schedules on the company's website.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w9",
+      "title": "Forward-Looking Statements and Associated Risks",
+      "level": 2,
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This section outlines the nature of forward-looking statements made by Johnson & Johnson, as defined by the Private Securities Litigation Reform Act of 1995. It emphasizes that these statements, which pertain to future performance, product development, and business strategy, should not be relied upon due to inherent risks and uncertainties. The document lists various factors that could cause actual results to differ from expectations, including economic fluctuations, competition, regulatory challenges, and litigation risks. It also directs readers to further details in the company's Annual Report and other SEC filings.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w10",
+      "title": "Johnson & Johnson Sales Data Overview",
+      "level": 2,
+      "start_page": 9,
+      "end_page": 27,
+      "summary": "This section provides detailed supplementary sales data for Johnson & Johnson and its subsidiaries, covering sales figures for the first and second quarters of 2023 and 2022, as well as year-to-date totals. It breaks down sales by geographic area, including the U.S., Europe, and Asia-Pacific, and highlights percentage changes in sales year-over-year. The data is presented in millions of dollars and includes insights into currency impacts on sales. Additionally, it offers a comparison of operational sales growth and adjusted earnings metrics, which are useful for evaluating the company's performance over time.",
+      "source": "window",
+      "children": []
+    }
+  ]
+}

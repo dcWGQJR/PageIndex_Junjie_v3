@@ -1,0 +1,1221 @@
+{
+  "node_id": "root",
+  "title": "JPMORGAN_2021Q1_10Q.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 179,
+  "summary": "The section provides a comprehensive overview of JPMorgan Chase & Co.'s Form 10-Q for the first quarter of 2021, including the cover page details, table of contents, and financial performance metrics. It includes Part I, which highlights financial results such as net revenue and earnings per share, along with management's analysis and risk management strategies. Part II addresses legal proceedings, risk factors, and share repurchase programs. Additionally, it contains various certifications from key executives affirming the accuracy of the report and compliance with regulatory requirements, including the Sarbanes-Oxley Act.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "t1",
+      "title": "Form 10-Q Cover",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section contains the cover page of Form 10-Q for JPMorgan Chase & Co., detailing the company's quarterly report for the period ending March 31, 2021. It includes the company's SEC file number, state of incorporation, and IRS employer identification number. The section lists various classes of securities registered under the Securities Exchange Act, including common stock and multiple series of non-cumulative preferred stock, along with their trading symbols and exchanges. Additionally, it confirms the company's compliance with filing requirements and provides information on its status as a large accelerated filer, along with the number of common shares outstanding as of the reporting date.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t2",
+      "title": "Table of contents",
+      "level": 1,
+      "start_page": 2,
+      "end_page": 2,
+      "summary": "The Table of Contents outlines the structure of the Form 10-Q, detailing the sections and items included in the report. It provides page numbers for key financial statements such as the consolidated statements of income, balance sheets, and cash flows for JPMorgan Chase & Co. for the first quarter of 2021. Additionally, it lists management's discussion and analysis, risk management practices, and legal proceedings, among other topics. This section serves as a roadmap for readers to navigate the financial and operational information presented in the document.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t3",
+      "title": "Part I – Financial information",
+      "level": 1,
+      "start_page": 2,
+      "end_page": 171,
+      "summary": "Part I provides a comprehensive overview of JPMorgan Chase & Co.'s financial performance for Q1 2021, including consolidated financial highlights such as total net revenue, net income, and earnings per share. It features a detailed management discussion analyzing financial condition, operational results, and the impact of COVID-19 on business. The section includes financial statements with metrics on assets, stockholders' equity, and cash flow, as well as disclosures about market risk and the effectiveness of internal controls. Additionally, it addresses accounting estimates and regulatory compliance, offering insights into the bank's risk management strategies and financial health.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t4",
+          "title": "Consolidated Financial Highlights",
+          "level": 2,
+          "start_page": 3,
+          "end_page": 3,
+          "summary": "This section provides consolidated financial highlights for JPMorgan Chase & Co. for the first quarter of 2021, comparing key metrics with previous quarters. It includes total net revenue of $32,266 million, net income of $14,300 million, and earnings per share of $4.51. The report also details expenses, provisions for credit losses, and various financial ratios such as return on equity (ROE) at 23% and return on tangible common equity (ROTCE) at 29%. Additionally, it presents balance sheet data, including total assets of $3,689,336 million and deposits of $2,278,112 million, along with credit quality metrics like nonperforming assets and net charge-offs.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t5",
+          "title": "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations.",
+          "level": 2,
+          "start_page": 4,
+          "end_page": 78,
+          "summary": "This section provides a comprehensive analysis of JPMorgan Chase & Co.'s financial condition and operational results for Q1 2021, including an overview of its organizational structure and business segments. It highlights key financial metrics such as net income, revenue growth, and changes in credit loss provisions, while also discussing the impact of COVID-19 on business operations and risk management strategies. The section covers consolidated results, balance sheet changes, off-balance sheet arrangements, and the use of non-GAAP financial measures. Additionally, it addresses critical accounting estimates, recent accounting developments, and the nature of forward-looking statements, emphasizing the associated risks and uncertainties.",
+          "source": "embedded_toc",
+          "children": [
+            {
+              "node_id": "t6",
+              "title": "Introduction",
+              "level": 3,
+              "start_page": 4,
+              "end_page": 4,
+              "summary": "This section provides an overview of JPMorgan Chase & Co.'s financial condition and results of operations for Q1 2021, emphasizing the importance of reading this report alongside the 2020 Annual Report. It includes forward-looking statements that reflect management's beliefs and expectations, highlighting associated risks and uncertainties. The firm is identified as a leading financial services provider with $3.7 trillion in assets and $280.7 billion in equity, operating globally under the J.P. Morgan and Chase brands. The section outlines the firm's organizational structure, detailing its major business segments: Consumer & Community Banking, Corporate & Investment Bank, Commercial Banking, and Asset & Wealth Management. Additionally, it mentions the availability of financial reports on the firm's website.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t7",
+              "title": "Executive Overview",
+              "level": 3,
+              "start_page": 5,
+              "end_page": 8,
+              "summary": "The Executive Overview section provides a financial summary of JPMorgan Chase for Q1 2021, reporting a net income of $14.3 billion and total net revenue of $32.3 billion, with a 14% year-over-year increase. It highlights key metrics such as a 23% return on equity and a 10% increase in tangible book value per share, alongside a $4.2 billion reduction in the allowance for credit losses. The section also discusses the Firm's business developments during the COVID-19 pandemic, including $40 billion funded through the SBA's PPP, payment deferrals for affected clients, and regulatory responses to support economic recovery. Additionally, it addresses preparations for post-Brexit operations and the transition from LIBOR, emphasizing risk mitigation and business continuity efforts.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t8",
+                  "title": "Firmwide Overview and Outlook",
+                  "level": 4,
+                  "start_page": 5,
+                  "end_page": 7,
+                  "summary": "The Firmwide Overview and Outlook section provides a financial summary of JPMorgan Chase for Q1 2021, highlighting a net income of $14.3 billion and total net revenue of $32.3 billion, marking a 14% increase from the previous year. Key metrics include a return on equity (ROE) of 23% and a tangible book value per share (TBVPS) increase of 10%. The section discusses the reduction in the allowance for credit losses, which was a net benefit of $4.2 billion, and outlines significant credit provided to consumers and businesses. Additionally, it presents the Firm's outlook for 2021, including expectations for net interest income and adjusted expenses, while noting the impact of various economic factors on performance.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t9",
+                  "title": "Business Developments",
+                  "level": 4,
+                  "start_page": 8,
+                  "end_page": 8,
+                  "summary": "This section outlines the Firm's business developments during the COVID-19 pandemic, highlighting its commitment to client support and employee well-being. The Firm has funded approximately $40 billion through the SBA's PPP and continues to offer payment deferrals to those affected. It also discusses regulatory responses to the pandemic, including U.S. stimulus packages aimed at economic recovery. Additionally, the section covers the Firm's preparations for post-Brexit operations and the transition away from LIBOR, detailing the steps taken to mitigate associated risks and ensure business continuity.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "node_id": "t10",
+              "title": "Consolidated Results of Operations",
+              "level": 3,
+              "start_page": 9,
+              "end_page": 11,
+              "summary": "This section analyzes JPMorgan Chase's Consolidated Results of Operations for Q1 2021 compared to Q1 2020, highlighting significant revenue changes across various segments. Key revenue sources include a 59% increase in investment banking fees and a 121% rise in principal transactions revenue, while net interest income decreased by 11%. The provision for credit losses saw a notable decrease, reflecting improvements in macroeconomic conditions. Noninterest expenses rose by 12%, driven by higher compensation and technology investments. The effective tax rate increased due to higher pre-tax income and the resolution of tax audits.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t11",
+              "title": "Consolidated Balance Sheets and Cash Flows Analysis",
+              "level": 3,
+              "start_page": 12,
+              "end_page": 14,
+              "summary": "This section analyzes the consolidated balance sheets and cash flows of the firm, highlighting significant changes from December 31, 2020, to March 31, 2021. Key topics include increases in cash and deposits due to growth in client activities and government actions related to COVID-19, as well as changes in trading assets and liabilities driven by market-making activities. The allowance for loan losses decreased significantly, reflecting improved macroeconomic conditions. The cash flow analysis details net cash used in operating activities, with notable differences between 2021 and 2020, particularly in trading assets and liabilities. Overall, the section provides insights into the firm's financial health and liquidity management strategies.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t12",
+              "title": "Off-Balance Sheet Arrangements",
+              "level": 3,
+              "start_page": 15,
+              "end_page": 15,
+              "summary": "This section discusses the Firm's off-balance sheet arrangements, including special-purpose entities (SPEs) and lending-related financial instruments. It explains that certain obligations are recognized on-balance sheet while others are disclosed as off-balance sheet under U.S. GAAP. The Firm maintains capital against SPE-related transactions and ensures that dealings with SPEs are conducted at arm's length. Additionally, it provides a table indicating where further details on these arrangements can be found in the Form 10-Q, specifically referencing Notes 13 and 22 for more information.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t13",
+              "title": "Explanation and Reconciliation of the Firm's Use of Non-GAAP Financial Measures",
+              "level": 3,
+              "start_page": 16,
+              "end_page": 17,
+              "summary": "This section explains the Firm's use of non-GAAP financial measures alongside U.S. GAAP results, highlighting key metrics such as managed basis results, pre-provision profit, and tangible common equity (TCE). It details specific non-GAAP measures, including overhead ratio and net interest income excluding CIB Markets, and provides reconciliations between reported and managed results for the three months ended March 31 for 2021 and 2020. The section also includes a summary table that outlines the adjustments made to arrive at managed basis results and TCE, offering insights into the Firm's financial performance and metrics used for internal analysis.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t14",
+              "title": "Business Segment Results",
+              "level": 3,
+              "start_page": 18,
+              "end_page": 34,
+              "summary": "The Business Segment Results section provides a comprehensive overview of JPMorgan Chase's financial performance across its key business segments for the first quarter of 2021. It details the Consumer & Community Banking segment's net income of $6.7 billion, driven by reduced credit loss provisions, and highlights revenue sources such as mortgage fees. The Corporate & Investment Bank segment shows significant growth with a 46% increase in net revenue to $14.6 billion, largely due to a surge in investment banking fees. Commercial Banking reports a net income of $1.2 billion, reflecting an 11% revenue increase, while Asset & Wealth Management sees a 20% rise in revenue to $4.1 billion, supported by higher asset management fees. The Corporate segment, however, reports a net loss of $580 million, impacted by decreased net interest income and increased expenses.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t15",
+                  "title": "Consumer & Community Banking",
+                  "level": 4,
+                  "start_page": 20,
+                  "end_page": 22,
+                  "summary": "The Consumer & Community Banking section provides an overview of JPMorgan Chase's financial performance for the first quarter of 2021, highlighting a net income of $6.7 billion, significantly up from the previous year due to a decrease in the provision for credit losses. Key metrics include total net revenue of $12.5 billion, a 6% decrease, and a 14% drop in net interest income. The section details revenue sources, with notable increases in mortgage fees and card income, while also discussing changes in loan and deposit volumes. Additionally, it presents selected balance sheet data, credit quality statistics, and business metrics, including active digital customers and mortgage origination volumes, reflecting the bank's operational performance and strategic focus areas.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t16",
+                  "title": "Corporate & Investment Bank",
+                  "level": 4,
+                  "start_page": 23,
+                  "end_page": 27,
+                  "summary": "This section provides a detailed overview of JPMorgan Chase's Corporate & Investment Bank (CIB) performance for the first quarter of 2021, highlighting significant revenue growth across various segments. Key figures include total net revenue of $14.6 billion, a 46% increase from the previous year, and net income of $5.7 billion, up 189%. The investment banking segment saw a remarkable 222% rise in revenue, driven by increased fees and a strong IPO market. Additionally, the section discusses changes in noninterest expenses, credit loss provisions, and metrics related to loans and assets under custody, offering insights into the bank's operational efficiency and market positioning.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t17",
+                  "title": "Commercial Banking",
+                  "level": 4,
+                  "start_page": 28,
+                  "end_page": 29,
+                  "summary": "This section provides an overview of JPMorgan Chase's Commercial Banking performance for the first quarter of 2021, including selected income statement data and balance sheet metrics. Key highlights include a net income of $1.2 billion, an 11% increase in total net revenue to $2.4 billion, and a significant reduction in the provision for credit losses. The section details revenue by product, with notable growth in lending and investment banking, and outlines client segments contributing to revenue. Additionally, it presents credit quality statistics, including nonperforming assets and allowances for credit losses, indicating improvements in credit performance compared to the previous year.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t18",
+                  "title": "Asset & Wealth Management",
+                  "level": 4,
+                  "start_page": 30,
+                  "end_page": 32,
+                  "summary": "The Asset & Wealth Management section provides an overview of JPMorgan Chase's financial performance for the first quarter of 2021, highlighting a 20% increase in total net revenue to $4.1 billion. Key drivers include a 26% rise in Asset Management revenue and a 15% increase in Global Private Bank revenue, attributed to higher asset management fees and increased loan and deposit balances. The section also details selected metrics, including client assets of $3.8 trillion and assets under management of $2.8 trillion, both reflecting significant growth. Additionally, it presents international revenue and asset management figures, showing strong performance across various regions, particularly in Europe and Asia-Pacific.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t19",
+                  "title": "Corporate",
+                  "level": 4,
+                  "start_page": 33,
+                  "end_page": 34,
+                  "summary": "This section provides an overview of JPMorgan Chase's corporate financial performance for the first quarter of 2021, highlighting significant changes in revenue, net income, and expenses compared to the previous year. Key figures include a net loss of $580 million and total net revenue loss of $473 million, primarily due to decreased net interest income and increased noninterest expenses. The section also discusses the Treasury and CIO's investment securities portfolio, noting an average credit rating of AA+ and changes in investment securities gains. Additionally, it references further details on liquidity and market risk management in other sections of the report.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "node_id": "t20",
+              "title": "Firmwide Risk Management",
+              "level": 3,
+              "start_page": 35,
+              "end_page": 73,
+              "summary": "The Firmwide Risk Management section provides a detailed overview of JPMorgan Chase's strategies and frameworks for managing various types of risks, including capital, liquidity, credit, market, country, operational, and model risks as of March 31, 2021. It discusses capital allocation, regulatory compliance, and the impact of COVID-19 on financial metrics and risk exposures. The section highlights the firm's funding sources, credit risk management practices, methodologies for assessing market risk, and the importance of operational risk management in maintaining financial stability. Additionally, it addresses the implications of country risk and the challenges of model risk in volatile market conditions, emphasizing the need for robust risk management practices across the organization.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t21",
+                  "title": "Capital Risk Management",
+                  "level": 4,
+                  "start_page": 36,
+                  "end_page": 41,
+                  "summary": "The Capital Risk Management section provides a comprehensive overview of JPMorgan Chase's capital allocation and regulatory compliance as of March 31, 2021. It details the distribution of capital across various business segments, the firm's capital actions including Risk-Weighted Assets (RWA) under Basel III, and the implications of COVID-19 on dividends and share repurchases. Additionally, it outlines the Total Loss-Absorbing Capacity (TLAC) and long-term debt requirements mandated by the Federal Reserve, along with the compliance status of these requirements. The section also addresses the regulatory capital metrics for J.P. Morgan Securities, highlighting its net capital against minimum requirements and compliance with Basel III and MREL rules.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t22",
+                      "title": "Line of business equity",
+                      "level": 5,
+                      "start_page": 39,
+                      "end_page": 39,
+                      "summary": "This section details the allocation of capital to various business segments within JPMorgan Chase as of March 31, 2021, including Consumer & Community Banking, Corporate & Investment Bank, Commercial Banking, Asset & Wealth Management, and Corporate. It provides specific figures for allocated capital in billions, showing changes from December 31, 2020. Additionally, it discusses the firm's common stock dividends and the impact of regulatory restrictions on share repurchases due to the COVID-19 pandemic. The section emphasizes the importance of capital allocation in relation to regulatory requirements and peer comparisons.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t23",
+                      "title": "Capital actions",
+                      "level": 5,
+                      "start_page": 39,
+                      "end_page": 39,
+                      "summary": "This section details the capital actions of the firm, including the rollforward of Risk-Weighted Assets (RWA) under Basel III for the first quarter of 2021, highlighting changes in credit, market, and operational risk RWA. It provides a breakdown of the components of the Supplementary Leverage Ratio (SLR), including Tier 1 capital and total leverage exposure, with SLR figures for March 31, 2021, and December 31, 2020. Additionally, it outlines the allocation of capital to various business segments and discusses the firm's common stock dividends and share repurchase program, including restrictions imposed by the Federal Reserve due to the COVID-19 pandemic.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t24",
+                      "title": "Other capital requirements",
+                      "level": 5,
+                      "start_page": 40,
+                      "end_page": 40,
+                      "summary": "This section outlines the Firm's capital requirements, focusing on Total Loss-Absorbing Capacity (TLAC) and eligible long-term debt (LTD) as mandated by the Federal Reserve for U.S. global systemically important banks. It provides specific minimum requirements for TLAC and LTD as a percentage of risk-weighted assets (RWA) and leverage exposure as of March 31, 2021, compared to December 31, 2020. The section also details the Firm's compliance status, including surpluses and shortfalls in TLAC and LTD. Additionally, it references related documents for further information on capital planning and stress testing, as well as risk factors associated with the Firm's debt and equity securities.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t25",
+                      "title": "Broker-dealer regulatory capital",
+                      "level": 5,
+                      "start_page": 41,
+                      "end_page": 41,
+                      "summary": "This section discusses the regulatory capital requirements for J.P. Morgan Securities, the principal U.S. broker-dealer subsidiary of JPMorgan Chase, which is governed by the Net Capital Rule under the Securities Exchange Act of 1934. It details the capital metrics as of March 31, 2021, showing actual net capital of $25,908 million against a minimum requirement of $4,966 million. Additionally, it covers J.P. Morgan Securities plc, a U.K. subsidiary, which is regulated by the PRA and FCA, and is subject to Basel III requirements, with total capital of $54,673 million and compliance with the MREL rule. The section references further discussions on capital risk management found in JPMorgan Chase’s 2020 Form 10-K.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t26",
+                  "title": "Liquidity Risk Management",
+                  "level": 4,
+                  "start_page": 42,
+                  "end_page": 46,
+                  "summary": "The Liquidity Risk Management section outlines the Firm's funding sources and strategies, emphasizing its ability to meet obligations through diverse methods such as deposits, secured and unsecured borrowings, and stockholders' equity. It provides a detailed breakdown of deposit balances by line of business as of March 31, 2021, and discusses the significance of both short-term and long-term funding structures, including commercial paper and repurchase agreements. Additionally, the section addresses the implications of credit ratings on financing costs and liquidity access, detailing how downgrades can affect funding conditions. It includes the credit ratings for JPMorgan Chase & Co. and its subsidiaries as of the same date, highlighting a recent outlook change by Fitch Ratings.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t27",
+                      "title": "Funding",
+                      "level": 5,
+                      "start_page": 43,
+                      "end_page": 45,
+                      "summary": "This section details the funding sources and strategies of the Firm, emphasizing its capacity to meet obligations through diverse funding methods, including deposits, secured and unsecured borrowings, and stockholders' equity. It provides a breakdown of deposit balances by line of business as of March 31, 2021, highlighting the stability of consumer and wholesale operating deposits. The section also outlines short-term and long-term funding structures, including commercial paper and securities sold under repurchase agreements, and discusses the importance of long-term funding for liquidity and regulatory compliance. Additionally, it includes data on funding issuance and maturities, illustrating the Firm's approach to managing its funding needs effectively.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t28",
+                      "title": "Credit ratings",
+                      "level": 5,
+                      "start_page": 46,
+                      "end_page": 46,
+                      "summary": "This section discusses the impact of credit ratings on the Firm's financing costs and liquidity access. It explains how downgrades can lead to increased funding costs, additional collateral requirements, and reduced investor willingness to lend. The Firm assesses its liquidity risk and stress testing metrics to ensure it can withstand potential funding capacity decreases due to ratings downgrades. It also provides the credit ratings for JPMorgan Chase & Co. and its subsidiaries as of March 31, 2021, including ratings from Moody's, Standard & Poor's, and Fitch Ratings, noting a recent outlook revision from negative to stable by Fitch.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t29",
+                  "title": "Credit and Investment Risk Management",
+                  "level": 4,
+                  "start_page": 47,
+                  "end_page": 65,
+                  "summary": "The Credit and Investment Risk Management section covers the management of credit risk across consumer and wholesale portfolios, detailing the impact of COVID-19 on loan modifications and the Paycheck Protection Program. It analyzes consumer loan performance, including trends in auto and residential real estate, and discusses credit card loan dynamics, including delinquency rates and charge-offs. The section also addresses the allowance for credit losses, estimating expected losses and the effects of macroeconomic conditions. Additionally, it outlines investment portfolio risk management, focusing on the composition and performance of investment securities and principal investments, with specific figures as of March 31, 2021.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t30",
+                      "title": "Credit Portfolio",
+                      "level": 5,
+                      "start_page": 47,
+                      "end_page": 47,
+                      "summary": "This section discusses credit risk management, detailing the risks associated with defaults or changes in credit profiles of clients and counterparties. It provides an overview of the total credit portfolio, including reported loans, nonperforming assets, and credit-related assets as of March 31, 2021. The section also highlights the impact of COVID-19 on loan modifications and the Paycheck Protection Program (PPP), noting the amounts of loans under the PPP and their potential for forgiveness. Additionally, it references various notes for further information on consumer and wholesale credit portfolios, as well as the firm's accounting policies.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t31",
+                      "title": "Consumer Credit Portfolio",
+                      "level": 5,
+                      "start_page": 48,
+                      "end_page": 52,
+                      "summary": "The Consumer Credit Portfolio section analyzes the performance and trends of consumer loans, excluding credit cards, and credit card loans. It highlights the growth in consumer loan balances, particularly in auto and residential real estate, driven by PPP loan originations, and details the status of nonaccrual loans and nonperforming assets. The credit card subsection notes a decrease in total loans due to seasonality and higher payment rates, alongside improvements in delinquency rates and a reduction in net charge-offs. Additionally, it discusses the allowance for loan losses and provides insights into the geographic and FICO composition of credit card loans, including modifications for troubled debt restructurings (TDRs).",
+                      "source": "embedded_toc",
+                      "children": [
+                        {
+                          "node_id": "t32",
+                          "title": "Consumer, excluding credit card",
+                          "level": 6,
+                          "start_page": 50,
+                          "end_page": 51,
+                          "summary": "This section provides an analysis of the consumer loan portfolio, excluding credit card loans, highlighting trends in loan balances, particularly in auto and residential real estate. It details the increase in loan balances driven by PPP loan originations and the performance of home equity lines of credit, which totaled $22.2 billion as of March 31, 2021. The section also discusses nonaccrual loans, with a total of $5.99 billion reported, and outlines the changes in nonperforming assets. Additionally, it includes statistics on purchased credit deteriorated (PCD) loans, detailing delinquency rates and charge-offs, which reflect the impact of COVID-19 payment deferral programs on loan performance.",
+                          "source": "embedded_toc",
+                          "children": []
+                        },
+                        {
+                          "node_id": "t33",
+                          "title": "Credit Card",
+                          "level": 6,
+                          "start_page": 52,
+                          "end_page": 52,
+                          "summary": "This section discusses the trends in credit card loans, noting a decrease in total loans due to seasonality and higher payment rates as of March 31, 2021. It highlights improvements in delinquency rates, with 30+ and 90+ day rates dropping to 1.40% and 0.80%, respectively, attributed to payment assistance and government stimulus. The section also mentions a decrease in net charge-offs compared to the previous year, reflecting better recovery rates. Additionally, it provides information on the allowance for loan losses and references further details on the geographic and FICO composition of credit card loans, as well as modifications of loans classified as troubled debt restructurings (TDRs).",
+                          "source": "embedded_toc",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "node_id": "t34",
+                      "title": "Wholesale Credit Portfolio",
+                      "level": 5,
+                      "start_page": 53,
+                      "end_page": 62,
+                      "summary": "The Wholesale Credit Portfolio section details the Firm's exposure to credit risk through various activities, including underwriting and lending. It highlights the management of the wholesale credit portfolio, which includes ongoing reviews of client credit quality and transaction structures. As of March 31, 2021, the section reports on retained loans, lending-related commitments, and changes in credit quality metrics, including criticized and nonperforming exposures. The section also discusses the impact of the COVID-19 pandemic on loan deferrals and modifications, as well as the Firm's strategies for managing credit risk across different industries, including Real Estate and Consumer & Retail.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t35",
+                      "title": "Allowance for Credit Losses",
+                      "level": 5,
+                      "start_page": 63,
+                      "end_page": 64,
+                      "summary": "This section details the Firm's allowance for credit losses, which estimates expected credit losses on financial assets and off-balance sheet commitments. It includes the allowance for loan losses, lending-related commitments, and investment securities. As of March 31, 2021, the allowance decreased due to improvements in macroeconomic conditions, particularly in consumer and wholesale portfolios. The section discusses the impact of the COVID-19 pandemic on credit loss estimates and the reliance on management judgment amid economic uncertainties. It also provides specific figures for allowances, charge-offs, and recoveries across consumer and wholesale categories.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t36",
+                      "title": "Investment Portfolio Risk Management",
+                      "level": 5,
+                      "start_page": 65,
+                      "end_page": 65,
+                      "summary": "This section discusses the management of investment portfolio risk, focusing on the potential loss of principal and reduced returns from both investment securities and principal investments. It details the composition of the investment securities portfolio, primarily held by Treasury and CIO, which amounted to $595.4 billion as of March 31, 2021, with an average credit rating of AA+. The section also covers principal investments, which include privately-held financial instruments and are aligned with the Firm's business strategies, including support for underserved communities. Additionally, it provides aggregate carrying values for tax-oriented and private equity investments as of March 31, 2021, and December 31, 2020, while noting the resilience of these investments amid the COVID-19 pandemic.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t37",
+                  "title": "Market Risk Management",
+                  "level": 4,
+                  "start_page": 66,
+                  "end_page": 70,
+                  "summary": "The Market Risk Management section covers the methodologies and metrics used by JPMorgan Chase to assess and manage market risk, focusing on Value-at-Risk (VaR), earnings-at-risk stress testing, and other sensitivities. It details the firm's VaR framework, including its calculation methods, backtesting processes, and limitations, particularly in the context of market fluctuations and the COVID-19 pandemic. The section also explores earnings-at-risk, evaluating the impact of interest rate changes on net income through various scenarios, and discusses the quantification of market risks related to debt, equity, and funding activities, providing sensitivity data and implications for financial performance.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t38",
+                      "title": "VaR",
+                      "level": 5,
+                      "start_page": 66,
+                      "end_page": 68,
+                      "summary": "This section discusses Value-at-Risk (VaR), a statistical measure used by JPMorgan Chase to estimate potential losses from adverse market movements. It outlines the firm's single VaR framework, which includes both Risk Management VaR and Regulatory VaR, calculated with a one-day holding period and a 95% confidence level. The section provides detailed VaR results for various risk types, highlighting fluctuations due to market conditions and portfolio changes. Additionally, it covers the firm's backtesting process, which assesses the accuracy of VaR predictions against actual gains and losses, noting the number of backtesting exceptions observed. Readers can learn about the limitations of VaR, the impact of COVID-19 on market risk, and the firm's ongoing efforts to enhance its risk measurement methodologies.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t39",
+                      "title": "Earnings-at-risk stress testing",
+                      "level": 5,
+                      "start_page": 69,
+                      "end_page": 69,
+                      "summary": "This section discusses the concept of earnings-at-risk, which measures the impact of interest rate exposure on the Firm's net income, a significant market risk. It outlines how the Firm evaluates structural interest rate risk through simulations of various interest rate scenarios affecting interest-sensitive assets and liabilities. Key scenarios include parallel shifts, steeper yield curves, and flatter yield curves, each assessing potential changes to net interest income over 12 months. The section also highlights the importance of deposit betas and the need for management judgment in negative interest rate environments. Additionally, it provides U.S. dollar and non-U.S. dollar sensitivity data as of March 31, 2021, compared to December 31, 2020.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t40",
+                      "title": "Other sensitivites",
+                      "level": 5,
+                      "start_page": 70,
+                      "end_page": 70,
+                      "summary": "This section discusses the quantification of market risk related to debt, equity, and funding activities by assessing their potential impact on net revenue, other comprehensive income (OCI), and noninterest expense due to market variable changes. It includes a table detailing the potential gains or losses from market risk-sensitive instruments not captured in Value at Risk (VaR) or earnings-at-risk, with specific figures for March 31, 2021, and December 31, 2020. The section highlights various activities such as asset management, funding activities, and derivatives, along with their sensitivity measures and the implications of market fluctuations on financial performance.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t41",
+                  "title": "Country Risk Management",
+                  "level": 4,
+                  "start_page": 71,
+                  "end_page": 71,
+                  "summary": "This section discusses the Firm's exposure to country risk, which can arise from financial, economic, or political developments affecting specific countries. The Country Risk Management group monitors these exposures and assesses diversification relative to the Firm's strategy and risk tolerance. It highlights the impact of the COVID-19 pandemic on country risk and provides a table of the Firm's top 20 country exposures as of March 31, 2021, compared to December 31, 2020. Notably, the increase in exposure to Australia is attributed to client activity and central bank policy decisions. The section also explains the components of country exposures, including lending, trading, and other investments.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t42",
+                  "title": "Operational Risk Management",
+                  "level": 4,
+                  "start_page": 72,
+                  "end_page": 72,
+                  "summary": "This section discusses operational risk management, defining operational risk as the potential for adverse outcomes from inadequate internal processes, human factors, or external events. It covers subcategories of operational risk, including compliance, conduct, legal, and model risk, and highlights the importance of managing these risks in relation to the Firm's financial position and regulatory environment. The section also details specific risks such as business and technology resiliency risks, cybersecurity risks, and payment fraud risks, particularly in the context of challenges posed by the COVID-19 pandemic. The Firm's resiliency program and various controls for managing these risks are emphasized, along with the need for employee and client education.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t43",
+                  "title": "Estimations and Model Risk Management",
+                  "level": 4,
+                  "start_page": 73,
+                  "end_page": 73,
+                  "summary": "This section discusses the concept of estimations and model risk management, highlighting the potential adverse effects of relying on incorrect estimation outputs within operational risk. It outlines the various applications of models and estimation methods across the Firm, including valuation, risk measurement, regulatory capital assessment, stress testing, and business decision-making. The text emphasizes the inherent imprecision of models, particularly in volatile market conditions, such as those experienced during the COVID-19 pandemic, which may require increased judgment in adjusting model outputs. Additionally, it references further details on critical accounting estimates and model risk management in related documents.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "node_id": "t44",
+              "title": "Critical Accounting Estimates Used by the Firm",
+              "level": 3,
+              "start_page": 74,
+              "end_page": 76,
+              "summary": "This section outlines critical accounting estimates used by JPMorgan Chase, including the allowance for credit losses, fair value measurements of financial instruments, goodwill impairment assessments, credit card rewards liability, income tax accounting, and litigation reserves. It emphasizes the significant judgment and assumptions involved in estimating credit losses, fair value, and tax liabilities, particularly in light of economic uncertainties such as the COVID-19 pandemic. The section also provides specific figures for credit card rewards liability and references additional details in the firm's 2020 Form 10-K for further insights into these estimates.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t45",
+                  "title": "Allowance for credit losses",
+                  "level": 4,
+                  "start_page": 74,
+                  "end_page": 74,
+                  "summary": "This section details JPMorgan Chase's allowance for credit losses, which is an estimate of expected credit losses on financial assets and off-balance sheet commitments. It includes the allowance for loan losses, lending-related commitments, and credit losses on investment securities. The estimation process involves significant judgment, including macroeconomic forecasts, historical loss experience, and risk assessments. Key macroeconomic variables affecting credit loss estimates are identified for both consumer and wholesale portfolios. The section also discusses the impact of the COVID-19 pandemic on credit loss estimates and the variability of economic recovery factors.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t46",
+                  "title": "Fair value of financial instruments, MSRs and commodities inventory",
+                  "level": 4,
+                  "start_page": 75,
+                  "end_page": 75,
+                  "summary": "This section discusses the fair value measurement of financial instruments, including the impact of macroeconomic variables on credit loss estimates as of March 31, 2021. It highlights the significant increases in modeled credit loss estimates for various loan categories under adverse scenarios, emphasizing the uncertainty due to the COVID-19 pandemic. The section also details the assets and liabilities carried at fair value, including trading assets, loans, and mortgage servicing rights (MSRs), with specific figures for total assets and level 3 assets. Additionally, it provides insights into the firm's governance process for estimating expected credit losses amidst economic uncertainty.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t47",
+                  "title": "Goodwill impairment",
+                  "level": 4,
+                  "start_page": 76,
+                  "end_page": 76,
+                  "summary": "This section discusses the significant judgment management applies when testing goodwill for impairment, emphasizing the allocation of goodwill from business combinations to related reporting units. It references the need for valuation judgments and directs readers to additional details in JPMorgan Chase's 2020 Form 10-K. The section also mentions the importance of understanding the goodwill impairment assessment as of March 31, 2021, and provides a link to further information in Note 14.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t48",
+                  "title": "Credit card rewards liability",
+                  "level": 4,
+                  "start_page": 76,
+                  "end_page": 76,
+                  "summary": "The credit card rewards liability is reported as $8.0 billion as of March 31, 2021, up from $7.7 billion at December 31, 2020, and is included in accounts payable and other liabilities on the balance sheet. This section discusses the significant assumptions and sensitivities related to the credit card rewards liability, indicating that management judgment plays a crucial role in its estimation. For further details, readers are directed to page 154 of JPMorgan Chase's 2020 Form 10-K, which provides a comprehensive description of the factors influencing this liability.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t49",
+                  "title": "Income taxes",
+                  "level": 4,
+                  "start_page": 76,
+                  "end_page": 76,
+                  "summary": "This section discusses the accounting for income taxes, highlighting the significant assumptions, judgments, and interpretations involved in this process. It references pages 154-155 of JPMorgan Chase's 2020 Form 10-K for a detailed description of these factors. Readers can learn about the complexities and considerations that management must navigate when estimating tax liabilities and the potential impacts on financial reporting. Additionally, it emphasizes the importance of judgment in the context of varying interpretations of tax regulations and the implications for the firm's financial statements.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t50",
+                  "title": "Litigation reserves",
+                  "level": 4,
+                  "start_page": 76,
+                  "end_page": 76,
+                  "summary": "This section discusses the estimation of litigation reserves, emphasizing the significant judgment required in determining fair value, particularly for level 3 instruments with unobservable inputs. It highlights the factors influencing these judgments, such as market conditions, credit quality, and liquidity. The section also notes the potential impact of imprecision in estimating inputs on recorded gains or losses. For further details, it references Note 24 of the current Form 10-Q and Note 30 of the 2020 Form 10-K for a comprehensive overview of the estimates and judgments involved in establishing litigation reserves.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "node_id": "t51",
+              "title": "Accounting and Reporting Developments",
+              "level": 3,
+              "start_page": 77,
+              "end_page": 77,
+              "summary": "This section discusses the Financial Accounting Standards Board (FASB) standards adopted since January 1, 2021, specifically focusing on the Reference Rate Reform issued in March 2020 and updated in January 2021. It outlines the optional expedients and exceptions provided for financial instruments and hedge accounting relationships affected by reference rate changes. Key provisions include the ability to treat certain contract amendments as modifications, maintain hedge accounting relationships despite changes, and a one-time election for transferring securities. The firm applied these expedients starting in Q3 2020, which did not materially impact the Consolidated Financial Statements.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t52",
+              "title": "Forward-Looking Statements",
+              "level": 3,
+              "start_page": 78,
+              "end_page": 78,
+              "summary": "This section discusses JPMorgan Chase's use of forward-looking statements, which are identified by language indicating future expectations or forecasts. It outlines the nature of these statements and the inherent risks and uncertainties that could cause actual results to differ materially from those projected. Specific factors influencing these outcomes include economic conditions, regulatory changes, market behavior, and operational challenges. The section emphasizes that forward-looking statements are not guarantees and that the firm does not commit to updating them after their initial release.",
+              "source": "embedded_toc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "node_id": "t53",
+          "title": "Item 1. Financial Statements.",
+          "level": 2,
+          "start_page": 79,
+          "end_page": 171,
+          "summary": "This section provides a detailed overview of JPMorgan Chase & Co.'s financial performance for the three months ended March 31, 2021, including consolidated financial statements, notes on financial reporting, and an independent auditor's review. It highlights significant metrics such as net income growth, total assets, and changes in stockholders' equity, while also discussing cash flow activities and risk management strategies. Additionally, it includes average balance sheets and interest rates, along with a glossary of financial terms and metrics across various business lines, offering insights into the bank's operations and compliance with regulatory standards.",
+          "source": "embedded_toc",
+          "children": [
+            {
+              "node_id": "t54",
+              "title": "Consolidated Financial Statements – JPMorgan Chase & Co.",
+              "level": 3,
+              "start_page": 79,
+              "end_page": 83,
+              "summary": "The section provides a comprehensive overview of JPMorgan Chase & Co.'s consolidated financial statements for the three months ended March 31, 2021, and 2020. It includes detailed consolidated statements of income, comprehensive income, balance sheets, changes in stockholders' equity, and cash flows, highlighting significant financial metrics such as net income growth from $2,865 million in 2020 to $14,300 million in 2021, and total assets increasing to $3,689,336 million. The section also discusses components of comprehensive income, stockholders' equity changes, and cash flow activities, including substantial cash movements in operating, investing, and financing activities. Overall, it serves to inform stakeholders about the company's financial performance, profitability, and cash management during the specified period.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t55",
+                  "title": "Consolidated statements of income",
+                  "level": 4,
+                  "start_page": 79,
+                  "end_page": 79,
+                  "summary": "This section presents the consolidated statements of income for JPMorgan Chase & Co. for the three months ended March 31, 2021, and 2020, detailing revenue sources such as investment banking fees, principal transactions, and noninterest revenue. It highlights significant changes in net income, which increased from $2,865 million in 2020 to $14,300 million in 2021, alongside a rise in basic earnings per share from $0.79 to $4.51. The document also outlines expenses, including compensation and noninterest expenses, and provides insights into the provision for credit losses and income tax expenses. Overall, it serves to inform stakeholders about the company's financial performance and profitability over the specified period.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t56",
+                  "title": "Consolidated statements of comprehensive income",
+                  "level": 4,
+                  "start_page": 80,
+                  "end_page": 80,
+                  "summary": "This section presents the consolidated statements of comprehensive income for JPMorgan Chase & Co. for the three months ended March 31, 2021, and 2020. It details net income figures, showing a significant increase from $2,865 million in 2020 to $14,300 million in 2021. The section also outlines other comprehensive income/loss components, including unrealized gains/losses on investment securities and adjustments related to hedges and pension plans. The total other comprehensive income/loss reflects a substantial decrease from $5,849 million in 2020 to $(6,945) million in 2021, resulting in a comprehensive income of $7,355 million for 2021 compared to $8,714 million for 2020.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t57",
+                  "title": "Consolidated balance sheets",
+                  "level": 4,
+                  "start_page": 81,
+                  "end_page": 81,
+                  "summary": "This section presents the consolidated balance sheets of JPMorgan Chase & Co. as of March 31, 2021, and December 31, 2020, detailing the company's assets, liabilities, and stockholders' equity. Key figures include total assets of $3,689,336 million, a significant increase from $3,384,757 million in the previous period. The balance sheet outlines various asset categories such as cash, loans, and securities, as well as liabilities including deposits and long-term debt. Additionally, it provides insights into stockholders' equity, highlighting changes in preferred stock, retained earnings, and treasury stock. The section also includes information on consolidated variable interest entities (VIEs), detailing their assets and liabilities.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t58",
+                  "title": "Consolidated statements of changes in stockholders' equity",
+                  "level": 4,
+                  "start_page": 82,
+                  "end_page": 82,
+                  "summary": "This section presents the consolidated statements of changes in stockholders' equity for JPMorgan Chase & Co. for the three months ended March 31, 2021, and 2020. It details the movements in preferred stock, common stock, additional paid-in capital, retained earnings, accumulated other comprehensive income, shares held in RSU Trust, and treasury stock. Key figures include the increase in preferred stock balance due to issuance, the net income for the period, and the total stockholders' equity, which rose to $280,714 million in 2021 from $261,262 million in 2020. The section highlights the impact of dividends declared and stock repurchases on equity.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t59",
+                  "title": "Consolidated statements of cash flows",
+                  "level": 4,
+                  "start_page": 83,
+                  "end_page": 83,
+                  "summary": "This section presents the consolidated statements of cash flows for JPMorgan Chase & Co. for the three months ended March 31, 2021, and 2020, detailing cash flows from operating, investing, and financing activities. Key figures include net income, adjustments for credit losses, and changes in trading assets and liabilities. The section highlights significant cash movements, such as a net cash used in operating activities of $43,872 million in 2021, compared to $120,089 million in 2020. It also reports net cash provided by investing activities of $15,391 million and net cash provided by financing activities of $218,911 million. The ending cash balance increased to $711,072 million, reflecting the overall cash management during the period.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "node_id": "t60",
+              "title": "Notes to Consolidated Financial Statements",
+              "level": 3,
+              "start_page": 84,
+              "end_page": 160,
+              "summary": "The Notes to Consolidated Financial Statements section provides detailed disclosures on JPMorgan Chase & Co.'s financial reporting, including the basis of presentation, fair value measurements, and the fair value option for financial instruments. It covers various aspects of derivative instruments, noninterest revenue and expenses, interest income and expenses, and employee benefits. Additionally, it discusses loans, credit loss allowances, variable interest entities, goodwill, deposits, leases, preferred stock, earnings per share, accumulated other comprehensive income, regulatory capital, off-balance sheet instruments, pledged assets, litigation, and business segments. This comprehensive overview highlights the firm's financial performance, risk management strategies, and compliance with regulatory requirements.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t61",
+                  "title": "Note 1 - Basis of presentation",
+                  "level": 4,
+                  "start_page": 84,
+                  "end_page": 84,
+                  "summary": "This section outlines the basis of presentation for JPMorgan Chase & Co.'s unaudited Consolidated Financial Statements, which conform to U.S. GAAP and regulatory guidelines. It emphasizes the need for management estimates and assumptions that impact reported financial figures, noting that actual results may vary. The section also discusses the consolidation of accounts, specifying that only entities with a controlling financial interest are included, and clarifies that client-held assets are not part of the Firm's balance sheets. Additionally, it addresses the offsetting of assets and liabilities under U.S. GAAP, particularly regarding derivative transactions and securities financing activities, contingent on the existence of legally enforceable agreements.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t62",
+                  "title": "Note 2 - Fair value measurement",
+                  "level": 4,
+                  "start_page": 85,
+                  "end_page": 96,
+                  "summary": "This section covers fair value measurement of financial instruments, focusing on Level 3 assets that utilize significant unobservable inputs for valuation. It discusses valuation techniques, changes in fair value, and the impact of market conditions on various financial instruments, including mortgage servicing rights and derivatives. Additionally, it addresses the measurement of assets and liabilities at fair value on a nonrecurring basis, detailing specific figures and classifications within the fair value hierarchy. The section also examines equity securities without readily determinable fair values and provides disclosures on the estimated fair value of financial instruments not recorded at fair value on the balance sheet, highlighting the estimation methods and differences between carrying and estimated fair values.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t63",
+                      "title": "Fair value measurements using significant unobservable inputs",
+                      "level": 5,
+                      "start_page": 88,
+                      "end_page": 92,
+                      "summary": "This section discusses the fair value measurements of financial instruments classified as Level 3, which rely on significant unobservable inputs. It details the valuation techniques used, such as discounted cash flows and market comparables, along with the range and average values of key unobservable inputs like yield, prepayment speed, and credit correlation. The section also provides a rollforward of Level 3 financial instruments, showing changes in fair value, transfers in and out of Level 3, and the impact of observable factors on these valuations. Additionally, it highlights the importance of understanding the characteristics of the instruments and the uncertainty associated with the inputs used in their valuation.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t64",
+                      "title": "Credit adjustments & Assets and liabilities measured at FV on a nonrecurring basis",
+                      "level": 5,
+                      "start_page": 93,
+                      "end_page": 93,
+                      "summary": "This section discusses credit adjustments and the measurement of assets and liabilities at fair value on a nonrecurring basis. It details the reporting of changes in fair value for various financial instruments, including mortgage servicing rights (MSRs) and derivatives, highlighting their impact on principal transactions revenue and other income. The section also provides insights into Level 3 assets, noting a $952 million increase in MSRs for the three months ended March 31, 2021. Additionally, it outlines realized and unrealized gains and losses, emphasizing the effects of market movements on long-term debt and derivatives. Finally, it presents credit and funding adjustments related to derivatives, illustrating their influence on revenue across the specified periods.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t65",
+                      "title": "Assets and liabilities measured at fair value on a nonrecurring basis",
+                      "level": 5,
+                      "start_page": 94,
+                      "end_page": 94,
+                      "summary": "This section details the assets and liabilities measured at fair value on a nonrecurring basis as of March 31, 2021, and 2020, including their classification within the fair value hierarchy. It provides specific figures for loans and other assets, highlighting the total fair value adjustments made during the three months ended March 31 for both years. The section also breaks down the changes in value for these assets and liabilities, indicating significant losses in loans and accounts payable. Additionally, it explains the classification of certain equity securities and residential real estate loans as Level 3 assets due to their valuation methods and infrequent observable prices.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t66",
+                      "title": "Equity securities without readily determinable fair values",
+                      "level": 5,
+                      "start_page": 95,
+                      "end_page": 95,
+                      "summary": "This section discusses the measurement of equity securities without readily determinable fair values, which are recorded at cost less any impairment, adjusted for observable price changes from similar investments. It outlines the criteria for adjusting carrying values based on the rights and obligations of similar securities and the Firm's valuation techniques. The section includes a table detailing the carrying values of these securities as of March 31 for 2021 and 2020, highlighting upward and downward changes in value. Additionally, it mentions the Firm's interest in Visa Class B common shares, including their nominal carrying value and conversion details related to ongoing litigation.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t67",
+                      "title": "Estimated FV of Financial Instruments",
+                      "level": 5,
+                      "start_page": 96,
+                      "end_page": 96,
+                      "summary": "This section provides additional disclosures regarding the fair value of financial instruments not recorded at fair value on the balance sheet. It includes a detailed table showing the carrying values and estimated fair values of various financial assets and liabilities as of March 31, 2021, and December 31, 2020, classified by fair value hierarchy levels (Level 1, Level 2, Level 3). Key topics include the estimation methods for fair value, particularly for loans, which consider factors like interest rates and expected credit losses. The section also notes that the firm does not estimate the fair value of certain consumer off-balance sheet lending-related commitments, highlighting the differences between carrying values and estimated fair values due to market conditions.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t68",
+                  "title": "Note 3 - Fair value option",
+                  "level": 4,
+                  "start_page": 97,
+                  "end_page": 99,
+                  "summary": "This section discusses the fair value option, which allows the Firm to measure certain financial instruments at fair value to reduce income statement volatility and better align with risk management practices. It details the types of instruments elected for fair value measurement, including loans from securitization activities, certain securities financing agreements, and structured notes. The section also presents changes in fair value for selected instruments over specific periods, highlighting the impact on the consolidated statements of income. Additionally, it provides a comparison of aggregate fair value versus contractual principal balances for loans and long-term debt, as well as a breakdown of structured notes by risk type and balance sheet classification.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t69",
+                  "title": "Note 4 - Derivative instruments",
+                  "level": 4,
+                  "start_page": 100,
+                  "end_page": 110,
+                  "summary": "This section covers various aspects of derivative instruments, including free-standing derivatives, netting and collateral, liquidity risk, hedging designations, risk management gains and losses, and credit derivatives. It provides detailed financial data on derivative receivables and payables, categorizing them by contract type and accounting designation. The impact of liquidity risk and credit-related features on derivatives is discussed, particularly in relation to ratings downgrades. Additionally, it outlines the effects of hedging on income statements and details gains and losses from risk management activities. The section also includes a summary of credit derivatives, emphasizing risk management strategies and notional amounts.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t70",
+                      "title": "Free-standing derivatives",
+                      "level": 5,
+                      "start_page": 102,
+                      "end_page": 102,
+                      "summary": "This section provides a detailed summary of free-standing derivative receivables and payables as reflected on the Firm's Consolidated balance sheets for March 31, 2021, and December 31, 2020. It categorizes derivatives by their accounting designation, indicating whether they are designated as hedges or not, and breaks down the data by contract type including interest rate, credit, foreign exchange, equity, and commodity. The section includes gross and net values for derivative receivables and payables, highlighting significant changes over the specified periods. Readers can learn about the impact of derivatives on the balance sheet and the overall fair value of trading assets and liabilities.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t71",
+                      "title": "Derivatives netting and collateral",
+                      "level": 5,
+                      "start_page": 103,
+                      "end_page": 104,
+                      "summary": "This section details the netting of derivatives receivables and payables as of March 31, 2021, and December 31, 2020, including the impact of cash collateral and legal opinions on netting eligibility. It explains how derivative amounts are presented on the Consolidated balance sheets, highlighting the distinction between nettable and non-nettable amounts. The section includes tables showing gross and net derivative figures by contract type, such as interest rate, credit, foreign exchange, equity, and commodity contracts. Additionally, it discusses collateral types that mitigate counterparty credit risk but are not eligible for net presentation, including liquid securities and cash held at third-party custodians.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t72",
+                      "title": "Liquidity risk and credit-related contingent features",
+                      "level": 5,
+                      "start_page": 105,
+                      "end_page": 105,
+                      "summary": "This section discusses liquidity risk and credit-related contingent features associated with JPMorgan Chase's derivative contracts, specifically focusing on the impact of ratings downgrades. It provides detailed tables showing the aggregate fair value of net derivative payables and collateral posted as of March 31, 2021, and December 31, 2020. The section also outlines the liquidity impact of single-notch and two-notch downgrades on OTC and OTC-cleared derivatives, detailing the additional collateral required and potential termination payments. Additionally, it mentions transactions involving the transfer of financial assets while maintaining economic exposure through derivatives, noting that such transfers were not material during the reporting periods.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t73",
+                      "title": "Derivatives designated as hedges",
+                      "level": 5,
+                      "start_page": 106,
+                      "end_page": 108,
+                      "summary": "This section discusses the impact of derivatives designated as hedges on the Consolidated statements of income, focusing on fair value and cash flow hedge accounting. It provides detailed tables showing pre-tax gains and losses for various contract types, including interest rate, foreign exchange, and commodity derivatives for the periods ending March 31, 2021, and 2020. The section also outlines the cumulative fair value hedge basis adjustments on the balance sheet and their expected future reversals. Additionally, it highlights the expected recognition of net gains from cash flow hedges in income over the next 12 months and the maximum duration for recognizing gains from terminated hedges.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t74",
+                      "title": "Risk management derivatives gains and losses",
+                      "level": 5,
+                      "start_page": 109,
+                      "end_page": 109,
+                      "summary": "This section details the net investment hedge gains and losses from derivatives for the three months ending March 31, 2021, and 2020. It includes tables showing pre-tax gains and losses from foreign exchange derivatives and other specified risk management derivatives, highlighting significant fluctuations in recorded amounts. The section explains the treatment of certain components of hedging derivatives and categorizes gains and losses based on their purpose, such as interest rate, credit, and foreign exchange derivatives. Additionally, it discusses derivatives related to market-making activities and their impact on principal transactions revenue.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t75",
+                      "title": "Credit derivatives",
+                      "level": 5,
+                      "start_page": 110,
+                      "end_page": 110,
+                      "summary": "This section discusses credit derivatives, including a summary of notional amounts for credit derivatives and credit-related notes as of March 31, 2021, and December 31, 2020. It highlights the firm's approach to risk management, emphasizing that notional amounts do not fully capture risk due to factors like credit event probabilities and recovery values. The section provides detailed tables showing maximum payouts, protection sold and purchased, and fair values categorized by risk ratings and maturity profiles. Additionally, it notes the types of credit derivatives involved, such as credit default swaps and credit swap options.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t76",
+                  "title": "Note 5 - Noninterest revenue and noninterest expense",
+                  "level": 4,
+                  "start_page": 111,
+                  "end_page": 111,
+                  "summary": "This section details JPMorgan Chase's noninterest revenue and noninterest expenses, highlighting key components such as investment banking fees, trading revenue, and asset management fees for the first quarter of 2021 compared to 2020. It provides specific figures for underwriting, advisory, and principal transactions, as well as lending- and deposit-related fees. The section also breaks down trading revenue by instrument type and outlines card income components, including interchange and merchant processing income. Overall, it serves to inform readers about the firm's revenue streams and financial performance in various segments.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t77",
+                  "title": "Note 6 - Interest income and Interest expense",
+                  "level": 4,
+                  "start_page": 112,
+                  "end_page": 112,
+                  "summary": "This section details JPMorgan Chase's interest income and interest expense for the three months ended March 31, 2021, compared to the same period in 2020. It provides a breakdown of interest income from various sources, including loans, taxable and non-taxable securities, and trading assets, totaling $14,271 million in 2021. Interest expense is also itemized, showing a total of $1,382 million for the same period, with significant reductions in expenses from interest-bearing deposits and long-term debt. The net interest income after accounting for provisions for credit losses is reported as $17,045 million, highlighting the firm's financial performance in this area.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t78",
+                  "title": "Note 7 - Pension and other postretirement employee benefit plans",
+                  "level": 4,
+                  "start_page": 113,
+                  "end_page": 113,
+                  "summary": "This section outlines the components of net periodic benefit costs associated with JPMorgan Chase's pension and other postretirement employee benefit plans, as reflected in the Consolidated statements of income. It provides detailed financial figures for the three months ended March 31 for both 2021 and 2020, including benefits earned, interest costs, expected returns on plan assets, and amortization of gains or losses. The total net periodic defined benefit plan cost and defined contribution plan costs are specified, along with the fair values of plan assets for the defined benefit pension and OPEB plans as of March 31, 2021, and December 31, 2020.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t79",
+                      "title": "Components of net periodic benefit costs",
+                      "level": 5,
+                      "start_page": 113,
+                      "end_page": 113,
+                      "summary": "This section details the components of net periodic benefit costs for JPMorgan Chase's pension and other postretirement employee benefit plans, as reported in the Consolidated statements of income. It includes specific financial figures for the three months ended March 31 for both 2021 and 2020, such as benefits earned, interest costs, expected returns on plan assets, and amortization of gains or losses. The total net periodic defined benefit plan cost is provided, along with the total costs for defined contribution plans. Additionally, it presents the fair values of plan assets for the defined benefit pension and OPEB plans as of March 31, 2021, and December 31, 2020.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t80",
+                  "title": "Note 8 - Employee share-based incentives",
+                  "level": 4,
+                  "start_page": 114,
+                  "end_page": 114,
+                  "summary": "This section discusses the noncash compensation expenses related to employee share-based incentive plans for JPMorgan Chase. It provides specific figures for the first quarter of 2021 and 2020, detailing costs associated with restricted stock units (RSUs), performance share units (PSUs), and stock options. The total noncash compensation expense for 2021 was $904 million, compared to $644 million in 2020. Additionally, it mentions the granting of 17 million RSUs and 678 thousand PSUs in 2021, along with their weighted-average fair values. For further details on accounting policies, it refers to Note 9 of the 2020 Form 10-K.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t81",
+                  "title": "Note 9 - Investment securities",
+                  "level": 4,
+                  "start_page": 115,
+                  "end_page": 118,
+                  "summary": "Note 9 discusses the composition and valuation of JPMorgan Chase's investment securities, which include available-for-sale (AFS) and held-to-maturity (HTM) debt securities. As of March 31, 2021, the total investment securities amounted to $596.2 billion, with a significant portion rated AA+ or higher. The section provides detailed tables showing the amortized costs, fair values, and unrealized gains and losses for various categories of securities, including mortgage-backed and U.S. Treasury securities. It also addresses the allowance for credit losses, indicating no allowance was recognized for impaired AFS securities, and highlights the realized gains and losses from investment securities for the first quarter of 2021. Additionally, the contractual maturities and average yields of the securities are presented, offering insights into the firm's investment strategy and risk management.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t82",
+                  "title": "Note 10 - Securities financing activities",
+                  "level": 4,
+                  "start_page": 119,
+                  "end_page": 120,
+                  "summary": "This section discusses JPMorgan Chase's securities financing activities, detailing accounting policies and providing a summary of gross and net amounts of securities financing agreements as of March 31, 2021, and December 31, 2020. It explains the conditions under which the firm nets balances on its balance sheets and the treatment of collateral exchanged with counterparties. The section includes tables that present the types of financial assets pledged in these agreements, their gross liability balances, and the remaining contractual maturity of the agreements. Additionally, it notes the financial assets transferred to third parties that did not qualify as sales under U.S. GAAP, which are recorded as collateralized financing transactions.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t83",
+                  "title": "Note 11 - Loans",
+                  "level": 4,
+                  "start_page": 121,
+                  "end_page": 133,
+                  "summary": "Note 11 - Loans provides a comprehensive overview of the Firm's loan portfolios, segmented into consumer loans (excluding credit cards), credit card loans, and wholesale loans. The consumer loan subsection covers residential mortgages, home equity loans, auto loans, and business banking loans, detailing loan balances, delinquency rates, and the effects of COVID-19 on performance metrics. The credit card loan subsection focuses on delinquency rates, specific statistics for retained loans, and the implications of loan modifications classified as Troubled Debt Restructurings (TDRs). The wholesale loan portfolio section discusses credit quality indicators, including internal risk ratings, and presents data on investment-grade versus non-investment-grade loans, along with the impact of loan modifications on overall performance.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t84",
+                      "title": "Consumer, excluding credit card loan portfolio",
+                      "level": 5,
+                      "start_page": 123,
+                      "end_page": 128,
+                      "summary": "This section details the consumer loan portfolio, excluding credit card loans, which includes residential mortgages, home equity loans, auto loans, and business banking loans. It provides statistics on loan balances, delinquency rates, and credit quality indicators, highlighting the performance of residential real estate and auto loans. The section also discusses loan modifications, including Troubled Debt Restructurings (TDRs), and their financial implications. Additionally, it addresses the impact of COVID-19 on foreclosure activities and loan performance metrics.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t85",
+                      "title": "Credit card loan portfolio",
+                      "level": 5,
+                      "start_page": 129,
+                      "end_page": 130,
+                      "summary": "This section details the credit card loan portfolio of the Firm, focusing on delinquency rates as the primary credit quality indicator. It provides specific delinquency statistics for retained credit card loans as of March 31, 2021, and December 31, 2020, including the total loan amounts and delinquency ratios. Additionally, it discusses loan modifications offered to borrowers in financial difficulty, including terms and the classification of these modifications as Troubled Debt Restructurings (TDRs). The section also presents financial effects of these modifications, including interest rate changes and redefault rates within one year of modification.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t86",
+                      "title": "Wholesale loan portfolio",
+                      "level": 5,
+                      "start_page": 131,
+                      "end_page": 133,
+                      "summary": "The Wholesale Loan Portfolio section details the composition and credit quality of wholesale loans, which are extended to various clients including corporations and high-net-worth individuals. It emphasizes the internal risk ratings as the primary indicator of credit quality, providing specific data on investment-grade and non-investment-grade loans across different categories such as secured by real estate and commercial loans. The section includes tables showing the distribution of loans by risk ratings, geographic distribution, delinquency status, and net charge-offs. Additionally, it discusses loan modifications and troubled debt restructurings (TDRs), highlighting their impact on the portfolio's overall performance.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t87",
+                  "title": "Note 12 - Allowance for credit losses",
+                  "level": 4,
+                  "start_page": 134,
+                  "end_page": 136,
+                  "summary": "This section discusses the allowance for credit losses, which is the management's estimate of expected credit losses for financial assets at amortized cost and certain off-balance sheet commitments. It provides detailed tables summarizing the allowances for loan losses and lending-related commitments, including breakdowns by impairment methodology for both consumer and wholesale loans. The section also highlights changes in the allowance as of March 31, 2021, noting a decrease due to improvements in macroeconomic conditions, particularly in the credit card and residential real estate portfolios. Additionally, it addresses the challenges posed by the COVID-19 pandemic on credit loss estimates and the reliance on management judgment amidst economic uncertainties.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t88",
+                  "title": "Note 13 - Variable interest entities",
+                  "level": 4,
+                  "start_page": 137,
+                  "end_page": 142,
+                  "summary": "This section details JPMorgan Chase's involvement with variable interest entities (VIEs), including the types of VIEs it sponsors across various business segments such as credit card and mortgage securitization trusts. It outlines the firm's continuing involvement in these entities, including the nature of its investments and the accounting treatment applied. The section also provides specific financial data on consolidated and nonconsolidated VIEs, including total assets, liabilities, and the firm's maximum loss exposure. Additionally, it discusses the firm's role in third-party sponsored VIEs and tax credit vehicles, emphasizing the firm's risk management strategies and financial commitments related to these entities.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t89",
+                  "title": "Note 14 - Goodwill and mortgage servicing rights",
+                  "level": 4,
+                  "start_page": 143,
+                  "end_page": 145,
+                  "summary": "This section discusses goodwill and mortgage servicing rights (MSRs) for JPMorgan Chase. It provides detailed tables showing the allocation and changes in goodwill across business segments, with a total goodwill of $49.243 billion as of March 31, 2021. The section also outlines the impairment testing process for goodwill, noting that no impairments were recorded during the reporting period. Additionally, it explains MSRs, including their fair value calculations, changes in valuation due to market conditions, and the impact of servicing activities. The section concludes with a summary of mortgage fees and related income, highlighting significant changes in revenue and the economic assumptions used to determine MSR fair values.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t90",
+                  "title": "Note 15 - Deposits",
+                  "level": 4,
+                  "start_page": 146,
+                  "end_page": 146,
+                  "summary": "This section provides detailed information on JPMorgan Chase's deposits as of March 31, 2021, and December 31, 2020. It breaks down total deposits into noninterest-bearing and interest-bearing categories for both U.S. and non-U.S. offices, with specific figures in millions. The total deposits amount to $2,278,112 million as of March 31, 2021, compared to $2,144,257 million at the end of 2020. Additionally, it notes the inclusion of structured notes classified as deposits at fair value, directing readers to Note 3 for more details.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t91",
+                  "title": "Note 16 - Leases",
+                  "level": 4,
+                  "start_page": 146,
+                  "end_page": 146,
+                  "summary": "Note 16 discusses JPMorgan Chase's lease obligations as of March 31, 2021, detailing both operating leases as lessee and lessor. The firm has recognized right-of-use (ROU) assets of $7,938 million and lease liabilities of $8,421 million. It reports a net rental expense of $490 million for the first quarter of 2021. Additionally, as a lessor, the firm generated operating lease income of $1,325 million, with related depreciation expenses of $934 million. The section provides insights into the financial implications of the firm's leasing activities and their impact on the balance sheet and income statement.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t92",
+                  "title": "Note 17 - Preferred stock",
+                  "level": 4,
+                  "start_page": 147,
+                  "end_page": 147,
+                  "summary": "This section provides a detailed overview of JPMorgan Chase's non-cumulative preferred stock as of March 31, 2021, including the number of shares, carrying values, contractual rates, earliest redemption dates, and declared dividends for various series. It highlights the total preferred stock outstanding, which amounted to 3,156,250 shares with a liquidation value of $31.9 billion. Additionally, it notes the redemption announcements for Series AA and Series BB preferred stocks scheduled for June 1, 2021, and the previous redemption of Series Y on March 1, 2020. Readers can learn about the specific terms and conditions associated with each series of preferred stock, including dividend rates and redemption details.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t93",
+                  "title": "Note 18 - Earnings per share",
+                  "level": 4,
+                  "start_page": 148,
+                  "end_page": 148,
+                  "summary": "This section provides a detailed calculation of basic and diluted earnings per share (EPS) for JPMorgan Chase for the three months ended March 31, 2021, and 2020. It includes net income figures, preferred stock dividends, and adjustments for participating securities. The basic EPS for 2021 is reported as $4.51, compared to $0.79 in 2020, while diluted EPS is $4.50 for 2021 and $0.78 for 2020. The section also outlines the total weighted-average shares outstanding for both basic and diluted calculations, highlighting the impact of stock options and other equity instruments on diluted EPS.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t94",
+                  "title": "Note 19 - Accumulated other comprehensive income/(loss)",
+                  "level": 4,
+                  "start_page": 149,
+                  "end_page": 149,
+                  "summary": "Note 19 details the components of Accumulated Other Comprehensive Income (AOCI), which includes after-tax changes in unrealized gains and losses on investment securities, foreign currency translation adjustments, fair value changes from hedges, and defined benefit pension plan adjustments. The section provides a comparative analysis of AOCI balances as of March 31 for the years 2021 and 2020, highlighting significant changes in various components. For instance, there was a notable decrease in unrealized gains on investment securities and cash flow hedges in 2021 compared to 2020. The note also includes a breakdown of pre-tax and after-tax changes in these components, offering insights into the financial impacts of these adjustments on the firm's overall comprehensive income.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t95",
+                  "title": "Note 20 - Restricted cash and other restricted assets",
+                  "level": 4,
+                  "start_page": 150,
+                  "end_page": 150,
+                  "summary": "This section discusses JPMorgan Chase's restricted cash and other restricted assets, detailing the regulatory restrictions imposed on the firm's cash and assets by various authorities. It provides a breakdown of restricted cash as of March 31, 2021, and December 31, 2020, including amounts segregated for securities and cleared derivative customers, as well as cash reserves at non-U.S. central banks. Additionally, it lists other restricted assets, such as cash and securities pledged with clearing organizations and securities restricted due to customer activity. The section emphasizes the importance of compliance with regulatory requirements in the firm's operations.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t96",
+                  "title": "Note 21 - Regulatory capital",
+                  "level": 4,
+                  "start_page": 150,
+                  "end_page": 151,
+                  "summary": "This section discusses the regulatory capital requirements for JPMorgan Chase, established by the Federal Reserve and the OCC, including minimum ratios for CET1 capital, Tier 1 capital, Total capital, Tier 1 leverage, and the Supplementary Leverage Ratio (SLR). It outlines the consequences of failing to meet these requirements and provides a table of the minimum and well-capitalized ratios applicable to the Firm and its subsidiaries as of March 31, 2021, and December 31, 2020. Additionally, it details the impact of the CECL regulatory capital transition provisions, which allow for a delay in the effects of CECL on regulatory capital, and presents the risk-based and leverage-based capital metrics for both JPMorgan Chase and its bank subsidiary under Basel III standards.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t97",
+                  "title": "Note 22 - Off-balance sheet lending-related financial instruments, guarantees and other commitments",
+                  "level": 4,
+                  "start_page": 152,
+                  "end_page": 154,
+                  "summary": "This section details JPMorgan Chase's off-balance sheet lending-related financial instruments, including commitments and guarantees, which address customer financing needs. It outlines the maximum credit risk associated with these instruments and notes that many commitments are typically refinanced or expire without being drawn. The section provides a summary of contractual amounts and carrying values as of March 31, 2021, and December 31, 2020, for various lending-related products, including consumer and wholesale commitments. Additionally, it discusses the allowance for credit losses related to these commitments and the nature of standby letters of credit and other guarantees. The section also touches on derivatives qualifying as guarantees and the firm's contingent liabilities related to merchant charge-backs.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t98",
+                  "title": "Note 23 - Pledged assets and collateral",
+                  "level": 4,
+                  "start_page": 155,
+                  "end_page": 155,
+                  "summary": "This section discusses the Firm's pledged assets and collateral, detailing the financial assets pledged to maintain borrowing capacity and for various financing agreements. It provides specific figures for pledged assets as of March 31, 2021, and December 31, 2020, including amounts that can be sold or repledged. The section also outlines the collateral accepted by the Firm, including its fair value and usage in securities financing agreements and derivative contracts. Additionally, it references related notes for further information on long-term debt and consolidated VIEs.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t99",
+                  "title": "Note 24 - Litigation",
+                  "level": 4,
+                  "start_page": 156,
+                  "end_page": 159,
+                  "summary": "As of March 31, 2021, JPMorgan Chase and its affiliates are involved in numerous legal proceedings, including civil litigations and regulatory investigations across various jurisdictions. The estimated range of reasonably possible losses from these proceedings is between $0 and $1.5 billion, reflecting the complexity and uncertainty of the cases. Key ongoing litigations include investigations related to the Amrapali housing projects in India, a claim by the Federal Republic of Nigeria regarding escrow payments, and various antitrust actions related to foreign exchange and interchange fees. The section also discusses the firm's responses to LIBOR-related investigations and other benchmark rate litigations, as well as ongoing class actions concerning precious metals and U.S. Treasuries. The firm maintains reserves for these legal matters and evaluates them quarterly, but the ultimate outcomes remain uncertain and could significantly impact financial results.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t100",
+                  "title": "Note 25 - Business segments",
+                  "level": 4,
+                  "start_page": 160,
+                  "end_page": 160,
+                  "summary": "This section outlines the business segments of the Firm, which are categorized into four major reportable segments: Consumer & Community Banking, Corporate & Investment Bank, Commercial Banking, and Asset & Wealth Management, along with a Corporate segment. It explains how these segments are defined based on products, services, and customer types, and how financial information is evaluated by the Operating Committee. The section also provides detailed segment results for the three months ended March 31, 2021, and 2020, including noninterest revenue, net interest income, total net revenue, and net income for each segment. Additionally, it discusses capital allocation and the methodology for assigning equity to each segment, with references to further details in the 2020 Form 10-K.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "node_id": "t101",
+              "title": "Report of Independent Registered Public Accounting Firm",
+              "level": 3,
+              "start_page": 161,
+              "end_page": 161,
+              "summary": "This section contains the report from PricewaterhouseCoopers LLP, the independent registered public accounting firm, regarding their review of JPMorgan Chase & Co.'s interim financial statements as of March 31, 2021. The firm confirms that they are not aware of any material modifications needed for the financial statements to conform with U.S. generally accepted accounting principles. It also references a previous audit conducted for the year ending December 31, 2020, where an unqualified opinion was expressed. The report outlines the responsibilities of the firm's management and the scope of the review, which is less comprehensive than a full audit.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t102",
+              "title": "Consolidated Average Balance Sheets, Interest and Rates",
+              "level": 3,
+              "start_page": 162,
+              "end_page": 162,
+              "summary": "This section presents the consolidated average balance sheets, interest, and rates for JPMorgan Chase & Co. for the three months ended March 31, 2021, and 2020. It details average balances, interest earned, and annualized rates for various asset categories, including deposits, loans, and securities. The section also outlines total interest-earning assets and liabilities, highlighting changes in net interest income and interest rate spreads between the two periods. Readers can learn about the bank's financial performance, interest rate trends, and the impact of market conditions on earnings.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t103",
+              "title": "Glossary of Terms and Acronyms and Line of Business Metrics",
+              "level": 3,
+              "start_page": 163,
+              "end_page": 171,
+              "summary": "This section provides a comprehensive glossary of terms and acronyms related to financial metrics across various lines of business, including Consumer & Community Banking, Corporate & Investment Bank, Commercial Banking, and Asset & Wealth Management. It details key revenue components such as debit and credit card sales volume, mortgage servicing revenue, and investment banking fees. Additionally, it outlines the origination channels for mortgage loans and the client types served in different banking segments. Performance measures for asset management, including mutual fund ratings and quartile rankings, are also highlighted, offering insights into the effectiveness of investment strategies.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t104",
+                  "title": "Line of Business Metrics",
+                  "level": 4,
+                  "start_page": 169,
+                  "end_page": 171,
+                  "summary": "This section outlines key metrics for various lines of business within a financial institution, including Consumer & Community Banking (CCB), Corporate & Investment Bank (CIB), Commercial Banking (CB), and Asset & Wealth Management (AWM). It details specific revenue components such as debit and credit card sales volume, mortgage servicing revenue, and investment banking fees. Additionally, it describes the origination channels for mortgage loans and the types of clients served across different banking segments. The section also highlights performance measures for asset management, including mutual fund ratings and quartile rankings, providing insights into the effectiveness of investment strategies.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "t105",
+          "title": "Item 3. Quantitative and Qualitative Disclosures About Market Risk.",
+          "level": 2,
+          "start_page": 172,
+          "end_page": 172,
+          "summary": "This section refers readers to the Market Risk Management section of Management’s discussion and analysis and pages 135–142 of JPMorgan Chase’s 2020 Form 10-K for detailed quantitative and qualitative disclosures about market risk. It emphasizes the importance of understanding the firm's exposure to market fluctuations and the methodologies used to assess these risks. Additionally, it highlights the potential impact of the COVID-19 pandemic on market conditions and the firm's financial performance, including disruptions in financial markets and increased credit loss allowances.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t106",
+          "title": "Item 4. Controls and Procedures.",
+          "level": 2,
+          "start_page": 172,
+          "end_page": 172,
+          "summary": "This section discusses the evaluation of the effectiveness of JPMorgan Chase's disclosure controls and procedures, conducted by the Firm's management, including the CEO and CFO. They concluded that these controls were effective as of the report's end date. The section also emphasizes the Firm's commitment to high standards of internal control over financial reporting, while acknowledging inherent limitations that may lead to misstatements. Additionally, it notes that there were no significant changes in internal control during the reporting period that could materially affect financial reporting.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t107",
+      "title": "Part II – Other information",
+      "level": 1,
+      "start_page": 172,
+      "end_page": 174,
+      "summary": "Part II provides an overview of various important disclosures related to JPMorgan Chase, including ongoing legal proceedings, material risk factors influenced by the COVID-19 pandemic, and the status of equity securities and share repurchase programs. It confirms no defaults on senior securities and states that mine safety disclosures are not applicable. Additionally, it includes a section on other information, indicating no further disclosures beyond what has been previously reported, and lists exhibits related to financial certifications and reports, including compliance with the Sarbanes-Oxley Act and XBRL documents for financial data.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t108",
+          "title": "Item 1. Legal Proceedings.",
+          "level": 2,
+          "start_page": 172,
+          "end_page": 172,
+          "summary": "This section references the material legal proceedings involving JPMorgan Chase, directing readers to Note 24 of the Form 10-Q for updates on disclosures previously outlined in the 2020 Form 10-K. It emphasizes the importance of understanding ongoing legal challenges that may impact the firm's operations and financial condition. The section serves to keep stakeholders informed about potential legal risks and their implications for the firm.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t109",
+          "title": "Item 1A. Risk Factors.",
+          "level": 2,
+          "start_page": 172,
+          "end_page": 172,
+          "summary": "This section discusses the material risk factors affecting JPMorgan Chase, supplementing the previous disclosures in its 2020 Form 10-K. It highlights the significant impact of the COVID-19 pandemic on the global economy, including disruptions in financial markets, supply chains, and business operations. The pandemic has led to reduced demand for the firm's products and services, resulting in lower revenues and increased credit loss allowances. Additionally, it addresses the heightened performance risk associated with credit loss models due to the pandemic's economic effects, emphasizing the uncertainty of potential unexpected losses.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t110",
+          "title": "Item 2. Unregistered Sales of Equity Securities and Use of Proceeds.",
+          "level": 2,
+          "start_page": 173,
+          "end_page": 173,
+          "summary": "This section reports that JPMorgan Chase did not have any unregistered sales of equity securities during the first quarter of 2021. It details the firm's common share repurchase program, which was authorized for up to $30 billion following the Federal Reserve's announcement allowing large banks to resume share repurchases. The section provides specific data on the number of shares repurchased, average prices, and total purchase amounts for January, February, and March 2021, as well as the remaining authorized repurchase amount. Additionally, it notes that repurchases and dividends were restricted to the average net income of the previous four quarters, with these restrictions extended through at least the second quarter of 2021.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t111",
+          "title": "Item 3. Defaults Upon Senior Securities.",
+          "level": 2,
+          "start_page": 174,
+          "end_page": 174,
+          "summary": "This section states that there are no defaults upon senior securities, indicating that the company is in compliance with its obligations related to senior securities. It serves to inform stakeholders that there are no current issues or defaults that could affect the company's financial standing or obligations. The section is brief and straightforward, confirming the absence of any defaults.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t112",
+          "title": "Item 4. Mine Safety Disclosures.",
+          "level": 2,
+          "start_page": 174,
+          "end_page": 174,
+          "summary": "This section, Item 4, Mine Safety Disclosures, states that it is not applicable for the reporting period. As a result, there are no mine safety disclosures provided in this document. Readers will learn that the company did not encounter any mine safety issues that require reporting under this item.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t113",
+          "title": "Item 5. Other Information.",
+          "level": 2,
+          "start_page": 174,
+          "end_page": 174,
+          "summary": "Item 5 contains no additional information beyond what has been previously disclosed. It serves as a placeholder indicating that there are no further disclosures required or provided in this section. The section transitions to Item 6, which lists various exhibits related to financial information and certifications. Notably, it includes a letter regarding unaudited interim financial information and several certifications required under the Sarbanes-Oxley Act. Additionally, it references XBRL documents that contain financial data for the firm, formatted for interactive data reporting.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t114",
+          "title": "Item 6. Exhibits.",
+          "level": 2,
+          "start_page": 174,
+          "end_page": 174,
+          "summary": "This section lists the exhibits included in the document, detailing various financial certifications and reports. Key items include a letter regarding unaudited interim financial information, certifications under the Sarbanes-Oxley Act, and multiple XBRL taxonomy extension documents related to financial reporting. The section also notes that certain documents are incorporated by reference from previous filings, providing context for the financial data presented. Readers can learn about the specific financial disclosures and compliance certifications relevant to JPMorgan Chase & Co.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t115",
+      "title": "Signature",
+      "level": 1,
+      "start_page": 175,
+      "end_page": 175,
+      "summary": "This section contains the official signature of JPMorgan Chase & Co. as required by the Securities Exchange Act of 1934. It includes the name and title of the signatory, Elena Korablina, who is the Managing Director and Firmwide Controller, serving as the Principal Accounting Officer. The date of the signature is also provided, indicating when the report was signed, which is May 4, 2021. This section serves to authenticate the report and confirm that it has been duly authorized by the registrant.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t116",
+      "title": "Exhibit 15",
+      "level": 1,
+      "start_page": 176,
+      "end_page": 176,
+      "summary": "Exhibit 15 contains a communication from PricewaterhouseCoopers LLP to the Securities and Exchange Commission regarding JPMorgan Chase & Co.'s registration statements on Forms S-3 and S-8. The document, dated May 4, 2021, states that the firm's report on interim financial information is incorporated by reference in the registration statements but should not be considered part of them according to Rule 436(c) of the Securities Act of 1933. This section clarifies the legal standing of the report in relation to the registration statements and outlines the specific registration numbers involved.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t117",
+      "title": "Exhibit 31.1",
+      "level": 1,
+      "start_page": 177,
+      "end_page": 177,
+      "summary": "Exhibit 31.1 contains a certification by James Dimon, Chairman and CEO of JPMorgan Chase & Co., regarding the accuracy and completeness of the company's Quarterly Report on Form 10-Q. Dimon certifies that the report does not contain any misleading statements and that the financial statements fairly present the company's financial condition and results of operations. The section outlines the responsibilities of the certifying officers in establishing and maintaining disclosure controls and internal control over financial reporting. It also details the evaluation of these controls and any significant deficiencies or fraud related to financial reporting. This certification is dated May 4, 2021.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t118",
+      "title": "Exhibit 31.2",
+      "level": 1,
+      "start_page": 178,
+      "end_page": 178,
+      "summary": "Exhibit 31.2 contains a certification by Jennifer Piepszak, the Chief Financial Officer of JPMorgan Chase & Co., regarding the accuracy and completeness of the Quarterly Report on Form 10-Q. It affirms that the report does not contain any misleading statements and that the financial statements fairly present the company's financial condition and results. The certification also outlines the responsibilities for establishing and maintaining disclosure controls and internal control over financial reporting, including evaluations of their effectiveness and any changes that may have occurred. Additionally, it addresses the disclosure of any significant deficiencies or fraud related to internal controls.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t119",
+      "title": "Exhibit 32",
+      "level": 1,
+      "start_page": 179,
+      "end_page": 179,
+      "summary": "Exhibit 32 contains a certification by JPMorgan Chase & Co. officers, including CEO James Dimon and CFO Jennifer Piepszak, affirming compliance with the Sarbanes-Oxley Act of 2002. The certification states that the Quarterly Report on Form 10-Q for the period ending March 31, 2021, meets the requirements of the Securities Exchange Act of 1934. It also asserts that the report accurately reflects the company's financial condition and operational results. This document serves as a formal assurance of the integrity of the financial reporting by the company.",
+      "source": "embedded_toc",
+      "children": []
+    }
+  ]
+}

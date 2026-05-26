@@ -1,0 +1,241 @@
+{
+  "node_id": "root",
+  "title": "MGMRESORTS_2022_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 220,
+  "summary": "The MGM Resorts International Form 10-K for the fiscal year ending December 31, 2022, provides comprehensive information about the company's business operations, financial performance, and risk factors. It details the company's asset-light business model, significant acquisitions, and competitive landscape in the gaming and entertainment industry. The report includes financial statements, management's discussion on operational results, and disclosures about market risks and internal controls. Additionally, it addresses legal proceedings, stockholder matters, and corporate governance, ensuring compliance with SEC regulations. The document emphasizes the importance of understanding the company's financial health and operational risks, particularly in relation to its international operations and market conditions.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "MGM Resorts International Form 10-K Front Matter",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 2,
+      "summary": "This section contains the front matter of MGM Resorts International's Form 10-K for the fiscal year ending December 31, 2022. It includes essential company information such as the registrant's name, address, and contact details, as well as its SEC file number and stock exchange listing. The section confirms the company's compliance with filing requirements and provides details on its classification as a large accelerated filer. Additionally, it states the market value of the company's common stock held by non-affiliates and notes the incorporation of the definitive Proxy Statement into the report.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 14,
+      "summary": "MGM Resorts International, a Delaware corporation established in 1986, operates as a global gaming and entertainment company with 17 domestic casino resorts and two in Macau through MGM China. The company has adopted an asset-light business model, focusing on monetizing real estate assets to reinvest in growth opportunities, particularly in online gaming and sports betting via BetMGM and LeoVegas. Key business developments include significant acquisitions, divestitures, and strategic partnerships aimed at enhancing market presence and operational efficiency. The section also discusses the competitive landscape, customer demographics, and MGM's commitment to sustainability and technology integration to improve customer experience and operational performance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 15,
+      "end_page": 28,
+      "summary": "This section outlines the significant risk factors that could adversely impact the company's business, financial position, and operational results. Key risks include substantial financial commitments, such as high levels of indebtedness and fixed rent obligations, which may limit operational flexibility and increase vulnerability to economic downturns. The company faces intense competition in the gaming and hospitality sectors, particularly from online sports betting and iGaming, which could affect customer retention and revenue. Additionally, legal and regulatory challenges, especially in international markets like Macau, pose risks to operations and profitability. The section emphasizes the importance of understanding these risks when evaluating the company's financial health and future prospects.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 29,
+      "end_page": 29,
+      "summary": "This section states that there are currently no unresolved staff comments regarding MGM Grand Paradise's operations. It highlights the reliance on negotiations with the Macau government concerning the concession contract, which expires on December 31, 2032. The section emphasizes the risks associated with potential termination of the concession, including significant adverse effects on business operations and financial condition. It also notes the absence of precedents for how the Macau government may handle concession terminations and the uncertainties surrounding future extensions or new concessions. Additionally, it briefly mentions potential conflicts of interest due to overlapping directors between MGM Grand Paradise and MGM China.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This section provides detailed information about the properties owned by the company as of December 31, 2022, including the names and locations of resorts, the number of guestrooms and suites, and the approximate casino square footage. It lists major resorts on the Las Vegas Strip, regional operations, and properties in MGM China, with specific data on the number of slot machines and gaming tables at each location. The total number of guestrooms across all properties is 45,859, with a combined casino square footage of 2,560,000. Additional notes clarify the nature of ownership and the inclusion of various hotel units within the totals.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "This section references Note 12 in the consolidated financial statements, which discusses ongoing legal proceedings related to the company. Readers can learn about the nature of these legal issues, their potential impact on the company's financial position, and any contingencies that may arise. The section indicates that there are no additional details provided in this specific item, directing readers to the financial statements for comprehensive information.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "This section indicates that there are no mine safety disclosures applicable to the company. It suggests that the company does not operate in a manner that requires reporting on mine safety issues, which may imply a lack of mining operations or relevant incidents. Readers can learn that the company is not subject to specific mine safety regulations or reporting requirements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 32,
+      "end_page": 33,
+      "summary": "This section provides information on MGM Resorts International's common stock, including its trading symbol on the NYSE and the number of record holders as of February 22, 2023. It outlines the company's dividend policy, noting a reduction to $0.01 per share during the COVID-19 pandemic and the suspension of dividends in February 2023 in favor of a share repurchase plan. The section details share repurchases for the quarter ended December 31, 2022, including the total number of shares purchased, average price paid, and the remaining dollar value under the repurchase program. Additionally, it includes a performance graph comparing the company's total shareholder return against major indices over a five-year period, emphasizing that past performance is not indicative of future results.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Reserved",
+      "level": 1,
+      "start_page": 34,
+      "end_page": 34,
+      "summary": "This section is labeled 'Reserved' and does not contain any content or information. It serves as a placeholder in the document, indicating that no specific details or topics are addressed in this section. Readers will find no facts or insights here, as it transitions to the next item in the document.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 34,
+      "end_page": 52,
+      "summary": "This section provides a comprehensive analysis of MGM Resorts' financial condition and operational results for the year ended December 31, 2022, compared to 2021. Key topics include the impact of COVID-19 on operations, visitor statistics for Las Vegas and Macau, and significant transactions such as the acquisition of The Cosmopolitan and the sale of The Mirage. The section details revenue growth across various segments, with consolidated net revenues reaching $13.1 billion, a 36% increase from the previous year. It also discusses key performance indicators for gaming and hotel operations, highlighting the effects of market conditions and strategic initiatives on financial performance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 53,
+      "end_page": 53,
+      "summary": "This section discusses the company's exposure to market risks, particularly interest rate risk from variable rate long-term debt, which constitutes about 17% of total borrowings as of December 31, 2022. It explains the management strategies employed to mitigate this risk, including the mix of fixed and variable rate borrowings. Additionally, it addresses foreign currency exchange rate risks, especially related to operations in China and Macau, highlighting potential impacts from fluctuations in the Hong Kong dollar against the U.S. dollar. The section also quantifies the financial implications of a 1% weakening of the Hong Kong dollar, estimating a potential loss of $28 million.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 54,
+      "end_page": 101,
+      "summary": "This section provides the consolidated financial statements of MGM Resorts International for the years ended December 31, 2022, 2021, and 2020, including the balance sheets, statements of operations, comprehensive income, cash flows, and stockholders' equity. It includes an independent auditor's report affirming the effectiveness of internal controls over financial reporting and the fairness of the financial statements in accordance with GAAP. Key financial metrics such as revenues, expenses, net income, and cash flows are detailed, along with critical audit matters related to the acquisition of The Cosmopolitan of Las Vegas and the MGM Grand Paradise gaming subconcession. The notes to the financial statements provide additional context and disclosures regarding the company's financial position and operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 102,
+      "end_page": 102,
+      "summary": "This section details the leasing arrangements between the Company and MGP, including the properties involved and changes in annual cash rent payments due to fixed escalators and adjustments following transactions. It notes the removal of Mandalay Bay from the master lease, the acquisition of MGM Springfield by MGP, and the subsequent amendments to the lease terms. Additionally, it discusses the implications of the VICI Transaction, including the deconsolidation of MGP and the establishment of a new master lease with VICI. The section also mentions the Company's ownership interest in the Bellagio BREIT Venture and its lease agreement with a subsidiary.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 102,
+      "end_page": 102,
+      "summary": "This section details the leasing arrangements between the Company and MGP, including the properties involved and the financial terms of the master lease. It outlines changes in annual cash rent payments due to escalators and adjustments following the acquisition of MGM Springfield. The section also discusses the implications of the VICI Transaction, including the deconsolidation of MGP and the establishment of a new lease agreement with VICI. Additionally, it mentions the Company's ownership interest in the Bellagio BREIT Venture and its lease agreement with a subsidiary.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 103,
+      "end_page": 103,
+      "summary": "This section confirms that there were no changes or disagreements with accountants regarding accounting and financial disclosure. It details the effectiveness of the company's disclosure controls and procedures as of December 31, 2022, ensuring compliance with SEC regulations. The management's responsibilities for maintaining adequate internal control over financial reporting are outlined, including the establishment of policies, hiring skilled personnel, and oversight by an independent Audit Committee. Additionally, it notes that the evaluation of internal controls excluded The Cosmopolitan due to its recent acquisition.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections",
+      "level": 1,
+      "start_page": 103,
+      "end_page": 103,
+      "summary": "This section discusses the effectiveness of the company's disclosure controls and procedures as of December 31, 2022, confirming they provide reasonable assurance for timely and accurate reporting under the Securities Exchange Act. It outlines management's responsibilities in maintaining internal control over financial reporting, including hiring skilled personnel, establishing written policies, and conducting internal audits. The evaluation of internal controls excludes The Cosmopolitan due to its recent acquisition, indicating a focus on the company's existing operations and controls.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 104,
+      "end_page": 104,
+      "summary": "This section provides an overview of the Company's financial performance related to Cosmopolitan, which constituted approximately 11% of total assets and 6% of total revenues as of December 31, 2022. It also discusses the effectiveness of the Company's internal control over financial reporting, as evaluated by management. Additionally, it mentions the independent registered public accounting firm's report on this effectiveness, ensuring transparency in financial governance. There are no other relevant disclosures or information regarding foreign jurisdictions that prevent inspections.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 104,
+      "end_page": 104,
+      "summary": "This section provides an overview of the financial significance of Cosmopolitan to the Company, noting that it constituted approximately 11% of total assets and 6% of total revenues as of December 31, 2022. It also discusses the effectiveness of the Company's internal control over financial reporting, as evaluated by management on the same date. Additionally, it mentions the independent registered public accounting firm's report regarding the effectiveness of these internal controls. There are no other relevant disclosures or information regarding foreign jurisdictions that prevent inspections.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 104,
+      "end_page": 104,
+      "summary": "This section provides information on the security ownership of certain beneficial owners and management, highlighting that Cosmopolitan accounted for approximately 11% of the Company's total assets and 6% of total revenues as of December 31, 2022. It also states that management believes the Company's internal control over financial reporting is effective. Additionally, it mentions the independent registered public accounting firm's report on the effectiveness of these internal controls, although no other relevant information is disclosed in this section.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 104,
+      "end_page": 104,
+      "summary": "This section discusses the financial significance of Cosmopolitan, which constituted approximately 11% of the Company's total assets and 6% of its total revenues as of December 31, 2022. It also addresses the effectiveness of the Company's internal control over financial reporting, as evaluated by management on the same date. Additionally, it mentions the independent registered public accounting firm's report regarding the internal control effectiveness. There are no other relevant disclosures or information regarding foreign jurisdictions that prevent inspections.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 104,
+      "end_page": 104,
+      "summary": "This section discusses the financial significance of Cosmopolitan, which constituted approximately 11% of the Company's total assets and 6% of total revenues as of December 31, 2022. It also addresses the effectiveness of the Company's internal control over financial reporting, as evaluated by management on the same date. Additionally, it mentions the independent registered public accounting firm's report regarding the internal control effectiveness, indicating compliance with financial reporting standards.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 15. Exhibits, Financial Statements Schedules",
+      "level": 1,
+      "start_page": 105,
+      "end_page": 109,
+      "summary": "This section outlines the exhibits and financial statement schedules included in the report. It lists the consolidated financial statements for the years ended December 31, 2022, 2021, and 2020, including balance sheets, statements of operations, and cash flows. Additionally, it details various agreements and contracts, such as equity purchase agreements and credit facility agreements, that are incorporated by reference. The section also specifies that certain financial statement schedules have been omitted as they are not applicable or included in the consolidated financial statements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 110,
+      "end_page": 220,
+      "summary": "This section provides a summary of the Form 10-K for MGM Resorts International, detailing various agreements and certifications related to executive compensation, including deferred compensation plans and restricted stock unit agreements. It also includes a list of subsidiaries and consent from the auditing firm Deloitte & Touche LLP. Additionally, it contains certifications from the CEO and CFO in compliance with SEC regulations, as well as Inline XBRL documents for financial reporting. The section concludes with signatures from key executives and board members, affirming the report's accuracy and compliance with legal requirements.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

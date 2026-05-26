@@ -1,0 +1,162 @@
+{
+  "node_id": "root",
+  "title": "BESTBUY_2024Q2_10Q.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 30,
+  "summary": "The section provides a detailed overview of Best Buy Co., Inc.'s Form 10-Q for the quarterly period ending July 29, 2023, including essential company information, financial statements, and management's analysis of financial performance. It highlights a decline in revenue and comparable sales due to macroeconomic pressures, discusses market risks related to interest rates and foreign currency, and outlines the company's disclosure controls. Additionally, it covers legal proceedings, unregistered sales of equity securities, and the company's share repurchase program, along with a list of exhibits included in the report.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Best Buy Form 10-Q Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 2,
+      "summary": "This section contains the front matter for Best Buy Co., Inc.'s Form 10-Q for the quarterly period ending July 29, 2023. It includes essential company information such as the registrant's name, address, and SEC file number, as well as details about its stock, including the trading symbol and exchange. The section confirms compliance with filing requirements under the Securities Exchange Act of 1934 and provides the number of shares outstanding. Additionally, it outlines the table of contents for the report, detailing the financial statements and other key items included in the document.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Financial Statements",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 13,
+      "summary": "This section provides a comprehensive overview of Best Buy Co., Inc.'s financial performance and position through various condensed consolidated financial statements. It includes balance sheets detailing assets, liabilities, and equity as of specific dates, earnings statements comparing revenue and net earnings across periods, and comprehensive income statements reflecting changes in net earnings and foreign currency adjustments. Additionally, it covers cash flow statements highlighting cash flows from operating, investing, and financing activities, changes in shareholders' equity, and detailed notes on accounting policies and significant financial events. Key figures such as total revenue, net earnings, and cash flows are emphasized to illustrate the company's financial health and operational results.",
+      "source": "printed_toc",
+      "children": [
+        {
+          "node_id": "p2",
+          "title": "Item 1a. Condensed Consolidated Balance Sheets as of July 29, 2023, January 28, 2023, and July 30, 2022",
+          "level": 2,
+          "start_page": 3,
+          "end_page": 3,
+          "summary": "This section presents the Condensed Consolidated Balance Sheets for Best Buy Co., Inc. as of July 29, 2023, January 28, 2023, and July 30, 2022, detailing the company's assets, liabilities, and equity. Key figures include current assets totaling $8,304 million as of July 29, 2023, with cash and cash equivalents at $1,093 million and merchandise inventories at $5,651 million. Current liabilities are reported at $8,433 million, with accounts payable at $5,471 million. The total equity for the company is $2,835 million, reflecting changes in retained earnings and additional paid-in capital over the periods. This balance sheet provides insights into the company's financial position and liquidity over the specified dates.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p3",
+          "title": "Item 1b. Condensed Consolidated Statements of Earnings for the three and six months ended July 29, 2023, and July 30, 2022",
+          "level": 2,
+          "start_page": 4,
+          "end_page": 4,
+          "summary": "This section presents the Condensed Consolidated Statements of Earnings for the three and six months ending July 29, 2023, and July 30, 2022. Key figures include total revenue, cost of sales, gross profit, operating income, and net earnings, allowing readers to compare financial performance across the two periods. Notably, revenue decreased from $10,329 million to $9,583 million for the three months, and net earnings fell from $306 million to $274 million. The section also details earnings per share, both basic and diluted, alongside the weighted-average common shares outstanding, providing insights into shareholder value and company profitability.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p4",
+          "title": "Item 1c. Condensed Consolidated Statements of Comprehensive Income for the three and six months ended July 29, 2023, and July 30, 2022",
+          "level": 2,
+          "start_page": 5,
+          "end_page": 5,
+          "summary": "This section presents the Condensed Consolidated Statements of Comprehensive Income for the three and six months ending July 29, 2023, and July 30, 2022. It details net earnings, showing a decrease from $306 million in Q2 2022 to $274 million in Q2 2023, and from $647 million to $518 million for the six-month periods. Additionally, it includes foreign currency translation adjustments, which contributed $5 million in Q2 2023, contrasting with a loss of $1 million in the same period of the previous year. The comprehensive income figures reflect these changes, totaling $279 million for Q2 2023 compared to $306 million in Q2 2022.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p5",
+          "title": "Item 1d. Condensed Consolidated Statements of Cash Flows for the six months ended July 29, 2023, and July 30, 2022",
+          "level": 2,
+          "start_page": 6,
+          "end_page": 6,
+          "summary": "This section presents the Condensed Consolidated Statements of Cash Flows for the six months ending July 29, 2023, and July 30, 2022, detailing cash flows from operating, investing, and financing activities. Key figures include net earnings of $518 million for 2023 compared to $647 million in 2022, and total cash provided by operating activities of $181 million in 2023 versus a cash usage of $709 million in 2022. The section also highlights significant changes in working capital, such as a decrease in accounts payable and an increase in receivables. Additionally, it reports cash used in investing activities of $381 million and financing activities of $560 million, with a total cash decrease of $762 million for the period.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p6",
+          "title": "Item 1e. Condensed Consolidated Statements of Changes in Shareholders' Equity for the three and six months ended July 29, 2023, and July 30, 2022",
+          "level": 2,
+          "start_page": 7,
+          "end_page": 7,
+          "summary": "This section presents the Condensed Consolidated Statements of Changes in Shareholders' Equity for the three and six months ended July 29, 2023, and July 30, 2022. It details the balances of common shares, common stock, additional paid-in capital, retained earnings, and accumulated other comprehensive income (loss). Key changes include net earnings, stock-based compensation, common stock dividends, and stock repurchases, highlighting the company's financial performance and equity changes over the specified periods. The data allows readers to assess the company's equity structure and financial health during these timeframes.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p7",
+          "title": "Item 1f. Notes to Condensed Consolidated Financial Statements",
+          "level": 2,
+          "start_page": 8,
+          "end_page": 13,
+          "summary": "This section provides detailed notes to Best Buy's condensed consolidated financial statements, including the basis of presentation, significant accounting policies, and recent financial events. Key topics include the sale of a subsidiary in Mexico resulting in a $21 million gain, the adoption of ASU 2022-04 requiring disclosures on supplier finance programs, and the reconciliation of cash and cash equivalents. It also covers restructuring initiatives, goodwill and intangible assets, fair value measurements, and the impact of derivative instruments on financial performance. Additionally, it outlines revenue generation from customer contracts and earnings per share calculations.",
+          "source": "printed_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 14,
+      "end_page": 23,
+      "summary": "This section provides a comprehensive analysis of Best Buy's financial condition and operational results, detailing revenue, comparable sales, and gross profit metrics for both Domestic and International segments. It highlights a decline in revenue and comparable sales due to macroeconomic pressures, including inflation and changing consumer spending habits. The discussion includes insights into the company's strategic initiatives, such as store closures and digital sales growth, which accounted for 31% of Domestic revenue. Additionally, it outlines the impact of non-GAAP financial measures and the company's approach to managing labor costs and customer relationships through membership programs. The section concludes with a summary of financial performance metrics, including operating income and earnings per share, reflecting the challenges faced in the current retail environment.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 3. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "This section discusses the company's exposure to market risks, specifically interest rate risk and foreign currency exchange rate risk. It details how changes in short-term interest rates can affect net interest expense and interest income, with a specific example showing a potential $5 million impact from a 50-basis point change. Additionally, it addresses foreign currency exchange rate fluctuations, particularly the negative impact of a strong U.S. dollar on revenue, estimating a $26 million and $72 million unfavorable impact in the second quarter and first six months of fiscal 2024, respectively. The section also references further details in the Annual Report on Form 10-K.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 4. Controls and Procedures",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "This section outlines the company's disclosure controls and procedures, which are designed to ensure compliance with SEC reporting requirements. It details the role of the Disclosure Committee, which meets quarterly to evaluate the effectiveness of these controls. As of July 29, 2023, the Chief Executive Officer and Chief Financial Officer assessed the controls as effective, with no significant changes affecting internal control over financial reporting during the fiscal quarter. The section emphasizes the importance of timely information processing for management decision-making regarding disclosures.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 1. Legal Proceedings",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "This section references the company's legal proceedings, directing readers to Note 10, Contingencies, in the Notes to Condensed Consolidated Financial Statements for detailed information. It indicates that there are ongoing legal matters that may impact the company's financial position or operations. The section serves to inform stakeholders about potential risks associated with legal issues without providing specific details in this summary.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 2. Unregistered Sales of Equity Securities, Use of Proceeds and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This section details the company's unregistered sales of equity securities, specifically focusing on stock repurchases. It outlines a $5.0 billion share repurchase program approved by the Board on February 28, 2022, with no expiration date for the repurchase period. The section provides a breakdown of shares purchased during specific fiscal periods, including the total number of shares, average price paid per share, and the remaining dollar value of shares that can still be repurchased under the program. Additionally, it notes that no directors or officers adopted or modified any trading arrangements during the fiscal quarter ended July 29, 2023.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 5. Other Information",
+      "level": 1,
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This section provides information on the company's share repurchase program, which was approved by the Board on February 28, 2022, with a total authorization of $5.0 billion and no expiration date. It details the number of shares purchased, average price paid per share, and the remaining dollar value of shares that can still be repurchased under the program for specific fiscal periods. Additionally, it notes that during the fiscal quarter ended July 29, 2023, no directors or officers adopted or modified any Rule 10b5-1 trading arrangements, indicating compliance with trading regulations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 6. Exhibits",
+      "level": 1,
+      "start_page": 25,
+      "end_page": 30,
+      "summary": "This section lists the exhibits included in the Quarterly Report on Form 10-Q for Best Buy Co., Inc. It includes the Amended and Restated Articles of Incorporation and By-Laws, certifications from the Chief Executive Officer and Chief Financial Officer under the Sarbanes-Oxley Act, and financial information formatted in iXBRL. The section also notes that certain long-term debt instruments are not filed as exhibits but can be provided upon request. Additionally, it contains certifications confirming compliance with SEC requirements and the accuracy of financial reporting.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

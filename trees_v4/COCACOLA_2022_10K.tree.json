@@ -1,0 +1,271 @@
+{
+  "node_id": "root",
+  "title": "COCACOLA_2022_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 183,
+  "summary": "The Coca-Cola Company's Form 10-K for the fiscal year ending December 31, 2022, provides a comprehensive overview of the company's business operations, financial condition, and governance practices. It includes details on the company's diverse beverage portfolio, risk factors, legal proceedings, and executive compensation. The report also covers financial statements, market information, and management's discussion on financial results, along with disclosures regarding internal controls and auditor services. Additionally, it highlights the company's commitment to sustainability and outlines the governance structure, including director independence and related transactions.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Coca-Cola Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 3,
+      "summary": "This section contains the front matter of Coca-Cola's Form 10-K for the fiscal year ending December 31, 2022. It includes the company's registration details, such as its name, address, and SEC file number, as well as information about its securities registered under the Securities Exchange Act. The section also confirms the company's status as a well-known seasoned issuer and provides details on its compliance with filing requirements. Additionally, it lists the market value of common equity and the number of shares outstanding as of specific dates, along with a table of contents for the report.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Forward-Looking Statements",
+      "level": 1,
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This section discusses forward-looking statements within the report, identifying them through terms like 'believe,' 'expect,' and 'project.' It emphasizes that these statements are not historical and should not be relied upon excessively, as they reflect expectations as of their date. The section also highlights the risks and uncertainties that could lead to actual results differing from projections, including potential changes in tax liabilities related to ongoing disputes with the IRS. Additionally, it notes that the company has no obligation to update these statements unless legally required.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 4,
+      "end_page": 13,
+      "summary": "This section provides an overview of The Coca-Cola Company, detailing its status as a total beverage company with a diverse portfolio of brands sold in over 200 countries. It outlines the company's operating segments, including geographic divisions and corporate structure, and describes its product categories such as sparkling soft drinks, water, and juices. The section also explains the distribution system, highlighting the role of independent bottling partners and the volume of beverages sold globally. Additionally, it discusses the company's marketing strategies, investments in bottling operations, and the competitive landscape of the beverage industry, emphasizing the importance of consumer demand and seasonal sales variations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 14,
+      "end_page": 26,
+      "summary": "This section outlines various risk factors that could significantly impact the Coca-Cola Company's business, financial condition, and operational results. Key risks include unfavorable economic and geopolitical conditions, increased competition, challenges in innovation, and disruptions in the supply chain. The company also faces risks related to consumer health concerns, evolving preferences, and the potential impacts of the COVID-19 pandemic. Additionally, the section discusses the importance of maintaining strong relationships with retail partners and the implications of labor relations and workforce management on operational efficiency.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 27,
+      "end_page": 27,
+      "summary": "This section indicates that there are no unresolved staff comments related to the company's operations or disclosures. It highlights the potential impacts of environmental concerns, such as water scarcity and climate change, on the business. The text discusses how these factors could lead to increased costs, capacity constraints, and reputational damage, affecting profitability. Additionally, it notes the importance of sustainable practices in sourcing agricultural ingredients and the potential legal and regulatory challenges posed by climate change.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This section details the properties owned or leased by the company, including its 35-acre headquarters in Atlanta, Georgia, which houses corporate and North America segment employees, as well as technical and engineering facilities. It outlines the various facilities used for administrative, manufacturing, processing, and retail operations across different geographic segments, with specific data on production, distribution, and retail facilities as of December 31, 2022. The management's assessment of the adequacy and suitability of these facilities for production purposes is also included, along with their capacity for expansion based on demand.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 28,
+      "end_page": 30,
+      "summary": "This section outlines the legal proceedings involving the Company, highlighting two significant cases: the Aqua-Chem litigation and a U.S. federal income tax dispute. In the Aqua-Chem case, the Company seeks a declaratory judgment regarding its liability for Aqua-Chem's past claims, while Aqua-Chem claims the Company is responsible for liabilities not covered by insurance. The section details the history of the litigation, including insurance coverage disputes and settlements. The U.S. federal income tax dispute involves the IRS's claim for approximately $3.3 billion in additional taxes due to transfer pricing adjustments for the years 2007-2009, with the Company challenging the IRS's methodology in Tax Court. The Company believes it will prevail in both matters, asserting that the IRS's actions are unconstitutional and misinterpret the law.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "This section indicates that the Mine Safety Disclosures are not applicable for the reporting period. It serves to clarify that there are no relevant disclosures or incidents related to mine safety that need to be reported by the Company. Readers can understand that the Company has assessed its operations and determined that mine safety issues do not pertain to its current reporting requirements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item X. Information About Our Executive Officers",
+      "level": 1,
+      "start_page": 31,
+      "end_page": 32,
+      "summary": "This section provides detailed information about the executive officers of the Company as of February 21, 2023. It includes their names, ages, and positions, along with a brief overview of their previous roles and experience within the Company and other organizations. Key executives mentioned include Manuel Arroyo, Chief Marketing Officer; John Murphy, Chief Financial Officer; and James Quincey, Chief Executive Officer. The section also notes that all executive officers serve at the pleasure of the Board of Directors and clarifies that there are no family relationships among the directors or executive officers.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 33,
+      "end_page": 34,
+      "summary": "This section provides an overview of the market for the Company's common equity, specifically its listing on the New York Stock Exchange under the symbol 'KO'. It discusses the historical payment of quarterly dividends, which are subject to the Board's discretion based on various factors. As of February 17, 2023, there were 187,325 shareowner accounts, excluding beneficial holders. The section also details stock purchases made by the Company during the last quarter of 2022, including a total of 96,440 shares purchased under the 2019 Plan, which allows for the repurchase of up to 150 million shares. Additionally, it includes a performance graph comparing the Company's total shareowner return against a peer group and relevant indices over five years.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 6. Reserved",
+      "level": 1,
+      "start_page": 35,
+      "end_page": 35,
+      "summary": "Item 6 is labeled as 'Reserved,' indicating that no specific information or content is provided in this section. It serves as a placeholder within the document, suggesting that the authors may have intended to include additional information or that the section is intentionally left blank. Readers will not find any facts or topics discussed in this section.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 35,
+      "end_page": 59,
+      "summary": "This section provides a comprehensive overview of The Coca-Cola Company's financial condition and operational results, including a detailed analysis of its business model, competitive landscape, and strategic priorities. It discusses the company's revenue generation from concentrate and finished product operations, highlighting the impact of external factors such as inflation, consumer preferences, and geopolitical events. The section also outlines critical accounting policies and estimates, emphasizing the importance of management's judgments in financial reporting. Additionally, it addresses key challenges such as obesity, evolving consumer preferences, and sustainability, while detailing the company's commitment to innovation and responsible marketing.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 60,
+      "end_page": 61,
+      "summary": "This section discusses the company's strategies for managing market risks, including foreign currency exchange rates, interest rates, and commodity prices. It details the use of derivative financial instruments to hedge against fluctuations, with specific figures on notional values and unrealized losses. The company reported net foreign currency exchange losses of $236 million in 2022 and outlines its exposure to interest rate changes, estimating a $136 million increase in interest expense from a 1 percentage point rise in rates. Additionally, it addresses commodity price risks and the use of supplier pricing agreements and derivatives to mitigate these risks, noting a total notional value of $371 million in commodity derivatives as of December 31, 2022.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 62,
+      "end_page": 130,
+      "summary": "This section provides a comprehensive overview of The Coca-Cola Company's financial statements, including the consolidated statements of income, comprehensive income, balance sheets, cash flows, and shareowners' equity. Readers can learn about the company's financial performance over the years, including net operating revenues, gross profit, and net income figures. Detailed notes explain significant accounting policies, acquisitions, revenue recognition, and various financial instruments, including hedging transactions and derivative financial instruments. The section also covers the company's assets, liabilities, and equity, providing insights into its financial health and operational structure.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 131,
+      "end_page": 131,
+      "summary": "This section indicates that there are no changes or disagreements with accountants regarding accounting and financial disclosure. It also details the evaluation of the company's disclosure controls and procedures, confirming their effectiveness as of December 31, 2022, by the CEO and CFO. Additionally, it states that there have been no changes in internal control over financial reporting that could materially affect the company's reporting. The section references the management report on internal control over financial reporting and the attestation report from the independent registered public accounting firm, which are included in a different part of the report.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 131,
+      "end_page": 131,
+      "summary": "This section discusses the evaluation of the Company's disclosure controls and procedures, confirming their effectiveness as of December 31, 2022, as assessed by the Chief Executive Officer and Chief Financial Officer. It references the management's report on internal control over financial reporting and the attestation report from the independent registered public accounting firm, which are detailed in Item 8 of the report. Additionally, it states that there have been no changes in internal control over financial reporting during the quarter that would materially affect its effectiveness.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 131,
+      "end_page": 131,
+      "summary": "Item 9B states that there is no applicable information to report. It follows the previous sections discussing the evaluation of disclosure controls and procedures, management's report on internal control over financial reporting, and changes in internal control. The section confirms that no significant changes or disagreements with accountants occurred during the reporting period. Readers will find that this section serves to clarify the absence of additional information relevant to the company's financial disclosures.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 9C. Disclosure Regarding Foreign Jurisdictions That Prevent Inspections",
+      "level": 1,
+      "start_page": 131,
+      "end_page": 131,
+      "summary": "Item 9C states that there is no applicable information regarding foreign jurisdictions that prevent inspections. This section indicates that the company has not encountered any issues or disclosures related to foreign jurisdictions affecting its ability to conduct inspections. Readers can understand that the company is not currently facing any regulatory barriers in this context.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 131,
+      "end_page": 131,
+      "summary": "This section provides an overview of the governance structure of the Company, detailing the election process for directors, criteria for board membership, and the nomination process for director candidates. It also includes biographical information about director nominees and outlines the Codes of Business Conduct. Additionally, it references the Audit Committee's governance role and includes information on delinquent Section 16(a) reports related to share ownership. The section emphasizes the importance of corporate governance practices as outlined in the Company's 2023 Proxy Statement.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 131,
+      "end_page": 131,
+      "summary": "This section outlines the executive compensation details as referenced in the Company's 2023 Proxy Statement. It includes information on director compensation, a discussion and analysis of compensation practices, and reports from the compensation committee. Additionally, it covers compensation tables, payments related to termination or change in control, and pay ratio disclosures. The section serves to inform stakeholders about the compensation structure and governance related to executive pay.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 132,
+      "end_page": 132,
+      "summary": "This section references the 'Equity Compensation Plan Information' and 'Share Ownership' details from the Company's 2023 Proxy Statement, providing insights into the security ownership of certain beneficial owners and management. It highlights the ownership stakes of key stakeholders and the structure of equity compensation plans. Additionally, it indicates that further information on director independence and related transactions can be found in the Proxy Statement, which is crucial for understanding governance and potential conflicts of interest.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 132,
+      "end_page": 132,
+      "summary": "This section references the information regarding director independence and related person transactions as outlined in the Company’s 2023 Proxy Statement. It highlights the importance of governance practices related to the independence of directors and any transactions involving related parties. Readers can learn about the criteria used to assess director independence and the nature of any transactions that may present conflicts of interest. The incorporation of this information aims to ensure transparency and compliance with regulatory standards regarding corporate governance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Item 14. Principal Accountant Fees and Services",
+      "level": 1,
+      "start_page": 132,
+      "end_page": 132,
+      "summary": "This section outlines the fees and services provided by the principal accountant, specifically detailing the categories of fees including Audit Fees, Audit-Related Fees, Tax Fees, and All Other Fees. It also mentions the requirement for Audit Committee pre-approval of audit and permissible non-audit services. The information is incorporated by reference from the Company’s 2023 Proxy Statement, particularly from the subheading related to the ratification of Ernst & Young LLP as Independent Auditors. Readers can learn about the financial relationship between the company and its auditors, as well as the governance practices regarding auditor services.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p23",
+      "title": "Item 15. Exhibits and Financial Statement Schedules",
+      "level": 1,
+      "start_page": 132,
+      "end_page": 140,
+      "summary": "Item 15 outlines the exhibits and financial statement schedules included in the report. It lists the consolidated financial statements for the years ended December 31, 2022, 2021, and 2020, including income, comprehensive income, balance sheets, cash flows, and equity statements. The section also notes that certain financial statement schedules are omitted as they are not required or applicable. Additionally, it provides an index of various exhibits, including the Company's Certificate of Incorporation, By-Laws, and various stock option and equity plans, detailing their incorporation by reference from previous filings. This section is essential for understanding the legal and financial framework governing the Company's operations and obligations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p24",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 141,
+      "end_page": 141,
+      "summary": "This section provides a summary of the contents and exhibits included in the Form 10-K for The Coca-Cola Company for the year ended December 31, 2022. It lists key documents such as a letter to Bruno Pietracci, a list of subsidiaries, consents from the independent accounting firm, and certifications from the CEO and CFO. Additionally, it references the financial statements formatted in iXBRL, including consolidated statements of income, comprehensive income, balance sheets, cash flows, and equity. The section concludes with a note that there are no additional items to summarize.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p25",
+      "title": "Signatures",
+      "level": 1,
+      "start_page": 142,
+      "end_page": 183,
+      "summary": "This section includes the signatures of key executives and directors of The Coca-Cola Company, affirming the report's compliance with the Securities Exchange Act of 1934. It details the individuals who have signed on behalf of the company, including the Chairman, CEO, CFO, and various directors, all dated February 21, 2023. The section serves to validate the report's authenticity and adherence to regulatory requirements, providing a formal acknowledgment of the document's contents by the company's leadership.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

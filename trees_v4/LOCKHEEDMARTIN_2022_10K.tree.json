@@ -1,0 +1,786 @@
+{
+  "node_id": "root",
+  "title": "LOCKHEEDMARTIN_2022_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 130,
+  "summary": "The Lockheed Martin Corporation's Form 10-K for the fiscal year ending December 31, 2022, includes comprehensive information on the company's operations, financial performance, governance, and compliance with regulatory requirements. It features a cover page with essential company details, a Table of Contents for navigation, and sections detailing risk factors, financial statements, executive compensation, and corporate governance. Additionally, it includes amendments to incentive plans, certifications from the CEO and CFO regarding financial reporting, and a list of subsidiaries. The document emphasizes Lockheed Martin's role in global security and aerospace, alongside its commitment to transparency and regulatory compliance.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "t1",
+      "title": "Cover",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section serves as the cover page for Lockheed Martin Corporation's Form 10-K annual report for the fiscal year ending December 31, 2022. It includes essential company information such as the registrant's name, address, and contact details, as well as the commission file number. The document indicates that Lockheed Martin is a well-known seasoned issuer and confirms compliance with filing requirements under the Securities Exchange Act of 1934. Additionally, it provides details on the company's stock, including its trading symbol 'LMT' and market value, and notes that portions of the 2023 Definitive Proxy Statement are incorporated by reference.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t2",
+      "title": "Table of Contents",
+      "level": 1,
+      "start_page": 2,
+      "end_page": 2,
+      "summary": "This section provides a detailed Table of Contents for Lockheed Martin Corporation's Form 10-K for the year ended December 31, 2022. It outlines the structure of the document, listing key items such as Business, Risk Factors, Financial Statements, and Executive Compensation, along with their corresponding page numbers. Readers can quickly locate specific sections related to the company's operations, financial performance, and governance. The Table of Contents serves as a roadmap for navigating the comprehensive report.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t3",
+      "title": "PART I",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 25,
+      "summary": "PART I provides a comprehensive overview of the company's operations, risk factors, properties, legal proceedings, and executive leadership. It details the company's role in global security and aerospace, emphasizing its focus on advanced technology systems in defense, space, and cybersecurity. The section outlines significant risks related to U.S. Government contracts, particularly the F-35 program, and discusses the company's operational footprint across 339 locations. Additionally, it addresses legal proceedings, the absence of mine safety disclosures, and profiles of key executive officers, highlighting their experience and roles within the company.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t4",
+          "title": "Item 1. Business",
+          "level": 2,
+          "start_page": 3,
+          "end_page": 9,
+          "summary": "This section outlines the company's role as a global security and aerospace firm focused on advanced technology systems and services in defense, space, and cybersecurity. It details the company's strategic vision for 21st Century Security, emphasizing the integration of advanced technologies and the pursuit of growth in key areas such as hypersonics and classified programs. The section describes the four main business segments: Aeronautics, Missiles and Fire Control, Rotary and Mission Systems, and Space, highlighting major programs and products within each segment. Additionally, it discusses the importance of human capital, diversity, and compliance with government regulations in maintaining competitive advantage and operational success.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t5",
+          "title": "Item 1A. Risk Factors",
+          "level": 2,
+          "start_page": 10,
+          "end_page": 22,
+          "summary": "This section outlines the various risk factors associated with investing in the company's common stock or debt securities, particularly focusing on reliance on U.S. Government contracts, which accounted for 73% of total net sales in 2022. Key risks include potential budget cuts, government shutdowns, and procurement policy changes that could adversely affect revenue and operational performance. The F-35 program is highlighted as a significant revenue source, with risks related to funding delays and performance challenges. Additionally, the section discusses the impact of competitive bidding, supplier dependencies, and compliance with government regulations, all of which could influence financial outcomes and business stability.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t6",
+          "title": "Item 1B. Unresolved Staff Comments",
+          "level": 2,
+          "start_page": 23,
+          "end_page": 23,
+          "summary": "This section indicates that there are no unresolved staff comments related to the company's operations or compliance. It highlights the potential impact of climate change regulations and litigation on the company's costs and competitiveness, noting that increased costs could affect bidding capabilities and customer demand. The section also discusses the uncertainty surrounding legal proceedings and the estimation of loss contingencies, emphasizing the potential financial implications. Additionally, it mentions the variability of dividend payments and share repurchases, which are subject to management discretion and external conditions.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t7",
+          "title": "Item 2. Properties",
+          "level": 2,
+          "start_page": 23,
+          "end_page": 23,
+          "summary": "As of December 31, 2022, the company owns or leases 339 locations in the U.S., including offices, manufacturing plants, and service centers. Significant operational sites are detailed by division: Aeronautics (e.g., Palmdale, CA; Marietta, GA), Missiles and Fire Control (e.g., Camden, AR; Orlando, FL), Rotary and Mission Systems (e.g., Stratford, CT; Mielec, Poland), and Space (e.g., Huntsville, AL; Cape Canaveral, FL). The section highlights the geographical distribution of facilities critical to the company's operations and includes management of 10 government-owned facilities. This information is essential for understanding the company's operational footprint and strategic locations.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t8",
+          "title": "Item 3. Legal Proceedings",
+          "level": 2,
+          "start_page": 24,
+          "end_page": 24,
+          "summary": "This section outlines the company's involvement in various legal proceedings, including litigation related to environmental protection and contingencies from previously owned businesses. It indicates that while these matters could lead to financial penalties or damages, the company believes the likelihood of a material adverse effect on its overall operations is remote. The section also highlights the complexity of environmental regulations that may result in lawsuits and remediation obligations, with financial exposure being difficult to estimate. For further details on remediation costs and legal proceedings, readers are directed to specific sections in the financial statements.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t9",
+          "title": "Item 4. Mine Safety Disclosures",
+          "level": 2,
+          "start_page": 24,
+          "end_page": 24,
+          "summary": "This section, labeled as Item 4, indicates that Mine Safety Disclosures are not applicable to the company. It serves to clarify that there are no relevant disclosures regarding mine safety for the reporting period. The section is brief and primarily functions to inform stakeholders that mine safety regulations and disclosures do not pertain to the company's operations.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t10",
+          "title": "Item 4(a). Information about our Executive Officers",
+          "level": 2,
+          "start_page": 24,
+          "end_page": 25,
+          "summary": "This section provides detailed information about the executive officers of the company as of January 26, 2023, including their ages, current positions, and relevant business experience over the past five years. Key executives include Timothy S. Cahill, Executive Vice President of Missiles and Fire Control; Stephanie C. Hill, Executive Vice President of Rotary and Mission Systems; and James D. Taiclet, Chairman, President, and CEO. The section highlights the lack of family relationships among the officers and notes that they serve at the discretion of the Board of Directors. Readers can learn about the leadership structure and the professional backgrounds of the company's top executives.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t11",
+      "title": "PART II",
+      "level": 1,
+      "start_page": 26,
+      "end_page": 104,
+      "summary": "Part II provides a detailed overview of Lockheed Martin's financial performance, stockholder matters, and internal controls. It includes information on the market for the company's common equity, selected financial data from 2018 to 2022, and management's analysis of financial conditions and operational results. The section also discusses market risk management, presents comprehensive financial statements, and evaluates the effectiveness of internal controls over financial reporting. Additionally, it confirms that there are no further disclosures required regarding foreign jurisdictions or other information.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t12",
+          "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+          "level": 2,
+          "start_page": 26,
+          "end_page": 27,
+          "summary": "As of January 20, 2023, Lockheed Martin had 23,358 holders of its common stock, traded on the NYSE under the symbol LMT. The section includes a performance graph comparing the cumulative total return of Lockheed Martin's stock against the S&P 500 and the S&P Aerospace & Defense Index through December 31, 2022. It also details the company's stock repurchase activities, indicating no unregistered equity securities were sold in the last quarter of 2022. During this period, Lockheed Martin repurchased a total of 7,231,169 shares at an average price of $410.10, with a remaining authorization of $10 billion for future repurchases. Additionally, the company entered into an accelerated share repurchase agreement to buy back $4 billion of its stock, with initial shares delivered and further shares expected upon final settlement.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t13",
+          "title": "Item 6. Selected Financial Data",
+          "level": 2,
+          "start_page": 28,
+          "end_page": 29,
+          "summary": "This section presents selected financial data for the years 2018 to 2022, including key metrics such as net sales, operating profit, net earnings from continuing operations, and earnings per share. It highlights trends in financial performance, with net sales peaking at $67,044 million in 2021 and net earnings from continuing operations reaching $6,888 million in 2020. The section also details cash flow information, total assets, liabilities, and equity, providing insights into the company's financial health. Additionally, it notes the impact of severance charges and pension adjustments on earnings, as well as changes in fair value of investments affecting net earnings. Overall, this data is crucial for understanding the company's financial trajectory and operational efficiency over the specified years.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t14",
+          "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+          "level": 2,
+          "start_page": 30,
+          "end_page": 57,
+          "summary": "This section provides a comprehensive analysis of the company's financial condition and operational results, focusing on its role as a global security and aerospace firm with significant U.S. Government contract reliance. It covers industry considerations affecting strategy, detailed consolidated results of operations, and performance metrics for business segments. Additionally, it discusses liquidity, cash flows, capital structure, and critical accounting policies, emphasizing the impact of external factors like COVID-19 and geopolitical tensions on financial performance and future outlook.",
+          "source": "embedded_toc",
+          "children": [
+            {
+              "node_id": "t15",
+              "title": "Business Overview",
+              "level": 3,
+              "start_page": 30,
+              "end_page": 31,
+              "summary": "This section provides an overview of the company's operations as a global security and aerospace firm, detailing its focus on advanced technology systems and services in defense, space, and cybersecurity. It highlights that 73% of the company's $66.0 billion in net sales in 2022 came from U.S. Government contracts, primarily the Department of Defense. The company operates in four segments: Aeronautics, Missiles and Fire Control, Rotary and Mission Systems, and Space, and outlines its strategic vision for 21st Century Security, emphasizing the integration of advanced technologies. Additionally, it discusses the impacts of COVID-19, inflation, and geopolitical tensions, particularly the conflict in Ukraine, on operations and future demand. The section concludes with insights into portfolio shaping activities aimed at enhancing product offerings and market reach.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t16",
+              "title": "Industry Considerations",
+              "level": 3,
+              "start_page": 32,
+              "end_page": 33,
+              "summary": "This section discusses key industry considerations impacting business strategy, including acquisitions, divestitures, and joint ventures. It highlights the renationalization of the UK's Atomic Weapons Establishment, which affected financial results, and outlines U.S. government defense funding trends, including the FY 2023 budget and implications of the debt ceiling. The section emphasizes the importance of international sales, detailing the breakdown of foreign military sales versus direct commercial sales, and notes significant international interest in programs like the F-35, F-16, and missile defense systems. Additionally, it addresses the F-35 program's production status, challenges, and backlog figures, indicating ongoing demand and future production plans.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t17",
+              "title": "Consolidated Results of Operations",
+              "level": 3,
+              "start_page": 34,
+              "end_page": 37,
+              "summary": "This section provides a detailed overview of the consolidated results of operations for the company, including net sales, cost of sales, and net earnings for the years 2020 to 2022. It highlights a decrease in net sales from $67.0 billion in 2021 to $66.0 billion in 2022, primarily due to supply chain impacts and lower product sales in various segments. The cost of sales also decreased, leading to a gross profit of $8.3 billion in 2022. Additionally, the section discusses changes in interest expense, non-service pension costs, and income tax expenses, noting a lower effective tax rate in 2022. Finally, it reports net earnings of $5.7 billion in 2022, reflecting a decline from the previous year, influenced by share repurchases and other financial factors.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t18",
+              "title": "Business Segment Results of Operations",
+              "level": 3,
+              "start_page": 38,
+              "end_page": 44,
+              "summary": "This section details the operational results of four business segments: Aeronautics, Missiles and Fire Control (MFC), Rotary and Mission Systems (RMS), and Space. It provides specific financial metrics including net sales, operating profit, and backlog for each segment over the years 2020 to 2022. The section also discusses the impact of pension adjustments, contract performance, and profit booking rates on segment profitability. Additionally, it highlights significant programs within each segment and notes challenges such as performance issues and contractual changes affecting future sales and costs.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t19",
+              "title": "Liquidity and Cash Flows",
+              "level": 3,
+              "start_page": 45,
+              "end_page": 46,
+              "summary": "This section discusses the company's liquidity and cash flow status as of December 31, 2022, highlighting cash and cash equivalents of $2.5 billion and the primary source of liquidity being cash from operations. It details access to credit markets, including a $3.0 billion revolving credit facility, and outlines the cash flow dynamics from customer payments, contract funding, and the impact of U.S. Government payment policies. The section also addresses the effects of COVID-19 on cash flows, the company's cash deployment strategy, and significant cash management activities, including share repurchase programs and debt management. Additionally, it introduces the concept of free cash flow as a measure of business performance and liquidity, emphasizing its importance for investor insights and corporate financial strategies.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t20",
+              "title": "Capital Structure, Resources and Other",
+              "level": 3,
+              "start_page": 47,
+              "end_page": 49,
+              "summary": "This section discusses the company's capital structure, including cash reserves, outstanding debt, and financing activities as of December 31, 2022. It details the reconciliation of net cash from operating activities to free cash flow, highlighting significant figures for 2020-2022. The section also outlines the company's long-term debt issuance, including specific notes issued in 2022, and their associated interest payment schedules. Additionally, it provides an overview of contractual commitments, including debt repayment, operating leases, and purchase obligations, emphasizing the company's financial obligations and planned capital expenditures for future projects.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t21",
+              "title": "Critical Accounting Policies",
+              "level": 3,
+              "start_page": 50,
+              "end_page": 57,
+              "summary": "This section outlines critical accounting policies related to contract accounting and postretirement benefit plans. It details how revenue is recognized for long-term contracts, including fixed-price and cost-reimbursable contracts, emphasizing the importance of performance obligations and the estimation of transaction prices. The section also discusses the impact of significant estimates and assumptions on profit booking rates and the potential for favorable or unfavorable adjustments. Additionally, it covers the management of postretirement benefit plans, including pension obligations, actuarial assumptions, and the effects of market conditions on funding status and expenses.",
+              "source": "embedded_toc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "node_id": "t22",
+          "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+          "level": 2,
+          "start_page": 58,
+          "end_page": 59,
+          "summary": "This section discusses the company's management of market risks, including interest rates, foreign currency exchange rates, and equity securities. It details the use of derivative instruments to hedge against these risks, specifying the types of hedges employed, such as cash flow and fair value hedges. The estimated fair value of outstanding debt is reported at $16.0 billion, with a 10% interest rate change having no material impact. Additionally, the section highlights the company's exposure to foreign currency fluctuations and equity market risks, noting that a 10% decrease in marketable equity securities would not materially affect financial statements. The company emphasizes its credit risk management practices regarding counterparties in derivative transactions.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t23",
+          "title": "Item 8. Financial Statements and Supplementary Data",
+          "level": 2,
+          "start_page": 60,
+          "end_page": 102,
+          "summary": "This section provides a comprehensive overview of Lockheed Martin Corporation's financial performance and position through various financial statements for the years ended December 31 from 2020 to 2022. It includes the Consolidated Statements of Earnings, detailing revenue, costs, and profitability trends; the Consolidated Statements of Comprehensive Income, highlighting net earnings and other comprehensive income; and the Consolidated Balance Sheets, which outline the company's assets, liabilities, and equity. Additionally, the section covers the Consolidated Statements of Cash Flows, detailing cash flow activities, and the Consolidated Statements of Equity, showing changes in stockholders' equity. Finally, the Notes to Consolidated Financial Statements provide in-depth insights into accounting policies, segment performance, and various financial metrics, enhancing understanding of the company's financial health and operational practices.",
+          "source": "embedded_toc",
+          "children": [
+            {
+              "node_id": "t24",
+              "title": "Consolidated Statements of Earnings",
+              "level": 3,
+              "start_page": 63,
+              "end_page": 63,
+              "summary": "This section presents the Consolidated Statements of Earnings for Lockheed Martin Corporation for the years ended December 31 from 2020 to 2022. It details net sales, breaking down revenue from products and services, and outlines the total cost of sales, including severance charges. The section highlights gross profit, operating profit, and earnings from continuing operations before income taxes, along with net earnings and earnings per share for both basic and diluted calculations. Readers can learn about the company's financial performance trends over the three years, including changes in net sales, costs, and profitability.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t25",
+              "title": "Consolidated Statements of Comprehensive Income",
+              "level": 3,
+              "start_page": 64,
+              "end_page": 64,
+              "summary": "This section presents the Consolidated Statements of Comprehensive Income for Lockheed Martin Corporation, detailing net earnings and other comprehensive income for the years ended December 31 from 2020 to 2022. It highlights net earnings of $5,732 million in 2022, down from $6,315 million in 2021 and $6,833 million in 2020. The section also outlines components of other comprehensive income, including postretirement benefit plans, with significant actuarial gains and losses, and pension settlement charges. The total comprehensive income for 2022 is reported at $8,715 million, reflecting the sum of net earnings and other comprehensive income. This information is crucial for understanding the company's financial performance and the impact of non-operational factors on overall income.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t26",
+              "title": "Consolidated Balance Sheets",
+              "level": 3,
+              "start_page": 65,
+              "end_page": 65,
+              "summary": "This section presents the Consolidated Balance Sheets for Lockheed Martin Corporation as of December 31, 2022, and 2021, detailing the company's financial position. Key components include current and noncurrent assets, such as cash, receivables, inventories, and property, plant, and equipment, totaling $52,880 million in 2022. Liabilities are broken down into current and long-term categories, with total liabilities amounting to $43,614 million. Stockholders' equity is also outlined, showing a decrease from the previous year, with total equity at $9,266 million. The balance sheet provides insights into the company's liquidity, financial stability, and capital structure.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t27",
+              "title": "Consolidated Statements of Cash Flows",
+              "level": 3,
+              "start_page": 66,
+              "end_page": 66,
+              "summary": "This section presents the Consolidated Statements of Cash Flows for Lockheed Martin Corporation for the years ended December 31 from 2020 to 2022. It details cash flows from operating, investing, and financing activities, highlighting net earnings, adjustments for non-cash items, and changes in working capital. Key figures include net cash provided by operating activities, which totaled $7,802 million in 2022, and net cash used for investing and financing activities. The section also shows the net change in cash and cash equivalents, which decreased by $1,057 million in 2022, resulting in an ending balance of $2,547 million.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t28",
+              "title": "Consolidated Statements of Equity",
+              "level": 3,
+              "start_page": 67,
+              "end_page": 67,
+              "summary": "This section presents the Consolidated Statements of Equity for Lockheed Martin Corporation, detailing changes in stockholders' equity from December 31, 2019, to December 31, 2022. It includes components such as common stock, additional paid-in capital, retained earnings, and accumulated other comprehensive loss. Key financial activities are highlighted, including net earnings, other comprehensive income or loss, stock repurchases, and dividends declared per share. The balances at the end of each year reflect the cumulative impact of these activities on total equity and noncontrolling interests in subsidiaries.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t29",
+              "title": "Notes to Consolidated Financial Statements",
+              "level": 3,
+              "start_page": 68,
+              "end_page": 102,
+              "summary": "The Notes to Consolidated Financial Statements section provides detailed insights into Lockheed Martin Corporation's financial practices and performance across various areas. It covers significant accounting policies, earnings per share calculations, business segment performance, and details on receivables, inventories, and property assets. Additionally, it discusses goodwill, leases, income taxes, debt, postretirement benefits, stockholders' equity, stock-based compensation, legal proceedings, fair value measurements, severance charges, and the effectiveness of internal controls. Each note offers specific financial data and operational insights relevant to stakeholders and analysts.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t30",
+                  "title": "Note 1 – Organization and Significant Accounting Policies",
+                  "level": 4,
+                  "start_page": 68,
+                  "end_page": 75,
+                  "summary": "This section outlines Lockheed Martin Corporation's organizational structure and significant accounting policies. It details the company's operations in security and aerospace, emphasizing its primary customer base of U.S. Government agencies and international clients. The section explains the basis of presentation for financial statements, including the consolidation of subsidiaries and the use of estimates in financial reporting. Key accounting policies discussed include revenue recognition methods for long-term contracts, the treatment of research and development costs, stock-based compensation, and income tax provisions. Additionally, it highlights the impact of contract types on revenue and profit recognition, including fixed-price and cost-reimbursable contracts.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t31",
+                  "title": "Note 2 – Earnings Per Share",
+                  "level": 4,
+                  "start_page": 76,
+                  "end_page": 76,
+                  "summary": "This section details the computation of earnings per share (EPS) for the years 2020 to 2022, providing the weighted average number of shares outstanding for both basic and diluted EPS calculations. It specifies that basic EPS is calculated by dividing net earnings by the weighted average common shares outstanding, while diluted EPS includes the effects of equity awards such as restricted stock units (RSUs) and performance stock units (PSUs). The section notes a decrease in both basic and diluted shares outstanding in 2022 compared to 2021, attributed to share repurchases. Additionally, it mentions that there were no significant anti-dilutive equity awards during the reported years.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t32",
+                  "title": "Note 3 – Information on Business Segments",
+                  "level": 4,
+                  "start_page": 76,
+                  "end_page": 80,
+                  "summary": "This section provides an overview of the company's four business segments: Aeronautics, Missiles and Fire Control (MFC), Rotary and Mission Systems (RMS), and Space. It details the activities and products of each segment, including military aircraft, missile systems, and satellite technologies. Financial data is presented, showing net sales and operating profit for each segment over the years 2020 to 2022, highlighting trends and performance metrics. Additionally, it discusses intersegment sales, disaggregation of net sales by products, services, contract types, and customer categories, as well as capital expenditures and depreciation for each segment.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t33",
+                  "title": "Note 4 – Receivables, net",
+                  "level": 4,
+                  "start_page": 81,
+                  "end_page": 81,
+                  "summary": "This section details the company's receivables, contract assets, and contract liabilities for the years 2022 and 2021. As of December 31, 2022, net receivables totaled $2.5 billion, with significant amounts due from the U.S. Government and other customers. Contract assets increased by $1.7 billion, primarily due to revenue recognition from the F-35 program, while contract liabilities rose by $381 million, reflecting payments received in advance of revenue recognition. The section emphasizes the low credit risk associated with receivables, given the predominance of government contracts.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t34",
+                  "title": "Note 5 – Inventories",
+                  "level": 4,
+                  "start_page": 81,
+                  "end_page": 81,
+                  "summary": "This section details the composition of inventories for the company, including materials, spares and supplies, work-in-process, and finished goods, with total inventories reported at $3,088 million for 2022, up from $2,981 million in 2021. It explains that costs incurred to fulfill contracts before they are awarded can be included in work-in-process inventories if they meet specific criteria, such as being directly related to identifiable contracts and being recoverable. The section emphasizes the accounting treatment of pre-contract costs, which are recognized as cost of sales when products and services are transferred to customers.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t35",
+                  "title": "Note 6 – Property, Plant and Equipment, net",
+                  "level": 4,
+                  "start_page": 82,
+                  "end_page": 82,
+                  "summary": "This section details the composition and valuation of property, plant, and equipment (PP&E) as of December 31 for the years 2022 and 2021. It provides specific figures for land, buildings, machinery and equipment, and construction in progress, totaling $20,138 million in 2022. The section also outlines accumulated depreciation, which amounted to $12,163 million, resulting in a net PP&E value of $7,975 million. Additionally, it includes depreciation expenses for the years 2020 to 2022, highlighting a slight decrease in 2022 compared to 2021.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t36",
+                  "title": "Note 7 – Goodwill and Acquired Intangibles",
+                  "level": 4,
+                  "start_page": 82,
+                  "end_page": 82,
+                  "summary": "This section details the changes in goodwill and acquired intangible assets by business segment for the years ending December 31, 2021, and 2022. It provides specific figures for goodwill balances across segments such as Aeronautics, MFC, RMS, and Space, highlighting acquisitions and other adjustments. Additionally, it outlines the gross carrying amounts, accumulated amortization, and net carrying amounts of finite-lived and indefinite-lived intangible assets, including customer programs and trademarks. The section also includes amortization expenses for finite-lived intangibles and estimates future amortization expenses for the next five years.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t37",
+                  "title": "Note 8 - Leases",
+                  "level": 4,
+                  "start_page": 83,
+                  "end_page": 83,
+                  "summary": "This section details the company's operating lease agreements for facilities, land, and equipment, reporting a right-of-use (ROU) asset value of $1.1 billion and lease liabilities of $1.2 billion as of December 31, 2022. It outlines the new ROU assets and liabilities added in 2022, totaling $25 million, and provides the weighted average remaining lease term of 7.4 years with a discount rate of 2.4%. The operating lease expenses recognized were $275 million for both 2022 and 2021, with cash payments of $269 million made in 2022. Future minimum lease commitments are also detailed, totaling $1.342 billion, with a breakdown by year and imputed interest deducted.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t38",
+                  "title": "Note 9 – Income Taxes",
+                  "level": 4,
+                  "start_page": 83,
+                  "end_page": 85,
+                  "summary": "This section details the company's income tax provisions, including federal, foreign, and state income tax expenses for the years 2020 to 2022. It provides a reconciliation of the U.S. federal statutory income tax expense to the actual income tax expense, highlighting factors such as research and development tax credits and foreign derived intangible income deductions. The section also discusses uncertain tax positions, noting a significant increase in liabilities due to changes in tax law, and outlines the components of deferred income tax assets and liabilities. Additionally, it mentions the company's tax filing status and payments made in recent years.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t39",
+                  "title": "Note 10 – Debt",
+                  "level": 4,
+                  "start_page": 86,
+                  "end_page": 86,
+                  "summary": "This section details the company's total debt as of 2022 and 2021, including specific notes with varying interest rates and due dates, totaling $16.842 billion in 2022 compared to $12.799 billion in 2021. It outlines the net total debt after accounting for unamortized discounts and issuance costs, which is $15.547 billion for 2022. Additionally, it describes a new $3.0 billion Revolving Credit Agreement established in August 2022, with options for expansion and a maturity date of August 2027. The section also mentions compliance with covenants and the status of commercial paper agreements, indicating no outstanding borrowings under the credit facilities as of the end of 2022 and 2021.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t40",
+                  "title": "Note 11 – Postretirement Benefit Plans",
+                  "level": 4,
+                  "start_page": 87,
+                  "end_page": 94,
+                  "summary": "This section details the company's postretirement benefit plans, including defined benefit pension plans, retiree medical, and life insurance plans. It outlines the eligibility criteria for employees, noting that salaried employees hired after December 31, 2005, are not eligible for defined benefit plans. The section discusses significant transactions, such as the purchase of group annuity contracts to transfer pension obligations to an insurance company, resulting in substantial noncash pension settlement charges. It also provides financial metrics related to the funded status of these plans, including changes in benefit obligations, plan assets, and actuarial gains or losses, as well as assumptions used to determine benefit obligations and expenses. Finally, it includes future benefit payment estimates and the status of nonqualified defined benefit pension plans.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t41",
+                  "title": "Note 12 – Stockholders’ Equity",
+                  "level": 4,
+                  "start_page": 95,
+                  "end_page": 96,
+                  "summary": "This section details the stockholders' equity of the company as of December 31 for 2022 and 2021, including the authorized capital structure of 1.5 billion shares of common stock and 50 million shares of preferred stock, with no preferred shares issued. It outlines the repurchase of 18.3 million shares for $7.9 billion in 2022, including details on ASR agreements and future repurchase authorizations totaling $10 billion. The section also provides information on dividends paid, totaling $3 billion in 2022, and breaks down the changes in accumulated other comprehensive loss (AOCL) related to postretirement benefit plans, highlighting significant pension settlement charges and their impact on financial statements.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t42",
+                  "title": "Note 13 – Stock-Based Compensation",
+                  "level": 4,
+                  "start_page": 97,
+                  "end_page": 97,
+                  "summary": "This section details the company's stock-based compensation plans, including the types of awards granted to employees such as stock options, RSUs, and PSUs. As of December 31, 2022, approximately 9.1 million shares were reserved for issuance, with 6.8 million shares available for future grants. The section outlines the financial impact of stock-based compensation, reporting noncash expenses of $238 million in 2022 and a reduction in income tax liabilities due to recognized tax benefits. It also provides specific data on RSU and PSU activity, including grant-date fair values and vesting conditions, highlighting the performance metrics tied to PSUs.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t43",
+                  "title": "Note 14 – Legal Proceedings, Commitments and Contingencies",
+                  "level": 4,
+                  "start_page": 97,
+                  "end_page": 99,
+                  "summary": "This section outlines the company's involvement in various legal proceedings, including environmental matters and government contracts. It details ongoing litigation, such as the False Claims Act lawsuits related to Sikorsky Aircraft Corporation, and a dispute with the New York Metropolitan Transportation Authority over contract breaches. The company assesses the likelihood of material adverse effects from these proceedings, noting that while individual cases may impact earnings, the overall corporate impact is deemed remote. Additionally, it discusses environmental liabilities, with recorded amounts for remediation efforts and potential recoveries from other responsible parties.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t44",
+                  "title": "Note 15 – Fair Value Measurements",
+                  "level": 4,
+                  "start_page": 100,
+                  "end_page": 101,
+                  "summary": "This section details the fair value measurements of assets and liabilities as of December 31 for the years 2022 and 2021. It categorizes these measurements into Level 1, Level 2, and Level 3 based on the observability of inputs used in their valuation. Key assets include mutual funds, U.S. government securities, and derivatives, while liabilities primarily consist of derivatives. The section also discusses the use of derivative instruments to hedge against market risks related to foreign currency and interest rates, and provides insights into the estimated fair values of outstanding debt and other financial instruments.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t45",
+                  "title": "Note  16 – Severance Charges",
+                  "level": 4,
+                  "start_page": 102,
+                  "end_page": 102,
+                  "summary": "This section details severance and other charges incurred by the company, totaling $100 million in Q4 2022, primarily due to workforce reductions and asset impairments in the RMS business segment. It outlines the strategic review that led to these actions aimed at improving operational efficiency and aligning costs with economic conditions. Additionally, it provides historical context with severance charges of $36 million in 2021 and $27 million in 2020, highlighting the ongoing efforts to consolidate operations and manage costs. The section also mentions that terminated employees will receive lump-sum severance payments based on their years of service.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t46",
+                  "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+                  "level": 4,
+                  "start_page": 103,
+                  "end_page": 103,
+                  "summary": "This section reports that there were no changes or disagreements with accountants regarding accounting and financial disclosure. It details the evaluation of disclosure controls and procedures conducted as of December 31, 2022, involving senior management and overseen by the CEO and CFO, who concluded that these controls were effective. Additionally, it outlines management's responsibility for internal control over financial reporting, confirming its effectiveness based on established criteria. The section also states that there were no changes in internal control over financial reporting that materially affected or were likely to affect it during the specified quarter.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "t47",
+          "title": "Item 9A. Controls and Procedures",
+          "level": 2,
+          "start_page": 103,
+          "end_page": 103,
+          "summary": "This section discusses the evaluation of the company's disclosure controls and procedures as of December 31, 2022, confirming their effectiveness as concluded by the CEO and CFO. It outlines management's responsibility for maintaining adequate internal control over financial reporting, which is designed to ensure reliable financial reporting and preparation of consolidated financial statements. The assessment of internal control effectiveness was based on the 2013 framework by the Committee of Sponsoring Organizations of the Treadway Commission, with management concluding that controls were effective as of the same date. Additionally, it notes that there were no changes in internal control over financial reporting that materially affected or were likely to affect the controls during the quarter ended December 31, 2022.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t48",
+          "title": "Independent Registered Public Accoutning Firm",
+          "level": 2,
+          "start_page": 104,
+          "end_page": 104,
+          "summary": "This section contains the report of Ernst & Young LLP, the independent registered public accounting firm, regarding Lockheed Martin Corporation's internal control over financial reporting as of December 31, 2022. The firm expresses an unqualified opinion that the Corporation maintained effective internal control in accordance with the COSO criteria. It outlines the responsibilities of both the Corporation's management and the auditors, detailing the audit process and the standards followed. Additionally, it defines internal control over financial reporting and discusses its limitations, emphasizing that while it aims to ensure reliable financial reporting, it may not prevent all misstatements due to inherent limitations.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t49",
+          "title": "Item 9B. Other Information",
+          "level": 2,
+          "start_page": 105,
+          "end_page": 105,
+          "summary": "This section, Item 9B, states that there is no additional information to disclose. It serves as a placeholder indicating that no relevant updates or disclosures are necessary at this time. The subsequent section, Item 9C, notes that disclosure regarding foreign jurisdictions that prevent inspections is not applicable. Readers can learn that the company has no further information to report in this context.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t50",
+          "title": "Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections",
+          "level": 2,
+          "start_page": 105,
+          "end_page": 105,
+          "summary": "This section, Item 9C, states that there is no applicable information regarding foreign jurisdictions that prevent inspections. It indicates that the company has not encountered any issues related to foreign jurisdictions that would hinder inspection processes. As such, there are no disclosures or relevant details to report in this context.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t51",
+      "title": "PART III",
+      "level": 1,
+      "start_page": 105,
+      "end_page": 106,
+      "summary": "PART III covers the company's governance structure, executive compensation, security ownership, related transactions, and accountant fees. It details the roles of directors and executive officers, referencing the 2023 Proxy Statement for specific information. The section outlines executive compensation practices, including salaries and bonuses, and provides data on security ownership and equity compensation plans. It also discusses policies regarding related transactions and director independence, ensuring transparency and conflict of interest management. Finally, it includes information on fees and services provided by independent auditors, highlighting the financial relationship with the company.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t52",
+          "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+          "level": 2,
+          "start_page": 105,
+          "end_page": 105,
+          "summary": "This section outlines the governance structure of the company, detailing the information about directors and executive officers as required by Regulation S-K. It specifies that details regarding directors are found in the upcoming 2023 Proxy Statement and that executive officer information is located in Part I, Item 4(a) of the Form 10-K. Additionally, it mentions the company's Code of Ethics and Business Conduct, which has been in place since 1995 and applies to all employees and board members. The section also notes the requirement to disclose any changes or waivers to the Code for senior officers, with such disclosures made available on the company's investor relations website.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t53",
+          "title": "Item 11. Executive Compensation",
+          "level": 2,
+          "start_page": 105,
+          "end_page": 105,
+          "summary": "This section provides an overview of executive compensation as required by Item 402 of Regulation S-K, detailing the information found in the 2023 Proxy Statement under the headings \"Executive Compensation\" and \"Director Compensation.\" It also references the \"Compensation Committee Report\" as per Item 407(e)(5) of Regulation S-K, which is similarly incorporated by reference. Readers can learn about the compensation structure, including salaries, bonuses, and other benefits for executives and directors, as well as insights into the compensation committee's decisions and policies.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t54",
+          "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+          "level": 2,
+          "start_page": 106,
+          "end_page": 106,
+          "summary": "This section provides details on the security ownership of management and certain beneficial owners, referencing the 2023 Proxy Statement for specific ownership data. It includes a table summarizing equity compensation plans as of December 31, 2022, detailing the number of securities to be issued, their exercise prices, and the number of securities available for future issuance. The section distinguishes between equity compensation plans approved and not approved by security holders, highlighting the types of awards granted, such as restricted stock units (RSUs) and performance stock units (PSUs). Additionally, it explains the Deferred Management Incentive Compensation Plan (DMICP) and its implications for stock distribution to employees.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t55",
+          "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+          "level": 2,
+          "start_page": 106,
+          "end_page": 106,
+          "summary": "This section outlines the disclosure requirements related to certain relationships and transactions involving directors, executive officers, and significant stockholders, as mandated by Regulation S-K. It references specific policies and transactions detailed in the 2023 Proxy Statement, including the 'Related Person Transaction Policy' and the criteria for 'Director Independence.' Readers can learn about the governance practices in place to manage potential conflicts of interest and ensure transparency in related party transactions.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t56",
+          "title": "Item 14. Principal Accountant Fees and Services",
+          "level": 2,
+          "start_page": 106,
+          "end_page": 106,
+          "summary": "This section outlines the information regarding principal accountant fees and services, which is detailed under the caption 'Proposal 4 - Ratification of Appointment of Independent Auditors' in the 2023 Proxy Statement. It indicates that the relevant details about the fees paid to independent auditors and the nature of their services are incorporated by reference in this Annual Report on Form 10-K. Readers can learn about the financial relationship between the company and its auditors, including any potential conflicts of interest or service scope.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t57",
+      "title": "PART IV",
+      "level": 1,
+      "start_page": 107,
+      "end_page": 107,
+      "summary": "PART IV includes detailed financial statements and exhibits from Lockheed Martin Corporation's Form 10-K, such as the Consolidated Statements of Earnings and Balance Sheets, along with references to independent auditor reports. It summarizes amendments to the Executive Severance Plan and lists important documents like the Offer Letter to Jesus Malave and Sarbanes-Oxley certifications. The section concludes with signatures from key executives affirming compliance with the Securities Exchange Act, including names and titles of signatories, and notes the use of a Power of Attorney for one signature.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t58",
+          "title": "Item 15. Exhibits and Financial Statement Schedules",
+          "level": 2,
+          "start_page": 107,
+          "end_page": 109,
+          "summary": "This section lists the financial statements and exhibits included in Lockheed Martin Corporation's Form 10-K. It details the specific financial statements such as the Consolidated Statements of Earnings, Comprehensive Income, Balance Sheets, Cash Flows, and Equity, along with their respective page numbers. Additionally, it includes references to the reports from the independent registered public accounting firm regarding the financial statements and internal control over financial reporting. The section also outlines various exhibits, including the corporation's charter, bylaws, indentures, and compensation plans, many of which are incorporated by reference from previous filings.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t59",
+          "title": "Item 16. Form 10-K Summary",
+          "level": 2,
+          "start_page": 110,
+          "end_page": 110,
+          "summary": "This section provides a summary of various amendments to the Lockheed Martin Corporation Executive Severance Plan, effective December 1, 2016, detailing multiple amendments incorporated by reference from previous quarterly reports. It also lists other important documents such as the Offer Letter to Jesus Malave and certifications pursuant to the Sarbanes-Oxley Act of 2002. Additionally, it mentions the inclusion of XBRL documents related to the financial reporting of the company. The section concludes with a note that exhibits 10.2 through 10.41 are management contracts or compensatory plans.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t60",
+          "title": "SIGNATURES",
+          "level": 2,
+          "start_page": 111,
+          "end_page": 111,
+          "summary": "This section contains the signatures of key executives and directors of Lockheed Martin Corporation, affirming the report's compliance with the Securities Exchange Act of 1934. It includes the names and titles of signatories such as H. Edward Paul III, James D. Taiclet, and Jesus Malave, along with their respective roles as Vice President, Controller, Chief Executive Officer, and Chief Financial Officer. The signatures are dated January 26, 2023, indicating the report's official submission date. Additionally, it notes that Maryanne R. Lavan signed on behalf of the directors under a Power of Attorney, which is referenced in the report.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t61",
+      "title": "Ex 10.13 Q4 2022.pdf",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section outlines amendments to the Lockheed Martin Corporation Deferred Management Incentive Compensation Plan, effective January 1, 2023. It specifies new eligibility criteria for employees to participate in the Long Term Incentive Award deferral program, requiring participation in the MICP by May 1 or receipt of a Long Term Incentive Award by December 31 of the Award Year. The section also details the process for deferring Long Term Incentive Awards, including submission deadlines for Deferral Agreements based on employment status. These amendments aim to clarify participation requirements and improve the management incentive structure.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t62",
+          "title": "Ex 10.13",
+          "level": 2,
+          "start_page": 112,
+          "end_page": 112,
+          "summary": "This section details amendments to the Lockheed Martin Corporation Deferred Management Incentive Compensation Plan, effective January 1, 2023. It revises the eligibility criteria for employees to participate in the Long Term Incentive Award deferral program, specifying that eligible employees must be participants in the MICP by May 1 of the Award Year or receive a Long Term Incentive Award by December 31 of the Award Year. Additionally, it outlines the process for deferring Long Term Incentive Awards, including deadlines for submitting a Deferral Agreement based on employment status. The amendments aim to clarify participation requirements and enhance the management incentive structure.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t63",
+      "title": "Ex 10.40 Q4 2022.pdf",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section outlines Amendment No. 5 to the Lockheed Martin Corporation Executive Severance Plan, which became effective on December 1, 2016. It specifies that an employee's eligibility for severance is determined at the time of notification of termination due to a layoff. The amendment revises Section 3(a) of the Plan to apply to Executive Layoff Events notified on or after January 1, 2023. The amendment was approved by the Management Development and Compensation Committee on December 16, 2022, and is signed by the Chief Human Resources Officer.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t64",
+          "title": "Ex 10.40",
+          "level": 2,
+          "start_page": 113,
+          "end_page": 113,
+          "summary": "This section details Amendment No. 5 to the Lockheed Martin Corporation Executive Severance Plan, effective December 1, 2016. It clarifies that an employee's eligibility for severance is determined at the time they are notified of termination due to a layoff. The amendment specifically revises Section 3(a) of the Plan to reflect this change, applicable to Executive Layoff Events notified on or after January 1, 2023. The amendment was approved by the Management Development and Compensation Committee on December 16, 2022, and is signed by the Chief Human Resources Officer.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t65",
+      "title": "Ex 21 Q4 2022.pdf",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section provides a detailed list of the subsidiaries of Lockheed Martin Corporation, including their names and places of formation, such as Astrolink International LLC in Delaware and Lockheed Martin Australia Pty Limited in Australia. It notes that some additional subsidiaries, deemed insignificant, have been omitted in accordance with Regulation S-K. The section confirms that all listed subsidiaries are included in the company's consolidated financial statements, offering insights into Lockheed Martin's corporate structure and its international operations.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t66",
+          "title": "Exhibit 21",
+          "level": 2,
+          "start_page": 114,
+          "end_page": 114,
+          "summary": "Exhibit 21 lists the subsidiaries of Lockheed Martin Corporation, detailing their names and places of formation, including entities such as Astrolink International LLC in Delaware and Lockheed Martin Australia Pty Limited in Australia. The exhibit notes that additional subsidiaries, which are not considered significant, have been omitted in compliance with Regulation S-K. It confirms that all listed subsidiaries are included in the company's consolidated financial statements, providing insight into the corporate structure and international presence of Lockheed Martin.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t67",
+      "title": "Ex 23 Q4 2022.pdf",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section provides the consent of Ernst & Young LLP, the independent registered public accounting firm, regarding the incorporation by reference of their reports on Lockheed Martin Corporation's consolidated financial statements and internal control effectiveness. The reports, dated January 26, 2023, are associated with the Annual Report (Form 10-K) for the fiscal year ending December 31, 2022. Additionally, it lists multiple Registration Statements on Form S-8 and Form S-3, including their respective dates, which are important for investors and regulatory compliance. This consent signifies the accounting firm's acknowledgment of its role in Lockheed Martin's financial reporting process.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t68",
+          "title": "Exhibit 23",
+          "level": 2,
+          "start_page": 115,
+          "end_page": 115,
+          "summary": "Exhibit 23 contains the consent of Ernst & Young LLP, the independent registered public accounting firm, regarding the incorporation by reference of their reports on Lockheed Martin Corporation's consolidated financial statements and internal control effectiveness. The reports are dated January 26, 2023, and pertain to the Annual Report (Form 10-K) for the year ended December 31, 2022. The section lists multiple Registration Statements on Form S-8 and Form S-3, detailing their respective dates, which are relevant for investors and regulatory compliance. This consent is a formal acknowledgment of the accounting firm's role in the financial reporting process for Lockheed Martin.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t69",
+      "title": "Ex 24 Q4 2022.pdf",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section contains a Power of Attorney document for Lockheed Martin Corporation, which designates Maryanne R. Lavan, Kerri R. Morey, and Peter L. Trentman as attorneys-in-fact. They are authorized to execute and file the Annual Report on Form 10-K for the fiscal year ended December 31, 2022, with the Securities and Exchange Commission. The document details the powers granted to these individuals, including the ability to perform necessary acts related to the filing and to ratify their actions. It is signed by Daniel F. Akerson, a director of the corporation, on January 23, 2023.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t70",
+          "title": "Exhibit 24",
+          "level": 2,
+          "start_page": 116,
+          "end_page": 116,
+          "summary": "Exhibit 24 contains a Power of Attorney document for Lockheed Martin Corporation, designating Maryanne R. Lavan, Kerri R. Morey, and Peter L. Trentman as attorneys-in-fact. This document grants them the authority to execute and file the Annual Report on Form 10-K for the fiscal year ended December 31, 2022, with the Securities and Exchange Commission. It outlines the powers granted to these individuals, including the ability to perform necessary acts related to the filing and to ratify their actions. The document is signed by Daniel F. Akerson, a director of the corporation, on January 23, 2023.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t71",
+      "title": "Ex 31.1 Q4 2022.pdf",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section includes the certification by James D. Taiclet, CEO of Lockheed Martin Corporation, as required by Section 302 of the Sarbanes-Oxley Act of 2002. It confirms his review of the Annual Report on Form 10-K, asserting that it is free from misleading statements or omissions. Taiclet certifies that the financial statements accurately reflect the company's financial condition and operational results. Additionally, he details his responsibilities for establishing and maintaining disclosure controls and internal control over financial reporting, including the evaluation of their effectiveness and the disclosure of any significant deficiencies or instances of fraud.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t72",
+          "title": "EX 31.1",
+          "level": 2,
+          "start_page": 128,
+          "end_page": 128,
+          "summary": "This section contains the certification of James D. Taiclet, CEO of Lockheed Martin Corporation, in accordance with Section 302 of the Sarbanes-Oxley Act of 2002. It affirms that he has reviewed the Annual Report on Form 10-K and confirms that it does not contain any misleading statements or omissions. Taiclet certifies that the financial statements fairly present the company's financial condition and results of operations. He also outlines responsibilities regarding the establishment and maintenance of disclosure controls and internal control over financial reporting, including evaluations of their effectiveness and disclosures of any significant deficiencies or fraud.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t73",
+      "title": "Ex 31.2 Q4 2022.pdf",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section includes the certification by Jesus Malave, Chief Financial Officer of Lockheed Martin Corporation, as required by Section 302 of the Sarbanes-Oxley Act of 2002. It details his review of the Annual Report on Form 10-K, confirming that it is free from material misstatements and accurately reflects the company's financial status. Malave certifies the effectiveness of disclosure controls and procedures, as well as internal control over financial reporting. He also addresses any significant deficiencies or fraud related to internal controls that could affect financial reporting.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t74",
+          "title": "Ex 31.2",
+          "level": 2,
+          "start_page": 129,
+          "end_page": 129,
+          "summary": "This section contains the certification of Jesus Malave, Chief Financial Officer of Lockheed Martin Corporation, in accordance with Section 302 of the Sarbanes-Oxley Act of 2002. It outlines his review of the Annual Report on Form 10-K, affirming that the report is free from material misstatements and accurately presents the company's financial condition and results. Malave also certifies the establishment and maintenance of disclosure controls and procedures, internal control over financial reporting, and the evaluation of their effectiveness. Additionally, he discloses any significant deficiencies or fraud related to internal controls that could impact financial reporting.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t75",
+      "title": "Ex  32 Q4 2022.pdf",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 130,
+      "summary": "This section includes Exhibit 32, which features the certification by Lockheed Martin Corporation's CEO, James D. Taiclet, and CFO, Jesus Malave, regarding the company's Annual Report on Form 10-K for the fiscal year ending December 31, 2022. The certification is made in accordance with 18 U.S.C. Section 1350 and Section 906 of the Sarbanes-Oxley Act of 2002, affirming compliance with the Securities Exchange Act of 1934. It emphasizes the executives' accountability for the accuracy and integrity of the financial reporting presented in the report.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t76",
+          "title": "Exhibit 32",
+          "level": 2,
+          "start_page": 130,
+          "end_page": 130,
+          "summary": "Exhibit 32 contains the certification by James D. Taiclet, CEO, and Jesus Malave, CFO, of Lockheed Martin Corporation regarding the company's Annual Report on Form 10-K for the fiscal year ending December 31, 2022. The certification is made pursuant to 18 U.S.C. Section 1350 and Section 906 of the Sarbanes-Oxley Act of 2002. It confirms that the report complies with the Securities Exchange Act of 1934 and accurately presents the financial condition and results of operations of the corporation. This section underscores the accountability of the executives for the integrity of the financial reporting.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

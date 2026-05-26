@@ -1,0 +1,221 @@
+{
+  "node_id": "root",
+  "title": "MICROSOFT_2016_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 121,
+  "summary": "This section of Microsoft's Form 10-K for the fiscal year ending June 30, 2016, provides a comprehensive overview of the company's business operations, financial performance, and regulatory compliance. It includes details on Microsoft's business strategy, risk factors, properties, legal proceedings, and market performance, alongside selected financial data and management's analysis of operations. The section also covers internal controls, executive compensation, and stockholder matters, ensuring transparency in financial reporting and governance. Additionally, it outlines the audit process and findings related to internal controls and financial statements, affirming compliance with accounting standards.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Microsoft Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 2,
+      "summary": "This section contains the front matter for Microsoft's Form 10-K annual report for the fiscal year ending June 30, 2016. It includes essential information such as the company's SEC filing status, its registration details, and the market value of its common stock. The section also confirms Microsoft's compliance with filing requirements and identifies it as a large accelerated filer. Additionally, it outlines the structure of the report, including a table of contents that lists various items covered in the report, such as business operations, risk factors, and financial data.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 16,
+      "summary": "This section outlines Microsoft's business strategy, vision, and product offerings, emphasizing its mission to empower individuals and organizations through technology. Key topics include the company's focus on a mobile-first, cloud-first approach, which transforms user interactions with technology. The section details Microsoft's diverse product portfolio, including operating systems, productivity applications, cloud services, and devices, as well as its ambitions to reinvent productivity, build an intelligent cloud platform, and create more personal computing experiences. Additionally, it discusses the company's operating segments, including Productivity and Business Processes, Intelligent Cloud, and More Personal Computing, highlighting their respective products and competitive landscape.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 25,
+      "summary": "This section outlines various risk factors that could negatively impact Microsoft's business, financial condition, and stock price. Key risks include intense competition across technology markets, particularly in cloud services and operating systems, which may lead to reduced revenue and margins. The company faces challenges from competitors using different business models, including free applications and open-source software. Additionally, significant investments in new products and services may not yield expected returns, and acquisitions could pose integration and strategic risks. Cybersecurity threats and regulatory scrutiny also present ongoing challenges that could affect operations and reputation.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This section confirms that there are no unresolved written comments from the SEC staff regarding the company's periodic or current reports that were issued 180 days or more before the end of fiscal year 2016. It indicates compliance with SEC regulations and suggests that the company has not faced significant regulatory issues during that period. Readers can learn about the company's standing with the SEC and its reporting practices.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This section details the company's properties, including its corporate headquarters in Redmond, Washington, which encompasses approximately 15 million square feet for various operational purposes. It specifies that about 10 million square feet are owned, while 5 million square feet are leased. The company also owns and leases international facilities, including research and development centers in China and India, and manufacturing facilities in Vietnam. A summary table provides a breakdown of owned and leased space both domestically and internationally, totaling 45.9 million square feet.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 27,
+      "end_page": 27,
+      "summary": "This section details the activities of the Company's Antitrust Compliance Office as mandated by the Final Order in the case Barovic v. Ballmer. It outlines the monitoring of compliance with the European Commission's 2004 Decision and the 2009 Undertaking, as well as the handling of complaints related to antitrust laws. The section also mentions the training of employees on antitrust compliance policies and the reporting structure to the Board. For further legal proceedings, readers are directed to Note 17 in the financial statements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 27,
+      "end_page": 27,
+      "summary": "This section indicates that Item 4, Mine Safety Disclosures, is not applicable to the Company. It does not provide any specific information or disclosures related to mine safety, suggesting that the Company does not operate in mining or related industries that would require such disclosures. Readers will learn that there are no mine safety issues or reports relevant to the Company for the reporting period.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters, and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This section provides an overview of the market for the registrant's common equity, specifically Microsoft Corporation's stock traded on NASDAQ under the symbol MSFT. It details the number of registered stockholders as of July 25, 2016, and presents the high and low stock prices for each quarter of fiscal years 2015 and 2016. Additionally, it outlines the company's dividend declarations and share repurchase activities, including the total number of shares purchased, average prices, and the remaining dollar value of shares that may be repurchased under existing plans. This information is crucial for investors assessing the company's stock performance and shareholder returns.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Selected Financial Data",
+      "level": 1,
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This section provides selected financial data for the years ended June 30 from 2012 to 2016, highlighting key metrics such as revenue, gross margin, operating income, net income, diluted earnings per share, cash dividends declared per share, cash and short-term investments, total assets, long-term obligations, and stockholders' equity. Readers can learn about the company's financial performance trends over these years, including a notable increase in net income from $12.2 million in 2015 to $16.8 million in 2016, and the growth in cash and short-term investments to $113.2 million. Additionally, the section outlines changes in stockholders' equity and long-term obligations, providing insights into the company's financial health and capital structure.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 29,
+      "end_page": 49,
+      "summary": "This section provides a comprehensive analysis of Microsoft's financial condition and operational results, detailing revenue changes across segments such as Productivity and Business Processes, Intelligent Cloud, and More Personal Computing. Key highlights include a 9% revenue decrease in fiscal year 2016, primarily due to Windows 10 revenue deferrals and unfavorable foreign currency impacts. The report also discusses significant expenses related to impairment and restructuring, alongside strategic acquisitions like LinkedIn. Additionally, it outlines industry trends, economic challenges, and the company's focus on cloud services, which have begun to represent over 10% of total revenue.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures about Market Risk",
+      "level": 1,
+      "start_page": 50,
+      "end_page": 51,
+      "summary": "This section discusses the company's exposure to various market risks, including foreign exchange rates, interest rates, credit risk, equity prices, and commodity prices. It details the hedging strategies employed for foreign currency risks involving major currencies like the euro and yen, and outlines the management of a diversified fixed-income portfolio. The section also explains the use of a value-at-risk (VaR) model to estimate potential losses due to adverse market movements, providing specific VaR figures for different risk categories as of June 30, 2016, and 2015. The total one-day VaR for all risk categories is reported, highlighting a decrease from the previous year due to diversification benefits.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 52,
+      "end_page": 95,
+      "summary": "This section provides a comprehensive overview of Microsoft's financial statements for the years ended June 30, 2016, 2015, and 2014, including income statements, balance sheets, cash flow statements, and stockholders' equity statements. Key financial metrics such as total revenue, net income, and earnings per share are detailed, alongside a breakdown of revenue sources between product and service offerings. The section also includes notes on accounting policies, revenue recognition, and estimates that impact financial reporting. Additionally, it discusses the company's financial position, including assets, liabilities, and equity, as well as cash flow activities across operations, financing, and investing. Readers can gain insights into Microsoft's financial health, operational performance, and accounting practices.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 96,
+      "end_page": 96,
+      "summary": "This section discusses the audit of Microsoft Corporation's consolidated financial statements for the years ending June 30, 2016, and 2015, conducted by Deloitte & Touche LLP. It outlines the responsibilities of both the company's management and the auditors, emphasizing the standards followed during the audit process. The auditors express an unqualified opinion that the financial statements fairly present the company's financial position and results of operations in accordance with generally accepted accounting principles. Additionally, it mentions the audit of the company's internal control over financial reporting, which also received an unqualified opinion.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 96,
+      "end_page": 97,
+      "summary": "This section discusses the evaluation of Microsoft Corporation's disclosure controls and procedures, confirming their effectiveness as of June 30, 2016, under the supervision of the CEO and CFO. It outlines management's responsibility for establishing adequate internal control over financial reporting, which aims to ensure the reliability of financial reporting in accordance with GAAP. The section also details the components of internal control, including transaction recording and asset management, and notes that while effective, these controls cannot provide absolute assurance against misstatements. Additionally, it mentions that Deloitte & Touche LLP audited the internal controls, affirming their effectiveness without any material changes during the reporting period.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 98,
+      "end_page": 98,
+      "summary": "This section contains the report of Deloitte & Touche LLP regarding the internal control over financial reporting of Microsoft Corporation as of June 30, 2016. It outlines the responsibilities of both the company's management and the auditors in maintaining and assessing the effectiveness of these controls. The report confirms that Microsoft maintained effective internal control over financial reporting in all material respects, based on established criteria. It also discusses the inherent limitations of internal controls and the potential for undetected material misstatements due to errors or fraud. Additionally, the auditors express their unqualified opinion on the company's consolidated financial statements for the same period.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 98,
+      "end_page": 98,
+      "summary": "This section discusses the internal control over financial reporting of Microsoft Corporation as of June 30, 2016. It outlines the responsibilities of the company's management and board of directors in maintaining effective internal controls, as well as the audit process conducted by Deloitte & Touche LLP. The audit aimed to assess the effectiveness of these controls based on established criteria, and the report concludes that Microsoft maintained effective internal control over financial reporting in all material respects. Additionally, it highlights the inherent limitations of such controls and the potential for undetected material misstatements due to errors or fraud.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 98,
+      "end_page": 98,
+      "summary": "This section provides an audit report on Microsoft Corporation's internal control over financial reporting as of June 30, 2016. It outlines the responsibilities of the company's management and the auditors, detailing the criteria used for the assessment based on the Internal Control – Integrated Framework (2013). The report concludes that Microsoft maintained effective internal control over financial reporting in all material respects, despite inherent limitations that could affect the detection of material misstatements. Additionally, it references the audit of the consolidated financial statements for the same period, which received an unqualified opinion.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 98,
+      "end_page": 98,
+      "summary": "This section provides an overview of the security ownership of certain beneficial owners and management of Microsoft Corporation, detailing the number of shares owned by key stakeholders. It includes information on stockholder matters, such as voting rights and any significant changes in ownership. The section aims to inform investors about the distribution of ownership and potential influences on corporate governance. Additionally, it may highlight any relationships between management and major shareholders that could impact decision-making.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 98,
+      "end_page": 98,
+      "summary": "This section discusses the audit of Microsoft Corporation's internal control over financial reporting as of June 30, 2016. It outlines the responsibilities of the company's management and the auditors, including the assessment of the effectiveness of internal controls based on established criteria. The audit aimed to provide reasonable assurance regarding the reliability of financial reporting and compliance with generally accepted accounting principles. The report concludes that Microsoft maintained effective internal control over financial reporting, despite inherent limitations that could affect the detection of material misstatements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 98,
+      "end_page": 98,
+      "summary": "This section discusses the audit of Microsoft Corporation's internal control over financial reporting as of June 30, 2016, conducted by Deloitte & Touche LLP. It outlines the responsibilities of the company's management and the auditors, including the assessment of the effectiveness of internal controls based on established criteria. The auditors provide an opinion on the effectiveness of these controls, noting that they were maintained in all material respects. The section also highlights the inherent limitations of internal controls and the potential for undetected material misstatements due to errors or fraud.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 15. Exhibits, Financial Statement Schedules",
+      "level": 1,
+      "start_page": 99,
+      "end_page": 121,
+      "summary": "Item 15 provides an overview of the financial statements and exhibits included in the Form 10-K. It references the financial statements located in Item 8, including income statements, balance sheets, and cash flow statements. The section also includes a detailed exhibit listing, which outlines various agreements, stock plans, and certifications related to Microsoft Corporation. Notable exhibits include the 2001 Stock Plan and various indentures related to debt securities. This section is essential for understanding the financial and operational agreements that underpin Microsoft's corporate structure.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

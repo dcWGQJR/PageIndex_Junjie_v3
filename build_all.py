@@ -126,7 +126,8 @@ def main() -> int:
 
             pdf = PDFDocument(str(pdf_path))
             try:
-                metrics = verify_and_repair(index.root, pdf, verbose=args.verbose)
+                metrics = verify_and_repair(index.root, pdf, llm=index.llm,
+                                            verbose=args.verbose)
             finally:
                 pdf.close()
 

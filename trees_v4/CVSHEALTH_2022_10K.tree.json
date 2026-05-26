@@ -1,0 +1,241 @@
+{
+  "node_id": "root",
+  "title": "CVSHEALTH_2022_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 213,
+  "summary": "The CVS Health Corporation's Form 10-K for the fiscal year ending December 31, 2022, provides a comprehensive overview of the company's business operations, financial condition, and governance. It includes details on the company's diversified health solutions, risk factors, properties, legal proceedings, and market information regarding its common stock. The document also covers executive compensation, security ownership, and the independence of directors, alongside financial statements and disclosures about market risks. Additionally, it highlights the impact of COVID-19 on operations and outlines the company's strategic focus on personalized healthcare solutions.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "CVS Health Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 3,
+      "summary": "This section contains the front matter for CVS Health Corporation's Form 10-K for the fiscal year ending December 31, 2022. It includes essential company information such as the registrant's name, address, and contact details, as well as the filing status under the Securities Exchange Act of 1934. The document confirms CVS as a well-known seasoned issuer and provides details on its common stock, including market value and shares outstanding. Additionally, it outlines the incorporation of reference materials and includes a cautionary statement regarding forward-looking statements, highlighting the risks and uncertainties associated with such projections.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 4,
+      "end_page": 35,
+      "summary": "This section provides an overview of CVS Health Corporation, detailing its role as a diversified health solutions company with over 9,000 retail locations and a significant presence in health insurance and pharmacy services. It outlines the company's business strategy focused on personalized, digital healthcare solutions and its response to the COVID-19 pandemic, including testing and vaccination efforts. The Health Care Benefits segment is highlighted, describing its offerings such as Medicare Advantage, Medicaid, and various insurance products, along with the company's approach to provider networks and quality assessment. Additionally, the section discusses pricing strategies, seasonality in operations, and competitive dynamics within the health care benefits industry.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 36,
+      "end_page": 63,
+      "summary": "This section outlines the various risk factors that could adversely affect CVS Health Corporation's business operations, financial condition, and stock price. Key risks include the uncertain impact of COVID-19 on healthcare costs and service utilization, challenges in accurately forecasting healthcare expenses, and adverse economic conditions that may affect customer demand and operational costs. The company also faces regulatory risks related to compliance with healthcare laws and potential litigation, as well as operational risks from cybersecurity threats and competition in the healthcare market. Additionally, the section discusses the implications of mergers and acquisitions, the importance of maintaining supplier relationships, and the potential for financial instability due to market conditions.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 64,
+      "end_page": 64,
+      "summary": "This section states that there are no unresolved comments from the SEC staff, indicating compliance with regulatory requirements. It briefly mentions ongoing disputes related to Aetna's out-of-network payment practices, which have financial implications for the company. Additionally, it highlights the impact of provider consolidation on competition and costs in the healthcare industry, noting that such changes may necessitate operational adjustments and could adversely affect business results.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 64,
+      "end_page": 64,
+      "summary": "This section details the properties owned and leased by the Company across its various segments. The principal office is located in Woonsocket, Rhode Island, covering approximately one million square feet, while the Health Care Benefits segment's office in Hartford, Connecticut, spans about 1.7 million square feet. The Pharmacy Services segment includes various facilities such as mail service pharmacies and call centers throughout the U.S. Additionally, the Retail/LTC segment operates around 7,795 retail stores, with a net selling space of approximately 77.4 million square feet, and includes retail pharmacies and clinics within Target stores. The section also notes the Company's ongoing lease obligations for former stores from past business dispositions.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 65,
+      "end_page": 65,
+      "summary": "This section references the legal proceedings related to the company, indicating that further details can be found in Note 16 'Commitments and Contingencies' in Item 8 of the 10-K. It suggests that there are no significant ongoing legal issues that would impact the company's operations. Additionally, it notes that Item 4 regarding Mine Safety Disclosures is not applicable, implying that there are no relevant disclosures to report in that area.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 65,
+      "end_page": 67,
+      "summary": "This section, titled 'Item 4. Mine Safety Disclosures,' states that the disclosures are not applicable. It indicates that there are no specific mine safety issues or incidents to report for the company. Readers can learn that the company does not have any mine safety disclosures to make in this report, suggesting compliance with relevant regulations or a lack of mining operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 68,
+      "end_page": 69,
+      "summary": "This section provides an overview of CVS Health Corporation's common stock market information, including its listing on the New York Stock Exchange under the symbol 'CVS.' It details the company's dividend history, noting a quarterly cash dividend of $0.55 in 2022, with a 10% increase authorized for 2023. As of February 1, 2023, there were 24,142 registered holders of common stock. The section also outlines share repurchase programs, including a $10 billion authorization for both 2021 and 2022, and details on the repurchase of 34.1 million shares for approximately $3.5 billion in 2022, including specifics on accelerated share repurchase transactions with Citibank and Barclays Bank.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Reserved",
+      "level": 1,
+      "start_page": 70,
+      "end_page": 70,
+      "summary": "This section is labeled 'Item 6. Reserved' and indicates that it is not applicable, providing no additional information or content. It serves as a placeholder in the document, suggesting that there may be no relevant data or disclosures required for this section. Readers will find no specific facts or topics discussed here, as it is reserved for potential future use or content.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 71,
+      "end_page": 103,
+      "summary": "This section provides a comprehensive analysis of CVS Health's financial condition and operational results, detailing the company's diverse health solutions and its four reportable segments: Health Care Benefits, Pharmacy Services, Retail/LTC, and Corporate/Other. It discusses the impact of the COVID-19 pandemic on operations, including changes in medical service utilization and revenue fluctuations across segments. The results of operations for 2022 are compared to 2021, highlighting a 10.4% increase in total revenues driven by growth in all segments, while operating income decreased significantly due to opioid litigation charges and losses in the Retail/LTC segment. The outlook for 2023 anticipates continued growth in Medicare and Commercial memberships, alongside challenges from Medicaid redeterminations and evolving COVID-19 impacts.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 104,
+      "end_page": 106,
+      "summary": "This section discusses the Company's exposure to various market risks, including interest rate risk, credit quality risk, market valuation risk, foreign currency risk, commodity risk, and operational risk. It details the management strategies for interest rate and credit quality risks, including the use of derivative financial instruments for hedging. The investment portfolio's performance is analyzed, highlighting the average credit quality ratings and the impact of hypothetical market changes on financial condition. Additionally, it addresses operational risks related to COVID-19 and cybersecurity threats, emphasizing the Company's commitment to mitigating these risks.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 107,
+      "end_page": 183,
+      "summary": "This section provides a comprehensive overview of CVS Health's financial statements for the years ended December 31, 2022, 2021, and 2020, including the Consolidated Statements of Operations, Comprehensive Income, Balance Sheets, Cash Flows, and Shareholders' Equity. Key financial metrics such as revenues, operating costs, net income, and earnings per share are detailed, allowing readers to assess the company's financial performance and trends over the specified years. Additionally, the section includes notes that explain significant accounting policies, the impact of COVID-19, and the company's reportable segments, which encompass Health Care Benefits, Pharmacy Services, Retail/LTC, and Corporate/Other. The reports also highlight the company's cash flow activities and investment strategies, providing insights into its financial health and operational efficiency.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 184,
+      "end_page": 184,
+      "summary": "This section reports that there have been no changes or disagreements with accountants regarding accounting and financial disclosure. It confirms the effectiveness of the Company's disclosure controls and procedures as evaluated by the Chief Executive Officer and Chief Financial Officer as of December 31, 2022. The management's assessment of internal control over financial reporting indicates that it is adequate and effective, ensuring reliable financial records and safeguarding of assets. Additionally, it notes that there were no changes in internal control over financial reporting during the fourth quarter of 2022 that materially affected its effectiveness.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 184,
+      "end_page": 184,
+      "summary": "This section discusses the evaluation of the Company's disclosure controls and procedures as of December 31, 2022, confirming their adequacy and effectiveness. It outlines management's responsibility for internal control over financial reporting, detailing the policies and procedures in place to ensure accurate financial records and prevent unauthorized asset use. The assessment was based on the 2013 Internal Control-Integrated Framework, and it highlights the role of internal auditors and a Disclosure Committee in maintaining these controls. Additionally, it notes that there were no changes in internal control over financial reporting during the fourth quarter that materially affected its effectiveness.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 184,
+      "end_page": 184,
+      "summary": "Item 9B states that there were no events during the fourth quarter ended December 31, 2022, that necessitated disclosure under this section. This indicates that the company did not experience any significant developments or changes that would impact its financial reporting or operations during this period. The section serves to confirm the absence of material information that would need to be communicated to stakeholders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections",
+      "level": 1,
+      "start_page": 185,
+      "end_page": 185,
+      "summary": "This section, Item 9C, indicates that there are no disclosures regarding foreign jurisdictions that prevent inspections. It suggests that the company has not encountered any issues or restrictions in foreign jurisdictions that would hinder regulatory inspections. Readers can infer that the company operates in compliance with international regulations concerning inspections. The absence of such disclosures may imply a stable operational environment in foreign markets for the company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 185,
+      "end_page": 185,
+      "summary": "This section provides an overview of the corporate governance structure of CVS Health Corporation, including references to the Executive Officers and Board of Directors as detailed in the Proxy Statement. It incorporates information on the committees of the Board, the Code of Conduct, and biographies of incumbent Board nominees. Additionally, it summarizes the company's equity compensation plans, detailing the number of securities to be issued upon exercise of options and the weighted average exercise price. The section also discusses the Aetna Stock Plan, its purpose, and its expiration, highlighting its role in aligning employee and stockholder interests.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 185,
+      "end_page": 185,
+      "summary": "This section outlines the executive compensation details for CVS Health Corporation, referencing specific sections of the Proxy Statement that cover non-employee director compensation and executive compensation matters. It includes a summary table of securities related to equity compensation plans, detailing the number of securities to be issued upon exercise of options, their weighted average exercise price, and the number of securities available for future issuance. Additionally, it discusses the Aetna Stock Plan, its purpose to align employee and stockholder interests, and notes that it expired in May 2020 without stockholder approval. Readers can learn about the company's compensation structure and the performance-based nature of its equity awards.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 185,
+      "end_page": 185,
+      "summary": "This section provides details on the security ownership of certain beneficial owners and management of CVS Health Corporation, referencing specific sections of the Proxy Statement. It includes a summary table of the common stock that may be issued upon the exercise of options, warrants, and rights under the company's equity compensation plans as of December 31, 2022. The table outlines the number of securities to be issued, their weighted average exercise price, and the number of securities remaining available for future issuance. Additionally, it discusses the Aetna Stock Plan, its purpose, and its expiration date, highlighting its role in aligning employee and stockholder interests.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 186,
+      "end_page": 186,
+      "summary": "This section discusses the independence determinations for directors and outlines the related person transaction policy. It indicates that these topics are critical for understanding the governance and ethical standards upheld by the organization. The section also references the Proxy Statement for detailed information on these policies, ensuring transparency in relationships and transactions involving directors. Readers can learn about the criteria for director independence and the procedures for handling transactions with related parties.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 14. Principal Accountant Fees and Services",
+      "level": 1,
+      "start_page": 186,
+      "end_page": 186,
+      "summary": "This section outlines the fees and services provided by the principal accountant for the fiscal year, detailing the types of services rendered, such as audit and non-audit services. It also references the ratification of the appointment of the independent registered public accounting firm for 2022, indicating the importance of transparency in financial reporting. Readers can learn about the financial relationship between the company and its auditors, including any potential conflicts of interest.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 15. Exhibits and Financial Statement Schedules",
+      "level": 1,
+      "start_page": 187,
+      "end_page": 190,
+      "summary": "This section outlines the exhibits and financial statement schedules included in the 10-K filing. It specifies that financial statement schedules are omitted as they are not applicable or included in the consolidated financial statements. The section provides an index of exhibits, detailing various agreements, articles of incorporation, bylaws, and material contracts, many of which are incorporated by reference from previous filings. Notably, it highlights management contracts and compensatory plans marked with an asterisk. The section also includes information on the rights of security holders and various financial instruments related to the company's operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 191,
+      "end_page": 213,
+      "summary": "Item 16 of the Form 10-K provides a summary of the key components of CVS Health Corporation's annual report, including the structure of its capital stock, which consists of common, preferred, and preference stock. It outlines the voting rights associated with common stock, the absence of preemptive rights, and the provisions for amending the Charter and By-Laws. Additionally, it discusses potential anti-takeover measures, including the board's authority to issue preferred stock and rights to purchase securities. The section also lists the subsidiaries of CVS Health, detailing their jurisdictions and organizational structure.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

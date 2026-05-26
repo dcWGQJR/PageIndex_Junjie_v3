@@ -1,0 +1,92 @@
+{
+  "node_id": "root",
+  "title": "FOOTLOCKER_2022_8K_dated-2022-05-20.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 4,
+  "summary": "This section of the Form 8-K report for Foot Locker, Inc. dated May 20, 2022, includes the front matter detailing the company's SEC filing information, shareholder vote results from the annual meeting on May 18, 2022, and the appointment of an audit committee financial expert. It outlines the outcomes of key shareholder votes, including the election of Board nominees and the approval of executive compensation. Additionally, it highlights the qualifications of Ms. Nicosia as the new audit committee financial expert. The section concludes with an overview of financial statements and exhibits, including a signature affirming the report's authenticity as per regulatory requirements.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Form 8-K Front Matter for Foot Locker, Inc.",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section contains the front matter for Form 8-K, a current report filed with the SEC by Foot Locker, Inc. It includes essential details such as the date of the report, the registrant's name, jurisdiction of incorporation, and contact information. The section also provides options for indicating if the filing serves multiple purposes under various SEC rules. Additionally, it lists the securities registered and their trading symbol on the New York Stock Exchange, along with a checkbox for emerging growth company status.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "w1",
+      "title": "Shareholder Vote Results from Annual Meeting 2022",
+      "level": 2,
+      "start_page": 2,
+      "end_page": 2,
+      "summary": "This section covers the results of shareholder votes at Foot Locker, Inc.'s annual meeting on May 18, 2022. It includes the election of ten Board of Directors nominees, approval of named executive officers' compensation, the frequency of advisory votes on NEOs' compensation, and the ratification of KPMG LLP as the auditor for 2022. Specific vote counts and outcomes are provided for each proposal, reflecting shareholder engagement and decisions on governance and executive pay.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w2",
+          "title": "Election Results for Board of Directors Nominees",
+          "level": 3,
+          "start_page": 2,
+          "end_page": 2,
+          "summary": "This section details the results of the shareholder vote at Foot Locker, Inc.'s annual meeting on May 18, 2022, specifically focusing on Proposal 1, which involved the election of ten nominees to the Board of Directors for a one-year term. It provides the number of votes cast for each nominee, including votes for, against, abstentions, and broker non-votes. The section confirms that all ten nominees were duly elected based on the voting results. Additionally, it mentions the total number of shares outstanding and the quorum present at the meeting.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w3",
+          "title": "Approval of Named Executive Officers' Compensation",
+          "level": 3,
+          "start_page": 2,
+          "end_page": 2,
+          "summary": "This section details the results of Proposal 2 from Foot Locker, Inc.'s annual meeting held on May 18, 2022, where shareholders voted on the advisory approval of the compensation for the Company's named executive officers (NEOs). A total of 57,172,731 votes were cast in favor, while 13,324,080 were against, and 170,172 abstained, leading to the approval of the NEOs' compensation. The section provides specific vote counts and highlights the advisory nature of the proposal, indicating shareholder sentiment towards executive pay.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w4",
+          "title": "Shareholder Vote Frequency for NEOs' Compensation",
+          "level": 3,
+          "start_page": 2,
+          "end_page": 2,
+          "summary": "Proposal 3 discusses the advisory shareholder vote regarding the frequency of approving the compensation of named executive officers (NEOs) at Foot Locker, Inc. Shareholders voted on whether this vote should occur every 1, 2, or 3 years. The results showed a strong preference for an annual vote, with 66,076,265 votes for 1 year, leading to the decision to include an annual advisory vote in proxy materials until the next frequency vote in 2028. This section highlights shareholder engagement in executive compensation practices and the company's commitment to transparency.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w5",
+          "title": "Ratification of KPMG LLP as Auditor for 2022",
+          "level": 3,
+          "start_page": 2,
+          "end_page": 2,
+          "summary": "This section details the voting results for Proposal 4 at Foot Locker, Inc.'s Annual Meeting held on May 18, 2022, regarding the ratification of KPMG LLP as the independent registered public accounting firm for the 2022 fiscal year. A total of 75,612,318 votes were cast in favor, 1,854,695 against, and 84,193 abstentions. The section confirms that the appointment was duly ratified based on these results, indicating shareholder support for KPMG LLP's continued role as the auditor.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w6",
+      "title": "Appointment of Audit Committee Financial Expert",
+      "level": 2,
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "On May 18, 2022, the Board appointed Ms. Nicosia as the audit committee financial expert following Matthew McKenna's retirement. Ms. Nicosia was deemed qualified under the Securities Exchange Act due to her extensive experience in finance and accounting, including her role as president of a multinational corporation. She has a strong background in analyzing financial statements and internal controls, and has served on the Company’s Audit Committee, enhancing her familiarity with audit functions. The Board noted that other directors may also meet the qualifications for this designation.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w7",
+      "title": "Financial Statements and Exhibits Overview",
+      "level": 2,
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This section provides details on the financial statements and exhibits related to the report. It specifically lists Exhibit No. 104, which is the Cover Page Interactive Data File embedded within the Inline XBRL document. Additionally, it includes a signature from Sheilagh M. Clarke, the Executive Vice President, General Counsel, and Secretary of Foot Locker, Inc., affirming the report's authenticity as required by the Exchange Act. The section serves to fulfill regulatory requirements for financial disclosures.",
+      "source": "window",
+      "children": []
+    }
+  ]
+}

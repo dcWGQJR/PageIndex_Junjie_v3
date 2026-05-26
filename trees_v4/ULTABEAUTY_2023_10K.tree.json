@@ -1,0 +1,261 @@
+{
+  "node_id": "root",
+  "title": "ULTABEAUTY_2023_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 105,
+  "summary": "The section provides a comprehensive overview of Ulta Beauty's Form 10-K for the fiscal year ending January 28, 2023, detailing the company's business model, risk factors, properties, legal proceedings, and executive compensation. It highlights Ulta's position as the largest specialty beauty retailer in the U.S., its extensive product offerings, and strategic growth initiatives. The section also covers financial performance, market risks, and corporate governance practices, including executive officer details and stockholder matters. Additionally, it includes information on internal controls, auditor relationships, and compliance with regulatory requirements, ensuring transparency and accountability in financial reporting.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Ulta Beauty Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 4,
+      "summary": "This section includes the front matter of Ulta Beauty's Form 10-K for the fiscal year ending January 28, 2023. It provides essential company information such as the registrant's name, address, and SEC file number, as well as details about its stock, including trading symbols and market value. The section also confirms the company's status as a large accelerated filer and outlines its compliance with filing requirements. Additionally, it incorporates by reference information from the Proxy Statement for the 2023 Annual Meeting of Stockholders, and includes a table of contents for the report.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 5,
+      "end_page": 16,
+      "summary": "This section provides an overview of Ulta Beauty's business model, highlighting its position as the largest specialty beauty retailer in the U.S. Key topics include the extensive product assortment of over 25,000 items from 600 brands, the strategic store footprint of more than 1,350 locations, and the integration of digital experiences through its website and mobile apps. The section also discusses the company's loyalty program, Ultamate Rewards, which significantly contributes to sales, and outlines its strategic pillars aimed at driving growth, enhancing customer engagement, and optimizing operations. Additionally, it covers the competitive landscape, market share, and the company's commitment to diversity and sustainability in its product offerings and corporate practices.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 27,
+      "summary": "This section outlines various risk factors that could significantly impact Ulta Beauty's business, financial condition, and operational results. Key risks include challenges in sustaining growth, disruptions in supply chain and distribution, reliance on brand partnerships, and the impact of macroeconomic conditions such as inflation and recession. The company also faces competitive pressures from a diverse range of retailers and potential negative effects from social media on its reputation. Additionally, the ongoing effects of the COVID-19 pandemic and other external crises could further complicate operations and financial performance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This section indicates that there are no unresolved staff comments related to the company's filings or disclosures. It confirms that the company has addressed all inquiries or issues raised by regulatory staff, suggesting compliance with relevant regulations. Readers can learn that the company is currently in good standing with regulatory bodies regarding its reporting obligations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 29,
+      "end_page": 29,
+      "summary": "This section details the properties of the company's retail operations, including the leasing structure of retail stores, distribution centers, and corporate offices. It highlights that retail stores are typically around 10,000 square feet, with a significant portion allocated to full-service salons. The leases generally have a fixed minimum annual rent and a 10-year initial term with options for extensions. As of January 28, 2023, the company operates 1,355 retail stores across 50 states, with a breakdown of store locations provided.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This section references Note 10 in the consolidated financial statements, which details the company's legal proceedings, including general litigation. It indicates that there are ongoing legal matters that may impact the company's financial position or operations. Readers can learn about the nature of these legal issues and their potential implications for the company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This section, Item 4, Mine Safety Disclosures, states that there are no mine safety disclosures to report. It indicates compliance with regulations regarding mine safety, suggesting that the company does not operate any mining activities or has no relevant incidents to disclose. Readers can learn that the company maintains a clean record concerning mine safety issues, which may be relevant for stakeholders concerned about environmental and safety practices.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 4A. Executive Officers",
+      "level": 1,
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This section lists the executive officers of Ulta Beauty, including their names, ages, and positions. Key executives include David C. Kimbell as Chief Executive Officer, Scott M. Settersten as Chief Financial Officer, and Jodi J. Caro as General Counsel. The section highlights Kimbell's career progression within the company and his previous roles at U.S. Cellular and PepsiCo. It also notes that there are no familial relationships among the executive officers and directors, ensuring a diverse leadership structure.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 31,
+      "end_page": 33,
+      "summary": "This section provides an overview of Ulta Beauty's common stock market information, including its trading symbol on NASDAQ and the last reported sale price. As of March 20, 2023, there were 27 holders of record for the common stock. It details the company's stock repurchase activities during the fourth quarter of 2022, including the number of shares repurchased, average prices, and remaining authorization under the repurchase program. Additionally, it outlines the securities authorized for issuance under equity compensation plans, including the number of outstanding options and shares available for future issuance. A stock performance graph compares Ulta Beauty's total stockholder return against the S&P 500 and S&P 500 Retailing indices from February 3, 2018, to January 28, 2023.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 6. [Reserved]",
+      "level": 1,
+      "start_page": 34,
+      "end_page": 34,
+      "summary": "Item 6 is reserved and does not contain any content. It serves as a placeholder in the document, indicating that no information is provided in this section. Readers will find no specific facts or topics discussed here, as it is intentionally left blank.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 34,
+      "end_page": 45,
+      "summary": "This section provides a comprehensive analysis of Ulta Beauty's financial condition and operational results, detailing the company's growth strategy, market position, and financial performance over recent fiscal years. Key topics include the impact of COVID-19 on consumer behavior, inflationary pressures, and the company's strategic priorities for future growth, such as expanding omnichannel capabilities and enhancing customer experiences. The financial results highlight significant increases in net sales, gross profit, and net income, alongside a detailed breakdown of costs and expenses. Additionally, the section discusses liquidity, capital resources, and cash flow trends, emphasizing the company's ability to meet short- and long-term financial commitments.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures about Market Risk",
+      "level": 1,
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "This section discusses market risk, specifically focusing on interest rate risk, which may affect the company's financial position due to fluctuations in financial market prices and rates. The primary exposure to market risk arises from borrowings under a credit facility, with interest rates based on variable rates. As of January 28, 2023, the company reported no outstanding borrowings on its credit facility for the past three years, indicating a low current exposure to interest rate risk. The section emphasizes the importance of understanding these risks in relation to the company's financial statements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "This section references the consolidated financial statements and supplementary data, directing readers to Item 15 for detailed financial information. It highlights the importance of disclosure controls and procedures in ensuring that material information is communicated to management and the Board of Directors. Additionally, it mentions the evaluation of internal control over financial reporting, emphasizing management's responsibility to maintain adequate controls to ensure the reliability of financial reporting in accordance with U.S. GAAP. The section underscores the significance of these controls in the context of financial disclosures and compliance with SEC regulations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "This section reports that there have been no changes or disagreements with accountants regarding accounting and financial disclosure. It indicates a stable relationship with auditors, suggesting confidence in the company's financial reporting processes. Readers can learn that the company has not faced any significant issues that would necessitate disclosure of disagreements with its accountants, which may reflect positively on its financial governance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "This section discusses the company's disclosure controls and procedures related to financial reporting, ensuring that material information is communicated to key executives and the Board of Directors. As of January 28, 2023, the CEO and CFO concluded that these controls are effective in meeting SEC requirements for timely and accurate reporting. Additionally, it outlines management's responsibility for maintaining adequate internal control over financial reporting, which is designed to provide reasonable assurance regarding the reliability of financial statements prepared in accordance with U.S. GAAP. The evaluation of these controls is conducted under the supervision of the principal executive and financial officers.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 47,
+      "end_page": 47,
+      "summary": "This section confirms that the company's internal controls over financial reporting were effective as of January 28, 2023, as evaluated by the principal executive and financial officers and audited by Ernst & Young LLP. It notes the implementation of a new payroll system in Q4 2022, which improved payment processing and reduced error risks, as part of a multi-year system upgrade. Additionally, it states that there were no other significant changes to internal controls during the reporting period that could materially affect financial reporting.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections",
+      "level": 1,
+      "start_page": 47,
+      "end_page": 47,
+      "summary": "Item 9C states that there is no applicable information regarding foreign jurisdictions that prevent inspections. This section indicates that the company has not encountered any issues related to foreign jurisdictions affecting its ability to conduct inspections. As such, it confirms compliance with relevant regulations without any disclosures necessary in this area.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 47,
+      "end_page": 47,
+      "summary": "This section provides an overview of the company's directors, executive officers, and corporate governance practices. It references detailed information about executive officers found in Part I, Item 4A, and outlines the corporate governance framework, including the code of business conduct applicable to all employees. The section also mentions the nomination process for directors and includes information about the election of directors and the audit committee, with further details available in the definitive Proxy Statement for the 2023 Annual Meeting. Additionally, it highlights the availability of the code of business conduct on the company's website and the process for disclosing amendments or waivers to this code.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 47,
+      "end_page": 47,
+      "summary": "This section provides details on executive compensation, including the 'Compensation Discussion and Analysis' and the roles of the Compensation Committee. It outlines the structure and rationale behind the compensation packages for executive officers, including salary, bonuses, stock options, and other incentives. The section also discusses the governance practices related to compensation decisions and the performance metrics used to evaluate executive performance. Readers can learn about the company's approach to aligning executive pay with shareholder interests and overall company performance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 48,
+      "end_page": 48,
+      "summary": "This section provides information on the security ownership of certain beneficial owners and management, directing readers to the 'Stock Ownership' section in the Proxy Statement for detailed data. It also references compensation plans related to equity securities authorized for issuance as of January 28, 2023, which can be found in Item 5 of the Annual Report. Additionally, it indicates that related information on certain relationships and transactions, as well as director independence, is included in the Proxy Statement.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 48,
+      "end_page": 48,
+      "summary": "This section discusses the company's relationships and transactions with related parties, as well as the independence of its directors. It references specific sections in the Proxy Statement, including 'Corporate Governance – Independence' and 'Certain Relationships and Transactions,' which provide detailed information on director independence and any interlocks or insider participation in the Compensation Committee. The section emphasizes the importance of transparency in governance and compliance with regulatory requirements regarding related transactions and director independence.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 14. Principal Accountant Fees and Services",
+      "level": 1,
+      "start_page": 48,
+      "end_page": 48,
+      "summary": "This section outlines the fees and services provided by the principal accountant, specifically detailing the costs associated with the independent registered public accounting firm. It references the relevant information found in the Proxy Statement under the caption regarding the ratification of the accounting firm's appointment. Readers can learn about the financial relationship between the company and its auditors, including the types of services rendered and their associated fees.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Item 15. Exhibits and Financial Statement Schedules",
+      "level": 1,
+      "start_page": 49,
+      "end_page": 81,
+      "summary": "This section includes the exhibits and financial statement schedules for Ulta Beauty, Inc. as part of its Form 10-K filing. It contains the reports of the independent registered public accounting firm, including opinions on the financial statements and internal controls over financial reporting. The consolidated financial statements presented include balance sheets, income statements, cash flow statements, and stockholders' equity statements for the fiscal years ending January 28, 2023, January 29, 2022, and January 30, 2021. Additionally, it provides detailed notes on significant accounting policies, including revenue recognition, inventory valuation, and the company's loyalty program, which are critical for understanding the financial health and operational performance of the company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p23",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 82,
+      "end_page": 82,
+      "summary": "This section, Item 16, provides a summary of the Form 10-K filing, indicating that there are no additional disclosures or summaries included. It references various exhibits related to certifications by the Chief Financial Officer and Chief Executive Officer under the Sarbanes-Oxley Act, as well as a Proxy Statement for the 2023 Annual Meeting of Stockholders. The section also lists Inline XBRL documents that are part of the filing, which include taxonomy extensions and interactive data files. Readers can learn about the compliance certifications and the structure of the filing, but no substantive information is provided in this summary section.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p24",
+      "title": "Signatures",
+      "level": 1,
+      "start_page": 83,
+      "end_page": 105,
+      "summary": "This section includes the signatures of key executives and directors of Ulta Beauty, Inc., affirming the report's compliance with the Securities Exchange Act of 1934. It lists the names, titles, and dates of signature for each individual, including the Chief Executive Officer and Chief Financial Officer. Additionally, the section outlines the Amended and Restated 2011 Incentive Award Plan, detailing the terms for Restricted Stock Units (RSUs) and performance conditions for vesting. Readers can learn about the vesting schedule, conditions for forfeiture, and the implications of termination of service on RSUs.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

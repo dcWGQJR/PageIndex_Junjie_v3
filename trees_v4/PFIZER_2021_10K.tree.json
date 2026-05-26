@@ -1,0 +1,403 @@
+{
+  "node_id": "root",
+  "title": "PFIZER_2021_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 143,
+  "summary": "The section provides a comprehensive overview of Pfizer Inc.'s Form 10-K for the fiscal year ending December 31, 2021, detailing the company's business operations, financial performance, and risk factors. It includes essential company information, defined terms, and forward-looking statements, alongside a thorough analysis of financial results, including significant revenue contributions from COVID-19 products. The document addresses legal proceedings, intellectual property challenges, and market risks, while also outlining executive compensation and stockholder matters. Additionally, it highlights the impact of strategic initiatives, acquisitions, and restructuring on the company's financial condition and future outlook.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Pfizer Inc. Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 2,
+      "summary": "This section contains the front matter of Pfizer Inc.'s Form 10-K for the fiscal year ending December 31, 2021. It includes essential company information such as the registrant's name, address, and contact details, as well as the types of securities registered and their trading symbols. The document confirms Pfizer's status as a well-known seasoned issuer and provides details on its compliance with filing requirements under the Securities Exchange Act. Additionally, it mentions the market value of voting stock held by non-affiliates and the number of shares outstanding as of February 22, 2022.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Defined Terms",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "This section defines key terms used throughout the Form 10-K, including references to Pfizer Inc. and its subsidiaries, fiscal year-end dates for U.S. and non-U.S. subsidiaries, and specific acronyms such as ACA (U.S. Patient Protection and Affordable Care Act) and BLA (Biologics License Application). It also clarifies the meaning of terms related to financial reporting, such as 'Alliance revenues' and 'EPS' (earnings per share). Additionally, it lists various companies and organizations relevant to Pfizer's operations, such as AbbVie and the CDC, providing context for their mention in the report.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Forward-Looking Information and Factors That May Affect Future Results",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This section outlines the forward-looking information and factors that may influence Pfizer's future results. It discusses the inherent uncertainties in projections related to market conditions, regulatory changes, and competitive dynamics. Readers can learn about the potential impacts of economic factors, product development timelines, and strategic initiatives on Pfizer's performance. The section emphasizes the importance of understanding these variables when evaluating the company's future financial outlook.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Available Information",
+      "level": 1,
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This section provides an overview of the available information regarding Pfizer Inc.'s 2021 Form 10-K. It outlines the types of documents and data that can be accessed, including financial statements, management discussions, and disclosures relevant to investors. Readers can learn about the company's performance metrics, risk factors, and strategic initiatives as reported in the annual filing. Additionally, it may detail how to obtain further information or access specific sections of the report.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 5,
+      "end_page": 14,
+      "summary": "This section provides a comprehensive overview of Pfizer Inc., covering its corporate structure, mission, and key business areas, including commercial operations and research and development. It discusses the company's COVID-19 vaccine and treatment products, collaboration agreements, and the competitive landscape following corporate changes. Additionally, it addresses risks associated with international operations, sales and marketing, intellectual property rights, and government regulations. The section emphasizes the importance of innovation, strategic partnerships, and the impact of pricing pressures and market conditions on Pfizer's financial performance and product pipeline.",
+      "source": "printed_toc",
+      "children": [
+        {
+          "node_id": "p5",
+          "title": "About Pfizer",
+          "level": 2,
+          "start_page": 5,
+          "end_page": 5,
+          "summary": "This section provides an overview of Pfizer Inc., detailing its corporate structure, mission, and key business areas. Readers can learn about Pfizer's role in the pharmaceutical industry, its commitment to research and development, and its focus on innovative healthcare solutions. The section may also highlight Pfizer's financial performance and strategic objectives for the year 2021, as outlined in the Form 10-K report.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p6",
+          "title": "Commercial Operations",
+          "level": 2,
+          "start_page": 6,
+          "end_page": 6,
+          "summary": "This section discusses Pfizer's commercial operations, including the Upjohn Business, which encompasses off-patent branded and generic medications, and highlights key products such as Lipitor and Viagra. It also details the company's COVID-19 vaccine, Comirnaty, and oral treatment Paxlovid, including their FDA approvals and emergency use authorizations. Additionally, the section provides information on clinical studies related to Pfizer's products and mentions the availability of corporate governance and investor information on Pfizer's website.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p7",
+          "title": "Collaboration and Co-Promotion Agreements",
+          "level": 2,
+          "start_page": 6,
+          "end_page": 6,
+          "summary": "This section discusses Pfizer's collaboration and co-promotion agreements, particularly in relation to its COVID-19 vaccine and treatment products. It outlines the regulatory approvals for the vaccine, Comirnaty, and the oral treatment, Paxlovid, including their emergency use authorizations (EUA) by the FDA. The section also highlights the importance of clinical studies in supporting product safety and effectiveness, while noting that regulatory authorities may require additional data for approval. Additionally, it provides information on the availability of Pfizer's reports and disclosures on their website, emphasizing transparency and compliance with SEC regulations.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p8",
+          "title": "Research and Development",
+          "level": 2,
+          "start_page": 7,
+          "end_page": 7,
+          "summary": "This section discusses forward-looking statements related to the company's anticipated operating and financial performance, product pipeline, and strategic plans. It outlines the risks and uncertainties associated with these projections, including potential impacts from R&D activities, regulatory approvals, and market conditions. Specific topics include the development of COVID-19 treatments, expected revenue contributions from key products, and the effects of macroeconomic trends. The section emphasizes the importance of not overly relying on these statements due to inherent uncertainties and the potential for actual outcomes to differ significantly from projections.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p9",
+          "title": "International Operations",
+          "level": 2,
+          "start_page": 8,
+          "end_page": 8,
+          "summary": "This section outlines the various risks associated with international operations, including the need for additional financing, competition from various product types, and challenges in marketing and manufacturing. It discusses the impact of public health crises like COVID-19 on business operations and financial conditions, as well as the effects of economic fluctuations and regulatory changes in different markets. Additionally, it highlights risks related to government regulations, legal proceedings, and the potential for adverse outcomes from these factors, emphasizing the complexities of operating in a global environment.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p10",
+          "title": "Sales and Marketing",
+          "level": 2,
+          "start_page": 8,
+          "end_page": 8,
+          "summary": "This section discusses various risks and challenges related to sales and marketing, including the need for additional financing, competition from various product types, and the ability to effectively market new and existing products. It highlights potential disruptions from public health crises, such as the COVID-19 pandemic, and the impact of economic conditions on pricing and sales. Additionally, it addresses regulatory risks, including healthcare reforms and international legislation affecting pharmaceutical pricing and access. The section also covers operational risks, such as supply chain issues and the presence of counterfeit products.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p11",
+          "title": "Patents and Other Intellectual Property Rights",
+          "level": 2,
+          "start_page": 9,
+          "end_page": 9,
+          "summary": "This section discusses the risks associated with Pfizer's intellectual property (IP) and technology, highlighting potential vulnerabilities such as IT system breakdowns, cyber-attacks, and challenges in securing timely patent approvals. It emphasizes the importance of protecting patents and other IP against claims of invalidity and external pressures that could hinder enforcement. The section also notes the implications for Pfizer's COVID-19 vaccine and treatment products, underscoring the critical nature of IP rights in maintaining competitive advantage and ensuring product availability.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p12",
+          "title": "Competition",
+          "level": 2,
+          "start_page": 10,
+          "end_page": 10,
+          "summary": "This section discusses Pfizer's competitive landscape following significant corporate changes, including the spin-off of the Upjohn Business and the formation of a Consumer Healthcare joint venture with GSK. It outlines Pfizer's reorganization into two operating segments: Biopharma and PC1, detailing key therapeutic areas and products within Biopharma, such as vaccines, oncology, internal medicine, hospital products, inflammation & immunology, and rare diseases. The section highlights major products that generated over $1 billion in revenue, including Comirnaty, Eliquis, and Xtandi. Additionally, it describes collaboration and co-promotion arrangements with other companies, emphasizing shared development and commercialization efforts for key products like Comirnaty and Eliquis.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p13",
+          "title": "Pricing Pressures and Managed Care Organizations",
+          "level": 2,
+          "start_page": 11,
+          "end_page": 11,
+          "summary": "This section discusses the financial arrangements and collaboration strategies of Pfizer, particularly in relation to managed care organizations and pricing pressures. It highlights the profit-sharing model for products like Orgovyx and Myfembree, and outlines Pfizer's approach to research and development (R&D), emphasizing the importance of partnerships and external collaborations. The section also details Pfizer's R&D priorities, including the focus on differentiated medicines and the integration of innovative technologies. Additionally, it describes the organizational structure of R&D operations and the management of resources across various therapeutic areas.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p14",
+          "title": "Raw Materials",
+          "level": 2,
+          "start_page": 12,
+          "end_page": 12,
+          "summary": "This section outlines the company's research and development (R&D) pipeline, highlighting the lengthy process of drug discovery and development, which can exceed ten years. As of February 8, 2022, the company has multiple projects in various R&D stages, with a focus on new drug candidates entering clinical development. It also discusses the company's international operations, noting that 63% of total revenues in 2021 came from outside the U.S., with Japan being the largest market. Additionally, the section details the sales and marketing strategies for prescription biopharmaceutical products, including direct sales to government entities and efforts to promote products to healthcare providers and patients.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p15",
+          "title": "Government Regulation and Price Constraints",
+          "level": 2,
+          "start_page": 12,
+          "end_page": 13,
+          "summary": "This section discusses the impact of government regulation and price constraints on pharmaceutical operations, particularly in relation to research and development (R&D) timelines, international sales, and patent protections. It highlights that drug development can exceed ten years and outlines the global reach of the company's products, with significant revenue generated from international markets. The section also details the importance of patents and regulatory exclusivity in protecting product innovations, including specific expiration dates for key products. Additionally, it addresses the risks associated with operating in various countries, particularly regarding intellectual property rights and government contracts.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p16",
+          "title": "Environmental Matters",
+          "level": 2,
+          "start_page": 14,
+          "end_page": 14,
+          "summary": "This section discusses Pfizer's collaborations and exclusive commercialization rights for various products, including Xtandi, Vyndaqel, Braftovi, Mektovi, Bavencio, Cibinqo, Comirnaty, and Paxlovid. It highlights the implications of patent expirations and the potential for increased generic competition, which can adversely affect revenues. The section also emphasizes the importance of protecting intellectual property rights and trademarks, as well as the competitive landscape in which Pfizer operates, including the challenges posed by other biopharmaceutical companies and generic manufacturers. Additionally, it outlines Pfizer's commitment to innovation and patient access amidst evolving market conditions.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p17",
+          "title": "Human Capital",
+          "level": 2,
+          "start_page": 14,
+          "end_page": 14,
+          "summary": "This section discusses Pfizer's collaborations and commercialization rights for various products, including Xtandi, Vyndaqel, Braftovi, Mektovi, Bavencio, Cibinqo, Comirnaty, and Paxlovid. It highlights the implications of patent expirations and the potential for increased generic competition, which can adversely affect revenues. The section emphasizes the importance of protecting intellectual property rights and trademarks, as well as the competitive landscape in which Pfizer operates, including the need for innovation and effective marketing strategies. Additionally, it addresses the challenges posed by competitors and the company's ongoing investment in research and development to maintain a strong product pipeline.",
+          "source": "printed_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 15,
+      "end_page": 24,
+      "summary": "This section outlines various risk factors impacting the company, including competition from generic and biosimilar products, which can significantly affect sales and profitability. It discusses pricing pressures from managed care organizations (MCOs) and the shift towards value-based payment models that may restrict access to new medicines. The section also highlights regulatory challenges, including compliance with extensive government regulations and potential changes in drug pricing laws that could adversely affect the business. Additionally, it addresses the importance of intellectual property protection and the evolving landscape of data privacy regulations globally.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This section discusses the company's exposure to legal and environmental contingencies, emphasizing the uncertainties involved in estimating future liabilities. It highlights the importance of intellectual property (IP) protection for maintaining competitive advantage, detailing the reliance on various forms of IP laws and agreements. The section outlines risks associated with patent applications, potential challenges from generic manufacturers, and the implications of international IP law changes, particularly in the context of COVID-19. Additionally, it addresses the company's strategies for protecting trademarks and trade secrets, as well as the potential impact of third-party IP claims on business operations and product launches.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This section discusses the legal proceedings and contingencies faced by the company and its subsidiaries, particularly regarding legal claims and environmental issues. It highlights the complexities involved in estimating legal liabilities and the potential for additional costs beyond accrued amounts. The section also addresses the importance of intellectual property protection for the company's competitive edge, detailing risks associated with patent applications, enforcement challenges, and potential litigation from generic drug manufacturers. Furthermore, it outlines the implications of third-party intellectual property claims and the necessity for the company to navigate these challenges to maintain its market position.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Information About Our Executive Officers",
+      "level": 1,
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This section discusses the legal and environmental contingencies faced by the company, emphasizing the complexities and uncertainties involved in estimating future liabilities. It highlights the importance of intellectual property protection for the company's competitive edge, detailing the reliance on various forms of intellectual property laws and the potential risks of failing to secure adequate protection. The section also addresses the challenges posed by generic and biosimilar competitors, including ongoing legal disputes and the implications of international patent laws. Additionally, it outlines the company's strategies for protecting its trademarks and proprietary information, as well as the potential impact of third-party intellectual property claims on its operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Item 5. Market for the Company’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This section discusses the market for the company's common equity, including potential patent-related disputes that may arise during the commercialization of pharmaceutical products. It highlights the risks associated with information technology and security, emphasizing the reliance on third-party providers and the potential for cyber-attacks. Additionally, it outlines the company's business development activities, including mergers and acquisitions, and the associated risks of integration and achieving anticipated benefits. The section also addresses the implications of the spin-off and combination of Upjohn with Mylan, as well as the consumer healthcare joint venture with GSK, noting the lack of control over the latter.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p23",
+      "title": "Item 6. [Reserved]",
+      "level": 1,
+      "start_page": 27,
+      "end_page": 27,
+      "summary": "In June 2021, GSK announced plans to demerge at least 80% of its 68% stake in a joint venture (JV) by mid-2022, pending shareholder approval. Post-demerger, the JV is expected to operate as an independent company listed on the London Stock Exchange, with Pfizer holding a 32% stake and GSK retaining up to 13.6%. The completion of this demerger is uncertain and subject to market conditions. Additionally, the section outlines various risks related to the COVID-19 pandemic, including operational disruptions, supply chain challenges, and impacts on clinical trials and product demand, which may affect GSK's business and financial results.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p24",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 28,
+      "end_page": 49,
+      "summary": "This section provides a comprehensive analysis of Pfizer's financial performance, highlighting a 95% increase in total revenues to $81.3 billion in 2021, driven primarily by sales of COVID-19 products. It discusses the company's strategic transformation into a focused biopharmaceutical entity, emphasizing R&D as a core component for future growth. Key business development initiatives, including the acquisition of Arena and collaboration with Biohaven, are outlined. The section also addresses industry-specific challenges, such as regulatory pressures and the need for continuous innovation to maintain market competitiveness.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p25",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 50,
+      "end_page": 50,
+      "summary": "This section provides a detailed breakdown of Pfizer's financial performance, including cost of sales, expenses, and net income for the years 2019 to 2021. It highlights the differences between GAAP reported and Non-GAAP adjusted figures, explaining the impact of purchase accounting adjustments, acquisition-related items, and significant charges such as restructuring and asset impairments. The effective tax rates for both GAAP and Non-GAAP income are also presented, along with specific items that reconcile these figures. Readers can learn about the financial implications of acquisitions and restructuring efforts on Pfizer's overall profitability.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p26",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 51,
+      "end_page": 108,
+      "summary": "This section includes the consolidated financial statements of Pfizer Inc. for the years ended December 31, 2021, 2020, and 2019, detailing revenues, costs, expenses, and net income. It provides insights into cash flows from operating, investing, and financing activities, highlighting significant changes and drivers behind these figures. The report also discusses critical audit matters, including the evaluation of U.S. rebates accrual, gross unrecognized tax benefits, and product-related litigation. Additionally, it outlines the company's financial condition, liquidity, capital resources, and market risks, including foreign exchange and interest rate risks, along with the impact of recent accounting standards.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p27",
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 109,
+      "end_page": 109,
+      "summary": "This section provides a detailed breakdown of Pfizer's revenue sources for the years ended December 31, 2021, 2020, and 2019, highlighting the contributions from major U.S. wholesaler customers and significant product revenues. It specifies that McKesson, AmerisourceBergen, and Cardinal Health were the largest wholesalers, collectively accounting for 24% of total trade accounts receivable in 2021. Additionally, it notes that sales to the U.S. government, primarily from Comirnaty, represented 13% of total revenues in 2021. The section also lists major product revenues, with Comirnaty generating substantial sales, alongside other key products in the biopharmaceuticals, oncology, and internal medicine categories.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p28",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 109,
+      "end_page": 111,
+      "summary": "This section details Pfizer's revenue distribution among its largest U.S. wholesaler customers, highlighting that McKesson, AmerisourceBergen, and Cardinal Health accounted for 24%, 30%, and 25% of total trade accounts receivable over the past three years. It provides a comprehensive breakdown of revenues from major products, including Comirnaty, which significantly contributed to the 2021 total revenues of $81.3 billion. The section also discusses remaining performance obligations, indicating $34.4 billion in contracted revenue expected from future deliveries of Comirnaty, with specific amounts projected for 2022 through 2024. Additionally, it outlines deferred revenues related to advance payments for Comirnaty, totaling $3.3 billion as of December 31, 2021, and explains how these will be recognized in future revenues as obligations are fulfilled.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p29",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 112,
+      "end_page": 112,
+      "summary": "This section provides selected quarterly financial data for Pfizer Inc. for the year 2021, detailing revenues, costs, expenses, and net income across four quarters. Key figures include total revenues of $81.288 billion and net income attributable to common shareholders of $22.979 billion. The section highlights significant costs associated with the COVID-19 vaccine Comirnaty and restructuring charges related to the company's transformation initiatives. It also notes the impact of business development activities and legal matters on financial results, as well as changes in earnings jurisdictional mix. Earnings per share (EPS) figures are provided for both basic and diluted shares, with specific amounts for each quarter.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p30",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 112,
+      "end_page": 112,
+      "summary": "This section provides selected quarterly financial data for Pfizer Inc. in 2021, detailing revenues, costs, expenses, and net income for each quarter. It highlights significant figures such as total revenues reaching $81.288 billion and net income attributable to common shareholders totaling $22.979 billion. The section also notes the impact of business development activities, including a $2.1 billion charge for IPR&D expenses related to the acquisition of Trillium. Additionally, it discusses the effects of employee termination costs and legal matters on financial results, as well as the computation of earnings per share (EPS) for both basic and diluted shares across the quarters.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p31",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 112,
+      "end_page": 112,
+      "summary": "This section provides selected quarterly financial data for Pfizer Inc. in 2021, detailing revenues, costs, expenses, and net income for each quarter. It highlights significant figures such as total revenues reaching $81.288 billion and net income attributable to common shareholders totaling $22.949 billion. The section also notes the impact of business development activities, including a $2.1 billion charge related to the acquisition of Trillium and employee termination costs from a restructuring program. Additionally, it discusses the effects of the Comirnaty vaccine on costs and earnings, as well as legal matters related to the Meridian sale.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p32",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 112,
+      "end_page": 112,
+      "summary": "This section provides selected quarterly financial data for Pfizer Inc. in 2021, detailing revenues, costs, expenses, and net income for each quarter. It highlights significant financial figures such as total revenues ranging from $14.5 billion to $24 billion and net income attributable to common shareholders. The section also notes the impact of business development activities, including a $2.1 billion charge for IPR&D expenses related to the acquisition of Trillium. Additionally, it discusses the effects of employee termination costs and legal matters related to the Meridian sale on financial results. Earnings per share (EPS) figures are presented for both basic and diluted calculations, emphasizing the independent computation for each quarter.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p33",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 112,
+      "end_page": 112,
+      "summary": "This section provides selected quarterly financial data for Pfizer Inc. in 2021, detailing revenues, costs, expenses, and net income for each quarter. It highlights significant financial figures such as total revenues ranging from $14.5 billion to $24 billion and net income attributable to common shareholders. The section also notes the impact of business development activities, including a $2.1 billion charge for IPR&D expenses and employee termination costs related to restructuring. Additionally, it discusses the effects of changes in jurisdictional earnings and legal matters related to the sale of Meridian.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p34",
+      "title": "Item 15. Exhibits, Financial Statement Schedules",
+      "level": 1,
+      "start_page": 113,
+      "end_page": 115,
+      "summary": "This section provides a comprehensive overview of Pfizer Inc.'s financial performance for the year 2020, including selected quarterly financial data that covers revenues, costs, expenses, and net income. It details income from both continuing and discontinued operations, including the impact of the Upjohn Business spin-off. The section highlights significant asset impairments and restructuring charges, particularly in the third and fourth quarters, and discusses the effectiveness of the company's disclosure controls and internal controls over financial reporting. Additionally, it includes earnings per share (EPS) figures for both basic and diluted shares, ensuring compliance with generally accepted accounting principles.",
+      "source": "printed_toc",
+      "children": [
+        {
+          "node_id": "p35",
+          "title": "15(a)(1) Financial Statements",
+          "level": 2,
+          "start_page": 113,
+          "end_page": 113,
+          "summary": "This section presents selected quarterly financial data for Pfizer Inc. for the year 2020, including revenues, costs and expenses, and net income figures for each quarter. It details income from continuing operations, discontinued operations, and earnings per share (EPS) for both basic and diluted shares. The section highlights significant financial impacts, such as restructuring charges and asset impairments, and notes the historical trend of higher costs in the fourth quarter. Additionally, it mentions the spin-off of the Upjohn Business and its classification as discontinued operations, providing context for the financial results reported.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p36",
+          "title": "15(a)(2) Financial Statement Schedules",
+          "level": 2,
+          "start_page": 113,
+          "end_page": 113,
+          "summary": "This section provides selected quarterly financial data for Pfizer Inc. for the year 2020, detailing revenues, costs, expenses, and net income for each quarter. It includes specific figures for income from continuing operations, discontinued operations, and earnings per share (EPS) both basic and diluted. The data highlights the impact of business development activities and notes significant asset impairments in the third and fourth quarters. Additionally, it mentions the spin-off of the Upjohn Business and confirms the effectiveness of the company's disclosure controls and procedures as of the end of the reporting period.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p37",
+          "title": "15(a)(3) Exhibits",
+          "level": 2,
+          "start_page": 113,
+          "end_page": 115,
+          "summary": "This section includes selected quarterly financial data for Pfizer Inc. for the year 2020, detailing revenues, costs, expenses, and net income attributable to common shareholders. It highlights the impact of business development activities on financial results and notes significant asset impairments in the third and fourth quarters. Additionally, it covers the effectiveness of the company's internal controls over financial reporting, as evaluated by management and confirmed by independent auditors, ensuring compliance with generally accepted accounting principles. The section also discusses the inherent limitations of internal controls and the responsibilities of management in maintaining these controls.",
+          "source": "printed_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "p38",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 116,
+      "end_page": 143,
+      "summary": "Item 16 of the Form 10-K serves as a summary section, indicating that there are no additional details or information provided in this specific item. It essentially confirms the absence of a summary, directing readers to other sections of the report for comprehensive insights into the company's performance, governance, and financials. This section does not contain any new data or analysis, but rather serves as a placeholder within the document.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

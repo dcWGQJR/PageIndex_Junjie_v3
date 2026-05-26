@@ -1,0 +1,231 @@
+{
+  "node_id": "root",
+  "title": "BOEING_2018_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 136,
+  "summary": "The section provides a comprehensive overview of Boeing's Form 10-K for the fiscal year ending December 31, 2018, detailing the company's business structure, risk factors, properties, legal proceedings, and financial performance. It includes insights into Boeing's four reportable segments, key financial metrics, and management's discussion on operational results. Additionally, it covers executive compensation, security ownership, and the effectiveness of internal controls over financial reporting. The section also addresses accounting fees, related transactions, and corporate governance, culminating in a summary of the company's overall performance and compliance status.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Boeing Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 2,
+      "summary": "This section contains the front matter of Boeing's Form 10-K for the fiscal year ending December 31, 2018. It includes essential company information such as the registrant's name, jurisdiction, and contact details, as well as the type of report being filed. The section confirms Boeing's status as a well-known seasoned issuer and provides details on its common stock and market value. Additionally, it outlines the documents incorporated by reference and presents the table of contents for the report, detailing the various sections and items covered in the filing.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 6,
+      "summary": "This section provides an overview of Boeing's business structure, detailing its four reportable segments: Commercial Airplanes, Defense, Space & Security, Global Services, and Boeing Capital. It outlines the products and services offered in each segment, including commercial jet aircraft, military aircraft, and various support services. The section also discusses Boeing's competitive landscape, highlighting key competitors and the challenges faced in both commercial and defense markets. Additionally, it addresses regulatory matters, environmental compliance, and the company's reliance on suppliers for raw materials and components.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 7,
+      "end_page": 15,
+      "summary": "This section outlines various risk factors associated with investing in the company's common stock or debt securities. Key risks include dependence on commercial airlines, market conditions affecting demand for aircraft, and the cyclical nature of the airline industry. The company faces challenges related to fixed-price contracts, potential cost overruns, and reliance on a limited number of customers. Additionally, uncertainties in U.S. government defense spending and compliance with procurement regulations pose significant risks. The section also highlights operational challenges, competition, and the impact of international business dynamics on revenue.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This section indicates that there are no unresolved staff comments related to the company's operations or compliance. It highlights the company's exposure to environmental liabilities due to various laws and regulations governing hazardous substances. The potential for incurring substantial costs from violations or liabilities is emphasized, including cleanup costs and third-party claims. The section also notes that environmental impacts may arise from both current and past operations, as well as from indemnification agreements with third parties.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This section details the properties occupied by the company as of December 31, 2018, totaling approximately 88 million square feet, with 95% located in the United States. It breaks down the floor space by business segment, including Commercial Airplanes, Defense, Space & Security, and Global Services, specifying owned and leased spaces. Major locations for each business segment are listed, highlighting key areas such as Greater Seattle, Greater Los Angeles, and St. Louis. Additionally, it notes that most runways and taxiways used are on airport properties owned by others, governed by long-term leases.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This section outlines the company's involvement in various legal proceedings, indicating that there are multiple ongoing cases. It references Note 22 in the Consolidated Financial Statements for further details on the contingencies related to these legal matters. The section serves to inform stakeholders about potential legal risks and liabilities that may impact the company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This section indicates that the Mine Safety Disclosures are not applicable to the company. It suggests that there are no relevant mine safety issues or disclosures required for the reporting period. Readers can learn that the company does not have any mine safety incidents or regulatory requirements to report in this context.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 18,
+      "end_page": 18,
+      "summary": "This section provides an overview of the market for the registrant's common equity, specifically noting that the common stock trades on the New York Stock Exchange under the symbol BA, with 104,376 shareholders of record as of February 1, 2019. It details issuer purchases of equity securities for the quarter ending December 31, 2018, including the total number of shares purchased, average price paid per share, and the total number of shares bought as part of publicly announced plans. Additionally, it mentions a new repurchase plan announced on December 17, 2018, allowing for up to $20 billion in stock repurchases, replacing the previous plan from 2017.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Selected Financial Data",
+      "level": 1,
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This section provides a five-year summary of selected financial data, including revenues, net earnings, earnings per share, dividends declared, cash and cash equivalents, total assets, total debt, operating cash flow, total backlog, and year-end workforce numbers from 2014 to 2018. Key figures include revenues increasing from $90,762 million in 2014 to $101,127 million in 2018, and net earnings from continuing operations rising from $5,446 million to $10,460 million over the same period. The section also notes the company's consistent dividend payments since 1942 and highlights changes in accounting standards affecting prior years' data.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 20,
+      "end_page": 47,
+      "summary": "This section provides a comprehensive analysis of Boeing's financial condition and operational results, detailing revenues, earnings, and costs across its core business segments: Commercial Airplanes, Defense, Space & Security, and Global Services. Key financial metrics for 2018 include total revenues of $101.1 billion, net earnings of $10.5 billion, and a significant increase in core operating earnings driven by higher deliveries and improved margins. The report also discusses the impact of external factors such as global trade tariffs and competition, as well as the company's strategic focus on efficiency and market demand. Additionally, it outlines the backlog of orders, which reached $490.5 billion, indicating strong future demand for Boeing's products and services.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 48,
+      "end_page": 48,
+      "summary": "This section discusses the company's exposure to market risks, specifically interest rate risk and foreign currency exchange rate risk. It details the sensitivity of pension plan liabilities and costs to changes in discount rates and expected long-term asset returns. The company uses interest rate swaps to manage interest rate risk associated with fixed-rate debt, noting that a 100 basis point rise in interest rates would not significantly impact pre-tax earnings. Additionally, it describes the use of foreign currency forward contracts to hedge against exchange rate fluctuations, indicating that a 10% change in exchange rates could affect unrealized losses by $262 million, but overall market risk remains minimal due to offsetting transactions.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 49,
+      "end_page": 118,
+      "summary": "This section provides a comprehensive overview of Boeing's financial statements, including the Consolidated Statements of Operations, Comprehensive Income, Financial Position, Cash Flows, and Equity. Readers can learn about Boeing's revenue streams, cost structures, and profitability over the years 2016 to 2018, with detailed figures on sales, earnings per share, and net earnings. Additionally, the section includes notes on significant accounting policies, the impact of new standards, and detailed breakdowns of business segment data, acquisitions, and liabilities. It also discusses the company's approach to revenue recognition, particularly for long-term contracts and commercial aircraft sales, providing insights into Boeing's financial health and operational performance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 119,
+      "end_page": 119,
+      "summary": "This section includes the report of an independent registered public accounting firm regarding The Boeing Company's internal control over financial reporting as of December 31, 2018. The firm expresses an unqualified opinion on the effectiveness of these controls, noting a change in the accounting method for revenue from contracts with customers. It also highlights that the internal control assessment excluded KLX Inc., acquired in October 2018, which represents a small portion of the consolidated financials. The report outlines the responsibilities of both management and the auditors in maintaining and assessing internal controls, as well as the definition and limitations of such controls in ensuring reliable financial reporting.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 119,
+      "end_page": 119,
+      "summary": "This section discusses the independent audit of The Boeing Company's internal control over financial reporting as of December 31, 2018. The audit, conducted in accordance with PCAOB standards, concluded that the company maintained effective internal controls, excluding KLX Inc., which was acquired shortly before the audit. The report outlines the responsibilities of management and the auditors, emphasizing the importance of internal controls in ensuring reliable financial reporting. It also defines internal control over financial reporting and its limitations, highlighting the processes involved in maintaining accurate financial records and compliance with accounting principles.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 119,
+      "end_page": 119,
+      "summary": "This section contains the report of an independent registered public accounting firm regarding The Boeing Company's internal control over financial reporting as of December 31, 2018. The firm expresses an unqualified opinion on the effectiveness of these controls, based on the criteria established by COSO. It notes that management excluded KLX Inc. from its assessment, which was acquired in October 2018 and represents a small portion of the consolidated financials. The report outlines the responsibilities of both management and the auditors, detailing the audit process and the definition of internal control over financial reporting.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 120,
+      "end_page": 121,
+      "summary": "This section discusses the company's management and directors, focusing on their responsibilities regarding internal controls over financial reporting. It details the evaluation of disclosure controls and procedures by the Chief Executive Officer and Chief Financial Officer, confirming their effectiveness as of December 31, 2018. The management's report on internal control effectiveness is based on the 2013 framework by the Committee of Sponsoring Organizations of the Treadway Commission, concluding that controls were effective, excluding the recently acquired KLX Inc. The section also notes that there were no significant changes in internal controls during the fourth quarter of 2018.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 122,
+      "end_page": 122,
+      "summary": "This section provides detailed information about the executive officers of Boeing as of February 1, 2019, including their names, ages, and principal occupations or business affiliations. It lists key executives such as Bertrand-Marc Allen, Heidi B. Capozzi, and Leanne G. Caret, along with their previous roles within the company. The section highlights the career progression and experience of each executive, showcasing their contributions to Boeing's leadership and strategic direction.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 123,
+      "end_page": 123,
+      "summary": "This section provides detailed information about the security ownership of certain beneficial owners and management at Boeing. It includes a table listing key executives, their ages, and principal occupations, highlighting their career backgrounds and roles within the company. Notable individuals mentioned include Timothy J. Keating, J. Michael Luttig, and Dennis A. Muilenburg, along with their previous positions and affiliations. The section aims to inform stakeholders about the leadership structure and experience of Boeing's management team.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 123,
+      "end_page": 123,
+      "summary": "This section provides detailed biographical information about key executives at Boeing, including their names, ages, and principal occupations. It highlights the career trajectories of individuals such as Timothy J. Keating, J. Michael Luttig, and Dennis A. Muilenburg, detailing their previous roles and contributions to the company. The section serves to inform stakeholders about the leadership team's qualifications and experience, which may impact director independence and related transactions within the company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 123,
+      "end_page": 123,
+      "summary": "This section provides detailed information about the principal accounting fees and services associated with Boeing. It outlines the fees paid to the independent auditors for various services, including audit, audit-related, tax, and other services. The section also discusses the approval process for these services and the role of the audit committee in overseeing the relationship with the auditors. Readers can learn about the financial commitments Boeing has made regarding accounting services and the governance structure in place to manage these relationships.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 15. Exhibits, Financial Statement Schedules",
+      "level": 1,
+      "start_page": 124,
+      "end_page": 125,
+      "summary": "This section outlines the exhibits and financial statement schedules relevant to Boeing's corporate governance and executive compensation. It includes details about the company's Codes of Conduct for various employees, including the CEO and CFO, and mentions the absence of family relationships among executive officers. Additionally, it provides information on equity compensation plans, including the number of shares and options outstanding, their exercise prices, and shares available for future issuance. The section also references the incorporation of various regulatory items into the 2019 Proxy Statement, such as executive compensation and director independence.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 126,
+      "end_page": 136,
+      "summary": "Item 16 of the Form 10-K serves as a summary section, indicating that there are no additional details or information provided in this specific part. It is a placeholder that confirms the absence of further content under this item. Readers will find that this section does not contain any substantive information or insights regarding the company's performance or operations.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

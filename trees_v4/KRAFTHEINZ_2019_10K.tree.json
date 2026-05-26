@@ -1,0 +1,674 @@
+{
+  "node_id": "root",
+  "title": "KRAFTHEINZ_2019_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 152,
+  "summary": "The Kraft Heinz Company's 2019 Form 10-K provides a comprehensive overview of its business operations, financial performance, and risk factors. It details the company's structure, including its four reportable segments and significant trademarks, while addressing competition and regulatory challenges. The report includes financial statements, selected financial data, and management's discussion on financial condition, alongside disclosures on accounting policies, acquisitions, and restructuring activities. Additionally, it covers legal proceedings, debt obligations, and internal controls, emphasizing the company's governance and executive compensation practices. The document concludes with signatures from key executives, affirming compliance with regulatory requirements.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Kraft Heinz Company Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 5,
+      "summary": "The front matter of the Form 10-K for The Kraft Heinz Company includes essential registration details, such as the company's name, address, and SEC file number. It confirms the company's status as a large accelerated filer and provides the market value of its common stock held by non-affiliates, totaling $19 billion. Additionally, it outlines the structure of the report, including a table of contents that lists various sections such as business operations, risk factors, and financial statements. The section also contains a disclaimer regarding forward-looking statements, highlighting potential risks and uncertainties that may affect the company's future performance.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business.",
+      "level": 1,
+      "start_page": 6,
+      "end_page": 9,
+      "summary": "The Kraft Heinz Company, formed from the 2015 merger of Kraft Foods and H.J. Heinz, is a leading global food and beverage company with approximately $25 billion in net sales in 2019. The company operates through four reportable segments: the United States, Canada, EMEA, and Rest of World, with plans to restructure these segments in 2020. Key trademarks and intellectual property, including patents and licensed brands, are vital to its operations. The company faces competition from both large and local food companies and sells products through various channels, with Walmart as its largest customer. Additionally, the section discusses the impact of raw material sourcing, regulatory compliance, and environmental regulations on the business.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors.",
+      "level": 1,
+      "start_page": 10,
+      "end_page": 23,
+      "summary": "This section outlines various risk factors that could impact Kraft Heinz's business operations and financial performance. Key risks include intense competition in the food and beverage industry, the need to adapt to changing consumer preferences, and the potential for negative perceptions regarding health implications of products. Additionally, the section discusses risks associated with retail consolidation, reliance on significant customers and suppliers, and the challenges of maintaining brand reputation. Other risks include the impact of economic and political conditions, particularly in international markets, and the potential for product recalls or liability claims.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments.",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "This section discusses the potential impact of credit rating downgrades on the company's financial condition and borrowing costs. It notes that Moody's affirmed a long-term credit rating of Baa3 with a negative outlook, while Fitch and S&P downgraded the company from BBB- to BB+, affecting access to capital markets and increasing borrowing costs. The downgrades place the company's senior debt below investment grade, which may trigger financial covenants related to its 2025 Notes. Additionally, it states that there are no unresolved staff comments related to this item.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties.",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "This section details the company's properties, including its corporate co-headquarters located in Pittsburgh, Pennsylvania, and Chicago, Illinois, which are leased and house various executive and administrative functions. It outlines the company's global manufacturing and processing facilities, stating that as of December 28, 2019, there are 83 facilities, with 80 owned and 3 leased. The breakdown of these facilities by region is provided, highlighting the distribution in the United States, Canada, EMEA, and the Rest of the World. The section also mentions the company's commitment to maintaining these facilities in good condition and its practice of entering co-manufacturing arrangements when beneficial. Additionally, it notes recent divestitures of certain assets and operations in Canada and India.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings.",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "This section discusses the potential impact of credit rating downgrades on the company's financial condition and borrowing costs. It details the recent downgrades by Fitch and S&P, which have lowered the company's long-term credit rating to below investment grade, affecting access to capital markets and increasing borrowing costs. The section also mentions the implications of these downgrades on financial covenants related to the company's 2025 Notes. Additionally, it references Note 17 in Item 8 for further details on legal proceedings and contingencies.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures.",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "This section indicates that the Mine Safety Disclosures are not applicable to the company, suggesting that the company does not operate in mining or related industries that would require such disclosures. As a result, there are no specific safety disclosures or incidents to report. This section serves to clarify the company's operational scope and regulatory obligations regarding mine safety.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities.",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 25,
+      "summary": "This section discusses the market for the registrant's common equity, specifically focusing on the common stock listed on Nasdaq under the ticker symbol 'KHC' and the number of holders of record as of February 8, 2020. It includes a performance graph comparing the cumulative total return of the registrant's common stock with the S&P 500 Index and the S&P Consumer Staples Food and Soft Drink Products index from July 6, 2015, to December 27, 2019. The graph illustrates total shareholder return, assuming an initial investment of $100 with dividends reinvested, highlighting the stock's performance relative to its peers and the broader market.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Selected Financial Data.",
+      "level": 1,
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This section provides selected consolidated financial data for the last five fiscal years, including net sales, income, and earnings per share. Key figures for December 28, 2019, show net sales of $24,977 million and income attributable to common shareholders of $1,935 million, with basic earnings per share at $1.59. The data also highlights trends in total assets, long-term debt, and cash dividends per share over the years, with significant changes noted due to the 2015 merger and U.S. Tax Reform. Additionally, it discusses the impact of non-cash impairment losses on financial performance in 2018 and 2019.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations.",
+      "level": 1,
+      "start_page": 27,
+      "end_page": 45,
+      "summary": "This section provides a comprehensive analysis of the company's financial condition and operational results, including an overview of its organizational structure and fiscal year transition. It details consolidated results for 2019 and 2018, highlighting key metrics such as net sales, operating income, and segment performance across various regions. The section also discusses critical accounting estimates, new accounting pronouncements, and the impact of commodity trends on costs. Additionally, it addresses liquidity and capital resources, off-balance sheet arrangements, equity and dividends, and the use of non-GAAP financial measures to assess performance.",
+      "source": "printed_toc",
+      "children": [
+        {
+          "node_id": "p10",
+          "title": "Overview",
+          "level": 2,
+          "start_page": 27,
+          "end_page": 27,
+          "summary": "This section provides an overview of the company's operations, including its transition to a fiscal year ending on the last Saturday in December, effective December 31, 2016. It details the company's manufacturing and marketing of food and beverage products across four segments: the United States, Canada, EMEA, and a combined 'Rest of World' segment. Significant organizational changes announced in 2019 will consolidate EMEA, Latin America, and APAC into a new International zone for reporting purposes. The section also highlights financial performance metrics for 2019, including net sales, operating income, and net income, along with impairment losses compared to 2018, and mentions the use of non-GAAP financial measures for performance assessment.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p11",
+          "title": "Consolidated Results of Operations",
+          "level": 2,
+          "start_page": 27,
+          "end_page": 29,
+          "summary": "This section provides a detailed analysis of the company's consolidated results of operations for fiscal years 2019 and 2018, highlighting key financial metrics such as net sales, operating income, and net income attributable to common shareholders. It reports a 4.9% decrease in net sales to $25.0 billion, primarily due to unfavorable foreign currency impacts and changes from acquisitions and divestitures. Operating income improved significantly to $3.1 billion, driven by lower impairment losses compared to the previous year. The section also discusses changes in diluted earnings per share (EPS), which increased to $1.58, and outlines the factors affecting comparability of financial results, including impairment losses and interest expenses.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p12",
+          "title": "Results of Operations by Segment",
+          "level": 2,
+          "start_page": 30,
+          "end_page": 32,
+          "summary": "This section provides an analysis of the company's operational results by segment, focusing on net sales, Organic Net Sales, and Segment Adjusted EBITDA for the fiscal year 2019 compared to 2018. It details the financial performance across four regions: the United States, Canada, EMEA, and the Rest of World, highlighting significant declines in net sales and Segment Adjusted EBITDA in each area. The section explains the factors influencing these changes, such as unfavorable volume/mix, pricing adjustments, and impacts from acquisitions and divestitures. Additionally, it discusses the implications of highly inflationary accounting and the treatment of foreign currency exchange gains and losses. Readers can learn about the specific financial metrics and trends affecting each segment's performance, as well as the overall financial health of the company.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p13",
+          "title": "Critical Accounting Estimates",
+          "level": 2,
+          "start_page": 33,
+          "end_page": 36,
+          "summary": "This section discusses critical accounting estimates used in the preparation of consolidated financial statements, focusing on revenue recognition, advertising expenses, goodwill, and intangible assets. It details how revenue is recognized upon fulfillment of performance obligations and the estimation of variable considerations like consumer incentives. The section also explains the impairment testing of goodwill and intangible assets, including the methods and assumptions used to determine fair value, such as discount rates and growth rates. Additionally, it covers the accounting for postemployment benefit plans, including the impact of health care cost trend rates and discount rates on reported obligations and expenses.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p14",
+          "title": "New Accounting Pronouncements",
+          "level": 2,
+          "start_page": 37,
+          "end_page": 37,
+          "summary": "This section discusses the company's approach to income taxes, including the computation of the annual tax rate based on statutory rates and tax planning opportunities. It highlights the significant judgment involved in evaluating tax positions and recognizing benefits that are likely to be sustained upon examination. The section also mentions the recording of unrecognized tax benefits and valuation allowances for deferred tax assets, emphasizing the potential material impact on results of operations. Additionally, it references Note 3 for further details on new accounting pronouncements and their implications.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p15",
+          "title": "Contingencies",
+          "level": 2,
+          "start_page": 37,
+          "end_page": 37,
+          "summary": "This section discusses the company's approach to income taxes, emphasizing the computation of the annual tax rate based on statutory rates and tax planning opportunities. It details the recognition of tax benefits, the evaluation of tax positions, and the treatment of unrecognized tax benefits as non-current liabilities. Additionally, it mentions the recording of valuation allowances for deferred tax assets and the potential material impact of tax reserves on operations. The section also references new accounting pronouncements and directs readers to further details on contingencies and commodity trends in related notes.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p16",
+          "title": "Commodity Trends",
+          "level": 2,
+          "start_page": 37,
+          "end_page": 37,
+          "summary": "This section discusses the company's procurement and usage of various commodities essential for manufacturing, including dairy, meat, coffee, nuts, and packaging materials like resins and metals. It highlights the monitoring of global supply and cost trends for these commodities and notes specific cost increases and decreases experienced in 2019. The section emphasizes the significance of dairy and meat as major cost components, influenced by market dynamics and government programs. Additionally, it outlines the company's strategies for managing commodity cost volatility through pricing and risk management, indicating that costs may not always align with market trends.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p17",
+          "title": "Liquidity and Capital Resources",
+          "level": 2,
+          "start_page": 38,
+          "end_page": 38,
+          "summary": "This section discusses the impact of credit rating downgrades by Fitch and S&P on the company's liquidity and capital resources, specifically noting potential limitations on accessing the commercial paper market and increased interest costs. It outlines the company's plans to meet liquidity needs through cash generated from operations and the Senior Credit Facility, which remains unaffected by the downgrades. The section also provides a comparison of cash flow activities for 2019 and 2018, highlighting increases in operating and investing cash flows, as well as detailing cash used for financing activities. Additionally, it mentions the cash held by international subsidiaries and the treatment of unremitted earnings for tax purposes.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p18",
+          "title": "Off-Balance Sheet Arrangements and Aggregate Contractual Obligations",
+          "level": 2,
+          "start_page": 39,
+          "end_page": 40,
+          "summary": "This section discusses the company's off-balance sheet arrangements and aggregate contractual obligations. It details the absence of guarantees or off-balance sheet financing that could impact financial conditions. The company has utilized accounts receivable securitization and factoring programs, which were unwound by the end of 2018. Additionally, it provides a summary of contractual obligations, including long-term debt, finance leases, operating leases, and purchase obligations, totaling approximately $52 billion. The section also notes estimated pension and postretirement benefit contributions for 2020 and addresses unrecognized tax benefits.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p19",
+          "title": "Equity and Dividends",
+          "level": 2,
+          "start_page": 41,
+          "end_page": 41,
+          "summary": "This section details the company's common stock dividends, reporting payments of $2.0 billion in 2019, $3.2 billion in 2018, and $2.9 billion in 2017. It also mentions a declared cash dividend of $0.40 per share on February 13, 2020, with specific payment and record dates. The declaration of dividends is at the discretion of the Board of Directors, influenced by factors such as net income and financial condition. Additionally, the section introduces non-GAAP financial measures like Organic Net Sales, Adjusted EBITDA, and Adjusted EPS, explaining their definitions and purposes in providing a clearer view of the company's financial performance, while noting their limitations compared to U.S. GAAP measures.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p20",
+          "title": "Non-GAAP Financial Measures",
+          "level": 2,
+          "start_page": 41,
+          "end_page": 45,
+          "summary": "This section discusses the use of non-GAAP financial measures, specifically Organic Net Sales, Adjusted EBITDA, and Adjusted EPS, which supplement U.S. GAAP results. It explains how these measures help management and investors assess performance by excluding items that do not reflect underlying operations. The section provides definitions and reconciliations for each non-GAAP measure, illustrating their calculation and significance. Additionally, it highlights the limitations of non-GAAP measures and emphasizes their role in providing a clearer understanding of financial performance and trends.",
+          "source": "printed_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures about Market Risk.",
+      "level": 1,
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "This section discusses the company's exposure to market risks related to commodity prices, foreign exchange rates, and interest rates, and outlines its risk management strategies. It highlights the use of derivative financial instruments to mitigate fluctuations in earnings and cash flows. The section provides specific hypothetical scenarios, detailing potential gains or losses from a 10% fluctuation in market prices for commodity and foreign currency contracts, as well as cross-currency swaps. Additionally, it addresses credit risk management practices and the impact of a 1% increase in LIBOR and CDOR on annual interest expenses, noting the transition away from LIBOR.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Item 8. Financial Statements and Supplementary Data.",
+      "level": 1,
+      "start_page": 47,
+      "end_page": 54,
+      "summary": "Item 8 covers the financial statements and supplementary data of The Kraft Heinz Company, including the independent auditor's report, consolidated income statements, comprehensive income statements, balance sheets, equity statements, and cash flow statements for the years ending December 28, 2019, December 29, 2018, and December 30, 2017. It highlights significant financial metrics such as net income recovery in 2019, total assets, liabilities, and equity changes, as well as cash flow from operations. The section also addresses material weaknesses in internal controls and key audit matters, providing a comprehensive overview of the company's financial health and performance over the specified periods.",
+      "source": "printed_toc",
+      "children": [
+        {
+          "node_id": "p23",
+          "title": "Report of Independent Registered Public Accounting Firm",
+          "level": 2,
+          "start_page": 47,
+          "end_page": 49,
+          "summary": "This section contains the report from PricewaterhouseCoopers LLP, the independent registered public accounting firm, regarding the financial statements of The Kraft Heinz Company for the years ending December 28, 2019, and December 29, 2018. The firm expresses an opinion that the consolidated financial statements present fairly the company's financial position and results of operations, but notes material weaknesses in internal control over financial reporting. Key audit matters include assessments of goodwill and indefinite-lived intangible assets, highlighting significant management judgment and the use of estimates in fair value measurements. The report also discusses the change in accounting principle related to leases and outlines the responsibilities of both management and the auditors in the financial reporting process.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p24",
+          "title": "Consolidated Statements of Income",
+          "level": 2,
+          "start_page": 50,
+          "end_page": 50,
+          "summary": "This section presents the consolidated statements of income for The Kraft Heinz Company for the years ending December 28, 2019, December 29, 2018, and December 30, 2017. Key figures include net sales, cost of products sold, gross profit, and net income/loss, highlighting a significant recovery in 2019 with a net income of $1,933 million compared to a loss of $10,254 million in 2018. The section also details expenses, including selling, general and administrative expenses and impairment losses, which impacted overall profitability. Additionally, it provides per share data for common shareholders, indicating earnings per share for 2019 at $1.59, contrasting with a loss per share in the previous year.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p25",
+          "title": "Consolidated Statements of Comprehensive Income",
+          "level": 2,
+          "start_page": 51,
+          "end_page": 51,
+          "summary": "This section presents the Consolidated Statements of Comprehensive Income for The Kraft Heinz Company, detailing net income and other comprehensive income for the years ending December 28, 2019, December 29, 2018, and December 30, 2017. Key figures include a net income of $1,933 million in 2019, a loss of $10,254 million in 2018, and a profit of $10,932 million in 2017. The section also outlines components of other comprehensive income, such as foreign currency translation adjustments and net deferred gains/losses on hedges, which significantly impacted total comprehensive income. The total comprehensive income for 2019 was $1,861 million, contrasting sharply with the losses reported in the previous year. Additionally, it specifies the comprehensive income attributable to noncontrolling interests and common shareholders, providing a complete financial overview for stakeholders.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p26",
+          "title": "Consolidated Balance Sheets",
+          "level": 2,
+          "start_page": 52,
+          "end_page": 52,
+          "summary": "This section presents the consolidated balance sheets of The Kraft Heinz Company for the years ending December 28, 2019, and December 29, 2018. It details the company's assets, liabilities, and equity, providing figures for cash, trade receivables, inventories, and total assets, which amount to $101,450 million in 2019, down from $103,461 million in 2018. The liabilities section includes current and long-term debts, totaling $49,701 million in 2019. Shareholders' equity is also outlined, showing a slight decrease from $51,775 million in 2018 to $51,749 million in 2019. This balance sheet is crucial for understanding the company's financial position and capital structure over the specified periods.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p27",
+          "title": "Consolidated Statements of Equity",
+          "level": 2,
+          "start_page": 53,
+          "end_page": 53,
+          "summary": "This section presents the Consolidated Statements of Equity for The Kraft Heinz Company, detailing changes in equity from December 31, 2016, to December 28, 2019. It includes components such as common stock, additional paid-in capital, retained earnings, accumulated other comprehensive income, treasury stock, and noncontrolling interest. Key events affecting equity include net income/loss, dividends declared, and the impact of accounting standards. The section provides a comprehensive view of the company's equity position over the specified years, highlighting significant financial activities and their effects on total equity.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p28",
+          "title": "Consolidated Statements of Cash Flows",
+          "level": 2,
+          "start_page": 54,
+          "end_page": 54,
+          "summary": "This section presents the Consolidated Statements of Cash Flows for The Kraft Heinz Company for the years ending December 28, 2019, December 29, 2018, and December 30, 2017. It details cash flows from operating, investing, and financing activities, highlighting net income/loss, adjustments for non-cash items, and changes in working capital. Key figures include net cash provided by operating activities of $3,552 million in 2019, significant capital expenditures, and long-term debt repayments. The section also notes non-cash investing activities and cash paid for interest and income taxes, providing insights into the company's liquidity and cash management over the reported periods.",
+          "source": "printed_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "p29",
+      "title": "Note 1. Basis of Presentation",
+      "level": 1,
+      "start_page": 55,
+      "end_page": 55,
+      "summary": "This section outlines the basis of presentation for The Kraft Heinz Company's consolidated financial statements, focusing on the 2015 merger between Kraft Foods Group and H.J. Heinz Holding Corporation. It details the principles of consolidation, including the elimination of intercompany transactions and the management of reportable segments by geographic regions. The section also addresses the use of estimates in financial reporting under U.S. GAAP, highlighting the effects of market volatility on these estimates. Furthermore, it notes reclassifications for current period presentation and mentions assets and liabilities classified as held for sale due to divestitures in India and Canada.",
+      "source": "printed_toc",
+      "children": [
+        {
+          "node_id": "p30",
+          "title": "Notes to Consolidated Financial Statements",
+          "level": 2,
+          "start_page": 55,
+          "end_page": 55,
+          "summary": "This section outlines the basis of presentation for The Kraft Heinz Company's consolidated financial statements, detailing the 2015 merger between Kraft Foods Group and H.J. Heinz Holding Corporation. It explains the principles of consolidation, including the elimination of intercompany transactions and the management of reportable segments, which are categorized by geographic regions. The section also discusses the use of estimates in financial reporting under U.S. GAAP, emphasizing the impact of market volatility on these estimates. Additionally, it notes reclassifications made for current period presentation and mentions assets and liabilities classified as held for sale related to divestitures in India and Canada.",
+          "source": "printed_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "p31",
+      "title": "Note 2. Significant Accounting Policies",
+      "level": 1,
+      "start_page": 56,
+      "end_page": 59,
+      "summary": "This section outlines the significant accounting policies of the company, including revenue recognition, advertising expenses, research and development costs, stock-based compensation, and postemployment benefit plans. It details how revenues are recognized upon fulfillment of performance obligations and how variable considerations like consumer incentives are accounted for. The section also discusses the treatment of income taxes, cash and cash equivalents, inventories, property, plant and equipment, and the impairment testing of goodwill and intangible assets. Additionally, it covers lease accounting, financial instruments, and the translation of foreign currencies, providing insights into the company's financial management practices.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p32",
+      "title": "Note 3. New Accounting Standards",
+      "level": 1,
+      "start_page": 60,
+      "end_page": 61,
+      "summary": "This section discusses new accounting standards adopted and those not yet adopted. It details the adoption of ASU 2016-02 on leases, requiring lessees to recognize most leases on balance sheets, resulting in $821 million in lease assets and $887 million in lease liabilities. It also covers ASU 2018-02, allowing reclassification of stranded tax effects from accumulated other comprehensive income to retained earnings, impacting retained earnings by $136 million. Future standards include ASU 2016-13 on current expected credit losses, ASU 2018-13 on fair value measurement disclosures, and ASU 2019-12 simplifying income tax accounting, with varying expected impacts on financial statements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p33",
+      "title": "Note 4. Acquisitions and Divestitures",
+      "level": 1,
+      "start_page": 62,
+      "end_page": 64,
+      "summary": "This section details the company's acquisitions and divestitures, highlighting significant transactions such as the acquisition of Primal Nutrition for $201 million and Cerebos Pacific Limited for $244 million. It provides a breakdown of the purchase price allocations, including cash, assets, liabilities, and goodwill associated with each acquisition. Additionally, it discusses the divestiture of Heinz India, which generated a pre-tax gain of $249 million, and the sale of natural cheese assets in Canada, resulting in a pre-tax gain of $242 million. The section also mentions deal costs incurred during these transactions and outlines a potential disposition of a subsidiary, including expected financial impacts.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p34",
+      "title": "Note 5. Restructuring Activities",
+      "level": 1,
+      "start_page": 65,
+      "end_page": 66,
+      "summary": "This section details the company's restructuring activities, including expenses related to workforce reduction and factory closures. In 2019, approximately 400 positions were eliminated, with an expectation to eliminate an additional 550 positions primarily outside the U.S. The total restructuring expenses for 2019 amounted to $108 million, broken down into severance costs, non-cash asset-related costs, and other implementation costs. The section also outlines the liabilities associated with these restructuring activities, including severance and employee benefit costs, and provides a historical overview of restructuring expenses from 2017 to 2019. Additionally, it mentions the completion of the Integration Program aimed at cost reduction and organizational optimization following a merger, with significant costs incurred in previous years.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p35",
+      "title": "Note 6. Restricted Cash",
+      "level": 1,
+      "start_page": 67,
+      "end_page": 67,
+      "summary": "This section provides a reconciliation of cash and cash equivalents to include restricted cash, detailing amounts for December 28, 2019, and December 29, 2018. It specifies that cash and cash equivalents totaled $2,279 million in 2019, with restricted cash of $1 million in current assets and none in non-current assets, resulting in a total of $2,280 million when combined. The note also mentions that cash and cash equivalents exclude amounts classified as held for sale, directing readers to Note 4 for further details on acquisitions and divestitures.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p36",
+      "title": "Note 7. Inventories",
+      "level": 1,
+      "start_page": 67,
+      "end_page": 67,
+      "summary": "This section provides a detailed breakdown of the company's inventories as of December 28, 2019, and December 29, 2018, totaling $2,721 million and $2,667 million respectively. It categorizes inventories into packaging and ingredients, work in process, and finished products, with specific values for each category. The section also notes that these inventory figures exclude amounts classified as held for sale, directing readers to Note 4 for further information on acquisitions and divestitures. This data is essential for understanding the company's inventory management and valuation over the specified periods.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p37",
+      "title": "Note 8. Property, Plant and Equipment",
+      "level": 1,
+      "start_page": 67,
+      "end_page": 67,
+      "summary": "This section details the composition and valuation of property, plant, and equipment (PP&E) for the years ending December 28, 2019, and December 29, 2018. It provides specific figures for land, buildings and improvements, equipment, and construction in progress, totaling $10,242 million in 2019. The section also notes accumulated depreciation of $3,187 million, resulting in a net PP&E value of $7,055 million. Additionally, it mentions depreciation expenses for the years 2017 to 2019, highlighting a slight decrease in net PP&E from the previous year. Readers can learn about the company's asset management and depreciation practices.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p38",
+      "title": "Note 9. Goodwill and Intangible Assets",
+      "level": 1,
+      "start_page": 68,
+      "end_page": 72,
+      "summary": "This section details the changes in goodwill and intangible assets, including impairment losses and acquisitions across various reporting units. It outlines the annual impairment testing process, highlighting significant losses in 2019 due to factors like management changes and market conditions. The section also discusses the carrying amounts of indefinite-lived intangible assets, primarily trademarks, and the recognition of impairment losses for specific brands. Additionally, it emphasizes the sensitivity of fair value determinations to market factors and management expectations, indicating potential future impairments.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p39",
+      "title": "Note 10. Income Taxes",
+      "level": 1,
+      "start_page": 73,
+      "end_page": 75,
+      "summary": "This section discusses the impact of U.S. Tax Reform enacted on December 22, 2017, which lowered the federal corporate tax rate and introduced new tax provisions. It details the company's accounting for the tax reform, including a net tax benefit of approximately $7.1 billion and changes in deferred tax liabilities related to repatriated earnings. The provision for income taxes is broken down by current and deferred taxes, with specific figures for U.S. federal, state, and international taxes. The effective tax rates for 2017, 2018, and 2019 are analyzed, highlighting factors affecting these rates, such as non-deductible items and changes in tax laws. Additionally, the section outlines deferred income tax assets and liabilities, including foreign operating loss carryforwards and unrecognized tax benefits for uncertain tax positions.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p40",
+      "title": "Note 11. Employees’ Stock Incentive Plans",
+      "level": 1,
+      "start_page": 76,
+      "end_page": 78,
+      "summary": "This section details the company's Employees' Stock Incentive Plans, including the 2016 Omnibus Incentive Plan, 2013 Omnibus Incentive Plan, and Kraft 2012 Performance Incentive Plan. It outlines the types of equity awards granted, such as stock options, restricted stock units (RSUs), and performance share units (PSUs), along with their vesting schedules and exercise terms. The section also provides information on the fair value estimation of stock options using the Black-Scholes model, including key assumptions like risk-free interest rate and expected volatility. Additionally, it presents the activity related to stock options and RSUs, including grants, forfeitures, and vesting details, as well as the valuation methods for PSUs tied to performance and market conditions.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p41",
+      "title": "Note 12. Postemployment Benefits",
+      "level": 1,
+      "start_page": 79,
+      "end_page": 88,
+      "summary": "This section details the company's postemployment benefits, including defined benefit pension plans and health care benefits for retirees. It outlines the obligations, funded status, and net pension liabilities for both U.S. and non-U.S. plans, highlighting significant changes in benefit obligations and plan assets over the years. The section also discusses the investment strategies for pension plan assets, including asset allocations and fair value measurements. Additionally, it provides insights into future benefit payments and the impact of health care cost trends on postretirement obligations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p42",
+      "title": "Note 13. Financial Instruments",
+      "level": 1,
+      "start_page": 89,
+      "end_page": 93,
+      "summary": "This section details the company's financial instruments, focusing on derivative contracts and their fair values. It provides notional amounts for various derivative instruments, including commodity, foreign exchange, and cross-currency contracts, as of December 28, 2019. The fair value hierarchy is explained, distinguishing between Level 1 and Level 2 assets and liabilities. Additionally, it discusses net investment hedging strategies, cash flow hedges, and the impact of derivatives on the statements of comprehensive income and income. The section also addresses credit risk concentration and economic hedging practices.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p43",
+      "title": "Note 14. Accumulated Other Comprehensive Income/(Loss)",
+      "level": 1,
+      "start_page": 94,
+      "end_page": 95,
+      "summary": "This section details the components and changes in accumulated other comprehensive income/(loss) from 2016 to 2019, including foreign currency translation adjustments, net postemployment benefit plan adjustments, and net cash flow hedge adjustments. It provides a breakdown of the balances at year-end, the impacts of various adjustments, and the total other comprehensive income/(loss) for each year. The section also discusses the reclassification of net postemployment benefit losses and includes a table showing the gross amounts and related tax effects for each component. Additionally, it notes the adoption of ASU 2018-02, which pertains to reclassifying tax effects stranded in accumulated other comprehensive income/(losses).",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p44",
+      "title": "Note 15. Venezuela - Foreign Currency and Inflation",
+      "level": 1,
+      "start_page": 96,
+      "end_page": 96,
+      "summary": "This section discusses the accounting treatment of a subsidiary in Venezuela, which operates under highly inflationary conditions. It explains that the functional currency for the subsidiary is the U.S. dollar, despite most transactions being conducted in Venezuelan bolivars. The section highlights the necessity of revaluing the subsidiary's results to U.S. dollars for inclusion in consolidated financial statements. Readers can learn about the implications of highly inflationary accounting on financial reporting and currency translation.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p45",
+      "title": "Note 16. Financing Arrangements",
+      "level": 1,
+      "start_page": 97,
+      "end_page": 97,
+      "summary": "This section discusses the company's financing arrangements, including structured payables and product financing to facilitate vendor supply. As of December 28, 2019, the company reported approximately $253 million related to these arrangements classified as other current liabilities. It also details the use of accounts receivable securitization and factoring programs for global working capital needs, noting that all such programs were unwound by the end of 2018. The section explains the accounting treatment for these programs, including the sale of receivables and the classification of cash receipts from sold receivables as investing activities.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p46",
+      "title": "Note 17. Commitments and Contingencies",
+      "level": 1,
+      "start_page": 98,
+      "end_page": 99,
+      "summary": "This section outlines the company's involvement in various legal proceedings, including securities class action lawsuits and stockholder derivative actions, primarily related to alleged misleading statements and fiduciary breaches. It details specific cases, such as the Hedick Action and the Iron Workers Action, and mentions the consolidation of these lawsuits into a single proceeding. Additionally, it discusses ongoing investigations by the SEC and the USAO regarding procurement practices and financial reporting. The section also notes the company's purchase obligations for materials and services necessary for its operations, indicating a commitment to fulfill these financial responsibilities.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p47",
+      "title": "Note 18. Debt",
+      "level": 1,
+      "start_page": 100,
+      "end_page": 103,
+      "summary": "This section details Kraft Heinz's debt obligations as of December 28, 2019, including a $4.0 billion senior unsecured revolving credit facility and various long-term debt instruments with differing maturity dates and interest rates. It outlines the company's borrowing arrangements, including compliance with covenants and guarantees provided by Kraft Heinz for its subsidiaries' debts. The section also discusses recent tender offers and debt redemptions, highlighting the financial impacts, such as losses on extinguishment of debt. Additionally, it covers debt issuance costs, premiums, and repayments, providing a comprehensive overview of the company's debt management strategies.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p48",
+      "title": "Note 19. Leases",
+      "level": 1,
+      "start_page": 104,
+      "end_page": 105,
+      "summary": "This section details the company's lease agreements, including both operating and finance leases for facilities and equipment, with terms up to 14 years and options for extensions. It outlines the total lease costs for 2019, which amounted to $1.493 billion, broken down into operating lease costs, finance lease costs, and variable lease costs. The section also provides supplemental balance sheet information, including right-of-use assets and lease liabilities, along with cash flow impacts from lease transactions. Future minimum lease payments are specified for both operating and finance leases, totaling $684 million and $226 million respectively, with a breakdown by year. Additionally, it notes that certain lease agreements include termination options that are generally not expected to be exercised.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p49",
+      "title": "Note 20. Capital Stock",
+      "level": 1,
+      "start_page": 106,
+      "end_page": 106,
+      "summary": "This section details the capital stock of the company, specifically focusing on common stock. It outlines the authorized issuance of up to 5.0 billion shares and provides a breakdown of shares issued, treasury shares, and outstanding shares from 2016 to 2019. The section also includes information on the exercise of stock options and the issuance of stock awards, highlighting changes in share balances over the years. Additionally, it introduces the concept of earnings per share (EPS), presenting both basic and diluted EPS figures for the years 2017 to 2019, along with the methodology used for calculating diluted EPS.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p50",
+      "title": "Note 21. Earnings Per Share",
+      "level": 1,
+      "start_page": 106,
+      "end_page": 106,
+      "summary": "This section provides detailed information on the company's earnings per share (EPS) for the years ending December 28, 2019, December 29, 2018, and December 30, 2017. It includes both basic and diluted EPS calculations, highlighting net income or loss attributable to common shareholders, weighted average shares outstanding, and the effects of dilutive equity awards. The section notes that in 2018, the company experienced a net loss, leading to the exclusion of dilutive effects in that year due to their anti-dilutive nature. Additionally, it specifies the number of anti-dilutive shares for each year, providing insights into the company's financial performance and share structure over the specified periods.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p51",
+      "title": "Note 22. Segment Reporting",
+      "level": 1,
+      "start_page": 106,
+      "end_page": 108,
+      "summary": "This section details the company's segment reporting, focusing on performance evaluation through net sales and Segment Adjusted EBITDA. It defines Segment Adjusted EBITDA as net income from continuing operations adjusted for various expenses, providing a consistent basis for performance comparison. The section includes net sales and Segment Adjusted EBITDA figures for different geographic segments (United States, Canada, EMEA, Rest of World) over three years. It also presents capital expenditures, net sales by product category, and highlights the concentration of risk with Walmart Inc. as a major customer, representing 21% of net sales.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p52",
+      "title": "Note 23. Other Financial Data",
+      "level": 1,
+      "start_page": 109,
+      "end_page": 109,
+      "summary": "This section provides detailed information on other expense and income components for the years ending December 28, 2019, December 29, 2018, and December 30, 2017. It highlights significant figures such as the amortization of prior service costs, net pension and postretirement costs, and gains or losses from business sales. The total other expense/income was $952 million in 2019, a notable increase from $168 million in 2018, primarily due to a $420 million gain on business sales. The section also references related notes for further details on pension benefits, currency devaluation losses, and financial instruments.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p53",
+      "title": "Note 24. Quarterly Financial Data (Unaudited)",
+      "level": 1,
+      "start_page": 109,
+      "end_page": 109,
+      "summary": "This section provides unaudited quarterly financial data for the years 2019 and 2018, detailing net sales, gross profit, and net income/loss for each quarter. For 2019, net sales ranged from $5,959 million in Q1 to $6,536 million in Q4, with corresponding gross profits and net income figures. The net income attributable to common shareholders also reflects quarterly variations, with basic and diluted earnings per share reported for each quarter. This data allows readers to analyze the company's financial performance trends over the specified quarters.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p54",
+      "title": "Note 25. Supplemental Guarantor Information",
+      "level": 1,
+      "start_page": 110,
+      "end_page": 119,
+      "summary": "This section provides supplemental guarantor information regarding Kraft Heinz's financial guarantees for notes issued by its wholly owned subsidiary, Kraft Heinz Foods Company. It includes condensed consolidating financial statements that detail the results of operations, financial position, and cash flows for Kraft Heinz as the parent guarantor, the subsidiary issuer, and non-guarantor subsidiaries. The information is presented in compliance with SEC Regulation S-X Rule 3-10, highlighting the necessary eliminations for consolidated reporting. Readers can learn about the financial performance and position of Kraft Heinz and its subsidiaries over the specified periods, including net sales, gross profit, and net income/loss figures.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p55",
+      "title": "Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure.",
+      "level": 1,
+      "start_page": 120,
+      "end_page": 120,
+      "summary": "This section reports that there were no changes or disagreements with accountants regarding accounting and financial disclosure. It highlights the evaluation of disclosure controls and procedures by management, including the Chief Executive Officer and Chief Financial Officer, as of December 28, 2019. The evaluation concluded that due to material weaknesses in internal control over financial reporting, the disclosure controls were not effective. It details the responsibilities of management in maintaining adequate internal controls and identifies specific material weaknesses related to risk assessment that have not been remediated.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p56",
+      "title": "Item 9A. Controls and Procedures.",
+      "level": 1,
+      "start_page": 120,
+      "end_page": 122,
+      "summary": "This section discusses the evaluation of the company's disclosure controls and procedures as of December 28, 2019, revealing that they were ineffective due to material weaknesses in internal control over financial reporting. It details the responsibilities of management in maintaining adequate internal controls and identifies specific deficiencies related to supplier contracts and risk assessment. The section outlines remediation efforts, including personnel actions, organizational enhancements, and improvements in procurement practices and training. Additionally, it notes that a previously reported material weakness regarding goodwill impairment assessments has been remediated. Finally, it confirms that there were no significant changes in internal control over financial reporting during the evaluated period.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p57",
+      "title": "Item 9B. Other Information.",
+      "level": 1,
+      "start_page": 123,
+      "end_page": 123,
+      "summary": "This section indicates that there is no additional information applicable under Item 9B. It references various items that will be covered in subsequent sections, specifically directing readers to the 2020 Proxy Statement for detailed information on directors, executive officers, corporate governance, executive compensation, security ownership, related transactions, and accounting fees. The section serves as a transition to the next part of the report, confirming that relevant details are incorporated by reference from the Proxy Statement.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p58",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 123,
+      "end_page": 123,
+      "summary": "This section outlines the governance structure and key personnel of the company, specifically referencing the definitive Proxy Statement for the Annual Meeting of Shareholders scheduled for May 7, 2020. It includes details on the election of directors, corporate governance practices, and board committee memberships, particularly the Audit Committee. Additionally, it mentions the incorporation of information regarding executive compensation and security ownership into the Annual Report. Readers can learn about the company's governance guidelines, codes of conduct, and the roles of executive officers and directors.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p59",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 123,
+      "end_page": 123,
+      "summary": "This section outlines the executive compensation details as required by Item 11, referencing specific components found in the 2020 Proxy Statement. Key topics include 'Pay Ratio Disclosure,' the role of the 'Compensation Committee,' and the 'Compensation of Non-Employee Directors.' Additionally, it includes a 'Compensation Discussion and Analysis' and various 'Executive Compensation Tables' that provide detailed financial information regarding executive pay. This information is crucial for understanding the company's compensation practices and governance related to executive remuneration.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p60",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 123,
+      "end_page": 123,
+      "summary": "This section details the security ownership of certain beneficial owners and management as of December 28, 2019, specifically focusing on the number of shares to be issued upon exercise or vesting of awards under equity compensation plans. It reports a total of 33,855,210 securities available for issuance under approved equity compensation plans, with a weighted average exercise price of $41.22 per share. Additionally, it notes that no new awards have been issued from these plans since the fiscal year ended December 31, 2016. For further details on ownership, readers are directed to the 2020 Proxy Statement, which is incorporated by reference.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p61",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 123,
+      "end_page": 123,
+      "summary": "This section discusses the disclosure of certain relationships and related transactions involving directors and executive officers, as well as the criteria for director independence. It references the relevant information found in the 2020 Proxy Statement under 'Corporate Governance and Board Matters - Independence and Related Person Transactions.' The section emphasizes the importance of transparency in governance and compliance with regulatory requirements regarding potential conflicts of interest and the independence of board members.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p62",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 123,
+      "end_page": 123,
+      "summary": "This section outlines the information regarding principal accounting fees and services, which is detailed under the 'Board Committees and Membership - Audit Committee' in the 2020 Proxy Statement. It indicates that the relevant details about the fees paid to auditors and the nature of services provided are incorporated by reference into the Annual Report on Form 10-K. Readers can learn about the financial relationship between the company and its auditors, including any potential conflicts of interest or governance issues related to audit services.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p63",
+      "title": "Item 15. Exhibits, Financial Statement Schedules",
+      "level": 1,
+      "start_page": 124,
+      "end_page": 129,
+      "summary": "This section provides an index to the consolidated financial statements and schedules of The Kraft Heinz Company, detailing key financial documents such as the consolidated statements of income, comprehensive income, balance sheets, equity, and cash flows for the years ended December 28, 2019, December 29, 2018, and December 30, 2017. It also includes a list of exhibits filed as part of the annual report, which encompasses various agreements, amendments, and indentures related to the company's operations and financial obligations. Readers can learn about significant agreements, including separation and distribution agreements, ownership and license agreements, and credit agreements, as well as certifications required under the Sarbanes-Oxley Act. Additionally, the section lists the company's subsidiaries and provides consent from the independent auditor, PricewaterhouseCoopers LLP.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p64",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 130,
+      "end_page": 130,
+      "summary": "This section indicates that there is no summary provided for Item 16 of the Form 10-K. Readers will find that no additional information or key topics are presented in this section, as it is marked as 'None.' Therefore, there are no specific facts or insights available for review.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p65",
+      "title": "Signatures",
+      "level": 1,
+      "start_page": 131,
+      "end_page": 152,
+      "summary": "This section contains the signatures of key executives and board members of The Kraft Heinz Company, affirming the report's compliance with the Securities Exchange Act of 1934. It includes signatures from the Chief Executive Officer, Chief Financial Officer, and other directors, along with their titles and the date of signing, February 14, 2020. The section serves to validate the report's authenticity and adherence to regulatory requirements, ensuring accountability among the company's leadership.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

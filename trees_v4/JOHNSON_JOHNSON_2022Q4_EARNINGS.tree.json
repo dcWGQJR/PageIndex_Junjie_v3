@@ -1,0 +1,193 @@
+{
+  "node_id": "root",
+  "title": "JOHNSON_JOHNSON_2022Q4_EARNINGS.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 24,
+  "summary": "The section provides a comprehensive financial overview of Johnson & Johnson's performance for Q4 and the full year of 2022, highlighting a 4.4% sales decline primarily due to reduced COVID-19 vaccine sales. It includes detailed earnings statements, segment performance, and reconciliations of non-GAAP financial measures. Specific insights into the MedTech segment's sales performance, including category breakdowns and geographical trends, are presented. Additionally, the impact of the pandemic on pharmaceutical sales and adjustments for various costs are analyzed, alongside a financial overview for the twelve months ending January 2023.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Johnson & Johnson 2022 Financial Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 10,
+      "summary": "This section provides an overview of Johnson & Johnson's financial performance for the fourth quarter and full year of 2022, highlighting a reported sales decline of 4.4% to $23.7 billion, primarily due to reduced COVID-19 vaccine sales and unfavorable foreign exchange impacts. It details earnings per share (EPS) figures, with a decrease in reported EPS but an increase in adjusted EPS. The company anticipates a 4.0% growth in adjusted operational sales for 2023, excluding COVID-19 vaccine sales. Additionally, it breaks down sales by segment and region, noting operational growth in Consumer Health and Pharmaceutical segments despite overall declines in reported sales.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "f2",
+      "title": "Johnson & Johnson Financial Overview and Earnings Statement",
+      "level": 1,
+      "start_page": 11,
+      "end_page": 18,
+      "summary": "This section presents the condensed consolidated statement of earnings for Johnson & Johnson for the years 2022 and 2021, detailing sales, costs, and net earnings. Key figures include total sales of $94,943 million in 2022, a gross profit of $63,854 million, and net earnings of $17,941 million, reflecting a 14.1% decrease from the previous year. It also includes a reconciliation of non-GAAP financial measures, highlighting adjustments for items like litigation and restructuring costs. The section provides insights into the company's financial performance across its segments, including Consumer Health, Pharmaceutical, and MedTech, with operational sales growth metrics.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "w1",
+      "title": "Fourth Quarter Sales Performance Overview",
+      "level": 1,
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This section presents reported sales data for the MedTech segment in the fourth quarter and twelve months of 2022 compared to 2021. It includes detailed figures for various categories such as Interventional Solutions, Orthopaedics, and Spine, Sports & Other, broken down by US and international markets. The data highlights percentage changes in sales, both reported and operational, as well as currency impacts. Readers can learn about the performance trends in different product categories and geographical regions, including growth in the US market and declines in international sales.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w2",
+      "title": "Sales Performance Overview for MedTech Segment",
+      "level": 1,
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This section presents a detailed comparison of reported sales for the MedTech segment across the U.S. and international markets for the fourth quarter and the entire year, highlighting changes from the prior period. It includes specific sales figures in millions of dollars for various categories such as Interventional Solutions, Orthopaedics, and Trauma, along with operational and currency-adjusted growth rates. The data reveals trends in sales performance, with some categories experiencing growth while others show declines, particularly in international markets. Readers can learn about the overall sales dynamics and performance metrics of the MedTech segment for 2022 compared to 2021.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w3",
+      "title": "Financial Overview of COVID-19 and Pharmaceutical Sales",
+      "level": 1,
+      "start_page": 20,
+      "end_page": 21,
+      "summary": "The TOTAL MEDTECH section provides a comprehensive financial analysis of COVID-19 vaccine sales and overall pharmaceutical sales for 2021 and 2022. It details significant declines in U.S. and international COVID-19 vaccine sales, with U.S. sales dropping to zero and international sales decreasing by over 50%. Additionally, it examines pharmaceutical sales excluding COVID-19 vaccines, highlighting slight overall declines and specific market trends. The section emphasizes the impact of the pandemic on sales figures and offers insights into revenue changes across different markets.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w4",
+          "title": "COVID-19 Vaccine Sales Overview 2021-2022",
+          "level": 2,
+          "start_page": 21,
+          "end_page": 21,
+          "summary": "This section provides a detailed financial overview of COVID-19 vaccine sales, comparing figures from 2021 to 2022. It highlights a significant decline in U.S. sales from 213 million to 0 million, indicating a drop of 81.1%. International sales also decreased from 1,405 million to 689 million, reflecting a 50.9% decline. The worldwide total for COVID-19 vaccine sales fell from 1,619 million to 689 million, a decrease of 57.4%. The data emphasizes the changing landscape of vaccine demand and sales performance over the specified periods.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w5",
+          "title": "Pharmaceutical Sales Overview Excluding COVID-19 Vaccine",
+          "level": 2,
+          "start_page": 21,
+          "end_page": 21,
+          "summary": "This section provides a detailed financial overview of pharmaceutical sales excluding COVID-19 vaccine data for the years 2021 and 2022. It includes specific figures for U.S. and international sales, highlighting changes in revenue and percentage growth or decline. Key metrics include total operations, currency adjustments, and year-over-year comparisons for both U.S. and international markets. The data indicates a slight overall decline in worldwide pharmaceutical sales, with specific insights into U.S. performance and international trends.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w6",
+          "title": "Worldwide Pharmaceutical Sales Overview 2021-2022",
+          "level": 2,
+          "start_page": 21,
+          "end_page": 21,
+          "summary": "This section provides a detailed financial overview of pharmaceutical operations worldwide for the years 2021 and 2022, including sales figures in the U.S. and international markets. It highlights the performance of COVID-19 vaccine sales, showing significant declines in both U.S. and international markets. The data also includes a breakdown of pharmaceutical sales excluding COVID-19 vaccines, indicating overall trends and percentage changes in revenue. Readers can learn about the comparative performance of different markets and the impact of the pandemic on sales figures.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w7",
+      "title": "Supplemental Sales Reconciliation for 2022 and 2021",
+      "level": 1,
+      "start_page": 22,
+      "end_page": 22,
+      "summary": "This section presents a reconciliation of non-GAAP financial measures for Johnson & Johnson, comparing reported income before tax by segment for the years 2022 and 2021. It details adjustments for intangible asset amortization, litigation-related expenses, restructuring costs, and COVID-19 vaccine-related costs, among others. The adjusted income before tax figures are provided alongside their percentage to sales, highlighting the financial performance across different segments including Consumer Health, Pharmaceutical, and MedTech. The section also notes reclassifications in prior year income due to operational changes.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w8",
+      "title": "Q4 2022 Income Before Tax by Segment Analysis",
+      "level": 1,
+      "start_page": 23,
+      "end_page": 23,
+      "summary": "This section presents the reported and adjusted income before tax by segment for Johnson & Johnson for Q4 2022 and 2021. It details the income figures in millions for Consumer Health, Pharmaceutical, MedTech, and Unallocated segments, along with their respective percentages to sales. The section also includes adjustments for intangible asset amortization, litigation, restructuring, and COVID-19 related costs, providing a comprehensive view of financial performance across segments. Readers can learn about the impact of various costs on income and the overall financial health of the company.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w9",
+      "title": "Fourth Quarter Financial Overview and Analysis",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "This section provides a detailed financial overview for the fourth quarter of 2022 and 2023, including GAAP and non-GAAP metrics. It outlines costs associated with products sold, selling, marketing, administrative expenses, and research and development expenses. The section also highlights net earnings and various adjustments related to intangible asset amortization, litigation, restructuring, and tax provisions. Readers can learn about the financial performance trends and specific cost impacts over the two years.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w10",
+      "title": "Financial Overview for Twelve Months Ending January 2023",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "The 'Twelve Months' section provides a comprehensive financial overview of Johnson & Johnson, focusing on the impacts of the Consumer Health separation, in-process R&D expenses, acquisitions, divestitures, and COVID-19 vaccine costs. It includes detailed financial metrics, comparisons to previous years, and insights into tax legislation effects on earnings. Key figures such as net earnings, costs associated with intangible assets, and adjustments for various expenses are highlighted, offering a clear picture of the company's financial performance over the specified periods.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w11",
+          "title": "Consumer Health Separation Financial Overview",
+          "level": 2,
+          "start_page": 24,
+          "end_page": 24,
+          "summary": "This section details the financial implications of the Consumer Health separation, including costs associated with intangible asset amortization, litigation, restructuring, and regulatory compliance. It provides a breakdown of GAAP and non-GAAP financial metrics for the fourth quarter and the twelve months ending January 1, 2023, compared to the previous year. Readers can learn about specific expenses related to selling, marketing, research and development, and net earnings, as well as the impact of tax-related costs on overall financial performance.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w12",
+          "title": "Financial Overview of In-Process R&D Expenses",
+          "level": 2,
+          "start_page": 24,
+          "end_page": 24,
+          "summary": "This section details the financial performance related to in-process research and development (R&D) for the fourth quarter and twelve months ending January 1, 2023. It highlights the expenses associated with in-process R&D, showing a total of $173 million for the fourth quarter and $783 million for the twelve months, with significant adjustments noted. The section also compares these figures to the previous year, indicating a decrease in in-process R&D expenses. Readers can learn about the financial implications of R&D investments and their impact on overall earnings.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w13",
+          "title": "Financial Impact of Acquisitions and Divestitures",
+          "level": 2,
+          "start_page": 24,
+          "end_page": 24,
+          "summary": "This section details the financial impacts of acquisition, integration, and divestiture activities for Johnson & Johnson, specifically highlighting costs associated with the Abiomed acquisition and gains from divestitures of pharmaceutical brands. It provides a breakdown of GAAP and non-GAAP financial metrics, including costs of products sold, selling and administrative expenses, and net earnings for the fourth quarter and twelve months ending January 1, 2023, compared to the previous year. Readers can learn about the specific financial adjustments made for intangible asset amortization, litigation, restructuring, and other related expenses.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w14",
+          "title": "(Loss)/Gain on Securities Overview",
+          "level": 2,
+          "start_page": 24,
+          "end_page": 24,
+          "summary": "This section details the (loss)/gain on securities for the fourth quarter and twelve months ending January 1, 2023, compared to the same periods in 2022. It includes specific figures for net earnings, costs related to acquisitions, and other expenses. The data highlights the financial impact of securities transactions on overall earnings, providing insights into the company's financial performance and investment strategy. Readers can learn about the fluctuations in earnings attributed to securities and the implications for future financial planning.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w15",
+          "title": "COVID-19 Vaccine Financial Impact Overview",
+          "level": 2,
+          "start_page": 24,
+          "end_page": 24,
+          "summary": "This section details the financial impacts associated with COVID-19 vaccine-related costs, including specific line items such as cost of products sold, selling, marketing, and administrative expenses, and research and development expenses. It provides a comparison of GAAP and non-GAAP figures for the fourth quarter and twelve months ending January 1, 2023, and January 2, 2022. Readers can learn about the net earnings and various adjustments made for COVID-19 vaccine costs, as well as how these costs compare to previous periods. The section also highlights the overall financial performance of Johnson & Johnson in relation to vaccine expenditures.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w16",
+          "title": "Tax Legislation and Financial Impacts Overview",
+          "level": 2,
+          "start_page": 24,
+          "end_page": 24,
+          "summary": "This section details the financial impacts of tax legislation and related costs for Johnson & Johnson, including specific figures for the fourth quarter and twelve months ending January 1, 2023, compared to the previous year. It outlines costs associated with consumer health separation, in-process research and development, and acquisition-related expenses. The section also provides a reconciliation of GAAP to non-GAAP financial measures, highlighting net earnings and provisions for taxes on income. Readers can learn about the financial implications of tax-related activities and their effects on overall earnings.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

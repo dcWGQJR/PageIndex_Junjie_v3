@@ -1,0 +1,251 @@
+{
+  "node_id": "root",
+  "title": "LOCKHEEDMARTIN_2020_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 132,
+  "summary": "The Lockheed Martin Corporation's Form 10-K for the fiscal year ending December 31, 2020, provides a comprehensive overview of the company's business operations, financial performance, and governance structure. It details the company's reliance on U.S. Government contracts, which constituted 74% of net sales, and outlines key business segments, risk factors, and legal proceedings. The document includes selected financial data, management's discussion on financial conditions, and disclosures about executive compensation and stockholder matters. Additionally, it covers internal controls, auditor relationships, and corporate governance policies, ensuring compliance with regulatory requirements.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Lockheed Martin Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 2,
+      "summary": "This section provides the front matter for Lockheed Martin Corporation's Form 10-K for the fiscal year ending December 31, 2020. It includes essential company information such as the registrant's name, address, and contact details, as well as the commission file number. The section confirms the company's status as a well-known seasoned issuer and outlines its compliance with filing requirements under the Securities Exchange Act. Additionally, it mentions the market value of the company's common stock and the number of shares outstanding, along with a note on the incorporation of the 2021 Definitive Proxy Statement into the report.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 9,
+      "summary": "This section provides an overview of the company's business operations, focusing on its role as a global security and aerospace firm engaged in advanced technology systems and services. It details the company's revenue sources, with 74% of net sales in 2020 coming from U.S. Government contracts, primarily in defense and aerospace sectors. The section outlines the four main business segments: Aeronautics, Missiles and Fire Control, Rotary and Mission Systems, and Space, highlighting key programs and sales figures for each. Additionally, it discusses strategic actions, including the planned acquisition of Aerojet Rocketdyne, competition in the industry, and the regulatory environment governing government contracts. The section also touches on research and development efforts and the importance of human capital in maintaining a skilled workforce.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 10,
+      "end_page": 23,
+      "summary": "This section outlines the various risk factors associated with investing in the company's common stock or debt securities, particularly emphasizing reliance on U.S. Government contracts, which accounted for 74% of net sales in 2020. Key risks include potential budget cuts, government shutdowns, and changes in procurement policies that could adversely affect contract funding and profitability. The section also discusses the impact of COVID-19 on operations, supply chains, and financial performance, highlighting uncertainties in future government spending and contract awards. Additionally, it addresses the competitive landscape and the challenges posed by emerging non-traditional competitors, as well as the implications of compliance with government regulations and audits on business operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "This section indicates that there are no unresolved staff comments related to the company's operations or financial reporting. It highlights the company's involvement in legal proceedings and the uncertainty surrounding their outcomes, which may impact financial results. The section also notes that the company estimates loss contingencies and establishes reserves based on probable liabilities. Additionally, it discusses the potential variability in dividend payments and share repurchases, emphasizing that these decisions are influenced by various factors including financial performance and legal constraints.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 24,
+      "summary": "As of December 31, 2020, the company owned or leased approximately 385 locations in the U.S., including offices, manufacturing plants, and service centers. Significant operational sites are detailed by division: Aeronautics in California, Georgia, South Carolina, and Texas; Missiles and Fire Control in Arkansas, Florida, Kentucky, and Texas; Rotary and Mission Systems in Connecticut, Florida, New Jersey, New York, Virginia, and Poland; and Space in Alabama, California, Colorado, Florida, Pennsylvania, and England. The section provides a comprehensive overview of the company's property holdings and operational locations, which are crucial for understanding its operational capacity and geographic footprint.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This section outlines the company's involvement in legal proceedings, including litigation related to environmental protection and contingencies from previously owned businesses. It states that while these matters could lead to fines or damages, the company believes the likelihood of a material adverse effect on its overall operations is remote. The section also highlights the company's obligations under federal, state, and foreign environmental laws, and the potential for financial exposure from lawsuits and remediation efforts. Additionally, it discusses the implications of being a U.S. Government contractor, including the risks of audits and investigations that could result in penalties or debarment, which may significantly impact the company's operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This section indicates that the Mine Safety Disclosures are not applicable to the company. It suggests that there are no relevant mine safety issues or disclosures required for the reporting period. Readers can infer that the company does not operate in sectors that necessitate such disclosures, which may include mining or related industries.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 4(a). Information About Our Executive Officers",
+      "level": 1,
+      "start_page": 26,
+      "end_page": 27,
+      "summary": "This section provides detailed information about the executive officers of the company as of January 28, 2021, including their ages, current positions, and relevant business experience over the past five years. Key executives include Richard F. Ambrose (Executive Vice President - Space), Marillyn A. Hewson (Executive Chairman), and James D. Taiclet (President and CEO). The section highlights the lack of family relationships among the officers and notes that all serve at the discretion of the Board of Directors. It also outlines the career trajectories of each officer, showcasing their previous roles and contributions within the company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 28,
+      "end_page": 29,
+      "summary": "As of January 22, 2021, Lockheed Martin had 24,929 holders of its common stock, which is traded on the NYSE under the symbol LMT. The section includes a stockholder return performance graph comparing the cumulative return of Lockheed Martin's stock to the S&P 500 and the S&P Aerospace & Defense Index through December 31, 2020. It also details the company's stock repurchase activities during the quarter ended December 31, 2020, noting a total of 9,987 shares repurchased at an average price of $366.47 per share, with a remaining authorization of $3.0 billion for future repurchases. Additionally, it clarifies that the repurchases included shares transferred by employees for tax obligations and that the share repurchase program has no expiration date.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 6. Selected Financial Data",
+      "level": 1,
+      "start_page": 30,
+      "end_page": 31,
+      "summary": "This section presents selected financial data for the years 2016 to 2020, including net sales, operating profit, net earnings, and earnings per share. It details the impact of severance charges and pension adjustments on earnings, as well as cash flow information and balance sheet highlights. Readers can learn about the company's financial performance trends, including significant gains and losses from discontinued operations and asset impairments. Additionally, it discusses the effects of tax regulations and accounting standards on financial results.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 32,
+      "end_page": 62,
+      "summary": "This section provides a comprehensive overview of Lockheed Martin's financial condition and operational results for 2020, including a discussion of the impact of COVID-19 on operations and supply chains. It details the company's revenue sources, with 74% from the U.S. Government, and outlines expectations for 2021, projecting a 4% increase in net sales driven by various defense programs. The section also highlights strategic initiatives such as acquisitions, including Aerojet Rocketdyne, and the importance of international sales, which accounted for significant portions of revenue across business segments. Additionally, it discusses the status of the F-35 program, backlog figures, and the implications of U.S. Government funding on future operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 63,
+      "end_page": 63,
+      "summary": "This section discusses the company's management of market risks, focusing on interest rates, foreign currency exchange rates, and equity securities. It details the company's use of derivative instruments to hedge against these risks, including foreign currency hedges and interest rate swaps, and emphasizes that these instruments are not used for speculative purposes. The section also provides specific figures, such as the estimated fair value of outstanding debt at $16.9 billion and the notional amounts of interest rate swaps and foreign currency hedges. Additionally, it highlights the company's approach to evaluating counterparty credit quality and the impact of market changes on its non-qualified deferred compensation plans.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 64,
+      "end_page": 106,
+      "summary": "This section contains the audited consolidated financial statements of Lockheed Martin Corporation for the years ended December 31, 2020, 2019, and 2018, including balance sheets, statements of earnings, comprehensive income, equity, and cash flows. It details the company's revenue recognition practices, primarily based on long-term contracts using the percentage-of-completion method, and discusses critical audit matters such as revenue recognition, goodwill impairment assessments, and defined benefit pension obligations. The section also includes significant accounting policies, management's estimates, and the results of the audit conducted by Ernst & Young LLP, which provided an unqualified opinion on the financial statements. Readers can learn about the company's financial performance, key accounting estimates, and the auditor's assessment of internal controls over financial reporting.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 107,
+      "end_page": 107,
+      "summary": "This section reports that there were no changes or disagreements with accountants regarding accounting and financial disclosure. It highlights the evaluation of disclosure controls and procedures conducted as of December 31, 2020, confirming their effectiveness as concluded by the CEO and CFO. Additionally, it discusses the management's responsibility for internal control over financial reporting, stating that an assessment was performed based on established criteria, which also concluded effectiveness. Furthermore, it notes that no changes in internal control over financial reporting were identified during the relevant quarter that would materially affect the reporting.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 107,
+      "end_page": 108,
+      "summary": "This section discusses the evaluation of disclosure controls and procedures as of December 31, 2020, confirming their effectiveness as concluded by the CEO and CFO. It outlines management's responsibility for maintaining adequate internal control over financial reporting, which was also assessed as effective based on COSO criteria. The section notes that there were no changes in internal control that materially affected financial reporting during the quarter. Additionally, it includes an independent auditor's report affirming the effectiveness of internal controls over financial reporting and defines the limitations of such controls.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 109,
+      "end_page": 109,
+      "summary": "This section, Item 9B, states that there is no additional information to report. It serves as a placeholder indicating that no relevant updates or disclosures are necessary at this time. The subsequent sections provide details on directors, executive officers, corporate governance, and ethics, which are referenced from the 2021 Proxy Statement. Readers can find information about the company's code of ethics, which has been in place since 1995, and how to obtain it. Additionally, it mentions the incorporation of various regulatory disclosures into the Annual Report on Form 10-K.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 109,
+      "end_page": 109,
+      "summary": "This section outlines the governance structure of the company, detailing where to find information about directors and executive officers as required by Regulation S-K. It specifies that details about directors are included in the 2021 Proxy Statement under 'Proposal 1 - Election of Directors' and that executive officer information is found in Part I, Item 4(a) of the Form 10-K. The section also mentions the company's Code of Ethics and Business Conduct, which has been in place since 1995 and applies to all employees and board members. Additionally, it notes the requirement to disclose any changes or waivers to the Code for senior officers, with such disclosures available on the company's investor relations website.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 109,
+      "end_page": 109,
+      "summary": "This section outlines the executive compensation details as mandated by Item 402 of Regulation S-K, which are found in the 2021 Proxy Statement under the headings 'Executive Compensation' and 'Director Compensation.' It also references the 'Compensation Committee Report' required by Item 407(e)(5) of Regulation S-K, which is similarly incorporated by reference. Readers can learn about the compensation structure for executives and directors, including salary, bonuses, and other financial incentives, as well as the governance surrounding these compensation decisions.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 110,
+      "end_page": 110,
+      "summary": "This section provides details on the security ownership of management and certain beneficial owners, referencing the 2021 Proxy Statement for specific ownership information. It includes a table summarizing equity compensation plan information as of December 31, 2020, detailing the number of securities to be issued, their weighted-average exercise price, and the number of securities available for future issuance. The table distinguishes between equity compensation plans approved and not approved by security holders, and outlines the types of awards granted, such as restricted stock units (RSUs) and performance stock units (PSUs). Additionally, it explains the Deferred Management Incentive Compensation Plan (DMICP) and how deferred amounts are credited and distributed to employees.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 110,
+      "end_page": 110,
+      "summary": "This section references the information required by Items 404 and 407(a) of Regulation S-K, detailing related person transactions and director independence. It indicates that relevant details can be found in the 2021 Proxy Statement under specific corporate governance headings. The section emphasizes the importance of transparency regarding relationships and transactions involving directors, executive officers, and significant stockholders. It also highlights the company's policies on related person transactions and the criteria for determining director independence.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 110,
+      "end_page": 110,
+      "summary": "This section references the information regarding principal accounting fees and services, which is detailed under the caption 'Proposal 2 - Ratification of Appointment of Independent Auditors' in the 2021 Proxy Statement. It indicates that the relevant details about the fees paid to independent auditors and the nature of their services are incorporated by reference in this Annual Report on Form 10-K. Readers can learn about the financial relationship between the company and its auditors, including the types of services provided and the associated costs.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 15. Exhibits and Financial Statement Schedules",
+      "level": 1,
+      "start_page": 111,
+      "end_page": 113,
+      "summary": "This section lists the financial statements and exhibits included in Lockheed Martin Corporation's Form 10-K. It details the specific financial statements such as the Consolidated Statements of Earnings, Comprehensive Income, Balance Sheets, Cash Flows, and Equity for the years ended December 31, 2020, 2019, and 2018. Additionally, it includes references to the reports from the independent registered public accounting firm regarding the financial statements and internal control over financial reporting. The section also outlines various agreements, bylaws, and plans related to the corporation, including merger agreements and incentive performance award plans, with many documents incorporated by reference from previous filings.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 114,
+      "end_page": 114,
+      "summary": "This section, Item 16 of the Form 10-K, indicates that there is no additional summary provided. It serves as a placeholder, suggesting that the company has opted not to include a summary for this particular item. Readers will find that there are no key topics or facts elaborated upon in this section, as it is marked 'None.'",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p23",
+      "title": "Signatures",
+      "level": 1,
+      "start_page": 115,
+      "end_page": 132,
+      "summary": "This section includes the signatures of key executives and directors of Lockheed Martin Corporation, affirming the authenticity of the Annual Report on Form 10-K for the fiscal year ended December 31, 2020. It lists the names, titles, and dates of signature for each individual, including the Chief Executive Officer, Chief Financial Officer, and various directors. Additionally, it contains Power of Attorney documents granting authority to specific individuals to execute and file necessary documents with the SEC. The section also includes certifications from the CEO and CFO regarding compliance with the Sarbanes-Oxley Act, ensuring the accuracy of the financial statements and internal controls.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

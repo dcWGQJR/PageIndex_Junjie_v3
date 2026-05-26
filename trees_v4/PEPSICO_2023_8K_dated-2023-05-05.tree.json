@@ -1,0 +1,31 @@
+{
+  "node_id": "root",
+  "title": "PEPSICO_2023_8K_dated-2023-05-05.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 5,
+  "summary": "This section contains PepsiCo, Inc.'s Form 8-K filing with the SEC dated May 3, 2023, detailing the company's registration information and securities under the Securities Exchange Act of 1934. It also reports the results of the 2023 Annual Meeting of Shareholders, including the election of 15 directors, the ratification of KPMG LLP as the independent auditor, and advisory votes on executive compensation. Additionally, it notes the defeat of several shareholder proposals, such as those for an independent Board Chair and transparency reports, along with specific vote counts for each proposal.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "PepsiCo Form 8-K Filing Details",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 2,
+      "summary": "This section contains the front matter for PepsiCo, Inc.'s Form 8-K filing with the SEC, dated May 3, 2023. It includes the company's name, jurisdiction of incorporation, and contact information. The document outlines the securities registered under the Securities Exchange Act of 1934, detailing various classes of senior notes and their respective trading symbols on The Nasdaq Stock Market. Additionally, it provides options for the registrant to indicate if the filing meets certain regulatory obligations and whether it qualifies as an emerging growth company.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "w1",
+      "title": "2023 Annual Meeting Voting Results and Proposals",
+      "level": 2,
+      "start_page": 3,
+      "end_page": 5,
+      "summary": "This section details the results of PepsiCo's 2023 Annual Meeting of Shareholders held on May 3, 2023. It includes the election results for 15 directors, the ratification of KPMG LLP as the independent auditor, and advisory votes on executive compensation and its frequency. Additionally, it reports on the defeat of several shareholder proposals, including those for an independent Board Chair and various transparency reports. The section provides specific vote counts for each proposal, highlighting shareholder preferences and decisions.",
+      "source": "window",
+      "children": []
+    }
+  ]
+}

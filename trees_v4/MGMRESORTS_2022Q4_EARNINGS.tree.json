@@ -1,0 +1,31 @@
+{
+  "node_id": "root",
+  "title": "MGMRESORTS_2022Q4_EARNINGS.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 15,
+  "summary": "The section provides a comprehensive overview of MGM Resorts International's financial performance for Q4 and the full year of 2022, highlighting record Adjusted Property EBITDAR for Las Vegas Strip Resorts, a $2.8 billion share buyback, and the $1.1 billion sale of The Mirage. It details consolidated financial statements, including revenue and expense breakdowns across segments like casino and entertainment, and key metrics such as net income and adjusted EBITDAR. The report emphasizes a 36% year-over-year increase in consolidated net revenues and outlines the company's strategic focus on free cash flow and shareholder returns through a new $2 billion share repurchase program.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "w1",
+      "title": "MGM Resorts 2022 Financial Results Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 10,
+      "summary": "This section details MGM Resorts International's financial and operational results for Q4 and the full year of 2022. Key highlights include record Adjusted Property EBITDAR for Las Vegas Strip Resorts, significant share buybacks totaling $2.8 billion, and the sale of The Mirage for $1.1 billion. The report also discusses the impact of acquisitions and dispositions on revenue, with consolidated net revenues increasing by 36% year-over-year. Additionally, it outlines the company's strategic focus on free cash flow and shareholder returns through a newly authorized $2 billion share repurchase program.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w2",
+      "title": "MGM Resorts Financial Statements and Performance Overview",
+      "level": 1,
+      "start_page": 11,
+      "end_page": 15,
+      "summary": "This section provides the consolidated financial statements of MGM Resorts International for the periods ending December 31, 2022, and December 31, 2021. It includes detailed revenue and expense breakdowns across various segments such as casino, rooms, food and beverage, and entertainment. Key financial metrics such as net income, earnings per share, and adjusted EBITDAR are presented, highlighting significant changes year-over-year. The balance sheet outlines current and long-term assets and liabilities, revealing the company's financial position. Additionally, supplemental data on net revenues and adjustments for table games hold are included, offering insights into operational performance.",
+      "source": "window",
+      "children": []
+    }
+  ]
+}

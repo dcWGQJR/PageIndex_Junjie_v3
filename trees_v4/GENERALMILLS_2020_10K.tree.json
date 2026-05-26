@@ -1,0 +1,231 @@
+{
+  "node_id": "root",
+  "title": "GENERALMILLS_2020_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 127,
+  "summary": "The General Mills, Inc. Form 10-K for the fiscal year ended May 31, 2020, provides a comprehensive overview of the company's business operations, financial performance, and governance. It includes details on the company's product offerings, competitive landscape, risk factors, and properties, as well as selected financial data and management's discussion of results. The report also covers legal proceedings, internal controls, executive compensation, and stock ownership, while confirming compliance with regulatory requirements. Additionally, it outlines the company's market for common equity and provides financial statements and supplementary data, ensuring stakeholders have a complete understanding of the company's financial health and governance practices.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "General Mills Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 3,
+      "summary": "This section contains the front matter of General Mills, Inc.'s Form 10-K for the fiscal year ended May 31, 2020. It includes essential company information such as the registrant's name, address, and contact details, as well as the commission file number. The section lists the securities registered under the Securities Exchange Act, including common stock and various notes, along with their trading symbols and exchanges. Additionally, it indicates the company's filing status and market value of common stock held by non-affiliates, providing a snapshot of the company's financial standing. Lastly, it outlines the table of contents for the report, detailing the sections that follow.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 4,
+      "end_page": 8,
+      "summary": "This section provides an overview of General Mills, Inc., detailing its incorporation, global operations, and product offerings across various food categories, including snacks, cereals, and pet food. It outlines the company's competitive landscape, highlighting key customers like Walmart and the competitive strategies employed to maintain market position. The section also discusses the company's supply chain, raw material sourcing, and the impact of external factors on costs. Additionally, it covers research and development efforts, trademarks, patents, and regulatory compliance related to food safety and environmental matters.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 9,
+      "end_page": 14,
+      "summary": "This section outlines various risk factors that could adversely impact the company's business, financial condition, and operational results. Key risks include the ongoing effects of the COVID-19 pandemic, which has led to decreased sales, workforce disruptions, and changes in consumer behavior. The company faces intense competition in the consumer and pet food markets, potential supply chain disruptions, and volatility in commodity prices that could affect profitability. Additionally, economic downturns, regulatory changes, and the need to maintain brand reputation are highlighted as significant risks that could hinder growth and market share. The section emphasizes the importance of effective risk management to mitigate these challenges.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This section, Item 1B, indicates that there are no unresolved staff comments related to the company's operations or financial reporting. It highlights the absence of any regulatory or compliance issues that need to be addressed. Readers can learn that the company is currently in good standing with regulatory bodies, which may reflect positively on its operational integrity and governance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This section details the company's properties, including its principal executive offices and research facilities located in the Minneapolis area. As of May 31, 2020, the company operates 47 production facilities globally, with 24 in the U.S. and others in regions such as Greater China, Canada, Europe, and Latin America. It lists specific locations for various segments, including North America Retail and Convenience Stores & Foodservice. Additionally, the company manages numerous grain elevators and utilizes approximately 15 million square feet of leased warehouse and distribution space, primarily for its North America Retail segment. The section also mentions the operation of 500 leased Häagen-Dazs ice cream parlors and 358 franchised parlors outside the U.S. and Canada.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This section discusses the company's involvement in various pending or threatened legal actions that arise in the normal course of business. It emphasizes the uncertainties surrounding these legal matters and states that, as of May 31, 2020, there were no claims or litigation likely to materially affect the company's financial position or operations. Additionally, it references related environmental matters discussed in Item 1 of the report.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This section states that there are no mine safety disclosures to report. It indicates that the company has no relevant information or incidents related to mine safety that need to be disclosed. Readers can understand that the company is currently compliant with mine safety regulations and has not encountered any issues that would require reporting.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This section provides information about the market for the registrant's common equity, specifically noting that the common stock is listed on the New York Stock Exchange under the symbol 'GIS.' As of June 15, 2020, there were approximately 27,000 record holders of the common stock. The section may also address related stockholder matters and issuer purchases of equity securities, although specific details are not provided in the text.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Selected Financial Data",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This section provides selected financial data for General Mills over a five-year period ending May 31, 2020, including key metrics such as net sales, gross margin, operating profit, and net earnings. It details operating ratios, balance sheet data, cash flow information, and share data, allowing readers to assess the company's financial performance and trends. Specific figures include net sales of $17.6 billion in 2020 and diluted earnings per share of $3.56. The section also notes changes in accounting practices and the impact of a 53-week fiscal year in 2020.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 18,
+      "end_page": 42,
+      "summary": "This section provides a comprehensive analysis of the company's financial condition and operational results for fiscal 2020, highlighting the impact of the COVID-19 pandemic on consumer demand and sales across various segments. Key financial metrics include a 5% increase in consolidated net sales to $17.6 billion, a 17% rise in operating profit to $3.0 billion, and a 23% increase in diluted earnings per share to $3.56. The North America Retail segment saw significant growth due to heightened at-home food demand, while other segments faced challenges. The company outlines priorities for fiscal 2021, focusing on competitive performance, efficiency, and reducing leverage to enhance financial flexibility.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 43,
+      "end_page": 44,
+      "summary": "This section discusses the company's exposure to market risks, including interest rates, foreign exchange rates, commodity prices, and equity prices, which can impact earnings and cash flows. It outlines the company's risk management strategies, including hedging transactions with highly rated counterparties and the use of derivative financial instruments. The section also presents a Value at Risk (VAR) analysis, estimating the maximum potential loss in fair value from adverse market changes, using a Monte Carlo methodology at a 95% confidence level. Additionally, it provides specific figures for potential losses related to interest rate, foreign currency, commodity, and equity instruments as of May 31, 2020, and compares them to previous periods.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 45,
+      "end_page": 96,
+      "summary": "This section includes the consolidated financial statements of General Mills, Inc. for the fiscal years ending May 31, 2020, May 26, 2019, and May 27, 2018, detailing the company's financial position, results of operations, and cash flows. It features the Report of Management Responsibilities, which outlines management's accountability for the accuracy of financial statements and internal controls. The independent auditor's report by KPMG LLP confirms the fairness of the financial statements and the effectiveness of internal controls over financial reporting. Key financial data such as net sales, earnings, and comprehensive income are presented, along with detailed notes on significant accounting policies, including changes in accounting principles and the valuation of goodwill and intangible assets.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 97,
+      "end_page": 97,
+      "summary": "This section reports that there were no changes or disagreements with accountants regarding accounting and financial disclosure. It confirms the effectiveness of the company's disclosure controls and procedures as evaluated by the Chief Executive Officer and Chief Financial Officer as of May 31, 2020. The section also states that there were no changes in internal control over financial reporting during the fiscal quarter that could materially affect the reporting processes.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 97,
+      "end_page": 97,
+      "summary": "This section discusses the evaluation of the company's disclosure controls and procedures, as overseen by the Chief Executive Officer and Chief Financial Officer. It confirms that as of May 31, 2020, these controls were effective in ensuring timely and accurate reporting of required information under the 1934 Act. Additionally, it states that there were no changes in internal control over financial reporting during the fiscal quarter that could materially affect these controls.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 98,
+      "end_page": 98,
+      "summary": "This section includes a management report on the effectiveness of internal control over financial reporting for General Mills, Inc. as of May 31, 2020. It states that management, including the CEO and CFO, assessed the internal controls using COSO criteria and concluded they were effective. Additionally, it mentions that KPMG LLP provided an independent report on these controls. The section also notes that there is no other information to disclose under Item 9B.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 98,
+      "end_page": 98,
+      "summary": "This section outlines the governance structure of General Mills, Inc., including details on the election of directors, shareholder nominations, and compliance with Section 16(a) reporting. It references the definitive Proxy Statement for the 2020 Annual Meeting, which includes information on executive officers and the Audit Committee's composition and expertise. Additionally, it mentions the adoption of a Code of Conduct applicable to all employees, including key executives, and notes that amendments and waivers will be posted on the company's website.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 98,
+      "end_page": 98,
+      "summary": "This section references the 'Executive Compensation' details from the definitive Proxy Statement for the 2020 Annual Meeting of Shareholders. It includes information on the compensation packages for executive officers and directors, outlining salary, bonuses, stock options, and other financial incentives. Additionally, it may cover the company's approach to overseeing risk management related to executive compensation. Readers can expect to find specifics on how compensation aligns with company performance and governance practices.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 98,
+      "end_page": 98,
+      "summary": "This section provides details on the ownership of General Mills common stock by its directors, officers, and certain beneficial owners. It references the definitive Proxy Statement for the 2020 Annual Meeting of Shareholders, which contains specific information about stock ownership percentages and related stockholder matters. Readers can learn about the distribution of stock ownership among key management and significant shareholders, which may influence corporate governance and decision-making.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 99,
+      "end_page": 99,
+      "summary": "This section discusses the company's relationships and transactions with related parties, as well as the independence of its directors. It references the definitive Proxy Statement for the 2020 Annual Meeting of Shareholders, which contains detailed information on board independence and related person transactions. Readers can learn about the criteria for director independence and any transactions that may present conflicts of interest. Additionally, it sets the context for understanding governance practices related to director relationships and potential conflicts.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 99,
+      "end_page": 99,
+      "summary": "This section provides a summary of the equity compensation plans as of May 31, 2020, detailing the number of securities to be issued upon exercise of outstanding options, warrants, and rights. It includes the weighted-average exercise price of these securities and the number of securities remaining available for future issuance under equity compensation plans. The section distinguishes between plans approved and not approved by security holders, highlighting the types of awards granted and the historical context of the plans. Additionally, it references the incorporation of information regarding principal accounting fees and services from the definitive Proxy Statement for the 2020 Annual Meeting of Shareholders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 15. Exhibits and Financial Statement Schedules",
+      "level": 1,
+      "start_page": 100,
+      "end_page": 102,
+      "summary": "This section includes the financial statements for the fiscal years ended May 31, 2020, May 26, 2019, and May 27, 2018, such as the Consolidated Statements of Earnings, Comprehensive Income, Balance Sheets, Cash Flows, and Total Equity. It also lists the financial statement schedule for Valuation and Qualifying Accounts. Additionally, a comprehensive list of exhibits is provided, detailing various corporate documents, compensation plans, and agreements, many of which are incorporated by reference from previous filings. This section serves to inform stakeholders about the company's financial position and governance documents.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 103,
+      "end_page": 127,
+      "summary": "This section includes a summary of the Form 10-K for General Mills, Inc., detailing various financial agreements and certifications required by the SEC. It references multiple credit agreements, including a five-year credit agreement and amendments, as well as certifications from the CEO and CFO under the Sarbanes-Oxley Act. Additionally, it outlines the company's securities, including common stock and various notes, along with their terms, interest rates, and maturity dates. The section concludes with a summary of the valuation of qualifying accounts and the company's subsidiaries, providing a comprehensive overview of its financial obligations and corporate governance.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

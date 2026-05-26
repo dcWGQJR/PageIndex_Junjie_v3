@@ -1,0 +1,1263 @@
+{
+  "node_id": "root",
+  "title": "JPMORGAN_2023Q2_10Q.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 217,
+  "summary": "The section provides a comprehensive overview of JPMorgan Chase & Co.'s Form 10-Q for the quarter ending June 30, 2023, including the cover page details, a structured table of contents, and extensive financial information. It covers consolidated financial highlights, management's analysis, and disclosures about market risk, as well as updates on legal proceedings and risk factors related to the First Republic Bank acquisition. Additionally, it includes certifications from key executives regarding the accuracy of the report, along with exhibits detailing guarantees for subsidiary debt securities and compliance with regulatory requirements under the Sarbanes-Oxley Act.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "t1",
+      "title": "Form 10-Q Cover",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section contains the cover page of Form 10-Q for JPMorgan Chase & Co., detailing the company's quarterly report for the period ending June 30, 2023. It includes the company's SEC file number, state of incorporation, and IRS employer identification number. The section lists various classes of securities registered under the Securities Exchange Act, including common stock and multiple series of non-cumulative preferred stock, along with their trading symbols and exchanges. Additionally, it confirms the company's compliance with filing requirements and provides the number of outstanding shares of common stock as of the reporting date.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t2",
+      "title": "Table of Contents",
+      "level": 1,
+      "start_page": 2,
+      "end_page": 2,
+      "summary": "The Table of Contents provides a structured overview of the sections included in the Form 10-Q for JPMorgan Chase & Co. It outlines key financial information such as consolidated financial statements, management's discussion and analysis, and disclosures about market risk. Specific items listed include unaudited financial statements for various periods, management's analysis of financial conditions, and risk management strategies. Additionally, it highlights legal proceedings, risk factors, and other relevant information, guiding readers to detailed sections for in-depth financial insights.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t3",
+      "title": "Part I – Financial information",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 208,
+      "summary": "Part I provides a comprehensive overview of JPMorgan Chase & Co.'s financial information as of June 30, 2023. It includes consolidated financial highlights, management's analysis of financial condition and results, detailed financial statements, disclosures about market risk, and an evaluation of internal controls. Key metrics such as net revenue, net income, and return ratios are highlighted, alongside the impact of the First Republic Bank acquisition. The section emphasizes the firm's financial health, risk management practices, and adherence to accounting standards.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t4",
+          "title": "Consolidated Financial Highlights",
+          "level": 2,
+          "start_page": 3,
+          "end_page": 3,
+          "summary": "This section provides consolidated financial highlights for JPMorgan Chase & Co. as of June 30, 2023, including key income statement data such as total net revenue of $41,307 million and net income of $14,472 million. It details earnings per share, with basic earnings at $4.76, and outlines significant ratios like return on common equity (ROE) at 20% and return on tangible common equity (ROTCE) at 25%. The section also includes balance sheet data, reporting total assets of $3,868,240 million and total stockholders' equity of $312,516 million. Additionally, it highlights credit quality metrics, including allowances for credit losses and nonperforming assets, providing insights into the firm's financial health and performance over the reported periods.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t5",
+          "title": "Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations.",
+          "level": 2,
+          "start_page": 4,
+          "end_page": 95,
+          "summary": "The section provides a comprehensive analysis of JPMorgan Chase & Co.'s financial condition and operational results for Q2 2023, including significant increases in net income and total net revenue, driven by the acquisition of First Republic Bank. It details consolidated results, balance sheet changes, and cash flow activities, highlighting the impact of various business segments and risk management strategies. Additionally, it discusses the use of non-GAAP financial measures, critical accounting estimates, recent accounting developments, and the nature of forward-looking statements, emphasizing the firm's financial health and strategic positioning in a challenging market environment.",
+          "source": "embedded_toc",
+          "children": [
+            {
+              "node_id": "t6",
+              "title": "Introduction",
+              "level": 3,
+              "start_page": 4,
+              "end_page": 4,
+              "summary": "This section provides an overview of JPMorgan Chase & Co.'s financial condition and operational results for Q2 2023, as discussed in the Management's Discussion and Analysis (MD&A). It emphasizes the importance of reading this report alongside the 2022 Annual Report for comprehensive insights. The section outlines the firm's significant assets, equity, and its role as a leading financial services provider globally. It also details the firm's structure, including its major business segments and recent acquisition of First Republic Bank. Additionally, it mentions the availability of financial reports on the firm's website and the nature of forward-looking statements included in the report.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t7",
+              "title": "Executive Overview",
+              "level": 3,
+              "start_page": 5,
+              "end_page": 9,
+              "summary": "The Executive Overview section provides an in-depth analysis of JPMorgan Chase's financial performance in Q2 2023, noting a 67% increase in net income to $14.5 billion and a 34% rise in total net revenue to $41.3 billion, alongside key metrics such as a 20% return on equity. It discusses the impact of the First Republic Bank acquisition, including credit losses and regulatory developments affecting capital requirements. Additionally, the section covers the firm's strategic business developments, including the $67.9 billion acquisition of First Republic's assets, the issuance of a $50 billion secured note to the FDIC, and the transition from U.S. dollar LIBOR to SOFR, amidst current market challenges like inflation and geopolitical tensions.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t8",
+                  "title": "Firmwide Overview and Outlook",
+                  "level": 4,
+                  "start_page": 5,
+                  "end_page": 8,
+                  "summary": "The Firmwide Overview and Outlook section provides a comprehensive analysis of JPMorgan Chase's financial performance for the second quarter of 2023, highlighting a 67% increase in net income to $14.5 billion and a 34% rise in total net revenue to $41.3 billion. Key metrics include a return on equity of 20% and a tangible book value per share growth of 15%. The section discusses the impact of the First Republic acquisition, detailing credit losses and provisions, as well as changes in average loans and deposits. Additionally, it outlines regulatory developments, including proposed amendments to capital requirements and a potential FDIC special assessment, and presents management's outlook for the remainder of 2023, projecting net interest income and adjusted expenses based on market conditions.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t9",
+                  "title": "Business Developments",
+                  "level": 4,
+                  "start_page": 9,
+                  "end_page": 9,
+                  "summary": "This section details JPMorgan Chase's acquisition of certain assets and liabilities of First Republic Bank for $67.9 billion, resulting in a $2.7 billion bargain purchase gain. It outlines the issuance of a $50 billion secured note to the FDIC and the ongoing integration of First Republic's operations into JPMorgan Chase. Additionally, it discusses current market conditions affecting the firm, including inflation and geopolitical tensions, and the transition from U.S. dollar LIBOR to the Secured Overnight Financing Rate (SOFR), highlighting the firm's efforts to convert its derivatives contracts before the LIBOR cessation deadline.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "node_id": "t10",
+              "title": "Consolidated Results of Operations",
+              "level": 3,
+              "start_page": 10,
+              "end_page": 15,
+              "summary": "This section analyzes JPMorgan Chase's Consolidated Results of Operations for the three and six months ending June 30, 2023, compared to the same periods in 2022. Key revenue components include a 34% increase in total net revenue, driven by significant growth in principal transactions and net interest income, despite declines in investment banking fees and mortgage-related income. The section also discusses the impact of the First Republic acquisition on various revenue streams and expenses, including a notable $2.7 billion bargain purchase gain. Additionally, it covers provisions for credit losses, which rose significantly, and outlines changes in noninterest expenses, including compensation and legal costs. Finally, the effective tax rate is analyzed, highlighting its decrease due to the acquisition's impact on tax calculations.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t11",
+              "title": "Consolidated Balance Sheets and Cash Flows Analysis",
+              "level": 3,
+              "start_page": 16,
+              "end_page": 19,
+              "summary": "This section analyzes the consolidated balance sheets and cash flows of the firm, highlighting significant changes from December 31, 2022, to June 30, 2023. Key topics include a 6% increase in total assets driven by the First Republic acquisition, with notable changes in cash, deposits, loans, and trading assets. The allowance for loan losses rose due to increased loan growth and macroeconomic outlook adjustments. Cash flow activities are discussed, showing a net cash outflow from operating activities in 2023, contrasting with inflows in 2022, and detailing the impacts of trading assets and loan originations on cash flows. The section provides insights into the firm's financial health and liquidity management strategies.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t12",
+              "title": "Explanation and Reconciliation of the Firm's Use of Non-GAAP Financial Measures",
+              "level": 3,
+              "start_page": 20,
+              "end_page": 21,
+              "summary": "This section explains the Firm's use of non-GAAP financial measures alongside U.S. GAAP results, highlighting key metrics such as managed basis results, pre-provision profit, and adjusted expenses. It details specific non-GAAP measures like the overhead ratio, TCE, ROTCE, and TBVPS, and provides reconciliations of reported results to managed basis for both quarterly and semi-annual periods. The section also includes tables that compare net interest income, noninterest revenue, and other financial metrics, emphasizing the impact of excluding Markets-related figures. Readers can learn how these non-GAAP measures provide additional insights into the Firm's financial performance and operational efficiency.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t13",
+              "title": "Business Segment Results",
+              "level": 3,
+              "start_page": 22,
+              "end_page": 46,
+              "summary": "The Business Segment Results section provides a comprehensive analysis of JPMorgan Chase's financial performance across its various segments for the second quarter and year-to-date of 2023. It details significant increases in net income and net revenue in Consumer & Community Banking, Corporate & Investment Bank, Commercial Banking, Asset & Wealth Management, and Corporate segments, driven by factors such as higher net interest income, increased loan volumes, and the impact of the First Republic acquisition. Each segment's performance metrics, including credit quality, balance sheet data, and revenue contributions, are highlighted, showcasing the bank's operational adjustments and growth strategies in response to market conditions.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t14",
+                  "title": "Consumer & Community Banking",
+                  "level": 4,
+                  "start_page": 25,
+                  "end_page": 29,
+                  "summary": "The Consumer & Community Banking section provides a detailed overview of JPMorgan Chase's financial performance for the second quarter and year-to-date of 2023, highlighting significant increases in net income and net revenue. Key metrics include a 71% rise in net income to $5.3 billion and a 37% increase in net revenue to $17.2 billion, driven by higher net interest income from deposit margin expansion and increased revolving balances in Card Services. The section also discusses the impact of the First Republic acquisition on various revenue streams and outlines changes in credit loss provisions, net charge-offs, and delinquency rates across different lending categories. Additionally, it presents selected balance sheet data, including total assets and loans, and business metrics such as active digital customers and mortgage origination volumes, reflecting the bank's growth and operational adjustments in response to market conditions.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t15",
+                  "title": "Corporate & Investment Bank",
+                  "level": 4,
+                  "start_page": 30,
+                  "end_page": 36,
+                  "summary": "This section provides a detailed overview of JPMorgan Chase's Corporate & Investment Bank (CIB) performance for the second quarter and first half of 2023, including selected income statement data and financial ratios. Key highlights include a 10% increase in net income to $4.1 billion and a 4% rise in net revenue to $12.5 billion, driven by a 29% increase in banking revenue. Investment banking fees decreased by 6%, while payments revenue surged by 61%. The section also discusses revenue by business line, credit quality metrics, and international performance, revealing trends in loans, deposits, and assets under custody across different regions.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t16",
+                  "title": "Commercial Banking",
+                  "level": 4,
+                  "start_page": 37,
+                  "end_page": 40,
+                  "summary": "This section provides a detailed overview of the Commercial Banking segment's financial performance for the second quarter and year-to-date of 2023, highlighting significant increases in net income (up 22%) and net revenue (up 49%). Key metrics include a 77% rise in net interest income, driven by higher deposit margins and loan volumes, despite a decline in noninterest revenue due to lower deposit-related fees. The provision for credit losses increased significantly, reflecting adjustments related to the First Republic acquisition and economic outlook changes. Additionally, the section includes selected balance sheet data, showing a 26% increase in total assets and a 27% rise in total loans, with specific growth in Middle Market and Commercial Real Estate Banking segments.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t17",
+                  "title": "Asset & Wealth Management",
+                  "level": 4,
+                  "start_page": 41,
+                  "end_page": 44,
+                  "summary": "This section provides a detailed overview of JPMorgan Chase's Asset & Wealth Management (AWM) performance for the second quarter and year-to-date of 2023. Key financial metrics include a 15% increase in total net revenue to $4.9 billion and a 22% rise in net income to $1.2 billion. The report highlights revenue contributions from Asset Management and Global Private Bank, with notable growth in net interest income and client assets, which reached $4.6 trillion, up 20%. Additionally, it discusses the impact of the First Republic acquisition on financial results and credit loss provisions, alongside performance metrics for mutual funds and client segments.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t18",
+                  "title": "Corporate",
+                  "level": 4,
+                  "start_page": 45,
+                  "end_page": 46,
+                  "summary": "This section provides a detailed overview of JPMorgan Chase's corporate financial performance for the second quarter and year-to-date of 2023, highlighting significant changes in revenue, net income, and expenses compared to the previous year. Key figures include a net income of $2.6 billion for the quarter, driven by a $2.7 billion estimated bargain purchase gain from the First Republic acquisition, and a total net revenue of $3.7 billion. The section also discusses the impact of investment securities losses, which increased significantly, and the provision for credit losses, which showed a net benefit. Additionally, it outlines the firm's international consumer initiatives and provides insights into the Treasury and CIO's investment securities portfolio, including average credit ratings and changes in asset values.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "node_id": "t19",
+              "title": "Firmwide Risk Management",
+              "level": 3,
+              "start_page": 47,
+              "end_page": 90,
+              "summary": "The Firmwide Risk Management section provides a detailed overview of JPMorgan Chase's strategies and metrics for managing various types of risks as of June 30, 2023. It includes Capital Risk Management, highlighting capital allocation, regulatory compliance, and actions like dividend increases and share repurchase programs. Liquidity Risk Management discusses funding sources and the impact of credit ratings on liquidity. Credit and Investment Risk Management reviews credit exposure, performance metrics, and the allowance for credit losses. Market Risk Management outlines methodologies for managing market risks, including Value-at-Risk and interest rate risk. Lastly, Country Risk Management assesses exposure to geopolitical risks, with a focus on significant country exposures and ongoing monitoring related to the war in Ukraine.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t20",
+                  "title": "Capital Risk Management",
+                  "level": 4,
+                  "start_page": 48,
+                  "end_page": 53,
+                  "summary": "The Capital Risk Management section provides a comprehensive overview of the firm's capital allocation and regulatory compliance as of June 30, 2023. It details the distribution of capital across various business segments, including Consumer & Community Banking and Corporate & Investment Bank, totaling $285.1 billion in common stockholders' equity. The section also outlines capital actions such as a quarterly dividend increase and a $30 billion share repurchase program, alongside compliance with Total Loss-Absorbing Capacity (TLAC) requirements. Additionally, it covers regulatory capital metrics for both U.S. broker-dealer and non-U.S. subsidiary operations, emphasizing adherence to U.S. and U.K. regulatory frameworks, including Basel III standards.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t21",
+                      "title": "Line of business equity",
+                      "level": 5,
+                      "start_page": 51,
+                      "end_page": 51,
+                      "summary": "This section details the capital allocation to various business segments of the firm as of June 30, 2023, reflecting updates due to the First Republic acquisition. It provides specific figures for allocated capital across segments: Consumer & Community Banking ($55.5 billion), Corporate & Investment Bank ($108.0 billion), Commercial Banking ($30.0 billion), Asset & Wealth Management ($17.0 billion), and Corporate ($74.6 billion). The total common stockholders' equity is reported as $285.1 billion, showing an increase from previous quarters. The section emphasizes the importance of regulatory capital requirements and peer comparisons in determining these allocations.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t22",
+                      "title": "Capital actions",
+                      "level": 5,
+                      "start_page": 52,
+                      "end_page": 52,
+                      "summary": "This section details the Firm's capital actions, including a current quarterly common stock dividend of $1.00 per share, with an announced increase to $1.05 per share effective in Q3 2023, pending Board approval. It outlines the Firm's common share repurchase program, with $30 billion authorized for repurchases, and provides specific figures for shares repurchased and aggregate purchase prices for the three and six months ended June 30, 2023, compared to 2022. Additionally, it discusses preferred stock dividends, the completion of the 2023 Comprehensive Capital Analysis and Review (CCAR) stress test, and changes to the Firm's Total Loss-Absorbing Capacity (TLAC) requirements, including the new SCB requirement of 2.9%. The section also references regulatory requirements and surplus amounts related to TLAC and eligible long-term debt as of June 30, 2023.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t23",
+                      "title": "Other capital requirements",
+                      "level": 5,
+                      "start_page": 52,
+                      "end_page": 52,
+                      "summary": "This section outlines the Firm's capital actions, including a planned increase in the quarterly common stock dividend from $1.00 to $1.05 per share, subject to Board approval. It details the common stock repurchase program, with repurchases totaling $2.3 billion for the three months ended June 30, 2023. The section also discusses preferred stock dividends and the Firm's subordinated debt. Additionally, it covers the Total Loss-Absorbing Capacity (TLAC) requirements, indicating the Firm's compliance with regulatory standards and the surplus in TLAC and long-term debt as of June 30, 2023, compared to previous periods.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t24",
+                      "title": "U.S. broker-dealer regulatory capital",
+                      "level": 5,
+                      "start_page": 53,
+                      "end_page": 53,
+                      "summary": "This section details the regulatory capital requirements for J.P. Morgan Securities, the principal U.S. broker-dealer subsidiary of JPMorgan Chase. It outlines compliance with the Net Capital Rule under the Securities Exchange Act of 1934, including net capital figures as of June 30, 2023, which show an actual net capital of $24,578 million against a minimum requirement of $5,593 million. Additionally, it discusses the regulatory capital metrics for J.P. Morgan Securities plc and JPMorgan SE, including their compliance with EU capital requirements and MREL, with specific capital ratios provided as of June 30, 2023. The section emphasizes the adherence to both U.S. and U.K. regulatory frameworks, including Basel III standards.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t25",
+                      "title": "Non-U.S. subsidiary regulatory capital",
+                      "level": 5,
+                      "start_page": 53,
+                      "end_page": 53,
+                      "summary": "This section details the regulatory capital requirements for J.P. Morgan's non-U.S. subsidiaries, specifically J.P. Morgan Securities plc and JPMorgan SE. J.P. Morgan Securities plc is regulated by the PRA and FCA in the U.K. and adheres to the EU Capital Requirements Regulation, maintaining compliance with minimum capital and leverage ratios as of June 30, 2023. Similarly, JPMorgan SE is regulated by the European Central Bank and meets MREL requirements. The section includes specific capital metrics for both subsidiaries, demonstrating their compliance with regulatory standards.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t26",
+                  "title": "Liquidity Risk Management",
+                  "level": 4,
+                  "start_page": 54,
+                  "end_page": 61,
+                  "summary": "The Liquidity Risk Management section outlines JPMorgan Chase's funding sources and strategies, emphasizing the adequacy of its funding capacity to meet obligations through stable deposits, borrowings, and equity. It provides insights into deposit trends, short-term and long-term funding strategies, and the effects of market conditions on liquidity. Additionally, the section discusses the implications of credit ratings on financing costs and liquidity access, detailing how downgrades can affect funding and collateral requirements. It includes the firm's credit ratings as of June 30, 2023, from major rating agencies and references further details in related notes and the 2022 Form 10-K.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t27",
+                      "title": "Funding",
+                      "level": 5,
+                      "start_page": 56,
+                      "end_page": 60,
+                      "summary": "This section details the funding sources and strategies of JPMorgan Chase, emphasizing the sufficiency of its funding capacity to meet obligations. It outlines the primary funding sources, including stable deposits, secured and unsecured borrowings, and stockholders' equity. The section provides a breakdown of period-end and average deposit balances across various lines of business, highlighting trends in deposit attrition and inflows. Additionally, it discusses short-term and long-term funding strategies, including the issuance of senior notes and structured notes, and the impact of market conditions on funding sources. The section also includes data on uninsured deposits and the firm's liquidity management practices.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t28",
+                      "title": "Credit ratings",
+                      "level": 5,
+                      "start_page": 61,
+                      "end_page": 61,
+                      "summary": "This section discusses the impact of credit ratings on the Firm's financing costs and liquidity access. It explains how downgrades can lead to increased funding costs, additional collateral requirements, and reduced investor willingness to lend. The Firm believes it has adequate liquidity to manage potential funding capacity decreases due to rating downgrades. It also provides the credit ratings for JPMorgan Chase & Co. and its subsidiaries as of June 30, 2023, including ratings from Moody's, Standard & Poor's, and Fitch Ratings, along with their respective outlooks. Additionally, it references further details in Notes 5 and 14, and a discussion in the 2022 Form 10-K regarding factors affecting credit ratings.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t29",
+                  "title": "Credit and Investment Risk Management",
+                  "level": 4,
+                  "start_page": 62,
+                  "end_page": 83,
+                  "summary": "The Credit and Investment Risk Management section provides a comprehensive overview of the firm's credit risk exposure across various portfolios, including credit, consumer, and wholesale segments, as of June 30, 2023. It details the credit portfolio's performance, including nonperforming assets and the impact of Troubled Debt Restructuring (TDR) accounting changes. The section also discusses the allowance for credit losses, which totaled $24.3 billion, and factors influencing this estimate. Additionally, it covers the management of investment portfolio risk, highlighting the composition and credit quality of investment securities and principal investments, while emphasizing the firm's commitment to supporting underserved communities.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t30",
+                      "title": "Credit Portfolio",
+                      "level": 5,
+                      "start_page": 63,
+                      "end_page": 64,
+                      "summary": "This section discusses the credit portfolio, detailing credit risk associated with client defaults and changes in credit profiles. It provides a breakdown of total loans, including retained, held-for-sale, and fair value loans, along with nonperforming assets and credit-related commitments as of June 30, 2023. The section also highlights changes in Troubled Debt Restructuring (TDR) accounting guidance and its impact on financial difficulty modifications. Additionally, it presents statistics on nonaccrual loans and net charge-offs, offering insights into the firm's credit quality and risk management practices.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t31",
+                      "title": "Consumer Credit Portfolio",
+                      "level": 5,
+                      "start_page": 65,
+                      "end_page": 69,
+                      "summary": "The Consumer Credit Portfolio section analyzes the performance and composition of consumer loans, excluding credit cards, with a focus on residential real estate and auto loans following the First Republic acquisition. It details the types of residential loans, credit performance metrics, nonperforming assets, and trends in delinquency and charge-off rates. The Credit Card subsection highlights the growth in credit card loans, the rise in delinquency rates, and net charge-offs, while discussing the firm's policies on loan accrual status and modifications related to troubled debt restructurings (TDRs).",
+                      "source": "embedded_toc",
+                      "children": [
+                        {
+                          "node_id": "t32",
+                          "title": "Consumer, excluding credit card",
+                          "level": 6,
+                          "start_page": 67,
+                          "end_page": 68,
+                          "summary": "This section provides an analysis of the consumer loan portfolio, excluding credit cards, highlighting increases in residential real estate and auto loans due to the First Republic acquisition. It details the composition of residential real estate loans, including interest-only mortgages and home equity lines of credit, and discusses the credit performance and risk management strategies for these loans. The section also presents data on nonperforming assets, including nonaccrual loans and their changes over time, as well as net charge-off rates for auto loans, indicating a normalization of delinquency levels. Additionally, it includes statistics on government-insured loans and modifications related to troubled debt restructurings (TDRs).",
+                          "source": "embedded_toc",
+                          "children": []
+                        },
+                        {
+                          "node_id": "t33",
+                          "title": "Credit Card",
+                          "level": 6,
+                          "start_page": 69,
+                          "end_page": 69,
+                          "summary": "This section discusses the increase in total credit card loans as of June 30, 2023, driven by new accounts and the normalization of revolving balances to pre-pandemic levels. It highlights the rise in 30+ and 90+ day delinquency rates compared to December 31, 2022, and notes an increase in net charge-offs for the same periods. The section also mentions the Firm's policy on credit card loans remaining on accrual status until charged off and provides details on the allowance for loan losses. Additionally, it covers the financial modifications (FDMs) and trial modifications of credit card loans, including changes in accounting guidance regarding troubled debt restructurings (TDRs).",
+                          "source": "embedded_toc",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "node_id": "t34",
+                      "title": "Wholesale Credit Portfolio",
+                      "level": 5,
+                      "start_page": 70,
+                      "end_page": 79,
+                      "summary": "The Wholesale Credit Portfolio section details the Firm's exposure to credit risk through various activities including underwriting, lending, and market-making. It highlights the management of the wholesale credit portfolio, which includes ongoing reviews of client credit quality and industry concentrations. As of June 30, 2023, the section reports an increase in nonperforming exposure primarily due to client downgrades, while retained loans rose significantly due to the First Republic acquisition. The section also provides insights into the maturity and ratings profile of the portfolio, as well as industry-specific exposures, emphasizing the importance of diversification and risk management in the wholesale credit space.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t35",
+                      "title": "Allowance for Credit Losses",
+                      "level": 5,
+                      "start_page": 80,
+                      "end_page": 82,
+                      "summary": "This section details the Firm's allowance for credit losses, which estimates expected credit losses on financial assets and off-balance sheet commitments. As of June 30, 2023, the allowance was $24.3 billion, reflecting a net addition of $2.7 billion since December 31, 2022, driven by factors such as loan growth and macroeconomic outlook changes. The section breaks down the allowance into categories including loan losses, lending-related commitments, and investment securities, and discusses the impact of recent accounting changes. It also provides macroeconomic assumptions influencing the allowance, including projected U.S. unemployment rates and GDP growth.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t36",
+                      "title": "Investment Portfolio Risk Management",
+                      "level": 5,
+                      "start_page": 83,
+                      "end_page": 83,
+                      "summary": "This section discusses the management of investment portfolio risk, focusing on the potential loss of principal and reduced returns from both investment securities and principal investments. It details the composition of the investment securities portfolio, primarily held by Treasury and CIO, which amounted to $610.2 billion as of June 30, 2023, with an average credit rating of AA+. The section also outlines the nature of principal investments, which include privately-held financial instruments and tax-oriented investments, totaling $38.9 billion. Additionally, it highlights the Firm's commitment to evolving its investment strategies to support underserved communities and minority-owned businesses.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t37",
+                  "title": "Market Risk Management",
+                  "level": 4,
+                  "start_page": 84,
+                  "end_page": 89,
+                  "summary": "The Market Risk Management section covers JPMorgan Chase's approach to managing market risks through various methodologies. It details the Value-at-Risk (VaR) framework, including Risk Management VaR and Regulatory VaR, and discusses backtesting processes. The section also addresses structural interest rate risk management, focusing on earnings-at-risk and Economic Value Sensitivity (EVS), while incorporating recent model updates and the impact of acquisitions. Additionally, it quantifies market risk across different exposures, highlighting potential gains or losses not captured by VaR or earnings-at-risk, with specific figures for recent reporting dates.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t38",
+                      "title": "VaR",
+                      "level": 5,
+                      "start_page": 84,
+                      "end_page": 86,
+                      "summary": "This section discusses Value-at-Risk (VaR), a statistical measure used by JPMorgan Chase to estimate potential losses from adverse market movements. It outlines the firm's dual VaR framework, including Risk Management VaR, calculated with a one-day holding period at a 95% confidence level, and Regulatory VaR, which informs capital requirements under Basel III. The section also presents recent VaR results across various risk types, highlighting fluctuations due to market conditions and portfolio changes. Additionally, it details the firm's backtesting process, which compares VaR estimates with actual gains and losses, noting the occurrence of backtesting exceptions and their implications for risk management.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t39",
+                      "title": "Structural interest rate risk management",
+                      "level": 5,
+                      "start_page": 87,
+                      "end_page": 88,
+                      "summary": "This section discusses the management of structural interest rate risk, which significantly impacts the Firm's net income. It explains the concept of earnings-at-risk, which estimates interest rate exposure through various scenarios, including parallel shifts and yield curve changes. The section details the factors influencing these scenarios, such as deposit pricing sensitivity and the impact of monetary policy. Additionally, it highlights the recent model updates to incorporate deposit repricing lags and the effects of the First Republic acquisition on the Firm's balance sheet. The section also introduces Economic Value Sensitivity (EVS) as a measure of long-term economic value under different interest rate conditions.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t40",
+                      "title": "Other sensitivites",
+                      "level": 5,
+                      "start_page": 89,
+                      "end_page": 89,
+                      "summary": "This section discusses the quantification of market risk for various debt, equity, credit, and funding-related exposures by evaluating their potential impact on net revenue, other comprehensive income (OCI), and noninterest expense due to market variable changes. It includes a table detailing the potential gains or losses from market risk-sensitive instruments not captured in Value at Risk (VaR) or earnings-at-risk, with specific figures for June 30, 2023, and December 31, 2022. The section highlights the sensitivity measures for different activities, such as asset management and credit-related exposures, and notes that the disclosed sensitivities may not reflect actual gains or losses due to variable market conditions.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t41",
+                  "title": "Country Risk Management",
+                  "level": 4,
+                  "start_page": 90,
+                  "end_page": 90,
+                  "summary": "This section discusses the Firm's exposure to country risk, which can arise from financial, economic, or political developments affecting specific countries. The Country Risk Management group monitors and assesses the diversification of the Firm's exposures in relation to its strategy and risk tolerance. It includes a table of the top 20 country exposures as of June 30, 2023, highlighting significant changes in exposures to countries like Germany and the UK due to client-driven activities. The section also notes ongoing monitoring of risks associated with the war in Ukraine, specifically mentioning an exposure of approximately $430 million to Russia.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "node_id": "t42",
+              "title": "Critical Accounting Estimates Used by the Firm",
+              "level": 3,
+              "start_page": 91,
+              "end_page": 93,
+              "summary": "This section covers critical accounting estimates used by JPMorgan Chase, including the allowance for credit losses, fair value measurements of financial instruments, credit card rewards liability, income taxes, goodwill impairment, and litigation reserves. It emphasizes the significant judgments and assumptions involved in estimating credit losses, fair value assessments, and tax liabilities, as well as the impact of macroeconomic conditions on these estimates. The section also details specific figures, such as the increase in credit card rewards liability and the importance of management's judgment in goodwill impairment assessments. Additionally, it highlights the complexities of litigation reserves and the factors influencing their estimation.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t43",
+                  "title": "Allowance for credit losses",
+                  "level": 4,
+                  "start_page": 91,
+                  "end_page": 91,
+                  "summary": "This section discusses JPMorgan Chase's allowance for credit losses, which is an estimate of expected credit losses on financial assets measured at amortized cost and certain off-balance sheet commitments. It details the components of the allowance, including loan losses, lending-related commitments, and credit losses on investment securities. The section emphasizes the significant judgments involved in estimating these allowances, particularly regarding macroeconomic forecasts and historical loss experiences. It also highlights the impact of the First Republic acquisition on the allowance for credit losses and the challenges in estimating changes in economic factors. Additionally, it compares modeled credit losses under different macroeconomic scenarios to assess potential impacts on the allowance.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t44",
+                  "title": "Fair value of financial instruments, MSRs and commodities inventory",
+                  "level": 4,
+                  "start_page": 92,
+                  "end_page": 92,
+                  "summary": "This section discusses the fair value measurement of financial instruments, including the impact of adverse macroeconomic scenarios on credit loss estimates. It highlights the sensitivity of credit loss estimates to changes in economic forecasts, detailing specific increases in allowances for various loan categories. Additionally, it provides a breakdown of assets measured at fair value, including recurring and nonrecurring valuations, and specifies the level 3 assets within the fair value hierarchy. The section emphasizes the importance of understanding the uncertainties in macroeconomic conditions and their influence on credit loss estimates and fair value assessments.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t45",
+                  "title": "Credit card rewards liability",
+                  "level": 4,
+                  "start_page": 93,
+                  "end_page": 93,
+                  "summary": "This section details the credit card rewards liability, which amounted to $12.2 billion as of June 30, 2023, up from $11.3 billion at the end of 2022. The increase is attributed to a rise in rewards points earned due to higher spending and promotional offers that exceeded redemptions. It also mentions adjustments to certain reward program terms in the second quarter. The liability is recorded under accounts payable and other liabilities on the balance sheet, and further details can be found in JPMorgan Chase’s 2022 Form 10-K.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t46",
+                  "title": "Income taxes",
+                  "level": 4,
+                  "start_page": 93,
+                  "end_page": 93,
+                  "summary": "This section discusses the accounting for income taxes, highlighting the significant assumptions, judgments, and interpretations involved in the process. It emphasizes the importance of management's judgment in estimating tax liabilities and the potential impact of varying methodologies on reported income tax figures. Readers can learn about the complexities of tax accounting and the factors that influence tax-related estimates. For detailed information, it refers to page 152 of JPMorgan Chase's 2022 Form 10-K.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t47",
+                  "title": "Goodwill impairment",
+                  "level": 4,
+                  "start_page": 93,
+                  "end_page": 93,
+                  "summary": "This section discusses the significant judgment management must apply when testing goodwill for impairment. It highlights the importance of valuation judgments associated with goodwill impairment and refers to additional information in Note 15 regarding the goodwill impairment assessment as of June 30, 2023. The section emphasizes that the assessment of goodwill impairment is critical for accurate financial reporting and may involve complex valuation techniques.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t48",
+                  "title": "Litigation reserves",
+                  "level": 4,
+                  "start_page": 93,
+                  "end_page": 93,
+                  "summary": "This section discusses the estimation of litigation reserves, emphasizing the significant judgment required in determining fair value, particularly for level 3 instruments with unobservable inputs. It highlights the factors influencing these judgments, such as market conditions and product specifics. The section also notes the importance of assessing counterparty credit quality and liquidity considerations. Additionally, it references related notes for further details on the valuation process and the implications of management's assumptions on financial reporting.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "node_id": "t49",
+              "title": "Accounting and Reporting Developments",
+              "level": 3,
+              "start_page": 94,
+              "end_page": 94,
+              "summary": "This section outlines recent developments in accounting and reporting standards as issued by the Financial Accounting Standards Board (FASB). It details standards adopted since January 1, 2021, including guidance on reference rate reform, fair value hedging for portfolios, and changes to accounting for troubled debt restructurings. Additionally, it discusses standards issued but not yet adopted, such as the proportional amortization method for tax credit structures, which will be effective January 1, 2024. Readers can learn about the implications of these standards on financial statements and the options for adoption.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t50",
+              "title": "Forward-Looking Statements",
+              "level": 3,
+              "start_page": 95,
+              "end_page": 95,
+              "summary": "This section discusses JPMorgan Chase's use of forward-looking statements, which are identified by language indicating future expectations rather than historical facts. It outlines the nature of these statements, the risks and uncertainties that could cause actual results to differ from forecasts, and the legal context under the Private Securities Litigation Reform Act of 1995. Specific factors influencing these statements include economic conditions, regulatory changes, market behavior, and operational capabilities. The section emphasizes that forward-looking statements are not guaranteed and may not be updated after their initial release.",
+              "source": "embedded_toc",
+              "children": []
+            }
+          ]
+        },
+        {
+          "node_id": "t51",
+          "title": "Item 1. Financial Statements.",
+          "level": 2,
+          "start_page": 96,
+          "end_page": 208,
+          "summary": "This section presents JPMorgan Chase & Co.'s financial statements, including consolidated financial statements for Q2 2023 and 2022, highlighting key metrics such as net revenue of $41.3 billion and net income of $14.5 billion. It includes detailed notes on financial reporting compliance, fair value measurements, and the impact of the First Republic Bank acquisition. An independent audit report confirms the financial statements' adherence to U.S. GAAP, while a comparison of average balance sheets and interest rates provides insights into financial performance. Additionally, a glossary of terms and metrics across various business lines aids in understanding key performance indicators and revenue sources.",
+          "source": "embedded_toc",
+          "children": [
+            {
+              "node_id": "t52",
+              "title": "Consolidated Financial Statements – JPMorgan Chase & Co.",
+              "level": 3,
+              "start_page": 96,
+              "end_page": 100,
+              "summary": "The section provides a comprehensive overview of JPMorgan Chase & Co.'s consolidated financial statements for the periods ending June 30, 2023, and 2022. It includes detailed consolidated statements of income, comprehensive income, balance sheets, changes in stockholders' equity, and cash flows. Key highlights include a total net revenue of $41.3 billion and net income of $14.5 billion for Q2 2023, significant increases in net income and comprehensive income, and a rise in total assets to $3,868,240 million. The section also discusses changes in stockholders' equity and cash flow dynamics, reflecting the company's financial health and operational performance.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t53",
+                  "title": "Consolidated statements of income",
+                  "level": 4,
+                  "start_page": 96,
+                  "end_page": 96,
+                  "summary": "This section presents the consolidated statements of income for JPMorgan Chase & Co. for the three and six months ended June 30, 2023, and 2022. Key figures include total net revenue of $41.3 billion for Q2 2023, driven by significant interest income of $41.6 billion, and a net income of $14.5 billion. The report details various revenue sources such as investment banking fees, principal transactions, and asset management fees, alongside expenses like compensation and technology costs. It also provides earnings per share data, showing a basic EPS of $4.76 for Q2 2023, reflecting a substantial increase from the previous year.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t54",
+                  "title": "Consolidated statements of comprehensive income",
+                  "level": 4,
+                  "start_page": 97,
+                  "end_page": 97,
+                  "summary": "This section presents the consolidated statements of comprehensive income for JPMorgan Chase & Co. for the three and six months ended June 30, 2023, and 2022. It details net income figures, showing a significant increase in net income from $8,649 million in 2022 to $14,472 million in 2023 for the three-month period. The section also outlines other comprehensive income/loss components, including unrealized gains/losses on investment securities and adjustments related to hedges and pension plans. The total comprehensive income for the same periods is reported, highlighting a substantial rise from $3,847 million in 2022 to $14,600 million in 2023 for the three-month period.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t55",
+                  "title": "Consolidated balance sheets",
+                  "level": 4,
+                  "start_page": 98,
+                  "end_page": 98,
+                  "summary": "This section presents the consolidated balance sheets of JPMorgan Chase & Co. as of June 30, 2023, and December 31, 2022, detailing the company's assets, liabilities, and stockholders' equity. Key figures include total assets of $3,868,240 million, a rise from $3,665,743 million, and total liabilities of $3,555,724 million, up from $3,373,411 million. The balance sheet highlights significant components such as cash, loans, deposits, and stockholders' equity, which includes retained earnings and treasury stock. Additionally, it provides insights into the company's financial health and changes over the specified periods, including information on variable interest entities (VIEs).",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t56",
+                  "title": "Consolidated statements of changes in stockholders' equity",
+                  "level": 4,
+                  "start_page": 99,
+                  "end_page": 99,
+                  "summary": "This section presents the consolidated statements of changes in stockholders' equity for JPMorgan Chase & Co. for the three and six months ended June 30, 2023, and 2022. It details the balances and changes in preferred stock, common stock, additional paid-in capital, retained earnings, accumulated other comprehensive income/loss, and treasury stock. Key figures include net income, dividends declared, and the impact of stock repurchases and reissuances. The section also notes the adoption of new accounting guidance effective January 1, 2023, related to credit losses and fair value hedging.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t57",
+                  "title": "Consolidated statements of cash flows",
+                  "level": 4,
+                  "start_page": 100,
+                  "end_page": 100,
+                  "summary": "This section presents the consolidated statements of cash flows for JPMorgan Chase & Co. for the six months ended June 30, 2023, and 2022. It details cash flows from operating, investing, and financing activities, highlighting significant changes such as a net income increase from $16,931 million in 2022 to $27,094 million in 2023. The section also outlines adjustments to reconcile net income to net cash used in operating activities, including provisions for credit losses and changes in trading assets. Additionally, it provides insights into cash flows related to acquisitions, securities transactions, and changes in deposits, culminating in a net decrease in cash and due from banks. The cash interest and income taxes paid are also reported, offering a comprehensive view of the company's liquidity and cash management.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "node_id": "t58",
+              "title": "Notes to Consolidated Financial Statements",
+              "level": 3,
+              "start_page": 101,
+              "end_page": 196,
+              "summary": "The Notes to Consolidated Financial Statements section provides detailed insights into JPMorgan Chase & Co.'s financial reporting, including compliance with U.S. GAAP, fair value measurements, credit risk concentrations, and the impact of the First Republic Bank acquisition. It covers various financial metrics such as interest income, noninterest revenue, and expenses, as well as the firm's accounting policies for derivatives, loans, and employee benefits. Additionally, it discusses regulatory capital requirements, off-balance sheet instruments, and ongoing litigation, offering a comprehensive overview of the firm's financial health and operational performance across different segments.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t59",
+                  "title": "Note 1 - Basis of presentation",
+                  "level": 4,
+                  "start_page": 101,
+                  "end_page": 102,
+                  "summary": "This section outlines the basis of presentation for JPMorgan Chase & Co.'s unaudited Consolidated Financial Statements, emphasizing compliance with U.S. GAAP and regulatory guidelines. It details the impact of the First Republic Bank acquisition on the Firm's operations and reporting classifications, which may change in future periods. The section also discusses the consolidation of financial statements, including the treatment of assets held for clients and the criteria for determining controlling financial interest. Additionally, it highlights recent accounting standards adopted in 2023 related to derivatives, hedging, and credit losses, including their effects on retained earnings and financial disclosures.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t60",
+                  "title": "Note 2 - Fair value measurement",
+                  "level": 4,
+                  "start_page": 103,
+                  "end_page": 117,
+                  "summary": "This section covers fair value measurement of financial instruments, focusing on Level 3 measurements that utilize significant unobservable inputs, including valuation techniques like discounted cash flows. It details realized and unrealized gains and losses for financial instruments measured at fair value, highlighting specific figures for Q2 2023 and 2022. The section also addresses assets and liabilities measured at fair value on a nonrecurring basis, providing total fair value amounts and losses for the respective periods. Additionally, it discusses equity securities without readily determinable fair values and their accounting implications, as well as estimated fair values of financial instruments not recorded at fair value, emphasizing the importance of understanding valuation methods and market conditions.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t61",
+                      "title": "Fair value measurements using significant unobservable inputs",
+                      "level": 5,
+                      "start_page": 106,
+                      "end_page": 113,
+                      "summary": "This section discusses the fair value measurements of financial instruments classified as Level 3, which rely on significant unobservable inputs. It details the valuation techniques used, such as discounted cash flows and market comparables, and provides specific examples of financial instruments, including residential and commercial mortgage-backed securities, corporate debt securities, and derivatives. The section also outlines the changes in fair value, including realized and unrealized gains and losses, and the impact of observable inputs on the valuation process. Additionally, it highlights the importance of understanding the characteristics of these instruments and the implications of changes in input values on fair value assessments.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t62",
+                      "title": "Credit adjustments & Assets and liabilities measured at FV on a nonrecurring basis",
+                      "level": 5,
+                      "start_page": 114,
+                      "end_page": 114,
+                      "summary": "This section details the realized and unrealized gains and losses for financial instruments measured at fair value on a recurring basis, specifically for the periods ending June 30, 2023, and 2022. It highlights significant net losses and gains on assets and liabilities, driven by market movements, with specific figures such as $752 million in net losses on assets for Q2 2023 and $3.4 billion in net gains for Q2 2022. Additionally, it discusses credit and funding adjustments related to derivatives, including the impact of the Firm's credit quality on principal transactions revenue, with figures for CVA and FVA adjustments for the same periods. Readers can learn about the fluctuations in fair value measurements and their implications on the Firm's financial performance.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t63",
+                      "title": "Assets and liabilities measured at fair value on a nonrecurring basis",
+                      "level": 5,
+                      "start_page": 115,
+                      "end_page": 115,
+                      "summary": "This section details the assets and liabilities measured at fair value on a nonrecurring basis as of June 30, 2023, and 2022, highlighting the fair value hierarchy and total fair value amounts. It provides a breakdown of loans and other assets by fair value levels, with significant figures indicating a total of $1,936 million in assets for 2023, compared to $3,286 million in 2022. The section also discusses nonrecurring fair value changes, showing total losses of $227 million for the six months ended June 30, 2023, and $424 million for the same period in 2022. Additionally, it notes specific adjustments related to equity securities and collateral-dependent loans, emphasizing the valuation methods used.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t64",
+                      "title": "Equity securities without readily determinable fair values",
+                      "level": 5,
+                      "start_page": 116,
+                      "end_page": 116,
+                      "summary": "This section discusses the measurement of equity securities without readily determinable fair values, which are recorded at cost less impairment, adjusted for observable price changes. It details the carrying values of these securities as of June 30, 2023, and 2022, including upward and downward adjustments. The section highlights the Firm's interest in Visa Class B shares, their conversion restrictions, and the uncertainty surrounding their conversion rate due to ongoing litigation. Additionally, it explains the derivative instruments related to these shares, which are accounted for at fair value and impact the Firm's income.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t65",
+                      "title": "Estimated FV of Financial Instruments",
+                      "level": 5,
+                      "start_page": 117,
+                      "end_page": 117,
+                      "summary": "This section provides an overview of the estimated fair value of financial instruments not recorded at fair value on the balance sheet as of June 30, 2023, and December 31, 2022. It includes a detailed table categorizing financial assets and liabilities by fair value hierarchy levels (Level 1, Level 2, Level 3) and their carrying values. Key topics include the estimation methods for fair value, particularly for loans, and the impact of market conditions on these valuations. Additionally, it discusses wholesale lending-related commitments and notes that consumer off-balance sheet commitments are not estimated for fair value. The section emphasizes the importance of understanding the differences between carrying values and estimated fair values in financial reporting.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t66",
+                  "title": "Note 3 - Fair value option",
+                  "level": 4,
+                  "start_page": 118,
+                  "end_page": 121,
+                  "summary": "This section discusses the fair value option, which allows the Firm to elect fair value measurement for specific financial instruments to reduce income statement volatility and align with risk management practices. It details the types of instruments included in this election, such as loans from securitization activities, certain securities financing agreements, and structured notes. The section also presents changes in fair value for the selected instruments over the three and six months ended June 30, 2023, and 2022, highlighting the impact on the Firm's income statements. Additionally, it provides a comparison of the aggregate fair value versus the contractual principal balance for loans and long-term debt, as well as a breakdown of structured note products by risk type and balance sheet classification.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t67",
+                  "title": "Note 4 - Credit risk concentrations",
+                  "level": 4,
+                  "start_page": 122,
+                  "end_page": 123,
+                  "summary": "This section discusses credit risk concentrations at JPMorgan Chase, highlighting how similar business activities or geographic regions among clients can lead to increased credit risk. The firm actively monitors its credit portfolios, focusing on consumer and wholesale segments, and adjusts risk levels based on its risk appetite. It details the management of credit risk concentrations through various techniques, including collateral and loan syndications. Additionally, the section provides a table of on-balance sheet and off-balance sheet credit exposure by portfolio segments as of June 30, 2023, and December 31, 2022, illustrating the distribution of credit exposure across different industries and loan products.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t68",
+                  "title": "Note 5 - Derivative instruments",
+                  "level": 4,
+                  "start_page": 124,
+                  "end_page": 135,
+                  "summary": "This section covers the Firm's derivative instruments, detailing free-standing derivatives, netting and collateral practices, liquidity risks, and credit-related features. It categorizes derivatives by accounting designation and contract type, providing gross and net values for receivables and payables as of June 30, 2023, and December 31, 2022. The section also discusses the impact of hedge accounting on financial statements, pre-tax gains and losses from risk management derivatives, and provides insights into credit derivatives, including notional amounts and associated risks. Additionally, it emphasizes the importance of legal opinions for netting agreements and the implications of credit ratings on collateral requirements.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t69",
+                      "title": "Free-standing derivatives",
+                      "level": 5,
+                      "start_page": 126,
+                      "end_page": 126,
+                      "summary": "This section provides a detailed summary of free-standing derivative receivables and payables as reflected on the Firm's Consolidated balance sheets for June 30, 2023, and December 31, 2022. It categorizes derivatives by accounting designation, specifically those not designated as hedges and those designated as hedges, across various contract types including interest rate, credit, foreign exchange, equity, and commodity. The section includes gross and net values for derivative receivables and payables, highlighting changes over the specified periods. Additionally, it notes the exclusion of structured notes under the fair value option and mentions the election to net derivative amounts under U.S. GAAP when applicable.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t70",
+                      "title": "Derivatives netting and collateral",
+                      "level": 5,
+                      "start_page": 127,
+                      "end_page": 128,
+                      "summary": "This section details the derivatives netting and collateral as of June 30, 2023, and December 31, 2022, including gross and net derivative receivables and payables categorized by contract type. It explains the conditions under which derivative receivables and payables can be netted on the Consolidated balance sheets, emphasizing the importance of obtaining appropriate legal opinions for master netting agreements. The section also outlines the types of collateral received and transferred, including cash and liquid securities, and their impact on mitigating counterparty credit risk. Additionally, it provides specific figures for net derivative receivables and payables, highlighting the amounts netted and those not eligible for net presentation.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t71",
+                      "title": "Liquidity risk and credit-related contingent features",
+                      "level": 5,
+                      "start_page": 129,
+                      "end_page": 129,
+                      "summary": "This section discusses liquidity risk and credit-related contingent features associated with JPMorgan Chase's derivative contracts, specifically focusing on the impact of ratings downgrades. It provides data on the aggregate fair value of net derivative payables and collateral posted as of June 30, 2023, and December 31, 2022. The section details the liquidity impact of single-notch and two-notch downgrades, including additional collateral requirements and termination payments. It also mentions transactions involving the transfer of financial assets and their accounting treatment under U.S. GAAP, noting that such transfers were not material during the reporting periods.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t72",
+                      "title": "Derivatives designated as hedges",
+                      "level": 5,
+                      "start_page": 130,
+                      "end_page": 133,
+                      "summary": "This section discusses the impact of derivatives designated as hedges on the Consolidated statements of income, focusing on fair value, cash flow, and net investment hedges. It provides detailed tables showing pre-tax gains and losses for various derivative instruments used in these hedge accounting relationships for the periods ending June 30, 2023, and 2022. The section explains how gains and losses are recorded in the income statement and other comprehensive income, including the effects of excluded components from hedge effectiveness assessments. Additionally, it outlines the expected future recognition of net losses related to cash flow hedges and the treatment of foreign exchange derivatives in net investment hedges.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t73",
+                      "title": "Risk management derivatives gains and losses",
+                      "level": 5,
+                      "start_page": 134,
+                      "end_page": 134,
+                      "summary": "This section details the pre-tax gains and losses from derivatives used for risk management, specifically those not designated in hedge accounting relationships. It includes a table showing the financial results for interest rate, credit, and foreign exchange derivatives for the three and six months ended June 30 for 2023 and 2022. The section explains the purpose of these derivatives, such as hedging interest rate risks from mortgage commitments and managing credit risks in wholesale lending. Additionally, it discusses gains and losses from derivatives related to market-making activities, emphasizing their role in managing net open risk positions and counterparty credit risk.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t74",
+                      "title": "Credit derivatives",
+                      "level": 5,
+                      "start_page": 135,
+                      "end_page": 135,
+                      "summary": "This section discusses credit derivatives, referencing Note 5 of JPMorgan Chase’s 2022 Form 10-K for further details. It provides a summary of the notional amounts of credit derivatives and credit-related notes as of June 30, 2023, and December 31, 2022, including protection sold and purchased. The firm emphasizes that notional amounts are not the primary measure of risk management due to factors like credit event probabilities and recovery values. Additionally, it includes tables detailing the ratings and maturity profiles of credit derivatives, highlighting the fair value of receivables and payables associated with these instruments.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t75",
+                  "title": "Note 6 - Noninterest revenue and noninterest expense",
+                  "level": 4,
+                  "start_page": 136,
+                  "end_page": 137,
+                  "summary": "This section details JPMorgan Chase's noninterest revenue and noninterest expense, highlighting key components such as investment banking fees, trading revenue, and asset management fees. It provides comparative financial data for the three and six months ended June 30 for 2023 and 2022, allowing readers to analyze trends in revenue sources like underwriting, advisory, and trading by instrument type. Additionally, it discusses noninterest expenses, including legal and FDIC-related costs, and mentions the impact of the First Republic acquisition on various revenue streams. The section serves to inform stakeholders about the firm's financial performance and operational costs.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t76",
+                  "title": "Note 7 - Interest income and Interest expense",
+                  "level": 4,
+                  "start_page": 138,
+                  "end_page": 138,
+                  "summary": "This section details JPMorgan Chase's interest income and interest expense for the three and six months ended June 30, 2023, and 2022. It includes a breakdown of interest income from various sources such as loans, taxable and non-taxable securities, trading assets, and deposits with banks, totaling $41.6 billion in 2023. Interest expense is also itemized, showing costs associated with interest-bearing deposits, federal funds purchased, and long-term debt, amounting to $19.9 billion in 2023. The net interest income, after accounting for provisions for credit losses, is presented, highlighting a significant increase compared to the previous year. The section serves to inform stakeholders about the bank's financial performance related to interest activities.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t77",
+                  "title": "Note 8 - Pension and other postretirement employee benefit plans",
+                  "level": 4,
+                  "start_page": 139,
+                  "end_page": 139,
+                  "summary": "This section discusses JPMorgan Chase's pension and other postretirement employee benefit plans, focusing on the components of net periodic benefit costs. It includes a table detailing the net periodic defined benefit and defined contribution plan costs for the three and six months ended June 30 for 2023 and 2022, highlighting a credit in defined benefit costs and an increase in defined contribution costs. Additionally, it presents the fair values of plan assets for significant defined benefit pension and OPEB plans as of June 30, 2023, and December 31, 2022, showing a slight increase in asset value.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t78",
+                      "title": "Components of net periodic benefit costs",
+                      "level": 5,
+                      "start_page": 139,
+                      "end_page": 139,
+                      "summary": "This section details the components of net periodic benefit costs related to JPMorgan Chase's pension and other postretirement employee benefit plans. It includes a table showing the net periodic defined benefit plan costs and defined contribution plan costs for the three and six months ended June 30 for 2023 and 2022. The total net periodic defined benefit plan cost reflects a credit for both periods, while defined contribution plans show an increase in costs. Additionally, it provides the fair values of plan assets for significant defined benefit pension and OPEB plans as of June 30, 2023, and December 31, 2022, indicating a slight increase in asset value.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t79",
+                  "title": "Note 9 - Employee share-based incentives",
+                  "level": 4,
+                  "start_page": 140,
+                  "end_page": 140,
+                  "summary": "This section discusses JPMorgan Chase's accounting policies related to employee share-based incentives, specifically focusing on noncash compensation expenses. It details the costs associated with restricted stock units (RSUs), performance share units (PSUs), and stock appreciation rights (SARs) for the second quarter of 2023 and the first half of 2023, comparing them to the previous year. The total noncash compensation expense for these plans was $834 million for the three months ended June 30, 2023, and $1.704 billion for the six months ended June 30, 2023. Additionally, it mentions the grant of 20 million RSUs and 801 thousand PSUs in the first quarter of 2023, including their fair values.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t80",
+                  "title": "Note 10 - Investment securities",
+                  "level": 4,
+                  "start_page": 141,
+                  "end_page": 144,
+                  "summary": "This section details the Firm's investment securities, which include available-for-sale (AFS) and held-to-maturity (HTM) debt securities, primarily managed by Treasury and CIO for asset-liability purposes. As of June 30, 2023, the portfolio had an average credit rating of AA+, with significant transfers between AFS and HTM categories impacting unrealized losses. The section provides a breakdown of amortized costs, fair values, and unrealized gains/losses for various types of securities, including mortgage-backed and corporate debt securities. It also discusses credit quality indicators for HTM securities, realized gains and losses, and the impact of these securities on the consolidated statements of income. Additionally, it includes contractual maturities and yields for the investment securities portfolio, highlighting the average yields across different categories.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t81",
+                  "title": "Note 11 - Securities financing activities",
+                  "level": 4,
+                  "start_page": 145,
+                  "end_page": 146,
+                  "summary": "Note 11 discusses JPMorgan Chase's accounting policies for securities financing activities, including details on netting agreements and collateral management. It provides a summary of gross and net amounts of securities financing agreements as of June 30, 2023, and December 31, 2022, highlighting the impact of legal opinions on netting. The section includes tables detailing the types of financial assets pledged and the remaining contractual maturity of these agreements. Additionally, it notes the existence of financial assets transferred to third parties that do not qualify as sales under U.S. GAAP, recorded as collateralized financing transactions.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t82",
+                  "title": "Note 12 - Loans",
+                  "level": 4,
+                  "start_page": 147,
+                  "end_page": 161,
+                  "summary": "Note 12 - Loans provides a comprehensive overview of JPMorgan Chase's loan portfolios, segmented into consumer (excluding credit cards), credit card, and wholesale categories. The consumer loan portfolio focuses on residential mortgages, home equity, auto, and business banking loans, detailing delinquency rates, charge-offs, and loan modifications for distressed borrowers. The credit card portfolio highlights key credit quality indicators, including delinquency rates and the impact of Fixed Payment Modifications introduced in 2023. The wholesale loan portfolio emphasizes internal risk ratings, classifications by risk, and modifications for borrowers, along with geographic distribution and performance metrics. Overall, the section offers insights into the health and performance of various loan segments, including statistics on nonaccrual loans and trends in credit quality.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t83",
+                      "title": "Consumer, excluding credit card loan portfolio",
+                      "level": 5,
+                      "start_page": 149,
+                      "end_page": 154,
+                      "summary": "This section details the consumer loan portfolio, excluding credit card loans, focusing on residential mortgages, home equity loans, auto loans, and business banking loans. It provides statistics on retained loans, including delinquency rates and charge-offs, highlighting credit quality indicators. The section also discusses loan modifications for borrowers in financial distress, including the financial effects of these modifications. Additionally, it presents data on nonaccrual loans and geographic distribution of the loan portfolio, offering insights into the overall health of the consumer loan segment.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t84",
+                      "title": "Credit card loan portfolio",
+                      "level": 5,
+                      "start_page": 155,
+                      "end_page": 156,
+                      "summary": "This section details the credit card loan portfolio of JPMorgan Chase, focusing on delinquency rates and charge-offs as key indicators of credit quality. As of June 30, 2023, total retained loans amounted to $191.3 billion, with delinquency rates of 1.65% for loans 30+ days past due. The section also discusses loan modifications for borrowers in financial difficulty, introduced as Fixed Payment Modifications (FDMs) in 2023, which involve term extensions and interest rate reductions. Data on the financial effects of these modifications and their payment statuses are provided, highlighting the challenges of re-defaults. Additionally, comparisons with previous periods are included to illustrate trends in credit quality and loan performance.",
+                      "source": "embedded_toc",
+                      "children": []
+                    },
+                    {
+                      "node_id": "t85",
+                      "title": "Wholesale loan portfolio",
+                      "level": 5,
+                      "start_page": 157,
+                      "end_page": 161,
+                      "summary": "This section details the wholesale loan portfolio of JPMorgan Chase, covering loans to various clients including corporations and high-net-worth individuals. It emphasizes the internal risk ratings as the primary credit quality indicator and provides data on retained loans, including their classifications by risk ratings and gross charge-offs for the first half of 2023. The section also discusses loan modifications for borrowers in financial difficulty, highlighting the financial effects and payment statuses of these modifications. Additionally, it presents geographic distribution, delinquency rates, and nonaccrual loans, offering insights into the overall health and performance of the wholesale loan portfolio.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t86",
+                  "title": "Note 13 - Allowance for credit losses",
+                  "level": 4,
+                  "start_page": 162,
+                  "end_page": 164,
+                  "summary": "This section discusses the Firm's allowance for credit losses, which estimates expected credit losses on financial assets at amortized cost and off-balance sheet commitments. It details the adoption of new accounting guidance on January 1, 2023, which changed the measurement approach for troubled debt restructurings (TDRs) and resulted in a net decrease of $587 million in the allowance. The section provides a breakdown of the allowance for credit losses by impairment methodology, including asset-specific and portfolio-based approaches, and summarizes changes in the allowance, including a net addition of $2.7 billion as of June 30, 2023. Additionally, it outlines macroeconomic assumptions impacting the allowance, such as projected U.S. unemployment rates and GDP growth.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t87",
+                  "title": "Note 14 - Variable interest entities",
+                  "level": 4,
+                  "start_page": 165,
+                  "end_page": 170,
+                  "summary": "This section details JPMorgan Chase's involvement with variable interest entities (VIEs), including the types of Firm-sponsored VIEs categorized by business segment, such as credit card and mortgage securitization trusts. It outlines the Firm's role as the primary beneficiary in these entities and provides data on the total unpaid principal amount of assets held in both consolidated and nonconsolidated VIEs. The section also discusses the Firm's maximum loss exposure from retained interests and the nature of its continuing involvement in these VIEs, including servicing and financial arrangements. Additionally, it covers the Firm's activities related to securitization, including loan sales to U.S. government-sponsored enterprises and the management of delinquent loans.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t88",
+                  "title": "Note 15 - Goodwill and mortgage servicing rights",
+                  "level": 4,
+                  "start_page": 171,
+                  "end_page": 173,
+                  "summary": "This section discusses the accounting policies for goodwill and mortgage servicing rights (MSRs) at JPMorgan Chase. It provides detailed tables showing the goodwill attributed to various business segments, changes in goodwill over time, and the results of impairment testing, concluding that no impairment was recognized as of June 30, 2023. The section also explains MSRs, their valuation, and the factors affecting their fair value, including servicing fees and market conditions. Additionally, it presents MSR activity, including originations, purchases, and dispositions, along with the impact of market interest rates on MSR valuations.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t89",
+                  "title": "Note 16 - Deposits",
+                  "level": 4,
+                  "start_page": 174,
+                  "end_page": 174,
+                  "summary": "Note 16 provides detailed information on JPMorgan Chase's deposits as of June 30, 2023, and December 31, 2022. It breaks down total deposits into noninterest-bearing and interest-bearing categories for both U.S. and non-U.S. offices, highlighting significant figures such as $1,968,671 million in total U.S. deposits. The note also discusses time deposits exceeding the insured limit, with totals of $184,662 million as of June 30, 2023. Additionally, it outlines the remaining maturities of interest-bearing time deposits, providing a breakdown by year and location, which is crucial for understanding the bank's liquidity and funding structure.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t90",
+                  "title": "Note 17 - Leases",
+                  "level": 4,
+                  "start_page": 174,
+                  "end_page": 174,
+                  "summary": "Note 17 discusses JPMorgan Chase's lease obligations as of June 30, 2023, detailing both operating leases as lessee and lease financings as lessor. The section provides financial figures for right-of-use assets and lease liabilities, which were $8,399 million and $8,756 million respectively. It also outlines the net rental expenses incurred, totaling $448 million for the second quarter of 2023. Additionally, the note includes information on operating lease income and related depreciation expenses, highlighting the firm's financial performance in leasing activities.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t91",
+                  "title": "Note 18 - Long-term debt",
+                  "level": 4,
+                  "start_page": 175,
+                  "end_page": 176,
+                  "summary": "This section details JPMorgan Chase's long-term debt as of June 30, 2023, including the breakdown of senior and subordinated debt by maturity, interest rates, and currency denominations. It provides a summary of carrying values, highlighting fixed and variable rates, and includes information on debt secured by assets and fair value adjustments. The section also discusses the use of derivative instruments to manage interest rate and currency exposure, and outlines the guarantees provided by JPMorgan Chase for certain subsidiary debts. Additionally, it notes that the firm's unsecured debt does not impose restrictions based on credit ratings or financial performance.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t92",
+                  "title": "Note 19 - Preferred stock",
+                  "level": 4,
+                  "start_page": 177,
+                  "end_page": 177,
+                  "summary": "This section provides a detailed overview of JPMorgan Chase's non-cumulative preferred stock as of June 30, 2023, and December 31, 2022, including the carrying value, contractual rates, earliest redemption dates, and dividend declarations for various series. It lists specific series such as Series DD, EE, GG, and others, detailing their respective shares, carrying values, and fixed or floating dividend rates. The section also notes the total preferred stock outstanding, which amounts to $27.4 billion, and highlights recent redemptions of specific series of preferred stock. Additionally, it mentions the transition from LIBOR to SOFR as the reference rate for certain securities.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t93",
+                  "title": "Note 20 - Earnings per share",
+                  "level": 4,
+                  "start_page": 178,
+                  "end_page": 178,
+                  "summary": "This section provides a detailed calculation of basic and diluted earnings per share (EPS) for JPMorgan Chase for the three and six months ended June 30, 2023, and 2022. It includes net income figures, preferred stock dividends, and the net income applicable to common equity and stockholders. The section also presents the total weighted-average shares outstanding and the resulting net income per share for both basic and diluted calculations. Readers can learn how EPS is computed and the impact of share dilution on earnings.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t94",
+                  "title": "Note 21 - Accumulated other comprehensive income/(loss)",
+                  "level": 4,
+                  "start_page": 179,
+                  "end_page": 180,
+                  "summary": "Note 21 details the components of Accumulated Other Comprehensive Income (AOCI), which includes after-tax changes in unrealized gains and losses on investment securities, foreign currency translation adjustments, fair value changes on hedges, and defined benefit pension plan impacts. The section provides a breakdown of AOCI balances as of June 30, 2023, and June 30, 2022, highlighting significant changes in various components over the three and six months ended June 30, 2023. It also includes a table showing pre-tax and after-tax changes in these components, allowing readers to understand the financial impacts of market fluctuations and hedging activities on the firm's overall financial position. Additionally, it notes specific adjustments related to the transfer of securities between categories under new hedge accounting guidance.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t95",
+                  "title": "Note 22 - Restricted cash and other restricted assets",
+                  "level": 4,
+                  "start_page": 181,
+                  "end_page": 181,
+                  "summary": "This section discusses JPMorgan Chase's restricted cash and other restricted assets, highlighting the regulatory restrictions imposed on certain cash and assets due to the activities of its subsidiaries. It references Note 26 of the 2022 Form 10-K for a detailed discussion. The section includes a table detailing the components of restricted cash as of June 30, 2023, and December 31, 2022, showing a total of $25.6 billion and $26.8 billion, respectively. Additionally, it outlines other restricted assets, including cash and securities pledged with clearing organizations and securities restricted due to customer activity, with values provided for both reporting dates.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t96",
+                  "title": "Note 23 - Regulatory capital",
+                  "level": 4,
+                  "start_page": 182,
+                  "end_page": 183,
+                  "summary": "This section discusses JPMorgan Chase's regulatory capital requirements as established by the Federal Reserve and the Office of the Comptroller of the Currency (OCC). It outlines the minimum capital ratios required for Common Equity Tier 1 (CET1), Tier 1, Total capital, Tier 1 leverage, and the Supplementary Leverage Ratio (SLR) for both the bank holding company (BHC) and its insured depository institution (IDI) subsidiaries. The section includes tables detailing the risk-based and leverage-based capital ratio requirements as of June 30, 2023, and December 31, 2022, indicating that both JPMorgan Chase and its IDI were well-capitalized. Additionally, it addresses the phase-out of the CECL capital benefit and its impact on capital metrics, providing specific figures for capital ratios and risk-weighted assets.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t97",
+                  "title": "Note 24 - Off-balance sheet lending-related financial instruments, guarantees and other commitments",
+                  "level": 4,
+                  "start_page": 184,
+                  "end_page": 186,
+                  "summary": "This section details JPMorgan Chase's off-balance sheet lending-related financial instruments, including commitments and guarantees, which address customer financing needs. It outlines the maximum credit risk associated with these instruments and notes that many commitments historically remain undrawn. The section provides a summary of contractual amounts and carrying values as of June 30, 2023, and December 31, 2022, for various lending-related products, including consumer and wholesale categories. Additionally, it discusses the allowance for expected credit losses and the nature of standby letters of credit and other guarantees, as well as the firm's exposure to derivatives qualifying as guarantees.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t98",
+                  "title": "Note 25 - Pledged assets and collateral",
+                  "level": 4,
+                  "start_page": 187,
+                  "end_page": 187,
+                  "summary": "This section discusses the Firm's pledged assets and collateral, detailing the financial assets pledged to maintain borrowing capacity and collateralize various agreements. As of June 30, 2023, total pledged assets amounted to $1,071.5 billion, with significant portions pledged to Federal Reserve banks and FHLBs. The section also outlines the types of collateral accepted by the Firm, which can be sold or repledged, and provides figures for collateral values as of the same date. Additionally, it references related notes for further information on securities financing activities and long-term debt.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t99",
+                  "title": "Note 26 - Litigation",
+                  "level": 4,
+                  "start_page": 188,
+                  "end_page": 191,
+                  "summary": "As of June 30, 2023, JPMorgan Chase and its affiliates are involved in various legal proceedings, including civil litigations and regulatory investigations across multiple jurisdictions. The estimated range of possible losses from these proceedings is between $0 and $1.3 billion, reflecting the complexity and uncertainty of the cases, which include class actions and novel legal theories. Key litigations discussed include the 1MDB case in Malaysia, investigations related to the Amrapali Group in India, and multiple antitrust claims regarding foreign exchange and interchange fees. The section also details ongoing shareholder litigation related to historical trading practices and the firm's involvement in high-profile cases such as those concerning Jeffrey Epstein and LIBOR. The firm maintains reserves for these legal matters and evaluates them quarterly, but the ultimate outcomes remain uncertain and could significantly impact financial results.",
+                  "source": "embedded_toc",
+                  "children": []
+                },
+                {
+                  "node_id": "t100",
+                  "title": "Note 27 - Business segments",
+                  "level": 4,
+                  "start_page": 192,
+                  "end_page": 193,
+                  "summary": "This section details the year-to-date financial performance of various business segments for the first half of 2023 compared to 2022, including Consumer & Community Banking, Corporate & Investment Bank, Commercial Banking, and Asset & Wealth Management. It provides key financial metrics such as noninterest revenue, net interest income, total net revenue, provision for credit losses, noninterest expense, and net income for each segment. The data indicates significant increases in net income and total net revenue across most segments, with specific figures outlined. Additionally, it addresses changes in revenue allocation and adjustments for prior periods to maintain consistency in reporting.",
+                  "source": "embedded_toc",
+                  "children": [
+                    {
+                      "node_id": "t101",
+                      "title": "Ytd tables- Business Seg",
+                      "level": 5,
+                      "start_page": 193,
+                      "end_page": 193,
+                      "summary": "This section presents the year-to-date financial results for various business segments, including Consumer & Community Banking, Corporate & Investment Bank, Commercial Banking, and Asset & Wealth Management, for the first half of 2023 compared to 2022. Key metrics include noninterest revenue, net interest income, total net revenue, provision for credit losses, noninterest expense, and net income across these segments. The data highlights significant increases in net income and total net revenue for most segments, with specific figures provided for each category. Additionally, it discusses changes in revenue allocation and adjustments made for prior periods to ensure consistency in reporting.",
+                      "source": "embedded_toc",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "node_id": "t102",
+                  "title": "Note 28 - Business combinations",
+                  "level": 4,
+                  "start_page": 194,
+                  "end_page": 196,
+                  "summary": "This section details JPMorgan Chase's acquisition of First Republic Bank on May 1, 2023, for $67.9 billion, resulting in a $2.7 billion bargain purchase gain. It outlines the fair value measurement of acquired assets and assumed liabilities, including shared-loss agreements with the FDIC. The section also discusses the issuance of a $50 billion Purchase Money Note and the settlement of prior deposits. Additionally, it provides a breakdown of the purchase price allocation, fair value methodologies for intangible assets, and unaudited pro forma financial information reflecting the acquisition's impact on the firm's financials.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "node_id": "t103",
+              "title": "Report of Independent Registered Public Accounting Firm",
+              "level": 3,
+              "start_page": 197,
+              "end_page": 197,
+              "summary": "This section contains the report from PricewaterhouseCoopers LLP, the independent registered public accounting firm, regarding their review of JPMorgan Chase & Co.'s interim financial statements as of June 30, 2023. The report confirms that the firm found no material modifications needed for the financial statements to conform with U.S. generally accepted accounting principles. It also references a previous audit conducted for the year ending December 31, 2022, which received an unqualified opinion. The report outlines the responsibilities of the firm's management and the scope of the review, emphasizing that it is less comprehensive than a full audit.",
+              "source": "embedded_toc",
+              "children": []
+            },
+            {
+              "node_id": "t104",
+              "title": "Consolidated Average Balance Sheets, Interest and Rates",
+              "level": 3,
+              "start_page": 198,
+              "end_page": 199,
+              "summary": "This section provides a detailed comparison of the consolidated average balance sheets, interest, and rates for JPMorgan Chase & Co. for the six months ending June 30, 2023, against the same period in 2022. It includes key financial metrics such as total interest-earning assets amounting to $3,280,619 million, net interest income of $42,714 million, and an interest rate spread of 2.00%. The section also covers average balances and interest earned across various asset categories, including deposits, loans, and securities, while offering insights into the bank's overall financial performance and interest rate trends during the specified periods.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t105",
+                  "title": "Ytd table- ABS",
+                  "level": 4,
+                  "start_page": 199,
+                  "end_page": 199,
+                  "summary": "This section presents the consolidated average balance sheets, interest, and rates for JPMorgan Chase & Co. for the six months ending June 30, 2023, compared to the same period in 2022. It details average balances, interest earned, and annualized rates for various asset categories, including deposits, loans, and securities. Key figures include total interest-earning assets of $3,280,619 million with a net interest income of $42,714 million and an interest rate spread of 2.00%. The section also outlines liabilities, stockholders' equity, and provides insights into the bank's financial performance and interest rate trends over the specified periods.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "node_id": "t106",
+              "title": "Glossary of Terms and Acronyms and Line of Business Metrics",
+              "level": 3,
+              "start_page": 200,
+              "end_page": 208,
+              "summary": "This section provides a comprehensive glossary of terms and acronyms related to financial institution metrics, focusing on key performance indicators across various lines of business such as Consumer & Community Banking, Corporate & Investment Bank, Commercial Banking, and Asset & Wealth Management. It details specific metrics like debit and credit card sales volume, deposit margins, net mortgage servicing revenue, and assets under management. Additionally, it discusses revenue sources from lending, investment banking, and asset management, along with client and product classifications. The section also includes insights into mutual fund performance metrics and ratings, aiding in the evaluation of investment strategies.",
+              "source": "embedded_toc",
+              "children": [
+                {
+                  "node_id": "t107",
+                  "title": "Line of Business Metrics",
+                  "level": 4,
+                  "start_page": 206,
+                  "end_page": 208,
+                  "summary": "This section outlines key metrics for various lines of business within a financial institution, including Consumer & Community Banking (CCB), Corporate & Investment Bank (CIB), Commercial Banking (CB), and Asset & Wealth Management (AWM). Readers can learn about specific performance indicators such as debit and credit card sales volume, deposit margins, net mortgage servicing revenue, and assets under management. It details revenue sources across different banking segments, including lending, investment banking, and asset management, as well as the classification of clients and products. Additionally, it provides insights into mutual fund performance metrics and ratings, helping to assess the effectiveness of investment strategies.",
+                  "source": "embedded_toc",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "node_id": "t108",
+          "title": "Item 3. Quantitative and Qualitative Disclosures About Market Risk.",
+          "level": 2,
+          "start_page": 209,
+          "end_page": 209,
+          "summary": "This section refers readers to the Market Risk Management section of Management’s discussion and analysis and pages 131-138 of JPMorgan Chase’s 2022 Form 10-K for detailed quantitative and qualitative disclosures about market risk. It emphasizes the importance of understanding the firm's exposure to market fluctuations and the methodologies used to assess these risks. The section serves to inform stakeholders about the firm's risk management practices and the potential impact of market conditions on its financial performance.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t109",
+          "title": "Item 4. Controls and Procedures.",
+          "level": 2,
+          "start_page": 209,
+          "end_page": 209,
+          "summary": "This section discusses the evaluation of the effectiveness of JPMorgan Chase's disclosure controls and procedures, conducted by the Firm's management, including the CEO and CFO. They concluded that these controls were effective as of the report's end date. The section also highlights the Firm's commitment to maintaining high internal control standards, while acknowledging the inherent limitations that may lead to misstatements. Additionally, it notes the acquisition of assets and liabilities from First Republic Bank and confirms no significant changes in internal controls during the reporting period.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t110",
+      "title": "Part II – Other information",
+      "level": 1,
+      "start_page": 209,
+      "end_page": 211,
+      "summary": "Part II covers various important aspects of JPMorgan Chase's operations and compliance. It includes updates on legal proceedings, risk factors related to the acquisition of First Republic Bank, and confirms no unregistered sales of equity securities or defaults on senior securities. The section details the common share repurchase program, including the number of shares repurchased and compliance with trading arrangements. Additionally, it states that there are no mine safety disclosures required and lists key exhibits related to financial information and certifications under the Sarbanes-Oxley Act.",
+      "source": "embedded_toc",
+      "children": [
+        {
+          "node_id": "t111",
+          "title": "Item 1. Legal Proceedings.",
+          "level": 2,
+          "start_page": 209,
+          "end_page": 209,
+          "summary": "This section references the material legal proceedings involving JPMorgan Chase, directing readers to Note 26 of the Form 10-Q for updates on disclosures previously outlined in the 2022 Form 10-K. It highlights the importance of understanding ongoing legal matters that may impact the firm's operations and financial condition. The section serves to keep stakeholders informed about potential legal risks and their implications for the firm.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t112",
+          "title": "Item 1A. Risk Factors.",
+          "level": 2,
+          "start_page": 209,
+          "end_page": 209,
+          "summary": "This section discusses the risk factors affecting JPMorgan Chase, supplementing the previous disclosures in its 2022 Form 10-K. It highlights the potential risks associated with the acquisition of First Republic Bank, including uncertainties regarding integration costs, timeframes, and overall performance. The section emphasizes that the integration process may divert management resources and could lead to business disruptions, loss of clients, and challenges in maintaining employee relationships. Additionally, it notes that the descriptions provided are not exhaustive of all potential risks that could impact the Firm's financial condition and operations.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t113",
+          "title": "Item 2. Unregistered Sales of Equity Securities and Use of Proceeds.",
+          "level": 2,
+          "start_page": 209,
+          "end_page": 209,
+          "summary": "This section reports that JPMorgan Chase did not engage in any unregistered sales of equity securities during the three months ending June 30, 2023. It also references the common share repurchase program, which has a total authorization of up to $30 billion as approved by the Board of Directors. For further details on repurchases, readers are directed to the Capital Risk Management section of the current Form 10-Q and the previous year's Form 10-K.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t114",
+          "title": "Item 3. Defaults Upon Senior Securities.",
+          "level": 2,
+          "start_page": 210,
+          "end_page": 210,
+          "summary": "This section states that there were no defaults upon senior securities as of the report date. It also briefly mentions the common share repurchase program, detailing the number of shares repurchased, average prices, and the remaining authorized repurchase amount. Additionally, it notes compliance with Rule 10b5-1 regarding trading arrangements by directors and executive officers, and confirms no relevant trading arrangements were adopted or terminated in the second quarter of 2023. Lastly, it addresses compliance with the Iran Threat Reduction and Syria Human Rights Act, indicating no activities requiring disclosure were identified during the reporting period.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t115",
+          "title": "Item 4. Mine Safety Disclosures.",
+          "level": 2,
+          "start_page": 210,
+          "end_page": 210,
+          "summary": "Item 4, Mine Safety Disclosures, states that the section is not applicable, indicating that there are no mine safety-related disclosures required for the reporting period. This section typically addresses compliance with mine safety regulations and any incidents or violations, but in this case, it confirms the absence of such issues. Readers can learn that the firm has no mine safety disclosures to report for the specified period.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t116",
+          "title": "Item 5. Other Information.",
+          "level": 2,
+          "start_page": 210,
+          "end_page": 210,
+          "summary": "This section provides details on the common share repurchase program, including the total number of shares repurchased, average price per share, and the aggregate purchase price for the first and second quarters of 2023. It also outlines the remaining authorized repurchase amount under the $30 billion program. Additionally, it discusses Rule 10b5-1 trading arrangements adopted by directors and executive officers, including specific names, titles, adoption dates, and the number of shares to be sold. Furthermore, it includes a disclosure regarding compliance with the Iran Threat Reduction and Syria Human Rights Act, stating that no activities requiring disclosure occurred during the quarter ended June 30, 2023, except for a previously processed transaction that was an error.",
+          "source": "embedded_toc",
+          "children": []
+        },
+        {
+          "node_id": "t117",
+          "title": "Item 6. Exhibits.",
+          "level": 2,
+          "start_page": 211,
+          "end_page": 211,
+          "summary": "This section lists various exhibits related to financial information and certifications. Key exhibits include a letter regarding unaudited interim financial information, details on subsidiary guarantors, and multiple certifications under the Sarbanes-Oxley Act. It also includes XBRL (eXtensible Business Reporting Language) documents that provide structured financial data, such as consolidated statements of income and balance sheets for specific periods. The section clarifies which documents are filed and which are furnished, indicating their legal status under securities regulations.",
+          "source": "embedded_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "t118",
+      "title": "Signature",
+      "level": 1,
+      "start_page": 212,
+      "end_page": 212,
+      "summary": "This section contains the official signature of JPMorgan Chase & Co. as required by the Securities Exchange Act of 1934. It includes the name and title of the signatory, Elena Korablina, who is the Managing Director and Firmwide Controller, serving as the Principal Accounting Officer. The date of the signature is August 3, 2023, indicating when the report was authorized. This section serves to validate the report and confirm its authenticity by an authorized representative of the registrant.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t119",
+      "title": "Exhibit 15",
+      "level": 1,
+      "start_page": 213,
+      "end_page": 213,
+      "summary": "Exhibit 15 contains a letter from PricewaterhouseCoopers LLP to the Securities and Exchange Commission dated August 3, 2023, regarding JPMorgan Chase & Co. It references multiple Registration Statements on Forms S-3 and S-8, detailing their respective numbers. The letter clarifies that the firm's report on interim financial information, included in the Quarterly Report on Form 10-Q, is incorporated by reference but should not be considered part of the Registration Statements as per Rule 436(c) of the Securities Act of 1933. This section is significant for understanding the compliance and regulatory framework surrounding JPMorgan's financial disclosures.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t120",
+      "title": "Exhibit 22",
+      "level": 1,
+      "start_page": 214,
+      "end_page": 214,
+      "summary": "Exhibit 22 details the guarantee provided by JPMorgan Chase & Co. for the debt securities issued by its subsidiary, JPMorgan Chase Financial Company LLC. It specifies that the subsidiary has issued Global Medium-Term Notes, Series A, which are fully guaranteed by JPMorgan Chase & Co. The section also mentions the potential for future debt securities and warrants to be issued under a specific Registration Statement on Form S-3, effective as of April 13, 2023. This information is crucial for understanding the financial obligations and guarantees associated with the subsidiary's securities.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t121",
+      "title": "Exhibit 31.1",
+      "level": 1,
+      "start_page": 215,
+      "end_page": 215,
+      "summary": "Exhibit 31.1 contains a certification by James Dimon, the CEO of JPMorgan Chase & Co., regarding the accuracy and completeness of the Quarterly Report on Form 10-Q. Dimon certifies that the report does not contain any misleading statements and that the financial statements fairly present the company's financial condition and results. The section outlines the responsibilities of the certifying officers in establishing disclosure controls and internal controls over financial reporting. It also details the evaluation of these controls and any changes that may have occurred during the reporting period, including disclosures of significant deficiencies or fraud related to internal controls.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t122",
+      "title": "Exhibit 31.2",
+      "level": 1,
+      "start_page": 216,
+      "end_page": 216,
+      "summary": "Exhibit 31.2 contains a certification by Jeremy Barnum, the Executive Vice President and Chief Financial Officer of JPMorgan Chase & Co., regarding the accuracy and completeness of the Quarterly Report on Form 10-Q. It affirms that the report does not contain any misleading statements and that the financial statements fairly present the company's financial condition and results. The certification also outlines the responsibilities for establishing and maintaining disclosure controls and internal control over financial reporting, including evaluations of their effectiveness and disclosures of any significant deficiencies or fraud. This section emphasizes the importance of transparency and accountability in financial reporting.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t123",
+      "title": "Exhibit 32",
+      "level": 1,
+      "start_page": 217,
+      "end_page": 217,
+      "summary": "Exhibit 32 contains a certification by JPMorgan Chase & Co. officers, including CEO James Dimon and CFO Jeremy Barnum, pursuant to 18 U.S.C. Section 1350 and Section 906 of the Sarbanes-Oxley Act of 2002. The certification confirms that the Quarterly Report on Form 10-Q for the period ending June 30, 2023, complies with the Securities Exchange Act of 1934 and accurately presents the company's financial condition and results of operations. This document is essential for ensuring accountability and transparency in financial reporting.",
+      "source": "embedded_toc",
+      "children": []
+    }
+  ]
+}

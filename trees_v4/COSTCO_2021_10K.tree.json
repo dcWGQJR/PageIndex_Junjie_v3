@@ -1,0 +1,231 @@
+{
+  "node_id": "root",
+  "title": "COSTCO_2021_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 76,
+  "summary": "The section provides a comprehensive overview of Costco Wholesale Corporation's Form 10-K for the fiscal year ending August 29, 2021, detailing the company's business operations, risk factors, and financial performance. It includes information on the company's properties, legal proceedings, market for common equity, and executive compensation, while also addressing internal controls and compliance with SEC regulations. Key financial highlights include an 18% increase in net sales and discussions on market risks and management's analysis of financial conditions. The section emphasizes transparency in corporate governance and the importance of understanding ownership structures and related transactions.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Costco 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 2,
+      "summary": "This section provides the front matter for Costco Wholesale Corporation's Form 10-K annual report for the fiscal year ending August 29, 2021. It includes essential company information such as the registrant's name, address, and contact details, as well as its SEC file number and IRS Employer Identification Number. The section confirms the company's status as a well-known seasoned issuer and outlines its compliance with filing requirements under the Securities Exchange Act of 1934. Additionally, it mentions the market value of voting stock held by non-affiliates and the number of shares outstanding, along with a note on documents incorporated by reference.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 8,
+      "summary": "This section provides an overview of Costco Wholesale Corporation, detailing its operations, membership structure, and business strategy. It outlines the company's global presence, with 815 warehouses across multiple countries and a focus on low prices through efficient inventory management. The section also discusses Costco's diverse product offerings, including core merchandise categories and ancillary services, as well as its membership model, which boasts a high renewal rate. Additionally, it highlights the company's commitment to employee welfare and competitive compensation, emphasizing its operational efficiencies and competitive landscape.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 9,
+      "end_page": 18,
+      "summary": "This section outlines various risk factors that could significantly impact the company's business, financial condition, and operational results. Key risks include heavy reliance on U.S. and Canadian operations, challenges in expanding and integrating new warehouses, maintaining membership growth and brand loyalty, and potential disruptions in supply chains and IT systems. Additionally, the company faces competitive pressures, economic uncertainties, and risks associated with cybersecurity, product safety, and employee retention. The section emphasizes the importance of understanding these risks in conjunction with financial analyses to gauge potential impacts on the company's performance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This section, Item 1B, indicates that there are no unresolved staff comments related to the company's filings. It serves to inform readers that all previous inquiries or comments from staff have been addressed satisfactorily. This lack of unresolved comments may suggest compliance and transparency in the company's reporting processes.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "As of August 29, 2021, Costco operated 815 membership warehouses, with 644 owned and 171 leased properties. The distribution of these warehouses includes 564 in the United States and Puerto Rico, 105 in Canada, and 146 in other international locations. The total operating floor space across these warehouses is approximately 118.9 million square feet, with significant contributions from distribution and logistics facilities totaling around 31.4 million square feet. Additionally, Costco manages various processing and manufacturing facilities to support its private-label product offerings.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This section references the discussion of legal proceedings as detailed in Note 11 of the consolidated financial statements found in Item 8 of the report. Readers can learn about any ongoing or potential legal issues that may impact the company, including litigation, regulatory matters, or other legal risks. The section serves to direct readers to a more comprehensive analysis of legal proceedings affecting the organization.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This section indicates that the Mine Safety Disclosures are not applicable to the reporting entity. It suggests that there are no relevant mine safety issues or disclosures to report, which may imply that the company does not operate any mining activities or is not subject to mine safety regulations. Readers can learn that the company has assessed its operations and determined that mine safety disclosures do not pertain to its business activities.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 20,
+      "end_page": 20,
+      "summary": "This section provides information on the market for the registrant's common equity, specifically focusing on its trading status, stockholder matters, and equity security purchases. The common stock is traded on the NASDAQ under the symbol 'COST' with 9,958 stockholders of record as of September 28, 2021. It outlines the dividend policy, indicating that dividends are subject to Board approval and are expected to be paid quarterly based on profitability and capital needs. Additionally, it details the issuer's stock repurchase activity for the fourth quarter of 2021, including the total number of shares purchased, average price per share, and the maximum dollar value of shares that can still be repurchased under the existing program authorized by the Board in April 2019.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Reserved",
+      "level": 1,
+      "start_page": 21,
+      "end_page": 21,
+      "summary": "This section is labeled as 'Reserved' and does not contain any specific content or information. It serves as a placeholder within the document, indicating that no details are provided in this section. Readers will not find any facts, figures, or topics discussed here, as it is intentionally left blank for potential future use.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 22,
+      "end_page": 30,
+      "summary": "This section provides a detailed analysis of Costco's financial performance for 2021 compared to 2020, focusing on net sales, membership fees, gross margins, and operating expenses. Key highlights include an 18% increase in net sales to $192,052 million, driven by a 16% rise in comparable sales and the opening of 22 new warehouses. The gross margin percentage decreased slightly, while SG&A expenses as a percentage of net sales improved due to increased sales leverage. The impact of COVID-19 on operations and costs, including wage increases and supply chain constraints, is also discussed, along with the company's strategies for maintaining profitability amidst economic fluctuations and competition.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 31,
+      "end_page": 32,
+      "summary": "This section discusses the company's exposure to market risks, specifically interest rate risk, foreign currency risk, and commodity price risk. It details how interest rate fluctuations affect the fair value of fixed-rate investments and long-term debt, with a focus on preserving principal and generating yields. The company uses forward foreign-exchange contracts to hedge against foreign currency fluctuations, particularly for expenditures in non-functional currencies. Additionally, it addresses commodity price risk related to energy and other commodities, explaining the use of fixed-price and variable-priced contracts to mitigate these risks.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 33,
+      "end_page": 64,
+      "summary": "This section contains the audited consolidated financial statements of Costco Wholesale Corporation for the fiscal years ending August 29, 2021, August 30, 2020, and September 1, 2019. Key components include the consolidated balance sheets, income statements, comprehensive income statements, equity statements, and cash flow statements, detailing revenue, expenses, net income, and cash flows. The report also discusses the company's internal control over financial reporting and includes critical audit matters, such as the evaluation of workers' compensation self-insurance liabilities. Additionally, it outlines significant accounting policies, including the method of accounting for leases and inventory valuation methods.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 65,
+      "end_page": 65,
+      "summary": "This section reports that there have been no changes or disagreements with accountants regarding accounting and financial disclosure. It confirms the effectiveness of the company's disclosure controls and procedures as of August 29, 2021, as evaluated by the Chief Executive Officer and Chief Financial Officer. Additionally, it states that there were no changes in internal control over financial reporting during the fourth quarter of 2021 that materially affected the company's internal controls. The section emphasizes the importance of maintaining adequate internal controls to ensure reliable financial reporting in accordance with U.S. GAAP.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 65,
+      "end_page": 65,
+      "summary": "This section discusses the evaluation of the company's disclosure controls and procedures, which are designed to ensure compliance with SEC reporting requirements. It details the management's responsibility for maintaining adequate internal control over financial reporting, emphasizing the reliability of financial statements in accordance with U.S. GAAP. The Chief Executive Officer and Chief Financial Officer reviewed these controls as of August 29, 2021, concluding they were effective. Additionally, it notes that there were no changes in internal control over financial reporting during the fourth quarter of 2021 that materially affected the company's controls.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 66,
+      "end_page": 66,
+      "summary": "This section, Item 9B, indicates that there is no additional information to report. It serves as a placeholder, confirming that all relevant disclosures have been made in other sections of the report. The subsequent items referenced, such as executive compensation and director independence, are incorporated by reference to Costco's Proxy Statement, which will be filed with the SEC. This structure allows for streamlined reporting by directing readers to detailed information in the Proxy Statement.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 66,
+      "end_page": 66,
+      "summary": "This section provides information about the company's directors, executive officers, and corporate governance practices. It references the code of ethics for senior financial officers and includes a list of executive officers. Key details regarding directors and nominees are incorporated by reference from Costco's Proxy Statement for the 2022 annual meeting, covering topics such as election proposals, board committees, and director independence. Additionally, it outlines where to find information on executive compensation and security ownership.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 66,
+      "end_page": 66,
+      "summary": "This section references the executive compensation details found in Costco's Proxy Statement, specifically in the sections titled 'Compensation of Directors,' 'Executive Compensation,' and 'Compensation Discussion and Analysis.' Readers can learn about the compensation structure for directors and executives, including salary, bonuses, stock options, and other benefits. The information is crucial for understanding how the company compensates its leadership and aligns their interests with those of shareholders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 66,
+      "end_page": 66,
+      "summary": "This section references information about the security ownership of certain beneficial owners and management, specifically directing readers to the 'Principal Shareholders' and 'Equity Compensation Plan Information' sections in Costco's Proxy Statement. It highlights the importance of understanding who holds significant shares in the company and the compensation plans in place for equity. This information is crucial for shareholders and potential investors to assess ownership structures and management incentives.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 66,
+      "end_page": 66,
+      "summary": "This section references information regarding certain relationships and related transactions, as well as the independence of directors. It incorporates details from Costco's Proxy Statement, specifically sections on the election of directors, board committees, and shareholder communications. Readers can learn about the governance structure, director qualifications, and any potential conflicts of interest involving directors. Additionally, it highlights the importance of transparency in corporate governance practices.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 66,
+      "end_page": 66,
+      "summary": "This section references the information regarding principal accounting fees and services, which is detailed in the Proxy Statement under the section titled 'Independent Public Accountants.' Readers can learn about the fees paid to auditors, the types of services provided, and any potential implications for financial reporting and governance. It emphasizes the importance of transparency in accounting practices and the relationship between the company and its auditors.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 15. Exhibits, Financial Statement Schedules",
+      "level": 1,
+      "start_page": 66,
+      "end_page": 68,
+      "summary": "This section outlines the exhibits and financial statement schedules included in Costco's Annual Report on Form 10-K. It specifies that financial statements are referenced from Item 8 in Part II, while all financial statement schedules have been omitted due to insufficient information. Additionally, it lists various exhibits, including the Articles of Incorporation, Bylaws, and several forms of senior notes, along with their filing dates and forms. The section serves to provide transparency regarding the company's legal and financial documentation.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 69,
+      "end_page": 76,
+      "summary": "This section provides a summary of the Form 10-K filing for Costco Wholesale Corporation, including the signatures of key executives such as the CEO and CFO, certifying the accuracy of the report. It lists the company's subsidiaries as of August 29, 2021, detailing their jurisdictions and business names. Additionally, it includes certifications from the CEO and CFO regarding compliance with the Securities Exchange Act and the integrity of financial reporting. The section emphasizes the importance of internal controls and the responsibilities of management in ensuring accurate financial disclosures.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

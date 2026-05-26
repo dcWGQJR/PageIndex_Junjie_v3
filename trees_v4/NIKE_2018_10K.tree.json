@@ -1,0 +1,362 @@
+{
+  "node_id": "root",
+  "title": "NIKE_2018_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 97,
+  "summary": "This section of NIKE, Inc.'s Form 10-K for the fiscal year ending May 31, 2018, provides a comprehensive overview of the company's business operations, financial performance, and governance. It includes details on risk factors, properties, legal proceedings, and market conditions affecting NIKE. The report highlights financial data, management's analysis of operations, executive compensation, and corporate governance practices. Additionally, it outlines the company's stock performance, share repurchase programs, and internal controls, ensuring transparency and compliance with SEC regulations.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Nike, Inc. Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 2,
+      "summary": "This section provides the front matter for Nike, Inc.'s Form 10-K annual report for the fiscal year ending May 31, 2018. It includes essential company information such as the registrant's name, address, and SEC file number, as well as details about its stock classes and market values. The section also indicates the company's compliance status with SEC filing requirements and identifies the documents incorporated by reference, specifically the Proxy Statement for the upcoming Annual Meeting of Shareholders. Additionally, it outlines the structure of the report, including the items covered in various parts.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 7,
+      "summary": "This section provides a comprehensive overview of NIKE, Inc., detailing its business operations, product categories, and market strategies. It highlights the company's status as the largest global seller of athletic footwear and apparel, with a focus on innovation and quality across key product areas such as Running, Sportswear, and the Jordan Brand. The section also discusses NIKE's sales and marketing strategies, significant customer relationships, and international operations, including manufacturing and distribution networks. Additionally, it addresses the competitive landscape, intellectual property rights, and employee structure, emphasizing the importance of research and development in maintaining NIKE's market position.",
+      "source": "printed_toc",
+      "children": [
+        {
+          "node_id": "p2",
+          "title": "Item 1. General",
+          "level": 2,
+          "start_page": 3,
+          "end_page": 3,
+          "summary": "This section provides an overview of NIKE, Inc., including its incorporation in 1967 and its primary business activities, which involve the design, development, and marketing of athletic footwear, apparel, and equipment. It highlights NIKE's status as the largest seller of athletic footwear and apparel globally, detailing its sales channels, including NIKE-owned stores and digital platforms. The section also outlines the company's product categories, emphasizing innovation and quality, with specific focus on top-selling categories like Sportswear, Running, and the Jordan Brand. Additionally, it mentions subsidiary brands such as Converse and Hurley, and the licensing agreements that allow third parties to use NIKE trademarks for various products.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p3",
+          "title": "Item 1. Products",
+          "level": 2,
+          "start_page": 3,
+          "end_page": 3,
+          "summary": "This section outlines NIKE, Inc.'s primary business activities, focusing on the design, development, and marketing of athletic footwear, apparel, equipment, and accessories. NIKE categorizes its products into six key areas: Running, NIKE Basketball, the Jordan Brand, Football (Soccer), Training, and Sportswear, with a strong emphasis on innovation and quality. The section highlights that NIKE is the largest seller of athletic footwear and apparel globally, with products sold through various channels including NIKE-owned stores and digital platforms. Additionally, it mentions subsidiary brands like Converse and Hurley, and the company's licensing agreements that allow third parties to produce NIKE-branded products.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p4",
+          "title": "Item 1. Sales and Marketing",
+          "level": 2,
+          "start_page": 4,
+          "end_page": 4,
+          "summary": "This section provides an overview of NIKE's sales and marketing strategies, detailing the company's geographic and segment operations. It highlights the seasonal fluctuations in sales volume and the impact of consumer preferences on product demand. The section outlines the organizational structure of NIKE's brand operations, including the segmentation into North America, EMEA, Greater China, and APLA. It also presents sales data, indicating that approximately 42% of total revenues in fiscal 2018 came from the U.S. market, with significant contributions from NIKE Direct and Converse operations. Additionally, it notes the distribution network, including the number of retail stores and distribution centers both in the U.S. and internationally.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p5",
+          "title": "Item 1. United States Market",
+          "level": 2,
+          "start_page": 4,
+          "end_page": 4,
+          "summary": "This section provides an overview of the United States market for NIKE and Converse, highlighting that U.S. sales accounted for approximately 42% of total revenues in fiscal 2018, a decrease from previous years. It details the distribution of products through various retail channels, including thousands of retail accounts and direct-to-consumer operations, with a total of 392 retail stores in the U.S. The section also mentions the significance of major customers, with the top three accounting for 21% of U.S. sales, and outlines the company's distribution infrastructure, including seven significant distribution centers. Additionally, it emphasizes the importance of adapting to consumer trends and preferences to maintain sales and profitability.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p6",
+          "title": "Item 1. International Markets",
+          "level": 2,
+          "start_page": 4,
+          "end_page": 4,
+          "summary": "In fiscal 2018, non-U.S. sales of NIKE Brand and Converse represented approximately 58% of total revenues, an increase from previous years. The section details the global sales strategy, including retail accounts, NIKE Direct operations, and partnerships with independent distributors and licensees. NIKE operates 62 distribution centers outside the U.S. and has a significant presence in over 45 countries through digital commerce platforms. The section also lists the number of retail stores outside the U.S., including 664 NIKE Brand factory stores and 61 Converse stores, highlighting the company's extensive international market reach.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p7",
+          "title": "Item 1. Significant Customer",
+          "level": 2,
+          "start_page": 5,
+          "end_page": 5,
+          "summary": "This section discusses NIKE's significant customer relationships, noting that no single customer accounted for 10% or more of worldwide net revenues in fiscal 2018. It highlights the company's extensive international presence with branch offices and subsidiaries across numerous countries. The section also emphasizes the importance of research, design, and development in creating innovative products that enhance athletic performance. Additionally, it details the manufacturing process, including the reliance on independent contract manufacturers in various countries, and the materials used in footwear and apparel production. Lastly, it mentions the role of Sojitz Corporation in providing financing services for NIKE's operations in specific markets.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p8",
+          "title": "Item 1. Product Research, Design and Development",
+          "level": 2,
+          "start_page": 5,
+          "end_page": 5,
+          "summary": "This section outlines NIKE's commitment to product research, design, and development as critical components of its success. It emphasizes the importance of technical innovation in enhancing athletic performance, comfort, and sustainability while minimizing waste. The section details the collaboration with experts, including athletes and specialists, in the design process and the use of advanced technologies across various product categories. Additionally, it provides insights into the manufacturing process, including the locations and contributions of contract factories for footwear and apparel, as well as the materials used in production.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p9",
+          "title": "Item 1. Manufacturing",
+          "level": 2,
+          "start_page": 5,
+          "end_page": 5,
+          "summary": "This section details NIKE's manufacturing operations, highlighting the global distribution of its footwear and apparel production. NIKE sources footwear from 124 factories in 13 countries, with significant production in Vietnam, China, and Indonesia, while apparel is produced in 328 factories across 37 countries, primarily in China, Vietnam, and Thailand. The section emphasizes the importance of independent contract manufacturers, who account for the majority of production, and outlines the materials used in products, including various fabrics and cushioning components. Additionally, it discusses the role of Sojitz Corporation in financing and logistics for international sales, as well as the potential risks associated with international trade and operations.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p10",
+          "title": "Item 1. International Operations and Trade",
+          "level": 2,
+          "start_page": 5,
+          "end_page": 5,
+          "summary": "This section details NIKE's extensive international operations, highlighting the locations of its branch offices and subsidiaries across various countries. It discusses the company's reliance on independent contract manufacturers for footwear and apparel production, with significant percentages of production occurring in Vietnam, China, and Indonesia. The section also emphasizes the importance of research, design, and development in creating innovative products that enhance athletic performance. Additionally, it outlines the risks associated with international trade, including potential changes in trade policies and political instability, while noting that NIKE has not yet been materially affected by these risks.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p11",
+          "title": "Item 1. Competition",
+          "level": 2,
+          "start_page": 6,
+          "end_page": 6,
+          "summary": "This section discusses the competitive landscape of the athletic footwear, apparel, and equipment industry, highlighting NIKE's position as the largest seller globally. It identifies key competitors such as adidas, Puma, and Under Armour, and outlines critical competitive factors including product quality, consumer brand affinity, and effective distribution. The section also emphasizes the importance of intellectual property rights, detailing NIKE's efforts to protect its trademarks, copyrights, and patents, which are vital for maintaining its competitive edge.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p12",
+          "title": "Item 1. Trademarks and Patents",
+          "level": 2,
+          "start_page": 6,
+          "end_page": 6,
+          "summary": "This section discusses the importance of intellectual property rights, particularly trademarks and patents, to NIKE's brand and competitive position. It highlights the company's efforts to protect its trademarks, including the NIKE and Swoosh marks, which are registered in nearly 170 jurisdictions. Additionally, it covers the ownership of copyrights for designs and graphics, as well as the maintenance of numerous utility and design patents related to technologies and manufacturing techniques in athletic footwear and apparel. The section emphasizes the proactive measures taken to safeguard these assets against infringement.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p13",
+          "title": "Item 1. Employees",
+          "level": 2,
+          "start_page": 7,
+          "end_page": 7,
+          "summary": "As of May 31, 2018, NIKE employed approximately 73,100 individuals globally, including retail and part-time staff. The company fosters an environment for employee growth and has limited union representation, primarily in the Asia Pacific & Latin America regions due to local laws. The section also details the executive leadership team, highlighting their roles, backgrounds, and tenure at NIKE, including key figures such as Mark G. Parker (CEO) and Monique S. Matheson (Global Human Resources). Additionally, it notes that NIKE has not faced significant operational disruptions from labor disputes.",
+          "source": "printed_toc",
+          "children": []
+        },
+        {
+          "node_id": "p14",
+          "title": "Item 1. Executive Officers of the Registrant",
+          "level": 2,
+          "start_page": 7,
+          "end_page": 7,
+          "summary": "This section provides detailed information about the executive officers of NIKE, Inc. as of July 24, 2018, including their names, titles, ages, and professional backgrounds. Key executives include Mark G. Parker, the Chairman and CEO, who has been with NIKE since 1979, and Chris L. Abston, the Vice President and Corporate Controller, who joined from Wal-Mart. Other notable executives include Andrew Campion, the Chief Financial Officer, and Hilary K. Krane, the Chief Administrative Officer and General Counsel, highlighting their previous roles and contributions to the company. The section emphasizes the leadership structure and experience of NIKE's top management team.",
+          "source": "printed_toc",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 8,
+      "end_page": 16,
+      "summary": "This section outlines various risk factors that could adversely affect NIKE's business and financial performance. Key risks include intense competition in the athletic footwear and apparel market, challenges in maintaining brand reputation, and the need for continuous product innovation to meet changing consumer preferences. Additionally, the section discusses economic uncertainties, such as fluctuations in currency exchange rates and global economic conditions, which could impact revenues and costs. Other risks include reliance on key endorsers, potential inventory mismanagement, and the financial health of customers, all of which could lead to decreased sales and profitability.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This section indicates that there are no unresolved staff comments related to the company, suggesting that all previous inquiries or issues raised by staff have been addressed satisfactorily. It serves to inform stakeholders that there are no outstanding concerns that could impact the company's operations or reporting. This transparency may enhance investor confidence and indicate effective communication within the organization.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This section provides a detailed overview of NIKE's principal properties, including the NIKE World Campus in Beaverton, Oregon, which serves as the global headquarters for approximately 11,200 employees. It outlines various leased office facilities in the Netherlands and China that support regional operations. Additionally, the section describes NIKE's distribution centers in the U.S., including locations in Memphis, Indianapolis, and Dayton, as well as significant international distribution facilities in Belgium, China, Japan, and Korea. The section also mentions the Air Manufacturing Innovation facilities and the global leasing of retail stores, highlighting the company's extensive operational footprint.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This section states that NIKE is not involved in any material pending legal proceedings, except for ordinary routine litigation that is incidental to its business operations. It clarifies that there are no significant legal issues affecting the company or its properties, providing assurance to stakeholders about the legal stability of the organization.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This section states that the Mine Safety Disclosures are not applicable to the company. It indicates that there are no relevant mine safety issues or disclosures to report, suggesting that the company does not engage in mining activities or operations that would require such disclosures. Readers can learn that the company is not subject to mine safety regulations or reporting requirements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 18,
+      "end_page": 19,
+      "summary": "This section provides an overview of NIKE's Class B Common Stock, including its listing on the New York Stock Exchange under the symbol NKE and the number of holders of record as of July 20, 2018. It details a $12 billion share repurchase program approved in November 2015, with 149.4 million shares repurchased by May 31, 2018, at an average price of $58.25 per share. Additionally, it includes a summary of share repurchases for March, April, and May 2018, along with a performance graph comparing NIKE's stock returns to major indices over five years, emphasizing the impact of NIKE's stock on the Dow Jones U.S. Footwear Index and other relevant indices.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 6. Selected Financial Data",
+      "level": 1,
+      "start_page": 20,
+      "end_page": 21,
+      "summary": "This section provides a detailed overview of selected financial data for the company over several years, including revenues, gross profit, net income, earnings per share, and cash dividends declared. It highlights key financial metrics such as gross margin, return on equity, and current ratio, along with stock price ranges and market capitalization. The data reflects the impact of a two-for-one stock split and includes adjustments due to accounting standards and tax legislation. Additionally, quarterly financial data for 2018 and 2017 is presented, showing trends in revenue and earnings per share across different quarters.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 22,
+      "end_page": 41,
+      "summary": "This section provides an in-depth analysis of NIKE's financial condition and operational results, detailing the company's revenue growth strategies, including the Consumer Direct Offense and Triple Double strategy aimed at enhancing consumer connections and innovation. It highlights fiscal 2018 performance, reporting a 6% revenue increase to $36.4 billion, with NIKE Brand revenues growing 7%, driven by footwear and apparel sales. The section also discusses challenges such as a decrease in income before taxes by 11% and gross margin contraction due to foreign currency impacts. Additionally, it outlines the company's operating segments and the use of non-GAAP financial measures to assess performance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p23",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures about Market Risk",
+      "level": 1,
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This section discusses the company's strategies for managing market risks related to foreign currencies and interest rates. It outlines the use of financial instruments such as forward and option contracts to hedge against currency fluctuations, particularly in international sales and funding activities. The company employs a Value-at-Risk (VaR) model to estimate potential losses from foreign currency-sensitive derivatives, reporting a maximum one-day loss of $93 million as of May 31, 2018. Additionally, it highlights the importance of maintaining a mix of debt instruments to manage interest rate exposure and reduce borrowing costs. The section emphasizes that actual future gains and losses may differ from VaR estimates due to market changes and other factors.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p24",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 43,
+      "end_page": 74,
+      "summary": "This section provides a comprehensive overview of NIKE, Inc.'s financial statements, including the consolidated balance sheets, income statements, cash flow statements, and statements of shareholders' equity for the fiscal years ending May 31, 2018, 2017, and 2016. It details the company's revenues, expenses, net income, and earnings per share, along with significant accounting policies and internal controls over financial reporting. Readers can learn about the company's financial position, operational performance, and the effectiveness of its internal controls, as well as changes in accounting principles and the impact of foreign currency on financial results.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p25",
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 75,
+      "end_page": 75,
+      "summary": "This section confirms that there have been no changes or disagreements with accountants regarding accounting principles or financial statement disclosures. It also outlines the company's disclosure controls and procedures, emphasizing their effectiveness as of May 31, 2018. The management's ongoing transformation initiatives aim to enhance internal control over financial reporting through increased automation. Additionally, it mentions the approval of a discretionary performance award agreement by the Compensation Committee to incentivize employee performance, detailing specific cash awards to named executive officers.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p26",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 75,
+      "end_page": 75,
+      "summary": "This section outlines the company's disclosure controls and procedures, which are designed to ensure compliance with SEC reporting requirements. It emphasizes the role of management, including the CEO and CFO, in evaluating the effectiveness of these controls, which were deemed effective as of May 31, 2018. The company is also engaged in long-term transformation initiatives aimed at enhancing internal control over financial reporting through increased automation. Additionally, it notes that there have been no significant changes in internal controls that could materially affect financial reporting during the recent fiscal quarter.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p27",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 75,
+      "end_page": 75,
+      "summary": "This section details the approval of a discretionary performance award agreement (DPA) by NIKE, Inc.'s Compensation Committee on July 20, 2018, aimed at providing cash incentives to employees based on performance. The DPA is designed to complement existing performance-based compensation plans, including the Long-Term Incentive Plan (LTIP). It also outlines specific cash awards granted to named executive officers, totaling $2,220,000, and notes adjustments made to LTIP awards due to the Tax Cuts and Jobs Act. The section emphasizes the company's commitment to aligning executive compensation with performance outcomes.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p28",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 76,
+      "end_page": 76,
+      "summary": "This section outlines the incorporation by reference of various regulatory requirements related to directors, executive officers, and corporate governance as per Regulation S-K. It specifies that information about directors is found in the Proxy Statement under 'Election of Directors', while details on executive officers are included in Item 1 of the report. Additionally, it references compliance reporting, the Code of Business Conduct and Ethics, and the Audit & Finance Committee's details, all of which are also found in the Proxy Statement for the 2018 Annual Meeting of Shareholders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p29",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 76,
+      "end_page": 76,
+      "summary": "This section outlines the executive compensation information required by Regulation S-K, specifically Items 402, 407(e)(4), and 407(e)(5). It references detailed discussions on director compensation, compensation analysis, and reports from the compensation committee found in the definitive Proxy Statement for the 2018 Annual Meeting of Shareholders. Readers can learn about the structure and components of executive pay, including any interlocks and insider participation in compensation decisions.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p30",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 76,
+      "end_page": 76,
+      "summary": "This section outlines the security ownership of certain beneficial owners and management, referencing specific regulatory requirements under Regulation S-K. It indicates that detailed information regarding equity compensation plans and stock holdings of certain owners and management is included in the definitive Proxy Statement for the 2018 Annual Meeting of Shareholders. The section serves to inform shareholders about the ownership stakes of key individuals and related stockholder matters, ensuring transparency in corporate governance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p31",
+      "title": "Item 13. Certain Relationships and Related Transactions and Director Independence",
+      "level": 1,
+      "start_page": 76,
+      "end_page": 76,
+      "summary": "This section outlines the information required by Items 404 and 407(a) of Regulation S-K, specifically regarding transactions with related persons and the independence of directors. It indicates that detailed information on these topics is included in the definitive Proxy Statement for the 2018 Annual Meeting of Shareholders. Readers can learn about the company's policies and practices related to related party transactions and the criteria used to assess director independence.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p32",
+      "title": "Item 14. Principal Accountant Fees and Services",
+      "level": 1,
+      "start_page": 76,
+      "end_page": 76,
+      "summary": "This section outlines the disclosure requirements related to the fees and services provided by the principal accountant, as mandated by Item 9(e) of Schedule 14A. It indicates that detailed information regarding the ratification of the independent registered public accounting firm is included in the definitive Proxy Statement for the 2018 Annual Meeting of Shareholders. Readers can learn about the specific fees charged for audit and non-audit services, as well as the overall relationship between the company and its accounting firm.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p33",
+      "title": "Item 15. Exhibits and Financial Statement Schedules",
+      "level": 1,
+      "start_page": 77,
+      "end_page": 79,
+      "summary": "Item 15 details the exhibits and financial statement schedules included in the report. It lists the financial statements for the three years ending May 31, 2018, including income statements, balance sheets, and cash flow statements. Additionally, it provides a financial statement schedule for valuation and qualifying accounts, showing balances and changes over the years. The section also enumerates various exhibits, such as the Restated Articles of Incorporation, bylaws, and stock option agreements, many of which are incorporated by reference from previous filings. Readers can learn about the company's financial reporting structure and access specific legal and financial documents related to corporate governance and compensation plans.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p34",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 80,
+      "end_page": 97,
+      "summary": "Item 16 of the Form 10-K provides a summary of the report, including the consent of the independent registered public accounting firm, PricewaterhouseCoopers LLP, regarding the financial statements and internal control effectiveness. It includes signatures from key executives and directors, affirming the report's accuracy and compliance with the Securities Exchange Act of 1934. The section also outlines the company's commitment to maintaining proper financial reporting and internal controls, as well as the legal obligations of its executives. This summary serves as a formal conclusion to the 10-K filing, ensuring all necessary certifications are included.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

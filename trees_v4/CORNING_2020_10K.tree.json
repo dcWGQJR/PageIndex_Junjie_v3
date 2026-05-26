@@ -1,0 +1,1470 @@
+{
+  "node_id": "root",
+  "title": "CORNING_2020_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 138,
+  "summary": "This section of Corning Incorporated's Form 10-K for the fiscal year ending December 31, 2020, provides a comprehensive overview of the company's business operations, financial performance, and governance. It includes details on business segments, diversity and inclusion initiatives, talent management strategies, and business risks, particularly related to COVID-19. Financial performance is analyzed through consolidated income statements, balance sheets, and cash flow statements, highlighting trends in revenue and expenses. Additionally, the section covers critical accounting estimates, environmental liabilities, and certifications under the Sarbanes-Oxley Act, ensuring transparency and accountability in financial reporting.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Corning Incorporated Form 10-K Front Matter",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section provides essential introductory information for Corning Incorporated's Form 10-K annual report for the fiscal year ending December 31, 2020. It includes the company's name, jurisdiction of incorporation, and IRS Employer Identification Number. The section also details the company's principal executive office address and contact number, along with information about its common stock, including trading symbol and exchange. Additionally, it confirms the company's status as a large accelerated filer and includes market value data for its common stock as of June 30, 2020, and the number of shares outstanding as of January 31, 2021. Lastly, it notes the incorporation of the Definitive Proxy Statement for the 2021 Annual Meeting of Shareholders into the report.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "w1",
+      "title": "Overview of Corning Incorporated and Its Business Segments",
+      "level": 1,
+      "start_page": 2,
+      "end_page": 9,
+      "summary": "Part I provides a comprehensive overview of Corning Incorporated, detailing its history, business segments, and innovations across Display Technologies, Optical Communications, Specialty Materials, Environmental Technologies, Life Sciences, and an 'All Other' category. It emphasizes the significance of patent protection, competitive strategies, raw material requirements, and the company's approach to intellectual property. The section highlights the contribution of each segment to Corning's net sales in 2020 and discusses the competitive landscape and challenges faced by the company.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w2",
+          "title": "Overview of Corning Incorporated and Its Business Segments",
+          "level": 2,
+          "start_page": 2,
+          "end_page": 2,
+          "summary": "Corning Incorporated, established in 1851 and incorporated in 1936, is a leader in materials science, specializing in glass and ceramic innovations. The company focuses on research and development to create products that enhance various industries, including optical communications, mobile electronics, and automotive technologies. Corning operates five reportable segments: Display Technologies, Optical Communications, Environmental Technologies, Specialty Materials, and Life Sciences, with 122 manufacturing plants across 15 countries. The Display Technologies segment is notable for its production of glass substrates for LCDs and OLEDs, utilizing a proprietary fusion manufacturing process that ensures high quality and cost-effectiveness.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w3",
+          "title": "Overview of Corning's Display Technologies Innovations",
+          "level": 2,
+          "start_page": 3,
+          "end_page": 3,
+          "summary": "This section details Corning's leadership in display technologies, highlighting innovations such as Corning® EAGLE XG® Slim Glass for thinner displays, Corning Astra® Glass for high-resolution applications, and Corning Lotus™ NXT Glass for high-performance needs. It emphasizes the significance of patent protection and proprietary trade secrets in their operations. The Display Technologies segment accounted for 28% of Corning's net sales in 2020, showcasing its importance in the company's overall business strategy. Additionally, it mentions Corning's global manufacturing presence in Asia.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w4",
+          "title": "Overview of Corning's Optical Communications Products and Solutions",
+          "level": 2,
+          "start_page": 4,
+          "end_page": 4,
+          "summary": "The Optical Communications Segment details Corning's extensive product offerings, including optical fiber, cable, and various hardware and equipment for carrier and enterprise networks. Key solutions highlighted include the FlexNAPTM terminal distribution system for FTTH and 5G networks, and the ONE™ Wireless Platform, an all-optical solution for cellular and Wi-Fi services. The section also covers Corning's manufacturing locations, patent portfolio, and the segment's contribution to net sales, which was 31% in 2020. Readers can learn about specific products, their applications, and the importance of patent protection in this segment.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w5",
+          "title": "Overview of Specialty Materials Segment and Key Products",
+          "level": 2,
+          "start_page": 5,
+          "end_page": 5,
+          "summary": "The Specialty Materials segment produces over 150 formulations for glass, glass ceramics, and crystals, catering to diverse markets such as mobile electronics, aerospace, and telecommunications. Key products include Corning® Gorilla® Glass, known for its durability and optical clarity, and the innovative Ceramic Shield used in iPhones. The segment also manufactures semiconductor optics and ultra-thin glass wafers for advanced applications. Patent protection and brand recognition are crucial for this segment, which accounted for 16% of Corning's net sales in 2020.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w6",
+          "title": "Overview of Environmental Technologies Segment",
+          "level": 2,
+          "start_page": 6,
+          "end_page": 6,
+          "summary": "The Environmental Technologies segment is crucial for Corning, representing 12% of its net sales in 2020. This section highlights the importance of patent protection for the segment's operations, detailing its extensive portfolio of patents related to products, technologies, and manufacturing processes. Additionally, it notes that Corning is licensed to use certain external patents, which are vital for its operations. For more detailed information on patents and trademarks, readers are directed to a specific section.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w7",
+          "title": "Overview of Corning's Life Sciences Segment",
+          "level": 2,
+          "start_page": 6,
+          "end_page": 6,
+          "summary": "Corning's Life Sciences segment has over 105 years of experience in developing and supplying laboratory products aimed at enhancing research and drug manufacturing. It focuses on innovation, efficiency, and cost reduction in drug discovery, including small molecules, biologics, and gene therapies. Key products include consumables and labware marketed under brands like Corning and Falcon, primarily to pharmaceutical and biotechnology sectors. The segment accounted for 9% of Corning's net sales in 2020 and relies on a robust patent portfolio for its operations.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w8",
+          "title": "Overview of Corning's 'All Other' Segment",
+          "level": 2,
+          "start_page": 6,
+          "end_page": 6,
+          "summary": "The 'All Other' section consolidates segments of Corning that do not meet reporting thresholds, including pharmaceutical technologies, auto glass, new product lines, and development projects. It highlights the acquisition of a controlling interest in Hemlock Semiconductor Group in 2020, which is included in this category. This segment accounted for 4% of Corning's net sales in 2020, and further details can be found in the financial notes regarding investments and acquisitions.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w9",
+          "title": "Corning's Competitive Landscape and Strategies",
+          "level": 2,
+          "start_page": 7,
+          "end_page": 7,
+          "summary": "This section discusses Corning's competitive landscape across various segments, including Display Technologies, Optical Communications, Specialty Materials, Environmental Technologies, and Life Sciences. It highlights Corning's strategies for maintaining its market position through innovation, product quality, and supply reliability. Key competitors in each segment are identified, such as Asahi Glass and CommScope, and the challenges posed by industry consolidation and price pressures are noted. The section emphasizes the importance of research and development in sustaining competitive advantages.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w10",
+          "title": "Overview of Corning's Raw Material Requirements",
+          "level": 2,
+          "start_page": 8,
+          "end_page": 8,
+          "summary": "This section outlines the essential raw materials required for Corning's manufacturing processes, including power, water, precious metals, and various batch materials. It discusses the adequacy of resource availability and the potential risks associated with supplier capacity limitations. Corning has established programs to ensure a reliable supply chain, including alternate suppliers for critical materials. The section also highlights the importance of monitoring sole-sourced materials to mitigate risks of supply disruptions that could impact sales and margins.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w11",
+          "title": "Corning's Patent and Trademark Strategy Overview",
+          "level": 2,
+          "start_page": 8,
+          "end_page": 9,
+          "summary": "This section discusses Corning's patent and trademark strategy, highlighting the importance of inventions by its research and engineering staff for company growth. It details the number of patents granted in the U.S. and internationally, including the expiration of some patents and ongoing applications. Key patents in various business segments such as Display Technologies, Optical Communications, and Life Sciences are outlined, emphasizing their competitive advantages. Additionally, it mentions Corning's trademarks and its approach to enforcing intellectual property rights.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w12",
+      "title": "Corning's Commitment to Diversity and Inclusion",
+      "level": 1,
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This section outlines Corning's commitment to diversity and inclusion, highlighting a workforce composition of 61% men and 39% women, and initiatives like the UP2 program that supports women's career advancement. It details the achievement of 100% pay equity in major countries and the establishment of the Office of Racial Equality and Social Unity to enhance corporate culture and community projects. Additionally, Corning sponsors over thirty Employee Resource Groups representing various demographics, including women, minorities, and veterans, to foster an inclusive environment.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w13",
+      "title": "Corning's Talent Management Strategies and Initiatives",
+      "level": 1,
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This section outlines Corning's talent management strategies, emphasizing the alignment of talent implications with strategic business plans. It details efforts to attract diverse candidates through internships, partnerships with organizations, and a strategic talent pipeline. The company conducts regular climate surveys to gauge employee engagement and satisfaction, while offering extensive development programs to support long-term career growth. Additionally, it highlights a high talent retention rate and a commitment to employee health and safety through various wellness initiatives.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w14",
+      "title": "Corning's Business Risks and Environmental Liabilities Overview",
+      "level": 1,
+      "start_page": 11,
+      "end_page": 21,
+      "summary": "This section details key risk factors affecting Corning's business, including the ongoing COVID-19 pandemic, supply chain disruptions, and pricing pressures in the display glass market. It also addresses potential liabilities related to environmental litigation, specifically under the Superfund Act, with estimated liabilities increasing to $68 million. Additionally, the section confirms compliance with mine safety regulations, indicating no significant safety violations in mining operations. Overall, it informs stakeholders of the uncertainties and risks that could impact Corning's financial performance and operational stability.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w15",
+          "title": "Key Risk Factors Impacting Corning's Business",
+          "level": 2,
+          "start_page": 14,
+          "end_page": 14,
+          "summary": "This section outlines the various risk factors that could negatively impact Corning's business and financial performance. It highlights the ongoing COVID-19 pandemic as a significant risk, detailing its potential effects on the global economy, operations, supply chains, and financial markets. The discussion emphasizes the uncertainty surrounding the pandemic's duration and impact, urging readers to consider these risks in conjunction with the company's financial statements and management analysis. Overall, it serves to inform stakeholders of the critical uncertainties that may affect future results.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w16",
+          "title": "Business Risks and Uncertainties",
+          "level": 2,
+          "start_page": 14,
+          "end_page": 20,
+          "summary": "This section outlines various risks that could adversely affect Corning's business operations and financial performance. Key risks include the ongoing impact of the COVID-19 pandemic on supply chains and economic conditions, pricing pressures in the display glass market, and the concentration of customers which could lead to significant revenue loss if key clients are lost. Additionally, the section discusses risks related to intellectual property enforcement, cybersecurity vulnerabilities, and the potential for disruptions in manufacturing operations. It also highlights the challenges posed by environmental regulations and international trade policies.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w17",
+          "title": "Corning's Environmental Litigation and Liability Overview",
+          "level": 2,
+          "start_page": 21,
+          "end_page": 21,
+          "summary": "Corning is identified as a potentially responsible party for 15 hazardous waste sites under the Superfund Act and similar state laws. The company is jointly liable for cleanup costs unless otherwise agreed by the Environmental Protection Agency. Corning accrues estimated liabilities for these sites, amounting to approximately $68 million as of December 31, 2020, up from $41 million in 2019. Management believes this reserve is a reasonable estimate of the company's liability, with a low risk of additional significant losses.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w18",
+          "title": "Mine Safety Disclosure Status",
+          "level": 2,
+          "start_page": 21,
+          "end_page": 21,
+          "summary": "This section states that there are no mine safety disclosures to report. It indicates compliance with regulations requiring the disclosure of safety information related to mining operations. The absence of any reported issues suggests that the company has not encountered significant safety violations or incidents in its mining activities.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w19",
+      "title": "Corning Financial Performance and Strategic Overview",
+      "level": 1,
+      "start_page": 22,
+      "end_page": 37,
+      "summary": "PART II covers Corning Incorporated's financial performance and strategic initiatives from 2018 to 2020, including stockholder matters, management strategies during the COVID-19 pandemic, and detailed financial analyses. It discusses equity earnings from affiliated companies, the impact of foreign currency on income, and comprehensive income adjustments. The section also provides insights into core performance measures, net income trends, and reconciliations of non-GAAP to GAAP financial metrics, highlighting operational challenges and strategic responses. Overall, it presents a comprehensive overview of the company's financial health and strategic direction amidst economic fluctuations.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w20",
+          "title": "Market for Common Equity and Stockholder Matters",
+          "level": 2,
+          "start_page": 22,
+          "end_page": 23,
+          "summary": "This section provides an overview of the market for the registrant's common equity, focusing on stockholder matters and issuer stock purchases. It details the issuer's common stock repurchases during the fiscal fourth quarter of 2020, including the total shares purchased, average price per share, and remaining dollar value for future purchases. It specifies that 45,141 shares were bought at an average price of $35.10, with approximately $5.32 billion left for future repurchases. The section also mentions the suspension of share repurchases in March 2020 and discusses transactions related to employee stock options and restricted stock units.",
+          "source": "window",
+          "children": [
+            {
+              "node_id": "w21",
+              "title": "Issuer Stock Purchases in Q4 2020",
+              "level": 3,
+              "start_page": 23,
+              "end_page": 23,
+              "summary": "This section details the issuer's purchases of common stock during the fiscal fourth quarter of 2020, including the total number of shares purchased, the average price paid per share, and the number of shares bought as part of publicly announced programs. It specifies that a total of 45,141 shares were purchased at an average price of $35.10, with a remaining dollar value of approximately $5.32 billion available for future purchases under these programs. Additionally, it notes that share repurchases were suspended in March 2020 and outlines specific transactions related to employee stock options and restricted stock units.",
+              "source": "window",
+              "children": []
+            }
+          ]
+        },
+        {
+          "node_id": "w22",
+          "title": "Management Discussion on Strategy and Financial Performance",
+          "level": 2,
+          "start_page": 24,
+          "end_page": 25,
+          "summary": "This section discusses Corning's strategic response to the COVID-19 pandemic, focusing on financial health, employee protection, and customer commitments. It outlines the completion of the 2016-2019 Strategy and introduces the 2020-2023 Strategy & Growth Framework, emphasizing key technologies and platforms for growth. The financial performance overview for 2020 highlights a 2% decrease in net sales to $11.3 billion and a significant drop in net income due to various challenges, while also providing a positive outlook for 2021 sales growth.",
+          "source": "window",
+          "children": [
+            {
+              "node_id": "w23",
+              "title": "Company Strategy and Response to COVID-19",
+              "level": 3,
+              "start_page": 24,
+              "end_page": 24,
+              "summary": "This section outlines Corning's strategic response to the COVID-19 pandemic, emphasizing three core priorities: preserving financial health, protecting employees and communities, and fulfilling customer commitments. It reviews the completion of the 2016-2019 Strategy and Capital Allocation Framework, which focused investments on key technologies and platforms to enhance success. The section introduces the 2020-2023 Strategy & Growth Framework, aimed at leveraging market-access platforms for growth while maintaining financial strength and shareholder rewards. It highlights the company's resilience and adaptability in facing unprecedented challenges in 2020.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w24",
+              "title": "Corning's Strategy and Growth Framework Overview",
+              "level": 3,
+              "start_page": 24,
+              "end_page": 24,
+              "summary": "The Strategy & Growth Framework section outlines Corning's strategic approach from 2016 to 2023, emphasizing the successful completion of the previous framework and the focus on three core technologies, four manufacturing platforms, and five Market-Access Platforms. It highlights the company's commitment to investing 80% of its R&D and capital spending in these areas to enhance its probability of success. The section also discusses the resilience and adaptability of Corning during the COVID-19 pandemic, maintaining financial strength while pursuing innovation and growth opportunities.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w25",
+              "title": "2020 Financial Performance Overview",
+              "level": 3,
+              "start_page": 25,
+              "end_page": 25,
+              "summary": "In 2020, the company reported net sales of $11.3 billion, a 2% decrease from 2019, attributed to lower sales in several segments including Display Technologies and Optical Communications. Net income fell to $512 million, down $448 million from the previous year, primarily due to asset impairment losses, litigation costs, and lower segment income. Despite these challenges, gains from equity investments and an IPO partially offset losses. The diluted earnings per share decreased by 50% to $0.54. The section also provides a positive outlook for 2021, anticipating sales growth in the first quarter.",
+              "source": "window",
+              "children": []
+            }
+          ]
+        },
+        {
+          "node_id": "w26",
+          "title": "2020 Financial Performance and Operational Analysis",
+          "level": 2,
+          "start_page": 26,
+          "end_page": 28,
+          "summary": "This section analyzes Corning's financial performance in 2020, focusing on cost of sales components, gross margin changes, and increases in selling, general, and administrative expenses. It highlights a significant rise in R&D expenses due to strategic adjustments and details the impact of restructuring and impairment charges on the company's operations. The overall financial implications of these factors are discussed, providing insights into the company's operational efficiency and investment priorities amidst economic challenges.",
+          "source": "window",
+          "children": [
+            {
+              "node_id": "w27",
+              "title": "Components of Cost of Sales",
+              "level": 3,
+              "start_page": 27,
+              "end_page": 27,
+              "summary": "This section details the components of the cost of sales, which include expenses such as raw materials, salaries, depreciation, production utilities, and warehousing costs. It outlines the various elements that contribute to the overall cost structure of the company's sales operations. Readers can learn about the specific types of expenses that are accounted for in the cost of sales, providing insight into the financial management of production and sales processes.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w28",
+              "title": "Gross Margin Analysis for 2020",
+              "level": 3,
+              "start_page": 28,
+              "end_page": 28,
+              "summary": "In 2020, Corning's gross margin decreased by $504 million (12%), with a 4 percentage point decline in gross margin as a percentage of sales. This decline was mainly due to severance charges in the Display Technologies segment and reduced volumes in several segments. However, foreign exchange rate movements positively impacted gross margin by $91 million compared to 2019. The section provides insights into the factors affecting gross margin, including operational challenges and financial impacts from restructuring efforts.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w29",
+              "title": "Overview of Selling, General and Administrative Expenses",
+              "level": 3,
+              "start_page": 28,
+              "end_page": 28,
+              "summary": "In 2020, selling, general and administrative expenses rose by $162 million, or 10%, compared to 2019, primarily due to increased litigation, restructuring, and share-based compensation costs. These expenses accounted for a 1% increase as a percentage of sales. The section details the components of these expenses, including salaries, stock-based compensation, travel, and professional fees. It highlights the financial impact of these costs on the company's overall performance.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w30",
+              "title": "Corning's R&D Expenses and Strategic Adjustments in 2020",
+              "level": 3,
+              "start_page": 28,
+              "end_page": 28,
+              "summary": "In 2020, Corning's research, development, and engineering expenses rose by $123 million, or 12%, largely due to a $211 million pre-tax asset impairment loss from reassessing R&D programs. This increase reflects a strategic shift in investment priorities amid economic challenges. As a percentage of sales, these expenses were 1% higher compared to the previous year, indicating a significant focus on R&D despite the economic environment. The section highlights the company's efforts to realign its R&D investments in response to market opportunities.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w31",
+              "title": "Restructuring and Impairment Charges Overview",
+              "level": 3,
+              "start_page": 28,
+              "end_page": 28,
+              "summary": "In 2020, Corning recorded $827 million in restructuring, impairment, and other charges due to global economic uncertainties. This included $148 million in severance charges from a corporate-wide workforce reduction aimed at realigning capacity in the Display Technologies and Optical Communications segments. Additionally, a $217 million pre-tax charge was incurred from long-lived asset impairments related to discontinued research and development programs. Capacity realignment costs totaled $304 million, primarily from accelerated depreciation and asset disposals. The section provides insights into the financial impacts of these strategic decisions and their implications for operational efficiency.",
+              "source": "window",
+              "children": []
+            }
+          ]
+        },
+        {
+          "node_id": "w32",
+          "title": "Equity Earnings and Losses of Affiliated Companies",
+          "level": 2,
+          "start_page": 29,
+          "end_page": 29,
+          "summary": "This section summarizes the equity in (losses) earnings of affiliated companies, specifically detailing the financial performance of Hemlock Semiconductor Group (HSG) and other investments for the years 2018 to 2020. It highlights HSG's earnings, including a significant loss in 2020 due to a pre-existing contract dispute with DuPont, which resulted in a total equity loss for Corning. The section also notes the acquisition of DuPont's TCS manufacturing assets and the financial implications of this transaction. Additional context is provided regarding the consolidation of HSG's revenue and its impact on Corning's financial statements.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w33",
+          "title": "Impact of Translated Earnings Contracts on Financial Performance",
+          "level": 2,
+          "start_page": 30,
+          "end_page": 30,
+          "summary": "This section details the financial impact of translated earnings contracts, specifically focusing on gains and losses due to foreign currency fluctuations, particularly involving the Japanese yen, South Korean won, euro, and others. It includes a table summarizing realized and unrealized gains and losses for the years 2018 to 2020, highlighting significant changes in net income before tax. The section also notes that the translation impact positively affected Corning's income before income taxes by $60 million in 2020 compared to 2019. Additionally, it mentions the effects of hedges on translated earnings and provides context for the overall financial performance related to currency exposure.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w34",
+          "title": "Impact of Foreign Currency on Income Before Taxes",
+          "level": 2,
+          "start_page": 30,
+          "end_page": 30,
+          "summary": "This section discusses the impact of foreign currency translation on Corning's income before income taxes, highlighting a positive effect of $60 million for the year ended December 31, 2020, compared to 2019. It details the gains and losses from translated earnings contracts, including realized and unrealized amounts, and specifies the currencies involved, such as the Japanese yen and euro. Additionally, it provides a table summarizing the financial results over three years, illustrating trends in hedging effectiveness and their influence on net income.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w35",
+          "title": "Overview of Income Tax Provisions and Rates",
+          "level": 2,
+          "start_page": 30,
+          "end_page": 30,
+          "summary": "This section details the provision for income taxes for the years ended December 31, 2020, 2019, and 2018, including the effective tax rates and significant factors affecting these rates. It highlights a decrease in the provision for income taxes from $437 million in 2018 to $111 million in 2020, with effective tax rates of 29.1%, 21.1%, and 17.8% respectively. Key influences on the 2020 tax rate include changes to tax reserves, stronger foreign earnings, and benefits from the CARES Act. The section provides a comprehensive overview of how foreign currency hedges and tax regulations impact the company's tax obligations.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w36",
+          "title": "Net Income and Earnings Per Share Overview",
+          "level": 2,
+          "start_page": 31,
+          "end_page": 31,
+          "summary": "This section details the net income attributable to Corning Incorporated for the years 2018 to 2020, highlighting a decline from $1,066 million in 2018 to $512 million in 2020. It provides specific figures for basic and diluted earnings per share, which were $0.54 in 2020 compared to $1.11 in 2019. The section also discusses the weighted-average common shares outstanding for both basic and diluted calculations. Additionally, it references the impact of tax provisions and foreign earnings reinvestment on net income.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w37",
+          "title": "Overview of Comprehensive Income for Corning Incorporated",
+          "level": 2,
+          "start_page": 32,
+          "end_page": 32,
+          "summary": "This section details Corning Incorporated's comprehensive income for the years 2018-2020, highlighting net income, foreign currency translation adjustments, and unrealized gains/losses. For 2020, comprehensive income increased by $144 million compared to 2019, primarily due to a significant gain in foreign currency translation adjustments. The section also discusses core performance measures that exclude specific items to provide a clearer view of ongoing operational results, emphasizing the use of constant-currency reporting to mitigate currency fluctuation impacts. Additional notes reference employee retirement plans and shareholders' equity for further details.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w38",
+          "title": "Core Performance Measures and Financial Adjustments",
+          "level": 2,
+          "start_page": 32,
+          "end_page": 32,
+          "summary": "This section discusses Corning's core performance measures, which are adjusted financial metrics excluding specific items such as acquisition costs, tax adjustments, and restructuring expenses. It emphasizes the use of constant-currency reporting to mitigate the impact of currency fluctuations on earnings, particularly for certain segments. The company believes these non-GAAP measures provide better insight into operational performance and decision-making. It also notes that these measures should not replace GAAP metrics and that future reconciliations are not possible due to unpredictable currency movements.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w39",
+          "title": "Core Performance Measures and Financial Highlights",
+          "level": 2,
+          "start_page": 33,
+          "end_page": 33,
+          "summary": "This section presents the results of operations focusing on core performance measures, specifically core net income, core net sales, and core equity in earnings of affiliated companies for the years ended December 31, 2020, 2019, and 2018. It highlights a decline in core net income by 22% from 2019 to 2020 and a 2% decrease in core net sales. The section also details segment net sales, showing variances across different reportable segments, including Display Technologies and Optical Communications. Additionally, it notes the impact of foreign currency movements and a cumulative adjustment related to customer contracts affecting revenue. The summary provides insights into the company's financial performance and operational challenges during the specified years.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w40",
+          "title": "Core Net Income Overview for 2020",
+          "level": 2,
+          "start_page": 34,
+          "end_page": 34,
+          "summary": "In 2020, the company reported a core net income of $1,237 million, down from $1,578 million in 2019, reflecting a decrease of $341 million primarily due to lower segment net income and equity earnings. Core earnings per share also fell to $1.39 from $1.76. The section includes a detailed breakdown of core net income calculations, including adjustments for preferred stock dividends and the impact of share repurchases. Additionally, it discusses the inclusion of net periodic pension expenses and provides a reconciliation of non-GAAP measures used to assess financial performance.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w41",
+          "title": "Core Earnings per Common Share Overview",
+          "level": 2,
+          "start_page": 34,
+          "end_page": 34,
+          "summary": "This section details the core earnings per common share for Corning Incorporated for the years 2018 to 2020. It reports core net income of $1,237 million in 2020, down from $1,578 million in 2019, leading to a decrease in core diluted earnings per share from $1.76 to $1.39. The decline is attributed to lower segment net income and equity earnings. The section also includes a table showing the computation of core basic and diluted earnings per share, along with the weighted-average common shares outstanding. Additionally, it explains the use of non-GAAP financial measures to assess performance without the impact of certain economic conditions.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w42",
+          "title": "Reconciliation of Non-GAAP to GAAP Financial Measures",
+          "level": 2,
+          "start_page": 35,
+          "end_page": 37,
+          "summary": "This section provides a detailed reconciliation of non-GAAP financial measures to their corresponding GAAP measures for the years ended December 31, 2018, 2019, and 2020. It includes tables that list net sales, equity earnings, income before income taxes, net income, effective tax rates, and earnings per share, both as reported and adjusted for various items. Key adjustments include constant-currency impacts, acquisition-related costs, litigation expenses, and restructuring charges. The section also explains the rationale behind excluding certain items to present core performance measures, which helps in evaluating underlying business trends and operational goals.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w43",
+      "title": "Financial Performance of Reportable Segments",
+      "level": 1,
+      "start_page": 38,
+      "end_page": 40,
+      "summary": "This section provides a comprehensive overview of the financial performance of various reportable segments, including Display Technologies, Optical Communications, Specialty Materials, Life Sciences, and 'All Other' segments for the year ended December 31, 2020. It highlights significant declines in net income and sales in Optical Communications and Environmental Technologies, while Specialty Materials experienced growth. The impact of COVID-19 on lab closures is noted, particularly affecting the Life Sciences segment. Additionally, the 'All Other' segment saw a substantial increase in net sales due to the consolidation of HSG, alongside a reduction in net loss. Overall, the section emphasizes the influence of market conditions and strategic acquisitions on financial results.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w44",
+          "title": "Financial Performance of Display Technologies Segment",
+          "level": 2,
+          "start_page": 39,
+          "end_page": 39,
+          "summary": "This section discusses the financial performance of the Display Technologies segment, highlighting a $69 million decrease in net income for the year ended December 31, 2020, primarily due to changes in sales. It details the net sales and income for related segments, including Optical Communications, Specialty Materials, and Environmental Technologies, noting significant declines in sales and income in Optical Communications and Environmental Technologies, while Specialty Materials saw an increase. The section emphasizes the impact of market conditions and customer spending on these financial results.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w45",
+          "title": "Optical Communications Financial Performance 2020",
+          "level": 2,
+          "start_page": 39,
+          "end_page": 39,
+          "summary": "This section details the financial performance of the Optical Communications segment for the year ended December 31, 2020. It reports a 12% decline in net sales to $3,563 million and a 25% decrease in net income to $366 million, primarily due to reduced sales in carrier and enterprise products. The decline is attributed to general market weakness and decreased capital spending by major customers. Additionally, foreign currency exchange rates did not significantly affect net income during this period.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w46",
+          "title": "Financial Overview of Specialty Materials Segment",
+          "level": 2,
+          "start_page": 40,
+          "end_page": 40,
+          "summary": "This section provides financial data for the Life Sciences segment, detailing net sales and net income for the years 2018 to 2020, highlighting a decrease in sales due to COVID-19 lab closures. It also covers the 'All Other' segment, which includes results from various businesses, noting a significant increase in net sales driven by the consolidation of HSG. Additionally, it discusses the reduction in net loss for this segment and outlines Corning's financing activities, including the redemption of debentures in 2020.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w47",
+          "title": "Financial Overview of Life Sciences and Other Segments",
+          "level": 2,
+          "start_page": 40,
+          "end_page": 40,
+          "summary": "This section provides financial data for the Life Sciences segment, detailing net sales and net income for the years 2018-2020, highlighting a decrease in sales due to COVID-19 lab closures. It also covers the 'All Other' segment, which includes pharmaceutical technologies and new product lines, showing a significant increase in net sales in 2020 due to the consolidation of HSG. Additionally, it discusses the reduction in net loss for this segment and outlines Corning's financing activities, including the redemption of debentures.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w48",
+          "title": "Financial Overview of Life Sciences Segment",
+          "level": 2,
+          "start_page": 40,
+          "end_page": 40,
+          "summary": "This section provides financial data for the Life Sciences segment, detailing net sales and net income for the years 2018 to 2020. It highlights a decrease in net sales by $17 million in 2020, attributed to lab closures during the COVID-19 pandemic, and a 7% decline in net income. Additionally, it briefly discusses the 'All Other' segment, which includes results from various businesses, noting a significant increase in net sales due to the consolidation of HSG. The section emphasizes the impact of external factors on financial performance and the company's strategic acquisitions.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w49",
+          "title": "Overview of All Other Segment Financials",
+          "level": 2,
+          "start_page": 40,
+          "end_page": 40,
+          "summary": "This section provides an overview of the 'All Other' segment, which includes results from pharmaceutical technologies, auto glass, and other businesses not separately reported. It highlights a significant increase in net sales by 102% in 2020, primarily due to the consolidation of HSG, contributing $194 million in sales. Additionally, the net loss decreased by $75 million, attributed to increased sales and reduced spending on development projects. The section also references a controlling interest acquisition in HSG and directs readers to Note 4 for further details.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w50",
+      "title": "Liquidity and Capital Resources Overview",
+      "level": 1,
+      "start_page": 41,
+      "end_page": 44,
+      "summary": "This section covers Corning's financing activities, including a $175 million loan and various loan facilities totaling $243 million for capital projects. It details an 11% increase in common stock dividends and significant customer deposits of approximately $1.4 billion due to long-term agreements. Additionally, it provides an overview of liquidity management, highlighting $2.7 billion in cash, a commercial paper program, and compliance with financial covenants, indicating strong liquidity and financial health.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w51",
+          "title": "Overview of Financing and Capital Structure Changes",
+          "level": 2,
+          "start_page": 41,
+          "end_page": 41,
+          "summary": "This section details Corning's financing activities and capital structure changes, including a $175 million variable interest rate loan to DC HSC Holdings, LLC, and subsequent repayments. It outlines the establishment of various loan facilities in Japanese and Chinese currencies, totaling approximately $243 million, intended for capital projects. Additionally, it discusses the issuance of USD and Japanese yen-denominated debt securities, including senior unsecured notes, and the use of proceeds for corporate purposes. The section also highlights recent increases in common stock dividends, reflecting the company's financial strategy and shareholder returns.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w52",
+          "title": "Overview of Common Stock Dividends and Financial Implications",
+          "level": 2,
+          "start_page": 42,
+          "end_page": 43,
+          "summary": "This section discusses Corning's common stock dividends, highlighting an 11% increase in the quarterly dividend from $0.18 to $0.20 per share, effective from the first quarter of 2019. It also details the company's Fixed Rate Cumulative Convertible Preferred Stock, Series A, including its conversion options and status as of January 2021. Additionally, it provides insights into customer deposits, noting a significant increase to approximately $1.4 billion as of December 31, 2020, primarily due to long-term supply agreements. The section emphasizes the financial implications of these dividends and deposits on Corning's overall financial health.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w53",
+          "title": "Corning's Liquidity Management Overview",
+          "level": 2,
+          "start_page": 44,
+          "end_page": 44,
+          "summary": "This section provides an overview of Corning's liquidity management as of December 31, 2020, highlighting that the company had approximately $2.7 billion in cash and cash equivalents, with 82% held outside the U.S. It discusses the commercial paper program allowing for the issuance of up to $1.5 billion in short-term notes and the availability of a Revolving Credit Agreement for corporate purposes. The section also details share repurchase activities, customer credit assessments, and the company's compliance with financial covenants, indicating sufficient liquidity for operations and obligations. Management reports no known trends or uncertainties that could materially impact liquidity.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w54",
+      "title": "Corning's Foreign Currency Hedging Strategies",
+      "level": 1,
+      "start_page": 45,
+      "end_page": 45,
+      "summary": "This section details Corning's hedging strategies for foreign currency exposure, specifically focusing on the Japanese yen, South Korean won, and euro. It outlines the financial impacts of these hedges, including pre-tax gains and losses for the years 2019 and 2020, as well as the gross notional values of the hedging instruments. The section emphasizes that these derivative instruments are not designated as accounting hedges, leading to changes in fair value being recorded in earnings. Readers can learn about the financial implications of currency fluctuations on Corning's income and the company's risk management practices.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w55",
+      "title": "Environmental Legal Proceedings and Financial Commitments",
+      "level": 1,
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "This section discusses the environmental aspects related to legal proceedings and financial commitments, specifically referencing Item 3 and Note 14 in the consolidated financial statements. It highlights critical accounting estimates necessary for preparing financial statements, focusing on the valuation of previously held equity interests and the consolidation of HSG. Key topics include the estimation of fair values for assets and liabilities, the recognition of gains from equity investments, and the valuation methods used for intangible assets and customer deposits. The section also details the financial implications of the redemption of DuPont's ownership interest in HSG, including significant gains and the amortization of intangible assets.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w56",
+      "title": "Critical Accounting Estimates Overview",
+      "level": 1,
+      "start_page": 46,
+      "end_page": 55,
+      "summary": "This section covers critical accounting estimates related to long-lived asset impairment, deferred tax assets, fair value measurements, pension and OPEB costs, and revenue recognition policies. It details the assessment processes for impairment and tax positions, including the use of observable and unobservable inputs for fair value measurements. Additionally, it discusses the sensitivity of pension expenses to key assumptions and outlines the impact of new accounting standards on OPEB and revenue recognition. The section also addresses market risks associated with currency exposure and hedging strategies.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w57",
+          "title": "Assessment of Long-Lived Asset Impairment",
+          "level": 2,
+          "start_page": 47,
+          "end_page": 47,
+          "summary": "This section outlines the process for assessing the impairment of long-lived assets, requiring judgment to identify indicators of impairment. It details the criteria for impairment, including significant decreases in market price, changes in asset use, and adverse legal or business conditions. The section also explains how manufacturing equipment, particularly components made of precious metals, is treated in terms of depreciation and impairment assessment. Additionally, it describes the methodology for grouping assets for impairment testing based on independent cash flows and the comparison of estimated future cash flows to carrying values.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w58",
+          "title": "Assessment of Deferred Tax Assets and Uncertain Tax Positions",
+          "level": 2,
+          "start_page": 48,
+          "end_page": 48,
+          "summary": "This section discusses the assessment of deferred tax assets and the judgment required in estimating future taxable income and tax planning strategies. It highlights the need for careful evaluation of uncertain tax positions under ASC Topic 740, which mandates that tax benefits can only be recorded if they have a greater than 50% likelihood of being sustained. The section emphasizes the potential for actual results to differ from estimates, necessitating adjustments to allowances. Additionally, it outlines the factors influencing these judgments, including tax law, authority behavior, and the company's willingness to dispute tax positions.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w59",
+          "title": "Fair Value Measurement Inputs and Methods",
+          "level": 2,
+          "start_page": 49,
+          "end_page": 49,
+          "summary": "Corning employs observable and unobservable inputs to assess the fair value of its assets and liabilities, categorizing them into three levels based on the nature of the inputs. Observable inputs rely on market data, while unobservable inputs are derived from the company's own assumptions. Key financial assets and liabilities measured at fair value include investments and derivatives, with a focus on using market approaches for valuation. The section also discusses the treatment of derivative contracts, including foreign currency hedges, and the impact of credit risk on fair value assessments.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w60",
+          "title": "Analysis of Pension and OPEB Costs and Assumptions",
+          "level": 2,
+          "start_page": 50,
+          "end_page": 50,
+          "summary": "This section details the costs associated with defined benefit pension plans and Other Post-Employment Benefits (OPEB) plans, including ongoing costs and mark-to-market adjustments. It provides specific figures for actual and expected returns on plan assets for domestic and international plans from 2018 to 2020. Additionally, it discusses the sensitivity of pension expenses and the Projected Benefit Obligation (PBO) to changes in key assumptions, such as spot rates and expected returns. The section emphasizes the non-linear effects of assumption changes on financial outcomes.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w61",
+          "title": "Overview of Pension and OPEB Liabilities",
+          "level": 2,
+          "start_page": 50,
+          "end_page": 50,
+          "summary": "This section details the costs associated with defined benefit pension plans and Other Post-Employment Benefits (OPEB) plans, including ongoing costs recognized quarterly and annual mark-to-market adjustments. It explains how actuarial gains and losses are treated in financial statements and provides a table of actual versus expected returns on plan assets for domestic and international plans. Additionally, it discusses the sensitivity of pension expenses and projected benefit obligations (PBO) to changes in key assumptions, such as spot rates and expected returns on assets, and their impact on shareholders' equity.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w62",
+          "title": "Pension and OPEB Costs and Sensitivities",
+          "level": 2,
+          "start_page": 50,
+          "end_page": 50,
+          "summary": "This section details the costs associated with defined benefit pension plans and other postretirement employee benefits (OPEB). It explains the components of ongoing costs, including service and interest costs, and the recognition of actuarial gains and losses. The section also provides actual and expected returns on plan assets for domestic and international plans, along with the Projected Benefit Obligation (PBO) for U.S. pension plans. Additionally, it discusses the sensitivity of pension expenses and PBO to changes in key assumptions, highlighting the financial impact of varying interest rates on shareholders' equity.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w63",
+          "title": "Revenue Recognition Policy Overview",
+          "level": 2,
+          "start_page": 51,
+          "end_page": 51,
+          "summary": "This section outlines Corning's revenue recognition policy, stating that revenue is recognized when all performance obligations in a customer contract are fulfilled and control of the product is transferred. It highlights the role of customer acceptance clauses in determining when revenue can be recorded. Additionally, it mentions that some contracts involve recognizing revenue over time, using either a straight-line amortization method or an input method based on incurred and forecasted expenses. The section emphasizes the importance of satisfying performance obligations before revenue recognition occurs.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w64",
+          "title": "Impact of New Accounting Standards on OPEB and Revenue Recognition",
+          "level": 2,
+          "start_page": 51,
+          "end_page": 51,
+          "summary": "This section discusses the impact of changes in spot rate assumptions on Corning's U.S. OPEB plans, detailing how a 25 basis point increase or decrease affects pre-tax OPEB expense and accumulated postretirement benefit obligation (APBO). It emphasizes that the effects of changing assumptions are not linear and can be influenced by multiple economic factors. Additionally, it outlines Corning's revenue recognition policy, stating that revenue is recognized when performance obligations are met and control of the product is transferred, with specific conditions for customer acceptance and contracts requiring revenue recognition over time.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w65",
+          "title": "Understanding Corning's Forward-Looking Statements",
+          "level": 2,
+          "start_page": 52,
+          "end_page": 52,
+          "summary": "This section outlines the nature of forward-looking statements made by Corning in its Annual Report and other SEC filings. It defines these statements as non-historical and characterized by terms like 'will' and 'expect', relating to future performance, market share, revenue growth, and innovation. The section emphasizes that actual results may differ materially due to various risks and uncertainties, including economic conditions, supply chain issues, and regulatory changes. It also lists specific factors that could impact the company's performance, such as the COVID-19 pandemic, competitive pressures, and changes in customer demand.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w66",
+          "title": "Market Risks: Currency Exposure and Hedging Strategies",
+          "level": 2,
+          "start_page": 53,
+          "end_page": 55,
+          "summary": "This section discusses the company's exposure to foreign currency exchange rate fluctuations due to its international operations. It highlights the use of over-the-counter (OTC) derivative instruments, such as foreign exchange forward and option contracts, to mitigate risks associated with these fluctuations. The company specifically addresses its significant exposure to currencies like the Japanese yen and provides a sensitivity analysis indicating potential losses from adverse currency movements. Additionally, it notes that a 10% adverse movement in exchange rates could lead to substantial losses in fair value, but these losses are expected to offset gains in related assets and liabilities.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w67",
+      "title": "Corporate Governance and Executive Compensation Overview",
+      "level": 1,
+      "start_page": 56,
+      "end_page": 57,
+      "summary": "PART III covers the company's governance structure, including the roles of directors and officers, ethical standards, executive compensation practices, and equity compensation plans. It details the adoption of a Code of Ethics and Code of Conduct, the absence of amendments in 2020, and provides information on security ownership and related transactions. Additionally, it discusses accounting fees and services, emphasizing the independence of the auditing firm. The section incorporates references from the Definitive Proxy Statement for shareholder meetings, ensuring transparency in corporate governance.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w68",
+          "title": "Directors, Officers, and Corporate Governance Overview",
+          "level": 2,
+          "start_page": 56,
+          "end_page": 56,
+          "summary": "This section discusses the governance structure of the company, including the incorporation of specific sections from the Definitive Proxy Statement related to the election of directors and corporate governance. It outlines the adoption of a Code of Ethics for executives and a Code of Conduct for directors, emphasizing their long-standing existence and the absence of amendments or waivers in 2020. Additionally, it provides information on equity compensation plans, detailing the number of outstanding stock options and shares available for future issuance as of December 31, 2020.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w69",
+          "title": "Code of Ethics Overview",
+          "level": 2,
+          "start_page": 56,
+          "end_page": 56,
+          "summary": "The Code of Ethics section outlines the ethical standards adopted by the Board of Directors for the Chief Executive Officer and financial executives, as well as the Code of Conduct for all directors and executive officers. It emphasizes that these codes have been in place for over ten years and that no amendments or waivers occurred in 2020. The section also provides information on how shareholders can access the Code of Ethics and the commitment to disclose any future changes on the company's website.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w70",
+          "title": "Executive Compensation Overview and Equity Plans",
+          "level": 2,
+          "start_page": 56,
+          "end_page": 56,
+          "summary": "This section incorporates by reference the 'Compensation Discussion and Analysis' and 'Director Compensation' from the Definitive Proxy Statement for the Annual Meeting of Shareholders on April 29, 2021. It provides details on the company's executive compensation practices, including the structure and components of compensation packages for executives and directors. Additionally, it includes a table summarizing the total number of outstanding stock options and shares available for future issuances under existing equity compensation plans as of December 31, 2020, highlighting the number of securities to be issued and their weighted-average exercise price.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w71",
+          "title": "Security Ownership and Equity Compensation Information",
+          "level": 2,
+          "start_page": 56,
+          "end_page": 56,
+          "summary": "This section provides details on the security ownership of certain beneficial owners and management, specifically referencing the 'Beneficial Ownership Table' from the Definitive Proxy Statement for the Annual Meeting of Shareholders on April 29, 2021. It includes information on the total number of outstanding stock options and shares available for future issuances under existing equity compensation plans as of December 31, 2020. The section also outlines the number of securities to be issued upon exercise of outstanding options, their weighted-average exercise price, and the number of securities remaining available for future issuance under equity compensation plans approved by security holders.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w72",
+          "title": "Equity Compensation Plans Overview",
+          "level": 2,
+          "start_page": 56,
+          "end_page": 56,
+          "summary": "This section provides detailed information on the company's equity compensation plans as of December 31, 2020. It includes a table listing the total number of outstanding stock options, the weighted-average exercise price of these options, and the number of securities available for future issuance under existing plans. Specifically, it highlights 32,800,570 securities to be issued upon exercise of outstanding options at an average price of $12.94, along with 35,909,926 securities remaining for future issuance. The plans mentioned include the 2019 Equity Plan for Non-Employee Directors and the 2012 Long-Term Incentive Plan.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w73",
+          "title": "Related Transactions and Director Independence Overview",
+          "level": 2,
+          "start_page": 57,
+          "end_page": 57,
+          "summary": "This section incorporates by reference the policies on transactions with related persons and director independence from the Definitive Proxy Statement for the Annual Meeting of Shareholders. It highlights the importance of these policies in ensuring corporate governance and the integrity of the Board of Directors. Additionally, it mentions that PricewaterhouseCoopers LLP provided an independence letter to the Audit Committee, confirming their independence in relation to the audit of the financial statements.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w74",
+          "title": "Principal Accounting Fees and Services Overview",
+          "level": 2,
+          "start_page": 57,
+          "end_page": 57,
+          "summary": "This section discusses the incorporation by reference of specific topics from the Definitive Proxy Statement related to accounting fees and services. It highlights the fees paid to the independent registered public accounting firm, PricewaterhouseCoopers LLP (PwC), and the policy regarding the Audit Committee's pre-approval of audit and non-audit services. Additionally, it mentions PwC's independence as confirmed in their annual independence letter to the Audit Committee, which is crucial for maintaining the integrity of the audit process.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w75",
+      "title": "Exhibits and Form 10-K Summary",
+      "level": 1,
+      "start_page": 58,
+      "end_page": 69,
+      "summary": "PART IV includes an overview of exhibits and financial statement schedules, detailing key documents such as the Framework Agreement with Samsung Display and employee equity plans. It provides insights into the company's legal and financial commitments, as well as governance structures. Additionally, it summarizes the Form 10-K, highlighting executive signatures that affirm compliance with the Securities Exchange Act and certifications under the Sarbanes-Oxley Act. The section also references the independent auditor's report on financial statements and internal controls, emphasizing accountability in financial disclosures.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w76",
+          "title": "Exhibits and Financial Statement Schedule Overview",
+          "level": 2,
+          "start_page": 58,
+          "end_page": 62,
+          "summary": "This section details the exhibits and financial statement schedules filed as part of the report. It includes a comprehensive index of documents such as financial statements, agreements, and corporate bylaws, with specific references to prior filings for context. Notable documents include the Framework Agreement with Samsung Display, various employee equity plans, and amendments to compensation agreements. Readers can learn about the company's legal and financial commitments, as well as governance structures through these exhibits.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w77",
+          "title": "Form 10-K Summary and Signatures",
+          "level": 2,
+          "start_page": 63,
+          "end_page": 69,
+          "summary": "Item 16 provides a summary of the Form 10-K, including the signatures of key executives and directors, which confirm the report's authenticity and compliance with the Securities Exchange Act of 1934. It includes certifications required under the Sarbanes-Oxley Act, ensuring the accuracy of financial reporting and internal controls. The section also references the independent auditor's report, which assesses the company's financial statements and internal controls over financial reporting. Readers can learn about the governance structure and accountability measures in place for the company's financial disclosures.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w78",
+      "title": "Corning's Consolidated Income Statements Overview",
+      "level": 1,
+      "start_page": 70,
+      "end_page": 70,
+      "summary": "This section presents the Consolidated Statements of Income for Corning Incorporated for the years ended December 31 from 2018 to 2020. It details key financial metrics including net sales, cost of sales, gross margin, operating expenses, and net income attributable to Corning. The document highlights trends in revenue and expenses over the three years, showing a decline in net income and operating income in 2020 compared to previous years. Additionally, it provides earnings per share figures, both basic and diluted, for a comprehensive view of the company's financial performance.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w79",
+      "title": "Consolidated Statements of Comprehensive Income Overview",
+      "level": 1,
+      "start_page": 71,
+      "end_page": 71,
+      "summary": "This section presents the Consolidated Statements of Comprehensive Income for Corning Incorporated and its subsidiaries for the years ended December 31 from 2018 to 2020. It details net income attributable to Corning, which decreased from $1,066 million in 2018 to $512 million in 2020. The section also includes components of other comprehensive income, such as foreign currency translation adjustments and unrealized gains or losses on investments and hedges. The total comprehensive income attributable to Corning increased to $943 million in 2020, reflecting a significant recovery from previous years. Readers can learn about the company's financial performance and the factors affecting its comprehensive income over the specified years.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w80",
+      "title": "Corning Consolidated Balance Sheets Overview",
+      "level": 1,
+      "start_page": 72,
+      "end_page": 72,
+      "summary": "This section presents the consolidated balance sheets for Corning Incorporated as of December 31 for the years 2020 and 2019. It details the company's assets, including current assets like cash, receivables, and inventories, totaling $30,775 million in 2020. Liabilities are also outlined, showing current and long-term debts, with total liabilities amounting to $17,327 million. Shareholders' equity is broken down into components such as common stock, additional paid-in capital, and retained earnings, indicating a total equity of $13,448 million. The balance sheet provides a snapshot of the company's financial position, essential for assessing its stability and liquidity.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w81",
+      "title": "Consolidated Cash Flow Statements Overview",
+      "level": 1,
+      "start_page": 73,
+      "end_page": 74,
+      "summary": "This section presents the Consolidated Statements of Cash Flows for Corning Incorporated for the years ended December 31 from 2018 to 2020. It details cash flows from operating, investing, and financing activities, highlighting net income, depreciation, capital expenditures, and changes in working capital. Readers can learn about the company's cash generation capabilities, investment strategies, and financing activities, including debt repayments and stock repurchases. The section concludes with the cash and cash equivalents at the beginning and end of each year, providing insight into liquidity trends.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w82",
+      "title": "Notes to Consolidated Financial Statements Overview",
+      "level": 1,
+      "start_page": 75,
+      "end_page": 83,
+      "summary": "This section provides detailed notes on Corning Incorporated's consolidated financial statements, covering significant accounting policies, management estimates, revenue recognition practices, and the treatment of research and development costs. It also addresses foreign currency accounting, share-based compensation, environmental liabilities, inventory valuation, property and equipment accounting, lease practices, impairment assessments, employee retirement plans, income tax methods, and equity method investments. Each subsection outlines specific accounting treatments, financial figures, and the implications of various estimates and assumptions on the company's financial reporting.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w83",
+          "title": "Significant Accounting Policies Overview",
+          "level": 2,
+          "start_page": 75,
+          "end_page": 75,
+          "summary": "This section outlines Corning Incorporated's significant accounting policies, including its organizational structure and the principles of consolidation used in financial reporting. It details how consolidated financial statements are prepared in accordance with U.S. generally accepted accounting principles, incorporating majority-owned subsidiaries and the equity method for affiliated companies. The section also explains the accounting treatment for investments without significant influence and mentions the consolidation of Hemlock Semiconductor following a recent acquisition. Additionally, it notes that prior year amounts have been reclassified for consistency without affecting financial results.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w84",
+          "title": "Management Estimates in Financial Statement Preparation",
+          "level": 2,
+          "start_page": 76,
+          "end_page": 76,
+          "summary": "This section discusses the necessity of management estimates and assumptions in preparing financial statements in accordance with GAAP. Key areas of estimation include revenue recognition, asset impairment tests, fair value assessments, and tax valuations. It highlights the impact of external factors, such as the COVID-19 pandemic, on future estimates. The section also outlines the criteria for revenue recognition, including performance obligations and customer acceptance, as well as the treatment of research and development costs.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w85",
+          "title": "Revenue Recognition Policies and Practices",
+          "level": 2,
+          "start_page": 76,
+          "end_page": 76,
+          "summary": "This section outlines the revenue recognition policies of the Company, emphasizing that revenue is primarily recognized at a point in time when control of products is transferred to customers. It details the conditions under which revenue is recorded, including customer acceptance clauses and the exclusion of certain taxes from revenue calculations. Additionally, it discusses the establishment of allowances for estimated product returns and warranty costs based on historical data. For certain contracts, revenue may also be recognized over time, using methods such as straight-line amortization or input methods based on incurred expenses.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w86",
+          "title": "Overview of Research and Development Costs",
+          "level": 2,
+          "start_page": 76,
+          "end_page": 76,
+          "summary": "This section details the accounting treatment of research and development (R&D) costs, which are expensed as incurred. It provides specific financial figures for R&D expenditures over three years: $1.0 billion in 2020, $833 million in 2019, and $807 million in 2018. Readers can learn about the company's commitment to R&D and its financial implications over time.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w87",
+          "title": "Foreign Currency Functional Currency and Translation Accounting",
+          "level": 2,
+          "start_page": 77,
+          "end_page": 77,
+          "summary": "This section discusses the determination of functional currencies for Corning's foreign subsidiaries, emphasizing that local currencies are typically used, with a notable exception for a Taiwanese subsidiary using Japanese yen. It explains how exchange rate gains and losses from transactions in non-functional currencies are recorded in income, detailing net losses for the years 2018-2020. Additionally, it covers the translation of balance sheet accounts at current exchange rates and the treatment of translation gains and losses in shareholders' equity. The section also outlines the accounting treatment for remeasuring non-functional currency assets and liabilities.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w88",
+          "title": "Overview of Corning's Share-Based Compensation Programs",
+          "level": 2,
+          "start_page": 77,
+          "end_page": 77,
+          "summary": "Corning's share-based compensation programs consist of employee stock options, time-based restricted stock awards, and restricted stock units. The cost of these awards is determined by their fair value at the grant date, with compensation expense recognized over the vesting period. The fair value is estimated using a multiple-point Black-Scholes option valuation model, which takes into account factors such as expected volatility and risk-free rate. This section provides insights into how Corning values and accounts for its share-based compensation.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w89",
+          "title": "Environmental Liabilities and Cost Accruals",
+          "level": 2,
+          "start_page": 78,
+          "end_page": 78,
+          "summary": "This section outlines the Company's approach to accruing environmental liabilities, detailing the criteria for recognizing costs related to environmental investigation and remediation. It explains how costs are estimated based on site evaluations, applicable laws, and prior experiences, and discusses the treatment of potential liabilities that may be reimbursable by insurance. Additionally, it highlights the uncertainty in estimating future costs and the implications for financial reporting. Readers can learn about the methods used for estimating and recording environmental liabilities and the factors influencing these estimates.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w90",
+          "title": "Environmental Liabilities and Cost Accruals",
+          "level": 2,
+          "start_page": 78,
+          "end_page": 78,
+          "summary": "This section outlines the Company's approach to accruing for environmental liabilities, detailing the criteria for recognizing costs related to environmental investigation and remediation. It explains that liabilities are recorded when probable and estimable, based on site evaluations and legal considerations. The section also discusses how costs are accrued for multiple responsible parties and the treatment of insurance reimbursements. Additionally, it highlights the uncertainty in estimating future costs and the potential for adjustments in subsequent periods.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w91",
+          "title": "Accruals for Environmental Liabilities and Remediation Costs",
+          "level": 2,
+          "start_page": 78,
+          "end_page": 78,
+          "summary": "This section outlines the Company's approach to accruing environmental liabilities related to investigation, remediation, and maintenance costs. It specifies that accruals are made when a liability is probable and can be estimated, based on site evaluations and applicable laws. The Company considers its share of costs in cases with multiple responsible parties and records potential liabilities that are reimbursable by insurance. Additionally, it highlights the uncertainty in remediation costs, which may lead to future adjustments in recognized liabilities.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w92",
+          "title": "Accounting for Inventories and Net Realizable Value",
+          "level": 2,
+          "start_page": 78,
+          "end_page": 78,
+          "summary": "This section details the accounting treatment of inventories, stating that they are recorded at the lower of cost or net realizable value (NRV). It defines NRV as estimated selling prices minus predictable costs of completion, disposal, and transportation. The cost of inventories is determined using the first-in, first-out (FIFO) method. This section is crucial for understanding how the company values its inventory and the potential impact on financial statements.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w93",
+          "title": "Accounting for Property, Plant, and Equipment",
+          "level": 2,
+          "start_page": 78,
+          "end_page": 78,
+          "summary": "This section details the accounting treatment for property, plant, and equipment (PP&E), including land, buildings, and equipment, which are recorded at cost. Depreciation is calculated using the straight-line method based on estimated useful lives, ranging from 10 to 40 years for buildings and 2 to 20 years for equipment. Specific asset types, such as computer hardware and manufacturing equipment, have defined useful life ranges. Precious metals used in manufacturing are not depreciated but treated as depletion, with losses accounted for as period expenses. The section also briefly mentions lease classifications and their impact on financial statements.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w94",
+          "title": "Lease Accounting Practices at Corning",
+          "level": 2,
+          "start_page": 78,
+          "end_page": 78,
+          "summary": "This section details Corning's lease accounting practices, distinguishing between financing and operating leases. It explains how operating leases are recorded as other assets and liabilities, while finance leases are included in property, plant, and equipment. The section also notes that lease and non-lease components are treated as a single lease component for accounting purposes. Additionally, it mentions that Corning does not engage in significant leasing agreements as a lessor.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w95",
+          "title": "Assessment and Impairment of Long-Lived Assets",
+          "level": 2,
+          "start_page": 79,
+          "end_page": 79,
+          "summary": "This section discusses the impairment assessment of long-lived assets, including plant, equipment, and intangible assets. It outlines the process for determining recoverability based on estimated undiscounted future cash flows and fair value assessments using an income approach. The section highlights the need for judgment in identifying impairment indicators and details a specific impairment loss of $217 million incurred by Corning in 2020 related to discontinued research and development programs. It emphasizes the importance of quarterly reviews for impairment indicators and the methodology for measuring fair value.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w96",
+          "title": "Overview of Corning's Employee Retirement Plans",
+          "level": 2,
+          "start_page": 79,
+          "end_page": 79,
+          "summary": "Corning provides employee retirement plans, including defined benefit pension plans and postretirement health care and life insurance benefits for eligible retirees and dependents. The costs and obligations of these benefits are influenced by various assumptions such as interest rates, expected returns on plan assets, and demographic factors like retirements and mortality. Defined benefit pension plan costs consist of ongoing quarterly costs and annual mark-to-market adjustments based on actuarial assumptions and actual versus expected returns. Any significant changes in the plan trigger interim remeasurement adjustments.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w97",
+          "title": "Overview of Income Tax Accounting Methods",
+          "level": 2,
+          "start_page": 80,
+          "end_page": 80,
+          "summary": "This section explains the Company's approach to accounting for income taxes using the asset and liability method, which involves recognizing deferred tax assets and liabilities based on future tax consequences from operating losses and tax credit carryforwards. It details how the effective income tax rate is influenced by tax audits and the recording of tax benefits for uncertain tax positions. Additionally, it discusses the treatment of discrete events like audit settlements and changes in tax laws, as well as the establishment of valuation allowances for deferred tax assets. The section also outlines the Company's policy on reinvesting foreign earnings from subsidiaries under specific conditions.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w98",
+          "title": "Accounting for Equity Method Investments and Impairments",
+          "level": 2,
+          "start_page": 80,
+          "end_page": 83,
+          "summary": "This section discusses the accounting treatment of equity method investments, including the periodic review for impairment based on performance and indicators of value loss. It details the process for measuring fair value of impaired investments using discounted cash flows or other valuation methods. If an investment's carrying amount is deemed unrecoverable, it is recorded as an other-than-temporary impairment in earnings. Additionally, it explains the treatment of equity securities not consolidated or accounted for under the equity method, which are measured at fair value or cost with adjustments for observable price changes.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w99",
+      "title": "Overview of Corning's Investments and Financial Performance",
+      "level": 1,
+      "start_page": 84,
+      "end_page": 84,
+      "summary": "This section details Corning's investments as of December 31 for 2020 and 2019, including affiliated companies accounted for by the equity method and other investments. It provides financial figures such as net sales, gross profit, and net income for affiliated companies over the years 2018 to 2020. The section also highlights related party transactions, including sales and purchases with affiliated companies, and outlines the balance sheet figures for current and noncurrent assets and liabilities. Additionally, it notes the consolidation of HSG starting September 9, 2020, and the impact on investment values.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w100",
+      "title": "Overview of Hemlock Semiconductor Group and Financial Changes",
+      "level": 1,
+      "start_page": 85,
+      "end_page": 85,
+      "summary": "This section details the ownership structure and financial activities of Hemlock Semiconductor Group (HSG), including Corning's acquisition of DuPont's interests in HSG, which resulted in Corning gaining a controlling interest. It highlights HSG's role in manufacturing polysilicon for the semiconductor and solar industries and discusses the financial implications of market conditions on HSG's solar business, including a significant asset impairment charge in 2019. The section also notes the consolidation of HSG's revenue into Corning's financial statements following the acquisition.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w101",
+      "title": "HSG Acquisition and Financial Impact Overview",
+      "level": 1,
+      "start_page": 86,
+      "end_page": 87,
+      "summary": "This section details HSG's acquisition of DuPont's TCS manufacturing assets for $255 million and the resolution of the TCS Settlement for $175 million. It outlines the funding of the Redemption through existing cash and third-party debt, and the consolidation of HSG under Corning's ownership. The section also discusses the pre-tax gain of $498 million recognized by Corning from the consolidation, the fair value assessment of the equity interest, and the recorded assets and liabilities from the acquisition. Additionally, it provides insights into the goodwill recognized and its implications for financial reporting.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w102",
+      "title": "Overview of Corning's Acquisitions and Financial Impacts",
+      "level": 1,
+      "start_page": 88,
+      "end_page": 88,
+      "summary": "This section details Corning's acquisitions, specifically noting that there were no material acquisitions in 2020 or 2019. It highlights the 2018 acquisition of 3M's Communication Markets Division for $841 million, including the allocation of the purchase price to tangible and intangible assets, resulting in $271 million of goodwill. The section also discusses the fair value assessments of customer deposit liabilities and deferred revenue related to the acquisition, as well as the consolidation of HSG's revenue into Corning's financial statements. Additionally, it mentions acquisition-related costs and the estimated fair value of non-controlling interests.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w103",
+      "title": "Revenue Recognition and Measurement Practices",
+      "level": 1,
+      "start_page": 89,
+      "end_page": 89,
+      "summary": "This section details how Corning recognizes revenue from product sales and services. Revenue is primarily generated from product delivery, recognized when control is transferred to the customer, and includes considerations for customer acceptance clauses. It also discusses the measurement of revenue, excluding taxes, and the establishment of allowances for returns and warranty costs based on historical data. Additionally, it covers revenue from services related to Telecommunications products, which is recognized over time, and provides a disaggregation of revenue by major product categories.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w104",
+      "title": "Overview of Contract Assets and Liabilities",
+      "level": 1,
+      "start_page": 90,
+      "end_page": 90,
+      "summary": "This section discusses Corning's contract assets and liabilities, highlighting that contract assets, such as costs to obtain or fulfill contracts, are minor in the revenue recognition process. Most fulfillment costs are categorized as inventory, fixed assets, or intangible assets. Contract liabilities include deferred revenue, advanced payments, and customer deposits, primarily related to Display products and controlling interests in HSG. The section emphasizes the immaterial nature of these costs and liabilities in relation to overall operations, directing readers to additional notes for further details.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w105",
+      "title": "Customer Deposits and Revenue Recognition Overview",
+      "level": 1,
+      "start_page": 91,
+      "end_page": 100,
+      "summary": "The Customer Deposits section covers Corning's deferred revenue of $1,070 million post-acquisition of HSG, detailing its classification as long-term and current liabilities. It discusses practical expedients for revenue recognition, including exemptions for short-term contracts and treatment of shipping fees. The section highlights a diversified customer base with no single customer exceeding 10% of net sales and notes an increase in customer deposits from $1.0 billion to $1.4 billion due to long-term agreements. Additionally, it provides insights into inventory management, lease obligations, income tax provisions, and other assets and liabilities.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w106",
+          "title": "Overview of Deferred Revenue and Customer Deposits",
+          "level": 2,
+          "start_page": 91,
+          "end_page": 91,
+          "summary": "This section discusses Corning's deferred revenue, specifically the $1,070 million recorded after acquiring a controlling interest in HSG. It details how deferred revenue is tracked on a per-customer contract-unit basis, with revenue recognized as customers receive their ordered goods. As of December 31, 2020, $872 million was classified as a long-term liability and $152 million as a current liability. The section also notes practical expedients regarding unsatisfied performance obligations and the treatment of shipping and handling fees.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w107",
+          "title": "Revenue Recognition Practical Expedients and Exemptions",
+          "level": 2,
+          "start_page": 91,
+          "end_page": 91,
+          "summary": "This section outlines practical expedients and exemptions related to revenue recognition. It specifies that the value of unsatisfied performance obligations does not need to be disclosed for contracts with an expected length of one year or less, and for contracts where revenue has already been recognized. Additionally, it clarifies that shipping and handling fees are considered fulfillment costs rather than separate performance obligations. These guidelines help streamline financial reporting and compliance for Corning's revenue contracts.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w108",
+          "title": "Overview of Significant Customers and Revenue Sources",
+          "level": 2,
+          "start_page": 91,
+          "end_page": 91,
+          "summary": "This section details that no single customer accounted for 10% or more of Corning's consolidated net sales in 2020, 2019, or 2018, indicating a diversified customer base. It also provides context on customer deposits, which increased from $1.0 billion in 2019 to $1.4 billion in 2020, primarily due to non-refundable cash deposits under long-term supply agreements. Additionally, it mentions the recognition of deferred revenue related to performance obligations from long-term contracts, with significant amounts classified as long-term and current liabilities.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w109",
+          "title": "Corning's Net Inventories Overview",
+          "level": 2,
+          "start_page": 91,
+          "end_page": 91,
+          "summary": "This section details Corning's net inventories as of December 31 for 2020 and 2019, breaking down the figures into finished goods, work in process, raw materials, and supplies. The total net inventories increased from $2.32 billion in 2019 to $2.44 billion in 2020, with a notable contribution of $461 million from HSG following its acquisition. The breakdown includes $1.236 billion in finished goods, $357 million in work in process, $370 million in raw materials, and $475 million in supplies. This information is crucial for understanding Corning's inventory management and production capacity.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w110",
+          "title": "Overview of Corning's Leases and Related Expenses",
+          "level": 2,
+          "start_page": 92,
+          "end_page": 93,
+          "summary": "This section details Corning's operating and finance leases, including expenses and liabilities associated with them. It provides a breakdown of lease expenses for 2020 and 2019, highlighting total lease expenses of $200 million in 2020. The section also includes supplemental balance sheet information, such as right-of-use assets and lease liabilities, with operating lease liabilities totaling $729 million as of December 31, 2020. Additionally, it outlines the weighted average remaining lease terms and discount rates for both operating and finance leases, as well as future lease commitments totaling approximately $138 million for new production facilities.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w111",
+          "title": "Overview of Corning's Income Tax Provisions and Liabilities",
+          "level": 2,
+          "start_page": 94,
+          "end_page": 96,
+          "summary": "This section details Corning's income tax provisions, including current and deferred tax amounts for federal, state, municipal, and foreign taxes from 2018 to 2020. It provides a reconciliation of the U.S. statutory income tax rate to the effective tax rate, highlighting factors affecting tax rates such as foreign earnings and tax credits. The section also discusses the company's deferred tax assets and liabilities, including loss carryforwards and unrecognized tax benefits. Additionally, it outlines ongoing IRS audits and the implications of tax positions taken in prior years, as well as the status of tax returns in various jurisdictions.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w112",
+          "title": "Property, Plant and Equipment Overview",
+          "level": 2,
+          "start_page": 97,
+          "end_page": 97,
+          "summary": "This section provides a detailed breakdown of Property, Plant and Equipment (PP&E) net of accumulated depreciation for the years ending December 31, 2020, and 2019. It includes specific values for land, buildings, equipment, and construction in progress, totaling $29.4 billion in 2020. The section also outlines accumulated depreciation, which amounted to $13.7 billion, resulting in a net total of $15.7 billion for PP&E. Additionally, it mentions capitalized interest costs related to PP&E and the value of precious metals in manufacturing equipment, along with depletion expenses for those metals over the past three years.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w113",
+          "title": "Goodwill and Intangible Assets Overview",
+          "level": 2,
+          "start_page": 97,
+          "end_page": 98,
+          "summary": "This section discusses goodwill and other intangible assets, defining goodwill as the excess cost of an acquired entity over the fair value of its net assets. It explains the impairment testing process for goodwill, which occurs at the reporting unit level and includes both qualitative and quantitative assessments. The section provides details on changes in goodwill balances for 2019 and 2020, highlighting a significant acquisition that increased goodwill. Additionally, it outlines the company's other intangible assets, including patents and customer lists, and notes the expected annual amortization expense for these assets.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w114",
+          "title": "Overview of Other Assets and Liabilities",
+          "level": 2,
+          "start_page": 99,
+          "end_page": 100,
+          "summary": "This section details the company's other assets and liabilities as of December 31 for the years 2020 and 2019. It includes current and non-current assets such as derivative instruments, South Korean tax deposits, operating leases, and investments, totaling $2,140 million in 2020. On the liabilities side, it outlines current and non-current liabilities including wages, income taxes, litigation costs, and pension plan liabilities, amounting to $5,017 million in 2020. The section also discusses ongoing tax appeals in South Korea and the implications of certain liabilities related to litigation and customer deposits.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w115",
+      "title": "Overview of Corning's Debt and Financial Obligations",
+      "level": 1,
+      "start_page": 101,
+      "end_page": 102,
+      "summary": "This section details Corning's debt as of December 31, 2020, including current and long-term debt figures, with a total long-term debt of $7.897 billion. It provides a breakdown of various debentures and notes, including their interest rates and maturity dates. The section also discusses debt maturities by year, highlighting significant repayments and issuances in 2020, such as the redemption of $100 million in debentures and the establishment of new loan facilities in Chinese yuan. Additionally, it notes the fair value of long-term debt and the absence of outstanding commercial paper.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w116",
+      "title": "Corning Employee Retirement Plans Overview",
+      "level": 1,
+      "start_page": 103,
+      "end_page": 108,
+      "summary": "This section covers Corning's employee retirement plans, including defined benefit pension plans and postretirement benefits. It details the company's funding policies, contributions made in 2020, and obligations for healthcare and life insurance benefits. The funded status and changes in benefit obligations for defined benefit and postretirement plans are analyzed, with specific figures for service costs, interest costs, and actuarial gains or losses. Additionally, it discusses the impact of updated mortality assumptions and discount rates on financial health and benefit calculations.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w117",
+          "title": "Overview of Corning's Defined Benefit Plans",
+          "level": 2,
+          "start_page": 103,
+          "end_page": 103,
+          "summary": "This section details Corning's defined benefit pension plans for domestic and international employees, highlighting the company's funding policy to exceed minimum contribution requirements. In 2020, Corning made voluntary contributions of $180 million to domestic plans and $41 million to international plans, with plans for $31 million in 2021. It also discusses postretirement plans providing healthcare and life insurance benefits, including a cap on contributions for retiree medical coverage. Employees hired after January 1, 2007, will bear the full cost of their retiree medical benefits.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w118",
+          "title": "Pension Obligations and Funded Status Overview",
+          "level": 2,
+          "start_page": 104,
+          "end_page": 105,
+          "summary": "This section details the changes in benefit obligations and funded status of defined benefit pension plans for the years ending December 31, 2020, and 2019. It includes specific figures for service costs, interest costs, actuarial losses, and benefits paid, highlighting a total benefit obligation increase from $4,581 million in 2019 to $4,981 million in 2020. The fair value of plan assets also increased, resulting in a funded status of $(808) million at the end of 2020. Additionally, it provides insights into the projected and accumulated benefit obligations compared to the fair value of plan assets for various pension plans, indicating where obligations exceeded assets.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w119",
+          "title": "Overview of Postretirement Benefits and Financial Status",
+          "level": 2,
+          "start_page": 106,
+          "end_page": 108,
+          "summary": "This section details the changes in benefit obligations and funded status of postretirement plans, including specific figures for service costs, interest costs, and actuarial gains or losses for the years 2019 and 2020. It outlines the total net periodic benefit costs, including components such as service costs and interest costs, and highlights the impact of updated mortality assumptions on benefit obligations. Additionally, it discusses the discount rates used for calculating present values of projected benefit payments and the health care cost trend rates. Readers can learn about the financial health and assumptions underlying the company's postretirement benefits.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w120",
+      "title": "Overview of Plan Assets and Investment Strategy",
+      "level": 1,
+      "start_page": 109,
+      "end_page": 110,
+      "summary": "This section outlines the Company's strategy for managing plan assets to meet current and future obligations, emphasizing a target allocation of 40% in equity investments and 60% in bonds. It details the types of investments, including domestic and international stocks, corporate bonds, and fixed income assets, aimed at ensuring liquidity and mitigating interest rate sensitivity. The section also provides fair value measurement data for various asset categories, including Level 1, Level 2, and Level 3 assets, and discusses risks associated with credit, currency, and liquidity. Additionally, it presents expected benefit payments for domestic and international pension plans and postretirement benefits for the upcoming years.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w121",
+      "title": "Asbestos and Environmental Liabilities Overview",
+      "level": 1,
+      "start_page": 111,
+      "end_page": 114,
+      "summary": "This section covers Corning's asbestos claims and liabilities, including those related to Pittsburgh Corning Corporation's Chapter 11 reorganization and Dow Corning's bankruptcy. It details financial reserves for non-PCC asbestos claims, breast implant litigation, and environmental liabilities under the Superfund Act. The section also discusses indemnity obligations and the financial implications of these claims, emphasizing the estimated reserves and the management's assessment of potential additional losses as remote.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w122",
+          "title": "Overview of Asbestos Claims and Liabilities",
+          "level": 2,
+          "start_page": 112,
+          "end_page": 112,
+          "summary": "This section details the asbestos claims involving Corning and PPG Industries, specifically related to Pittsburgh Corning Corporation (PCC) and its Chapter 11 reorganization plan effective April 2016, which included a $290 million liability. It also discusses non-PCC asbestos claims against Corning, with reserves estimated at $96 million as of December 31, 2020. Additionally, it covers Dow Corning's bankruptcy and related litigation, including breast implant claims and commercial creditor claims, with reserves and indemnity obligations outlined. The section provides insights into the financial implications and legal responsibilities of Corning regarding these claims.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w123",
+          "title": "Overview of Non-PCC Asbestos Claims Against Corning",
+          "level": 2,
+          "start_page": 112,
+          "end_page": 112,
+          "summary": "This section discusses non-PCC asbestos claims against Corning, which were stayed until the confirmation of the PCC reorganization plan in 2016. As of December 31, 2020, the reserve for these claims was estimated at $96 million, reflecting projected claims and legal fees. The section provides insights into the financial implications of these claims and their status following the lifting of the stay.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w124",
+          "title": "Dow Corning Bankruptcy and Indemnity Matters",
+          "level": 2,
+          "start_page": 112,
+          "end_page": 112,
+          "summary": "This section discusses the Chapter 11 bankruptcy matters related to Dow Corning Corporation, including the realignment of ownership between Corning and Dow, which occurred on May 31, 2016. It details Corning's indemnification agreement for Dow Corning's pre-closing liabilities and outlines the breast implant litigation that led to Dow Corning's bankruptcy filing in 1995. The section also mentions the establishment of a Settlement Trust and the financial reserves set aside for breast implant claims and other creditor claims, including a $107 million reserve for interest claims that were settled in 2019. Corning assesses that its indemnity obligations related to these matters are not expected to be material.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w125",
+          "title": "Overview of Dow Corning Breast Implant Litigation",
+          "level": 2,
+          "start_page": 112,
+          "end_page": 112,
+          "summary": "This section details the Dow Corning Breast Implant Litigation, highlighting the company's bankruptcy filing in May 1995 due to numerous lawsuits related to breast implants. It outlines the emergence from Chapter 11 in June 2004 with a Plan of Reorganization that included a Settlement Trust and Litigation Facility for claim resolution. Dow Corning has paid approximately $1.8 billion to the Settlement Trust and recorded a reserve of $290 million for litigation as of May 31, 2016, which was later adjusted to $160 million by December 31, 2020. The section also mentions potential indemnity obligations for Corning related to excess liabilities.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w126",
+          "title": "Dow Corning Bankruptcy Interest Claims Overview",
+          "level": 2,
+          "start_page": 112,
+          "end_page": 112,
+          "summary": "This section discusses the bankruptcy-related interest claims against Dow Corning, specifically from commercial creditors seeking additional compounded interest and legal fees from May 1995 to June 2004. As of May 31, 2016, Dow Corning had a recorded reserve of $107 million for these claims. The claims were settled by September 30, 2019, with bankruptcy court approval. Corning does not anticipate any material indemnity obligation related to these claims.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w127",
+          "title": "Dow Corning's Environmental Liabilities and Claims Overview",
+          "level": 2,
+          "start_page": 113,
+          "end_page": 113,
+          "summary": "This section details Dow Corning's environmental claims and liabilities, including a notification from Dow to Corning regarding potential losses from environmental remediation at various sites. It outlines Corning's responsibility under the Superfund Act for 15 hazardous waste sites and the accrued liabilities for environmental cleanup, which were approximately $68 million as of December 31, 2020. The section also discusses the company's policy for estimating these liabilities based on expert analysis and monitoring, indicating that the risk of additional losses is considered remote.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w128",
+          "title": "Corning's Environmental Litigation and Liability Overview",
+          "level": 2,
+          "start_page": 113,
+          "end_page": 114,
+          "summary": "This section discusses Corning's involvement in environmental litigation, specifically its designation as a potentially responsible party for 15 hazardous waste sites under the Superfund Act. It outlines Corning's policy to accrue estimated liabilities for environmental cleanup, with recorded amounts of approximately $68 million and $41 million for 2020 and 2019, respectively. The section emphasizes that management believes the accrued reserve is a reasonable estimate of liability and that the risk of additional losses is considered remote. Additionally, it mentions the indemnification agreement with Dow regarding environmental claims.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w129",
+      "title": "Impact of Hedging Activities on Financial Statements",
+      "level": 1,
+      "start_page": 115,
+      "end_page": 115,
+      "summary": "This section examines the effects of cash flow and undesignated hedges on Corning's consolidated financial statements from 2018 to 2020. It details the gains and losses recognized in other comprehensive income (OCI) and their subsequent reclassification into income, focusing on interest rate and foreign exchange contracts. The section highlights specific financial impacts, including a $14 million loss from the de-designation of certain cash flow hedges, and provides figures related to net sales, cost of sales, and other expenses. Overall, it illustrates the financial implications of these derivative instruments on the company's performance.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w130",
+          "title": "Impact of Cash Flow Hedges on Financial Statements",
+          "level": 2,
+          "start_page": 115,
+          "end_page": 115,
+          "summary": "This section details the impact of derivative financial instruments on Corning's consolidated financial statements for the years 2018-2020, specifically focusing on cash flow hedges. It includes tables summarizing gains and losses recognized in other comprehensive income (OCI) and their reclassification into income. The section highlights the financial effects of designated hedges, such as interest rate and foreign exchange contracts, and notes a specific loss from the de-designation of certain cash flow hedges. Readers can learn about the financial implications of these hedges on net sales and expenses over the specified years.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w131",
+          "title": "Impact of Undesignated Hedges on Financial Statements",
+          "level": 2,
+          "start_page": 115,
+          "end_page": 115,
+          "summary": "This section provides a summary of the effects of Corning's derivative financial instruments on its consolidated financial statements for the years ended December 31, 2018-2020. It details the gains and losses recognized in other comprehensive income (OCI) and the reclassification of these amounts into income for both designated and undesignated hedges. The section highlights specific figures for net sales, cost of sales, and other expenses related to foreign exchange and interest rate hedges. Additionally, it notes a loss of $14 million from the de-designation of certain cash flow hedges, emphasizing the impact of these financial instruments on the company's financial performance.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w132",
+      "title": "Fair Value Measurements and Financial Performance Overview",
+      "level": 1,
+      "start_page": 116,
+      "end_page": 135,
+      "summary": "This section details Corning Incorporated's fair value measurements, including the calculation of basic and diluted earnings per common share, share-based compensation plans, and stock options valuation. It provides a reconciliation of earnings per share from 2018 to 2020, outlines the company's long-term incentive plans, and discusses the financial implications of stock options using the Black-Scholes model. Additionally, it covers incentive stock plans with a focus on restricted stock units and their associated costs, as well as an overview of reportable segments and their financial performance from 2018 to 2020.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w133",
+          "title": "Calculation of Earnings Per Common Share",
+          "level": 2,
+          "start_page": 121,
+          "end_page": 121,
+          "summary": "This section explains the calculation of basic and diluted earnings per common share for Corning Incorporated. Basic earnings are derived from net income attributable to common shareholders divided by the weighted-average number of common shares outstanding. Diluted earnings consider the potential issuance of additional shares from dilutive securities. The section provides a reconciliation of net income and shares outstanding for the years 2018 to 2020, detailing figures for basic and diluted earnings per share, as well as the impact of convertible preferred stock and stock options on these calculations.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w134",
+          "title": "Overview of Corning's Share-Based Compensation Plans",
+          "level": 2,
+          "start_page": 121,
+          "end_page": 121,
+          "summary": "Corning has established long-term incentive plans for key employees and board members, allowing for various equity-based compensation awards such as stock options and performance share units. As of December 31, 2020, approximately 36 million common shares were available for future grants under these plans. In 2020, Corning increased the equity component of its Long-Term Incentive Plan from 40% to 75% of an executive's annual compensation. The costs associated with share-based compensation are allocated across multiple expense lines in the consolidated statements of income.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w135",
+          "title": "Overview of Corning's Stock Options and Valuation",
+          "level": 2,
+          "start_page": 122,
+          "end_page": 123,
+          "summary": "This section covers the financial aspects of stock options granted by Corning, detailing the weighted-average grant-date fair value, total fair value of vested options, and associated compensation costs for the years 2018 to 2020. It also discusses unrecognized compensation costs as of December 31, 2020, and proceeds from option exercises. The Black-Scholes valuation model is explained, including its inputs such as expected volatility, dividends, and risk-free rates.",
+          "source": "window",
+          "children": [
+            {
+              "node_id": "w136",
+              "title": "Stock Options Financial Overview and Valuation",
+              "level": 3,
+              "start_page": 123,
+              "end_page": 123,
+              "summary": "This section provides detailed financial data regarding stock options granted by Corning for the years ending December 31, 2020, 2019, and 2018. It includes the weighted-average grant-date fair value of options, total fair value of vested options, and compensation costs associated with stock options. Additionally, it outlines the unrecognized compensation costs as of December 31, 2020, and the proceeds from option exercises. The section also describes the Black-Scholes valuation model used for estimating fair value, including inputs such as expected volatility, dividends, and risk-free rates.",
+              "source": "window",
+              "children": []
+            }
+          ]
+        },
+        {
+          "node_id": "w137",
+          "title": "Incentive Stock Plans Overview",
+          "level": 2,
+          "start_page": 124,
+          "end_page": 124,
+          "summary": "This section covers the Company's incentive stock plans, focusing on time-based and performance-based restricted stock units (RSUs) as of December 31, 2020. It details the number of non-vested shares, grant-date fair values, and unrecognized compensation costs, totaling approximately $149 million for time-based units and $32 million for performance-based units. The expected recognition period for time-based units is 2.4 years, while performance-based RSUs are earned based on specific targets and typically vest over three years. The total compensation cost for performance-based RSUs for the year was approximately $81 million, influenced by retirement-eligible employees.",
+          "source": "window",
+          "children": [
+            {
+              "node_id": "w138",
+              "title": "Overview of Time-Based and Performance-Based Stock Units",
+              "level": 3,
+              "start_page": 124,
+              "end_page": 124,
+              "summary": "This section provides a detailed overview of the Company's non-vested time-based restricted stock and restricted stock units as of December 31, 2020, including the number of shares, grant-date fair values, and changes from the previous year. It highlights the unrecognized compensation costs associated with these arrangements, totaling approximately $149 million, and outlines the expected recognition period of 2.4 years. Additionally, it discusses performance-based restricted stock units, including their grant details, vesting conditions, and associated compensation costs, which amounted to approximately $81 million for the year ended December 31, 2020.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w139",
+              "title": "Overview of Performance-Based Restricted Stock Units",
+              "level": 3,
+              "start_page": 124,
+              "end_page": 124,
+              "summary": "This section details the status and financial implications of performance-based restricted stock units (RSUs) as of December 31, 2020. It outlines the number of non-vested shares, their grant-date fair value, and changes during the year, including grants, forfeitures, and the total unrecognized compensation cost of approximately $32 million. The section explains that these RSUs are earned based on achieving specific performance targets and are typically vested over three years, with compensation costs recognized over the vesting period. Additionally, it notes that the compensation cost for the year was approximately $81 million, influenced by retirement-eligible employees.",
+              "source": "window",
+              "children": []
+            }
+          ]
+        },
+        {
+          "node_id": "w140",
+          "title": "Overview of Reportable Segments and Financial Performance",
+          "level": 2,
+          "start_page": 125,
+          "end_page": 135,
+          "summary": "This section outlines the reportable segments of the company, including Display Technologies, Optical Communications, Specialty Materials, Environmental Technologies, and Life Sciences, detailing their specific manufacturing focuses. It also describes the 'All Other' category, which includes segments not meeting reporting thresholds and the impact of the acquisition of HSG. Financial results for each segment are presented, including net sales, depreciation, research and development expenses, and net income for the years 2018-2020. Additionally, it discusses the exclusion of certain foreign currency impacts from segment results and provides reconciliations of segment net income to consolidated net income.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w141",
+      "title": "CEO Certification Under Sarbanes-Oxley Act",
+      "level": 1,
+      "start_page": 136,
+      "end_page": 136,
+      "summary": "This section contains the certification by Wendell P. Weeks, the Chief Executive Officer of Corning Incorporated, as required by Section 302(a) of the Sarbanes-Oxley Act of 2002. It confirms that he has reviewed the Annual Report on Form 10-K and asserts that the report is free of material misstatements. The certification also details the responsibilities for establishing and maintaining disclosure controls and internal controls over financial reporting, including evaluations of their effectiveness and disclosures of any significant deficiencies or fraud. This certification is a key component of corporate governance and financial accountability.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w142",
+      "title": "CFO Certification Under Sarbanes-Oxley Act",
+      "level": 1,
+      "start_page": 137,
+      "end_page": 137,
+      "summary": "This section contains the certification by R. Tony Tripeny, Chief Financial Officer of Corning Incorporated, in compliance with Section 302(a) of the Sarbanes-Oxley Act of 2002. It confirms the review of the annual report on Form 10-K, asserts the accuracy of the financial statements, and outlines responsibilities regarding disclosure controls and internal financial reporting. The certification includes an evaluation of the effectiveness of these controls and discloses any significant deficiencies or fraud related to financial reporting. The date of certification is February 12, 2021.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w143",
+      "title": "CEO Certification Under Sarbanes-Oxley Act",
+      "level": 1,
+      "start_page": 138,
+      "end_page": 138,
+      "summary": "This section contains the certification by Wendell P. Weeks, CEO, and R. Tony Tripeny, CFO, of Corning Incorporated, affirming compliance with 18 U.S.C. Section 1350 and the Sarbanes-Oxley Act of 2002. They certify that the company's Annual Report on Form 10-K for the year ended December 31, 2020, meets the requirements of the Securities Exchange Act of 1934. Additionally, they assert that the information in the report accurately reflects the company's financial condition and operational results.",
+      "source": "window",
+      "children": []
+    }
+  ]
+}

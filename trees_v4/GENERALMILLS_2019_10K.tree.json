@@ -1,0 +1,231 @@
+{
+  "node_id": "root",
+  "title": "GENERALMILLS_2019_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 140,
+  "summary": "The General Mills 2019 Form 10-K section provides a comprehensive overview of the company's operations, financial performance, and governance for the fiscal year ending May 26, 2019. It includes details on business operations, risk factors, properties, legal proceedings, and market performance, along with selected financial data and management's discussion of results. The report also covers executive compensation, corporate governance, and accounting practices, ensuring transparency and compliance with regulatory requirements. Additionally, it highlights the company's strategic focus on innovation and brand management, particularly following the acquisition of Blue Buffalo.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "General Mills 2019 Form 10-K Front Matter",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 2,
+      "summary": "This section contains the front matter for General Mills, Inc.'s Form 10-K annual report for the fiscal year ending May 26, 2019. It includes essential company information such as the registrant's name, jurisdiction, and contact details, as well as the types of securities registered and their trading symbols on the New York Stock Exchange. The section also confirms the company's compliance with filing requirements and provides the aggregate market value of its common stock. Additionally, it outlines the table of contents for the report, detailing the various parts and items covered in the document.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 7,
+      "summary": "This section provides an overview of General Mills, Inc., detailing its incorporation, global operations, and product offerings across various food categories, including snacks, cereals, and pet food. It outlines the company's strategic focus on innovation, marketing, and portfolio management, particularly following the acquisition of Blue Buffalo. The section also discusses the competitive landscape, customer base, and the importance of raw materials and supply chain management. Additionally, it highlights the company's commitment to research and development, trademarks, and regulatory compliance, as well as providing information about its executive officers.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 8,
+      "end_page": 14,
+      "summary": "This section outlines various risk factors that could adversely affect the company's business, financial condition, and operational results. Key risks include intense competition in consumer and pet food markets, potential loss of profit margins due to retail consolidation, and volatility in commodity prices impacting raw material costs. Additionally, the company faces challenges related to supply chain disruptions, changes in consumer preferences, and the need to maintain brand reputation. Regulatory compliance, international operations risks, and financial obligations also pose significant threats to the company's stability and growth.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This section, Item 1B, states that there are no unresolved staff comments regarding the company's operations or financial reporting. It highlights potential challenges related to the integration of Blue Buffalo, including operational difficulties, employee assimilation, customer retention, and the management of geographically dispersed operations. The section emphasizes that these challenges could lead to increased costs, reduced revenues, and potential litigation, ultimately affecting the company's financial condition and performance. It also notes the risks associated with acquisitions, such as the inability to achieve anticipated synergies and the potential impairment of intangible assets.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This section details the company's properties, including its principal executive offices and research facilities located in the Minneapolis area. As of May 26, 2019, the company operates 51 production facilities globally, with 26 in the U.S. and others in regions such as Greater China, Canada, Europe, and Latin America. It also mentions the operation of grain elevators in the U.S. and the use of approximately 13 million square feet of leased warehouse and distribution space, primarily for the North America Retail segment. Additionally, the section highlights the company's Häagen-Dazs business, which includes 525 leased ice cream parlors and 365 franchised locations outside the U.S. and Canada.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This section discusses the company's involvement in various pending or threatened legal actions arising in the normal course of business. It states that, as of May 26, 2019, there were no claims or litigation that were expected to materially affect the company's financial position or operations. The section also references related environmental matters discussed in Item 1 of the report, indicating a broader context for legal issues faced by the company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This section, Item 4, Mine Safety Disclosures, states that there are no mine safety disclosures to report. It indicates that the company has no relevant incidents or issues related to mine safety that need to be disclosed. Readers can learn that the company is currently not facing any mine safety concerns or regulatory actions in this area.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 17,
+      "summary": "This section provides information about the market for the registrant's common equity, specifically its listing on the New York Stock Exchange under the symbol 'GIS' and the number of record holders as of June 10, 2019. It details the shares of common stock purchased during the fiscal quarter ended May 26, 2019, including the total number of shares, average price paid per share, and the number of shares purchased as part of a publicly announced repurchase program. The section also notes the maximum number of shares that may still be purchased under the program, which was authorized by the Board of Directors on May 6, 2014, allowing for the repurchase of up to 100,000,000 shares without a specified expiration date.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Selected Financial Data",
+      "level": 1,
+      "start_page": 18,
+      "end_page": 18,
+      "summary": "This section presents selected financial data for General Mills over a five-year period ending May 26, 2019, including key metrics such as net sales, gross margin, operating profit, and net earnings. It details operating ratios, balance sheet data, cash flow information, and share data, providing insights into the company's financial performance and trends. Readers can learn about the company's revenue growth, expense management, and profitability, as well as changes in long-term debt and cash flow generation. The section also notes significant accounting changes and acquisitions that may impact financial comparisons.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 19,
+      "end_page": 47,
+      "summary": "This section provides a comprehensive analysis of General Mills' financial condition and operational results for fiscal 2019, highlighting key performance metrics such as a 7% increase in consolidated net sales to $16.9 billion, driven largely by the acquisition of Blue Buffalo. It outlines the company's strategic focus on brand equity, innovation, and consumer marketing, aiming for long-term growth targets including low single-digit organic net sales growth and high single-digit adjusted EPS growth. The discussion includes detailed segment performance, with North America Retail experiencing a 2% decline in net sales, while the Pet segment contributed significantly to overall growth. Additionally, it reviews fiscal 2020 targets, emphasizing continued innovation and cash flow discipline to enhance shareholder returns.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 48,
+      "end_page": 49,
+      "summary": "This section discusses the company's exposure to market risks related to interest rates, foreign exchange rates, commodity prices, and equity prices, which can impact earnings and cash flows. It outlines the company's risk management strategies, including the use of hedging transactions with highly rated counterparties and established credit limits. The section also presents a Value at Risk (VAR) analysis, utilizing a Monte Carlo methodology to estimate potential losses from adverse market changes under normal conditions, with a 95% confidence level. Specific figures for potential fair value losses from various instruments as of May 26, 2019, and comparisons to previous years are provided, highlighting the financial impact of these risks.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 50,
+      "end_page": 108,
+      "summary": "This section provides the consolidated financial statements of General Mills, Inc., including the balance sheets, statements of earnings, comprehensive income, equity, and cash flows for the fiscal years ending May 26, 2019, May 27, 2018, and May 28, 2017. It details the company's financial position, including net sales, operating profit, net earnings, and dividends per share. The report also includes the management's responsibility for the accuracy of the financial statements and the effectiveness of internal controls, as well as the independent auditor's opinion on these statements. Additionally, it outlines significant accounting policies, including inventory valuation, asset depreciation, and goodwill impairment testing, providing insights into the company's financial practices and reporting standards.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 109,
+      "end_page": 109,
+      "summary": "This section reports that there were no changes or disagreements with accountants regarding accounting and financial disclosure. It confirms the effectiveness of the company's disclosure controls and procedures as evaluated by the Chief Executive Officer and Chief Financial Officer as of May 26, 2019. Additionally, it states that there were no changes in internal control over financial reporting during the fiscal quarter that could materially affect the reporting process.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 109,
+      "end_page": 109,
+      "summary": "This section discusses the evaluation of the effectiveness of the company's disclosure controls and procedures, as overseen by the Chief Executive Officer and Chief Financial Officer. As of May 26, 2019, they concluded that these controls were effective in ensuring timely and accurate reporting of required information. It also states that there were no changes in internal control over financial reporting during the fiscal quarter that could materially affect these controls.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 110,
+      "end_page": 110,
+      "summary": "This section, Item 9B, states that there is no additional information to report. It references the management's report on internal control over financial reporting, which confirms the effectiveness of these controls as of May 26, 2019, based on COSO criteria. It also mentions that KPMG LLP provided an attestation report on this effectiveness. Furthermore, it incorporates information from the definitive Proxy Statement regarding directors, executive officers, and the Audit Committee, and notes the availability of the company's Code of Conduct on its website.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 110,
+      "end_page": 110,
+      "summary": "This section provides an overview of General Mills, Inc.'s corporate governance, including details on the election of directors, shareholder nominations, and compliance with beneficial ownership reporting. It references the definitive Proxy Statement for the 2019 Annual Meeting of Shareholders for specific information about executive officers and the Audit Committee. Additionally, it mentions the adoption of a Code of Conduct applicable to all employees, including key executives, and notes that amendments and waivers will be posted on the company's website.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 111,
+      "end_page": 111,
+      "summary": "This section provides an overview of executive compensation, referencing detailed information from the definitive Proxy Statement for the 2019 Annual Meeting of Shareholders. It includes a table detailing equity compensation plan information as of May 26, 2019, listing the number of securities to be issued upon exercise of outstanding options, the weighted-average exercise price, and the number of securities remaining for future issuance. The section specifies the breakdown of equity compensation plans approved and not approved by security holders, highlighting the types of awards granted and the historical context of the plans mentioned.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 111,
+      "end_page": 111,
+      "summary": "This section provides details on the security ownership of certain beneficial owners, management, and related stockholder matters, specifically referencing the definitive Proxy Statement for the 2019 Annual Meeting of Shareholders. It includes a table summarizing equity compensation plan information as of May 26, 2019, detailing the number of securities to be issued upon exercise of outstanding options, warrants, and rights, along with their weighted-average exercise price. The section also distinguishes between equity compensation plans approved by security holders and those not approved, highlighting the total number of securities available for future issuance under these plans. Additionally, it notes the discontinuation of the 1998 Employee Stock Plan and the current status of the 2017 Stock Compensation Plan.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 111,
+      "end_page": 111,
+      "summary": "This section references the 'Board Independence and Related Person Transactions' from the definitive Proxy Statement for the 2019 Annual Meeting of Shareholders. It discusses the relationships and transactions involving directors and related parties, emphasizing the importance of director independence. Readers can learn about the criteria for assessing director independence and any transactions that may present conflicts of interest. The section aims to ensure transparency regarding the governance practices related to board members and their affiliations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 111,
+      "end_page": 111,
+      "summary": "This section references the fees and services provided by the independent registered public accounting firm as detailed in the definitive Proxy Statement for the 2019 Annual Meeting of Shareholders. Readers can learn about the specific accounting fees incurred, the types of services rendered, and the overall relationship between the company and its accounting firm. This information is crucial for understanding the financial oversight and compliance aspects of the company's operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 15. Exhibits, Financial Statement Schedules",
+      "level": 1,
+      "start_page": 112,
+      "end_page": 115,
+      "summary": "This section includes a comprehensive list of financial statements and exhibits related to the company's fiscal performance and governance. Key financial statements provided are the Consolidated Statements of Earnings, Comprehensive Income, Balance Sheets, Cash Flows, and Total Equity for the fiscal years ending in 2019, 2018, and 2017. Additionally, it outlines the Financial Statement Schedule for Valuation and Qualifying Accounts. The section also details various exhibits, including agreements, corporate bylaws, compensation plans, and certifications required under the Sarbanes-Oxley Act, which are essential for understanding the company's legal and financial obligations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 116,
+      "end_page": 140,
+      "summary": "Item 16 of the Form 10-K provides a summary of the company's financial statements and exhibits, including the Consolidated Balance Sheets, Statements of Earnings, and Cash Flows for the fiscal year ended May 27, 2018. It outlines the management contracts and compensatory plans required to be filed, as well as the company's long-term debt instruments. The section also includes signatures from key executives, affirming the report's accuracy and compliance with SEC regulations. Additionally, it references the valuation of qualifying accounts and the company's securities registered under the Securities Exchange Act of 1934.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

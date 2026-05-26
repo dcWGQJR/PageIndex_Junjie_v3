@@ -1,0 +1,241 @@
+{
+  "node_id": "root",
+  "title": "WALMART_2020_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 170,
+  "summary": "The section provides a comprehensive overview of Walmart Inc.'s Form 10-K for the fiscal year ending January 31, 2020, detailing the company's global retail operations, financial performance, and risk factors. It includes information on business segments, legal proceedings, properties, and market dynamics affecting the company's equity. Additionally, it discusses management's analysis of financial results, market risks, and compliance with regulatory requirements, including investigations related to the Foreign Corrupt Practices Act (FCPA). The section concludes with financial statements, executive compensation details, and signatures from key executives, affirming the report's authenticity.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Walmart Inc. Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 6,
+      "summary": "This section contains the front matter of Walmart Inc.'s Form 10-K for the fiscal year ending January 31, 2020. It includes essential company information such as the registrant's name, address, and SEC file number, as well as details about the securities registered under the Securities Exchange Act. The section also outlines the company's status as a large accelerated filer and provides a market value of its common stock. Additionally, it incorporates references to documents such as the Proxy Statement for the upcoming Annual Meeting of Shareholders, and includes a cautionary statement regarding forward-looking statements and associated risks.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 7,
+      "end_page": 13,
+      "summary": "Walmart Inc. operates globally, providing retail and eCommerce services to over 265 million customers weekly through approximately 11,500 stores across 27 countries. The company emphasizes a customer-centric approach, focusing on price leadership and convenience through its Everyday Low Price (EDLP) and Everyday Low Cost (EDLC) strategies. Walmart's operations are divided into three segments: Walmart U.S., Walmart International, and Sam's Club, with Walmart U.S. being the largest, contributing 66% of total net sales in fiscal 2020. The section details Walmart's historical development, eCommerce initiatives, and competitive strategies, including omni-channel offerings and a diverse merchandise assortment. Additionally, it discusses the company's supply chain, employee relations, and executive leadership.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 14,
+      "end_page": 22,
+      "summary": "This section outlines various risk factors that could adversely impact Walmart's business, financial performance, and operations. Key risks include macroeconomic factors such as inflation, interest rates, and consumer spending patterns, which could affect sales and inventory turnover. The company faces strong competition from other retailers, necessitating effective responses to market changes and consumer preferences. Operational risks include disruptions from natural disasters, geopolitical events, and cybersecurity threats, which could harm information systems and customer trust. Additionally, challenges related to supplier reliability and product safety are highlighted, emphasizing the importance of maintaining quality and compliance to protect the brand and financial health.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 23,
+      "end_page": 23,
+      "summary": "This section outlines the company's involvement in various legal proceedings that could negatively impact its financial condition and operations. It details class-action lawsuits related to wage and hour laws and consumer laws, particularly involving its subsidiary ASDA in the UK regarding equal pay claims. Additionally, the company faces litigation related to opioid distribution practices, including a significant multidistrict litigation case. The section also mentions the company's bylaws that designate the Delaware Court of Chancery as the exclusive forum for certain shareholder disputes, which may limit shareholders' options for legal recourse.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 25,
+      "summary": "This section provides a detailed breakdown of Walmart U.S. and Sam's Club operations in the United States as of January 31, 2020. It includes unit counts for various store formats such as Supercenters, Discount Stores, Neighborhood Markets, and Clubs across all states and territories. The total number of locations is 5,355, with a combined square footage of 783,557 thousand square feet. Readers can learn about the distribution of Walmart's retail formats by state, highlighting the scale and reach of the company's operations in the U.S.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This section provides a detailed overview of Walmart's international operations as of January 31, 2020, including unit counts and total square footage across various geographic markets. It categorizes operations into retail, wholesale, and other segments, with specific figures for regions such as Africa, Argentina, Canada, Central America, Chile, China, India, Japan, Mexico, and the United Kingdom. The total number of international units is reported as 6,146, covering 344,949 square feet. Additionally, it notes that unit counts for most regions are as of December 31, 2019, while Canada is reported as of January 31, 2020, and clarifies that 'Other' includes stand-alone gas stations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 27,
+      "end_page": 27,
+      "summary": "This section provides a detailed breakdown of Walmart's owned and leased properties as of January 31, 2020, including retail units and distribution facilities in the U.S. and internationally. It lists the total number of retail units and distribution facilities, highlighting the distribution across various countries such as Mexico, Canada, and China. The section also notes the nature of property ownership, including the use of independent contractors for construction and the terms of store leases, which may include renewal options and rent escalations. Additionally, it references further information on distribution centers in the business segment.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This section discusses the market for the registrant's common equity, including stockholder matters and issuer purchases of equity securities. It provides insights into the number of stockholders, the market price of the common stock, and any dividends declared. Additionally, it outlines the company's stock repurchase programs and any restrictions on the ability to pay dividends. The section aims to inform investors about the equity market dynamics related to the registrant's common stock and its implications for stockholder value.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Selected Financial Data",
+      "level": 1,
+      "start_page": 29,
+      "end_page": 29,
+      "summary": "This section provides an overview of Walmart's common stock, including its listing on the New York Stock Exchange under the symbol 'WMT'. It details the number of holders of record as of March 18, 2020, which was 217,840. A stock performance chart compares Walmart's cumulative total shareholder return over five fiscal years to the S&P 500 Retailing Index and the S&P 500 Index, illustrating investment growth since February 1, 2015. Additionally, it discusses the company's share repurchase program, noting that $5.7 billion remains authorized for repurchases as of January 31, 2020.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 30,
+      "end_page": 43,
+      "summary": "This section provides a comprehensive analysis of Walmart's financial condition and operational results for the fiscal years ending January 31, 2020, 2019, and 2018. Key topics include total revenues, net sales, operating income, and comparable sales metrics across Walmart's segments, highlighting growth trends and challenges. The discussion also covers strategic actions such as acquisitions and divestitures, the impact of currency fluctuations, and seasonal sales patterns. Additionally, it outlines performance metrics like return on assets and free cash flow, emphasizing Walmart's focus on efficient growth and capital allocation.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 44,
+      "end_page": 45,
+      "summary": "This section discusses the company's exposure to market risks, specifically interest rate risk and currency exchange rate risk, as well as the fair value of its equity investment in JD.com. It details the company's strategies for managing interest rate risk, including the use of fixed and variable rate debt and interest rate swaps. The section provides quantitative data on short-term borrowings and long-term debt, including principal cash flows and weighted-average interest rates by expected maturity dates. Additionally, it highlights that a 100 basis point change in market rates could impact annual interest costs by approximately $61 million.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 46,
+      "end_page": 77,
+      "summary": "This section provides Walmart Inc.'s consolidated financial statements for the fiscal year ended January 31, 2020, including the balance sheets, income statements, and cash flow statements. It details the company's exposure to foreign currency risk, including the impact of currency fluctuations on its investments and operations in the UK and Japan, and outlines the hedging strategies employed. The report also includes an independent auditor's opinion on the financial statements and internal controls, confirming their compliance with U.S. GAAP. Additionally, it discusses significant accounting policies, including the adoption of new lease accounting standards and the valuation of intangible assets.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 78,
+      "end_page": 78,
+      "summary": "This section discusses the Company's exposure to various tax examinations and ongoing legal proceedings, including potential liabilities that could materially impact its financial statements. It highlights the Asda equal value claims, where over 35,000 claims allege pay disparities between retail and warehouse employees, and the ongoing National Prescription Opiate Litigation, where the Company is a defendant in lawsuits related to opioid abuse. The Company acknowledges the uncertainty surrounding these matters and emphasizes its intention to defend against the claims vigorously, while also noting the inability to estimate potential losses.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 78,
+      "end_page": 78,
+      "summary": "This section discusses the Company's exposure to various tax examinations and legal proceedings, highlighting the potential financial implications of these matters. It details ongoing tax examinations related to value-added, sales-based, and payroll taxes, noting that while individual losses may be immaterial, collective outcomes could be significant. The section also outlines the Asda equal value claims, where over 35,000 claims are being made regarding pay disparities between retail and warehouse employees, and the National Prescription Opiate Litigation, where the Company is a defendant in lawsuits related to opioid abuse. The Company asserts it has strong defenses in both cases but cannot predict the financial impact of these legal challenges.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 78,
+      "end_page": 78,
+      "summary": "This section discusses the Company's exposure to various tax examinations, including value added, sales-based, and payroll taxes, noting that while individual potential losses are immaterial, a group of related matters could be materially significant. It also details ongoing legal proceedings, including over 35,000 equal value claims against Asda Stores, Ltd. related to pay disparities between retail and warehouse employees, and the National Prescription Opiate Litigation, where the Company is a defendant in lawsuits concerning opioid abuse. The Company acknowledges the uncertainty surrounding these legal matters and the potential for material impact on its financial condition, while asserting its intention to defend against these claims vigorously.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 79,
+      "end_page": 79,
+      "summary": "This section details the Company's resolution of investigations by the DOJ and SEC regarding potential violations of the FCPA. It outlines the terms of a non-prosecution agreement, a plea agreement involving a subsidiary, and a cease-and-desist order from the SEC, including the financial penalties and compliance obligations imposed. Additionally, it mentions an Administrative Agreement with the EPA related to hazardous waste matters, which includes monitoring and reporting requirements. The Company anticipates costs associated with these settlements but does not expect a material adverse effect on its operations or financial position.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 79,
+      "end_page": 79,
+      "summary": "This section details the Company's resolution of investigations by the DOJ and SEC regarding violations of the FCPA, including a $283 million settlement. It outlines the terms of a non-prosecution agreement with the DOJ, a plea agreement for a subsidiary, and a cease-and-desist order from the SEC. The Company also entered into a new administrative agreement with the EPA related to hazardous waste matters. Additionally, it describes the Company's 401(k) retirement plans for U.S. and Puerto Rico associates, including matching contributions and vesting details.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 79,
+      "end_page": 79,
+      "summary": "This section details the Company's resolution of investigations by the DOJ and SEC regarding potential violations of the FCPA, culminating in a total payment of $283 million in penalties, disgorgement, and interest. It outlines the terms of a non-prosecution agreement with the DOJ, a plea agreement involving a subsidiary, and a cease-and-desist order from the SEC, all of which include compliance obligations and monitoring requirements. Additionally, it mentions a new administrative agreement with the EPA related to hazardous waste matters, which also includes compliance monitoring. The Company anticipates costs associated with implementing these settlements but does not expect a material adverse effect on its operations or financial position.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 79,
+      "end_page": 79,
+      "summary": "This section details the Company's resolution of investigations by the DOJ and SEC regarding potential violations of the FCPA, culminating in a total payment of $283 million in penalties, disgorgement, and interest. It outlines the terms of a non-prosecution agreement with the DOJ, a plea agreement for a subsidiary, and a cease-and-desist order from the SEC, all of which include compliance obligations and monitoring requirements. Additionally, it mentions a new administrative agreement with the EPA related to hazardous waste matters, which also includes monitoring and reporting obligations. The Company anticipates costs associated with these settlements but does not expect a material adverse effect on its operations or financial position.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 79,
+      "end_page": 79,
+      "summary": "This section details the Company's resolution of investigations by the DOJ and SEC regarding potential violations of the FCPA. It outlines the financial penalties paid, including a $138 million penalty under a non-prosecution agreement and $145 million in disgorgement and interest under a cease-and-desist order. The Company also entered into a plea agreement for its subsidiary, resulting in a $4 million penalty. Additionally, it describes an Administrative Agreement with the EPA to monitor compliance over a three-year term, and notes that the Company does not expect these matters to materially affect its financial position.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 15. Exhibits, Financial Statement Schedules",
+      "level": 1,
+      "start_page": 80,
+      "end_page": 81,
+      "summary": "This section provides a detailed overview of the Company's defined contribution and defined benefit pension plans, including contribution expenses for fiscal years 2018-2020, and significant pension-related agreements such as the Asda Pension Contribution. It also discusses the financial implications of the sale of Walmart Brazil and the acquisition of Flipkart, detailing the associated losses, assets, liabilities, and the impact on the Company's financial statements. Additionally, it outlines the Company's operational segments, including Walmart U.S., Walmart International, and Sam's Club, along with their respective net sales, operating income, and capital expenditures for the fiscal years ending January 31, 2018-2020.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 82,
+      "end_page": 82,
+      "summary": "This section provides a summary of total revenues and long-lived assets for the Company's U.S. and non-U.S. operations over the fiscal years 2018 to 2020. It details total revenues of $523.964 billion in 2020, with U.S. operations contributing $402.532 billion. Long-lived assets totaled $127.049 billion, with $86.944 billion from U.S. operations. The section also disaggregates revenues by merchandise category for Walmart U.S. and by market for Walmart International, highlighting significant eCommerce sales. Notably, no individual country outside the U.S. had material revenues or assets, and no single customer generated material revenues.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Signatures",
+      "level": 1,
+      "start_page": 83,
+      "end_page": 170,
+      "summary": "This section includes the signatures of key executives and directors of Walmart Inc., affirming the authenticity of the report filed under the Securities Exchange Act of 1934. It details the individuals who have signed on behalf of the company, including the President and CEO, Chief Financial Officer, and various directors, along with the date of signing. The section serves to validate the financial disclosures and corporate governance practices outlined in the report, ensuring accountability and compliance with regulatory requirements.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

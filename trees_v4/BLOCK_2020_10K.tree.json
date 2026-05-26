@@ -1,0 +1,241 @@
+{
+  "node_id": "root",
+  "title": "BLOCK_2020_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 158,
+  "summary": "The section provides a comprehensive overview of Square, Inc.'s Form 10-K for the fiscal year ending December 31, 2020, detailing the company's business model, risk factors, properties, legal proceedings, and financial performance. It highlights the Seller and Cash App ecosystems, the impact of COVID-19, and significant financial metrics, including revenue growth and net income. Additionally, it addresses corporate governance, executive compensation, and the effectiveness of internal controls, while confirming compliance with regulatory requirements. The section also includes information on stockholder matters, accounting fees, and the signatures of key executives, affirming the report's accuracy and compliance.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Front Matter of Square, Inc. Form 10-K",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 4,
+      "summary": "This section includes the front matter of Square, Inc.'s Form 10-K for the fiscal year ending December 31, 2020. It provides essential company information such as the registrant's name, address, and contact details, as well as the type of report being filed. The section also outlines the company's stock information, including trading symbols and market value, and confirms compliance with filing requirements under the Securities Exchange Act. Additionally, it incorporates a table of contents for the report and includes a special note regarding forward-looking statements, highlighting the risks and uncertainties associated with future performance.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 5,
+      "end_page": 17,
+      "summary": "This section outlines Square's business model, which includes two main ecosystems: Seller and Cash App. The Seller ecosystem offers over 30 products and services designed to help businesses manage and grow, processing $103.7 billion in gross payment volume in 2020. The Cash App ecosystem provides financial services for individuals, including peer-to-peer payments, investing, and tax preparation, with over 36 million active users as of December 2020. The section also discusses Square's response to COVID-19, highlighting support for sellers and Cash App customers, and details the company's diverse customer base and product offerings.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 18,
+      "end_page": 45,
+      "summary": "This section outlines various risk factors associated with investing in the company's securities, emphasizing the high degree of risk involved. Key risks include the ongoing impact of the COVID-19 pandemic on business operations, the necessity to maintain and enhance brand reputation, and the challenges of retaining and attracting sellers and Cash App customers. Operational risks such as data security breaches, reliance on third-party services, and potential economic downturns are also highlighted. Additionally, legal and regulatory compliance risks, competition in the financial services industry, and the company's dual-class stock structure are discussed, all of which could adversely affect business performance and stock value.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "This section states that there are no unresolved staff comments regarding the company's filings or disclosures. It indicates that the company has addressed all inquiries or issues raised by staff, suggesting compliance with regulatory requirements. This lack of unresolved comments may reflect positively on the company's governance and transparency practices, potentially reassuring investors and stakeholders about the company's operational integrity.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 46,
+      "end_page": 46,
+      "summary": "This section details the company's properties, including its corporate headquarters and various leased office spaces. The headquarters in San Francisco spans 469,056 square feet and has a lease expiring in 2023. Additionally, the company leases 59,905 square feet in New York until 2025, 355,762 square feet in Oakland until 2031, and 226,185 square feet in St. Louis for 15.5 years with options to extend. The section indicates that the company has sufficient facilities to meet its current operational needs.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 47,
+      "end_page": 47,
+      "summary": "This section outlines the company's involvement in various legal proceedings, including litigation, legal claims, and government investigations. It references additional details found in Note 18 of the consolidated financial statements. The company acknowledges ongoing litigation matters arising in the ordinary course of business but cannot estimate potential liabilities. While it does not expect these matters to materially affect its financial position, it cannot guarantee the outcomes will not impact future operating results.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 48,
+      "end_page": 48,
+      "summary": "This section indicates that mine safety disclosures are not applicable for the reporting entity. It suggests that there are no relevant mine safety incidents or regulatory requirements to report. Readers can learn that the company does not operate in a context that necessitates such disclosures, which may imply a focus on other operational areas.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 49,
+      "end_page": 51,
+      "summary": "This section provides an overview of the market for the registrant's common equity, detailing the trading history of Class A common stock since its debut on the New York Stock Exchange in November 2015. It lists the number of holders of record for both Class A and Class B common stock as of February 2021, and outlines the company's dividend policy, stating that no cash dividends have been declared or paid. Additionally, it discusses unregistered sales of equity securities related to a technology acquisition and summarizes issuer purchases of equity securities, including the total shares purchased and average prices over specific months. Finally, a performance graph compares the cumulative total return of the company's stock against the S&P 500 and the S&P North American Technology Index from December 2015 to December 2020.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Selected Financial Data",
+      "level": 1,
+      "start_page": 52,
+      "end_page": 56,
+      "summary": "This section presents selected financial data for the years ended December 31 from 2016 to 2020, including consolidated statements of operations and balance sheets. Key figures include total net revenue, gross profit, operating income (loss), and net income (loss) per share, highlighting significant growth in revenue from $1.7 billion in 2016 to $9.5 billion in 2020. It also details cash and cash equivalents, total assets, and stockholders' equity, providing insights into the company's financial health. Additionally, the section discusses key operating metrics and non-GAAP financial measures, such as Gross Payment Volume (GPV) and Adjusted EBITDA, which are used to evaluate business performance and facilitate comparisons with other payment solution providers.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 57,
+      "end_page": 76,
+      "summary": "This section provides a comprehensive analysis of Square's financial condition and operational results, detailing the company's evolution from a payment processing service to a broader ecosystem of financial solutions for both sellers and individuals. Key topics include the impact of COVID-19 on sales trends, the introduction of the Paycheck Protection Program, and the company's revenue streams, which include transaction-based, subscription, and hardware revenues. The section also discusses the significant growth in Bitcoin revenue and the strategic changes in reporting segments to better reflect business performance. Readers can learn about the company's financial metrics, operational challenges, and future outlook based on current market conditions.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 77,
+      "end_page": 78,
+      "summary": "This section discusses the company's exposure to market risks, including interest rate changes and foreign currency fluctuations. It details the company's marketable equity investments, which totaled $376.3 million as of December 31, 2020, and the potential impact of a 10% price change on these investments. The section also covers non-marketable equity investments valued at $32.5 million, highlighting their inherent risks. Additionally, it addresses interest rate sensitivity, indicating that changes in interest rates would not significantly affect the fair value of cash and cash equivalents. Lastly, it notes that most revenue is earned in U.S. dollars, minimizing foreign currency risk, although fluctuations in other currencies could still impact financial results.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 79,
+      "end_page": 138,
+      "summary": "This section contains the audited consolidated financial statements of Square, Inc. for the years ended December 31, 2020, 2019, and 2018, including the balance sheets, statements of operations, comprehensive income, stockholders' equity, and cash flows. It provides insights into the company's financial position, revenue streams, and expenses, highlighting significant figures such as total net revenue of $9.5 billion in 2020 and a net income of $213 million. The section also discusses critical audit matters, including transaction losses and convertible senior notes, detailing the complexities involved in estimating reserves and accounting for financial instruments. Additionally, it includes the independent auditor's opinions on the financial statements and internal controls over financial reporting, affirming their effectiveness as of December 31, 2020.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 139,
+      "end_page": 139,
+      "summary": "This section states that there have been no changes or disagreements with accountants regarding accounting and financial disclosure for the Company. It confirms the absence of any issues that could affect the integrity of financial reporting or the relationship with auditors. This indicates a stable accounting environment and compliance with financial regulations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 140,
+      "end_page": 140,
+      "summary": "This section discusses the evaluation of the company's disclosure controls and procedures, confirming their effectiveness as of December 31, 2020, as assessed by the Chief Executive Officer and Chief Financial Officer. It defines disclosure controls and procedures in accordance with the Securities Exchange Act, emphasizing their role in ensuring timely and accurate reporting. The section also notes that despite the transition to remote work due to the COVID-19 pandemic, internal controls over financial reporting remained effective, with no material changes identified. Additionally, it mentions that management's assessment of internal controls was based on COSO criteria and was audited by Ernst & Young, LLP.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 141,
+      "end_page": 141,
+      "summary": "This section, Item 9B, indicates that there is no additional information to report. It explicitly states 'None,' suggesting that there are no updates, disclosures, or relevant details that need to be communicated in this section. Readers can conclude that all pertinent information has been covered in previous sections without any further additions here.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 142,
+      "end_page": 142,
+      "summary": "This section outlines that the information regarding directors, executive officers, and corporate governance will be detailed in the Proxy Statement for the 2021 Annual Meeting of Stockholders. It specifies that topics such as delinquent filers and executive compensation will be included under various captions in the Proxy Statement. Additionally, it indicates that related information on security ownership, certain relationships, and director independence will also be referenced in the Proxy Statement. This section serves to inform stakeholders about where to find comprehensive governance-related information.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 142,
+      "end_page": 142,
+      "summary": "This section outlines that the details regarding executive compensation will be provided in the Proxy Statement under specific captions, including 'Director Compensation,' 'Executive Compensation,' and 'Compensation Committee Interlocks and Insider Participation.' It indicates that this information is incorporated by reference, meaning readers can find comprehensive details about the compensation structure for executives and directors in the upcoming Proxy Statement for the 2021 Annual Meeting of Stockholders. The section emphasizes the importance of transparency in executive pay and governance practices.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 142,
+      "end_page": 142,
+      "summary": "This section outlines that the information regarding security ownership of certain beneficial owners and management, as well as related stockholder matters, will be detailed in the Proxy Statement under the captions \"Security Ownership of Certain Beneficial Owners and Management\" and \"Equity Compensation Plan Information.\" It indicates that this information will be incorporated by reference and is essential for understanding the ownership structure and compensation plans related to equity for the company's executives and significant shareholders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 142,
+      "end_page": 142,
+      "summary": "This section outlines that the information regarding certain relationships and related transactions, as well as director independence, will be detailed in the Proxy Statement for the 2021 Annual Meeting of Stockholders. It specifies that readers can find this information under the captions 'Certain Relationships, Related Party and Other Transactions' and 'Board of Directors and Corporate Governance—Director Independence.' The section emphasizes the importance of transparency in governance and compliance with SEC regulations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 142,
+      "end_page": 142,
+      "summary": "This section outlines that the details regarding principal accounting fees and services will be provided in the Proxy Statement under the caption \"Ratification Of Appointment Of Independent Registered Public Accounting Firm.\" It indicates that this information is incorporated by reference, suggesting that readers can find specifics about the accounting firm's fees and services in the upcoming Proxy Statement for the 2021 Annual Meeting of Stockholders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 15. Exhibits, Financial Statement Schedules",
+      "level": 1,
+      "start_page": 143,
+      "end_page": 145,
+      "summary": "This section outlines the exhibits and financial statement schedules included in the Annual Report on Form 10-K. It specifies that the Consolidated Financial Statements can be found in the Index to Consolidated Financial Statements under Part II, Item 8. Additionally, it lists various exhibits, including agreements, bylaws, stock plans, and certifications, along with their filing dates and forms. The section also notes that certain financial statement schedules have been omitted due to inapplicability or redundancy with the financial statements or notes.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 146,
+      "end_page": 146,
+      "summary": "This section, Item 16 of the Form 10-K, contains no content or information. It is effectively a placeholder indicating that there are no additional summaries or details provided in this section. Readers will find that there are no key topics, facts, or insights to learn from this part of the document.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Signatures",
+      "level": 1,
+      "start_page": 147,
+      "end_page": 158,
+      "summary": "This section includes the signatures of key executives and directors of Square, Inc. as required by the Securities Exchange Act of 1934, confirming their authorization of the Annual Report on Form 10-K. It lists the names and titles of signatories, including Jack Dorsey (CEO) and Amrita Ahuja (CFO), along with the date of signing, February 23, 2021. Additionally, it outlines a Power of Attorney granting authority to specific individuals to sign amendments to the report. The section also includes certifications from the CEO and CFO regarding the accuracy and compliance of the report with regulatory requirements.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

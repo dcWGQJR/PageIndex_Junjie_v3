@@ -1,0 +1,391 @@
+{
+  "node_id": "root",
+  "title": "JOHNSON_JOHNSON_2022_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 151,
+  "summary": "This section provides a comprehensive overview of Johnson & Johnson's Form 10-K for the fiscal year ending January 1, 2023, detailing the company's business operations, risk factors, and financial performance. It includes discussions on forward-looking statements, regulatory compliance, and the impact of global economic conditions on operations. The section also covers the company's employee base, executive leadership, and internal controls, alongside financial statements and disclosures regarding market risks. Additionally, it highlights legal proceedings, including the LTL Bankruptcy Case, and provides insights into shareholder performance and corporate governance.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Johnson & Johnson Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 3,
+      "summary": "This section contains the front matter of Johnson & Johnson's Form 10-K for the fiscal year ending January 1, 2023. It includes the company's name, address, and SEC registration details, as well as information about its common stock and various notes registered on the New York Stock Exchange. The section confirms the company's status as a large accelerated filer and provides details on its compliance with filing requirements. Additionally, it outlines the market value of the company's common stock and the number of shares outstanding, along with references to documents incorporated by reference in the report.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Business",
+      "level": 1,
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This section discusses the forward-looking statements made by Johnson & Johnson, highlighting the inherent uncertainties and risks associated with these projections. It outlines key areas of concern, including product development challenges, competition, patent protection issues, and potential litigation risks. Readers can learn about the factors that may impact the company's future operations, financial performance, and market position, as well as the caution advised to investors regarding reliance on these statements. The section emphasizes the importance of understanding the risks related to innovation, regulatory approvals, and product liability.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "General",
+      "level": 1,
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This section outlines the cautionary note regarding forward-looking statements made by Johnson & Johnson in their Annual Report and other documents. It explains that these statements reflect management's expectations and projections about future operations, financial performance, and strategic initiatives, but are subject to uncertainties and risks that could lead to actual results differing materially. Key risks include challenges in product development, competition, patent protection, and potential product liability issues. Investors are advised not to rely solely on these forward-looking statements due to the inherent unpredictability of the factors involved.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Segments of Business",
+      "level": 1,
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This section outlines the forward-looking statements made by Johnson & Johnson, emphasizing the inherent uncertainties and risks associated with these projections. Readers can learn about the various factors that could impact the company's future operations, including product development challenges, competition, patent issues, and regulatory hurdles. It highlights the potential consequences of these risks, such as revenue losses and reputational damage, and advises investors to be cautious in relying on these forward-looking statements due to their speculative nature.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Geographic Areas",
+      "level": 1,
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This section outlines various geographic and regulatory risks impacting the company's operations. It discusses the implications of adverse legal judgments, increased scrutiny from government agencies, and compliance with local laws affecting product sales and manufacturing. The section also highlights potential changes in laws and regulations that could influence healthcare product approvals, pricing, and environmental protections. Additionally, it addresses economic conditions, including inflation and trade policies, that may affect international operations and financial performance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Raw Materials",
+      "level": 1,
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This section discusses the various risks associated with raw materials in the healthcare industry, including legal proceedings such as patent litigation and product liability claims. It highlights the scrutiny from government agencies that can lead to significant penalties and the importance of compliance with local regulations affecting manufacturing and sales. Additionally, it addresses potential changes in laws impacting product approval, pricing, and environmental protection, as well as the implications of economic conditions and international operations on the sourcing of raw materials.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Patents",
+      "level": 1,
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This section discusses the implications of legal proceedings, particularly patent litigation, on the company's financial reserves and potential adverse judgments. It highlights the increased scrutiny of the healthcare industry by government entities, which may lead to significant penalties and compliance challenges. The section also addresses the risks associated with changes in laws affecting product approval, licensing, and healthcare pricing, as well as the impact of economic conditions on healthcare spending and strategic initiatives. Additionally, it outlines the potential challenges in executing the planned separation of the Consumer Health business and the risks of operating internationally, including trade laws and global economic instability.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Trademarks",
+      "level": 1,
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This section discusses various risks that could impact the Company's operations and supply chain, including climate change, extreme weather, armed conflicts, and terrorist attacks. It highlights potential disruptions in manufacturing and distribution, product shortages, and regulatory actions that may arise from these risks. Additionally, it addresses the complexities of global supply chains and the challenges posed by increasing regulatory requirements. Investors are advised to review the Risk Factors in Item 1A of the Annual Report for a comprehensive understanding of potential risks.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Seasonality",
+      "level": 1,
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This section discusses the impact of seasonality on the Company's operations, highlighting how global climate changes, extreme weather, and natural disasters can disrupt demand, manufacturing, and distribution networks. It also addresses risks related to armed conflicts and terrorist attacks that may lead to social and economic instability. Additionally, the section outlines potential difficulties in the supply chain, including manufacturing delays, IT system interruptions, and regulatory challenges that could affect product availability and market stability. Investors are advised to review the associated risks in Item 1A of the Annual Report for a comprehensive understanding of potential uncertainties.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Competition",
+      "level": 1,
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This section discusses various risks that could impact the Company's operations and market position, including the effects of global climate change, extreme weather, and natural disasters on product demand and supply chain integrity. It highlights potential disruptions from armed conflicts and terrorist attacks, as well as challenges in manufacturing and distribution that could lead to product shortages or regulatory actions. Additionally, it addresses the complexities of global supply chains and the risks associated with information technology system breaches. Investors are advised to review the Risk Factors in Item 1A for a comprehensive understanding of potential uncertainties affecting the Company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Environment",
+      "level": 1,
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This section discusses the environmental risks impacting the Company, including the effects of global climate change, extreme weather, and natural disasters on product demand and supply chain disruptions. It highlights the potential consequences of armed conflicts and terrorist attacks on economic stability and market conditions. Additionally, it addresses supply chain challenges such as manufacturing delays, reliance on complex global networks, and regulatory compliance issues that could lead to business interruptions and financial repercussions. Investors are advised to review the associated risk factors that may affect the Company's performance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Regulation",
+      "level": 1,
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This section discusses the regulatory risks faced by the Company, including the impact of global climate change, extreme weather, and armed conflicts on product demand and supply chain disruptions. It highlights potential difficulties in manufacturing and distribution that could lead to business interruptions, product shortages, and regulatory actions. The section also emphasizes the reliance on complex global supply chains subject to increasing regulatory requirements, which may affect material sourcing and pricing. Additionally, it advises investors to review the Risk Factors in Item 1A of the Annual Report for a comprehensive understanding of potential risks.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Employees and Human Capital Management",
+      "level": 1,
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This section discusses Johnson & Johnson's extensive employee base of approximately 152,700 individuals engaged in various healthcare-related activities globally. It highlights the company's focus on human health and well-being, detailing the diverse product segments including pharmaceuticals, MedTech, and consumer health. The section also addresses the regulatory landscape affecting the company, emphasizing the complexities and costs associated with compliance in the U.S. and international markets. Additionally, it outlines the importance of intellectual property, including patents and trademarks, in protecting the company's innovations and competitive position.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Available Information",
+      "level": 1,
+      "start_page": 10,
+      "end_page": 10,
+      "summary": "This section outlines the regulatory landscape affecting healthcare products, emphasizing the role of the U.S. FDA in enforcing compliance and the potential consequences of non-compliance, including product bans and penalties. It discusses the impact of the Inflation Reduction Act (IRA) on drug pricing and reimbursement, highlighting the government's authority to set prices for certain drugs and the implications for manufacturers. The section also notes the increasing scrutiny on drug pricing and business practices from various governmental bodies, as well as the heightened enforcement of data privacy regulations. Additionally, it addresses the complexities of global supply chains and the regulatory challenges they face.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "1A. Risk Factors",
+      "level": 1,
+      "start_page": 11,
+      "end_page": 18,
+      "summary": "This section outlines various risk factors that could impact the Company's business, including competitive pressures, manufacturing disruptions, reliance on third-party manufacturers, and the threat of counterfeit products. It highlights the potential adverse effects of global health crises, regulatory scrutiny, and legal proceedings on the Company's operations and financial condition. Additionally, it discusses the implications of healthcare reforms and pricing pressures on sales, as well as the challenges posed by changes in tax laws and intellectual property rights. Investors are advised to consider these risks when evaluating the Company's securities.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This section discusses unresolved staff comments related to various legal and regulatory risks impacting the Company, particularly in the context of the U.K. Bribery Act 2010. It outlines potential consequences of non-compliance, including administrative and legal actions, civil penalties, and exclusion from healthcare programs. The section also highlights broader financial, economic, legal, social, and political risks associated with global operations, such as economic instability, compliance with local laws, and geopolitical events like the Russia-Ukraine War. The Company is monitoring these risks, including the impact of sanctions and export controls, and their potential effects on credit ratings, liquidity, and operational capabilities.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Properties",
+      "level": 1,
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This section outlines various properties and risks associated with conducting business globally, including compliance with laws like the U.K. Bribery Act 2010, which can lead to legal repercussions. It discusses economic factors such as interest rates, inflation, and government policies that can impact operations. The section also highlights the potential effects of geopolitical events, particularly the Russia-Ukraine War, on business activities, including sanctions and supply chain challenges. Additionally, it addresses the importance of maintaining credit ratings and the consequences of potential downgrades on liquidity and capital access.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Legal Proceedings",
+      "level": 1,
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This section discusses the legal and regulatory risks faced by the Company, particularly in relation to the U.K. Bribery Act 2010, which could lead to administrative and legal proceedings, including civil penalties and criminal sanctions. It outlines various financial, economic, legal, social, and political risks associated with global operations, such as compliance with local laws, economic instability, and geopolitical events like the Russia-Ukraine War. The section highlights the potential impact of credit rating downgrades on liquidity and capital access, and details the Company's response to the Russia-Ukraine conflict, including the suspension of investments and compliance with sanctions. Overall, it emphasizes the uncertainty and challenges posed by these risks to the Company's operations and financial condition.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 19,
+      "end_page": 19,
+      "summary": "This section discusses the various risks associated with mine safety disclosures, particularly in the context of global operations. It highlights the potential legal and financial repercussions of non-compliance with regulations such as the U.K. Bribery Act 2010, which could lead to administrative and legal actions. Additionally, it outlines economic, political, and social risks, including the impact of the Russia-Ukraine War on business operations, credit ratings, and supply chains. The section emphasizes the importance of monitoring geopolitical situations and compliance with sanctions, as well as the potential for diminished intellectual property protections in affected regions.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Executive Officers of the Registrant",
+      "level": 1,
+      "start_page": 20,
+      "end_page": 22,
+      "summary": "This section outlines the executive officers of the registrant, detailing their roles, responsibilities, and backgrounds. It provides insights into the leadership structure and the qualifications of key personnel who drive the company's strategic direction. Readers can learn about the experience and expertise of each officer, which may influence the company's operational effectiveness and decision-making processes. Additionally, the section may highlight any recent changes in leadership or succession planning efforts.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 23,
+      "end_page": 23,
+      "summary": "This section provides a list of the executive officers of the Company, detailing their names, ages, and positions within the organization. It highlights the absence of family relationships among the officers and the process by which they are elected by the Board of Directors for one-year terms. Additionally, it includes brief biographies of key executives, such as Vanessa Broadhurst and Joaquin Duato, outlining their career trajectories and contributions to the Company. The section emphasizes the leadership structure and the qualifications of the executive team, which is crucial for understanding the governance of the Company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "(Reserved)",
+      "level": 1,
+      "start_page": 23,
+      "end_page": 23,
+      "summary": "This section provides a detailed list of the executive officers of the Company, including their names, ages, and positions within the organization. It highlights that there are no familial relationships among the officers and outlines the election process by the Board of Directors. Notable executives include Joaquin Duato, the Chairman and CEO, and Vanessa Broadhurst, the Executive Vice President of Global Corporate Affairs, along with their career backgrounds. The section also references the Proxy Statement for additional information on the Company's directors.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Management’s Discussion and Analysis of Results of Operations and Financial Condition",
+      "level": 1,
+      "start_page": 24,
+      "end_page": 41,
+      "summary": "This section provides a comprehensive analysis of Johnson & Johnson's operational results and financial condition for 2022, detailing sales performance across its three business segments: Consumer Health, Pharmaceutical, and MedTech. It highlights a 1.3% increase in worldwide sales to $94.9 billion, with specific insights into sales growth, operational challenges, and currency impacts. The Consumer Health segment saw a slight decline, while the Pharmaceutical segment experienced modest growth driven by key therapeutic areas. The MedTech segment also reported growth, despite currency challenges. Additionally, the section outlines the company's strategic objectives, emphasizing innovation, employee diversity, and commitment to health advancements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p23",
+      "title": "7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This section provides detailed financial disclosures related to the MedTech segment, including accrued rebates, returns, and promotions for the years 2021 and 2022. It outlines the beginning and ending balances, as well as accruals and payments/credits for each category, highlighting a total accrued amount of $1,781 million for 2022. Additionally, it discusses income tax accounting, including the treatment of deferred tax assets and liabilities, and the implications of potential changes in tax laws. The section also covers legal and self-insurance contingencies, detailing how the company records accruals for legal proceedings and product liability claims based on management's estimates and U.S. GAAP guidelines.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p24",
+      "title": "Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 42,
+      "end_page": 110,
+      "summary": "This section provides detailed financial statements for Johnson & Johnson, including consolidated balance sheets, statements of earnings, comprehensive income, equity, and cash flows for the years ending January 1, 2023, and January 2, 2022. Readers can learn about the company's financial position, including assets, liabilities, and shareholders' equity, as well as its revenue, expenses, and net earnings over the specified periods. The section also discusses accounting policies, income tax considerations, legal contingencies, and the impact of economic factors such as inflation and currency fluctuations on the company's financial results. Additionally, it outlines the company's approach to stock-based compensation and employee benefit plans, providing insights into its financial management practices.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p25",
+      "title": "Changes in and Disagreements With Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 111,
+      "end_page": 111,
+      "summary": "This section discusses the legal proceedings surrounding the LTL Bankruptcy Case, including the denial of motions to dismiss by the New Jersey Bankruptcy Court and subsequent appeals to the Third Circuit Court of Appeals, which ultimately reversed the Bankruptcy Court's ruling. It highlights the critical audit matter related to the talc litigation, emphasizing the significant judgment required by management in assessing potential losses and the auditor's role in evaluating these assessments. The section outlines the audit procedures performed, including testing controls, understanding the accounting process for litigation, and evaluating management's disclosures regarding litigation contingencies. Additionally, it notes the long-standing relationship between PricewaterhouseCoopers LLP and the Company as its auditor since at least 1920.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p26",
+      "title": "9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 111,
+      "end_page": 111,
+      "summary": "This section discusses the controls and procedures related to the talc litigation and the LTL Bankruptcy Case. It details the timeline of legal motions, including the denial of motions to dismiss and the subsequent appeal process, culminating in a reversal by the Third Circuit Court of Appeals. The section emphasizes the critical audit matters arising from management's judgments regarding potential losses from talc claims, highlighting the auditor's role in evaluating these judgments. Specific audit procedures included assessing the effectiveness of controls over loss estimations, discussions with legal counsel, and evaluating litigation disclosures in the financial statements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p27",
+      "title": "9B. Other Information",
+      "level": 1,
+      "start_page": 111,
+      "end_page": 111,
+      "summary": "This section details the legal proceedings surrounding the LTL Bankruptcy Case, including the motions to dismiss filed by claimants and the subsequent rulings by the New Jersey Bankruptcy Court and the Third Circuit Court of Appeals. It highlights the critical audit matters related to talc litigation, emphasizing the significant management judgment required in assessing potential losses and the auditor's role in evaluating these assessments. The section outlines the audit procedures performed, including discussions with legal counsel and the evaluation of litigation contingencies. Additionally, it notes the long-standing relationship of PricewaterhouseCoopers LLP as the Company's auditor since at least 1920.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p28",
+      "title": "9C. Disclosures Regarding Foreign Jurisdictions That Prevent Inspections",
+      "level": 1,
+      "start_page": 111,
+      "end_page": 111,
+      "summary": "This section discusses the legal proceedings surrounding the LTL Bankruptcy Case, including the denial of motions to dismiss by the New Jersey Bankruptcy Court and subsequent appeals to the Third Circuit Court of Appeals, which ultimately reversed the Bankruptcy Court's ruling. It highlights the critical audit matters related to talc litigation, emphasizing the significant management judgment required in assessing potential losses and the auditor's role in evaluating these assessments. The section outlines the audit procedures performed, including testing controls, discussing litigation status with legal counsel, and evaluating the adequacy of litigation disclosures in the financial statements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p29",
+      "title": "Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 111,
+      "end_page": 111,
+      "summary": "This section discusses the legal proceedings surrounding the LTL Bankruptcy Case, including the denial of motions to dismiss by the New Jersey Bankruptcy Court and subsequent appeals to the Third Circuit Court of Appeals, which ultimately reversed the Bankruptcy Court's ruling. It highlights the critical audit matters related to the talc litigation, emphasizing the significant management judgment required in assessing potential losses and the auditor's role in evaluating these assessments. The section outlines the audit procedures performed, including discussions with legal counsel and evaluations of litigation contingencies, to ensure accurate financial statement disclosures.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p30",
+      "title": "Executive Compensation",
+      "level": 1,
+      "start_page": 112,
+      "end_page": 112,
+      "summary": "This section discusses the management's assessment of the effectiveness of the Company's internal control over financial reporting as required by the Sarbanes-Oxley Act of 2002. It outlines the responsibilities of management in establishing and maintaining these controls, emphasizing that while they provide reasonable assurance, they cannot guarantee the prevention of all misstatements. The assessment was conducted using COSO criteria and included documentation and testing of controls. Notably, the acquisition of Abiomed, Inc. was excluded from this assessment due to its minimal impact on the financial statements. The conclusion reached by management is that the internal controls were effective as of January 1, 2023, which was also audited by PricewaterhouseCoopers LLP.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p31",
+      "title": "Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 112,
+      "end_page": 112,
+      "summary": "This section discusses the management's assessment of the effectiveness of the Company's internal control over financial reporting as required by the Sarbanes-Oxley Act of 2002. It outlines the responsibilities of management in establishing and maintaining these controls, emphasizing that while they provide reasonable assurance, they have inherent limitations. The assessment was conducted using COSO criteria and excluded the recently acquired Abiomed, Inc. due to its minimal impact on financial statements. Ultimately, management concluded that the internal controls were effective as of January 1, 2023, and this conclusion was audited by PricewaterhouseCoopers LLP.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p32",
+      "title": "Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 112,
+      "end_page": 112,
+      "summary": "This section discusses the management's assessment of the effectiveness of the Company's internal control over financial reporting as required by the Sarbanes-Oxley Act of 2002. It outlines the responsibilities of management in establishing and maintaining these controls, emphasizing that while they provide reasonable assurance, they have inherent limitations. The assessment was conducted using COSO criteria and excluded the recently acquired Abiomed, Inc. from the evaluation for the fiscal year 2022. Ultimately, management concluded that the internal controls were effective as of January 1, 2023, a conclusion that was also audited by PricewaterhouseCoopers LLP.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p33",
+      "title": "Principal Accountant Fees and Services",
+      "level": 1,
+      "start_page": 112,
+      "end_page": 112,
+      "summary": "This section discusses the management's report on the effectiveness of the Company's internal control over financial reporting as required by the Sarbanes-Oxley Act of 2002. It outlines the responsibilities of management in establishing and maintaining these controls, emphasizing that while they provide reasonable assurance, they cannot guarantee the prevention of all misstatements. The assessment was conducted using COSO criteria and excluded the recently acquired Abiomed, Inc. from the evaluation. Ultimately, management concluded that the internal controls were effective as of January 1, 2023, a conclusion that was also audited by PricewaterhouseCoopers LLP.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p34",
+      "title": "Exhibits and Financial Statement Schedules",
+      "level": 1,
+      "start_page": 113,
+      "end_page": 113,
+      "summary": "This section presents shareholder return performance graphs for Johnson & Johnson's Common Stock over five and ten-year periods ending January 1, 2023. It compares the cumulative total shareholder return of the company against the Standard & Poor’s 500 Stock Index, the Pharmaceutical Index, and the Healthcare Equipment Index. The data assumes an initial investment of $100 on December 31, 2017, and December 31, 2012, with all dividends reinvested. The graphs illustrate the performance trends and relative growth of the company's stock compared to industry benchmarks, providing insights into investment returns over time.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p35",
+      "title": "Form 10-K Summary",
+      "level": 1,
+      "start_page": 113,
+      "end_page": 113,
+      "summary": "This section presents shareholder return performance graphs comparing Johnson & Johnson's cumulative total shareholder return on its Common Stock over five and ten-year periods ending January 1, 2023, against major indices including the S&P 500, S&P Pharmaceutical, and S&P Healthcare Equipment indices. The graphs illustrate the growth of a $100 investment made on December 31, 2017, and December 31, 2012, with all dividends reinvested. The five-year performance shows Johnson & Johnson's stock value increasing to $144.32, while the ten-year performance shows it reaching $330.83, highlighting its relative performance against the indices during these periods.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p36",
+      "title": "Signatures",
+      "level": 1,
+      "start_page": 114,
+      "end_page": 115,
+      "summary": "This section discusses the effectiveness of the Company's disclosure controls and procedures, evaluated by CEO Joaquin Duato and CFO Joseph J. Wolk, concluding they are effective as of the report's end date. It details the absence of changes in internal control over financial reporting during the fiscal quarter ended January 1, 2023, and outlines a multi-year initiative to enhance financial systems and processes. Additionally, it mentions the Company's Code of Business Conduct, which applies to all employees and is available to shareholders, along with the Code of Business Conduct & Ethics for Board members and executives.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p37",
+      "title": "Exhibit Index",
+      "level": 1,
+      "start_page": 116,
+      "end_page": 151,
+      "summary": "The Exhibit Index section lists various documents filed as part of the report, including financial statements, agreements, and plans related to Johnson & Johnson. Key exhibits include the Agreement and Plan of Merger with ABIOMED, amendments to the Certificate of Incorporation, and various long-term incentive plans. The section also references compliance with Regulation S-K, detailing how certain documents are incorporated by reference. Additionally, it outlines the availability of these exhibits to shareholders upon request, emphasizing the company's commitment to transparency in its financial reporting.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

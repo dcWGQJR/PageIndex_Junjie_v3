@@ -1,0 +1,151 @@
+{
+  "node_id": "root",
+  "title": "PEPSICO_2023Q1_EARNINGS.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 16,
+  "summary": "The section details PepsiCo's Q1 2023 financial performance, reporting a 10.2% net revenue growth despite foreign exchange challenges, and a notable decrease in EPS. It includes comprehensive analyses of revenue and operating profit across various segments, guidance for fiscal year 2023, and reconciliations of GAAP and non-GAAP measures. Key financial figures such as net income, cash flows, and balance sheet data are presented, alongside a cautionary statement regarding forward-looking projections and associated risks.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "t1",
+      "title": "Introduction Summary",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "The introduction section presents PepsiCo's first-quarter 2023 financial results, highlighting a net revenue growth of 10.2% despite a 2.5% negative impact from foreign exchange. Earnings per share (EPS) reported at $1.40 reflects a 54% decrease, with a core EPS of $1.50 showing an 18% increase in constant currency. CEO Ramon Laguarta expresses confidence in the company's performance and raises the full-year organic revenue growth expectation from 6% to 8%, and core constant currency EPS growth from 8% to 9%. The section emphasizes PepsiCo's commitment to strategic investments aimed at sustainable growth and competitive advantages.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t2",
+      "title": "PepsiCo Results - QTD",
+      "level": 1,
+      "start_page": 2,
+      "end_page": 2,
+      "summary": "This section provides a detailed overview of PepsiCo's first-quarter 2023 performance, focusing on revenue, volume changes, operating profit, and earnings per share (EPS) across various segments. It highlights the percentage changes in revenue and operating profit for divisions such as Frito-Lay North America, Quaker Foods North America, and PepsiCo Beverages North America, along with the impact of foreign exchange and acquisitions. The section also notes significant fluctuations in EPS and operating profit, particularly for PepsiCo Beverages North America, and clarifies the distinction between GAAP and non-GAAP financial measures. Additionally, it explains the factors affecting volume changes and revenue growth, emphasizing the importance of understanding these metrics for evaluating the company's financial health.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t3",
+      "title": "Guidance and Outlook",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "The Company provides non-GAAP guidance for fiscal year 2023, expecting 8% organic revenue growth and 9% core constant currency EPS growth. It maintains a core annual effective tax rate of 20% and anticipates total cash returns to shareholders of approximately $7.7 billion, including $6.7 billion in dividends and $1.0 billion in share repurchases. A foreign exchange translation headwind of about 2 percentage points is expected to affect reported net revenue and core EPS growth. The guidance implies a core EPS of $7.27, reflecting a 7% increase from the previous year.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t4",
+      "title": "A-1 - Condensed Consolidated Statement of Income",
+      "level": 1,
+      "start_page": 4,
+      "end_page": 4,
+      "summary": "This section presents PepsiCo, Inc.'s condensed consolidated statement of income for the 12 weeks ended March 25, 2023, compared to the same period in 2022. Key figures include net revenue of $17,846 million, a gross profit of $9,858 million, and a net income attributable to PepsiCo of $1,932 million. The document highlights significant changes in expenses, including an increase in selling, general, and administrative expenses, and notes the absence of gains from the Juice Transaction in the current period. Additionally, it details the diluted net income per share, which decreased from $3.06 to $1.40 year-over-year, reflecting the overall financial performance of the company during this timeframe.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t5",
+      "title": "A-2 - Supplemental Financial Information",
+      "level": 1,
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This section provides supplemental financial information for PepsiCo, Inc. for the 12 weeks ended March 25, 2023, compared to the same period in 2022. It includes detailed net revenue figures for various segments such as Frito-Lay North America, Quaker Foods North America, and PepsiCo Beverages North America, showing an overall increase in total net revenue from $16,200 million to $17,846 million. Additionally, it presents operating profit or loss for each segment, highlighting significant changes, particularly a decrease in operating profit for PepsiCo Beverages North America and an increase for Frito-Lay North America. The section also notes corporate unallocated expenses, which rose from $204 million to $471 million, impacting total operating profit.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t6",
+      "title": "A-3 - Condensed Consolidated Statement of Cash Flows",
+      "level": 1,
+      "start_page": 6,
+      "end_page": 7,
+      "summary": "This section presents PepsiCo's Condensed Consolidated Statement of Cash Flows for the 12 weeks ended March 25, 2023, and March 19, 2022. It details cash flows from operating activities, including net income, depreciation, and changes in working capital. The investing activities section outlines capital spending, sales of assets, and cash flows related to acquisitions. Financing activities include long-term debt transactions, cash dividends, and share repurchases. The section concludes with a summary of cash and cash equivalents at the beginning and end of the period, along with supplemental non-cash activities.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t7",
+      "title": "A-5 - Condensed Consolidated Balance Sheet",
+      "level": 1,
+      "start_page": 8,
+      "end_page": 8,
+      "summary": "This section presents PepsiCo, Inc.'s condensed consolidated balance sheet as of March 25, 2023, and December 31, 2022, detailing the company's assets, liabilities, and equity. Key figures include total assets of $93,042 million, a slight increase from $92,187 million, and total liabilities of $75,867 million, up from $74,914 million. Current assets, including cash, receivables, and inventories, are highlighted, showing a total of $22,427 million. The equity section outlines common stock, retained earnings, and accumulated other comprehensive loss, providing insights into the company's financial health and shareholder equity.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t8",
+      "title": "Non-GAAP Measures, Glossary, Commodity Mark to Markets, etc. and Guidance",
+      "level": 1,
+      "start_page": 9,
+      "end_page": 10,
+      "summary": "This section discusses the use of non-GAAP financial measures such as organic revenue growth, core results, and core constant currency results, which the Company employs for internal decision-making and performance evaluation. It outlines the rationale for using these measures, emphasizing their role in providing transparency and comparability of financial performance. The glossary defines key terms related to these measures, including acquisitions, concentrate shipments, and effective net pricing. Additionally, it details specific adjustments made to GAAP results, such as those related to restructuring, impairments, and tax benefits. The section concludes with guidance for 2023, highlighting exclusions for organic revenue growth and EPS growth projections due to unpredictable factors like foreign exchange rates and commodity prices.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t9",
+      "title": "A-8 - Reconciliation of GAAP and Non-GAAP Info (Quarter and Year Ended, Organic Growth )",
+      "level": 1,
+      "start_page": 11,
+      "end_page": 11,
+      "summary": "This section provides a reconciliation of GAAP and non-GAAP financial information for PepsiCo, focusing on organic revenue growth rates for various segments for the 12 weeks ended March 25, 2023. It details the year-over-year percentage changes in net revenue, highlighting the impacts of foreign exchange translation and acquisitions/divestitures. Specific segment performance is outlined, including Frito-Lay North America, Quaker Foods, and PepsiCo Beverages, with organic growth rates presented as non-GAAP measures. The section also clarifies the exclusion of acquisitions and divestitures from organic volume calculations and notes discrepancies in volume reporting due to various factors.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t10",
+      "title": "A-9 - Reconciliation of GAAP and Non-GAAP Info (Quarter and Year Ended, Year over Year Growth)",
+      "level": 1,
+      "start_page": 12,
+      "end_page": 12,
+      "summary": "This section provides a reconciliation of GAAP and non-GAAP financial measures for PepsiCo, Inc. for the 12 weeks ended March 25, 2023, highlighting year-over-year growth rates across various segments. It details the impact of items affecting comparability, such as restructuring charges and acquisition-related costs, on reported GAAP measures versus core non-GAAP measures. Specific growth percentages for segments like Frito-Lay North America and Quaker Foods North America are presented, along with adjustments for foreign exchange and constant currency effects. The section also includes net income figures and earnings per share, emphasizing the differences between GAAP and non-GAAP results.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t11",
+      "title": "A-10 - Reconciliation of GAAP and Non-GAAP Info (Quarters Ended, Line Items)",
+      "level": 1,
+      "start_page": 13,
+      "end_page": 13,
+      "summary": "This section provides a detailed reconciliation of GAAP and non-GAAP financial measures for PepsiCo for the 12 weeks ended March 25, 2023, and March 19, 2022. It includes specific line items such as cost of sales, gross profit, and net income, highlighting the impact of items affecting comparability like mark-to-market net impacts and restructuring charges. The section also presents core non-GAAP measures, allowing readers to understand the adjustments made to arrive at these figures. Additionally, it outlines the effective tax rates and provides insights into the financial performance of the company over the specified periods.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t12",
+      "title": "A-11 - Reconciliation of GAAP and Non-GAAP Info (Quarters Ended, Operating Profit by Division)",
+      "level": 1,
+      "start_page": 14,
+      "end_page": 14,
+      "summary": "This section provides a reconciliation of GAAP and non-GAAP operating profit for PepsiCo's divisions for the 12 weeks ended March 25, 2023, and March 19, 2022. It details the operating profit figures for each division, including adjustments for items affecting comparability such as restructuring charges and acquisition-related costs. The core non-GAAP measure is highlighted, allowing readers to understand the underlying performance of each division without the impact of these items. The total operating profit for the company is also presented, showing a comparison between the two periods.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t13",
+      "title": "A-15 - Reconciliation of GAAP and Non-GAAP Info",
+      "level": 1,
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This section provides a reconciliation of GAAP and non-GAAP financial measures for PepsiCo, focusing on gross margin growth, operating margin performance, and diluted EPS for the periods ending March 25, 2023, and December 31, 2022. It details the reported figures alongside adjustments for mark-to-market impacts, restructuring charges, and other specific items that affect core metrics. Readers can learn how these adjustments lead to core gross margin growth of 51 basis points and core diluted EPS of $6.79, illustrating the differences between GAAP and non-GAAP reporting.",
+      "source": "embedded_toc",
+      "children": []
+    },
+    {
+      "node_id": "t14",
+      "title": "Cautionary Statement",
+      "level": 1,
+      "start_page": 16,
+      "end_page": 16,
+      "summary": "This section outlines the nature of forward-looking statements made by PepsiCo, emphasizing that these statements are based on current information and projections. It defines terminology associated with forward-looking statements and highlights the inherent risks and uncertainties that could lead to actual results differing from predictions. Specific risks mentioned include geopolitical conflicts, product demand, brand reputation, supply chain disruptions, and regulatory changes. The section advises investors to consult PepsiCo's SEC filings for more detailed information and cautions against placing undue reliance on these statements, which are only valid as of their date.",
+      "source": "embedded_toc",
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "node_id": "root",
+  "title": "PEPSICO_2022_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 503,
+  "summary": "The section provides a comprehensive overview of PepsiCo, Inc.'s Form 10-K for the fiscal year ending December 31, 2022, detailing the company's business operations, risk factors, properties, legal proceedings, and financial performance. It includes information on the company's organizational structure, product portfolio, and competitive landscape, as well as insights into management's discussion of financial results and market risks. Additionally, it covers corporate governance, executive compensation, and shareholder matters, while also referencing the 2023 Proxy Statement for further details. The section emphasizes the company's regulatory compliance, internal controls, and strategic initiatives aimed at sustainability and growth.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "PepsiCo Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 3,
+      "summary": "This section provides the front matter for PepsiCo, Inc.'s Form 10-K annual report for the fiscal year ending December 31, 2022. It includes essential company information such as the registrant's name, jurisdiction of incorporation, and IRS identification number. The section lists the securities registered under the Securities Exchange Act, including various senior notes and common stock, along with their trading symbols and exchanges. Additionally, it confirms the company's status as a large accelerated filer and includes details about market value and share count as of specific dates. The section also notes the incorporation of certain documents by reference, specifically related to the 2023 Annual Meeting of Shareholders.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 4,
+      "end_page": 12,
+      "summary": "This section provides an overview of PepsiCo, Inc., detailing its history, organizational structure, and global operations across seven reportable segments, including Frito-Lay and PepsiCo Beverages. It outlines the company's extensive product portfolio, which includes well-known brands like Lay's, Doritos, and Gatorade, and describes its distribution network, which utilizes direct-store delivery, customer warehouses, and e-commerce. The section also discusses the company's competitive landscape, highlighting key competitors and the importance of brand recognition, innovation, and consumer trends. Additionally, it covers PepsiCo's research and development efforts aimed at product improvement and sustainability, as well as the regulatory environment affecting its operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 13,
+      "end_page": 24,
+      "summary": "This section outlines various risk factors that could materially impact PepsiCo's business and financial performance. Key risks include geopolitical instability, particularly the ongoing conflict in Ukraine, which affects supply chains and employee safety. The section also discusses the importance of adapting to changing consumer preferences, potential damage to brand reputation, and challenges in maintaining a skilled workforce. Additionally, it highlights risks related to water scarcity, economic conditions, cyber incidents, and competition in both traditional and emerging markets. Each risk is detailed with potential consequences for the company's operations and market position.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 25,
+      "end_page": 25,
+      "summary": "This section states that the company has not received any unresolved written comments from the SEC staff regarding its periodic or current reports within the last 180 days leading up to the end of the 2022 fiscal year. It highlights the absence of regulatory issues that could impact the company's operations or compliance status. This information is relevant for investors and stakeholders assessing the company's regulatory standing and potential risks.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This section details the company's principal properties, including its executive office in Purchase, New York, and facilities in Plano, Texas. It outlines the types of properties utilized by various divisions for manufacturing, processing, and distribution, specifying whether they are owned or leased. Key properties include research and development facilities, convenient food plants, and concentrate plants located in the U.S., Mexico, Europe, and Asia. The section emphasizes that most properties are owned or leased long-term and are in good operating condition, suitable for current operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This section outlines the various legal proceedings involving the company and its subsidiaries, including litigation, claims, and regulatory inquiries. It emphasizes that while the outcomes of these legal matters are uncertain, management believes they will not materially impact the company's financial condition or operations. The section also references related information found in 'Item 1. Business – Regulatory Matters' and 'Item 1A. Risk Factors.'",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 26,
+      "end_page": 29,
+      "summary": "This section, Item 4, Mine Safety Disclosures, states that the disclosures are not applicable to the company. It indicates that there are no relevant mine safety issues or incidents to report, which may imply that the company does not operate any mining facilities or is not subject to mine safety regulations. Readers can learn that the company is not involved in mining activities that would require such disclosures.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This section provides an overview of the market for the registrant's common equity, including its trading symbol (PEP) and listings on the Nasdaq Global Select Market and the SIX Swiss Exchange. As of February 2, 2023, there are approximately 98,573 shareholders of record. The company has a history of paying quarterly cash dividends since 1965, with a recent increase to $5.06 per share announced on February 9, 2023. It outlines expected shareholder returns of about $7.7 billion in 2023, including $6.7 billion in dividends and $1.0 billion in share repurchases. Additionally, it details common stock repurchases during the fourth quarter of 2022 under a $10 billion repurchase program authorized by the Board.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 31,
+      "end_page": 117,
+      "summary": "This section provides a comprehensive analysis of PepsiCo's financial condition and operational results, focusing on the years 2022 and 2021. It covers the company's business overview, including its brand portfolio and operational challenges such as supply chain disruptions and inflation. Key financial metrics are discussed, including consolidated and divisional performance, liquidity, and capital resources. The section also highlights critical accounting policies, risks associated with commodities, climate change, and international operations, as well as the impact of the ongoing conflict in Ukraine. Additionally, it outlines PepsiCo's strategic initiatives under the pep+ framework aimed at sustainability and long-term growth.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 118,
+      "end_page": 118,
+      "summary": "This section discusses the company's evaluation of its disclosure controls and procedures, confirming their effectiveness in ensuring timely and accurate reporting as required by the Securities Exchange Act. It also details the management's assessment of internal control over financial reporting, which was found to be effective as of December 31, 2022. Additionally, it mentions ongoing changes related to the migration to an Enterprise Resource Planning (ERP) system, which are part of a global business transformation initiative, and notes that these changes have not adversely affected internal controls.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 118,
+      "end_page": 118,
+      "summary": "Item 8 discusses the financial statements and supplementary data, referencing the need for effective disclosure controls and procedures as mandated by the Securities Exchange Act of 1934. It highlights the management's evaluation of internal control over financial reporting, confirming its effectiveness as of December 31, 2022. The section also notes the involvement of KPMG LLP in auditing the consolidated financial statements and their report on internal controls. Additionally, it mentions ongoing changes to internal controls due to the implementation of an Enterprise Resource Planning (ERP) system, which is part of a broader business transformation initiative.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 118,
+      "end_page": 118,
+      "summary": "This section states that there are no changes or disagreements with accountants regarding accounting and financial disclosure. It emphasizes the effectiveness of the company's disclosure controls and procedures, as evaluated by the Chief Executive Officer and Chief Financial Officer. The management also confirms the effectiveness of internal control over financial reporting as of December 31, 2022, following an audit by KPMG LLP. Additionally, it notes ongoing updates to internal controls due to the migration to an Enterprise Resource Planning (ERP) system, which is part of a broader business transformation initiative.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 118,
+      "end_page": 118,
+      "summary": "This section discusses the evaluation of the company's disclosure controls and procedures, confirming their effectiveness as of the reporting period's end. It details the management's responsibility for internal control over financial reporting, with a conclusion that these controls were effective as of December 31, 2022. The section also notes ongoing changes due to the migration to an Enterprise Resource Planning (ERP) system, which is part of a global business transformation initiative, and states that these changes have not adversely affected internal controls. Additionally, it mentions the involvement of KPMG LLP in auditing the internal control effectiveness.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 119,
+      "end_page": 119,
+      "summary": "This section discusses the company's ongoing enhancements to its internal control over financial reporting processes, particularly in relation to the implementation of ERP systems and a multi-year productivity plan. It states that there have been no material changes affecting internal controls during the fourth quarter of 2022. Additionally, it notes that the section is not applicable for other information, such as disclosures regarding foreign jurisdictions that prevent inspections. The section also references upcoming information in the 2023 Proxy Statement regarding directors, executive officers, and corporate governance matters.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections",
+      "level": 1,
+      "start_page": 119,
+      "end_page": 119,
+      "summary": "Item 9C states that there is no applicable information regarding foreign jurisdictions that prevent inspections. This section indicates that the company has not encountered any issues related to foreign jurisdictions affecting its ability to conduct inspections. As such, it does not provide any specific disclosures or details on this topic, implying compliance with relevant regulations without complications.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 119,
+      "end_page": 119,
+      "summary": "This section provides information about the directors and executive officers of PepsiCo, referencing the 2023 Proxy Statement for detailed information on their election and qualifications. It outlines the company's Global Code of Conduct, which applies to all employees and executives, and mentions the procedures for shareholder recommendations for board nominations. Additionally, it notes the composition of the Audit Committee and the presence of financial experts within it, with further details available in the referenced Proxy Statement.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 119,
+      "end_page": 119,
+      "summary": "This section provides details on the compensation of directors and executive officers, including the structure and amounts of their pay. It also discusses the interlocks within the Compensation Committee, which may influence compensation decisions. Additionally, the Compensation Committee Report is referenced, offering insights into the committee's practices and decisions regarding executive pay. Readers can find specific compensation figures and policies in the 2023 Proxy Statement, which is incorporated by reference.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 120,
+      "end_page": 120,
+      "summary": "This section provides details on the security ownership of PepsiCo's directors, named executive officers, and significant shareholders owning more than 5% of the company's common stock. It references the 2023 Proxy Statement for specific figures regarding the number of shares owned by these individuals and groups. Additionally, it mentions the incorporation of information related to equity compensation plans and the ownership of PepsiCo common stock, guiding readers to relevant sections in the Proxy Statement for further details.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 120,
+      "end_page": 120,
+      "summary": "This section discusses the relationships and transactions involving directors and related parties, as well as the criteria for director independence. It references specific sections in the 2023 Proxy Statement that detail related person transactions and the governance practices surrounding director independence. Readers can learn about the policies in place to manage potential conflicts of interest and ensure that directors meet independence standards. Additionally, it highlights the importance of transparency in corporate governance at PepsiCo.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 120,
+      "end_page": 120,
+      "summary": "This section provides information regarding the Audit Committee's pre-approval policy and procedures for audit and other services. It details the principal accountant fees and services associated with these audits. Readers can find specific data on the fees paid to the independent registered public accounting firm, as well as the types of services rendered. This information is referenced from the 2023 Proxy Statement under the relevant caption.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 15. Exhibits and Financial Statement Schedules",
+      "level": 1,
+      "start_page": 121,
+      "end_page": 121,
+      "summary": "This section provides a reference to the consolidated financial statements of PepsiCo, Inc. for the fiscal years ending December 31, 2022, December 25, 2021, and December 26, 2020. It includes details on the Consolidated Statement of Income, Comprehensive Income, Cash Flows, Balance Sheet, and Statement of Equity, along with the Notes to the Financial Statements and the Report of the Independent Registered Public Accounting Firm. Additionally, it notes that certain financial statement schedules are omitted as they are not required or are included in the financial statements or notes. The section also directs readers to the Index to Exhibits for further information.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 121,
+      "end_page": 503,
+      "summary": "Item 16 of the Form 10-K provides a summary of the key components of PepsiCo's financial reporting, including consolidated financial statements for the fiscal years ending December 31, 2022, December 25, 2021, and December 26, 2020. It includes the Consolidated Statement of Income, Comprehensive Income, Cash Flows, Balance Sheet, and Statement of Equity, along with notes and the report from the independent accounting firm. Additionally, it references the index to exhibits and outlines the financial statement schedules, which are omitted as they are not required. This section serves to give a comprehensive overview of PepsiCo's financial health and operational results over the specified periods.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

@@ -60,34 +60,48 @@ def assign_end_pages(nodes: List[Node], parent_end: int) -> None:
             assign_end_pages(node.children, node.end_page)
 
 
-def build_front_matter(start: int, end: int, config: Config) -> List[Node]:
-    """Window the pages before the first content heading into their own nodes.
+def build_front_matter(pdf: PDFDocument, start: int, end: int) -> List[Node]:
+    """Window the pages before the first content heading into preface / toc nodes.
 
-    These cover title pages, prefaces and the table-of-contents pages so that
-    no part of the document is dropped from the tree.
+    Pages before the first content heading are split into a "preface" node and
+    (if a printed Table of Contents is detected within the range) a separate
+    "toc" node, so the TOC is never absorbed into the preface. Conventional
+    titles ("preface", "toc") are used; they are not derived from page text.
     """
+    if start > end:
+        return []
+
+    toc_pages = [p for p in pdf.find_printed_toc_pages() if start <= p <= end]
+    toc_lo = min(toc_pages) if toc_pages else None
+    toc_hi = max(toc_pages) if toc_pages else None
+
+    spans: List[tuple] = []  # (kind, start, end)
+    if toc_lo is None:
+        spans.append(("preface", start, end))
+    else:
+        if toc_lo > start:
+            spans.append(("preface", start, toc_lo - 1))
+        spans.append(("toc", toc_lo, toc_hi))
+        if toc_hi < end:
+            spans.append(("preface", toc_hi + 1, end))
+
     nodes: List[Node] = []
-    page = start
-    i = 0
-    while page <= end:
-        w_end = min(page + config.window_size - 1, end)
-        i += 1
+    for i, (kind, s, e) in enumerate(spans, start=1):
         nodes.append(Node(
             node_id=f"f{i}",
-            title=f"Front matter (pages {page}-{w_end})",
+            title=kind,
             level=1,
-            start_page=page,
-            end_page=w_end,
-            source="front_matter",
+            start_page=s,
+            end_page=e,
+            source=kind,
         ))
-        page = w_end + 1
     return nodes
 
 
 # --------------------------------------------------------------------------
 # Path 1: build from the embedded table of contents (PDF bookmark outline)
 # --------------------------------------------------------------------------
-def build_from_toc(pdf: PDFDocument, toc: List[Dict], config: Config) -> List[Node]:
+def build_from_toc(pdf: PDFDocument, toc: List[Dict]) -> List[Node]:
     headings = [
         {
             "level": max(1, e["level"]),
@@ -96,7 +110,7 @@ def build_from_toc(pdf: PDFDocument, toc: List[Dict], config: Config) -> List[No
         }
         for e in toc
     ]
-    front = build_front_matter(1, headings[0]["page"] - 1, config)
+    front = build_front_matter(pdf, 1, headings[0]["page"] - 1)
     content = build_hierarchy(headings, source="embedded_toc", id_prefix="t")
     return front + content
 
@@ -200,7 +214,7 @@ def build_from_printed_toc(pdf: PDFDocument, config: Config, llm: LLMClient,
     if verbose:
         print(f"[build] using printed TOC ({len(headings)} entries)")
 
-    front = build_front_matter(1, headings[0]["page"] - 1, config)
+    front = build_front_matter(pdf, 1, headings[0]["page"] - 1)
     content = build_hierarchy(headings, source="printed_toc", id_prefix="p")
     return front + content
 
@@ -271,7 +285,7 @@ def build_from_windows(pdf: PDFDocument, config: Config, llm: LLMClient,
         return _chunk_nodes(pdf, config)
 
     headings.sort(key=lambda h: (h["page"], h["level"]))
-    front = build_front_matter(1, headings[0]["page"] - 1, config)
+    front = build_front_matter(pdf, 1, headings[0]["page"] - 1)
     content = build_hierarchy(headings, source="window", id_prefix="w")
     return front + content
 
@@ -312,7 +326,7 @@ def build_tree(pdf: PDFDocument, config: Config, llm: LLMClient,
         if len(toc) >= config.toc_min_entries:
             if verbose:
                 print(f"[build] using embedded outline ({len(toc)} entries)")
-            children = build_from_toc(pdf, toc, config)
+            children = build_from_toc(pdf, toc)
             used = "embedded_toc"
         elif mode == "embedded":
             raise ValueError("PDF has no usable embedded outline.")
@@ -373,7 +387,7 @@ def summarize_tree(root: Node, pdf: PDFDocument, config: Config, llm: LLMClient,
     Parent summaries are written from children summaries plus that extra text.
     """
     for node in iter_post_order(root):
-        needs_title = node.source in ("window", "front_matter")
+        needs_title = node.source == "window"
         if node.is_leaf():
             text = pdf.text_range(node.start_page, node.end_page)
             node.text = text

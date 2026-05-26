@@ -1,0 +1,121 @@
+{
+  "node_id": "root",
+  "title": "JOHNSON_JOHNSON_2023Q2_EARNINGS.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 24,
+  "summary": "The section provides a comprehensive overview of Johnson & Johnson's Q2 2023 financial performance, highlighting a 6.3% sales growth to $25.5 billion and an 8.9% increase in earnings per share (EPS) to $1.96. It details regional and segment sales results, with notable increases in U.S. sales and significant growth in MedTech. Key announcements include regulatory approvals for new drugs and the launch of Kenvue's IPO roadshow. The company raises its full-year guidance for adjusted operational sales and EPS, while also discussing non-GAAP financial measures and associated risks. Overall, the section emphasizes Johnson & Johnson's strategic shifts and commitment to healthcare innovation.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Johnson & Johnson Q2 2023 Financial Results Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section provides an overview of Johnson & Johnson's financial performance for the second quarter of 2023, highlighting a reported sales growth of 6.3% to $25.5 billion and an operational growth of 7.5%. It details earnings per share (EPS) figures, with a reported EPS of $1.96, reflecting an 8.9% increase. The company is also raising its full-year guidance for adjusted operational sales and EPS, excluding the COVID-19 Vaccine. Additionally, it mentions plans to separate Kenvue shares through an exchange offer, indicating strategic shifts within the company.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "w1",
+      "title": "Q2 2023 Regional and Segment Sales Results",
+      "level": 1,
+      "start_page": 2,
+      "end_page": 2,
+      "summary": "This section presents the regional sales results for Q2 2023, comparing them to Q2 2022. It details sales figures in millions for the U.S. and international markets, highlighting a 10.2% increase in U.S. sales and a 2.2% increase internationally. The worldwide sales totaled $25,530 million, reflecting a 6.3% growth. Additionally, segment sales results are provided for Consumer Health, Pharmaceutical, and MedTech, with Consumer Health showing a 5.4% increase and MedTech leading with a 12.9% increase. The section also notes adjustments for currency and operational changes.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w2",
+      "title": "Q2 Segment Sales Results Overview",
+      "level": 1,
+      "start_page": 2,
+      "end_page": 2,
+      "summary": "This section presents the segment sales results for Q2 2023, comparing them to Q2 2022. It details sales figures in millions for three segments: Consumer Health, Pharmaceutical, and MedTech, highlighting percentage changes in reported and operational sales. The Consumer Health segment saw a 5.4% increase, Pharmaceuticals a 3.1% increase, and MedTech a significant 12.9% increase. Additionally, it provides insights into the impact of currency fluctuations and adjustments for acquisitions and divestitures on sales performance.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w3",
+      "title": "Q2 2023 Sales Growth by Segment Overview",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 3,
+      "summary": "In the second quarter of 2023, Johnson & Johnson reported adjusted operational sales growth across its segments: Pharmaceuticals grew 3.9%, with notable contributions from DARZALEX, ERLEADA, and STELARA, while COVID-19 Vaccine sales negatively impacted growth. MedTech saw a 9.9% increase, driven by electrophysiology and trauma products, with a significant boost from the Abiomed acquisition. Consumer Health experienced a 7.7% rise, primarily from OTC products like TYLENOL and MOTRIN. The section emphasizes the importance of reviewing additional disclosures and reports for comprehensive financial insights.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w4",
+      "title": "Key Announcements from Johnson & Johnson in Q2 2023",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 4,
+      "summary": "This section outlines significant announcements from Johnson & Johnson in the second quarter of 2023, including regulatory approvals and designations for new drugs and therapies. Key highlights include the first worldwide approval of AKEEGA for metastatic prostate cancer, FDA fast track designation for Milvexian in multiple cardiovascular conditions, and new drug applications for combination therapies targeting pulmonary arterial hypertension. Additionally, it mentions positive clinical trial results for various treatments, including CARVYKTI for multiple myeloma and JNJ-2113 for plaque psoriasis. The section also notes the launch of Kenvue Inc.'s IPO roadshow and a collaboration with Cellular Biomedicine Group for CAR-T therapies.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w5",
+      "title": "Johnson & Johnson Full-Year 2023 Financial Guidance",
+      "level": 1,
+      "start_page": 5,
+      "end_page": 5,
+      "summary": "This section outlines Johnson & Johnson's financial guidance for the full year 2023, including projected sales and earnings per share (EPS). The company anticipates adjusted operational sales to range from $99.3 billion to $100.3 billion, reflecting a 6.0% to 7.0% increase compared to the previous year. Adjusted EPS is expected to be between $10.60 and $10.70, indicating a growth of 4.5% to 5.5%. The guidance excludes certain non-GAAP financial measures and factors such as legal proceedings and acquisition-related expenses. Additional modeling considerations will be discussed in a webcast for investors.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w6",
+      "title": "Overview of Johnson & Johnson's Mission and Financial Measures",
+      "level": 1,
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This section provides an overview of Johnson & Johnson's mission and commitment to health, emphasizing their role as a leading healthcare products company for over 135 years. It highlights their goals of improving access to healthcare, fostering healthier communities, and integrating science and innovation to enhance global health outcomes. Additionally, it discusses non-GAAP financial measures relevant to investors, including operational sales growth and adjusted earnings, and includes a caution regarding forward-looking statements related to the company's future performance and strategies.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w7",
+      "title": "Overview of Non-GAAP Financial Measures",
+      "level": 1,
+      "start_page": 6,
+      "end_page": 6,
+      "summary": "This section outlines Johnson & Johnson's use of non-GAAP financial measures, including operational sales growth, adjusted operational sales growth, adjusted net earnings, and adjusted diluted earnings per share. It emphasizes that these measures should not replace GAAP measures and provides guidance on where to find reconciliations to GAAP figures. The section also mentions the availability of supplementary financial data and additional investor information on the company's website.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w8",
+      "title": "Investor Note on Forward-Looking Statements and Risks",
+      "level": 1,
+      "start_page": 7,
+      "end_page": 7,
+      "summary": "This section outlines the risks and uncertainties associated with forward-looking statements made by Johnson & Johnson. It highlights challenges in product development, regulatory approvals, patent issues, and the impact of market dynamics on commercial success. The company emphasizes the potential effects of strategic decisions, litigation, and changes in healthcare regulations. Additionally, it references the Annual Report and SEC filings for a comprehensive list of risks and clarifies that forward-looking statements are only valid as of their release date, with no obligation to update them.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w9",
+      "title": "Johnson & Johnson Sales Data by Segment and Geography",
+      "level": 1,
+      "start_page": 8,
+      "end_page": 9,
+      "summary": "This section provides unaudited supplementary sales data for Johnson & Johnson, detailing sales figures by business segment and geographic area for 2023 and 2022. It includes specific sales amounts in millions of dollars, along with percentage changes for total operations and currency effects. Key segments covered are Consumer Health, Pharmaceutical, and MedTech, with breakdowns for U.S. and international sales. Readers can learn about trends in sales growth or decline across different regions and product categories.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w10",
+      "title": "Johnson & Johnson Earnings Overview Q2 2023",
+      "level": 1,
+      "start_page": 10,
+      "end_page": 24,
+      "summary": "The Condensed Consolidated Statement of Earnings provides a detailed financial overview of Johnson & Johnson's performance for the second quarter and six months of 2023 compared to 2022. Key figures include total sales, cost of products sold, gross profit, and net earnings, with specific amounts and percentage changes highlighted. The report also includes earnings per share, effective tax rates, and adjusted earnings metrics, offering insights into the company's profitability and operational efficiency. Notably, the section discusses significant changes in expenses and earnings, including impacts from restructuring and tax provisions.",
+      "source": "window",
+      "children": []
+    }
+  ]
+}

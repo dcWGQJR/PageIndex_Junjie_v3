@@ -1,0 +1,2007 @@
+{
+  "node_id": "root",
+  "title": "CORNING_2022_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 159,
+  "summary": "This section of Corning's 2022 Form 10-K provides a comprehensive overview of the company's business operations, financial performance, and governance. It includes detailed discussions on risk factors, liquidity, capital resources, stock repurchases, dividends, and employee retirement plans. The section also covers financial statements, accounting policies, and the impact of new accounting standards, alongside insights into foreign currency hedging activities and commitments. Additionally, it outlines the administration of employee benefit plans, including eligibility, contributions, and claims procedures, ensuring compliance with relevant regulations.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Introduction to Corning's Annual Report Form 10-K",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 1,
+      "summary": "This section provides essential introductory information for Corning Incorporated's Form 10-K annual report for the fiscal year ending December 31, 2022. It includes the company's name, address, and contact details, as well as its SEC file number and stock exchange listing. The section confirms the company's status as a well-known seasoned issuer and outlines its compliance with filing requirements under the Securities Exchange Act. Additionally, it states the market value of common stock held by non-affiliates and the number of shares outstanding as of January 31, 2023. It also notes that certain documents, such as the Proxy Statement, are incorporated by reference.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "w1",
+      "title": "Overview of Corning Incorporated and Its Business Segments",
+      "level": 1,
+      "start_page": 2,
+      "end_page": 12,
+      "summary": "Part I provides a comprehensive overview of Corning Incorporated, detailing its history, business segments, and market strategies. It covers the Optical Communications, Display Technologies, Specialty Materials, Environmental Technologies, Life Sciences, and Emerging Growth Businesses segments, highlighting their products, market contributions, and competitive landscapes. The section emphasizes the importance of research and development, patent protection, and supply chain management in sustaining Corning's competitive advantages. Additionally, it discusses the company's approach to raw materials and intellectual property management.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w2",
+          "title": "Overview of Corning Incorporated and Its Business Segments",
+          "level": 2,
+          "start_page": 2,
+          "end_page": 2,
+          "summary": "Corning Incorporated, established in 1851 and incorporated in 1936, specializes in glass science, ceramic science, and optical physics, producing innovative products that enhance various industries. The company operates in multiple sectors, including optical communications, mobile consumer electronics, and environmental technologies, with a focus on research and development. Corning manufactures at 124 plants across 15 countries and is organized into five segments: Optical Communications, Display Technologies, Specialty Materials, Environmental Technologies, and Life Sciences. The Optical Communications segment, a pioneer in low-loss optical fiber, addresses the growing demand for optical solutions in telecommunications and enterprise networks.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w3",
+          "title": "Overview of Corning's Optical Communications Segment",
+          "level": 2,
+          "start_page": 2,
+          "end_page": 3,
+          "summary": "The Optical Communications Segment details Corning's pioneering role in optical fiber technology since 1970, highlighting its transition from copper to optical systems in telecommunications. It categorizes products into carrier and enterprise networks, with carrier offerings including various optical fibers and cable solutions designed for high-performance applications like 5G. The segment also emphasizes the importance of hardware and equipment, such as connectors and network interface devices, in supporting integrated optical solutions. Manufacturing facilities are located globally, and the segment accounted for 34% of Corning's total net sales in 2022.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w4",
+          "title": "Overview of Corning's Display Technologies Segment",
+          "level": 2,
+          "start_page": 4,
+          "end_page": 4,
+          "summary": "This section details Corning's Display Technologies segment, highlighting its leadership in precision glass innovations for high-resolution displays. Key products include Corning® EAGLE XG® Slim Glass for thinner screens, Corning® Astra® Glass for high-resolution applications, and Corning® Lotus™ NXT Glass for flexible devices. The segment accounted for 22% of Corning's total net sales in 2022 and operates manufacturing facilities across Asia. The importance of patent protection and proprietary trade secrets is also emphasized.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w5",
+          "title": "Overview of Specialty Materials Segment Operations and Products",
+          "level": 2,
+          "start_page": 5,
+          "end_page": 5,
+          "summary": "The Specialty Materials Segment focuses on manufacturing ceramic substrates and filter products for emissions control in mobile applications. Key developments include the introduction of low-mass Corning® FLORA® substrates and Corning® DuraTrap® GC gasoline particulate filters, which address tightening global emissions regulations. The segment operates globally, with manufacturing facilities in New York, Virginia, China, and Germany, and represents 11% of Corning's total segment net sales in 2022. Patent protection is crucial for the segment's operations, with a significant portfolio of patents related to its products and technologies.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w6",
+          "title": "Overview of Environmental Technologies Segment",
+          "level": 2,
+          "start_page": 5,
+          "end_page": 5,
+          "summary": "The Environmental Technologies segment focuses on manufacturing ceramic substrates and filter products for emissions control in mobile applications globally. It highlights the development of high-performance cellular ceramic substrates since the 1970s, which are now standard in catalytic converters. The section discusses recent innovations like low-mass Corning® FLORA® substrates and Corning® DuraTrap® GC gasoline particulate filters, and outlines the global manufacturing locations. It also emphasizes the importance of patent protection for its technologies and notes that this segment accounted for 11% of Corning’s total net sales in 2022.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w7",
+          "title": "Overview of Life Sciences Segment and Its Offerings",
+          "level": 2,
+          "start_page": 5,
+          "end_page": 5,
+          "summary": "The Life Sciences Segment focuses on developing and supplying laboratory products for over 105 years, catering to researchers and drug manufacturers. It offers consumables like plastic vessels, liquid handling plastics, and cell culture media, essential for drug discovery, diagnostics, and bioproduction. The segment markets products under brands such as Corning®, Falcon®, and PYREX®, primarily to pharmaceutical and biotechnology companies globally. Patent protection and brand recognition are crucial for its operations, with the segment contributing 8% to Corning's total net sales in 2022.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w8",
+          "title": "Overview of Hemlock and Emerging Growth Businesses",
+          "level": 2,
+          "start_page": 6,
+          "end_page": 6,
+          "summary": "This section discusses Corning's Hemlock and Emerging Growth Businesses, which includes pharmaceutical technologies, automotive glass solutions, and other corporate investments, accounting for 11% of total segment net sales in 2022. It outlines the competitive landscape across various segments, including Optical Communications, Display Technologies, Specialty Materials, Environmental Technologies, and Life Sciences, highlighting key competitors and the company's strategies for maintaining market position through innovation and customer relationships. The section emphasizes the importance of research and development, product quality, and supply reliability in sustaining competitive advantages.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w9",
+          "title": "Overview of Corning's Competitive Landscape and Strategies",
+          "level": 2,
+          "start_page": 6,
+          "end_page": 6,
+          "summary": "This section discusses Corning's competitive landscape across its various business segments, including Optical Communications, Display Technologies, Specialty Materials, Environmental Technologies, and Life Sciences. It highlights the company's strategies for maintaining market position through innovation, customer relationships, and product quality. Key competitors in each segment are identified, such as CommScope and AGC Inc., along with the challenges posed by industry consolidation and pricing pressures. The section emphasizes the importance of research and development in sustaining competitive advantages.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w10",
+          "title": "Overview of Raw Materials and Supply Chain Management",
+          "level": 2,
+          "start_page": 7,
+          "end_page": 7,
+          "summary": "This section discusses the essential raw materials required for manufacturing processes, including industrial water, precious metals, and various batch materials. It highlights the adequacy of resource availability, such as ores and polymers, while addressing potential supply chain risks from sole-sourced materials. The section also outlines the company's strategies for ensuring a reliable supply and mitigating risks associated with material shortages or price inflation. Additionally, it briefly mentions the importance of patents and intellectual property in maintaining competitive advantages across different business segments.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w11",
+          "title": "Overview of Patents and Trademarks",
+          "level": 2,
+          "start_page": 7,
+          "end_page": 12,
+          "summary": "This section discusses the importance of patents and trademarks to the company's growth and competitive advantage. It details the number of patents granted in the U.S. and internationally, highlighting the company's active pursuit of new patents while managing the expiration of existing ones. Key patents in various business segments, such as Optical Communications and Life Sciences, are outlined, along with the company's enforcement of intellectual property rights. Additionally, it lists principal trademarks and mentions cross-licensing arrangements with competitors.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w12",
+      "title": "Risk Factors Overview and Company Liabilities",
+      "level": 1,
+      "start_page": 13,
+      "end_page": 20,
+      "summary": "This section discusses various risk factors affecting the company, including the absence of unresolved staff comments, which enhances investor confidence. It details the company's extensive properties, comprising 124 manufacturing and processing facilities across 15 countries, with significant floor space dedicated to various operations. The section also outlines ongoing legal proceedings and environmental liabilities, noting Corning's involvement in lawsuits and its status as a potentially responsible party for cleanup at 19 hazardous waste sites, with accrued liabilities increasing to approximately $109 million. Management believes the financial impact of these legal matters is remote, and the company follows a policy of accruing estimated liabilities based on expert analysis.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w13",
+          "title": "Unresolved Staff Comments Overview",
+          "level": 2,
+          "start_page": 20,
+          "end_page": 20,
+          "summary": "This section indicates that there are no unresolved staff comments related to the company's filings. It serves to inform stakeholders that all previous inquiries or comments from staff have been addressed satisfactorily. This transparency can enhance investor confidence and indicates compliance with regulatory requirements.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w14",
+          "title": "Overview of Company Properties and Facilities",
+          "level": 2,
+          "start_page": 20,
+          "end_page": 20,
+          "summary": "This section details the properties owned and operated by the company, including 124 manufacturing plants and processing facilities across 15 countries, with 32% located in the U.S. It specifies ownership percentages of various facility types, such as 53% of executive buildings and 64% of sales offices. The total aggregate floor space is approximately 65.8 million square feet, broken down into manufacturing, sales, research, and warehouse facilities. Additionally, it references related financial information in the notes to the consolidated financial statements.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w15",
+          "title": "Overview of Legal Proceedings and Environmental Liabilities",
+          "level": 2,
+          "start_page": 20,
+          "end_page": 20,
+          "summary": "This section outlines the legal proceedings involving Corning, including various lawsuits and claims arising in the normal course of business. It highlights that management believes the likelihood of these matters adversely affecting the company's financial position is remote. Additionally, it details Corning's designation as a potentially responsible party for cleanup costs at 19 hazardous waste sites, with accrued liabilities of approximately $109 million as of December 31, 2022. The section emphasizes the company's policy of accruing estimated liabilities based on expert analysis.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w16",
+          "title": "Corning's Environmental Litigation and Liabilities Overview",
+          "level": 2,
+          "start_page": 20,
+          "end_page": 20,
+          "summary": "This section outlines Corning's environmental litigation and liabilities, highlighting its status as a potentially responsible party for 19 hazardous waste sites under federal and state laws, including Superfund. It details the company's policy of accruing estimated liabilities for environmental cleanup, which increased from $55 million in 2021 to approximately $109 million by December 31, 2022. Management asserts that this reserve reflects a reasonable estimate of potential environmental liabilities.",
+          "source": "window",
+          "children": [
+            {
+              "node_id": "w17",
+              "title": "Overview of Corning's Environmental Litigation and Liabilities",
+              "level": 3,
+              "start_page": 20,
+              "end_page": 20,
+              "summary": "This section discusses Corning's involvement in environmental litigation, specifically its designation as a potentially responsible party under federal and state environmental laws, including Superfund, for 19 hazardous waste sites. It details the company's policy of accruing estimated liabilities for environmental cleanup based on expert analysis and monitoring. As of December 31, 2022, Corning accrued approximately $109 million for these liabilities, up from $55 million in 2021, indicating a significant increase in estimated environmental costs. Management believes this reserve is a reasonable estimate of the company's potential liabilities.",
+              "source": "window",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "w18",
+      "title": "Corning's Equity Market and 2022 Financial Performance",
+      "level": 1,
+      "start_page": 21,
+      "end_page": 29,
+      "summary": "PART II covers Corning Incorporated's common equity market details, including stock performance, shareholder information, and stock purchase data. It analyzes Corning's financial performance for 2022, highlighting net sales growth in Optical Communications and challenges in Display Technologies. The section also examines financial results across reportable segments, detailing sales volume changes and factors affecting performance, such as demand for 5G products and inflation. Additionally, it addresses future tax implications from recent legislation.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w19",
+          "title": "Market for Corning's Common Equity and Shareholder Information",
+          "level": 2,
+          "start_page": 21,
+          "end_page": 21,
+          "summary": "This section provides information about Corning Incorporated's common stock, which is listed on the New York Stock Exchange under the ticker symbol 'GLW' and also traded on other exchanges. As of December 31, 2022, there are approximately 11,500 registered holders and 748,000 beneficial shareholders. It includes a performance graph showing the cumulative total shareholder return over the past five years compared to the S&P 500 and S&P Communications Equipment Companies. Additionally, it references securities authorized for issuance under equity compensation plans.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w20",
+          "title": "Reserved Section with Stock Purchase Information",
+          "level": 2,
+          "start_page": 22,
+          "end_page": 22,
+          "summary": "This section is reserved and does not contain any content. However, it references a table on page 22 that details the purchases of common stock during the fourth quarter of 2022, including the total number of shares purchased, average price per share, and the approximate dollar value of shares available for purchase under announced programs. The table indicates that a total of 145,573 shares were purchased at an average price of $31.16, with a remaining value of $3,301,085,426 under the programs.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w21",
+          "title": "Corning's 2022 Financial Performance and Analysis",
+          "level": 2,
+          "start_page": 23,
+          "end_page": 27,
+          "summary": "This section provides a comprehensive analysis of Corning's financial performance for 2022, including net sales growth driven by Optical Communications, despite declines in Display Technologies. It details the impact of rising costs on gross margin, increases in SG&A and R&D expenses, and the effects of foreign currency fluctuations on income and taxes. Additionally, it discusses net income and earnings per share, highlighting a decrease in comprehensive income due to various financial pressures. The section also outlines future tax implications from the Inflation Reduction Act of 2022.",
+          "source": "window",
+          "children": [
+            {
+              "node_id": "w22",
+              "title": "2022 Financial Results Overview",
+              "level": 3,
+              "start_page": 24,
+              "end_page": 24,
+              "summary": "In 2022, Corning reported net sales of $14.2 billion, a 1% increase from 2021, driven by significant growth in Optical Communications and Hemlock and Emerging Growth Businesses, despite a decline in Display Technologies. Net income decreased to $1.316 billion, influenced by increased severance and legal costs, as well as adverse foreign currency impacts. Diluted earnings per share rose by 20% due to share repurchases, despite the overall decrease in net income. The section also provides a corporate outlook for Q1 2023, projecting core sales between $3.2 billion and $3.4 billion.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w23",
+              "title": "Overview of Net Sales for 2022",
+              "level": 3,
+              "start_page": 25,
+              "end_page": 25,
+              "summary": "This section details Corning's net sales for the year ending December 31, 2022, which rose by $107 million (1%) compared to 2021. Key contributors to this increase included Optical Communications and Hemlock and Emerging Growth Businesses, while Display Technologies experienced a significant decline. The section also highlights the impact of foreign exchange rates, which negatively affected consolidated net sales by $616 million. Additionally, it notes that international markets represented 65% of total net sales in 2022, down from 68% in 2021.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w24",
+              "title": "Cost of Sales and Gross Margin Analysis",
+              "level": 3,
+              "start_page": 25,
+              "end_page": 25,
+              "summary": "This section details the components of cost of sales, including raw materials, labor, and overhead expenses. It highlights a significant decrease in gross margin by $557 million, or 11%, attributed to rising production and material costs, as well as severance and depreciation charges. Additionally, foreign exchange fluctuations negatively impacted gross margin by $422 million. The section provides insights into the financial pressures affecting profitability and the overall cost structure of the company.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w25",
+              "title": "Overview of Selling, General and Administrative Expenses",
+              "level": 3,
+              "start_page": 25,
+              "end_page": 25,
+              "summary": "This section details the increase in selling, general and administrative (SG&A) expenses by $71 million, or 4%, for the year ended December 31, 2022, remaining consistent as a percentage of sales compared to 2021. It outlines the components of SG&A expenses, which include salaries, stock-based compensation, travel, sales commissions, professional fees, and related administrative costs. The information provides insight into the company's operational costs and management efficiency in relation to sales performance.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w26",
+              "title": "Research and Development Expense Overview",
+              "level": 3,
+              "start_page": 25,
+              "end_page": 25,
+              "summary": "This section details the increase in research, development, and engineering expenses by $52 million, or 5%, for the year ended December 31, 2022, compared to 2021. It notes that these expenses remained consistent as a percentage of sales during this period. The section highlights the company's commitment to innovation and development, which is crucial for maintaining competitive advantage. Readers can learn about the financial allocation towards R&D and its implications for future growth.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w27",
+              "title": "Net Gain from Translated Earnings Contracts",
+              "level": 3,
+              "start_page": 26,
+              "end_page": 26,
+              "summary": "This section discusses the net gain from translated earnings contracts, highlighting the effects of foreign currency contracts that hedge translation exposure from currencies like the Japanese yen and euro. It provides a detailed table comparing realized and unrealized gains for the years 2022 and 2021, showing a total translated earnings contract gain of $351 million in 2022 versus $269 million in 2021. The section also notes the adverse impact of currency fluctuations on income before taxes, amounting to a $142 million decrease in 2022 compared to 2021. Additionally, it outlines the effective tax rate variations and implications of the Inflation Reduction Act of 2022 on future tax assessments.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w28",
+              "title": "Impact of Foreign Currency on Income Before Taxes",
+              "level": 3,
+              "start_page": 26,
+              "end_page": 26,
+              "summary": "This section discusses the impact of foreign currency fluctuations on Corning's income before income taxes, noting a $142 million adverse effect for the year ended December 31, 2022, compared to 2021. It details the realized and unrealized gains from translated earnings contracts, highlighting the influence of currencies like the Japanese yen and euro. Additionally, it outlines the effective tax rate for 2022, which deviated from the U.S. statutory rate due to various provisions and benefits, including tax credits and foreign earnings. The section also mentions the Inflation Reduction Act of 2022 and its potential future implications for the company's tax rate.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w29",
+              "title": "Income Tax Provision Overview and Effective Rates",
+              "level": 3,
+              "start_page": 26,
+              "end_page": 26,
+              "summary": "This section details the provision for income taxes for Corning for the years ended December 31, 2022, and 2021. It outlines the effective tax rate differences from the U.S. statutory rate of 21%, highlighting net provisions and benefits related to tax reserves, foreign earnings, valuation allowances, and tax credits. The section also mentions the impact of the Inflation Reduction Act of 2022, which introduces a minimum tax for large corporations, and notes that it will first affect Corning in 2024. Additionally, it references further details in Note 7 regarding income tax matters.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w30",
+              "title": "Net Income and Earnings Per Share for Corning",
+              "level": 3,
+              "start_page": 27,
+              "end_page": 27,
+              "summary": "This section provides detailed financial data on net income attributable to Corning Incorporated for the years ended December 31, 2022, and 2021. It reports a decrease in net income from $1,906 million in 2021 to $1,316 million in 2022, alongside basic and diluted earnings per share figures. The section also discusses the impact of preferred stock dividends and the redemption of preferred stock on net income available to common shareholders. Additionally, it highlights a significant decrease in comprehensive income due to net income reduction and foreign currency translation losses.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w31",
+              "title": "Comprehensive Income Overview for Corning Incorporated",
+              "level": 3,
+              "start_page": 27,
+              "end_page": 27,
+              "summary": "This section details the comprehensive income attributable to Corning Incorporated, highlighting a significant $810 million decrease compared to the previous year. The decline is attributed to a $549 million drop in net income and a $175 million increase in net losses from foreign currency translation adjustments, particularly involving the Japanese yen, Chinese yuan, and South Korean won. The section provides insights into the factors affecting Corning's financial performance and references additional information in the notes to the consolidated financial statements.",
+              "source": "window",
+              "children": []
+            }
+          ]
+        },
+        {
+          "node_id": "w32",
+          "title": "Financial Performance of Reportable Segments",
+          "level": 2,
+          "start_page": 28,
+          "end_page": 29,
+          "summary": "This section provides a detailed analysis of financial results for reportable segments and Hemlock and Emerging Growth Businesses, including net sales and net income for the year ended December 31. It highlights significant changes in sales volumes across various segments such as Optical Communications, Display Technologies, and Life Sciences, with specific figures indicating growth or decline. The section also discusses the factors influencing these changes, such as demand for 5G products and semiconductor materials, as well as challenges like component shortages and inflationary costs. Additionally, it includes a reconciliation of segment information to consolidated financial statements, aiding in understanding the overall financial performance.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w33",
+      "title": "Core Performance Measures Overview",
+      "level": 1,
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This section outlines the core performance measures used by the Company to assess financial performance, excluding specific items that do not reflect ongoing operations. It discusses the importance of constant-currency reporting to mitigate the impact of currency fluctuations on sales and net income, particularly for segments like Display Technologies. The section also presents core net sales and core net income figures for the years ended December 31, 2022, and 2021, highlighting a slight decrease in core net income despite an increase in certain business segments. Management believes these non-GAAP measures provide better transparency and insight into operational performance.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w34",
+      "title": "Core Performance Measures and Financial Overview",
+      "level": 1,
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This section analyzes the company's core net sales and income, focusing on adjustments made to financial statements to exclude non-recurring items and currency translation impacts. It highlights a 5% increase in core net sales from 2021 to 2022, while core net income experienced a slight decrease. The importance of constant-currency reporting is emphasized for understanding financial performance, particularly in segments affected by foreign currencies. Additionally, it clarifies that core performance measures are non-GAAP and should be evaluated alongside GAAP measures for a complete financial assessment.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w35",
+          "title": "Core Net Sales and Income Overview",
+          "level": 2,
+          "start_page": 30,
+          "end_page": 30,
+          "summary": "This section discusses the company's core net sales and income, emphasizing adjustments made to financial statements to reflect ongoing operations by excluding specific items such as currency translation impacts, acquisition costs, and other non-recurring charges. It highlights the importance of constant-currency reporting for understanding sales and net income, particularly in segments affected by foreign currencies. The section provides a comparison of core net sales and income for the years 2021 and 2022, noting a 5% increase in core net sales and a slight decrease in core net income. It also clarifies that core performance measures are non-GAAP and should be considered alongside GAAP measures for a comprehensive evaluation of financial performance.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w36",
+          "title": "Core Net Income and Performance Measures",
+          "level": 2,
+          "start_page": 30,
+          "end_page": 30,
+          "summary": "This section discusses the concept of core net income, which is adjusted from GAAP measures to exclude specific items that do not reflect ongoing operations, such as currency translation impacts, acquisition costs, and legal matters. It emphasizes the importance of constant-currency reporting to analyze financial performance without the volatility of currency fluctuations, particularly for segments like Display Technologies. The section provides core net sales and income figures for the years 2021 and 2022, highlighting a slight decrease in core net income despite an increase in certain business segments. It also notes that these non-GAAP measures offer greater transparency for investors regarding the company's operational performance.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w37",
+      "title": "Core Earnings per Common Share Overview",
+      "level": 1,
+      "start_page": 31,
+      "end_page": 31,
+      "summary": "This section details the core earnings per common share for Corning Incorporated for the year ended December 31, 2022, reporting an increase to $2.09 per share. The increase is attributed to a decrease in the weighted-average common shares outstanding, despite a slight decline in core net income. It provides a breakdown of core net income, including adjustments for preferred stock dividends, and presents both basic and diluted earnings per share figures. Additionally, it explains the use of non-GAAP financial measures to assess performance, highlighting the exclusion of certain items to better reflect operational trends.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w38",
+      "title": "Reconciliation of Non-GAAP Financial Measures",
+      "level": 1,
+      "start_page": 31,
+      "end_page": 33,
+      "summary": "This section explains the reconciliation of non-GAAP financial measures to GAAP measures, highlighting the importance of core earnings metrics for assessing financial performance. It details the calculation of core net sales and core net income, which exclude certain items that may distort the underlying operational trends. The section includes tables that present reconciliations for the years ended December 31, 2022, and 2021, showing adjustments for constant-currency impacts, acquisition-related costs, and other specific items. Readers can learn about the adjustments made to arrive at core performance measures and the rationale behind excluding certain items from GAAP calculations.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w39",
+      "title": "Liquidity and Capital Resources Overview",
+      "level": 1,
+      "start_page": 34,
+      "end_page": 36,
+      "summary": "This section provides a comprehensive overview of the company's liquidity and capital resources, detailing primary liquidity sources such as strong operational cash flows of $2.6 billion in 2022, cash and cash equivalents of $1.7 billion, and a $1.5 billion revolving credit facility. It discusses the company's debt facilities, including a commercial paper program and compliance with financial covenants, as well as customer deposits and government incentives totaling $420 million. Additionally, it covers cash usage for preferred stock conversions and share repurchases, highlighting significant transactions and their financial implications.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w40",
+          "title": "Overview of Liquidity Sources and Cash Management",
+          "level": 2,
+          "start_page": 35,
+          "end_page": 35,
+          "summary": "This section outlines the primary sources of liquidity for the company, emphasizing strong cash flows from operations, which amounted to $2.6 billion in 2022. It details the company's cash and cash equivalents, totaling $1.7 billion, and available credit facilities, including a $1.5 billion U.S. dollar revolving credit facility. The section also discusses the geographical distribution of cash, with 56% held outside the U.S., and mentions the implications of repatriating foreign earnings, including potential withholding taxes. Overall, it provides insights into the company's liquidity management strategies and cash flow dynamics.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w41",
+          "title": "Debt Facilities and Liquidity Sources Overview",
+          "level": 2,
+          "start_page": 36,
+          "end_page": 36,
+          "summary": "This section outlines the company's debt facilities and liquidity sources, including a $1.5 billion commercial paper program and a $1.5 billion Revolving Credit Agreement, both available for general corporate purposes. It details amendments to these agreements, compliance with financial covenants, and the absence of outstanding amounts as of December 31, 2022. Additionally, it mentions unsecured variable rate loan facilities totaling approximately $673 million and a shelf registration for debt and equity securities filed with the SEC. The section also briefly discusses customer deposits and government incentives received, totaling $420 million for the year ended December 31, 2022.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w42",
+          "title": "Customer Deposits and Government Incentives Overview",
+          "level": 2,
+          "start_page": 36,
+          "end_page": 36,
+          "summary": "This section discusses the cash deposits received from customers under long-term supply agreements, which are generally non-refundable. It also covers cash incentives received from government entities aimed at offsetting capital expenditures or related expenses, totaling $420 million for the year ended December 31, 2022. For further details, readers are directed to Note 1 and Note 4 in the consolidated financial statements.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w43",
+          "title": "Cash Usage for Preferred Stock and Share Repurchase",
+          "level": 2,
+          "start_page": 36,
+          "end_page": 36,
+          "summary": "This section details the company's cash usage related to its Fixed Rate Cumulative Convertible Preferred Stock, Series A. It explains the conversion of 2,300 shares of preferred stock into 115 million common shares and the subsequent repurchase of 35 million common shares from Samsung Display Co., Ltd. for approximately $1.5 billion. The section also outlines the payment schedule for this repurchase, with significant payments made in 2021 and 2022, and a final payment due in 2023. Readers can learn about the financial implications of stock conversions and share repurchase agreements.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w44",
+      "title": "Overview of Stock Repurchases and Authorizations",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This section details the company's stock repurchase activities, including a 2019 authorization for up to $5.0 billion in common stock repurchases. It reports the repurchase of 6.0 million and 7.3 million shares in 2022 and 2021, respectively, totaling approximately $495 million. As of December 31, 2022, $3.3 billion remains available under the 2019 Authorization, which has no expiration date. The section emphasizes the Board's discretion in amending or terminating the repurchase plan without prior notice.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w45",
+      "title": "Overview of Common Stock Dividends",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This section details the total dividends paid to common shareholders over the years 2020 to 2022, amounting to $787 million, $871 million, and $932 million, respectively. It explains that future dividend declarations will depend on the company's income and liquidity. Additionally, it mentions the Board's declaration of a quarterly dividend of $0.28 per share starting in the first quarter of 2023, payable on March 30, 2023.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w46",
+      "title": "Overview of Capital Expenditures and Future Plans",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This section details the company's capital expenditures, which totaled $1.6 billion in both 2022 and 2021, and $1.4 billion in 2020. The expenditures are aimed at capacity expansions and new product lines across various businesses. The company anticipates that capital expenditures for 2023 will remain consistent with those of 2022. Readers can learn about the company's investment strategy and financial planning regarding capital projects.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w47",
+      "title": "Overview of Short and Long-Term Debt Maturities",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "As of December 31, 2022, the company reported $224 million in short-term borrowings due within one year. The long-term debt maturity schedule indicates approximately $1.1 billion is due over the next five years, suggesting manageable cash outflows. This section provides insights into the company's debt obligations and liquidity position, which are crucial for assessing financial stability and planning for future cash needs.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w48",
+      "title": "Overview of Defined Benefit Pension Plans Funding Status",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "As of December 31, 2022, the company's global defined benefit pension plans were 82% funded, with the U.S. qualified plan representing 77% of the projected benefit obligation and being 93% funded. The funding status is influenced by factors such as actuarial assumptions, interest rates, investment returns, and contributions. In 2022, no voluntary contributions were made to the domestic plan, while minimal cash contributions were made to international plans. For 2023, the company plans to contribute $49 million to its international pension plans.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w49",
+      "title": "Overview of Commitments and Contingencies",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 37,
+      "summary": "This section provides an overview of the company's contractual obligations and commercial commitments as of December 31, 2022. It references Note 13 for detailed information on commitments, contingencies, and guarantees. Readers can learn about the nature and extent of the company's financial commitments and potential liabilities. This information is crucial for understanding the company's financial health and risk exposure.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w50",
+      "title": "Hedging Currency Exposure with Earnings Contracts",
+      "level": 1,
+      "start_page": 38,
+      "end_page": 38,
+      "summary": "This section discusses the company's use of option and average rate forward contracts to hedge translation exposure from currency fluctuations, specifically the Japanese yen and South Korean won. For 2022 and 2021, the company reported pre-tax net gains of $415 million and $363 million from yen-related contracts, and net losses of $76 million and $33 million from won-related contracts. The gross notional values of these contracts were $4.7 billion and $6.5 billion for yen, and $2.1 billion and $1.2 billion for won, respectively. Additionally, it briefly mentions off-balance sheet arrangements, including guarantees and indemnities, and their implications for financial reporting.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w51",
+      "title": "Overview of Off Balance Sheet Arrangements",
+      "level": 1,
+      "start_page": 38,
+      "end_page": 38,
+      "summary": "This section discusses off balance sheet arrangements, specifically transactions and agreements with unconsolidated entities that are not recorded in consolidated financial statements. It details the nature of these arrangements, including guarantee and indemnity contracts, and explains the recognition of liabilities for guarantees issued. The section notes that the company does not routinely provide significant third-party guarantees, which are generally limited to financial guarantees like stand-by letters of credit and performance bonds. It also mentions that most guarantees and contingent liabilities are expected to expire without being funded.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w52",
+      "title": "Currency Hedging and Off Balance Sheet Arrangements",
+      "level": 1,
+      "start_page": 38,
+      "end_page": 38,
+      "summary": "This section discusses the company's use of option and average rate forward contracts to hedge translation exposure from currency fluctuations, specifically the Japanese yen and South Korean won. It details the pre-tax net gains and losses recorded for the years ended December 31, 2022, and 2021, along with the gross notional values of these contracts. Additionally, it outlines off balance sheet arrangements, including guarantees and indemnity contracts, and notes that most guarantees are not significant and are expected to expire without funding. For further details, it refers to related notes in the financial statements.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w53",
+      "title": "Critical Accounting Estimates Overview",
+      "level": 1,
+      "start_page": 39,
+      "end_page": 41,
+      "summary": "This section covers critical accounting estimates related to various financial aspects, including the valuation of equity interests, impairment assessments of long-lived assets, and the complexities of income tax assessments. It discusses fair value measurement methods, the judgments involved in litigation outcomes, and the obligations associated with pension and postretirement benefits. Each subsection highlights the importance of assumptions, market conditions, and legal evaluations in determining financial reporting outcomes.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w54",
+          "title": "Valuation of Previously Held Equity Interest in HSG",
+          "level": 2,
+          "start_page": 39,
+          "end_page": 39,
+          "summary": "This section discusses the valuation of previously held equity interest following the consolidation of HSG, emphasizing the acquisition method of accounting. It details the estimation of fair values for assets and liabilities, including intangible assets and contract liabilities, and the recognition of gains or losses in earnings. The section highlights a specific case where DuPont recognized a pre-tax gain of $498 million after HSG redeemed its ownership interest for $250 million, with fair value determined through independent appraisals and the income approach. Key assumptions included a discount rate of 16.5% and a terminal growth rate of zero.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w55",
+          "title": "Assessment of Long-Lived Asset Impairment",
+          "level": 2,
+          "start_page": 39,
+          "end_page": 39,
+          "summary": "This section outlines the process for assessing the impairment of long-lived assets, particularly focusing on manufacturing equipment made from precious metals like platinum and rhodium. It details the criteria for identifying impairment indicators, such as significant market price decreases or adverse changes in legal factors. The section emphasizes the importance of quarterly reviews and the judgment required in determining whether impairment exists. Additionally, it explains how precious metals are treated in terms of depreciation and impairment assessment, highlighting their role in manufacturing rather than trading.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w56",
+          "title": "Overview of Income Tax Assessments and Uncertain Positions",
+          "level": 2,
+          "start_page": 40,
+          "end_page": 40,
+          "summary": "This section discusses the assessment of deferred tax assets and the judgment required in estimating future taxable income and tax planning strategies. It explains the accounting for uncertain tax positions under ASC Topic 740, emphasizing the need for a greater than 50% likelihood of sustaining tax benefits. The section highlights the factors influencing these estimates, including tax law, tax authority behavior, and the potential for changes in estimates based on new information. Readers can learn about the complexities involved in tax asset realizability and the implications of uncertain tax positions.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w57",
+          "title": "Fair Value Measurement Methods and Categories",
+          "level": 2,
+          "start_page": 41,
+          "end_page": 41,
+          "summary": "This section explains the methods used to determine the fair value of assets and liabilities, distinguishing between observable and unobservable inputs. It outlines the prioritization of these inputs into three levels and emphasizes the use of observable market data when available. Key categories of financial assets and liabilities measured at fair value include investments and derivatives, with specific mention of foreign currency hedges. The section also discusses the accounting treatment of changes in fair value for cash flow hedges and non-designated contracts, as well as considerations of credit risk in valuation.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w58",
+          "title": "Judgments on Litigation Outcomes and Uncertainties",
+          "level": 2,
+          "start_page": 41,
+          "end_page": 41,
+          "summary": "This section discusses the judgments required to assess the probable outcomes of litigation, emphasizing the importance of legal counsel evaluations, case law, and specific issues related to each case. It highlights the inherent uncertainties in predicting litigation results and refers readers to additional legal proceedings and commitments information in the financial statements. The section underscores the need for careful consideration of various factors when estimating litigation outcomes.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w59",
+          "title": "Pension and Postretirement Employee Benefits Overview",
+          "level": 2,
+          "start_page": 41,
+          "end_page": 41,
+          "summary": "This section details the employee retirement plans offered, including defined benefit pension plans and postretirement health care and life insurance benefits. It explains the cost and obligations associated with these benefits, which are influenced by economic conditions, demographic assumptions, and actuarial evaluations. The section outlines how costs are recognized, including ongoing costs and mark-to-market adjustments for pension plans, as well as the treatment of actuarial gains and losses for OPEB plans. It emphasizes the impact of assumptions on future expenses and obligations related to these benefits.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w60",
+      "title": "Impact of New Accounting Standards on Pension Obligations",
+      "level": 1,
+      "start_page": 42,
+      "end_page": 42,
+      "summary": "This section outlines the impact of new accounting standards on pension and postretirement benefit obligations. It includes tables detailing actual and expected returns on plan assets for domestic and international plans from 2020 to 2022, highlighting significant losses in 2022. Additionally, it discusses the sensitivity of ongoing pension and OPEB expenses to changes in key assumptions, such as spot rates and expected returns on assets, providing estimated financial impacts of these changes. The section emphasizes the importance of understanding how economic factors can influence multiple assumptions simultaneously.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w61",
+      "title": "Understanding Forward-Looking Statements and Risks",
+      "level": 1,
+      "start_page": 43,
+      "end_page": 43,
+      "summary": "This section outlines the nature of forward-looking statements in Corning's Annual Report, which include predictions about future performance, market share, revenue growth, and innovation. It emphasizes that these statements are inherently uncertain and subject to various risks, such as economic trends, competition, geopolitical issues, and supply chain disruptions. The section lists specific factors that could cause actual results to differ from expectations, including changes in market conditions, the impact of the COVID-19 pandemic, and regulatory developments. It clarifies that while the company believes its forward-looking statements are based on reasonable assumptions, it does not commit to updating these statements unless legally required.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w62",
+      "title": "Market Risks: Currency Exposure and Hedging Strategies",
+      "level": 1,
+      "start_page": 44,
+      "end_page": 45,
+      "summary": "This section discusses the company's exposure to foreign currency exchange rate fluctuations due to its international operations, particularly focusing on currencies like the Japanese yen and euro. It outlines the use of over-the-counter derivative instruments, such as foreign exchange forward and option contracts, to mitigate risks associated with these fluctuations. The section also includes a sensitivity analysis indicating that a 10% adverse movement in exchange rates could lead to significant losses in fair value, specifically noting potential impacts related to the Japanese yen. Additionally, it emphasizes the company's strategy to offset these risks through hedging activities and the management's expectation that losses from derivatives will be counterbalanced by gains on hedged assets and liabilities.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w63",
+      "title": "Corning's Governance and Executive Overview",
+      "level": 1,
+      "start_page": 46,
+      "end_page": 49,
+      "summary": "PART III provides an overview of Corning's governance structure, detailing the backgrounds and roles of its Board of Directors and executive officers. It includes information on the Code of Ethics for executives, executive compensation and equity plans, security ownership, and related transactions. The section emphasizes the importance of director independence and the integrity of financial audits, highlighting the role of PricewaterhouseCoopers LLP. Additionally, it outlines the company's commitment to ethical standards and corporate governance practices.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w64",
+          "title": "Directors and Executive Officers Overview",
+          "level": 2,
+          "start_page": 46,
+          "end_page": 46,
+          "summary": "This section provides an overview of Corning's Board of Directors and executive officers, detailing their backgrounds and roles. It includes a list of board members, highlighting their previous positions and experience in various industries, such as finance, healthcare, and technology. The section also references the Definitive Proxy Statement for additional information on corporate governance and the election of directors. Readers can learn about the qualifications and expertise of the individuals guiding Corning's strategic direction.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w65",
+          "title": "Overview of Corning's Executive Officers",
+          "level": 2,
+          "start_page": 46,
+          "end_page": 46,
+          "summary": "This section provides a detailed overview of the executive officers of Corning's Board of Directors, including their professional backgrounds, roles, and ages. Key figures include Donald W. Blair, Leslie A. Brun, Stephanie A. Burns, Richard T. Clark, Pamela J. Craig, and Robert F. Cummings, Jr., each with extensive experience in various industries such as finance, healthcare, and technology. The section highlights their previous positions and contributions to other organizations, illustrating the diverse expertise they bring to Corning's leadership. Readers can learn about the qualifications and career trajectories of these executives, which may inform assessments of the company's governance and strategic direction.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w66",
+          "title": "Overview of Corning's Board of Directors",
+          "level": 2,
+          "start_page": 46,
+          "end_page": 47,
+          "summary": "This section provides detailed profiles of the members of Corning's Board of Directors, including their professional backgrounds, roles, and ages. Key figures include Donald W. Blair, Leslie A. Brun, and Wendell P. Weeks, highlighting their previous executive positions at major companies like NIKE, Procter & Gamble, and Merck. The section emphasizes the diverse expertise and leadership experience of the board members, which spans various industries such as finance, technology, and healthcare. Readers can learn about the qualifications and contributions of each board member to Corning's governance.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w67",
+          "title": "Code of Ethics for Executives",
+          "level": 2,
+          "start_page": 48,
+          "end_page": 48,
+          "summary": "The Code of Ethics outlines the ethical standards and expectations for the Chief Executive Officer and financial executives at Corning Incorporated. It has been in place for over ten years and applies specifically to key financial leaders within the organization. The section notes that there were no amendments or waivers to the Code in 2022 and provides information on how shareholders can access the Code. Additionally, it mentions the commitment to disclose any future changes to the Code on the company's website.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w68",
+          "title": "Overview of Executive Compensation and Equity Plans",
+          "level": 2,
+          "start_page": 48,
+          "end_page": 48,
+          "summary": "This section provides an overview of executive compensation, referencing the 'Compensation Discussion and Analysis,' 'Director Compensation,' and 'Compensation and Talent Management Committee Interlocks and Insider Participation' from the Definitive Proxy Statement. It includes a table detailing the company's equity compensation plans as of December 31, 2022, showing the number of securities to be issued upon exercise of outstanding options, the weighted-average exercise price, and the number of securities available for future issuance. The total number of outstanding options is 9,664,672 with a weighted-average exercise price of $22.92, and 32,332,203 securities remain available for future issuance under approved plans.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w69",
+          "title": "Security Ownership and Equity Compensation Overview",
+          "level": 2,
+          "start_page": 48,
+          "end_page": 48,
+          "summary": "This section provides details on the security ownership of certain beneficial owners and management, specifically referencing the 'Beneficial Ownership Table' from the Definitive Proxy Statement. It includes information about the company's equity compensation plans as of December 31, 2022, detailing the number of securities to be issued upon exercise of outstanding options, warrants, and rights, along with their weighted-average exercise price. Additionally, it outlines the number of securities remaining available for future issuance under equity compensation plans, distinguishing between those approved and not approved by security holders.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w70",
+          "title": "Equity Compensation Plans Overview",
+          "level": 2,
+          "start_page": 48,
+          "end_page": 48,
+          "summary": "This section provides detailed information on the company's equity compensation plans as of December 31, 2022. It includes the number of securities to be issued upon exercise of outstanding options, warrants, and rights, which totals 9,664,672, with a weighted-average exercise price of $22.92. Additionally, it states that there are 32,332,203 securities remaining available for future issuance under equity compensation plans approved by security holders. The section distinguishes between plans approved and not approved by security holders, although only approved plans are detailed here.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w71",
+          "title": "Related Transactions and Director Independence Policies",
+          "level": 2,
+          "start_page": 49,
+          "end_page": 49,
+          "summary": "This section incorporates by reference the company's policies on transactions with related persons and director independence from the Definitive Proxy Statement. It highlights the importance of these policies in ensuring corporate governance and board integrity. Additionally, it mentions that PricewaterhouseCoopers LLP (PwC) provided an independence letter to the Audit Committee, confirming their independence in relation to the audit of the financial statements. The Audit Committee has acknowledged and discussed PwC's independence, reinforcing the company's commitment to ethical standards.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w72",
+          "title": "Principal Accounting Fees and Services Overview",
+          "level": 2,
+          "start_page": 49,
+          "end_page": 49,
+          "summary": "This section discusses the fees paid to the independent registered public accounting firm, PricewaterhouseCoopers LLP (PwC), and the policy regarding the pre-approval of audit and non-audit services by the Audit Committee. It confirms PwC's independence as per the Public Company Accounting Oversight Board standards, which is essential for the integrity of the audit opinion on the financial statements. The Audit Committee has engaged in discussions with PwC regarding its independence, ensuring compliance with regulatory requirements.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w73",
+      "title": "Exhibits and Form 10-K Summary for Corning Incorporated",
+      "level": 1,
+      "start_page": 50,
+      "end_page": 55,
+      "summary": "PART IV includes a comprehensive list of exhibits and agreements filed by Corning Incorporated, detailing financial statements, corporate governance documents, and historical agreements with partners like Samsung Display. It also summarizes the Form 10-K, highlighting significant agreements such as officer severance and change in control agreements, along with equity plans for non-employee directors. The section includes necessary certifications under the Sarbanes-Oxley Act and concludes with signatures from executives affirming the report's accuracy and compliance.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w74",
+          "title": "List of Exhibits and Agreements Filed",
+          "level": 2,
+          "start_page": 50,
+          "end_page": 51,
+          "summary": "This section lists various exhibits filed as part of the report, including financial statements and agreements related to Corning Incorporated. Key documents include the Framework Agreement with Samsung Display, multiple transaction agreements, and amendments to the company's bylaws and pension plans. Each exhibit is referenced with its filing date and source, providing a comprehensive overview of legal and financial commitments. Readers can learn about the company's corporate governance, financial arrangements, and historical agreements with partners.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w75",
+          "title": "Form 10-K Summary and Signatures",
+          "level": 2,
+          "start_page": 52,
+          "end_page": 55,
+          "summary": "This section provides a summary of the Form 10-K, including references to various agreements and plans related to Corning Incorporated. It lists significant documents such as officer severance agreements, change in control agreements, and equity plans for non-employee directors. Additionally, it includes certifications required under the Sarbanes-Oxley Act and details about the company's subsidiaries and independent auditor consent. The section concludes with signatures from key executives and directors, affirming the report's accuracy and compliance with regulatory requirements.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w76",
+      "title": "Independent Auditor's Report on Financial Statements and Controls",
+      "level": 1,
+      "start_page": 56,
+      "end_page": 57,
+      "summary": "This section contains the report from PricewaterhouseCoopers LLP, the independent registered public accounting firm, regarding their audit of Corning Incorporated's consolidated financial statements and internal control over financial reporting as of December 31, 2022. The firm expresses an unqualified opinion that the financial statements fairly present the company's financial position and results of operations in accordance with U.S. GAAP. It details the responsibilities of both management and the auditors, the audit process, and the inherent limitations of internal controls. Additionally, it highlights a critical audit matter concerning the company's tax receivables related to South Korean tax disputes, emphasizing the significant judgment involved in management's assessment of uncertain tax positions.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w77",
+      "title": "Corning's Consolidated Income Statements Overview",
+      "level": 1,
+      "start_page": 58,
+      "end_page": 58,
+      "summary": "This section presents the Consolidated Statements of Income for Corning Incorporated for the years ended December 31, 2022, 2021, and 2020. It details key financial metrics including net sales, cost of sales, gross margin, operating expenses, and net income. Readers can learn about the company's financial performance trends over the three years, including changes in operating income and net income attributable to shareholders. The section also provides earnings per share figures and reconciles net income attributable to Corning with net income available to common shareholders.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w78",
+      "title": "Consolidated Statements of Comprehensive Income Overview",
+      "level": 1,
+      "start_page": 59,
+      "end_page": 59,
+      "summary": "This section presents the Consolidated Statements of Comprehensive Income for Corning Incorporated and its subsidiaries for the years ended December 31, 2022, 2021, and 2020. It details net income figures, which show a decrease from 2021 to 2022, and outlines components of other comprehensive income, including foreign currency translation adjustments and postretirement benefit plan costs. The section also highlights comprehensive income, including amounts attributable to non-controlling interests and Corning Incorporated itself, providing insights into the company's overall financial performance and changes in equity. Readers can learn about the factors affecting comprehensive income and the company's financial trends over the three years.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w79",
+      "title": "Consolidated Balance Sheets Overview",
+      "level": 1,
+      "start_page": 60,
+      "end_page": 60,
+      "summary": "This section presents the consolidated balance sheets for Corning Incorporated as of December 31 for the years 2022 and 2021. It details the company's assets, including current assets like cash, receivables, and inventories, as well as long-term assets such as property and goodwill. The liabilities section outlines current and long-term obligations, including debt and accrued liabilities. Additionally, it provides a breakdown of shareholders' equity, including common stock, retained earnings, and treasury stock. The total assets equal total liabilities and equity, ensuring the balance sheet is balanced.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w80",
+      "title": "Consolidated Cash Flow Statements Overview",
+      "level": 1,
+      "start_page": 61,
+      "end_page": 61,
+      "summary": "This section presents the Consolidated Statements of Cash Flows for Corning Incorporated for the years ended December 31, 2022, 2021, and 2020. It details cash flows from operating, investing, and financing activities, highlighting net income, adjustments, and changes in assets and liabilities. Key figures include net cash provided by operating activities, cash used in investing activities, and cash used in financing activities. The section also shows the effect of exchange rates on cash and the cash and cash equivalents at the beginning and end of each year.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w81",
+      "title": "Significant Accounting Policies Overview",
+      "level": 1,
+      "start_page": 62,
+      "end_page": 63,
+      "summary": "This section provides an overview of Corning Incorporated's significant accounting policies, including the organization and principles of consolidation for its financial statements. It details the inclusion of subsidiaries and the elimination of intercompany transactions. The section also addresses the accounting treatment for investments in partially-owned affiliates and variable interest entities (VIEs). Furthermore, it emphasizes the use of estimates in financial reporting, particularly in areas such as revenue recognition, asset impairment, and tax liabilities, which can impact future financial results.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w82",
+          "title": "Significant Accounting Policies Overview",
+          "level": 2,
+          "start_page": 63,
+          "end_page": 63,
+          "summary": "This section outlines the significant accounting policies of Corning Incorporated, detailing the organization, basis of presentation, and principles of consolidation. It explains that the consolidated financial statements include Corning and its subsidiaries, with intercompany transactions eliminated. The section also discusses the accounting for investments in partially-owned affiliates and variable interest entities (VIEs). Additionally, it highlights the use of estimates in financial statement preparation, emphasizing areas such as revenue recognition, asset impairment, and tax liabilities, which may affect future reported results.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w83",
+      "title": "Summary of Corning's Significant Accounting Policies",
+      "level": 1,
+      "start_page": 64,
+      "end_page": 72,
+      "summary": "This section outlines Corning's significant accounting policies, covering contract assets and liabilities, research and development costs, foreign currency remeasurement, share-based compensation, stock options, cash equivalents, and allowances for doubtful accounts. It also details the accounting treatment for inventories, property, plant, and equipment, leasing practices, long-lived asset impairment, goodwill testing, government assistance, environmental liabilities, equity method investments, employee retirement plans, income tax accounting, and fair value measurements. Each subsection provides insights into how these financial elements are managed and reported, emphasizing their implications on the company's financial performance and compliance with accounting standards.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w84",
+          "title": "Overview of Contract Assets and Liabilities",
+          "level": 2,
+          "start_page": 64,
+          "end_page": 64,
+          "summary": "This section discusses contract assets and liabilities in Corning's revenue recognition process. It explains that contract assets, such as costs to obtain or fulfill contracts, are minor, with most fulfillment costs classified as inventory or fixed assets. Contract liabilities include customer deposits and deferred revenue, primarily related to Display products and HSG, respectively. The section highlights that other advanced payments are not significant and are recorded as accrued liabilities. Overall, it provides insight into how Corning manages and reports its contractual financial obligations.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w85",
+          "title": "Overview of Research and Development Costs",
+          "level": 2,
+          "start_page": 64,
+          "end_page": 64,
+          "summary": "This section details the accounting treatment of research and development (R&D) costs, which are expensed as incurred. It provides specific figures for R&D expenditures over the past three years, totaling $0.9 billion in 2022, $0.8 billion in 2021, and $1.0 billion in 2020. The section emphasizes the immediate recognition of these costs in financial statements, highlighting their impact on the company's financial performance. Readers can learn about the company's commitment to R&D and its financial implications.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w86",
+          "title": "Foreign Currency Functional Currency and Remeasurement Gains",
+          "level": 2,
+          "start_page": 64,
+          "end_page": 64,
+          "summary": "This section discusses the determination of functional currency for Corning's foreign subsidiaries, primarily identifying local currencies as functional currencies, with a notable exception for a Taiwanese subsidiary using Japanese yen. It explains how foreign currency transactions are remeasured, with gains and losses recognized in income based on exchange rate fluctuations. The section provides specific figures for net foreign currency remeasurement gains and losses for the years ended December 31, 2022, 2021, and 2020, highlighting a gain of $130 million in 2022.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w87",
+          "title": "Overview of Share-Based Compensation Accounting",
+          "level": 2,
+          "start_page": 65,
+          "end_page": 65,
+          "summary": "This section covers the accounting treatment for share-based compensation, specifically focusing on time-based restricted stock and performance-based restricted stock units (PSUs). It explains that time-based awards are discretionary, vest in common stock, and have their fair value determined by the stock's market price at grant. For non-employee Board members, compensation expense is recognized immediately. In contrast, PSUs are contingent on achieving performance targets, vest over three years, and their fair value is also based on the grant date stock price, with considerations for forfeiture rates in expense recognition.",
+          "source": "window",
+          "children": [
+            {
+              "node_id": "w88",
+              "title": "Time-Based Restricted Stock and Units Overview",
+              "level": 3,
+              "start_page": 65,
+              "end_page": 65,
+              "summary": "This section details the accounting treatment for time-based restricted stock and restricted stock units issued by the Company. It explains that these awards are discretionary and payable in common stock upon vesting, with their fair value determined by the stock's closing market price on the grant date. For non-employee Board members, compensation expense is recognized immediately due to the absence of vesting terms. Additionally, it contrasts these with performance-based restricted stock units, which require target achievement for vesting.",
+              "source": "window",
+              "children": []
+            },
+            {
+              "node_id": "w89",
+              "title": "Performance-Based Restricted Stock Units Overview",
+              "level": 3,
+              "start_page": 65,
+              "end_page": 65,
+              "summary": "This section details the accounting treatment and valuation of performance-based restricted stock units (PSUs) granted by Corning. PSUs are awarded based on the achievement of specific performance targets and are payable in shares of common stock upon vesting, typically over a three-year period. The fair value of these awards is determined using the closing market price of the stock on the grant date, assuming target performance levels will be met. Additionally, it outlines the recognition of compensation expense and the impact of forfeiture rates on the accounting for these awards.",
+              "source": "window",
+              "children": []
+            }
+          ]
+        },
+        {
+          "node_id": "w90",
+          "title": "Overview of Corning's Stock Options and Valuation",
+          "level": 2,
+          "start_page": 66,
+          "end_page": 66,
+          "summary": "This section details Corning's stock option plans, which include non-qualified and incentive stock options that allow employees to purchase shares at the market price on the grant date. Options typically vest over one to five years and have a maximum term of ten years. The fair value of these options is estimated using a multiple-point Black-Scholes model, incorporating factors such as volatility, dividend yield, and risk-free rates. The section also explains how the expected term of options is calculated based on historical exercise experience and current vesting periods.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w91",
+          "title": "Overview of Cash and Cash Equivalents",
+          "level": 2,
+          "start_page": 66,
+          "end_page": 66,
+          "summary": "This section defines cash equivalents as highly liquid investments that can be quickly converted to cash, specifically those with contractual maturities of three months or less. It emphasizes that the carrying amount of these securities approximates their fair value due to their short-term nature. Additionally, it provides supplemental cash flow information for the years 2020 to 2022, detailing non-cash transactions, cash paid for interest, and income taxes, including capitalized interest costs related to property, plant, and equipment.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w92",
+          "title": "Allowance for Doubtful Accounts in Trade Receivables",
+          "level": 2,
+          "start_page": 66,
+          "end_page": 66,
+          "summary": "This section discusses the allowance for doubtful accounts related to trade accounts receivable, emphasizing the estimation of probable lifetime credit losses. It explains how the allowance is determined based on historical write-off experiences and expected future default rates by industry. Additionally, it mentions the establishment of specific allowances for customers known to have financial difficulties. The section also notes that the company does not have significant off-balance-sheet credit exposure related to its customers.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w93",
+          "title": "Accounting Treatment of Inventories and Related Assets",
+          "level": 2,
+          "start_page": 66,
+          "end_page": 66,
+          "summary": "This section details the accounting treatment of inventories, stating that they are recorded at the lower of cost or net realizable value using the first-in, first-out (FIFO) method. It also briefly outlines the valuation of stock options, cash equivalents, and trade accounts receivable, providing insights into how these financial elements are managed and reported. Readers can learn about the methodologies used for estimating fair values and allowances, as well as the implications of these practices on financial statements.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w94",
+          "title": "Accounting for Property, Plant, and Equipment",
+          "level": 2,
+          "start_page": 66,
+          "end_page": 66,
+          "summary": "This section details the accounting treatment for property, plant, and equipment (PP&E) at Corning. It explains that land, buildings, and equipment are recorded at cost and depreciated using the straight-line method over their estimated useful lives, which range from 10 to 40 years for buildings and 2 to 20 years for equipment. Additionally, it mentions that interest on borrowings is capitalized during construction and amortized over the asset's useful life. The section provides insight into how Corning values its physical assets and the impact of depreciation on financial statements.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w95",
+          "title": "Overview of Corning's Leasing Practices and Accounting",
+          "level": 2,
+          "start_page": 67,
+          "end_page": 67,
+          "summary": "This section details Corning's leasing practices, including the classification of leases as operating or finance leases. It explains the recognition of right-of-use assets and lease liabilities at the commencement date based on the present value of lease payments. The company uses its incremental borrowing rate or the implicit rate for this calculation and includes renewal and termination options when reasonably certain. Lease expenses for operating leases are recognized on a straight-line basis, while finance leases involve interest expense and amortization calculated using effective interest and straight-line methods.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w96",
+          "title": "Assessment of Long-Lived Asset Impairment",
+          "level": 2,
+          "start_page": 67,
+          "end_page": 67,
+          "summary": "This section outlines the process for assessing the impairment of long-lived assets, including property, plant, equipment, and intangible assets. It details the criteria for determining recoverability, which involves comparing estimated undiscounted future cash flows to the carrying value of the asset. If impairment is indicated, the fair value is calculated using an income approach based on expected future net cash flows. The section also mentions that Corning reviews impairment indicators quarterly and provides an example of a past impairment related to research and development programs.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w97",
+          "title": "Understanding Goodwill and Impairment Testing",
+          "level": 2,
+          "start_page": 68,
+          "end_page": 68,
+          "summary": "This section defines goodwill as the excess cost of an acquired entity over the assigned values of its assets and liabilities. It explains that goodwill is linked to specific reporting units and is subject to impairment testing, which occurs quarterly or when certain events arise. A detailed quantitative impairment test is conducted every three years, utilizing a discounted cash flow model to assess fair value against carrying value. The most recent test in 2020 indicated that the fair value of reporting units significantly exceeded their carrying values.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w98",
+          "title": "Overview of Government Assistance and Cash Incentives",
+          "level": 2,
+          "start_page": 68,
+          "end_page": 68,
+          "summary": "This section discusses the government assistance received by the Company, primarily in the form of cash incentives for capital expansion projects. It explains how these cash incentives are classified as liabilities and recognized when compliance with contractual conditions is probable. The section notes that cash incentives related to property, plant, and equipment are deducted from asset costs, while those related to project costs are recognized as deductions in income statements. As of December 31, 2022, the Company had significant amounts classified within liabilities for cash incentives, mainly tied to Display Technologies and Pharmaceutical Technologies.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w99",
+          "title": "Accrual of Environmental Liabilities and Costs",
+          "level": 2,
+          "start_page": 68,
+          "end_page": 68,
+          "summary": "This section outlines the Company's approach to accruing environmental liabilities, which includes costs for investigation, remediation, and maintenance when a liability is probable and estimable. It details how costs are evaluated based on site-specific facts, laws, and past experiences, and how the Company accounts for its share of costs when multiple parties are involved. Additionally, it explains the accrual process for potential liabilities that may be reimbursable by insurance, emphasizing the uncertainty in remediation outcomes and the potential for future cost adjustments.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w100",
+          "title": "Accounting for Equity Method Investments and Impairment",
+          "level": 2,
+          "start_page": 69,
+          "end_page": 69,
+          "summary": "This section discusses the accounting treatment of equity method investments, focusing on impairment reviews conducted periodically or when specific events occur. It outlines the process for assessing impairment, including measuring fair value through discounted cash flows or other methods. Additionally, it explains how equity investments not consolidated or under the equity method are measured at fair value, with changes reflected in net income. The section also mentions the measurement alternative for investments without readily determinable fair values, emphasizing that these investments were not material as of December 31, 2022, and 2021.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w101",
+          "title": "Overview of Employee Retirement Plans and Costs",
+          "level": 2,
+          "start_page": 69,
+          "end_page": 69,
+          "summary": "Corning provides defined benefit pension plans and postretirement plans, including health care and life insurance benefits for eligible retirees. The costs associated with these plans are influenced by economic conditions, demographic assumptions, and actuarial changes. Defined benefit pension costs include ongoing quarterly costs and annual mark-to-market adjustments for gains and losses. Postretirement costs also involve quarterly recognition of service and interest costs, with actuarial gains and losses amortized over employees' remaining service periods. This section outlines the financial implications and accounting methods related to these employee retirement benefits.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w102",
+          "title": "Income Tax Accounting and Policies",
+          "level": 2,
+          "start_page": 69,
+          "end_page": 69,
+          "summary": "This section details Corning's approach to accounting for income taxes using the asset and liability method, which involves recognizing deferred tax assets and liabilities based on future tax consequences and differences between carrying amounts and tax bases. It explains the establishment of valuation allowances when deferred tax assets may not be realized and the assessment of the effective tax rate based on tax audits. The section also covers the recording of tax benefits for uncertain tax positions and adjustments for unrecognized tax benefits, including penalties and interest. Additionally, it discusses the indefinite reinvestment of foreign earnings under specific conditions.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w103",
+          "title": "Fair Value Measurements and Derivative Instruments",
+          "level": 2,
+          "start_page": 70,
+          "end_page": 70,
+          "summary": "This section discusses the measurement of financial assets and liabilities at fair value, both on a recurring and nonrecurring basis. It defines fair value as the price received in an orderly transaction and outlines the three-level valuation hierarchy based on observable and unobservable inputs. The section also details the use of derivative instruments for managing foreign exchange exposure, including how changes in their fair value are recorded in financial statements. Additionally, it mentions the impact of new accounting standards, specifically ASU 2021-10, on disclosure requirements regarding government assistance.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w104",
+          "title": "Overview of Derivative Instruments and Fair Value Accounting",
+          "level": 2,
+          "start_page": 70,
+          "end_page": 72,
+          "summary": "This section discusses the use of derivative instruments by the Company, specifically foreign exchange forward and option contracts, to manage foreign exchange rate fluctuations. It details how these derivatives are recorded at fair value on the balance sheet, with specific accounting treatments for cash flow hedges and fair value hedges. The section also explains the impact of changes in fair value on the consolidated statements of income, including reclassification from accumulated other comprehensive loss. Additionally, it mentions the adoption of new accounting standards related to government assistance disclosures.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w105",
+      "title": "HSG's Acquisition and Consolidation with Corning",
+      "level": 1,
+      "start_page": 73,
+      "end_page": 73,
+      "summary": "In 2020, HSG underwent significant transactions with DuPont, leading to its consolidation into Corning. HSG acquired DuPont's TCS manufacturing assets for $255 million and settled a pre-existing TCS relationship for $175 million, resulting in a pre-tax loss of $81 million for Corning. Additionally, Corning redeemed DuPont's ownership of HSG for $250 million, gaining a 100% interest in HS LLC and an 80.5% interest in HSO LLC. This transaction resulted in a pre-tax gain of $498 million for Corning, calculated based on the fair value of its equity interest in HSG. HSG's financial results have since been included in Corning's consolidated statements, although they are not material to the overall financials.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w106",
+      "title": "Revenue Breakdown and Recognition Details",
+      "level": 1,
+      "start_page": 74,
+      "end_page": 74,
+      "summary": "This section provides a detailed breakdown of Corning's revenue by major product categories for the years 2020 to 2022, highlighting trends in Telecommunication, Display, Specialty Glass, Environmental Substrate, Life Science, and Polycrystalline Silicon products. It explains the revenue recognition process, noting that most revenues are recognized when control transfers to the customer, with specific mention of customer deposits and deferred revenue related to long-term supply agreements. The section also indicates that no single customer accounted for 10% or more of total sales during the reported years, emphasizing the company's diverse customer base.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w107",
+      "title": "Inventory Breakdown for 2022 and 2021",
+      "level": 1,
+      "start_page": 75,
+      "end_page": 75,
+      "summary": "This section provides a detailed breakdown of inventories as of December 31 for the years 2022 and 2021, highlighting categories such as finished goods, work in process, raw materials, and supplies. The total inventory value increased from $2,481 million in 2021 to $2,904 million in 2022. Readers can learn about the specific changes in inventory categories, which reflect the company's production and supply chain dynamics over the year.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w108",
+      "title": "Overview of Lease Costs and Liabilities",
+      "level": 1,
+      "start_page": 75,
+      "end_page": 76,
+      "summary": "This section details the components of lease costs for the years 2020 to 2022, including operating, variable, and short-term lease costs, totaling $200 million in both 2022 and 2021. It also outlines cash paid for lease liabilities, with operating cash outflows from leases amounting to $116 million in 2022. The section provides supplemental balance sheet information, showing operating lease right-of-use assets and liabilities, along with the weighted-average remaining lease term and discount rate. Additionally, it lists the maturities of operating lease liabilities, totaling $1,244 million, and notes future operating leases of approximately $168 million set to commence in 2023.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w109",
+      "title": "Overview of Corning's Income Tax Strategies and Liabilities",
+      "level": 1,
+      "start_page": 77,
+      "end_page": 79,
+      "summary": "This section details Corning's income tax reconciliation, showing the effective tax rate compared to the statutory U.S. federal income tax rate for 2020-2022. It includes information on deferred tax assets and liabilities, highlighting significant temporary differences and carryforwards. The section also discusses unrecognized tax benefits, including changes due to audits and tax positions, and outlines the company's tax filing practices across various jurisdictions. Readers can learn about the company's tax strategies, potential liabilities, and the impact of foreign earnings on tax calculations.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w110",
+      "title": "Property, Plant and Equipment Valuation Summary",
+      "level": 1,
+      "start_page": 80,
+      "end_page": 80,
+      "summary": "This section details the composition and valuation of property, plant, and equipment (PP&E) net of accumulated depreciation for the years ending December 31, 2022, and 2021. It includes specific figures for land, buildings, equipment, and construction in progress, totaling $29.5 billion in 2022. The section also notes accumulated depreciation of approximately $14.1 billion, resulting in a net PP&E value of $15.4 billion. Additionally, it highlights the carrying value of precious metals in manufacturing equipment and capitalized interest costs associated with PP&E over the past three years.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w111",
+      "title": "Goodwill Changes and Impairment Losses Overview",
+      "level": 1,
+      "start_page": 80,
+      "end_page": 80,
+      "summary": "This section details the changes in the carrying amount of goodwill for Corning's business segments from December 31, 2020, to December 31, 2022. It includes specific figures for each segment, such as Optical Communications and Life Sciences, and notes the impact of foreign currency translation adjustments. The section also highlights the total gross goodwill balance and accumulated impairment losses, emphasizing the significant impairments in the Optical Communications segment. Readers can learn about the financial health and valuation adjustments of Corning's intangible assets over the specified period.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w112",
+      "title": "Overview of Other Assets and Liabilities",
+      "level": 1,
+      "start_page": 81,
+      "end_page": 83,
+      "summary": "This section details the composition of other assets and liabilities as of December 31 for the years 2022 and 2021. It includes current and non-current assets such as derivative instruments, tax deposits, operating leases, and investments, totaling $2,179 million in 2022. On the liabilities side, it outlines current and non-current obligations including wages, income taxes, and pension plan liabilities, amounting to $4,955 million in 2022. The section provides insights into the company's financial position and changes in asset and liability categories over the year.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w113",
+      "title": "Overview of Employee Retirement Plans and Funding Status",
+      "level": 1,
+      "start_page": 84,
+      "end_page": 89,
+      "summary": "This section details Corning's employee retirement plans, including defined benefit and postretirement plans. It outlines the company's contributions, funding status, and actuarial gains or losses associated with these plans. Key figures include planned contributions of $49 million for international pension plans in 2023 and a significant actuarial gain of $1.1 billion in 2022 due to increased bond yields. The section also discusses the investment strategy for plan assets, including target allocations for equities and bonds, and highlights the expected benefit payments for domestic and international pension plans and postretirement benefits.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w114",
+      "title": "Commitments, Contingencies, and Guarantees Overview",
+      "level": 1,
+      "start_page": 90,
+      "end_page": 90,
+      "summary": "This section discusses the Company's commitments, contingencies, and guarantees, detailing the recognition of liabilities for guarantees issued, which are primarily limited to financial guarantees like letters of credit and performance bonds. It outlines purchase commitments for raw materials and energy, with specified amounts due in various time frames. Additionally, it addresses ongoing litigation and environmental claims, including Corning's potential indemnification obligations related to Dow Corning and environmental cleanup liabilities, with accrued reserves for these liabilities as of December 31, 2022.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w115",
+      "title": "Corning's Foreign Currency Hedging Activities",
+      "level": 1,
+      "start_page": 91,
+      "end_page": 91,
+      "summary": "This section discusses Corning's hedging activities to manage foreign currency risks, particularly related to the Japanese yen, South Korean won, new Taiwan dollar, Chinese yuan, euro, and British pound. It details the use of over-the-counter derivative instruments, such as foreign exchange forward and option contracts, to mitigate the impact of exchange rate fluctuations on earnings. The section also outlines the company's designated cash flow hedges, including their notional values and expected gains, as well as the use of fair value hedges for leased precious metals. Additionally, it describes the assessment methods for hedge effectiveness and the use of undesignated hedges to offset economic currency risks.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w116",
+      "title": "Overview of Corning's Hedging Activities and Derivatives",
+      "level": 1,
+      "start_page": 91,
+      "end_page": 92,
+      "summary": "This section details Corning's hedging activities, focusing on the gross notional value of translated earnings contracts for 2022 and 2021. It provides data on average rate forward and option contracts in various foreign currencies, noting significant changes in notional values. The section also distinguishes between hedging and non-hedging derivative financial instruments, outlining their fair values and their effects on the company's balance sheet and earnings, including asset and liability positions.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w117",
+          "title": "Summary of Hedging Activities and Derivative Financial Instruments",
+          "level": 2,
+          "start_page": 92,
+          "end_page": 92,
+          "summary": "This section provides a detailed summary of Corning's hedging activities, specifically focusing on the total gross notional value of translated earnings contracts for the years ending December 31, 2022, and 2021. It includes data on average rate forward contracts and option contracts denominated in various foreign currencies, highlighting significant changes in notional values. Additionally, it outlines the fair values of derivative financial instruments, distinguishing between those designated as hedging instruments and those not. The section emphasizes the impact of these derivatives on the company's balance sheet and earnings, detailing asset and liability positions.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w118",
+      "title": "Corning's Hedging Activities and Derivative Instruments Overview",
+      "level": 1,
+      "start_page": 93,
+      "end_page": 93,
+      "summary": "This section details Corning's hedging activities and the impact of derivative financial instruments on its consolidated income statements from 2020 to 2022. It includes tables showing gains and losses in other comprehensive income (OCI) and their reclassification into income, with a focus on cash flow and fair value hedges. The section also reports accumulated derivative gains in other comprehensive loss as of December 31 for 2022 and 2021, and discusses the effects of de-designation of cash flow hedges, providing insights into the financial implications of Corning's hedging strategies.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w119",
+          "title": "Summary of Corning's Hedging Activities and Derivative Instruments",
+          "level": 3,
+          "start_page": 93,
+          "end_page": 93,
+          "summary": "This section provides a detailed summary of Corning's hedging activities, specifically focusing on the effects of derivative financial instruments on consolidated statements of income for the years 2020 to 2022. It includes tables that outline gains and losses recognized in other comprehensive income (OCI) and their reclassification into income, highlighting amounts related to cash flow and fair value hedges. The section also notes the accumulated derivative gains in other comprehensive loss as of December 31 for 2022 and 2021, and discusses the impact of de-designation of cash flow hedges. Readers can learn about the financial implications of Corning's hedging strategies and the performance of various derivative contracts over the specified years.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w120",
+      "title": "Analysis of Accumulated Other Comprehensive Loss",
+      "level": 1,
+      "start_page": 94,
+      "end_page": 96,
+      "summary": "This section analyzes changes in accumulated other comprehensive loss, focusing on components like foreign currency translation adjustments, actuarial gains and losses, and unrealized gains and losses on investments and derivatives. It provides a detailed year-by-year breakdown from December 31, 2019, to December 31, 2022, including net current-period other comprehensive income or loss for each year. The section also addresses the tax effects of these components, highlighting their impact on shareholders' equity over the specified periods.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w121",
+          "title": "Changes in Accumulated Other Comprehensive Loss",
+          "level": 2,
+          "start_page": 95,
+          "end_page": 96,
+          "summary": "This section examines the changes in accumulated other comprehensive loss, detailing components such as foreign currency translation adjustments, actuarial gains and losses, and unrealized gains and losses on investments and derivatives. It provides a year-by-year analysis from December 31, 2019, to December 31, 2022, including the net current-period other comprehensive income or loss for each year. Additionally, it discusses the tax effects associated with these components, illustrating their financial impact on shareholders' equity during the specified periods.",
+          "source": "window",
+          "children": [
+            {
+              "node_id": "w122",
+              "title": "Changes in Accumulated Other Comprehensive Loss",
+              "level": 3,
+              "start_page": 96,
+              "end_page": 96,
+              "summary": "This section details the changes in accumulated other comprehensive loss, including components such as foreign currency translation adjustments, unamortized actuarial gains and losses, net unrealized losses on investments, and realized and unrealized gains and losses on derivatives. It provides a year-by-year breakdown from December 31, 2019, to December 31, 2022, highlighting the net current-period other comprehensive income or loss for each year. The section also includes tax effects related to these components, offering insights into the financial impacts on shareholders' equity over the specified periods.",
+              "source": "window",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node_id": "w123",
+      "title": "Reclassifications from Accumulated Other Comprehensive Income",
+      "level": 1,
+      "start_page": 97,
+      "end_page": 97,
+      "summary": "This section details the reclassifications from accumulated other comprehensive income (AOCI) into the consolidated statements of income for the years 2020 to 2022. It includes specific amounts related to the amortization of net actuarial losses and prior service credits, as well as realized gains and losses on designated hedges. The net tax effects of these reclassifications are also presented, providing insights into their impact on earnings per common share. Readers can learn about the financial implications of these components on the company's overall income statement.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w124",
+      "title": "Overview of Share-Based Compensation Costs and Activity",
+      "level": 1,
+      "start_page": 98,
+      "end_page": 100,
+      "summary": "This section provides a comprehensive overview of share-based compensation costs from 2020 to 2022, detailing time-based and performance-based restricted stock units and stock options. It includes specific figures for recognized and unrecognized compensation costs, shares granted, vested, and forfeited, along with weighted-average grant-date fair values. The section also discusses the intrinsic value of stock options and the associated tax benefits, offering insights into the company's compensation structure and its financial implications over the specified years.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w125",
+          "title": "Overview of Share-Based Compensation Costs and Activity",
+          "level": 2,
+          "start_page": 99,
+          "end_page": 100,
+          "summary": "This section details the share-based compensation costs for the years ending December 31 from 2020 to 2022, including time-based and performance-based restricted stock units and stock options. It provides specific figures for recognized and unrecognized compensation costs, the number of shares granted, vested, and forfeited, as well as the weighted-average grant-date fair values. Additionally, it discusses the intrinsic value of stock options and the tax benefits realized from these compensations. Readers can learn about the company's share-based compensation structure and its financial implications over the specified years.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w126",
+      "title": "Overview of Reportable Segments and Financial Reconciliation",
+      "level": 1,
+      "start_page": 101,
+      "end_page": 106,
+      "summary": "This section provides a comprehensive overview of Corning's reportable segments, detailing financial performance, reconciliation of segment data to consolidated figures, and asset allocation from 2020 to 2022. It includes specific financial metrics such as net sales, net income, and total assets for each segment, along with geographic breakdowns of sales and assets. The section highlights the impact of currency reporting, acquisition adjustments, and trends in segment performance, offering insights into the company's operational structure and market presence.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w127",
+          "title": "Reportable Segments Financial Overview and Reconciliation",
+          "level": 2,
+          "start_page": 102,
+          "end_page": 102,
+          "summary": "This section details the exclusions from segment net income (loss) that are included in the reconciliation to consolidated net income, such as translation impacts, acquisition costs, and legal matters. It explains how Corning allocates administrative costs among segments, which differs from standalone reporting. Historical segment information is provided, including net sales, depreciation, research and development expenses, income tax provisions, net income, investment in affiliated companies, segment assets, and capital expenditures for the years 2020 to 2022. The data highlights the financial performance and resource allocation across various reportable segments.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w128",
+          "title": "Reconciliation of Reportable Segments to Consolidated Financials",
+          "level": 2,
+          "start_page": 103,
+          "end_page": 103,
+          "summary": "This section provides a detailed reconciliation of net sales and net income for reportable segments to consolidated figures for the years 2020 to 2022. It includes specific financial data such as net sales of reportable segments, the impact of constant currency reporting, and adjustments related to customer contracts. Additionally, it outlines net income figures, including losses and gains from various corporate activities, foreign currency hedges, and legal matters. The section highlights the financial performance of Hemlock and Emerging Growth Businesses, which Corning consolidated after acquiring a controlling interest in 2020.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w129",
+          "title": "Reconciliation of Reportable Segments Total Assets",
+          "level": 2,
+          "start_page": 104,
+          "end_page": 104,
+          "summary": "This section provides a detailed reconciliation of total assets for reportable segments to the consolidated total assets of the company for the years 2020 to 2022. It includes specific figures for total assets of reportable segments, Hemlock and Emerging Growth Businesses, and various unallocated amounts such as current assets, investments, property, plant and equipment, and other non-current assets. The data highlights trends in asset allocation over the three years, offering insights into the company's financial structure and segment performance.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w130",
+          "title": "Financial Overview of Reportable Segments",
+          "level": 2,
+          "start_page": 105,
+          "end_page": 105,
+          "summary": "This section provides detailed financial data for the Company's reportable segments, including Optical Communications, Display Technologies, Specialty Materials, Environmental Technologies, Life Sciences, and Hemlock and Emerging Growth Businesses for the years 2020 to 2022. It highlights revenue from external customers, showing trends in sales across different product lines. The section also notes the impact of constant currency reporting and a cumulative adjustment related to customer contracts, which affected revenue reporting. Readers can learn about the performance and growth of each segment over the specified years.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w131",
+          "title": "Geographic Breakdown of Net Sales and Assets",
+          "level": 2,
+          "start_page": 106,
+          "end_page": 106,
+          "summary": "This section provides a detailed breakdown of the Company's net sales and long-lived assets by geographic area for the years 2020, 2021, and 2022. It includes specific figures for North America, Asia Pacific, Europe, and other regions, highlighting trends in sales and asset distribution. The data indicates significant sales figures in the United States and China, as well as variations in long-lived assets across different regions. This information is crucial for understanding the Company's operational performance and geographic market presence.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w132",
+      "title": "Definitions of the Supplemental Investment Plan",
+      "level": 1,
+      "start_page": 107,
+      "end_page": 108,
+      "summary": "This section defines key terms related to the Corning Incorporated Supplemental Investment Plan, effective January 1, 2023. It includes definitions for 'Board', 'Change in Control', 'Code', 'Committee', 'Company', 'Compensation', 'Effective Date', 'Eligible Employee', 'ERISA', 'Investment Plan', 'Participating Company', 'Pension Plan', and 'Plan Year'. These definitions establish the framework for understanding the Plan's provisions and eligibility criteria for employees. The section is crucial for clarifying the terms that govern the Plan's operation and the rights of participants.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w133",
+      "title": "Purpose and Intent of the Deferred Compensation Plan",
+      "level": 1,
+      "start_page": 109,
+      "end_page": 109,
+      "summary": "ARTICLE TWO outlines the purpose and intent of the Plan, which is designed to attract and retain a motivated executive workforce by allowing Eligible Employees to defer additional Compensation and receive extra contributions from the Company beyond the Investment Plan limits. It specifies that the Plan is an unfunded deferred compensation plan for a select group of management or highly-compensated employees, compliant with ERISA Title I and Section 409A. The terms of this Plan take precedence over any conflicting plans or documents.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w134",
+      "title": "Eligibility and Participation in the Plan",
+      "level": 1,
+      "start_page": 109,
+      "end_page": 109,
+      "summary": "This section outlines the eligibility criteria for employees to participate in the Plan, specifying that only those on the Company payroll and designated as part of a select group of management or highly-compensated employees are eligible. It details that eligibility must be re-evaluated each Plan Year and that participation begins based on the employee's election, contingent upon their contributions to the Investment Plan. Additionally, it notes that base salary deferrals into the Plan are only allowed after certain contribution limits are exceeded or reached under relevant Code sections.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w135",
+      "title": "Employee Contributions and Company Allocations",
+      "level": 1,
+      "start_page": 110,
+      "end_page": 112,
+      "summary": "ARTICLE FOUR outlines the rules for employee contributions to the Plan, detailing how eligible employees can defer their compensation, including base salary and bonuses, with specific limits and conditions. It specifies matching allocations from the company based on employee contributions, with different rates for employees based on their years of service and pension plan benefits. The section also describes the process for making deferral elections, including the irrevocability of initial elections and the requirement for separate elections for base salary and bonuses. Additionally, it notes the suspension of company allocations for a specific period due to external factors.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w136",
+      "title": "Investment Options and Account Management for Employees",
+      "level": 1,
+      "start_page": 113,
+      "end_page": 114,
+      "summary": "This section outlines the investment options available for Eligible Employee accounts under the Plan, including hypothetical accounts, actual funds, and the role of a Trustee. It specifies that the Committee can establish independent investment rules, particularly regarding the Company Stock Fund, which is frozen for new deferrals as of July 1, 2009. Additionally, it discusses the transfer of deferred compensation from other plans, limitations on the assignment of benefits, and the unfunded nature of the Plan, indicating that benefits are paid from the general assets of the Participating Company without specific asset allocation. The section emphasizes the unsecured nature of claims against the Company's assets for benefits under the Plan.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w137",
+      "title": "Employee Benefits and Payment Procedures",
+      "level": 1,
+      "start_page": 115,
+      "end_page": 116,
+      "summary": "This section outlines the benefits related to employee contributions and company allocations, detailing vesting rules and payment timing for retirement, death, and other terminations. Eligible Employees' contributions are always 100% vested, while company matching contributions vest according to specific terms. It specifies payment options for retirement benefits, including lump sums or installments, and outlines procedures for death benefits and beneficiary designations. Additionally, it addresses in-service withdrawals for unforeseen financial emergencies, defining eligibility and limits for such distributions.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w138",
+      "title": "Administration and Claims Procedures of the Plan",
+      "level": 1,
+      "start_page": 117,
+      "end_page": 118,
+      "summary": "ARTICLE SEVEN outlines the administration and procedures of the Plan, detailing the Committee's role as the administrator responsible for managing employee accounts, including contributions and withdrawals. It specifies that the Committee has final authority on eligibility and benefit determinations, and members are indemnified against personal liability. The section also establishes claims procedures for Eligible Employees to assert claims for benefits, including timelines for decisions and appeals. Additionally, it emphasizes consistency with the Investment Plan for any administrative questions not directly addressed.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w139",
+      "title": "Amendment and Termination of the Plan",
+      "level": 1,
+      "start_page": 119,
+      "end_page": 119,
+      "summary": "This section outlines the Company's authority to amend or terminate the Plan at any time, with the stipulation that such actions must comply with Section 409A regulations. It also establishes the Company's obligation to pay accrued benefits to Eligible Employees, provided it is financially capable. Additionally, it clarifies that the Plan does not constitute an employment contract and details the non-transferability of rights under the Plan, except in cases of domestic relations orders.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w140",
+      "title": "Miscellaneous Provisions of the Plan",
+      "level": 1,
+      "start_page": 119,
+      "end_page": 121,
+      "summary": "This section outlines various miscellaneous provisions related to the Plan. It clarifies that the Plan does not constitute an employment contract and that benefits are non-transferable except under specific legal circumstances, such as domestic relations orders. It also specifies that the Plan will be governed by New York law and must comply with Section 409A regulations. Additionally, it states that benefits are subject to applicable taxes and that the Plan is binding on the Company's successors. The effective dates of the original and amended Plan are also provided.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w141",
+      "title": "Definitions for Executive Supplemental Pension Plan",
+      "level": 1,
+      "start_page": 122,
+      "end_page": 122,
+      "summary": "This section defines key terms relevant to the Corning Incorporated Executive Supplemental Pension Plan. It specifies the meaning of 'Board' as the Board of Directors of Corning Incorporated. It outlines the definition of 'Change in Control,' detailing various scenarios that qualify, such as significant stock purchases or changes in board membership. Additionally, it references the 'Code,' indicating the Internal Revenue Code of 1986 as a governing framework. These definitions are crucial for understanding the terms and conditions of the pension plan.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w142",
+      "title": "Purpose and Intent of Executive Pension Plan",
+      "level": 1,
+      "start_page": 123,
+      "end_page": 123,
+      "summary": "This section outlines the purpose and intent of the Corning Incorporated Executive Supplemental Pension Plan, which aims to attract and retain a highly-motivated executive workforce by offering retirement benefits that exceed those of the Qualified Plan. It specifies that the Plan is designed as an unfunded deferred compensation plan for a select group of management or highly-compensated employees, in accordance with Title I of ERISA. Additionally, it emphasizes compliance with Section 409A and states that the terms of this Plan will take precedence over any conflicting plans or documents.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w143",
+      "title": "Eligibility Criteria for Employee Participation in the Plan",
+      "level": 1,
+      "start_page": 124,
+      "end_page": 125,
+      "summary": "This section outlines the criteria for employee eligibility to participate in the Plan, as determined by the Committee. It specifies conditions under which an otherwise eligible employee may be deemed ineligible, including termination for cause, noncompliance with agreements, solicitation of other employees, working for competitors, and legal actions against the Company. Additionally, it clarifies that eligible employees cannot receive benefits under the Corning Incorporated Supplemental Pension Plan. The section emphasizes the Committee's discretion in making eligibility determinations and the consequences of noncompliance.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w144",
+      "title": "Employee Benefits Overview and Payment Structures",
+      "level": 1,
+      "start_page": 126,
+      "end_page": 132,
+      "summary": "ARTICLE FOUR covers employee benefits under the Plan, detailing the commencement and payment structures for various benefits, including Frozen Cash Balance SPP Benefits and death benefits for surviving spouses. It outlines the payment options, including annuities and lump sums, and specifies conditions for benefit access, particularly in the event of a Change in Control. The section also addresses unfunded benefits and the implications of a Change in Control on employee vesting and payment structures.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w145",
+          "title": "Commencement and Payment of Employee Benefits",
+          "level": 2,
+          "start_page": 129,
+          "end_page": 129,
+          "summary": "This section outlines the commencement of benefits under the Plan, specifying that nonforfeited benefits will begin within 60 days after an employee's separation from service or upon reaching age 55. It details that specified employees must wait six months post-separation for benefit payments, which will be held in suspense during this period. The default payment form is a life annuity for unmarried employees and a joint and survivor annuity for married employees, with options for different annuity forms. Special rules apply for employees with prior benefits under the Corning Incorporated Supplemental Pension Plan, including lump sum payments and offsets against annuities.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w146",
+          "title": "Payment Structure for Frozen Cash Balance Benefits",
+          "level": 2,
+          "start_page": 130,
+          "end_page": 130,
+          "summary": "This section outlines the payment structure for the Frozen Cash Balance SPP Benefit, detailing how interest is credited and how benefits are calculated. It specifies that interest is based on ten-year Treasury Bond yields and describes the conversion of the Frozen Cash Balance into an actuarial equivalent single life annuity. Additionally, it states that benefits under certain conditions may be paid as a lump sum if they are below $20,000. The section also mentions specific actuarial assumptions and the provision of an annuity for a designated employee from MetLife after separation from service.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w147",
+          "title": "Overview of Death Benefits for Surviving Spouses",
+          "level": 2,
+          "start_page": 131,
+          "end_page": 131,
+          "summary": "This section outlines the death benefits available to the surviving spouse of an eligible Employee who dies while employed or after becoming entitled to a vested benefit. If the Employee dies after age 55, the spouse receives 100% of the benefit they would have received at death; if before age 55, the spouse receives 50% of the benefit at the Employee's Normal Retirement Date. Benefits commence within 60 days of the Employee's death, with potential reductions if the spouse is more than five years younger. Additionally, if the Employee has a Frozen Cash Balance SPP Benefit, it is paid as a lump sum to the beneficiary, affecting other death benefits accordingly.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w148",
+          "title": "Overview of Unfunded Benefits and Change in Control Provisions",
+          "level": 2,
+          "start_page": 132,
+          "end_page": 132,
+          "summary": "The Unfunded Plan section outlines that benefits for eligible employees will be paid from the general assets of the Participating Company, without setting aside specific funds initially. It allows the Company to optionally establish a trust for benefit obligations, but employees have no property rights to such assets. The section also details the implications of a Change in Control, including immediate vesting of benefits and lump sum payments for eligible employees who separate from service within a specified timeframe. It emphasizes that benefits are unsecured claims against the company's assets.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w149",
+          "title": "Change in Control Benefits for Employees",
+          "level": 2,
+          "start_page": 132,
+          "end_page": 132,
+          "summary": "This section outlines the provisions related to a Change in Control for eligible Employees under the Plan. In the event of such a change, Employees become fully vested in their benefits, calculated based on specific formulas outlined in the document. It specifies that if an Employee experiences a separation from service within 12 months of the Change in Control, they will receive their vested benefits as a lump sum payment. Additionally, it details the conditions under which Employees under 55 can access their benefits early, ensuring they receive a present value equivalent to what they would have received at age 55.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w150",
+      "title": "Administration of Claims and Benefits Procedures",
+      "level": 1,
+      "start_page": 133,
+      "end_page": 135,
+      "summary": "The Administration section details the Committee's authority in managing the Plan, including eligibility determinations and claims procedures. It outlines the appeal process for denied claims, emphasizing the need for claimants to exhaust all procedures before pursuing legal action. Additionally, it covers the non-transferability of benefits, conditions for Domestic Relations Orders, and the Board's role in validating such orders. The section ensures that claimants are informed of their rights and the processes involved in claims and appeals.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w151",
+          "title": "Committee Authority and Claims Procedures",
+          "level": 2,
+          "start_page": 133,
+          "end_page": 133,
+          "summary": "This section outlines the Committee's authority and responsibilities in administering the Plan, including determining eligibility for participation and benefits. It specifies that the Committee's decisions are final and that members are indemnified against personal liability. Additionally, it details the claims procedures for employees or their beneficiaries to assert claims for benefits, including timelines for notification and the process for appealing denied claims. Claimants are informed of their rights to access relevant documents and submit additional information during the appeals process.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w152",
+          "title": "Appeal Process and Plan Amendment Rights",
+          "level": 2,
+          "start_page": 134,
+          "end_page": 134,
+          "summary": "This section outlines the process for appealing a claim decision, stating that the Committee will generally decide appeals within 60 days, with a maximum extension of 120 days if special circumstances arise. Claimants will receive written notice detailing the reasons for any adverse decisions and their rights to access relevant documents. It emphasizes that claimants must exhaust all claims procedures before initiating legal action, which must be filed within a specified timeframe. Additionally, it discusses the Company's right to amend or terminate the Plan while ensuring accrued benefits are honored.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w153",
+          "title": "Committee Appeal Decision Procedures and Legal Rights",
+          "level": 2,
+          "start_page": 134,
+          "end_page": 134,
+          "summary": "This section outlines the Committee's procedures for deciding a claimant's appeal, stating that decisions are generally made within 60 days, with a maximum extension to 120 days if necessary. Claimants will receive written notice detailing the reasons for any adverse decisions and their rights to access relevant documents. It also specifies that claimants must exhaust all claims procedures before initiating legal action regarding denied claims, which must be filed within a year of the Committee's decision. Additionally, it discusses the Board's authority to amend or terminate the Plan while ensuring accrued benefits are honored.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w154",
+          "title": "Claims Appeal Procedures and Requirements",
+          "level": 2,
+          "start_page": 134,
+          "end_page": 134,
+          "summary": "This section outlines the claims procedures for appealing a denied claim, specifying that the Committee will generally decide appeals within 60 days, with a maximum extension of 120 days if necessary. Claimants will receive written notice detailing the reasons for any adverse decisions and their rights to access relevant documents. It also states that claimants must exhaust these procedures before initiating any legal action, which must be filed within a year of the Committee's decision or within the statute of limitations. This ensures that claimants are informed of their rights and the process for appealing decisions.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w155",
+          "title": "Non-Transferability and Domestic Relations Orders in Benefits",
+          "level": 2,
+          "start_page": 135,
+          "end_page": 135,
+          "summary": "This section outlines the non-transferability of employee rights under the Plan, stating that benefits cannot be transferred except by will or legal descent. It details the conditions under which benefits may be allocated to another person through a Domestic Relations Order, including requirements related to child support and alimony. The section also specifies that the Board will determine the validity of such orders and that all benefits are subject to applicable taxes.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w156",
+          "title": "Non-Transferability of Employee Benefits and Domestic Relations Orders",
+          "level": 2,
+          "start_page": 135,
+          "end_page": 135,
+          "summary": "This section outlines the non-transferability of employee rights under the Plan, stating that benefits cannot be transferred except by will or legal descent. It specifies that benefits are only exercisable by the employee or their legal representative during their lifetime. Additionally, it details the conditions under which benefits may be allocated to another person through a Domestic Relations Order, including requirements related to child support, alimony, and marital property rights. The section also notes that the Board will determine the validity of such orders based on relevant laws and regulations.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w157",
+          "title": "Domestic Relations Orders and Employee Benefits Allocation",
+          "level": 2,
+          "start_page": 135,
+          "end_page": 135,
+          "summary": "This section outlines the conditions under which an Employee's benefits under the Plan can be allocated to another individual through a Domestic Relations Order (DRO). A DRO is defined as a legal judgment or order related to child support, alimony, or marital property rights, which recognizes the rights of an Alternate Payee, such as a spouse or child, to receive benefits. The section specifies the requirements for a DRO, including compliance with state laws and maintaining the value of benefits without accelerating payments. The Board or its delegate is responsible for determining if a document qualifies as a DRO, considering relevant legal standards.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w158",
+      "title": "Indemnification, Compliance, and Governance of the Plan",
+      "level": 1,
+      "start_page": 136,
+      "end_page": 137,
+      "summary": "This section details the indemnification provisions for eligible Employees under the Plan, specifying conditions for legal cost coverage and compliance with Section 409A. It emphasizes the binding nature of the Plan on the Company's successors, ensuring continuity of obligations. Additionally, it outlines the effective dates of the Plan, compliance details, and the governing law, specifically the laws of the State of New York. The section also clarifies that indemnification is not available for Employees who terminate for cause or breach noncompete provisions.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w159",
+          "title": "Indemnification and Compliance with Section 409A",
+          "level": 2,
+          "start_page": 136,
+          "end_page": 136,
+          "summary": "This section outlines the indemnification provisions for eligible Employees under the Plan, detailing the circumstances under which the Company will cover legal costs and expenses incurred by Employees in civil or criminal actions related to the Plan. It specifies that indemnification is contingent upon the absence of a final adverse judgment against the Employee and includes reimbursement timelines and documentation requirements. Additionally, it clarifies that indemnification does not apply to Employees who terminate participation for cause. The section also addresses the binding nature of the Plan on the Company's successors and the compliance with Section 409A, ensuring that the Plan is administered in accordance with legal requirements.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w160",
+          "title": "Indemnification Provisions for Employees",
+          "level": 2,
+          "start_page": 136,
+          "end_page": 136,
+          "summary": "This section outlines the indemnification provisions for eligible Employees under the Plan, stating that the Company will indemnify them against costs incurred from civil or criminal actions related to the Plan, provided there is no adverse final judgment against them. It specifies that indemnification includes coverage for legal fees and expenses, which the Company must pay promptly unless a final adjudication determines otherwise. Additionally, it details the requirements for reimbursement of expenses, including the need for supporting documentation. Importantly, indemnification is not available for individuals who terminate participation for cause or breach noncompete provisions.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w161",
+          "title": "Binding Nature of Plan on Successors",
+          "level": 2,
+          "start_page": 136,
+          "end_page": 136,
+          "summary": "This section outlines that the Plan is binding on the Company's successors and assigns, ensuring continuity of obligations under the Plan. It emphasizes that any successor entity will inherit the responsibilities and commitments made by the Company regarding the Plan. This provision is crucial for maintaining the rights of eligible Employees in the event of corporate changes such as mergers or acquisitions.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w162",
+          "title": "Governance and Compliance with Section 409A",
+          "level": 2,
+          "start_page": 136,
+          "end_page": 136,
+          "summary": "This section outlines the governance of the Plan under Section 409A, emphasizing compliance with its requirements. It states that any conflicting provisions will be amended to align with Section 409A's intent. The Committee is granted the authority to take necessary actions to ensure compliance and may utilize transition rules as needed. Additionally, it specifies that amendments made in 2007 regarding payment timing and form apply only to amounts not payable in that year.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w163",
+          "title": "Effective Dates of the Plan and Compliance Details",
+          "level": 2,
+          "start_page": 137,
+          "end_page": 137,
+          "summary": "This section outlines the effective dates of the Plan, specifying that the original date was January 1, 1986, and the effective date of the second restated plan is January 1, 2023. It clarifies that the terms apply to eligible employees retiring on or after December 6, 2006, and notes compliance with Section 409A effective from January 1, 2005. Additionally, it mentions that for specified employees, only benefits earned after December 31, 2004, are subject to a six-month delay. The section concludes with a statement of execution by a company officer.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w164",
+          "title": "Governing Law and Effective Dates of the Plan",
+          "level": 2,
+          "start_page": 137,
+          "end_page": 137,
+          "summary": "This section specifies that the Plan will be interpreted and enforced according to the laws of the State of New York. It establishes the legal framework governing the Plan's provisions and ensures compliance with state law. Additionally, it outlines the effective dates of the Plan and its restated version, indicating the applicability to eligible employees and specific compliance requirements related to Section 409A.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w165",
+      "title": "List of Key Individuals",
+      "level": 1,
+      "start_page": 138,
+      "end_page": 138,
+      "summary": "Exhibit A lists the names of individuals associated with a specific context, likely related to a legal or business matter. The individuals mentioned include Larry Aiello, Jr., R. Pierce Baker, III, Robert B. Brown, William D. Eggers, James B. Flaws, Kurt R. Fischer, and David L. Morse. This section serves to identify key stakeholders or participants relevant to the document's subject matter.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w166",
+      "title": "Information on James B. Flaws",
+      "level": 1,
+      "start_page": 139,
+      "end_page": 139,
+      "summary": "Exhibit B features information related to James B. Flaws, likely detailing his role, contributions, or relevant background in the context of the document. The section may provide insights into his professional qualifications or significance to the overall subject matter. Specific details about his involvement or impact may be included, although the text does not elaborate further on these aspects.",
+      "source": "window",
+      "children": []
+    },
+    {
+      "node_id": "w167",
+      "title": "Corning Supplemental Pension Plan Overview",
+      "level": 1,
+      "start_page": 140,
+      "end_page": 148,
+      "summary": "The Corning Incorporated Supplemental Pension Plan outlines key definitions, eligibility criteria, and benefit calculations for eligible employees. It aims to attract executives by providing retirement benefits exceeding those of the Qualified Plan. The section details commencement rules, payment options, and provisions for death benefits and Change in Control scenarios. Enhanced benefits are specified for employees involved in the Avanex Corporation deal, including immediate benefits under certain conditions. The plan emphasizes compliance with ERISA and Section 409A while clarifying the unfunded nature of benefits.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w168",
+          "title": "Key Definitions for Supplemental Pension Plan",
+          "level": 2,
+          "start_page": 140,
+          "end_page": 140,
+          "summary": "This section provides definitions relevant to the Corning Incorporated Supplemental Pension Plan, effective January 1, 2023. It defines key terms such as 'Board' referring to the Board of Directors and 'Change in Control,' which outlines specific events that signify a change in ownership or control of the corporation. The definition of 'Change in Control' includes scenarios like tender offers, significant ownership changes, contested elections for the Board, and mergers. Understanding these definitions is crucial for eligible employees regarding their benefits under the plan.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w169",
+          "title": "Purpose of Corning Supplemental Pension Plan",
+          "level": 2,
+          "start_page": 141,
+          "end_page": 141,
+          "summary": "The section outlines the purpose of the Corning Incorporated Supplemental Pension Plan, which aims to attract and retain a highly-motivated executive workforce by offering retirement benefits that exceed those of the Qualified Plan. It specifies that the Plan is designed as an unfunded deferred compensation plan for a select group of management or highly-compensated employees, in compliance with Title I of ERISA and Section 409A. Additionally, it states that this Plan's terms will take precedence over any conflicting plans or documents.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w170",
+          "title": "Eligibility Criteria for Qualified Plan Participation",
+          "level": 2,
+          "start_page": 142,
+          "end_page": 143,
+          "summary": "This section outlines the eligibility criteria for employees to participate in the Qualified Plan and the conditions under which they may forfeit their benefits. It specifies that employees whose benefits are limited by certain IRS Code sections and those designated by the Committee are eligible. However, employees terminated for cause or who leave before becoming fully vested lose their rights to benefits. Additionally, employees eligible for the Executive Supplemental Pension Plan cannot receive benefits from the Corning Incorporated Supplemental Pension Plan, as their benefits will be determined solely under the Executive Plan.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w171",
+          "title": "Overview of Benefit Calculations and Adjustments",
+          "level": 2,
+          "start_page": 144,
+          "end_page": 144,
+          "summary": "This section outlines the benefits structure under the Plan, detailing how minimum benefits may be calculated either as a dollar amount or a percentage of pay, offset by amounts from the Qualified Plan. It specifies that certain contributions and interest allocations will not be considered in determining benefits, ensuring that the calculation aligns with the Qualified Plan's rules. Additionally, it allows the Committee discretion to adjust an Employee's compensation or service factors for benefit calculations, with adjustments documented in writing. The section emphasizes the importance of maintaining consistency with the Qualified Plan while allowing for specific modifications.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w172",
+          "title": "Commencement Rules for Employee Benefits",
+          "level": 2,
+          "start_page": 145,
+          "end_page": 145,
+          "summary": "This section outlines the commencement of benefits under the Plan, specifying that nonforfeited benefits from the supplemental Part I career average formula begin within 60 days after an employee's separation from service or upon reaching age 55. It details the timing for the supplemental Part II cash balance benefit, which also starts within 60 days of separation. Additionally, it addresses the treatment of medically-related leaves of absence and the special rules for 'specified employees' regarding the delay of benefit payments. The section emphasizes the importance of Section 409A compliance in determining the timing of benefit commencement.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w173",
+          "title": "Payment Commencement and Options for Benefits",
+          "level": 2,
+          "start_page": 145,
+          "end_page": 145,
+          "summary": "This section outlines the commencement of benefits and the forms of payment available under the Plan. It specifies that nonforfeited benefits must begin within 60 days after an employee's separation from service or upon reaching age 55. The default payment form is a life annuity for unmarried participants and a joint and 75 percent survivor annuity for married participants, with options for other annuity forms available upon election. Additionally, it details the treatment of specified employees regarding payment commencement and the actuarial equivalence of annuity options.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w174",
+          "title": "Commencement of Benefits Under the Plan",
+          "level": 2,
+          "start_page": 145,
+          "end_page": 145,
+          "summary": "This section outlines the commencement of benefits under the Plan, specifying that nonforfeited benefits from the supplemental Part I career average formula begin within 60 days after an employee's separation from service or upon reaching age 55. It details the timing for the supplemental Part II cash balance benefit, which also starts within 60 days of separation. Additionally, it addresses the definition of 'separation from service' in cases of medical leave and the special rules for 'specified employees' regarding a six-month delay in benefit payments. The section ensures clarity on when and how benefits are initiated, particularly for employees with specific circumstances.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w175",
+          "title": "Payment Options for Plan Benefits",
+          "level": 2,
+          "start_page": 145,
+          "end_page": 145,
+          "summary": "This section outlines the forms of payment available for benefits under the Plan. For unmarried participants, the default payment is a life annuity, while married participants receive a joint and 75 percent survivor annuity. Employees can elect alternative forms of payment, such as a single life annuity or various joint and survivor annuities, prior to benefit commencement. The actual benefit amount is calculated based on the straight life annuity and adjusted using specified actuarial assumptions. Additionally, specific provisions apply for employees who terminate employment after age 55 and have more than five years of vesting service.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w176",
+          "title": "Death Benefits for Surviving Spouses",
+          "level": 2,
+          "start_page": 146,
+          "end_page": 146,
+          "summary": "This section outlines the rules governing death benefits related to an Employee's supplemental Part I career average benefit. It specifies that if an eligible Employee dies while employed, before age 55, and after becoming entitled to a vested benefit, their Surviving Spouse is entitled to a lifetime annuity. The annuity amount is set at 50% of the Employee's benefit at Normal Retirement Age, with potential reductions based on the age difference between the Surviving Spouse and the deceased Employee. Additionally, it details the payment form and actuarial assumptions for calculating benefits.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w177",
+          "title": "Unfunded Benefits and Payment Structure",
+          "level": 2,
+          "start_page": 147,
+          "end_page": 147,
+          "summary": "This section outlines the funding structure of the benefits payable to eligible Employees under the Plan, stating that payments will be made from the general assets of the Participating Company without specific funding set aside. It clarifies that while the Company may choose to establish a trust for benefit obligations, no Employee will have property rights in such a trust or any assets held by the Company. The benefits are classified as unsecured claims against the Company's general assets, emphasizing the lack of guaranteed funding for these benefits.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w178",
+          "title": "Change in Control Benefits for Employees",
+          "level": 2,
+          "start_page": 148,
+          "end_page": 148,
+          "summary": "This section outlines the provisions related to a Change in Control for eligible Employees under the Plan. It specifies that such Employees will become fully vested in their benefits and receive a lump sum payment if they have a separation from service within 12 months of the Change in Control. Additionally, it details the benefits for Employees under 55 years old at the time of separation, including a calculation based on future benefits. The section also introduces enhanced benefits for specific 'Avanex Deal' Employees, detailing eligibility criteria and conditions for receiving benefits upon separation or reemployment.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w179",
+          "title": "Enhanced Benefits for Avanex Deal Employees",
+          "level": 2,
+          "start_page": 148,
+          "end_page": 148,
+          "summary": "This section outlines the enhanced benefits available to eligible employees designated as 'Transferred Corning Employees' under the Avanex Corporation deal. To qualify, individuals must meet specific criteria, including age and years of service requirements. Eligible participants can receive immediate benefits upon separation from service, even if they have not reached age 55, with benefits calculated as if they had reached that age but adjusted to an Actuarial Equivalent amount. Additionally, it details the implications of reemployment with the Company on the enhanced benefits, specifying conditions under which benefits may be forfeited or preserved.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w180",
+      "title": "Administration of Employee Benefits Plan",
+      "level": 1,
+      "start_page": 149,
+      "end_page": 150,
+      "summary": "ARTICLE FIVE covers the administration of the Plan, detailing beneficiary designations, Committee responsibilities, and claims procedures for employees. It specifies that employees can designate beneficiaries without spousal consent, with defaults to the Surviving Spouse or estate. The Committee's role includes benefit determination, record maintenance, and final decision authority on eligibility. Claims procedures are outlined, requiring written submissions, timelines for decisions, and appeal processes for denied claims, ensuring transparency and structured claims handling.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w181",
+          "title": "Beneficiary Designations and Default Rules",
+          "level": 2,
+          "start_page": 149,
+          "end_page": 149,
+          "summary": "This section outlines the rules for beneficiary designations under the Plan. Employees have the right to designate a beneficiary according to the Committee's prescribed rules, and spousal consent requirements from the Qualified Plan do not apply. If an Employee fails to designate a beneficiary, the benefit will default to the Surviving Spouse or, if none exists, to the Employee's estate. This ensures clarity in the distribution of benefits upon the Employee's death.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w182",
+          "title": "Committee Responsibilities in Plan Administration",
+          "level": 2,
+          "start_page": 149,
+          "end_page": 149,
+          "summary": "This section outlines the role of the Committee as the administrator of the Plan, detailing its responsibilities in determining and disbursing benefits to Employees. The Committee is tasked with informing Employees about their benefit elections and maintaining necessary records for effective Plan administration. It emphasizes that the Committee's interpretations and decisions regarding eligibility and benefits are final and conclusive, and it also highlights the indemnification of Committee members against financial liabilities incurred in their administrative roles.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w183",
+          "title": "Claims Procedures for Employee Benefits",
+          "level": 2,
+          "start_page": 150,
+          "end_page": 150,
+          "summary": "This section outlines the claims procedures for employees seeking benefits under the Plan. It details the process for submitting claims, including the requirement for written submissions and the timeline for decisions, which is generally 90 days but can be extended. If a claim is denied, the Committee must provide a written explanation, references to relevant Plan provisions, and information on how to appeal the decision. Claimants have 60 days to appeal and can submit additional information. The Committee aims to resolve appeals within 60 days, with provisions for extensions if necessary.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w184",
+          "title": "Claims Procedures for Employee Benefits",
+          "level": 2,
+          "start_page": 150,
+          "end_page": 150,
+          "summary": "This section outlines the procedures for employees or their beneficiaries to claim benefits under the Plan. It details the process for submitting claims, including the timeline for decisions and potential extensions. If a claim is denied, the Committee must provide a written explanation and information on how to appeal the decision. The appeal process is also described, including deadlines and the claimant's rights to access relevant documents. Overall, this section ensures transparency and provides a structured approach for claims and appeals.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w185",
+          "title": "Claims Procedures for Employee Benefits",
+          "level": 2,
+          "start_page": 150,
+          "end_page": 150,
+          "summary": "This section outlines the procedures for employees or their beneficiaries to claim benefits under the Plan. Claims must be submitted in writing to the Committee, which will notify the claimant of its decision within 90 days, with a possible extension of an additional 90 days if necessary. If a claim is denied, the Committee must provide a written explanation, including references to relevant Plan provisions and details on the appeals process. Claimants have 60 days to appeal a denial, can submit additional information, and will receive a decision on the appeal within 60 days, with a potential extension of up to 120 days if required.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w186",
+      "title": "Amendment and Termination Procedures for Claims",
+      "level": 1,
+      "start_page": 151,
+      "end_page": 151,
+      "summary": "This section details the procedures claimants must follow before pursuing legal action regarding benefit claims, including the requirement to exhaust all claims procedures and the applicable time limits for such actions. It also outlines the Company's rights to amend or terminate the Plan, ensuring that accrued benefits are honored if the Company is financially capable. Additionally, it specifies the delegation of authority for making technical amendments to a Vice President.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w187",
+          "title": "Claim Procedures and Plan Amendment Rights",
+          "level": 2,
+          "start_page": 151,
+          "end_page": 151,
+          "summary": "This section outlines the procedures a claimant must follow before initiating legal action regarding benefit claims, emphasizing the requirement to exhaust all claims procedures first. It specifies the time limits for bringing such actions, which are either dictated by the statute of limitations or one year from the Committee's appeal decision. Additionally, it discusses the Company's right to amend or terminate the Plan while ensuring that accrued benefits prior to any changes are honored, provided the Company is financially capable. The section also mentions the delegation of authority for technical amendments to a Vice President.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    },
+    {
+      "node_id": "w188",
+      "title": "Miscellaneous Provisions of the Plan",
+      "level": 1,
+      "start_page": 152,
+      "end_page": 159,
+      "summary": "ARTICLE SEVEN Miscellaneous covers various aspects of the Plan, including the clarification that it does not create an employment contract, the non-transferability of benefits except under Domestic Relations Orders, and the conditions for allocating benefits through such orders. It specifies that the Plan is governed by New York law and must comply with Section 409A, detailing the tax implications for benefits and the binding nature of the Plan on successors. Additionally, it outlines the effective dates of the Plan, providing historical context and formal adoption details.",
+      "source": "window",
+      "children": [
+        {
+          "node_id": "w189",
+          "title": "Clarification of Employment Relationship Status",
+          "level": 2,
+          "start_page": 152,
+          "end_page": 152,
+          "summary": "This section clarifies that the document does not establish an employment contract between the parties. It emphasizes that the terms outlined do not create any legal obligations or rights typically associated with an employment relationship. Readers can learn about the implications of this lack of a contract, including the absence of guarantees regarding employment duration or benefits. Additionally, it may address the legal context in which these terms operate, ensuring clarity on the nature of the relationship between the employee and the organization.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w190",
+          "title": "Non-Transferability of Benefits and Domestic Relations Orders",
+          "level": 2,
+          "start_page": 152,
+          "end_page": 152,
+          "summary": "This section outlines the non-transferability of benefits under the Plan, specifying that benefits cannot be assigned or transferred except under a Domestic Relations Order. It defines a Domestic Relations Order as a legal document related to child support, alimony, or marital property rights, which must meet specific criteria set by the Board. The Board has the authority to determine the validity of such orders based on applicable laws and regulations. This ensures that benefits are protected from unauthorized claims while allowing for legal obligations to be met in domestic situations.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w191",
+          "title": "Domestic Relations Orders and Employee Benefits Allocation",
+          "level": 2,
+          "start_page": 152,
+          "end_page": 152,
+          "summary": "This section outlines the conditions under which an Employee's benefits can be allocated to another individual through a Domestic Relations Order (DRO). A DRO must be issued under state law and relate to child support, alimony, or marital property rights. It establishes the rights of an Alternate Payee, such as a spouse or child, to receive benefits without accelerating payment. The Board is responsible for determining the validity of a DRO based on specific legal criteria and guidelines.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w192",
+          "title": "Governing Law of the Plan",
+          "level": 2,
+          "start_page": 152,
+          "end_page": 152,
+          "summary": "This section specifies that the Plan will be interpreted and enforced according to the laws of the State of New York. It establishes the legal framework within which the Plan operates, ensuring compliance with state law. Readers can learn about the jurisdictional authority governing the Plan and its implications for enforcement and interpretation.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w193",
+          "title": "Governance and Compliance with Section 409A",
+          "level": 2,
+          "start_page": 152,
+          "end_page": 152,
+          "summary": "Section 7.5 outlines the governance of the Plan under Section 409A, emphasizing compliance with its requirements. It states that any conflicting provisions will be amended to align with Section 409A's intent. The Committee is granted the authority to take necessary actions to ensure compliance and may utilize transition rules as needed. Additionally, it specifies that amendments made in 2007 regarding payment timing and form apply only to amounts not payable in that year.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w194",
+          "title": "Taxation of Plan Benefits",
+          "level": 2,
+          "start_page": 152,
+          "end_page": 152,
+          "summary": "This section outlines the taxation implications for benefits payable under the Plan, stating that they are subject to all applicable federal, state, and local income and employment taxes. Readers can learn about the tax obligations associated with receiving benefits from the Plan, ensuring they understand the financial responsibilities that come with these benefits.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w195",
+          "title": "Binding Nature of Plan on Successors",
+          "level": 2,
+          "start_page": 152,
+          "end_page": 152,
+          "summary": "This section states that the Plan is binding on the successors and assigns of the Company, ensuring that any future entities that take over the Company will adhere to the terms of the Plan. It emphasizes the continuity of obligations and rights under the Plan, regardless of changes in company ownership or structure. Readers can learn about the implications of corporate succession on employee benefits and the legal enforceability of the Plan in such scenarios.",
+          "source": "window",
+          "children": []
+        },
+        {
+          "node_id": "w196",
+          "title": "Effective Dates of the Plan Document",
+          "level": 2,
+          "start_page": 153,
+          "end_page": 159,
+          "summary": "This section outlines the effective dates of the plan, stating that the original effective date was January 1, 1994, and the effective date of the second restated plan document is January 1, 2023. It also includes the signature of John P. MacMahon, the Senior Vice President of Global Compensation and Benefits, confirming the execution of the plan document on December 8, 2022. Readers can learn about the historical context and the formal adoption of the updated plan.",
+          "source": "window",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "node_id": "root",
+  "title": "CVSHEALTH_2018_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 392,
+  "summary": "This section of CVS Health Corporation's Form 10-K for the fiscal year ending December 31, 2018, provides a comprehensive overview of the company's business operations, risk factors, financial data, and governance structure. It details the acquisition of Aetna, the company's retail and pharmacy services, and outlines various risk factors impacting financial performance. The section includes financial statements, management's discussion, executive compensation, and information on stock ownership and related transactions. Additionally, it confirms compliance with regulatory requirements and highlights the effectiveness of internal controls and procedures.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "CVS Health Corporation Form 10-K Front Matter",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 2,
+      "summary": "This section contains the front matter of CVS Health Corporation's Form 10-K for the fiscal year ending December 31, 2018. It includes essential registration details such as the company's name, jurisdiction, and IRS identification number. The document confirms CVS as a well-known seasoned issuer and provides information on its common stock, including market value and shares outstanding. Additionally, it outlines the incorporation of other documents by reference, such as the Annual Report and Proxy Statement, which are relevant for various items in the report.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 29,
+      "summary": "This section provides an overview of CVS Health Corporation, detailing its role as a leading health innovation company with over 9,900 retail locations and approximately 1,100 walk-in medical clinics. It discusses the acquisition of Aetna, which aimed to enhance consumer health care experiences by integrating Aetna's services with CVS's extensive retail network. The section outlines CVS Health's business strategy focused on improving health outcomes and reducing costs through local, simple, and consumer-centered care. Additionally, it describes the Pharmacy Services segment, which includes pharmacy benefit management solutions, and the Retail/LTC segment, which encompasses retail pharmacy operations and health care services through MinuteClinics.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 30,
+      "end_page": 60,
+      "summary": "This section outlines the various risk factors that CVS Health faces, including overarching risks related to brand reputation, the Aetna acquisition, data governance, talent management, and potential changes in public policy and regulations. It emphasizes the importance of these risks in affecting the company's financial performance and operational results. Specific risks include reputational damage from negative public perception, data breaches, challenges in attracting and retaining talent, and the impact of legislative changes on healthcare financing and reimbursement practices. The section also discusses the competitive pressures in the pharmacy benefit management (PBM) industry and the potential for declining profit margins due to increased regulation and market dynamics.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 61,
+      "end_page": 61,
+      "summary": "This section states that there are no unresolved comments from the SEC staff, indicating compliance with regulatory requirements. It highlights potential risks related to currency exchange controls and fluctuations that could impact the company's international operations. The section also briefly mentions the company's exposure to emerging markets, where these risks may be more pronounced. Overall, it reassures stakeholders about the absence of unresolved regulatory issues while acknowledging financial risks associated with international operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 61,
+      "end_page": 61,
+      "summary": "This section details the properties owned and leased by the Company across its various segments as of December 31, 2018. The principal office is a one million square foot complex in Woonsocket, Rhode Island, with additional corporate offices in several states and Brazil. The Pharmacy Services segment includes owned and leased pharmacies and call centers, while the Retail/LTC segment lists approximately 8,200 retail stores and distribution centers totaling 10.4 million square feet. The Health Care Benefits segment's principal office is a 1.7 million square foot facility in Hartford, Connecticut, with additional locations in various states and countries. Management asserts that the facilities are adequate for the Company's needs and anticipates lease renewals or replacements at the end of current terms.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 62,
+      "end_page": 62,
+      "summary": "This section outlines the Company's legal proceedings, specifically referencing Note 16 on 'Commitments and Contingencies' from the Annual Report. It highlights ongoing negotiations with the New York State Department of Environmental Conservation regarding alleged historical noncompliance with hazardous waste regulations related to LTC pharmacies. The section notes that these environmental legal proceedings are not considered material to the Company's business or financial condition. Additionally, it mentions that Item 4 on Mine Safety Disclosures is not applicable.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 62,
+      "end_page": 62,
+      "summary": "This section indicates that the Mine Safety Disclosures are not applicable to the Company. It suggests that there are no relevant mine safety issues or disclosures required under the applicable regulations for the Company. Readers can infer that the Company does not operate in mining or related industries that would necessitate such disclosures.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 63,
+      "end_page": 63,
+      "summary": "This section provides information about CVS Health's common stock, which is traded on the New York Stock Exchange under the symbol 'CVS'. It details the quarterly cash dividend of $0.50 per share declared by the Board of Directors for 2017 and 2018, noting that the company has consistently paid dividends since going public. Additionally, it outlines the share repurchase programs authorized by the Board, including the remaining amounts as of December 31, 2018, and specifies that no shares were repurchased during the last quarter of 2018. For further details on shareholders' equity and repurchases, it refers to the Annual Report's notes.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Selected Financial Data",
+      "level": 1,
+      "start_page": 64,
+      "end_page": 64,
+      "summary": "This section presents selected consolidated financial data for CVS Health Corporation for the five-year period ending December 31, 2018. The data is derived from the company's consolidated financial statements and is intended to provide a summary of financial performance over the specified period. Readers can find key financial metrics and trends, which should be analyzed in conjunction with the full consolidated financial statements and audit reports. The section also references additional information in the Annual Report, including management's discussion and analysis, and disclosures about market risk.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 64,
+      "end_page": 64,
+      "summary": "This section provides an overview of CVS Health Corporation's financial condition and operational results, incorporating a cautionary statement regarding forward-looking statements. It references the detailed discussions and analyses found in the Annual Report, which include insights into the company's performance over the past five years. Readers can learn about the company's financial strategies, market risks, and the implications of its recent acquisition of Aetna, which significantly impacted its asset and revenue structure. Additionally, it highlights the effectiveness of the company's disclosure controls and internal financial reporting processes.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 64,
+      "end_page": 64,
+      "summary": "Item 7A discusses the quantitative and qualitative disclosures regarding market risk as part of CVS Health Corporation's Annual Report. It emphasizes the importance of understanding market risks that could impact the company's financial condition and results of operations. The section incorporates information from the 'Management’s Discussion and Analysis' section, which provides insights into how market fluctuations may affect the company's performance. Readers can learn about the specific types of market risks CVS faces and the strategies in place to mitigate these risks.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 64,
+      "end_page": 64,
+      "summary": "Item 8 provides an overview of the financial statements and supplementary data for CVS Health Corporation, including the Consolidated Statements of Operations, Comprehensive Income (Loss), Balance Sheets, Shareholders’ Equity, Cash Flows, and accompanying Notes. It emphasizes the importance of these documents for understanding the company's financial position and performance. Additionally, it references the Report of Independent Registered Public Accounting Firm, which adds credibility to the financial statements. Readers can expect to find detailed financial metrics and insights into the company's financial health over the specified periods.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 64,
+      "end_page": 64,
+      "summary": "This section states that there have been no changes or disagreements with accountants regarding accounting and financial disclosure for CVS Health Corporation. It indicates a clean record in terms of accounting practices and relationships with auditors, which may provide assurance to investors and stakeholders about the reliability of the company's financial reporting. The absence of issues suggests effective communication and compliance with accounting standards.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 64,
+      "end_page": 64,
+      "summary": "This section discusses the evaluation of the Company's disclosure controls and procedures, concluding that they were effective as of December 31, 2018. It references the management's report on internal control over financial reporting and the independent auditor's report on its effectiveness. Additionally, it notes that following the acquisition of Aetna on November 28, 2018, Aetna was excluded from the internal control assessment, as allowed by SEC rules, while its financial data is included in the consolidated statements. Aetna represented 21% of total assets and 3% of total revenues for the year ended December 31, 2018.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 65,
+      "end_page": 65,
+      "summary": "This section confirms that there have been no changes to the Company's internal control over financial reporting during the fourth quarter ended December 31, 2018, that would materially affect it. Additionally, it states that no events requiring disclosure under this item have occurred during the same period. The section serves to provide assurance regarding the stability of financial reporting controls and compliance with regulatory requirements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 65,
+      "end_page": 65,
+      "summary": "This section provides an overview of the directors and executive officers of CVS Health Corporation as of February 28, 2019, detailing their names, ages, and biographical backgrounds. It includes information on their roles within the company, such as Lisa G. Bisaccia as Executive Vice President and Chief Human Resources Officer, and Eva C. Boratto as Chief Financial Officer. The section also references the Proxy Statement for additional governance details, including board committees and compliance reporting. Readers can learn about the leadership structure and the professional history of key executives, which may inform assessments of the company's governance and strategic direction.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 66,
+      "end_page": 66,
+      "summary": "This section provides detailed information about the executive compensation of key executives at CVS Health Corporation, including Karen S. Lynch, Larry J. Merlo, Thomas M. Moriarty, Derica W. Rice, and Jonathan C. Roberts. It references various components of the Proxy Statement, such as Non-Employee Director Compensation and Executive Compensation and Related Matters, which include discussions on compensation analysis and committee reports. Additionally, it summarizes the company's equity compensation plans, detailing the number of securities available for issuance and their average exercise prices. The section aims to inform stakeholders about the compensation structure and equity incentives for executives.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 66,
+      "end_page": 66,
+      "summary": "This section provides details on the security ownership of certain beneficial owners and management at CVS Health Corporation. It includes information about the share ownership of directors, executive officers, and principal stockholders, as well as a summary table of the company's common stock available for issuance under equity compensation plans as of December 31, 2018. The table outlines the number of securities to be issued upon exercise of options, warrants, and rights, along with their average exercise prices. Additionally, it distinguishes between equity compensation plans approved and not approved by stockholders, highlighting the total number of shares and their respective values.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 13. Certain Relationships and Related Transactions and Director Independence",
+      "level": 1,
+      "start_page": 67,
+      "end_page": 67,
+      "summary": "This section discusses the Aetna Stock Plan, which was last approved by shareholders in 2017 and allows for the issuance of stock options, SARs, and other stock-based awards to employees. As of December 31, 2018, the plan had 5.1 million shares outstanding and 31.6 million shares available for future awards. The plan aims to align the interests of stockholders and employees by tying compensation to company performance. Additionally, it references the Proxy Statement sections on director independence and related person transactions, indicating their incorporation by reference.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 14. Principal Accountant Fees and Services",
+      "level": 1,
+      "start_page": 67,
+      "end_page": 67,
+      "summary": "This section outlines the details regarding the Principal Accountant Fees and Services, specifically referencing the Proxy Statement's Item 2, which discusses the ratification of the appointment of an independent registered public accounting firm. It highlights the importance of this appointment in ensuring the integrity of the company's financial reporting. Additionally, it may provide insights into the fees associated with these accounting services, although specific figures are not detailed in this section. The section serves to inform shareholders about the governance and oversight of financial practices within the company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 15. Exhibits and Financial Statement Schedules",
+      "level": 1,
+      "start_page": 68,
+      "end_page": 71,
+      "summary": "This section outlines the exhibits and financial statement schedules included in the Annual Report on Form 10-K. It specifies the financial statements incorporated by reference, including consolidated statements of operations, comprehensive income, balance sheets, cash flows, and notes to the financial statements. It also notes that all financial statement schedules are omitted as they are not applicable or included in the consolidated financial statements. Additionally, it provides an index of exhibits, detailing various agreements, plans, and contracts, including management contracts and compensatory plans, with specific references to their incorporation by reference from previous filings.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 72,
+      "end_page": 72,
+      "summary": "This section provides a summary of the Form 10-K, indicating that there are no additional details or content to report. It references various agreements and certifications related to the Registrant, including Change in Control Agreements and Restricted Stock Unit Agreements with key individuals such as Jonathan Roberts and Helena Foulkes. The section also notes the incorporation of certain materials from the Annual Report to Stockholders and mentions the consent of Ernst & Young LLP. Overall, it serves as a brief overview of the filings and documents referenced throughout the report.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Signatures",
+      "level": 1,
+      "start_page": 73,
+      "end_page": 392,
+      "summary": "This section contains the signatures of key individuals from CVS Health Corporation, affirming the report's compliance with the Securities Exchange Act of 1934. It includes the names, titles, and dates of signature for various executives and directors, such as the Chief Financial Officer and the President and CEO. The section serves to validate the document and ensure accountability from the company's leadership regarding the information presented in the report. Readers can learn about the corporate governance structure and the individuals responsible for the company's financial disclosures.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

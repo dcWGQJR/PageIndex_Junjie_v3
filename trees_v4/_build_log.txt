@@ -1,0 +1,459 @@
+
+--- batch run 2026-05-23 16:47:29 ---
+OK   3M_2018_10K.pdf  mode=window  pages=160  time=559.0s  -> 3M_2018_10K.tree.json
+
+--- batch run 2026-05-23 18:07:23 ---
+FAIL 3M_2018_10K.pdf  error=LLM request failed after retries: Connection error.
+
+--- batch run 2026-05-23 18:08:00 ---
+
+--- batch run 2026-05-23 18:16:56 ---
+FAIL 3M_2018_10K.pdf  error=LLM did not return valid JSON. Last reply:
+{
+  "entries": [
+    {
+      "title": "Part I",
+      "level": 1,
+      "page": 4
+    },
+    {
+      "title": "Item 1. Business",
+      "level": 2,
+      "page": 4
+    },
+    {
+      "title": "Item 1A. Risk Factors",
+      "level": 2,
+      "page": 10
+    },
+    {
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 2,
+      "page": 12
+    },
+    {
+      "title": "Item 2. Properties",
+      "level": 2,
+      "page": 12
+    },
+    {
+      "title": "Item 3. Legal Proceedings",
+      "level": 2,
+      "page": 12
+    },
+    {
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 2,
+      "page": 12
+    },
+    {
+      "title": "Part II",
+      "level": 1,
+      "page": 13
+    },
+    {
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 2,
+      "page": 13
+    },
+    {
+      "title": "Item 6. Selected Financial Data",
+      "level": 2,
+      "page": 14
+    },
+    {
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 2,
+      "page": 15
+    },
+    {
+      "title": "Overview",
+      "level": 3,
+      "page": 15
+    },
+    {
+      "title": "Results of Operations",
+      "level": 3,
+      "page": 27
+    },
+    {
+      "title": "Performance by Business Segment",
+      "level": 3,
+      "page": 32
+    },
+    {
+      "title": "Performance by Geographic Area",
+      "level": 3,
+      "page": 38
+    },
+    {
+      "title": "Critical Accounting Estimates",
+      "level": 3,
+      "page": 39
+    },
+    {
+      "title": "New Accounting Pronouncements",
+      "level": 3,
+      "page": 42
+    },
+    {
+      "title": "Financial Condition and Liquidity",
+      "level": 3,
+      "page": 43
+    },
+    {
+      "title": "Financial Instruments",
+      "level": 3,
+      "page": 50
+    },
+    {
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 2,
+      "page": 51
+    },
+    {
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 2,
+      "page": 52
+    },
+    {
+      "title": "Index to Financial Statements",
+      "level": 3,
+      "page": 52
+    },
+    {
+      "title": "Management’s Responsibility for Financial Reporting",
+      "level": 3,
+      "page": 52
+    },
+    {
+      "title": "Management’s Report on Internal Control Over Financial Reporting",
+      "level": 3,
+      "page": 53
+    },
+    {
+      "title": "Report of Independent Registered Public Accounting Firm",
+      "level": 3,
+      "page": 54
+    },
+    {
+      "title": "Consolidated Statement of Income for the years ended December 31, 2018, 2017 and 2016",
+      "level": 3,
+      "page": 56
+    },
+    {
+      "title": "Consolidated Statement of Comprehensive Income for the years ended December 31, 2018, 2017 and 2016",
+      "level": 3,
+      "page": 57
+    },
+    {
+      "title": "Consolidated Balance Sheet at December 31, 2018 and 2017",
+      "level": 3,
+      "page": 58
+    },
+    {
+      "title": "Item 8. Financial Statements and Supplementary Data (continued)",
+      "level": 2,
+      "page": 59
+    },
+    {
+      "title": "Consolidated Statement of Changes in Equity for the years ended December 31, 2018, 2017 and 2016",
+      "level": 3,
+      "page": 59
+    },
+    {
+      "title": "Consolidated Statement of Cash Flows for the years ended December 31, 2018, 2017 and 2016",
+      "level": 3,
+      "page": 60
+    },
+    {
+      "title": "Notes to Consolidated Financial Statements",
+      "level": 3,
+      "page": 61
+    },
+    {
+      "title": "Note 1. Significant Accounting Policies",
+      "level": 3,
+      "page": 61
+    },
+    {
+      "title": "Note 2. Revenue",
+      "level": 3,
+      "page": 71
+    },
+    {
+      "title": "Note 3. Acquisitions and Divestitures",
+      "level": 3,
+      "page": 73
+    },
+    {
+      "title": "Note 4. Goodwill and Intangible Assets",
+      "level": 3,
+      "page": 76
+    },
+    {
+      "title": "Note 5. Restructuring Actions",
+      "level": 3,
+      "page": 78
+    },
+    {
+      "title": "Note 6. Supplemental Income Statement Information",
+      "level": 3,
+      "page": 80
+    },
+    {
+      "title": "Note 7. Supplemental Balance Sheet Information",
+      "level": 3,
+      "page": 81
+    },
+    {
+      "title": "Note 8. Supplemental Equity and Comprehensive Income Information",
+      "level": 3,
+      "page": 82
+    },
+    {
+      "title": "Note 9. Supplemental Cash Flow Information",
+      "level": 3,
+      "page": 83
+    },
+    {
+      "title": "Note 10. Income Taxes",
+      "level": 3,
+      "page": 84
+    },
+    {
+      "title": "Note 11. Marketable Securities",
+      "level": 3,
+      "page": 87
+    },
+    {
+      "title": "Note 12. Long-Term Debt and Short-Term Borrowings",
+      "level": 3,
+      "page": 88
+    },
+    {
+      "title": "Note 13. Pension and Postretirement Benefit Plans",
+      "level": 3,
+      "page": 90
+    },
+    {
+      "title": "Note 14. Derivatives",
+      "level": 3,
+      "page": 99
+    },
+    {
+      "title": "Note 15. Fair Value Measurements",
+      "level": 3,
+      "page": 106
+    },
+    {
+      "title": "Note 16. Commitments and Contingencies",
+      "level": 3,
+      "page": 109
+    },
+    {
+      "title": "Note 17. Stock-Based Compensation",
+      "level": 3,
+      "page": 121
+    },
+    {
+      "title": "Note 18. Business Segments",
+      "level": 3,
+      "page": 124
+    },
+    {
+      "title": "Note 19. Geographic Areas",
+      "level": 3,
+      "page": 127
+    },
+    {
+      "title": "Note 20. Quarterly Data (Unaudited)",
+      "level": 3,
+      "page": 127
+    },
+    {
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 2,
+      "page": 128
+    },
+    {
+      "title": "Item 9A. Controls and Procedures",
+      "level": 2,
+      "page": 128
+    },
+    {
+      "title": "Item 9B. Other Information",
+      "level": 2,
+      "page": 128
+    },
+    {
+      "title": "Part III",
+      "level": 1,
+      "page": 129
+    },
+    {
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 2,
+      "page": 129
+    },
+    {
+      "title": "Item 11. Executive Compensation",
+      "level": 2,
+      "page": 129
+    },
+    {
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 2,
+      "page": 130
+    },
+    {
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 2,
+      "page": 130
+    },
+    {
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 2,
+      "page": 130
+    },
+    {
+      "title": "Part IV",
+      "level":
+
+--- batch run 2026-05-23 18:29:33 ---
+
+--- batch run 2026-05-23 18:36:29 ---
+OK   3M_2018_10K.pdf  mode=printed_toc  pages=160  time=229.1s  -> 3M_2018_10K.tree.json
+
+--- batch run 2026-05-23 21:53:54 ---
+
+--- batch run 2026-05-23 21:58:00 ---
+OK   3M_2022_10K.pdf  mode=printed_toc  pages=252  time=215.6s  -> 3M_2022_10K.tree.json
+OK   3M_2023Q2_10Q.pdf  mode=printed_toc  pages=92  time=135.8s  -> 3M_2023Q2_10Q.tree.json
+OK   ACTIVISIONBLIZZARD_2019_10K.pdf  mode=printed_toc  pages=198  time=69.5s  -> ACTIVISIONBLIZZARD_2019_10K.tree.json
+FAIL ADOBE_2015_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL ADOBE_2016_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL ADOBE_2017_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL ADOBE_2022_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL AES_2022_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMAZON_2017_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMAZON_2019_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMCOR_2020_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMCOR_2022_8K_dated-2022-07-01.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMCOR_2023_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMCOR_2023Q2_10Q.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMCOR_2023Q4_EARNINGS.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMD_2015_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMD_2022_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMERICANEXPRESS_2022_10K.pdf  error=LLM JSON request failed: Connection error.
+OK   AMERICANWATERWORKS_2020_10K.pdf  mode=printed_toc  pages=152  time=87.8s  -> AMERICANWATERWORKS_2020_10K.tree.json
+OK   AMERICANWATERWORKS_2021_10K.pdf  mode=printed_toc  pages=181  time=73.8s  -> AMERICANWATERWORKS_2021_10K.tree.json
+OK   AMERICANWATERWORKS_2022_10K.pdf  mode=printed_toc  pages=306  time=85.0s  -> AMERICANWATERWORKS_2022_10K.tree.json
+OK   BESTBUY_2017_10K.pdf  mode=printed_toc  pages=109  time=68.2s  -> BESTBUY_2017_10K.tree.json
+OK   BESTBUY_2019_10K.pdf  mode=printed_toc  pages=107  time=78.8s  -> BESTBUY_2019_10K.tree.json
+OK   BESTBUY_2023_10K.pdf  mode=printed_toc  pages=75  time=72.6s  -> BESTBUY_2023_10K.tree.json
+OK   BESTBUY_2024Q2_10Q.pdf  mode=printed_toc  pages=30  time=60.6s  -> BESTBUY_2024Q2_10Q.tree.json
+OK   BLOCK_2016_10K.pdf  mode=printed_toc  pages=121  time=84.9s  -> BLOCK_2016_10K.tree.json
+OK   BLOCK_2020_10K.pdf  mode=printed_toc  pages=158  time=90.3s  -> BLOCK_2020_10K.tree.json
+OK   BOEING_2018_10K.pdf  mode=printed_toc  pages=136  time=83.8s  -> BOEING_2018_10K.tree.json
+OK   BOEING_2022_10K.pdf  mode=printed_toc  pages=190  time=59.2s  -> BOEING_2022_10K.tree.json
+OK   COCACOLA_2017_10K.pdf  mode=printed_toc  pages=197  time=64.2s  -> COCACOLA_2017_10K.tree.json
+OK   COCACOLA_2021_10K.pdf  mode=printed_toc  pages=183  time=81.1s  -> COCACOLA_2021_10K.tree.json
+OK   COCACOLA_2022_10K.pdf  mode=printed_toc  pages=183  time=71.7s  -> COCACOLA_2022_10K.tree.json
+OK   CORNING_2020_10K.pdf  mode=window  pages=138  time=455.5s  -> CORNING_2020_10K.tree.json
+OK   CORNING_2021_10K.pdf  mode=window  pages=125  time=493.4s  -> CORNING_2021_10K.tree.json
+OK   CORNING_2022_10K.pdf  mode=window  pages=159  time=554.6s  -> CORNING_2022_10K.tree.json
+OK   COSTCO_2021_10K.pdf  mode=printed_toc  pages=76  time=55.2s  -> COSTCO_2021_10K.tree.json
+OK   CVSHEALTH_2018_10K.pdf  mode=printed_toc  pages=392  time=65.0s  -> CVSHEALTH_2018_10K.tree.json
+OK   CVSHEALTH_2022_10K.pdf  mode=printed_toc  pages=213  time=60.5s  -> CVSHEALTH_2022_10K.tree.json
+OK   FOOTLOCKER_2022_8K_dated-2022-05-20.pdf  mode=window  pages=4  time=22.0s  -> FOOTLOCKER_2022_8K_dated-2022-05-20.tree.json
+OK   FOOTLOCKER_2022_8K_dated_2022-08-19.pdf  mode=window  pages=31  time=69.3s  -> FOOTLOCKER_2022_8K_dated_2022-08-19.tree.json
+OK   GENERALMILLS_2019_10K.pdf  mode=printed_toc  pages=140  time=80.8s  -> GENERALMILLS_2019_10K.tree.json
+OK   GENERALMILLS_2020_10K.pdf  mode=printed_toc  pages=127  time=106.7s  -> GENERALMILLS_2020_10K.tree.json
+OK   GENERALMILLS_2022_10K.pdf  mode=printed_toc  pages=127  time=95.8s  -> GENERALMILLS_2022_10K.tree.json
+OK   JOHNSON_JOHNSON_2022_10K.pdf  mode=printed_toc  pages=151  time=105.0s  -> JOHNSON_JOHNSON_2022_10K.tree.json
+OK   JOHNSON_JOHNSON_2022Q4_EARNINGS.pdf  mode=window  pages=24  time=56.9s  -> JOHNSON_JOHNSON_2022Q4_EARNINGS.tree.json
+OK   JOHNSON_JOHNSON_2023_8K_dated-2023-08-30.pdf  mode=window  pages=27  time=38.3s  -> JOHNSON_JOHNSON_2023_8K_dated-2023-08-30.tree.json
+OK   JOHNSON_JOHNSON_2023Q2_EARNINGS.pdf  mode=window  pages=24  time=99.7s  -> JOHNSON_JOHNSON_2023Q2_EARNINGS.tree.json
+OK   JPMORGAN_2021Q1_10Q.pdf  mode=embedded_toc  pages=179  time=331.3s  -> JPMORGAN_2021Q1_10Q.tree.json
+OK   JPMORGAN_2022_10K.pdf  mode=embedded_toc  pages=382  time=466.7s  -> JPMORGAN_2022_10K.tree.json
+OK   JPMORGAN_2022Q2_10Q.pdf  mode=embedded_toc  pages=197  time=281.9s  -> JPMORGAN_2022Q2_10Q.tree.json
+OK   JPMORGAN_2023Q2_10Q.pdf  mode=embedded_toc  pages=217  time=332.9s  -> JPMORGAN_2023Q2_10Q.tree.json
+OK   KRAFTHEINZ_2019_10K.pdf  mode=printed_toc  pages=152  time=248.4s  -> KRAFTHEINZ_2019_10K.tree.json
+OK   LOCKHEEDMARTIN_2020_10K.pdf  mode=printed_toc  pages=132  time=78.3s  -> LOCKHEEDMARTIN_2020_10K.tree.json
+OK   LOCKHEEDMARTIN_2021_10K.pdf  mode=printed_toc  pages=136  time=77.4s  -> LOCKHEEDMARTIN_2021_10K.tree.json
+OK   LOCKHEEDMARTIN_2022_10K.pdf  mode=embedded_toc  pages=130  time=202.2s  -> LOCKHEEDMARTIN_2022_10K.tree.json
+OK   MGMRESORTS_2018_10K.pdf  mode=printed_toc  pages=188  time=70.8s  -> MGMRESORTS_2018_10K.tree.json
+OK   MGMRESORTS_2020_10K.pdf  mode=printed_toc  pages=150  time=66.1s  -> MGMRESORTS_2020_10K.tree.json
+OK   MGMRESORTS_2022_10K.pdf  mode=printed_toc  pages=220  time=63.1s  -> MGMRESORTS_2022_10K.tree.json
+OK   MGMRESORTS_2022Q4_EARNINGS.pdf  mode=window  pages=15  time=8.5s  -> MGMRESORTS_2022Q4_EARNINGS.tree.json
+OK   MGMRESORTS_2023Q2_10Q.pdf  mode=printed_toc  pages=62  time=45.6s  -> MGMRESORTS_2023Q2_10Q.tree.json
+OK   MICROSOFT_2016_10K.pdf  mode=printed_toc  pages=121  time=57.3s  -> MICROSOFT_2016_10K.tree.json
+OK   MICROSOFT_2023_10K.pdf  mode=printed_toc  pages=116  time=59.5s  -> MICROSOFT_2023_10K.tree.json
+OK   NETFLIX_2015_10K.pdf  mode=printed_toc  pages=72  time=52.9s  -> NETFLIX_2015_10K.tree.json
+OK   NETFLIX_2017_10K.pdf  mode=printed_toc  pages=73  time=52.4s  -> NETFLIX_2017_10K.tree.json
+OK   NIKE_2018_10K.pdf  mode=printed_toc  pages=97  time=88.0s  -> NIKE_2018_10K.tree.json
+OK   NIKE_2019_10K.pdf  mode=printed_toc  pages=104  time=90.7s  -> NIKE_2019_10K.tree.json
+OK   NIKE_2021_10K.pdf  mode=printed_toc  pages=109  time=96.6s  -> NIKE_2021_10K.tree.json
+OK   NIKE_2023_10K.pdf  mode=embedded_toc  pages=106  time=105.0s  -> NIKE_2023_10K.tree.json
+OK   PAYPAL_2022_10K.pdf  mode=printed_toc  pages=134  time=89.3s  -> PAYPAL_2022_10K.tree.json
+OK   PEPSICO_2021_10K.pdf  mode=printed_toc  pages=549  time=52.6s  -> PEPSICO_2021_10K.tree.json
+OK   PEPSICO_2022_10K.pdf  mode=printed_toc  pages=503  time=56.5s  -> PEPSICO_2022_10K.tree.json
+OK   PEPSICO_2023_8K_dated-2023-05-05.pdf  mode=window  pages=5  time=7.8s  -> PEPSICO_2023_8K_dated-2023-05-05.tree.json
+OK   PEPSICO_2023_8K_dated-2023-05-30.pdf  mode=printed_toc  pages=172  time=190.6s  -> PEPSICO_2023_8K_dated-2023-05-30.tree.json
+OK   PEPSICO_2023Q1_EARNINGS.pdf  mode=embedded_toc  pages=16  time=38.6s  -> PEPSICO_2023Q1_EARNINGS.tree.json
+OK   PFIZER_2021_10K.pdf  mode=printed_toc  pages=143  time=116.1s  -> PFIZER_2021_10K.tree.json
+OK   Pfizer_2023Q2_10Q.pdf  mode=printed_toc  pages=72  time=43.9s  -> Pfizer_2023Q2_10Q.tree.json
+OK   ULTABEAUTY_2023_10K.pdf  mode=printed_toc  pages=105  time=68.7s  -> ULTABEAUTY_2023_10K.tree.json
+OK   ULTABEAUTY_2023Q4_EARNINGS.pdf  mode=window  pages=9  time=6.5s  -> ULTABEAUTY_2023Q4_EARNINGS.tree.json
+OK   VERIZON_2021_10K.pdf  mode=embedded_toc  pages=120  time=829.8s  -> VERIZON_2021_10K.tree.json
+OK   VERIZON_2022_10K.pdf  mode=embedded_toc  pages=124  time=820.7s  -> VERIZON_2022_10K.tree.json
+OK   WALMART_2018_10K.pdf  mode=printed_toc  pages=304  time=69.4s  -> WALMART_2018_10K.tree.json
+OK   WALMART_2019_10K.pdf  mode=printed_toc  pages=155  time=70.8s  -> WALMART_2019_10K.tree.json
+OK   WALMART_2020_10K.pdf  mode=printed_toc  pages=170  time=64.5s  -> WALMART_2020_10K.tree.json
+
+--- batch run 2026-05-24 00:37:34 ---
+OK   ADOBE_2015_10K.pdf  mode=embedded_toc  pages=116  time=168.2s  -> ADOBE_2015_10K.tree.json
+OK   ADOBE_2016_10K.pdf  mode=embedded_toc  pages=112  time=196.3s  -> ADOBE_2016_10K.tree.json
+OK   ADOBE_2017_10K.pdf  mode=embedded_toc  pages=107  time=188.9s  -> ADOBE_2017_10K.tree.json
+OK   ADOBE_2022_10K.pdf  mode=embedded_toc  pages=99  time=188.7s  -> ADOBE_2022_10K.tree.json
+OK   AES_2022_10K.pdf  mode=printed_toc  pages=257  time=167.0s  -> AES_2022_10K.tree.json
+OK   AMAZON_2017_10K.pdf  mode=printed_toc  pages=85  time=52.1s  -> AMAZON_2017_10K.tree.json
+OK   AMAZON_2019_10K.pdf  mode=printed_toc  pages=83  time=55.5s  -> AMAZON_2019_10K.tree.json
+OK   AMCOR_2020_10K.pdf  mode=printed_toc  pages=195  time=78.1s  -> AMCOR_2020_10K.tree.json
+OK   AMCOR_2022_8K_dated-2022-07-01.pdf  mode=window  pages=9  time=36.9s  -> AMCOR_2022_8K_dated-2022-07-01.tree.json
+OK   AMCOR_2023_10K.pdf  mode=printed_toc  pages=156  time=80.7s  -> AMCOR_2023_10K.tree.json
+OK   AMCOR_2023Q2_10Q.pdf  mode=printed_toc  pages=57  time=69.2s  -> AMCOR_2023Q2_10Q.tree.json
+OK   AMCOR_2023Q4_EARNINGS.pdf  mode=embedded_toc  pages=14  time=27.9s  -> AMCOR_2023Q4_EARNINGS.tree.json
+OK   AMD_2015_10K.pdf  mode=printed_toc  pages=215  time=54.9s  -> AMD_2015_10K.tree.json
+OK   AMD_2022_10K.pdf  mode=printed_toc  pages=121  time=76.7s  -> AMD_2022_10K.tree.json
+OK   AMERICANEXPRESS_2022_10K.pdf  mode=printed_toc  pages=260  time=93.7s  -> AMERICANEXPRESS_2022_10K.tree.json
+
+--- batch run 2026-05-25 18:59:18 ---
+
+--- batch run 2026-05-25 19:00:19 ---
+OK   3M_2018_10K.pdf  mode=printed_toc  pages=160  time=257.2s  -> 3M_2018_10K.tree.json
+OK   3M_2022_10K.pdf  mode=printed_toc  pages=252  time=413.8s  -> 3M_2022_10K.tree.json
+OK   3M_2023Q2_10Q.pdf  mode=printed_toc  pages=92  time=227.7s  -> 3M_2023Q2_10Q.tree.json
+OK   ACTIVISIONBLIZZARD_2019_10K.pdf  mode=printed_toc  pages=198  time=111.5s  -> ACTIVISIONBLIZZARD_2019_10K.tree.json
+OK   ADOBE_2015_10K.pdf  mode=embedded_toc  pages=116  time=293.7s  -> ADOBE_2015_10K.tree.json
+OK   ADOBE_2016_10K.pdf  mode=embedded_toc  pages=112  time=257.5s  -> ADOBE_2016_10K.tree.json
+OK   ADOBE_2017_10K.pdf  mode=embedded_toc  pages=107  time=230.7s  -> ADOBE_2017_10K.tree.json
+OK   ADOBE_2022_10K.pdf  mode=embedded_toc  pages=99  time=252.5s  -> ADOBE_2022_10K.tree.json
+OK   AES_2022_10K.pdf  mode=printed_toc  pages=257  time=269.2s  -> AES_2022_10K.tree.json
+OK   AMAZON_2017_10K.pdf  mode=printed_toc  pages=85  time=82.5s  -> AMAZON_2017_10K.tree.json
+OK   AMAZON_2019_10K.pdf  mode=printed_toc  pages=83  time=93.8s  -> AMAZON_2019_10K.tree.json
+OK   AMCOR_2020_10K.pdf  mode=printed_toc  pages=195  time=93.8s  -> AMCOR_2020_10K.tree.json
+OK   AMCOR_2022_8K_dated-2022-07-01.pdf  mode=window  pages=9  time=71.0s  -> AMCOR_2022_8K_dated-2022-07-01.tree.json
+OK   AMCOR_2023_10K.pdf  mode=printed_toc  pages=156  time=154.8s  -> AMCOR_2023_10K.tree.json
+OK   AMCOR_2023Q2_10Q.pdf  mode=printed_toc  pages=57  time=102.2s  -> AMCOR_2023Q2_10Q.tree.json
+OK   AMCOR_2023Q4_EARNINGS.pdf  mode=embedded_toc  pages=14  time=53.8s  -> AMCOR_2023Q4_EARNINGS.tree.json
+OK   AMD_2015_10K.pdf  mode=printed_toc  pages=215  time=76.1s  -> AMD_2015_10K.tree.json
+OK   AMD_2022_10K.pdf  mode=printed_toc  pages=121  time=154.0s  -> AMD_2022_10K.tree.json
+OK   AMERICANEXPRESS_2022_10K.pdf  mode=printed_toc  pages=260  time=109.9s  -> AMERICANEXPRESS_2022_10K.tree.json
+OK   AMERICANWATERWORKS_2020_10K.pdf  mode=printed_toc  pages=152  time=98.6s  -> AMERICANWATERWORKS_2020_10K.tree.json
+OK   AMERICANWATERWORKS_2021_10K.pdf  mode=printed_toc  pages=181  time=97.4s  -> AMERICANWATERWORKS_2021_10K.tree.json
+OK   AMERICANWATERWORKS_2022_10K.pdf  mode=printed_toc  pages=306  time=116.0s  -> AMERICANWATERWORKS_2022_10K.tree.json
+OK   BESTBUY_2017_10K.pdf  mode=printed_toc  pages=109  time=109.4s  -> BESTBUY_2017_10K.tree.json
+OK   BESTBUY_2019_10K.pdf  mode=printed_toc  pages=107  time=139.0s  -> BESTBUY_2019_10K.tree.json
+OK   BESTBUY_2023_10K.pdf  mode=printed_toc  pages=75  time=144.8s  -> BESTBUY_2023_10K.tree.json

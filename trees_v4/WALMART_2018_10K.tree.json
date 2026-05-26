@@ -1,0 +1,231 @@
+{
+  "node_id": "root",
+  "title": "WALMART_2018_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 304,
+  "summary": "The Walmart Inc. Form 10-K for the fiscal year ending January 31, 2018, provides a comprehensive overview of the company's operations, financial performance, and risk factors. It details Walmart's global retail business structure, including its three segments: Walmart U.S., Walmart International, and Sam's Club, with total revenues of $500.3 billion. The document outlines various risk factors affecting the business, unresolved staff comments, and a breakdown of properties and legal proceedings. Additionally, it includes selected financial data, management's discussion on financial condition, and disclosures about market risks and executive compensation, along with consolidated financial statements and internal control assessments.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Walmart Inc. Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 6,
+      "summary": "This section contains the front matter of Walmart Inc.'s Form 10-K for the fiscal year ending January 31, 2018. It includes essential corporate information such as the company's legal name change from Wal-Mart Stores, Inc. to Walmart Inc., its SEC filing status, and details about its stock and securities. The section also outlines the company's compliance with reporting requirements and provides a cautionary statement regarding forward-looking statements, highlighting various risks and uncertainties that could impact future performance. Additionally, it lists the table of contents for the report, indicating the structure and key topics covered in subsequent sections.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 7,
+      "end_page": 16,
+      "summary": "Walmart Inc. operates a global retail business focused on saving customers money and enhancing their shopping experience through an omni-channel approach. The company serves approximately 270 million customers weekly across over 11,700 stores and various eCommerce platforms in 28 countries. Walmart's operations are divided into three segments: Walmart U.S., Walmart International, and Sam's Club, with fiscal 2018 revenues totaling $500.3 billion. The Walmart U.S. segment, the largest, generated 64% of net sales, while Walmart International and Sam's Club contributed 24% and 12%, respectively. The section details Walmart's pricing strategies, merchandise categories, and competitive positioning, emphasizing its commitment to everyday low prices and a seamless shopping experience across digital and physical platforms.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 25,
+      "summary": "This section outlines various risk factors that could significantly impact Walmart's business, financial performance, and operational results. Key risks include macroeconomic factors such as inflation, interest rates, and changes in consumer spending, which could affect demand for products. The company faces intense competition from both physical and digital retailers, necessitating effective responses to market changes. Operational risks include potential disruptions from natural disasters, cybersecurity threats, and challenges in supplier relationships, which could lead to increased costs or product safety issues. Additionally, the evolving landscape of eCommerce presents both opportunities and risks, particularly in maintaining a seamless shopping experience across digital and physical platforms.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This section states that there are no unresolved staff comments related to the company's ongoing government investigations and shareholder lawsuits. It highlights that while an accrual has been made for these matters, the final resolution remains uncertain. The company does not currently believe these issues will materially affect its business, but acknowledges the potential for future material impact due to inherent uncertainties.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 27,
+      "end_page": 28,
+      "summary": "This section provides a detailed breakdown of Walmart U.S. and Sam's Club operations across various states and territories as of January 31, 2018. It includes specific unit counts for different store formats, such as Supercenters, Discount Stores, Neighborhood Markets, and Clubs. The data is presented in a tabular format, allowing readers to easily identify the total number of stores in each state, as well as the overall totals for the U.S. This information is useful for understanding the geographic distribution and scale of Walmart's retail presence.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 29,
+      "end_page": 29,
+      "summary": "This section provides a detailed overview of Walmart's international operations as of January 31, 2018, including unit counts categorized by retail, wholesale, and other types across various geographic markets. It lists the total number of retail units and distribution facilities in regions such as Africa, Argentina, Brazil, Canada, Central America, Chile, China, India, Japan, Mexico, and the United Kingdom. Additionally, it breaks down the owned and leased properties in the U.S. and internationally, highlighting the total number of retail and distribution facilities. Readers can learn about Walmart's global presence and operational scale in different markets.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 30,
+      "end_page": 30,
+      "summary": "This section discusses the company's office facilities, highlighting the principal office located in Bentonville, Arkansas, and additional owned and leased facilities across the U.S. and internationally. It emphasizes the purpose of these facilities for operational support and market management. Readers can learn about the geographical distribution of the company's offices and their role in the overall business structure.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 31,
+      "end_page": 32,
+      "summary": "This section discusses the market for the registrant's common equity, including stockholder matters and issuer purchases of equity securities. It outlines the company's store leasing arrangements, including annual rentals and renewal options. Additionally, it provides details on ongoing legal proceedings, including securities class actions and derivative lawsuits related to allegations of violations of the U.S. Foreign Corrupt Practices Act. The section also addresses environmental matters, including fines and penalties imposed on the company in various jurisdictions, and the company's responses to these issues.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Selected Financial Data",
+      "level": 1,
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "This section provides selected financial data regarding Walmart's common stock, including its market price fluctuations for fiscal years 2017, 2018, and the first quarter of 2019. It details the high and low market prices per share for each fiscal quarter, the number of holders of record as of March 28, 2018, and the scheduled dividends payable per share for fiscal 2019. Additionally, it includes a stock performance chart comparing Walmart's cumulative total shareholder return against the S&P 500 Retailing Index and the S&P 500 Index over five years, illustrating investment performance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 34,
+      "end_page": 48,
+      "summary": "This section provides an in-depth analysis of Walmart Inc.'s financial condition and operational results for the fiscal years ending January 31, 2018, 2017, and 2016. Key topics include total revenues, net sales, operating income, and comparable sales metrics across Walmart's three segments: Walmart U.S., Walmart International, and Sam's Club. The discussion highlights the company's strategic focus on integrating eCommerce with physical retail, managing expenses, and optimizing capital allocation towards remodels and technology. Additionally, it covers performance metrics such as return on assets (ROA) and return on investment (ROI), as well as free cash flow, providing insights into Walmart's financial health and operational efficiency.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 49,
+      "end_page": 50,
+      "summary": "This section discusses the company's critical accounting estimates, including inventory valuation methods (LIFO for Walmart U.S. and FIFO for Walmart International), and the implications of markdowns and shrinkage on inventory valuation. It also covers the impairment evaluation of long-lived assets, detailing the criteria for determining impairment and the impact of restructuring activities. Additionally, the section addresses income tax provisions, highlighting the complexities involved in tax judgments, the effects of the Tax Cuts and Jobs Act of 2017, and the evaluation of deferred tax assets. Readers can learn about the methodologies and judgments that influence the company's financial reporting and the potential risks associated with these estimates.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 51,
+      "end_page": 84,
+      "summary": "This section contains Walmart Inc.'s consolidated financial statements for the fiscal year ended January 31, 2018, including the statements of income, comprehensive income, balance sheets, shareholders' equity, and cash flows. It provides insights into the company's financial performance, with total revenues of $500.3 billion and net income attributable to Walmart of $9.9 billion. The section also includes management's report on financial integrity, the independent auditor's opinion on the financial statements, and notes detailing significant accounting policies and estimates. Key financial metrics, such as cash flows from operating activities and changes in equity, are also presented, offering a comprehensive view of Walmart's financial health and operational results over the past three years.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 85,
+      "end_page": 85,
+      "summary": "This section discusses significant acquisitions and disposals by the Company, particularly focusing on the acquisition of Jet.com for $2.4 billion, which included $1.7 billion in goodwill and $0.6 billion in intangible assets. It also details the sale of Suburbia for $1.0 billion, resulting in a pre-tax gain of $0.7 billion, and the sale of Yihaodian assets to JD.com, which led to a $535 million noncash gain. Additionally, it outlines $1.2 billion in pre-tax restructuring charges related to organizational changes, including asset impairments and severance costs, primarily affecting Walmart International and Sam's Club operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 85,
+      "end_page": 85,
+      "summary": "This section details significant acquisitions and disposals by the Company, particularly focusing on the acquisition of Jet.com for $2.4 billion, which enhances Walmart U.S.'s eCommerce capabilities. It also discusses the sale of Suburbia for $1.0 billion, resulting in a pre-tax gain of $0.7 billion, and the divestiture of Yihaodian assets to JD.com, which generated a $535 million noncash gain. Additionally, the section outlines $1.2 billion in pre-tax restructuring charges related to organizational changes, including asset impairments and severance costs, primarily affecting Walmart International and Sam's Club operations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 86,
+      "end_page": 86,
+      "summary": "This section provides an overview of the Company's operational segments, which include Walmart U.S., Walmart International, and Sam's Club, along with corporate support. It details the geographic scope of operations across various countries and outlines how the Company measures segment performance through net sales and operating income. The section includes financial data for the fiscal years ending January 31 for 2016, 2017, and 2018, presenting net sales, operating income, total assets, depreciation, and capital expenditures for each segment. Additionally, it notes that segment performance metrics may be revised over time to ensure comparability.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 87,
+      "end_page": 87,
+      "summary": "This section provides a detailed financial overview of the company's total revenues and long-lived assets for U.S. and non-U.S. operations over the fiscal years 2016 to 2018. It highlights that total revenues for fiscal 2018 were $500.3 billion, with U.S. operations contributing $380.6 billion. The section also notes the approval of a dividend increase for fiscal 2019, detailing the amount and payment schedule. Additionally, it includes unaudited quarterly financial data for fiscal year 2018, showing total revenues and net income for each quarter, along with earnings per share figures.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 87,
+      "end_page": 87,
+      "summary": "This section provides a detailed overview of the company's total revenues and long-lived assets for U.S. and non-U.S. operations over the fiscal years 2016 to 2018. It highlights that total revenues increased from $482.1 billion in 2016 to $500.3 billion in 2018, with U.S. operations contributing the majority. The section also notes that no individual non-U.S. country had material revenues or assets, and that the company did not rely on any single customer for significant revenue. Additionally, it discusses the declaration of a dividend for fiscal 2019, which increased from the previous year, and outlines the payment schedule for the quarterly installments.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 87,
+      "end_page": 87,
+      "summary": "This section provides a detailed breakdown of the Company's total revenues and long-lived assets for U.S. and non-U.S. operations over the fiscal years 2016 to 2018. It highlights that total revenues for fiscal 2018 were $500.3 billion, with U.S. operations contributing $380.6 billion. The section also notes that no individual country outside the U.S. had material revenues or long-lived assets. Additionally, it discusses the Board of Directors' approval of a dividend increase for fiscal 2019, detailing the amount and payment schedule. Lastly, it includes unaudited quarterly financial data for fiscal year 2018, showing total revenues and net income per share for each quarter.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 87,
+      "end_page": 87,
+      "summary": "This section provides a detailed financial overview of the company's total revenues and long-lived assets for U.S. and non-U.S. operations over the fiscal years 2016 to 2018. It highlights that total revenues for fiscal 2018 were $500.3 billion, with U.S. operations contributing $380.6 billion. The section also notes that no individual non-U.S. country had material revenues or long-lived assets, and that the company did not generate significant revenue from any single customer. Additionally, it includes information about the approved fiscal 2019 annual dividend of $2.08 per share, an increase from the previous year, along with the quarterly financial data for fiscal year 2018, detailing revenues, net sales, cost of sales, and net income per share.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 87,
+      "end_page": 87,
+      "summary": "This section provides a detailed breakdown of total revenues and long-lived assets for the Company's U.S. and non-U.S. operations over the fiscal years 2016 to 2018. It highlights that total revenues for fiscal 2018 were $500,343 million, with U.S. operations contributing $380,580 million. The section also notes that no individual country outside the U.S. had material revenues or long-lived assets, and that the Company did not generate significant revenue from any single customer. Additionally, it includes information on dividends declared for fiscal 2019, detailing the increase in the annual dividend to $2.08 per share and the schedule for quarterly payments.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 15. Exhibits, Financial Statement Schedules",
+      "level": 1,
+      "start_page": 88,
+      "end_page": 88,
+      "summary": "This section discusses the company's disclosure controls and procedures, emphasizing their design to ensure timely communication of required information to management. It highlights the limitations of these controls, particularly regarding unconsolidated entities. The management's evaluation of the effectiveness of these controls, conducted under the supervision of the CEO and CFO, concluded that they are effective as of January 31, 2018. Additionally, it addresses the company's internal control over financial reporting, stating that it was effective as of the same date and has been audited by Ernst & Young LLP. No significant changes affecting internal control over financial reporting have occurred since that date.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 88,
+      "end_page": 304,
+      "summary": "Item 16 of the Form 10-K does not contain any specific information or disclosures. It is a placeholder indicating that there are no additional summaries or details to report in this section. The preceding sections cover various topics including internal controls, ethical standards, executive compensation, and corporate governance, but this particular item is noted as having no content.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

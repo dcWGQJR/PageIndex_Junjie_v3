@@ -1,0 +1,231 @@
+{
+  "node_id": "root",
+  "title": "MGMRESORTS_2020_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 150,
+  "summary": "The section provides a comprehensive overview of MGM Resorts International's Form 10-K for the fiscal year ending December 31, 2020, detailing the company's business operations, risk factors, and financial performance impacted by the COVID-19 pandemic. It includes information on properties owned, legal proceedings, market risks, and management's discussion of financial results, highlighting significant revenue declines and cost reduction measures. Additionally, it covers executive compensation, corporate governance, and security ownership, along with the company's accounting practices and related transactions. The section concludes with a summary of key exhibits and certifications related to the financial reporting.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "MGM Resorts International Form 10-K Front Matter",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 2,
+      "summary": "This section contains the front matter of MGM Resorts International's Form 10-K for the fiscal year ending December 31, 2020. It includes essential registration details such as the company's name, jurisdiction, and IRS identification number. The document confirms the company's status as a well-known seasoned issuer and provides information on its common stock, including market value and outstanding shares. Additionally, it notes the incorporation of certain documents by reference and outlines the table of contents for the report, detailing the various sections and items covered in the filing.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 15,
+      "summary": "MGM Resorts International, incorporated in 1986, operates integrated casino, hotel, and entertainment resorts in the U.S. and Macau. The company emphasizes significant capital investments to maintain competitive advantages and high-quality guest experiences. Key developments include acquisitions of properties like Borgata and MGM National Harbor, and the formation of BetMGM for online gaming. The COVID-19 pandemic has significantly impacted operations, leading to temporary closures and reduced revenues. MGM China, a subsidiary, operates MGM Macau and MGM Cotai, contributing to the company's international growth strategy.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 16,
+      "end_page": 32,
+      "summary": "This section outlines the significant risk factors that could adversely impact the company's business, financial condition, and operational results. Key risks include substantial indebtedness, which may limit operational flexibility and increase vulnerability to economic downturns, and the ongoing effects of the COVID-19 pandemic, which has severely affected travel and demand for services. The company also faces competitive pressures, regulatory compliance costs, and potential conflicts of interest due to management positions in affiliated entities. Additionally, risks related to economic conditions, lease obligations, and the ability to maintain adequate insurance coverage are highlighted, emphasizing the need for careful consideration of these factors by investors.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "This section indicates that there are no unresolved staff comments regarding the company's operations or disclosures. It highlights the company's potential strategies for expansion through investments, acquisitions, and divestitures, while also acknowledging the associated risks. Key risks include financial liabilities, integration challenges, and potential conflicts of interest due to overlapping management with MGM China. The section emphasizes the uncertainty in successfully completing transactions and the impact of increased gaming taxes on financial performance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 34,
+      "end_page": 34,
+      "summary": "This section outlines the properties owned by the company, detailing their locations and characteristics. It includes a table listing various land holdings as of December 31, 2020, with specific acreages for each property, such as the Bellagio and MGM Grand Las Vegas. The section also explains the lease agreements associated with these properties, indicating that most are leased from subsidiaries or ventures. Additionally, it notes that the assets of these properties, except for MGM National Harbor and Empire City, secure obligations under the Operating Partnership's credit agreement, which are non-recourse to the company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 35,
+      "end_page": 35,
+      "summary": "This section references legal proceedings related to the company, directing readers to Note 12 in the consolidated financial statements for detailed information on commitments and contingencies. It indicates that there are relevant legal matters that may impact the company's financial position or operations. The section serves to inform stakeholders about potential legal risks and obligations the company faces.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 35,
+      "end_page": 35,
+      "summary": "This section indicates that mine safety disclosures are not applicable to the entity. It suggests that there are no relevant mine safety issues or incidents to report, which may imply that the company does not operate in mining or related industries. Readers can learn that the company is not subject to mine safety regulations or reporting requirements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 36,
+      "end_page": 37,
+      "summary": "This section provides information about the registrant's common stock, including its trading symbol on the NYSE and the number of record holders as of February 23, 2021. It outlines the company's dividend policy, noting a temporary reduction in dividends due to COVID-19, and emphasizes that future dividends will depend on the Board's discretion and financial conditions. Additionally, it includes a performance graph comparing the company's five-year total shareholder return against major indices, highlighting the investment performance from December 31, 2015, to December 31, 2020.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Removed and Reserved",
+      "level": 1,
+      "start_page": 38,
+      "end_page": 38,
+      "summary": "This section indicates that Item 6 is removed and reserved, leading directly into Item 7, which discusses management's analysis of financial condition and results of operations. It highlights the company's primary business in casino resorts, emphasizing cash-based revenue and the importance of operating cash flow for capital expenditures and debt repayment. The section also notes the impact of COVID-19 on operations, including temporary closures and restrictions affecting revenue generation, as well as measures taken to ensure safety and compliance with health guidelines.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 38,
+      "end_page": 58,
+      "summary": "This section provides a comprehensive analysis of MGM Resorts' financial condition and operational results for the year ended December 31, 2020, compared to 2019. It discusses the significant impact of COVID-19 on revenues, which decreased by 60%, and highlights the company's aggressive cost reduction measures, including employee furloughs and capital expenditure deferrals. Key performance indicators such as gaming revenue, hotel occupancy, and average daily rates are analyzed, revealing substantial declines in visitor volume and revenue across segments, particularly in Las Vegas and Macau. The section also outlines strategic initiatives and financial adjustments made in response to the pandemic, including the effects of the CARES Act and ongoing operational challenges.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 59,
+      "end_page": 59,
+      "summary": "This section discusses the company's exposure to market risks, particularly interest rate risk from variable rate long-term debt and foreign currency exchange rate risk related to operations in China and Macau. It details the strategies employed to mitigate interest rate risk, including the use of fixed-rate borrowings and interest rate swap agreements. As of December 31, 2020, variable rate borrowings accounted for approximately 6% of total borrowings, with specific figures provided for fixed and variable rate debts. Additionally, it highlights the potential impact of foreign currency fluctuations, particularly regarding the Hong Kong dollar, on the company's financial position, estimating a $20 million loss from a 1% weakening of the Hong Kong dollar against the U.S. dollar.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 60,
+      "end_page": 105,
+      "summary": "This section provides the audited financial statements of MGM Resorts International for the years ended December 31, 2020, 2019, and 2018, including the consolidated balance sheets, statements of operations, comprehensive income, cash flows, and stockholders' equity. It includes reports from independent auditors on internal control over financial reporting and the financial statements themselves, confirming their fair presentation in accordance with GAAP. Key financial metrics such as revenues, expenses, net income (loss), and cash flows are detailed, along with significant accounting policies and notes that explain the financial data. The section also discusses critical audit matters, including the assessment of investments and consolidation accounting related to the MGP BREIT Venture Transaction.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes In and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 106,
+      "end_page": 106,
+      "summary": "This section states that there have been no changes or disagreements with accountants regarding accounting and financial disclosure. It confirms the effectiveness of the company's disclosure controls and procedures as of December 31, 2020, ensuring compliance with SEC regulations. Additionally, it notes that there were no changes in internal control over financial reporting that could materially affect the company's financial reporting. Management is responsible for maintaining adequate internal controls, which include hiring skilled personnel, establishing written policies, and conducting internal audits.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 106,
+      "end_page": 106,
+      "summary": "This section discusses the effectiveness of the company's disclosure controls and procedures as evaluated by the Chief Executive Officer and Chief Financial Officer, confirming they were effective as of December 31, 2020. It outlines the responsibilities of management in maintaining adequate internal control over financial reporting and describes the objectives of such controls, including ensuring the reliability of financial statements. The section also notes that there were no changes in internal control that materially affected financial reporting during the quarter ended December 31, 2020, and highlights key elements of the internal control system, such as hiring skilled personnel and maintaining an independent Audit Committee.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 106,
+      "end_page": 106,
+      "summary": "This section states that there is no additional information to report under Item 9B. It confirms that there are no changes or disagreements with accountants regarding accounting and financial disclosure. The section serves to clarify that all relevant disclosures have been made in previous sections, and no further information is necessary at this time.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 107,
+      "end_page": 107,
+      "summary": "This section references information about the company's directors, executive officers, and corporate governance practices, specifically incorporating details from the Proxy Statement for the 2021 Annual Meeting of Stockholders. Readers can learn about the election of directors, corporate governance policies, and executive officer details. Additionally, it includes a summary of equity compensation plans, highlighting the number of securities to be issued and their exercise prices as of December 31, 2020. The section emphasizes the importance of corporate governance and the role of the compensation committee in overseeing executive compensation.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 107,
+      "end_page": 107,
+      "summary": "This section provides an overview of executive compensation, incorporating details from the Proxy Statement regarding director and executive compensation, as well as the Compensation Committee's interlocks and reports. It includes a table detailing equity compensation plans as of December 31, 2020, specifying the number of securities to be issued upon exercise of outstanding options and their average exercise price. Additionally, it notes the presence of restricted stock units and performance share units that do not have an exercise price, emphasizing the company's approach to equity compensation.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 107,
+      "end_page": 107,
+      "summary": "This section provides information on the security ownership of certain beneficial owners and management, referencing details from the Proxy Statement. It includes a table summarizing equity compensation plan information as of December 31, 2020, detailing the number of securities to be issued upon exercise of outstanding options, the weighted average exercise price, and the securities available for future issuance. Specifically, it notes that there are 9,227 thousand securities under approved plans with an average exercise price of $23.87, and mentions outstanding restricted stock units and performance share units that do not have an exercise price.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 107,
+      "end_page": 107,
+      "summary": "This section discusses the company's relationships and transactions with related persons, as well as the independence of its directors. It incorporates information from the Proxy Statement regarding these topics, providing insights into potential conflicts of interest and governance practices. Readers can learn about the criteria used to assess director independence and any significant transactions that may affect the company's operations or governance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 107,
+      "end_page": 107,
+      "summary": "This section references the information regarding the ratification of the selection of the independent registered public accounting firm, which is detailed in the Proxy Statement. Readers can learn about the accounting fees and services provided by the firm, including any potential conflicts of interest or independence issues. The section emphasizes the importance of transparency in financial reporting and the role of external auditors in ensuring compliance with accounting standards.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 15. Exhibits, Financial Statements Schedules",
+      "level": 1,
+      "start_page": 108,
+      "end_page": 115,
+      "summary": "This section outlines the exhibits and financial statement schedules included in the report. It lists the consolidated financial statements of the Company, including balance sheets, statements of operations, and cash flows for the years ended December 31, 2020, 2019, and 2018. Additionally, it provides a financial statement schedule detailing valuation and qualifying accounts. The section also enumerates various exhibits, such as transaction agreements, indentures, and employment agreements, which are incorporated by reference from previous filings. Readers can find specific details about the Company's financial position and contractual obligations through these documents.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 116,
+      "end_page": 150,
+      "summary": "This section provides a summary of the Form 10-K filing for MGM Resorts International, including key exhibits and certifications related to the company's financial reporting. It lists important documents such as the CEO Transition Agreement, consent from independent auditors, and certifications from the CEO and CFO regarding the accuracy of the report. Additionally, it outlines the company's common stock details, including authorized shares, dividend rights, and voting rights, as well as provisions for stockholder meetings and director nominations. The section concludes with signatures from key executives, affirming the report's validity.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

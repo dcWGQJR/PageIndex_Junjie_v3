@@ -10,7 +10,7 @@ class Node:
 
     `start_page`/`end_page` are 1-indexed and inclusive. A node's range covers
     all of its descendants. `source` records how the node was created:
-    "root", "toc", "window" or "front_matter".
+    "root", "embedded_toc", "printed_toc", "window", "preface", or "toc".
     """
 
     node_id: str

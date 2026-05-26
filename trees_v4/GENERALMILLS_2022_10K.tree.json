@@ -1,0 +1,231 @@
+{
+  "node_id": "root",
+  "title": "GENERALMILLS_2022_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 127,
+  "summary": "The General Mills 2022 Form 10-K provides a comprehensive overview of the company's business operations, financial performance, and governance practices for the fiscal year ending May 29, 2022. It details the company's four operational segments, key risk factors, and legal proceedings, while also discussing management's analysis of financial results, including a 5% increase in net sales. The report includes information on executive compensation, stock ownership, and director independence, alongside financial statements and disclosures about market risks. Additionally, it confirms the effectiveness of internal controls and the absence of unresolved staff comments, ensuring compliance with regulatory requirements.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "General Mills Form 10-K Front Matter Overview",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 3,
+      "summary": "This section contains the front matter of General Mills, Inc.'s Form 10-K for the fiscal year ending May 29, 2022. It includes essential company information such as the registrant's name, address, and contact details, as well as the securities registered under the Securities Exchange Act. The section also indicates the company's filing status, including its classification as a large accelerated filer and its compliance with reporting requirements. Additionally, it provides the aggregate market value of common stock held by non-affiliates and the number of shares outstanding, along with a table of contents outlining the report's structure.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 4,
+      "end_page": 7,
+      "summary": "General Mills, a leading global food manufacturer, operates under four segments: North America Retail, International, Pet, and North America Foodservice. The company offers a diverse range of products, including snacks, cereals, meals, and pet food, and has significant joint ventures like Cereal Partners Worldwide with Nestlé. Key customers include major retailers such as Walmart, which accounted for 20% of net sales in fiscal 2022. The section also discusses the competitive landscape, raw material sourcing, trademark management, and the importance of human capital, highlighting the company's commitment to diversity and employee engagement.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 8,
+      "end_page": 13,
+      "summary": "This section outlines various risk factors that could adversely affect the company's business, financial condition, and results of operations. Key risks include the impact of the COVID-19 pandemic on sales, supply chain disruptions, and changes in consumer demand. The company faces intense competition in the food industry, which could affect its market share and profitability. Additionally, fluctuations in commodity prices, regulatory compliance issues, and potential product recalls pose significant risks. The section emphasizes the importance of maintaining brand perception and adapting to changing consumer preferences to mitigate these risks.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 14,
+      "end_page": 14,
+      "summary": "This section indicates that there are no unresolved staff comments related to the company's financial reporting or operations. It highlights the company's assessment of goodwill and intangible assets, emphasizing the importance of fair value estimates based on discounted cash flow models. The section also notes that the company evaluates the useful lives of intangible assets and tests them for impairment annually, particularly in light of changing market conditions. Additionally, it mentions specific brands that have experienced declining performance, which are under ongoing monitoring.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 14,
+      "end_page": 14,
+      "summary": "This section outlines the company's properties, including ownership of its principal executive offices and main research facilities located in the Minneapolis, Minnesota metropolitan area. It also mentions the operation of various manufacturing facilities, sales and administrative offices, warehouses, and distribution centers globally. The information highlights the company's infrastructure and operational footprint, which supports its business activities.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "As of May 29, 2022, the company is involved in various pending or threatened legal actions related to its business operations. The section indicates that, in the company's opinion, there are no claims or litigation that are likely to materially affect its financial position or operational results. Additionally, it references environmental matters discussed in another section of the report, suggesting that some legal issues may pertain to environmental concerns.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 15,
+      "end_page": 15,
+      "summary": "This section states that there are no mine safety disclosures to report as of the specified date. It indicates compliance with regulations requiring the disclosure of mine safety information, but confirms that the company has no relevant incidents or issues to disclose. Readers can learn that the company operates without mine safety concerns that would necessitate reporting.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 15,
+      "end_page": 16,
+      "summary": "This section provides an overview of the market for the registrant's common equity, specifically focusing on the common stock listed on the New York Stock Exchange under the symbol 'GIS'. As of June 15, 2022, there were approximately 25,000 record holders of the common stock. It details the shares purchased during the fiscal quarter ended May 29, 2022, including the total number of shares, average price paid per share, and shares purchased as part of a publicly announced program. Additionally, it mentions a new Board authorization for the repurchase of up to 100,000,000 shares, allowing for various purchasing methods without a specified expiration date.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 17,
+      "end_page": 39,
+      "summary": "This section provides a comprehensive analysis of the company's financial condition and operational results for fiscal 2022. Key highlights include a 5% increase in consolidated net sales to $19 billion, driven by a 6% organic net sales growth, and an 11% rise in operating profit to $3.5 billion. The discussion outlines the impact of inflation, supply chain disruptions, and strategic initiatives under the Accelerate strategy aimed at sustainable growth. It also details segment performance, with notable growth in the Pet segment (30% increase in net sales) and challenges in the International segment (9% decrease in net sales). Future expectations for fiscal 2023 include projected organic net sales growth of 4-5% and adjusted operating profit fluctuations due to ongoing economic conditions.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 40,
+      "end_page": 41,
+      "summary": "This section discusses the company's exposure to market risks, including fluctuations in interest rates, foreign exchange rates, commodity prices, and equity prices, which can impact earnings and cash flows. It outlines the company's strategies for managing these risks through hedging transactions with highly rated counterparties. The section also presents a Value at Risk (VAR) analysis, estimating potential losses from adverse market changes, using a Monte Carlo methodology at a 95% confidence level. Specific figures for interest rate, foreign currency, commodity, and equity instruments are provided, highlighting changes in market volatility over time.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 42,
+      "end_page": 90,
+      "summary": "This section provides the consolidated financial statements of General Mills, Inc. for the fiscal years ending May 29, 2022, May 30, 2021, and May 31, 2020, including the balance sheets, income statements, cash flow statements, and statements of equity. It outlines management's responsibilities for financial reporting, the independent auditor's report, and critical audit matters, particularly focusing on the valuation of goodwill and brand intangible assets. Readers can learn about the company's financial performance, including net sales, earnings, and comprehensive income, as well as details on assets, liabilities, and equity. Additionally, the section includes notes on significant accounting policies and practices, providing insights into how financial data is prepared and reported in accordance with U.S. GAAP.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 91,
+      "end_page": 91,
+      "summary": "This section reports that there were no changes or disagreements with accountants regarding accounting and financial disclosure. It confirms the effectiveness of the company's disclosure controls and procedures as evaluated by the Chief Executive Officer and Chief Financial Officer as of May 29, 2022. Additionally, it states that there were no changes in internal control over financial reporting that materially affected or are likely to affect the controls. The management's assessment of internal control effectiveness was based on COSO criteria, and an independent accounting firm's report on this effectiveness is referenced.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 91,
+      "end_page": 91,
+      "summary": "This section discusses the evaluation of the effectiveness of the company's disclosure controls and procedures, as conducted by management, including the Chief Executive Officer and Chief Financial Officer, as of May 29, 2022. It confirms that these controls were effective in ensuring timely and accurate reporting of required information under the 1934 Act. Additionally, it states that there were no changes in internal control over financial reporting that materially affected or were likely to affect the controls. The management's assessment was based on COSO criteria, and an independent accounting firm's report on the effectiveness of these controls is referenced.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 91,
+      "end_page": 91,
+      "summary": "This section, Item 9B, states that there is no additional information to disclose. It follows the previous items related to changes in accountants and internal controls, indicating that there are no significant updates or issues to report. The section serves to confirm the absence of any noteworthy events or disclosures that would require attention from stakeholders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 92,
+      "end_page": 92,
+      "summary": "This section incorporates information from the definitive Proxy Statement for the 2022 Annual Meeting of Shareholders, detailing the election of directors and shareholder nominations. It references the executive officers' information found in Item 1 and outlines the Audit Committee's composition and financial experts. Additionally, it mentions the adoption of a Code of Conduct applicable to all employees, including key officers, and states that amendments and waivers will be posted on the company's website. The section serves to inform shareholders about governance practices and the structure of the board and committees.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 92,
+      "end_page": 92,
+      "summary": "This section references the detailed information on executive compensation, director compensation, and risk management oversight found in the definitive Proxy Statement for the 2022 Annual Meeting of Shareholders. Readers can learn about the compensation structure for executives and directors, including salary, bonuses, stock options, and other incentives. Additionally, it highlights the company's approach to overseeing risk management related to compensation practices. This information is crucial for understanding how compensation aligns with company performance and governance standards.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 92,
+      "end_page": 92,
+      "summary": "This section provides information on the ownership of General Mills common stock by directors, officers, and certain beneficial owners, as well as details on equity compensation plans. It references specific sections from the definitive Proxy Statement for the 2022 Annual Meeting of Shareholders, which contain comprehensive data on stock ownership and compensation structures. Readers can learn about the distribution of stock ownership among key management and the implications for corporate governance and shareholder relations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 92,
+      "end_page": 92,
+      "summary": "This section references the 'Board Independence and Related Person Transactions' from the definitive Proxy Statement for the 2022 Annual Meeting of Shareholders. It discusses the relationships and transactions involving directors and their independence, ensuring compliance with governance standards. Readers can learn about the criteria for director independence and any related transactions that may affect governance or conflict of interest considerations.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 92,
+      "end_page": 92,
+      "summary": "This section references the 'Independent Registered Public Accounting Firm Fees' from the definitive Proxy Statement for the 2022 Annual Meeting of Shareholders. It provides details on the fees paid to the independent accounting firm for various services, which may include audit and non-audit services. Readers can learn about the financial relationship between the company and its auditors, including the nature and extent of services provided. This information is crucial for understanding the company's governance and financial oversight practices.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 15. Exhibits and Financial Statement Schedules",
+      "level": 1,
+      "start_page": 92,
+      "end_page": 94,
+      "summary": "This section provides a comprehensive overview of the financial statements and exhibits included in the report. It lists the consolidated financial statements for the fiscal years ending May 29, 2022, May 30, 2021, and May 31, 2020, including earnings, comprehensive income, balance sheets, cash flows, and total equity. Additionally, it details the financial statement schedule related to valuation and qualifying accounts. The section also enumerates various exhibits, such as the amended certificate of incorporation, by-laws, and multiple compensation plans, all referenced from previous filings, which can provide insights into the company's governance and financial structure.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 95,
+      "end_page": 95,
+      "summary": "This section indicates that there is no applicable information for Item 16 of the Form 10-K Summary. It does not provide any specific details or facts regarding the company's financial performance or operations. Readers will learn that this section is not relevant for the current reporting period.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Signatures",
+      "level": 1,
+      "start_page": 96,
+      "end_page": 127,
+      "summary": "This section includes the signatures of key executives and directors of General Mills, Inc., affirming the report's compliance with the Securities Exchange Act of 1934. It lists the names, titles, and dates of signature for individuals such as the CEO, CFO, and various directors, indicating their roles in the company. The section serves to validate the authenticity of the report and the accountability of its signatories. Readers can learn about the corporate governance structure and the individuals responsible for the company's financial reporting.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

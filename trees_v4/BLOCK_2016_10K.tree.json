@@ -1,0 +1,231 @@
+{
+  "node_id": "root",
+  "title": "BLOCK_2016_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 121,
+  "summary": "This section contains Square, Inc.'s Form 10-K for the fiscal year ending December 31, 2016, detailing the company's business model, risk factors, properties, legal proceedings, and financial data. It includes information on the company's market performance, selected financial metrics, management's analysis of operations, and disclosures about market risks. The section also covers corporate governance, executive compensation, and internal controls, along with signatures from key executives. Additionally, it outlines unresolved staff comments and provides insights into the company's compliance with regulatory requirements.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "Front Matter of Square, Inc. Form 10-K",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 3,
+      "summary": "This section includes the front matter of Square, Inc.'s Form 10-K for the fiscal year ending December 31, 2016. It provides essential company information such as the registrant's name, jurisdiction of incorporation, and contact details. The section also outlines the types of securities registered and includes a market value estimate of the company's common equity. Additionally, it incorporates a table of contents for the report and a special note regarding forward-looking statements, highlighting the risks and uncertainties associated with future performance.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 4,
+      "end_page": 14,
+      "summary": "This section outlines Square's business model, which began in 2009 to enable small businesses to accept card payments. It details the company's evolution into a comprehensive commerce ecosystem, offering managed payment solutions, point-of-sale software, and additional services like Square Capital for loans and Caviar for food delivery. Readers can learn about Square's diverse seller base, which includes various industries and geographies, and its financial performance, including Gross Payment Volume (GPV) growth and revenue metrics. The section also highlights the technology and design focus that differentiates Square in a competitive market, emphasizing its commitment to economic empowerment for sellers.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 15,
+      "end_page": 32,
+      "summary": "This section outlines various risk factors associated with investing in the company's securities, emphasizing the potential for significant financial loss. Key risks include the reliance on a strong brand reputation, challenges in sustaining revenue growth, and the impact of competition in the payments industry. The company faces risks related to data security, regulatory compliance, and the effectiveness of its risk management strategies. Additionally, fluctuations in quarterly financial results and dependence on key management personnel are highlighted as critical factors that could adversely affect business performance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 33,
+      "end_page": 33,
+      "summary": "This section states that there are no unresolved staff comments regarding the company's filings or disclosures. It indicates that the company has addressed all inquiries or concerns raised by regulatory staff, suggesting compliance with relevant regulations. This lack of unresolved comments may reflect positively on the company's governance and transparency practices. Readers can learn that the company is currently in good standing with regulatory bodies in this regard.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 34,
+      "end_page": 34,
+      "summary": "This section details the properties of the corporation, highlighting the location and size of its headquarters in San Francisco, California, which spans 338,910 square feet and has a lease expiring in 2023. It also mentions an additional leased space of 43,689 square feet in New York for product development and sales, with a lease expiration in 2025. The section concludes by stating that the company has offices in various other locations and believes its facilities adequately meet current operational needs.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 35,
+      "end_page": 35,
+      "summary": "This section outlines the company's involvement in various legal proceedings, particularly a class action lawsuit related to the misclassification of independent contractors in its Caviar business. It details the timeline of the lawsuit initiated by Jeffry Levin, including the court's decision to compel arbitration and subsequent appeal. Additionally, it mentions a new PAGA claim filed by other couriers and the company's participation in mediation efforts. The section concludes with a note on the uncertainty of potential liabilities from other litigation matters and their possible impact on the company's financial position.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 36,
+      "end_page": 36,
+      "summary": "This section indicates that mine safety disclosures are not applicable for the reporting entity. It suggests that there are no relevant safety incidents or regulatory requirements to report regarding mine safety. Readers can learn that the company does not have any mine safety issues to disclose for the reporting period.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 37,
+      "end_page": 38,
+      "summary": "This section provides information on the market for the registrant's Class A common stock, which began trading on the New York Stock Exchange under the symbol 'SQ' on November 19, 2015. It includes a table detailing the high and low sales prices per share for the years ended December 31, 2015, and 2016. As of February 17, 2017, there were 46 holders of record for Class A and 168 for Class B common stock. The section also states that the company has never declared or paid cash dividends and does not expect to do so in the foreseeable future. Additionally, it notes that there have been no unregistered sales of equity securities or issuer purchases of equity securities.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Selected Financial Data",
+      "level": 1,
+      "start_page": 39,
+      "end_page": 44,
+      "summary": "This section provides selected financial data for Square, Inc. over several years, including consolidated statements of operations and balance sheet data. Key figures include total net revenue, gross profit, operating expenses, and net loss for the years ended December 31 from 2012 to 2016. It also details adjusted financial metrics such as Adjusted Revenue, Adjusted EBITDA, and Adjusted Net Income, which exclude the impact of Starbucks transactions. Readers can learn about the company's revenue sources, cost structure, and performance trends, as well as the implications of excluding certain costs for a clearer financial analysis.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 45,
+      "end_page": 62,
+      "summary": "This section provides a comprehensive analysis of Square's financial condition and operational results, detailing revenue growth across various segments, including transaction-based, subscription, and hardware revenues. It highlights a significant increase in Gross Payment Volume (GPV) and outlines the company's diverse product offerings, such as Square Capital and Caviar. The discussion includes a breakdown of operating expenses, revenue recognition methods, and the impact of changes in revenue line items. Additionally, it addresses transaction losses and the company's strategies for managing costs and enhancing profitability.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 63,
+      "end_page": 64,
+      "summary": "This section discusses the company's exposure to market risks, specifically interest rate changes and foreign currency fluctuations. It details that as of December 31, 2016, the company's cash and marketable securities are primarily in short-term instruments, indicating minimal sensitivity to interest rate changes. Additionally, while most revenue is earned in U.S. dollars, foreign operations may be affected by currency fluctuations, particularly in the Japanese Yen, Canadian Dollar, and Australian Dollar. However, a hypothetical 10% change in interest rates or exchange rates is not expected to materially impact financial results.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 65,
+      "end_page": 102,
+      "summary": "This section provides the consolidated financial statements of Square, Inc. for the years ending December 31, 2016, 2015, and 2014, including the balance sheets, statements of operations, comprehensive loss, stockholders' equity, and cash flows. It includes an independent auditor's report affirming that the financial statements present a fair view of the company's financial position in accordance with U.S. GAAP. Key financial metrics such as total revenue, net loss, and stockholders' equity are detailed, along with notes explaining significant accounting policies, revenue recognition, and adjustments made for prior periods. Readers can learn about the company's financial health, operational performance, and accounting practices during the specified periods.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 103,
+      "end_page": 103,
+      "summary": "This section discusses the Company's involvement in various litigation matters and disputes arising in the ordinary course of business, noting that it cannot estimate potential liability exposure at this time. It emphasizes that while the Company does not expect these matters to materially affect its financial position or operations, the outcomes could be significant depending on income levels for specific periods. Additionally, it provides segment and geographical information, indicating that the Company operates as a single segment with revenue primarily from the United States, and details revenue figures for the years 2014 to 2016, along with long-lived assets by geographic area.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 103,
+      "end_page": 103,
+      "summary": "This section discusses the Company's involvement in various litigation matters and disputes, noting that while it cannot estimate potential liability, it does not expect these matters to materially affect its financial position. It also defines operating segments, stating that the Company operates as a single segment evaluated by the chief operating decision maker. Revenue is detailed by geography, showing significant growth in the United States and modest international revenue, with no single international country contributing over 10% of total revenue. Additionally, long-lived assets are reported by geographic area, indicating a majority located in the United States.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 104,
+      "end_page": 104,
+      "summary": "This section provides supplemental cash flow information for the years ended December 31 for 2014, 2015, and 2016, detailing cash paid for interest and income taxes. It also includes disclosures of non-cash investing and financing activities, such as purchases of property and equipment and conversions of preferred stock to common stock. Additionally, it mentions a significant subsequent event involving a Warrant Cancellation and Payment Agreement with Starbucks, where the company agreed to pay approximately $54.8 million. The section concludes with a statement indicating there were no changes or disagreements with accountants regarding financial disclosures.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 105,
+      "end_page": 105,
+      "summary": "This section discusses the evaluation of internal control over financial reporting as required by the Exchange Act. It states that there were no changes identified during the quarter ended December 31, 2016, that materially affected internal controls. Management conducted an assessment based on COSO's 2013 framework and concluded that the internal controls were effective as of the same date. Additionally, the effectiveness of these controls was audited by KPMG LLP, an independent accounting firm, whose report is included in the document.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 105,
+      "end_page": 105,
+      "summary": "This section discusses the evaluation of internal control over financial reporting as required by the Exchange Act. It states that there were no changes identified that materially affected the internal controls during the quarter ended December 31, 2016. Management conducted an assessment based on COSO's Integrated Framework and concluded that the internal controls were effective as of the same date. Additionally, the effectiveness of these controls was audited by KPMG LLP, providing an independent verification of the management's assessment.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 105,
+      "end_page": 105,
+      "summary": "This section discusses the evaluation of internal control over financial reporting as required by the Exchange Act. It states that there were no changes identified during the quarter ended December 31, 2016, that materially affected internal controls. Management conducted an assessment based on COSO's 2013 framework and concluded that the internal controls were effective as of the same date. Additionally, the effectiveness of these controls was audited by KPMG LLP, an independent accounting firm, whose report is included in the document.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 105,
+      "end_page": 105,
+      "summary": "This section discusses the evaluation of internal control over financial reporting as required by the Exchange Act. It states that there were no changes identified that materially affected the internal controls during the quarter ended December 31, 2016. Management conducted an assessment based on COSO's 2013 framework and concluded that the internal controls were effective as of that date. Additionally, the effectiveness of these controls was audited by KPMG LLP, providing an independent verification of the management's assessment.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 105,
+      "end_page": 105,
+      "summary": "This section discusses the evaluation of internal control over financial reporting as required by the Exchange Act. It states that there were no changes identified that materially affected the internal controls during the quarter ended December 31, 2016. Management conducted an assessment based on COSO's 2013 framework and concluded that the internal controls were effective as of the same date. The effectiveness of these controls was also audited by KPMG LLP, an independent accounting firm, whose report is included in the document.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 15. Exhibits, Financial Statement Schedules",
+      "level": 1,
+      "start_page": 106,
+      "end_page": 106,
+      "summary": "This section outlines the incorporation by reference of various items into the definitive proxy statement to be filed with the SEC. It specifies that information regarding directors, executive officers, corporate governance, executive compensation, security ownership, related transactions, and accounting fees will be detailed in the upcoming Proxy Statement. The filing is required to occur within 120 days after the end of the fiscal year, which ended on December 31, 2016, in preparation for the 2017 annual meeting of stockholders.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Signatures",
+      "level": 1,
+      "start_page": 106,
+      "end_page": 121,
+      "summary": "This section includes the signatures of key executives and directors of Square, Inc. as required by the Securities Exchange Act of 1934, confirming the authenticity of the Annual Report on Form 10-K. It details the individuals who have signed on behalf of the company, including Jack Dorsey as President and CEO, and outlines their roles. Additionally, it includes a Power of Attorney granting authority to specific individuals to sign amendments to the report. The section also references various exhibits and agreements related to executive compensation and corporate governance.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}

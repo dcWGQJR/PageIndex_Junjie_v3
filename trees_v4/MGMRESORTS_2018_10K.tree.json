@@ -1,0 +1,271 @@
+{
+  "node_id": "root",
+  "title": "MGMRESORTS_2018_10K.pdf",
+  "level": 0,
+  "start_page": 1,
+  "end_page": 188,
+  "summary": "The MGM Resorts International Form 10-K for the fiscal year ending December 31, 2018, provides a comprehensive overview of the company's business operations, financial performance, and governance. It includes detailed sections on business structure, risk factors, properties, legal proceedings, and financial statements, highlighting significant acquisitions, debt levels, and market risks. The report also discusses executive compensation, stockholder matters, and internal controls, ensuring compliance with SEC regulations. Additionally, it outlines the company's strategic initiatives and financial health through selected financial data and management's analysis.",
+  "source": "root",
+  "children": [
+    {
+      "node_id": "f1",
+      "title": "MGM Resorts International Form 10-K Front Matter",
+      "level": 1,
+      "start_page": 1,
+      "end_page": 2,
+      "summary": "This section contains the front matter for MGM Resorts International's Form 10-K for the fiscal year ending December 31, 2018. It includes essential company information such as the registrant's name, jurisdiction of incorporation, and contact details. The section also indicates the type of report being filed, whether the company is a well-known seasoned issuer, and provides details on the market value of the company's common stock. Additionally, it outlines the documents incorporated by reference and presents the table of contents for the report, listing various items and their corresponding page numbers.",
+      "source": "front_matter",
+      "children": []
+    },
+    {
+      "node_id": "p1",
+      "title": "Item 1. Business",
+      "level": 1,
+      "start_page": 3,
+      "end_page": 12,
+      "summary": "MGM Resorts International, a Delaware corporation established in 1986, operates integrated casino, hotel, and entertainment resorts in the U.S. and Macau. The section details the company's structure, including its subsidiary MGM Growth Properties LLC (MGP), which manages real estate assets through a master lease agreement. Key business developments include acquisitions of Borgata and Empire City Casino, and the opening of MGM National Harbor and MGM Cotai. The company emphasizes significant investments in resort renovations and amenities to maintain competitive advantages, while also discussing operational strategies, customer demographics, and competitive challenges in both domestic and international markets.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p2",
+      "title": "Item 1A. Risk Factors",
+      "level": 1,
+      "start_page": 13,
+      "end_page": 25,
+      "summary": "This section outlines various risk factors that could materially impact the company's business, financial position, and operational results. Key risks include substantial indebtedness, which as of December 31, 2018, amounted to approximately $15.3 billion, potentially limiting operational flexibility and increasing vulnerability to economic downturns. The company faces intense competition in the hotel, resort, and casino industries, which could adversely affect customer attraction and retention. Regulatory compliance is another significant risk, as extensive gaming regulations and potential changes in laws could impact operations. Additionally, economic conditions, particularly in key markets like China, could influence consumer spending and visitation rates, further affecting financial performance.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p3",
+      "title": "Item 1B. Unresolved Staff Comments",
+      "level": 1,
+      "start_page": 26,
+      "end_page": 26,
+      "summary": "This section addresses potential conflicts of interest involving directors and officers who serve on the boards of both the company and MGM China, which could lead to conflicting fiduciary obligations. It highlights the implications of these conflicts, particularly in relation to decisions affecting both entities and their respective stockholders. Additionally, it states that there are no unresolved staff comments related to these issues, indicating that the company has addressed any regulatory concerns.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p4",
+      "title": "Item 2. Properties",
+      "level": 1,
+      "start_page": 27,
+      "end_page": 27,
+      "summary": "This section details the properties owned or leased by the company, primarily focusing on significant land holdings as of December 31, 2018. It includes a table listing domestic properties, particularly those on the Las Vegas Strip, such as Bellagio, MGM Grand, and Mandalay Bay, along with their respective acreage and any ground leases. Additionally, it mentions regional operations in various U.S. locations and properties in Macau, highlighting the security interests tied to these assets under the company's senior credit facility. The section provides insights into the company's real estate portfolio and its financial implications.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p5",
+      "title": "Item 3. Legal Proceedings",
+      "level": 1,
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This section details ongoing legal proceedings involving the Company and its subsidiaries, primarily related to the October 1, 2017 shooting in Las Vegas. It outlines the nature of the lawsuits, which include claims for emotional distress, physical injury, and wrongful death, asserting negligence on the part of the Company. The section notes that litigation is currently stayed pending mediation and discusses the unpredictability of outcomes and potential liabilities. It also mentions that the Company believes it is unlikely to incur losses exceeding its insurance coverage, which includes provisions for legal fees. Additionally, it briefly states that the Company is involved in other routine legal matters that are not expected to materially impact its financial position.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p6",
+      "title": "Item 4. Mine Safety Disclosures",
+      "level": 1,
+      "start_page": 28,
+      "end_page": 28,
+      "summary": "This section states that the Mine Safety Disclosures are not applicable to the company. It indicates that there are no relevant mine safety issues or disclosures to report, suggesting that the company's operations do not involve mining activities that would require such disclosures. Readers can learn that the company is not subject to mine safety regulations or reporting requirements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p7",
+      "title": "Item 5. Market For Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "level": 1,
+      "start_page": 29,
+      "end_page": 30,
+      "summary": "This section provides information on the trading of the registrant's common stock, which is listed on the NYSE under the symbol 'MGM', and notes there were approximately 3,657 record holders as of February 22, 2019. It outlines the company's dividend policy, indicating that future dividends are subject to the discretion of the Board of Directors and dependent on cash flow from subsidiaries, with potential restrictions from credit facilities. The section also details share repurchases, including a $2.0 billion stock repurchase program initiated in May 2018, with specific data on shares repurchased during the quarter ended December 31, 2018. Additionally, it includes a performance graph comparing the company's total shareholder return to major indices over a five-year period, although it clarifies that this graph is not filed for regulatory purposes.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p8",
+      "title": "Item 6. Selected Financial Data",
+      "level": 1,
+      "start_page": 31,
+      "end_page": 32,
+      "summary": "This section presents selected historical financial data for MGM Resorts International from 2014 to 2018, including net revenues, operating income, net income, earnings per share, total assets, total debt, and stockholders' equity. Key financial metrics are provided in thousands, with specific figures for each year, highlighting trends and changes over time. The section also notes significant events affecting year-to-year comparability, such as acquisitions, gains from sales, impairment charges, and tax benefits related to the U.S. Tax Cuts and Jobs Act. Additionally, it mentions the adoption of ASC 606 for revenue recognition, impacting financial data for the specified years.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p9",
+      "title": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations",
+      "level": 1,
+      "start_page": 33,
+      "end_page": 52,
+      "summary": "This section provides a comprehensive analysis of MGM Resorts' financial condition and operational results, focusing on its casino resort business. Key topics include revenue generation from gaming and non-gaming services, capital allocation strategies, and the impact of market conditions on performance, particularly in Las Vegas and Macau. The section highlights significant financial metrics such as net revenues, operating income, and Adjusted EBITDA, along with performance indicators for gaming and hotel operations. It also discusses the effects of new openings, competitive pressures, and strategic initiatives like the MGM 2020 plan aimed at cost reduction and efficiency improvements.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p10",
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "level": 1,
+      "start_page": 53,
+      "end_page": 53,
+      "summary": "This section discusses the company's exposure to market risks, particularly interest rate risk associated with variable rate long-term debt. It outlines strategies to mitigate this risk, such as managing the mix of fixed and variable rate borrowings and utilizing interest rate swap agreements. As of December 31, 2018, variable rate borrowings constituted about 31% of total borrowings, with specific details on interest rates and notional amounts of swaps. Additionally, the section addresses risks from foreign currency exchange rates, particularly related to operations in China and Macau, highlighting potential impacts on cash and debt values due to fluctuations in the Hong Kong dollar.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p11",
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "level": 1,
+      "start_page": 54,
+      "end_page": 56,
+      "summary": "This section presents the financial statements and supplementary data for MGM Resorts International, including the reports of independent auditors on internal control over financial reporting and consolidated financial statements. It includes consolidated balance sheets for December 31, 2018 and 2017, as well as statements of operations, comprehensive income, cash flows, and stockholders' equity for the years ended December 31, 2018, 2017, and 2016. The auditors express unqualified opinions on both the internal controls and the financial statements, affirming their compliance with generally accepted accounting principles. Additionally, it notes that the financial statement schedule should be read in conjunction with the consolidated financial statements, and outlines the inherent limitations of internal controls over financial reporting.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p12",
+      "title": "Consolidated Financial Statements",
+      "level": 1,
+      "start_page": 57,
+      "end_page": 61,
+      "summary": "This section presents the consolidated financial statements of MGM Resorts International for the years ended December 31, 2018, 2017, and 2016. It includes the consolidated balance sheets detailing assets, liabilities, and stockholders' equity, highlighting a total asset increase from $29.16 billion in 2017 to $30.21 billion in 2018. The consolidated statements of operations show revenue growth, particularly in casino and room revenues, with net income attributable to MGM Resorts International of $466.77 million in 2018. Additionally, the section provides comprehensive income statements and cash flow statements, illustrating cash flows from operating, investing, and financing activities, along with stockholders' equity changes over the three years. Readers can learn about the company's financial health, revenue sources, and changes in equity and cash flows.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p13",
+      "title": "Notes to Consolidated Financial Statements",
+      "level": 1,
+      "start_page": 62,
+      "end_page": 102,
+      "summary": "This section provides detailed notes to the consolidated financial statements of MGM Resorts International, covering the organization, accounting policies, and financial performance. Key topics include the company's structure as a holding entity for various casino and hotel properties, including those in Las Vegas and other regions. It outlines the principles of consolidation, management's use of estimates, fair value measurements, and revenue recognition methods for different services such as casino wagers, hotel stays, and food and beverage sales. Additionally, it discusses the treatment of investments in unconsolidated affiliates, goodwill, and contract-related liabilities, providing insights into the company's financial health and operational strategies.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p14",
+      "title": "Schedule II – Valuation and Qualifying Accounts",
+      "level": 1,
+      "start_page": 103,
+      "end_page": 103,
+      "summary": "This section provides a detailed breakdown of the valuation and qualifying accounts for the years ended December 31 from 2016 to 2018. It includes specific figures for the allowance for doubtful accounts, showing the balance at the beginning of each period, provisions for doubtful accounts, recoveries, and the ending balance. Additionally, it outlines the deferred income tax valuation allowance, detailing the beginning balance, increases, decreases, and ending balance for the same years. Readers can learn about the trends in doubtful accounts and deferred tax allowances over the specified periods.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p15",
+      "title": "Item 9. Changes In and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "level": 1,
+      "start_page": 104,
+      "end_page": 104,
+      "summary": "This section indicates that there were no changes or disagreements with accountants regarding accounting and financial disclosure. It confirms the effectiveness of the company's disclosure controls and procedures as of December 31, 2018, ensuring compliance with SEC regulations. Additionally, it outlines management's responsibilities in maintaining internal control over financial reporting, including hiring skilled personnel, establishing written policies, and conducting internal audits. The section concludes with management's evaluation of the internal control system, affirming its effectiveness based on established criteria.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p16",
+      "title": "Item 9A. Controls and Procedures",
+      "level": 1,
+      "start_page": 104,
+      "end_page": 104,
+      "summary": "This section discusses the effectiveness of the company's disclosure controls and procedures as of December 31, 2018, confirming they provide reasonable assurance for timely and accurate reporting as required by the SEC. It states that there were no changes in internal control over financial reporting that materially affected its effectiveness during the quarter. Management is responsible for maintaining adequate internal controls, which include hiring skilled personnel, establishing written policies, and ensuring oversight by an independent Audit Committee. The evaluation of internal controls was conducted using established criteria, concluding that the controls are effective in achieving their objectives.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p17",
+      "title": "Item 9B. Other Information",
+      "level": 1,
+      "start_page": 105,
+      "end_page": 105,
+      "summary": "This section, Item 9B, states that there is no additional information to report. It serves as a placeholder indicating that no significant updates or disclosures are necessary at this time. Readers can expect to find no new developments or changes related to the company in this section.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p18",
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "level": 1,
+      "start_page": 105,
+      "end_page": 105,
+      "summary": "This section references information about the company's directors, executive officers, and corporate governance practices, which can be found in the Proxy Statement for the 2019 Annual Meeting of Stockholders. It includes details on the election of directors and the governance framework guiding the company's operations. Additionally, it incorporates information on executive compensation and director compensation, highlighting the company's approach to governance and compensation structures. Readers can learn about the roles and responsibilities of key executives and the governance policies in place.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p19",
+      "title": "Item 11. Executive Compensation",
+      "level": 1,
+      "start_page": 105,
+      "end_page": 105,
+      "summary": "This section discusses executive compensation, referencing detailed information found in the company's Proxy Statement, including director and executive compensation, as well as insights into the Compensation Committee's interlocks and insider participation. It also includes a table detailing equity compensation plans as of December 31, 2018, showing the number of securities to be issued upon exercise of outstanding options and their weighted average exercise price. Additionally, it notes the presence of restricted stock units and performance share units that do not have an exercise price, providing a comprehensive overview of the company's compensation structure.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p20",
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "level": 1,
+      "start_page": 105,
+      "end_page": 105,
+      "summary": "This section provides information on the security ownership of certain beneficial owners and management, referencing details from the Proxy Statement. It includes a table summarizing equity compensation plans as of December 31, 2018, detailing the number of securities to be issued upon exercise of outstanding options, the weighted average exercise price, and the securities available for future issuance. The section highlights that there are 13,494 thousand securities under approved plans with a weighted average exercise price of $21.81, and notes the presence of restricted stock units and performance share units that do not have an exercise price. Additionally, it incorporates information on principal stockholders and the election of directors from the Proxy Statement.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p21",
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "level": 1,
+      "start_page": 105,
+      "end_page": 105,
+      "summary": "This section references the information on 'Transactions with Related Persons' and 'Corporate Governance' found in the Proxy Statement, which details the company's policies and practices regarding related party transactions and the independence of its directors. Readers can learn about the nature of relationships between the company and its directors or executives, as well as the criteria used to assess director independence. This information is crucial for understanding potential conflicts of interest and the governance structure of the company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p22",
+      "title": "Item 14. Principal Accounting Fees and Services",
+      "level": 1,
+      "start_page": 105,
+      "end_page": 105,
+      "summary": "This section references the information regarding the selection of the independent registered public accounting firm as detailed in the Proxy Statement. It indicates that the principal accounting fees and services provided by the firm will be discussed in that document. Readers can expect to find specifics about the fees charged for audit and non-audit services, as well as the rationale for selecting the accounting firm. This information is crucial for understanding the financial oversight and compliance practices of the company.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p23",
+      "title": "Item 15. Exhibits, Financial Statements Schedules",
+      "level": 1,
+      "start_page": 106,
+      "end_page": 111,
+      "summary": "This section provides a comprehensive overview of the financial statements and exhibits related to the Company, including consolidated financial statements for the years ended December 31, 2018, 2017, and 2016. It includes reports from independent auditors on internal controls and consolidated financial statements, as well as detailed financial schedules such as Schedule II for valuation and qualifying accounts. Additionally, it lists various exhibits, including agreements, indentures, and plans related to the Company's operations and financial obligations, many of which are incorporated by reference from previous filings. Readers can learn about the Company's financial health, governance documents, and contractual obligations through these disclosures.",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p24",
+      "title": "Item 16. Form 10-K Summary",
+      "level": 1,
+      "start_page": 112,
+      "end_page": 112,
+      "summary": "This section, Item 16 of the Form 10-K Summary, indicates that there are no additional disclosures or summaries provided. It serves as a placeholder, suggesting that all relevant information has been covered in previous sections of the report. Readers will not find any new data or insights in this section, as it explicitly states 'None.'",
+      "source": "printed_toc",
+      "children": []
+    },
+    {
+      "node_id": "p25",
+      "title": "Signatures",
+      "level": 1,
+      "start_page": 113,
+      "end_page": 188,
+      "summary": "This section contains the signatures of key executives and directors of MGM Resorts International, affirming the report's compliance with the Securities Exchange Act of 1934. It includes the names, titles, and dates of signature for each individual, such as James J. Murren (Chairman and CEO) and Daniel J. D'Arrigo (CFO). The section serves to validate the report and ensure accountability from the company's leadership. Readers can learn about the corporate governance structure and the individuals responsible for the company's financial reporting.",
+      "source": "printed_toc",
+      "children": []
+    }
+  ]
+}
