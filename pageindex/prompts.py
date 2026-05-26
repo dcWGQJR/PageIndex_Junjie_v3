@@ -127,14 +127,26 @@ SECTION TEXT:
 """
 
 
-def parent_summary_user(node: Node, children_block: str, needs_title: bool) -> str:
+def parent_summary_user(node: Node, children_block: str, needs_title: bool,
+                        extra_text: str = "") -> str:
+    if extra_text.strip():
+        extra_block = (
+            "\nThis section also has preamble text (content in its page range "
+            "that is NOT inside any subsection - typically introductory paragraphs "
+            "before the first subsection):\n\n"
+            f"{extra_text.strip()}\n"
+        )
+        basis = "based on its subsections AND the preamble text above"
+    else:
+        extra_block = ""
+        basis = "based on its subsections"
     return f"""Section title: {node.title}
 This section is composed of the following subsections (title: summary):
 
 {children_block}
-
+{extra_block}
 Write "summary": 3-6 sentences describing what this section as a whole covers,
-based on its subsections. Be specific so it can be matched against search queries.
+{basis}. Be specific so it can be matched against search queries.
 {_title_clause(needs_title)}
 
 Return JSON: {{"summary": "...", "title": "..."}}

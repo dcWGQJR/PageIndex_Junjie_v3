@@ -340,21 +340,53 @@ def build_tree(pdf: PDFDocument, config: Config, llm: LLMClient,
     return root, used
 
 
+def _uncovered_text(node: Node, pdf: PDFDocument) -> str:
+    """Return PDF text from `node`'s page range NOT covered by any child.
+
+    With `assign_end_pages`, children cover [first_child.start_page, node.end_page]
+    seamlessly, so the only typical uncovered region is the parent's preamble at
+    [node.start_page, first_child.start_page - 1]. Inter-child gaps and trailing
+    pages are also handled for robustness.
+    """
+    if not node.children:
+        return ""
+    children = sorted(node.children, key=lambda c: c.start_page)
+    ranges: List[tuple] = []
+    cursor = node.start_page
+    for c in children:
+        if cursor < c.start_page:
+            ranges.append((cursor, c.start_page - 1))
+        cursor = max(cursor, c.end_page + 1)
+    if cursor <= node.end_page:
+        ranges.append((cursor, node.end_page))
+    parts = [pdf.text_range(s, e) for s, e in ranges]
+    return "\n\n".join(p for p in parts if p)
+
+
 def summarize_tree(root: Node, pdf: PDFDocument, config: Config, llm: LLMClient,
                    verbose: bool = True) -> None:
-    """Fill in `summary`, `text` (and refined titles) for every node, children first."""
+    """Fill in `summary`, `text` (and refined titles) for every node, children first.
+
+    Leaf `text` is the full page-range text. Parent `text` is only the *extra*
+    text not already held by any descendant (typically the preamble paragraphs
+    before the first subsection), so each character of the PDF is stored once.
+    Parent summaries are written from children summaries plus that extra text.
+    """
     for node in iter_post_order(root):
-        text = pdf.text_range(node.start_page, node.end_page)
-        node.text = text
         needs_title = node.source in ("window", "front_matter")
         if node.is_leaf():
+            text = pdf.text_range(node.start_page, node.end_page)
+            node.text = text
             result = llm.complete_json(SUMMARY_SYS, leaf_summary_user(node, text, needs_title))
         else:
+            extra_text = _uncovered_text(node, pdf)
+            node.text = extra_text
             children_block = "\n".join(
                 f"- {c.title}: {c.summary}" for c in node.children
             )
             result = llm.complete_json(
-                SUMMARY_SYS, parent_summary_user(node, children_block, needs_title)
+                SUMMARY_SYS,
+                parent_summary_user(node, children_block, needs_title, extra_text),
             )
         if isinstance(result, dict):
             node.summary = str(result.get("summary", "")).strip()
