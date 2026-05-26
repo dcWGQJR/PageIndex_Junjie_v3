@@ -197,12 +197,32 @@ def retrieve_multi(root: Node, query: str, config: Config, llm: LLMClient,
     return final[:max_leaves]
 
 
+def _path_excerpt(path: List[Node]) -> str:
+    """Concatenate ancestor preamble text and the leaf's text along `path`.
+
+    Parent nodes carry "preamble" text - paragraphs in the parent's page range
+    that no child covers, typically the introduction that precedes the first
+    subsection. The router selects a leaf, but that leaf's content often only
+    makes sense with the framing the parent set up (scope, definitions,
+    accounting basis...), so we prepend each ancestor's non-empty text. The
+    leaf comes last. Page markers (`[page N]`) inside each block are preserved
+    because both leaf.text and parent.text come from pdf.text_range.
+    """
+    pieces: List[str] = []
+    for node in path[:-1]:
+        if node.text and node.text.strip():
+            pieces.append(f'[Preamble from "{node.title}"]\n{node.text}')
+    leaf = path[-1]
+    if leaf.text:
+        pieces.append(leaf.text)
+    return "\n\n".join(pieces)
+
+
 def answer_multi(root: Node, query: str, config: Config,
-                 llm: LLMClient, beam_size: int = 2, max_leaves: int = 4,
+                 llm: LLMClient, beam_size: int = 2, max_leaves: int = 100,
                  verbose: bool = False) -> Dict[str, Any]:
     paths = retrieve_multi(root, query, config, llm, beam_size, max_leaves, verbose)
-    leaves = [p[-1] for p in paths]
-    excerpts = [leaf.text for leaf in leaves]
+    excerpts = [_path_excerpt(p) for p in paths]
     breadcrumb = "  |  ".join(" > ".join(n.title for n in path) for path in paths)
     answer = llm.complete(
         ANSWER_MULTI_SYS,
@@ -229,8 +249,8 @@ def main() -> int:
     parser.add_argument("--limit", type=int, help="Process at most N rows.")
     parser.add_argument("--beam-size", type=int, default=100,
                         help="Max children to follow at each tree level (default: 100).")
-    parser.add_argument("--max-leaves", type=int, default=4,
-                        help="Max sections to feed into the answer (default: 4).")
+    parser.add_argument("--max-leaves", type=int, default=100,
+                        help="Max sections to feed into the answer (default: 100).")
     parser.add_argument("--save-every", type=int, default=5,
                         help="Persist the output xlsx every N rows.")
     parser.add_argument("--verbose", action="store_true",
