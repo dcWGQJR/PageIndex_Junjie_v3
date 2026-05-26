@@ -18,7 +18,11 @@ import sys
 import time
 from pathlib import Path
 
+from openpyxl import Workbook, load_workbook
+
 from pageindex import Config, PageIndex
+from pageindex.pdf_utils import PDFDocument
+from pageindex.verify import verify_and_repair
 
 
 def _is_successful_tree(path: Path) -> bool:
@@ -31,6 +35,26 @@ def _is_successful_tree(path: Path) -> bool:
     except (OSError, json.JSONDecodeError):
         return False
     return True
+
+
+_ACCURACY_HEADER = [
+    "pdf_name", "mode_used", "verifiable_leaves",
+    "initial_accuracy", "final_accuracy", "iterations", "status", "saved",
+]
+
+
+def _append_accuracy_row(xlsx_path: Path, row: list) -> None:
+    """Append one row to the accuracy log; create the workbook (with header) if missing."""
+    if xlsx_path.exists():
+        wb = load_workbook(xlsx_path)
+        ws = wb.active
+    else:
+        wb = Workbook()
+        ws = wb.active
+        ws.title = "tree_accuracy"
+        ws.append(_ACCURACY_HEADER)
+    ws.append(row)
+    wb.save(xlsx_path)
 
 
 def main() -> int:
@@ -72,7 +96,9 @@ def main() -> int:
     successes: list[str] = []
     skipped: list[str] = []
     failures: list[tuple[str, str]] = []
+    rejected: list[tuple[str, str]] = []
     log_path = out_dir / "_build_log.txt"
+    accuracy_path = out_dir / "tree_accuracy.xlsx"
 
     with open(log_path, "a", encoding="utf-8") as log:
         log.write(f"\n--- batch run {time.strftime('%Y-%m-%d %H:%M:%S')} ---\n")
@@ -90,7 +116,6 @@ def main() -> int:
             try:
                 index = PageIndex(config=config)
                 index.build(str(pdf_path), mode=effective_mode, verbose=args.verbose)
-                index.save(str(out_path))
             except Exception as err:  # noqa: BLE001 - keep batch alive across failures
                 line = f"FAIL {pdf_path.name}  error={err}"
                 print(line, file=sys.stderr)
@@ -99,16 +124,49 @@ def main() -> int:
                 failures.append((pdf_path.name, str(err)))
                 continue
 
+            pdf = PDFDocument(str(pdf_path))
+            try:
+                metrics = verify_and_repair(index.root, pdf, verbose=args.verbose)
+            finally:
+                pdf.close()
+
+            saved = metrics["final_accuracy"] >= 0.60
+            if saved:
+                index.save(str(out_path))
+
+            _append_accuracy_row(accuracy_path, [
+                pdf_path.name,
+                index.mode,
+                metrics["verifiable"],
+                round(metrics["initial_accuracy"], 4),
+                round(metrics["final_accuracy"], 4),
+                metrics["iterations"],
+                metrics["status"],
+                saved,
+            ])
+
             dt = time.time() - t0
+            acc = metrics["final_accuracy"]
+            outcome = f"-> {out_path.name}" if saved else f"NOT SAVED (status={metrics['status']})"
             line = (f"OK   {pdf_path.name}  mode={index.mode}  "
-                    f"pages={index.root.end_page}  time={dt:.1f}s  -> {out_path.name}")
+                    f"pages={index.root.end_page}  acc={acc:.0%}  "
+                    f"time={dt:.1f}s  {outcome}")
             print(line)
             log.write(line + "\n")
             log.flush()
-            successes.append(pdf_path.name)
+            if saved:
+                successes.append(pdf_path.name)
+            else:
+                rejected.append((pdf_path.name, metrics["status"]))
 
-    print(f"\nDone. {len(successes)} built, {len(skipped)} skipped, {len(failures)} failed.")
+    print(f"\nDone. {len(successes)} built, {len(skipped)} skipped, "
+          f"{len(rejected)} rejected, {len(failures)} failed.")
     print(f"Log: {log_path}")
+    print(f"Accuracy: {accuracy_path}")
+    if rejected:
+        print("\nRejected (accuracy below threshold):")
+        for name, status in rejected:
+            print(f"  - {name}: {status}")
     if failures:
         print("\nFailures:")
         for name, err in failures:

@@ -237,8 +237,8 @@ def main() -> int:
     parser.add_argument("--trees-dir", default="trees")
     parser.add_argument("--out", default="financebench_results.xlsx")
     parser.add_argument("--limit", type=int, help="Process at most N rows.")
-    parser.add_argument("--beam-size", type=int, default=2,
-                        help="Max children to follow at each tree level (default: 2).")
+    parser.add_argument("--beam-size", type=int, default=100,
+                        help="Max children to follow at each tree level (default: 100).")
     parser.add_argument("--max-leaves", type=int, default=4,
                         help="Max sections to feed into the answer (default: 4).")
     parser.add_argument("--save-every", type=int, default=5,

@@ -82,10 +82,9 @@ class LLMClient:
         choice = resp.choices[0]
         return (choice.message.content or "", choice.finish_reason or "")
 
-    def complete(self, system: str, user: str, max_tokens: Optional[int] = None,
+    def complete(self, system: str, user: str, max_tokens: int = 4096,
                  json_mode: bool = False) -> str:
         """Plain text completion with a small retry on transient errors."""
-        max_tokens = max_tokens or self.config.max_tokens
         last_err: Optional[Exception] = None
         for attempt in range(3):
             try:
@@ -97,15 +96,15 @@ class LLMClient:
         raise RuntimeError(f"LLM request failed after retries: {last_err}")
 
     def complete_json(self, system: str, user: str, retries: int = 2,
-                      max_tokens: Optional[int] = None) -> Any:
+                      max_tokens: int = 4096) -> Any:
         """Completion that must yield JSON; re-prompts if parsing fails.
 
         Uses OpenAI's structured JSON mode when the provider is OpenAI so the
-        model is forced to emit a JSON object. Allocates a generous output
-        budget (4096) so multi-entry outlines don't get truncated mid-array.
+        model is forced to emit a JSON object. The default 4096-token output
+        budget keeps multi-entry outlines from being truncated mid-array.
         """
         system_full = system + "\n\nRespond with valid JSON only - no prose, no markdown fences."
-        budget = max_tokens or max(4096, self.config.max_tokens)
+        budget = max_tokens
         raw = ""
         reason = ""
         for _ in range(retries + 1):

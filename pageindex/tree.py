@@ -21,6 +21,7 @@ class Node:
     summary: str = ""
     source: str = ""
     text: str = ""
+    accurate: bool = True
     children: List["Node"] = field(default_factory=list)
 
     def is_leaf(self) -> bool:
@@ -38,8 +39,8 @@ class Node:
             "start_page": self.start_page,
             "end_page": self.end_page,
             "summary": self.summary,
-            "source": self.source,
             "text": self.text,
+            "accurate": self.accurate,
             "children": [c.to_dict() for c in self.children],
         }
 
@@ -54,6 +55,7 @@ class Node:
             summary=d.get("summary", ""),
             source=d.get("source", ""),
             text=d.get("text", ""),
+            accurate=bool(d.get("accurate", True)),
         )
         node.children = [Node.from_dict(c) for c in d.get("children", [])]
         return node

@@ -30,7 +30,6 @@ class Config:
     model: str = os.getenv("PAGEINDEX_MODEL", "")
     api_key: str = ""
     temperature: float = 0.0
-    max_tokens: int = 2048          # default cap for summary / routing calls
     answer_max_tokens: int = 1500   # cap for the final answer call
 
     # --- Tree building -----------------------------------------------------
