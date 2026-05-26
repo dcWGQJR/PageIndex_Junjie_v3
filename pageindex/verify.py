@@ -156,6 +156,61 @@ def repair_leaves(root: Node, pdf: PDFDocument, verification: Dict,
 
 _MIN_GAIN_PER_ITER = 0.01           # stop when an iteration adds less than this
 _LLM_VERIFY_MAX_PAGE_CHARS = 8000   # cap page text sent to the LLM verifier
+_MIDPAGE_OFFSET_CHARS = 200         # next-sibling title past this on its start_page = mid-page start
+
+
+def _starts_at_top_of_page(pdf: PDFDocument, page: int, title: str) -> bool:
+    """Heuristic: does `title` appear near the top of `page`?
+
+    True when the title needle is within the first _MIDPAGE_OFFSET_CHARS of the
+    normalized page text, or cannot be located at all (conservative default:
+    assume no overlap with the previous sibling). False means substantial text
+    precedes the title on this page - the previous section's tail.
+    """
+    needle = _make_needle(title)
+    if needle is None:
+        return True
+    text = pdf.page_text(page)
+    if not text:
+        return True
+    pos = _normalize(text).find(needle)
+    if pos == -1:
+        return True
+    return pos < _MIDPAGE_OFFSET_CHARS
+
+
+def refine_end_pages(nodes: List[Node], parent_end: int,
+                     pdf: PDFDocument) -> int:
+    """Re-derive end_page accounting for mid-page section starts.
+
+    `assign_end_pages` ends a node one page before its next sibling. That drops
+    the trailing portion of pages where the next sibling starts mid-page (the
+    section above it on that page goes uncaptured). This pass restores those
+    pages: when the next sibling's title is NOT at the top of its start_page,
+    the current sibling's end_page is bumped to the next sibling's start_page
+    (a one-page overlap so retrieval can reach the trailing content). Recurses
+    into children with each node's updated end_page so the last child of a
+    bumped parent inherits the extra page.
+
+    Returns the number of nodes whose end_page actually changed.
+    """
+    nodes = sorted(nodes, key=lambda c: c.start_page)
+    changes = 0
+    for i, node in enumerate(nodes):
+        if i + 1 < len(nodes):
+            nxt = nodes[i + 1]
+            if _starts_at_top_of_page(pdf, nxt.start_page, nxt.title):
+                new_end = max(node.start_page, nxt.start_page - 1)
+            else:
+                new_end = max(node.start_page, nxt.start_page)
+        else:
+            new_end = max(node.start_page, parent_end)
+        if new_end != node.end_page:
+            node.end_page = new_end
+            changes += 1
+        if node.children:
+            changes += refine_end_pages(node.children, node.end_page, pdf)
+    return changes
 
 
 def _set_accurate_flags(root: Node, correct_ids: set, skipped_ids: set) -> None:
@@ -291,6 +346,10 @@ def verify_and_repair(root: Node, pdf: PDFDocument,
             if verbose:
                 print(f"[verify] gain {gain:+.1%} < {_MIN_GAIN_PER_ITER:.0%}, stopping")
             break
+
+    refined = refine_end_pages(root.children, pdf.page_count, pdf)
+    if verbose and refined:
+        print(f"[refine] bumped end_page on {refined} node(s) for mid-page next starts")
 
     correct_ids = {id(n) for n in v["correct"]}
     skipped_ids = {id(n) for n in v["skipped"]}
