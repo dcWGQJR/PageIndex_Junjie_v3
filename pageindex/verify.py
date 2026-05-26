@@ -2,14 +2,18 @@
 
 If a leaf's title does NOT appear on its declared start_page, repair by searching
 the pages between the nearest CORRECT leaves before and after it, and snap
-start_page to the first page where the title is found. Repeat until the tree
-stops improving or 100% is reached. Revert any iteration that drops accuracy.
+start_page to the first page where the title is found. Each pass runs the string
+check, then (when an LLM client is supplied) forwards any leaves it could not
+confirm to an LLM verifier that knows about the common PDF extraction artifacts
+("Incom e", scattered year columns in table headers). LLM approvals are sticky
+across iterations, so a leaf, once confirmed, is treated as a bounding correct
+neighbor and never moved. Combined with the string check (a leaf's text on its
+own page does not depend on other leaves), this makes accuracy monotonic across
+iterations; we stop as soon as a pass adds less than 1%.
 
-Front-matter leaves (source "preface" / node_id "f*") carry conventional titles
-("preface", "toc") rather than text drawn from a page, so they auto-pass the
-string check. Leaves that string-fail after repair are forwarded to an LLM
-verifier (when an LLM client is supplied) that knows about the common PDF
-extraction artifacts ("Incom e", scattered year columns in table headers).
+Front-matter leaves (source "preface" / "toc", or node_id starting with "f")
+carry conventional titles rather than text drawn from a page, so they auto-pass
+the string check.
 """
 import re
 from typing import Dict, List, Optional, Set
@@ -55,20 +59,27 @@ def _is_front_matter(node: Node) -> bool:
         or node.node_id.startswith("f")
 
 
-def verify_leaves(root: Node, pdf: PDFDocument) -> Dict:
+def verify_leaves(root: Node, pdf: PDFDocument,
+                  confirmed_ids: Optional[Set[int]] = None) -> Dict:
     """Classify every leaf as correct / wrong / skipped.
 
     A leaf is `correct` if its title (normalized, first 40 chars) appears on
     `start_page`, `wrong` if not, and `skipped` if its normalized title is too
     short to be a reliable search needle. Skipped leaves are excluded from the
     accuracy denominator. Front-matter leaves auto-pass (conventional titles).
+
+    `confirmed_ids` is a set of leaf `id()` values previously confirmed correct
+    (string match, LLM, or front-matter rule). Those leaves are classified as
+    `correct` without re-running the page-text check, so once a leaf is
+    confirmed it is neither moved nor re-evaluated for the rest of the run.
     """
+    confirmed_ids = confirmed_ids or set()
     leaves = _ordered_leaves(root)
     correct: List[Node] = []
     wrong: List[Node] = []
     skipped: List[Node] = []
     for leaf in leaves:
-        if _is_front_matter(leaf):
+        if id(leaf) in confirmed_ids or _is_front_matter(leaf):
             correct.append(leaf)
             continue
         needle = _make_needle(leaf.title)
@@ -89,21 +100,6 @@ def verify_leaves(root: Node, pdf: PDFDocument) -> Dict:
         "verifiable": verifiable,
         "accuracy": accuracy,
     }
-
-
-def _snapshot(leaves: List[Node]) -> Dict[int, int]:
-    return {id(n): n.start_page for n in leaves}
-
-
-def _restore(leaves: List[Node], snap: Dict[int, int], pdf: PDFDocument, root: Node) -> None:
-    for n in leaves:
-        sp = snap.get(id(n))
-        if sp is not None:
-            n.start_page = sp
-    for node in iter_post_order(root):
-        if node.children:
-            node.children.sort(key=lambda c: c.start_page)
-    assign_end_pages(root.children, pdf.page_count)
 
 
 def repair_leaves(root: Node, pdf: PDFDocument, verification: Dict,
@@ -158,9 +154,7 @@ def repair_leaves(root: Node, pdf: PDFDocument, verification: Dict,
     return repairs
 
 
-_DROP_TOLERANCE = 0.02     # drops up to this are "fluctuation" -> revert+retry once
-_STALL_AFTER_ITERS = 5     # after this many iters, require >= _STALL_MIN_GAIN improvement
-_STALL_MIN_GAIN = 0.05     # otherwise stop
+_MIN_GAIN_PER_ITER = 0.01           # stop when an iteration adds less than this
 _LLM_VERIFY_MAX_PAGE_CHARS = 8000   # cap page text sent to the LLM verifier
 
 
@@ -224,123 +218,85 @@ def _llm_verify_wrong(wrong: List[Node], pdf: PDFDocument, llm: LLMClient,
 def verify_and_repair(root: Node, pdf: PDFDocument,
                       llm: Optional[LLMClient] = None, max_iters: int = 10,
                       verbose: bool = True) -> Dict:
-    """Verify, then loop repair/re-verify until 100%, stall, or sustained drop.
+    """Verify (string + LLM), repair wrong leaves, re-verify, repeat.
 
-    Stop conditions (in priority order):
+    Each pass runs the string check; any leaves it cannot confirm are forwarded
+    to the LLM verifier (when an `llm` is supplied). LLM approvals are
+    *sticky* across iterations - once a leaf is approved it is treated as
+    correct for the rest of the run, so `repair_leaves` honors it as a
+    bounding "correct" neighbor and never moves it. Combined with the string
+    check (correct stays correct, since a leaf's text on its own page does not
+    depend on other leaves), this makes per-iteration accuracy monotonic.
+
+    Stop conditions:
       - reached 100%
       - repair iteration changed no leaves
-      - drop > 2% vs previous iter           -> revert to best, stop
-      - drop <= 2% twice in a row             -> revert to best, stop
-      - completed >= 5 iters with < 5% total improvement -> revert to best, stop
+      - per-iteration gain < 1%
       - hit `max_iters`
-
-    On a single small drop (<= 2%), revert to the best snapshot and retry one
-    more time before giving up. The tree is always left at the best state seen.
-
-    When `llm` is supplied, any leaves still classified `wrong` after the repair
-    loop are forwarded to an LLM verifier that tolerates PDF-extraction
-    artifacts (split words, scattered year columns) the string match cannot.
 
     Status values: `success` (100%), `acceptable` (>=60%), `below_60` (<60%).
     """
-    v = verify_leaves(root, pdf)
+    confirmed_ids: Set[int] = set()
+
+    def _verify_with_llm() -> Dict:
+        """Verify, but never re-check already-confirmed leaves.
+
+        Skips the string check for any leaf in `confirmed_ids`, then LLM-checks
+        whatever the string pass left as wrong. Newly-confirmed leaves (by
+        string match, by the LLM, or by the front-matter rule) are added to
+        `confirmed_ids`, so subsequent iterations skip them entirely.
+        """
+        v = verify_leaves(root, pdf, confirmed_ids=confirmed_ids)
+        confirmed_ids.update(id(leaf) for leaf in v["correct"])
+        if llm is not None and v["wrong"]:
+            if verbose:
+                print(f"[llm_verify] checking {len(v['wrong'])} unconfirmed leaves")
+            newly = _llm_verify_wrong(v["wrong"], pdf, llm, verbose=verbose)
+            still_wrong: List[Node] = []
+            for leaf in v["wrong"]:
+                if id(leaf) in newly:
+                    v["correct"].append(leaf)
+                    confirmed_ids.add(id(leaf))
+                else:
+                    still_wrong.append(leaf)
+            v["wrong"] = still_wrong
+            v["verifiable"] = len(v["correct"]) + len(v["wrong"])
+            v["accuracy"] = (len(v["correct"]) / v["verifiable"]) if v["verifiable"] else 1.0
+        return v
+
+    v = _verify_with_llm()
     initial = v["accuracy"]
     history = [initial]
-    leaves = v["leaves"]
     iterations = 0
-    best_acc = initial
-    best_snap = _snapshot(leaves)
 
-    if v["verifiable"] > 0 and initial < 1.0:
-        prev_acc = initial
-        pending_retry = False
-
-        while iterations < max_iters:
-            repaired = repair_leaves(root, pdf, v, verbose=verbose)
-            if repaired == 0:
-                if verbose:
-                    print(f"[verify] iter {iterations + 1}: no leaves changed, stopping")
-                break
-
-            iterations += 1
-            v = verify_leaves(root, pdf)
-            acc = v["accuracy"]
-            history.append(acc)
+    while iterations < max_iters and v["accuracy"] < 1.0:
+        prev_acc = v["accuracy"]
+        repaired = repair_leaves(root, pdf, v, verbose=verbose)
+        if repaired == 0:
             if verbose:
-                print(f"[verify] iter {iterations}: {prev_acc:.0%} -> {acc:.0%} "
-                      f"(best={best_acc:.0%}, {repaired} leaf moves)")
+                print(f"[verify] iter {iterations + 1}: no leaves changed, stopping")
+            break
 
-            if acc >= 1.0:
-                best_acc = acc
-                best_snap = _snapshot(leaves)
-                break
-
-            # Progressive floor: iter N (1..5) must reach at least N * 10%.
-            if iterations <= 5 and acc < iterations * 0.10:
-                if verbose:
-                    print(f"[verify] iter {iterations}: acc {acc:.0%} below "
-                          f"{iterations * 10}% floor, stopping")
-                break
-
-            drop = prev_acc - acc
-
-            # Stall check: not enough overall progress after enough tries.
-            if (iterations >= _STALL_AFTER_ITERS
-                    and (best_acc - initial) < _STALL_MIN_GAIN):
-                if verbose:
-                    print(f"[verify] stalled: total improvement "
-                          f"{(best_acc - initial):.1%} < {_STALL_MIN_GAIN:.0%} "
-                          f"after {iterations} iters, stopping")
-                break
-
-            if drop > _DROP_TOLERANCE:
-                if verbose:
-                    print(f"[verify] drop {drop:.1%} > {_DROP_TOLERANCE:.0%}, stopping")
-                break
-
-            if drop > 0:
-                if pending_retry:
-                    if verbose:
-                        print(f"[verify] second drop after retry, stopping")
-                    break
-                pending_retry = True
-                if verbose:
-                    print(f"[verify] small drop ({drop:.1%}), reverting to best "
-                          f"({best_acc:.0%}) for retry")
-                _restore(leaves, best_snap, pdf, root)
-                v = verify_leaves(root, pdf)
-                prev_acc = best_acc
-                continue
-
-            # acc >= prev_acc — progress (or flat). Record best.
-            pending_retry = False
-            if acc > best_acc:
-                best_acc = acc
-                best_snap = _snapshot(leaves)
-            prev_acc = acc
-
-    # Always leave the tree at the best state we saw.
-    _restore(leaves, best_snap, pdf, root)
-
-    # Final classification — also drives the `accurate` flag on every node.
-    v_final = verify_leaves(root, pdf)
-    correct_ids = {id(n) for n in v_final["correct"]}
-    skipped_ids = {id(n) for n in v_final["skipped"]}
-
-    llm_approved: Set[int] = set()
-    if llm is not None and v_final["wrong"]:
+        iterations += 1
+        v = _verify_with_llm()
+        history.append(v["accuracy"])
+        gain = v["accuracy"] - prev_acc
         if verbose:
-            print(f"[llm_verify] checking {len(v_final['wrong'])} leaves the "
-                  f"string match could not confirm")
-        llm_approved = _llm_verify_wrong(v_final["wrong"], pdf, llm, verbose=verbose)
-        correct_ids |= llm_approved
+            print(f"[verify] iter {iterations}: {prev_acc:.0%} -> {v['accuracy']:.0%} "
+                  f"({repaired} leaf moves, +{gain:.1%})")
 
+        if v["accuracy"] >= 1.0:
+            break
+        if gain < _MIN_GAIN_PER_ITER:
+            if verbose:
+                print(f"[verify] gain {gain:+.1%} < {_MIN_GAIN_PER_ITER:.0%}, stopping")
+            break
+
+    correct_ids = {id(n) for n in v["correct"]}
+    skipped_ids = {id(n) for n in v["skipped"]}
     _set_accurate_flags(root, correct_ids, skipped_ids)
 
-    if v_final["verifiable"]:
-        final_acc = (len(v_final["correct"]) + len(llm_approved)) / v_final["verifiable"]
-    else:
-        final_acc = 1.0
+    final_acc = v["accuracy"]
     if final_acc >= 1.0:
         status = "success"
     elif final_acc >= 0.60:
@@ -353,6 +309,6 @@ def verify_and_repair(root: Node, pdf: PDFDocument,
         "final_accuracy": final_acc,
         "history": history,
         "iterations": iterations,
-        "verifiable": v_final["verifiable"],
+        "verifiable": v["verifiable"],
         "status": status,
     }
