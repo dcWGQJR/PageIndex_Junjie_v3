@@ -1,5 +1,6 @@
 """High-level entry point that ties building, storage and retrieval together."""
 import os
+import time
 from typing import Dict, Optional
 
 from .builder import build_tree, summarize_tree
@@ -22,6 +23,7 @@ class PageIndex:
         self.pdf_path: Optional[str] = None
         self.mode: Optional[str] = None
         self.metrics: Optional[Dict] = None
+        self.timings: Optional[Dict[str, float]] = None
 
     @property
     def llm(self) -> LLMClient:
@@ -45,13 +47,29 @@ class PageIndex:
             raise ValueError("mode must be 'auto', 'toc' or 'window'")
         self.pdf_path = os.path.abspath(pdf_path)
         pdf = PDFDocument(self.pdf_path)
+        timings: Dict[str, float] = {}
         try:
+            t0 = time.perf_counter()
             root, used = build_tree(pdf, self.config, self.llm, mode=mode, verbose=verbose)
+            timings["build"] = time.perf_counter() - t0
+            if verbose:
+                print(f"[time] build_tree: {timings['build']:.1f}s")
+
+            t0 = time.perf_counter()
             self.metrics = verify_and_repair(root, pdf, llm=self.llm, verbose=verbose)
+            timings["verify"] = time.perf_counter() - t0
+            if verbose:
+                print(f"[time] verify_and_repair: {timings['verify']:.1f}s")
+
+            t0 = time.perf_counter()
             summarize_tree(root, pdf, self.config, self.llm, verbose=verbose)
+            timings["summarize"] = time.perf_counter() - t0
+            if verbose:
+                print(f"[time] summarize_tree: {timings['summarize']:.1f}s")
         finally:
             pdf.close()
         self.root, self.mode = root, used
+        self.timings = timings
         return root
 
     # -- persistence --------------------------------------------------------

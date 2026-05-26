@@ -141,9 +141,13 @@ def main() -> int:
             dt = time.time() - t0
             acc = metrics["final_accuracy"]
             outcome = f"-> {out_path.name}" if saved else f"NOT SAVED (status={metrics['status']})"
+            tm = index.timings or {}
+            splits = (f" [build={tm.get('build', 0):.1f}s "
+                      f"verify={tm.get('verify', 0):.1f}s "
+                      f"summarize={tm.get('summarize', 0):.1f}s]")
             line = (f"OK   {pdf_path.name}  mode={index.mode}  "
                     f"pages={index.root.end_page}  acc={acc:.0%}  "
-                    f"time={dt:.1f}s  {outcome}")
+                    f"time={dt:.1f}s{splits}  {outcome}")
             print(line)
             log.write(line + "\n")
             log.flush()
