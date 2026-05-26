@@ -8,6 +8,7 @@ from .llm import LLMClient
 from .pdf_utils import PDFDocument
 from .retrieval import answer_query
 from .tree import Node, load_tree, save_tree
+from .verify import verify_and_repair
 
 
 class PageIndex:
@@ -20,6 +21,7 @@ class PageIndex:
         self.root: Optional[Node] = None
         self.pdf_path: Optional[str] = None
         self.mode: Optional[str] = None
+        self.metrics: Optional[Dict] = None
 
     @property
     def llm(self) -> LLMClient:
@@ -30,13 +32,22 @@ class PageIndex:
 
     # -- building -----------------------------------------------------------
     def build(self, pdf_path: str, mode: str = "auto", verbose: bool = True) -> Node:
-        """Construct the tree for a PDF. `mode` is "auto", "toc" or "window"."""
+        """Construct the tree for a PDF. `mode` is "auto", "toc" or "window".
+
+        Runs in order: build_tree -> verify_and_repair -> summarize_tree. Verify
+        comes BEFORE summarize so that `node.text` and `node.summary` are
+        written against the final post-repair page ranges (otherwise they
+        capture the build-time ranges and go stale when verify moves leaves or
+        `refine_end_pages` bumps an end_page). Verification metrics are stored
+        on `self.metrics`.
+        """
         if mode not in ("auto", "toc", "window"):
             raise ValueError("mode must be 'auto', 'toc' or 'window'")
         self.pdf_path = os.path.abspath(pdf_path)
         pdf = PDFDocument(self.pdf_path)
         try:
             root, used = build_tree(pdf, self.config, self.llm, mode=mode, verbose=verbose)
+            self.metrics = verify_and_repair(root, pdf, llm=self.llm, verbose=verbose)
             summarize_tree(root, pdf, self.config, self.llm, verbose=verbose)
         finally:
             pdf.close()

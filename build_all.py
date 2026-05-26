@@ -21,8 +21,6 @@ from pathlib import Path
 from openpyxl import Workbook, load_workbook
 
 from pageindex import Config, PageIndex
-from pageindex.pdf_utils import PDFDocument
-from pageindex.verify import verify_and_repair
 
 
 def _is_successful_tree(path: Path) -> bool:
@@ -124,13 +122,7 @@ def main() -> int:
                 failures.append((pdf_path.name, str(err)))
                 continue
 
-            pdf = PDFDocument(str(pdf_path))
-            try:
-                metrics = verify_and_repair(index.root, pdf, llm=index.llm,
-                                            verbose=args.verbose)
-            finally:
-                pdf.close()
-
+            metrics = index.metrics
             saved = metrics["final_accuracy"] >= 0.60
             if saved:
                 index.save(str(out_path))
