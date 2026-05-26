@@ -64,9 +64,7 @@ def answer_query(root: Node, pdf: PDFDocument, query: str, config: Config,
     path, steps = retrieve(root, query, config, llm, verbose=verbose)
     target = path[-1]
     breadcrumb = " > ".join(n.title for n in path)
-    context = pdf.text_range(
-        target.start_page, target.end_page, config.max_chars_answer_context
-    )
+    context = pdf.text_range(target.start_page, target.end_page)
     if verbose:
         print(f"[answer] reading section '{target.title}' "
               f"(pages {target.start_page}-{target.end_page})")

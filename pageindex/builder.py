@@ -344,7 +344,7 @@ def summarize_tree(root: Node, pdf: PDFDocument, config: Config, llm: LLMClient,
                    verbose: bool = True) -> None:
     """Fill in `summary`, `text` (and refined titles) for every node, children first."""
     for node in iter_post_order(root):
-        text = pdf.text_range(node.start_page, node.end_page, config.max_chars_per_block)
+        text = pdf.text_range(node.start_page, node.end_page)
         node.text = text
         needs_title = node.source in ("window", "front_matter")
         if node.is_leaf():

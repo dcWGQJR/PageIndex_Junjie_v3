@@ -36,11 +36,10 @@ class Config:
     window_size: int = 10           # pages per sliding window
     window_overlap: int = 1         # page overlap between consecutive windows
     toc_min_entries: int = 3        # min embedded-TOC entries before we trust it
-    max_chars_per_block: int = 30000        # cap on text sent for heading detection / leaf summary
+    max_chars_per_block: int = 30000        # cap on text sent to the LLM for sliding-window heading detection only
 
     # --- Retrieval ---------------------------------------------------------
     max_depth: int = 25                     # safety cap on how deep retrieval descends
-    max_chars_answer_context: int = 48000   # cap on text handed to the answer LLM
 
     def __post_init__(self) -> None:
         self.provider = self.provider.lower().strip()

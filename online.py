@@ -202,17 +202,7 @@ def answer_multi(root: Node, query: str, config: Config,
                  verbose: bool = False) -> Dict[str, Any]:
     paths = retrieve_multi(root, query, config, llm, beam_size, max_leaves, verbose)
     leaves = [p[-1] for p in paths]
-    per_section = max(2000, config.max_chars_answer_context // max(1, len(leaves)))
-    excerpts = []
-    for leaf in leaves:
-        if len(leaf.text) > per_section:
-            print(
-                f"[answer] WARN truncating '{leaf.title}' "
-                f"(pages {leaf.start_page}-{leaf.end_page}): "
-                f"{len(leaf.text)} -> {per_section} chars",
-                file=sys.stderr,
-            )
-        excerpts.append(leaf.text[:per_section])
+    excerpts = [leaf.text for leaf in leaves]
     breadcrumb = "  |  ".join(" > ".join(n.title for n in path) for path in paths)
     answer = llm.complete(
         ANSWER_MULTI_SYS,
