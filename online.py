@@ -109,15 +109,28 @@ not coming from the document.
 
 JUDGE_SYS = (
     "You compare two answers to a financial question and decide whether they convey "
-    "the same factual content. Treat the following as equivalent: "
+    "the same factual content. "
+    "FIRST, extract the FINAL numeric or yes/no answer from the predicted reply - "
+    "the prediction may include a long calculation walkthrough with many "
+    "intermediate numbers; ignore those and compare only the final stated answer "
+    "to the expected answer. "
+    "Use your own financial-domain knowledge to judge contextually: recognize "
+    "equivalent terminology (e.g. 'net sales' = 'revenue' in many filings, 'EBIT' "
+    "= 'operating income'), standard formulas (e.g. gross margin = gross profit / "
+    "revenue), and common units/derivations so a different phrasing of the same "
+    "underlying fact is judged correct. "
+    "Treat the following as equivalent: "
     "(a) unit/scale differences (e.g. $1,577M vs $1.58B, 1.2bn vs 1,200M); "
     "(b) fraction vs. percentage of the same ratio (e.g. 0.153 vs 15.3%, "
     "0.5 vs 50%); "
     "(c) rounding to different precisions, as long as the values round to each "
     "other within ~1% relative error or one decimal place (e.g. 15.27% vs 15.3% "
     "vs 15%, $1,577M vs $1,580M); "
-    "(d) a difference of +/-1 in the last reported digit at the same precision "
-    "(e.g. 1,577 vs 1,578, 15.3% vs 15.4%) - treat as equivalent. "
+    "(d) a difference of +/-1 in the last reported digit at the same precision - "
+    "ALWAYS equivalent (e.g. 1,577 vs 1,578, 15.3% vs 15.4%, "
+    "0.214 vs 0.215). This rule overrides any intuition that 'they're different "
+    "numbers' - small last-digit drift from rounding intermediate steps is the "
+    "expected outcome of a correct calculation. "
     "Yes/No answers must match direction. If the predicted answer says the "
     "document does not contain the information but the expected answer is a "
     "concrete fact, the verdict is F."
@@ -356,7 +369,7 @@ def main() -> int:
             continue
 
         try:
-            judged = llm.complete_json(
+            judged = answer_llm.complete_json(
                 JUDGE_SYS, _judge_prompt(str(question), expected_str, predicted)
             )
             verdict = str(judged.get("verdict", "")).strip().upper()
