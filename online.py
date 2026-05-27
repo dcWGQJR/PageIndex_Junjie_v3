@@ -70,10 +70,16 @@ Return JSON:
 
 
 ANSWER_MULTI_SYS = (
-    "You answer financial questions using only the provided document excerpts. "
-    "Multiple excerpts may be supplied from different sections of the same "
-    "document - integrate them. Cite page numbers in your answer. If none of "
-    "the excerpts contain the answer, say so explicitly rather than guessing. "
+    "You answer financial questions. Prefer the provided document excerpts as "
+    "the source of truth and cite page numbers when you use them. Multiple "
+    "excerpts may be supplied from different sections of the same document - "
+    "integrate them. If the excerpts do not fully cover the question, you may "
+    "supplement with your own knowledge; clearly label any such content as "
+    "outside the document. "
+    "Pay particular attention to distinguishing similarly worded but different "
+    "financial terms (e.g. gross vs. net, revenue vs. income, operating vs. "
+    "free cash flow, total vs. long-term debt) - match the exact term in the "
+    "question, do not substitute a near-synonym. "
     "Accounting convention: parentheses around a number indicate a negative "
     "value (e.g. (1,234) means -1,234)."
 )
@@ -92,9 +98,10 @@ def _answer_user_multi(query: str, paths: List[List[Node]], excerpts: List[str])
     return f"""Question: {query}
 
 The retrieval system selected {len(excerpts)} section(s) of the document.
-Answer using ONLY the excerpts below. Cite page numbers from the `[page N]`
-markers. If the answer is not contained in any of the excerpts, say the
-selected sections do not contain it.
+Use the excerpts below as your primary source and cite page numbers from the
+`[page N]` markers when drawing on them. If the excerpts do not cover the
+question, you may answer from your own knowledge - just flag that part as
+not coming from the document.
 
 {sections_block}
 """
@@ -102,10 +109,18 @@ selected sections do not contain it.
 
 JUDGE_SYS = (
     "You compare two answers to a financial question and decide whether they convey "
-    "the same factual content. Numeric values with reasonable rounding or unit "
-    "differences (e.g. $1,577M vs $1.58B) are equivalent. Yes/No answers must match "
-    "direction. If the predicted answer says the document does not contain the "
-    "information but the expected answer is a concrete fact, the verdict is F."
+    "the same factual content. Treat the following as equivalent: "
+    "(a) unit/scale differences (e.g. $1,577M vs $1.58B, 1.2bn vs 1,200M); "
+    "(b) fraction vs. percentage of the same ratio (e.g. 0.153 vs 15.3%, "
+    "0.5 vs 50%); "
+    "(c) rounding to different precisions, as long as the values round to each "
+    "other within ~1% relative error or one decimal place (e.g. 15.27% vs 15.3% "
+    "vs 15%, $1,577M vs $1,580M); "
+    "(d) a difference of +/-1 in the last reported digit at the same precision "
+    "(e.g. 1,577 vs 1,578, 15.3% vs 15.4%) - treat as equivalent. "
+    "Yes/No answers must match direction. If the predicted answer says the "
+    "document does not contain the information but the expected answer is a "
+    "concrete fact, the verdict is F."
 )
 
 
