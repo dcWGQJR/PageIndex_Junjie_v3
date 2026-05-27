@@ -23,8 +23,9 @@ Usage
 import argparse
 import sys
 import time
+from dataclasses import replace
 from pathlib import Path
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 from openpyxl import Workbook, load_workbook
 
@@ -72,7 +73,9 @@ ANSWER_MULTI_SYS = (
     "You answer financial questions using only the provided document excerpts. "
     "Multiple excerpts may be supplied from different sections of the same "
     "document - integrate them. Cite page numbers in your answer. If none of "
-    "the excerpts contain the answer, say so explicitly rather than guessing."
+    "the excerpts contain the answer, say so explicitly rather than guessing. "
+    "Accounting convention: parentheses around a number indicate a negative "
+    "value (e.g. (1,234) means -1,234)."
 )
 
 
@@ -220,11 +223,12 @@ def _path_excerpt(path: List[Node]) -> str:
 
 def answer_multi(root: Node, query: str, config: Config,
                  llm: LLMClient, beam_size: int = 2, max_leaves: int = 100,
-                 verbose: bool = False) -> Dict[str, Any]:
+                 verbose: bool = False,
+                 answer_llm: Optional[LLMClient] = None) -> Dict[str, Any]:
     paths = retrieve_multi(root, query, config, llm, beam_size, max_leaves, verbose)
     excerpts = [_path_excerpt(p) for p in paths]
     breadcrumb = "  |  ".join(" > ".join(n.title for n in path) for path in paths)
-    answer = llm.complete(
+    answer = (answer_llm or llm).complete(
         ANSWER_MULTI_SYS,
         _answer_user_multi(query, paths, excerpts),
         max_tokens=config.answer_max_tokens,
@@ -282,6 +286,9 @@ def main() -> int:
 
     config = Config()
     llm = LLMClient(config)
+    # Final answer uses a stronger model than routing/judge.
+    answer_model = "gpt-4o-2024-11-20" if config.provider == "openai" else "claude-opus-4-7"
+    answer_llm = LLMClient(replace(config, model=answer_model))
 
     n_total = ws.max_row - 1
     n_t = n_f = n_unknown = n_skipped = n_errored = 0
@@ -320,7 +327,7 @@ def main() -> int:
             result = answer_multi(
                 root, str(question), config, llm,
                 beam_size=args.beam_size, max_leaves=args.max_leaves,
-                verbose=args.verbose,
+                verbose=args.verbose, answer_llm=answer_llm,
             )
             predicted = result["answer"]
             breadcrumb = result["breadcrumb"]
@@ -376,8 +383,6 @@ def main() -> int:
                 ("verdict", verdict),
             ]:
                 print(f"\n--- {field} ---\n{value}")
-            print(f"\nResults saved to {out_path}")
-            return 0
 
         if (r - 1) % args.save_every == 0:
             out_wb.save(out_path)
