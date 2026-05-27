@@ -1,0 +1,3 @@
+
+--- batch run 2026-05-26 17:07:19 ---
+OK   3M_2018_10K.pdf  mode=printed_toc  pages=160  acc=91%  time=269.0s  -> 3M_2018_10K.tree.json
