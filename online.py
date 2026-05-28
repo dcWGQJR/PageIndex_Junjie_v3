@@ -45,15 +45,29 @@ MULTI_ROUTING_SYS = (
 )
 
 
-def _routing_user_multi(query: str, node: Node, children_block: str, max_picks: int) -> str:
-    current = f'You are currently at node: "{node.title}"'
-    if node.summary:
-        current += f"\nSummary: {node.summary}"
+def _routing_user_multi(query: str, path: List[Node], children_block: str,
+                        max_picks: int) -> str:
+    """`path` is root -> ... -> current node. Every ancestor's title and
+    summary is included so the router has the full breadcrumb context, not
+    just the current node's summary."""
+    chain_lines = []
+    for depth, n in enumerate(path):
+        indent = "  " * depth
+        marker = " (current)" if depth == len(path) - 1 else ""
+        line = f'{indent}- "{n.title}" (pages {n.start_page}-{n.end_page}){marker}'
+        if n.summary:
+            line += f"\n{indent}    Summary: {n.summary}"
+        chain_lines.append(line)
+    chain_block = "\n".join(chain_lines)
+
     return f"""Query: {query}
 
-{current}
+Path from document root to the node you are currently at (every ancestor's
+title and summary is shown so you have the full context, not just the
+current node):
+{chain_block}
 
-Candidate child branches:
+Candidate child branches under the current node:
 {children_block}
 
 Pick up to {max_picks} child branches that look most likely to contain the
@@ -158,15 +172,20 @@ Respond with JSON: {{"verdict": "T" or "F", "reason": "<one short sentence>"}}
 # --------------------------------------------------------------------------
 # Retrieval
 # --------------------------------------------------------------------------
-def _choose_children(llm: LLMClient, query: str, node: Node,
+def _choose_children(llm: LLMClient, query: str, path: List[Node],
                      max_picks: int) -> Tuple[str, List[int]]:
-    """Ask the LLM which children to descend into (or to stop)."""
+    """Ask the LLM which children to descend into (or to stop).
+
+    `path` is the chain root -> ... -> current. Every ancestor's title and
+    summary feeds into the prompt so the router sees full breadcrumb context.
+    """
+    node = path[-1]
     block = "\n".join(
         f"[{i}] {c.title} (pages {c.start_page}-{c.end_page})\n    {c.summary}"
         for i, c in enumerate(node.children)
     )
     result = llm.complete_json(
-        MULTI_ROUTING_SYS, _routing_user_multi(query, node, block, max_picks)
+        MULTI_ROUTING_SYS, _routing_user_multi(query, path, block, max_picks)
     )
     result = result if isinstance(result, dict) else {}
     action = str(result.get("action", "descend")).strip().lower()
@@ -201,7 +220,7 @@ def retrieve_multi(root: Node, query: str, config: Config, llm: LLMClient,
             if not node.children:
                 selected.append(path)
                 continue
-            action, indices = _choose_children(llm, query, node, max_picks=beam_size)
+            action, indices = _choose_children(llm, query, path, max_picks=beam_size)
             if verbose:
                 print(f"[retrieve] d={depth} '{node.title}': {action} children={indices}")
             if action == "stop" or not indices:

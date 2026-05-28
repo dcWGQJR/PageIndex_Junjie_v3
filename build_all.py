@@ -113,17 +113,27 @@ def main() -> int:
             t0 = time.time()
             try:
                 index = PageIndex(config=config)
-                index.build(str(pdf_path), mode=effective_mode, verbose=args.verbose)
+                index.build_structure(str(pdf_path), mode=effective_mode,
+                                      verbose=args.verbose)
+                metrics = index.metrics
+                saved = metrics["final_accuracy"] >= 0.60
+                if saved:
+                    index.split_oversized(verbose=args.verbose)
+                    index.summarize(verbose=args.verbose)
+                else:
+                    index.close()
             except Exception as err:  # noqa: BLE001 - keep batch alive across failures
                 line = f"FAIL {pdf_path.name}  error={err}"
                 print(line, file=sys.stderr)
                 log.write(line + "\n")
                 log.flush()
                 failures.append((pdf_path.name, str(err)))
+                try:
+                    index.close()
+                except Exception:  # noqa: BLE001 - already failing
+                    pass
                 continue
 
-            metrics = index.metrics
-            saved = metrics["final_accuracy"] >= 0.60
             if saved:
                 index.save(str(out_path))
 
@@ -144,6 +154,7 @@ def main() -> int:
             tm = index.timings or {}
             splits = (f" [build={tm.get('build', 0):.1f}s "
                       f"verify={tm.get('verify', 0):.1f}s "
+                      f"split={tm.get('split', 0):.1f}s "
                       f"summarize={tm.get('summarize', 0):.1f}s]")
             line = (f"OK   {pdf_path.name}  mode={index.mode}  "
                     f"pages={index.root.end_page}  acc={acc:.0%}  "

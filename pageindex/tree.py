@@ -1,7 +1,7 @@
 """The document tree: the Node type and (de)serialization helpers."""
 import json
 from dataclasses import dataclass, field
-from typing import Iterator, List
+from typing import Iterator, List, Optional
 
 
 @dataclass
@@ -11,6 +11,10 @@ class Node:
     `start_page`/`end_page` are 1-indexed and inclusive. A node's range covers
     all of its descendants. `source` records how the node was created:
     "root", "embedded_toc", "printed_toc", "window", "preface", or "toc".
+
+    `accurate` is True/False after verify_and_repair stamps it; None means the
+    node was created after verification (e.g. children grafted by the
+    sliding-window split of an oversized leaf) and has not been checked.
     """
 
     node_id: str
@@ -21,7 +25,7 @@ class Node:
     summary: str = ""
     source: str = ""
     text: str = ""
-    accurate: bool = True
+    accurate: Optional[bool] = True
     children: List["Node"] = field(default_factory=list)
 
     def is_leaf(self) -> bool:
@@ -46,6 +50,8 @@ class Node:
 
     @staticmethod
     def from_dict(d: dict) -> "Node":
+        raw_acc = d.get("accurate", True)
+        accurate = None if raw_acc is None else bool(raw_acc)
         node = Node(
             node_id=d["node_id"],
             title=d["title"],
@@ -55,7 +61,7 @@ class Node:
             summary=d.get("summary", ""),
             source=d.get("source", ""),
             text=d.get("text", ""),
-            accurate=bool(d.get("accurate", True)),
+            accurate=accurate,
         )
         node.children = [Node.from_dict(c) for c in d.get("children", [])]
         return node

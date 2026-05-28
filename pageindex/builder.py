@@ -1,4 +1,5 @@
 """Tree construction: from the PDF's embedded TOC, the printed TOC, or sliding window."""
+import math
 import os
 import re
 from typing import Dict, List, Optional, Tuple
@@ -354,6 +355,140 @@ def build_tree(pdf: PDFDocument, config: Config, llm: LLMClient,
     return root, used
 
 
+# --------------------------------------------------------------------------
+# Post-build: split oversized leaves with the sliding-window heading detector
+# --------------------------------------------------------------------------
+def _is_front_matter_node(node: Node) -> bool:
+    return node.source in ("preface", "toc", "front_matter") or node.node_id.startswith("f")
+
+
+def _normalize_title(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", (text or "").lower())
+
+
+def _scan_subheadings(pdf: PDFDocument, config: Config, llm: LLMClient,
+                      leaf: Node, verbose: bool) -> List[Dict]:
+    """Slide a window over a leaf's page range and collect inner sub-headings.
+
+    Returns headings whose page falls strictly INSIDE the leaf range (not on
+    the leaf's own start_page, since that would just re-detect the leaf
+    itself). Drops headings whose normalized title matches the leaf's title
+    or another already-collected heading.
+    """
+    span = leaf.end_page - leaf.start_page + 1
+    if span <= config.window_size:
+        return []
+
+    parent_norm = _normalize_title(leaf.title)
+    collected: List[Dict] = []
+    seen: set = set()
+    page = leaf.start_page
+    while page <= leaf.end_page:
+        w_end = min(page + config.window_size - 1, leaf.end_page)
+        try:
+            text = pdf.text_range(page, w_end, config.max_chars_per_block)
+            heads = _detect_headings(llm, text, page, w_end)
+        except Exception as err:  # noqa: BLE001 - degrade to "no headings here"
+            if verbose:
+                print(f"[split] window p.{page}-{w_end} of '{leaf.title[:50]}': "
+                      f"detect error: {err}")
+            heads = []
+
+        for h in heads:
+            h_page = min(max(leaf.start_page, h["page"]), leaf.end_page)
+            # Skip headings on the leaf's own start_page - the leaf itself.
+            if h_page <= leaf.start_page:
+                continue
+            title = h["title"].strip()
+            if not title:
+                continue
+            norm = _normalize_title(title)
+            if not norm or norm == parent_norm:
+                continue
+            key = (norm, h_page)
+            if key in seen:
+                continue
+            seen.add(key)
+            collected.append({"title": title, "level": leaf.level + 1, "page": h_page})
+
+        if w_end >= leaf.end_page:
+            break
+        page = max(page + 1, w_end + 1 - config.window_overlap)
+
+    collected.sort(key=lambda h: (h["page"], h["level"]))
+    return collected
+
+
+def split_large_leaves(root: Node, pdf: PDFDocument, config: Config,
+                       llm: LLMClient, verbose: bool = True) -> int:
+    """Refine oversized leaves into parent + discovered children.
+
+    A leaf qualifies for refinement when its page span exceeds
+    `config.effective_large_leaf_pages` and it is not a front-matter node.
+    The sliding-window heading detector is run over the leaf's pages; if it
+    yields >= 2 distinct sub-headings, the leaf becomes their parent. If
+    fewer than 2 are found, the leaf is left intact (the longer-summary
+    fallback is applied later by summarize_tree based on page span alone).
+
+    New children have `accurate=None` (unverified) since the design skips a
+    verify pass on them. Returns the number of leaves actually split.
+    """
+    threshold = config.effective_large_leaf_pages
+    split_count = 0
+    # Collect targets before mutating (iter_post_order yields each parent
+    # AFTER its children, so a leaf that we promote to a parent is not
+    # revisited by the iterator).
+    leaves: List[Node] = [
+        n for n in iter_post_order(root)
+        if n.is_leaf()
+        and not _is_front_matter_node(n)
+        and (n.end_page - n.start_page + 1) > threshold
+    ]
+
+    if verbose and leaves:
+        print(f"[split] checking {len(leaves)} oversized leaf(s) "
+              f"(threshold={threshold}p)")
+
+    for leaf in leaves:
+        span = leaf.end_page - leaf.start_page + 1
+        heads = _scan_subheadings(pdf, config, llm, leaf, verbose)
+        if len(heads) < 2:
+            if verbose:
+                print(f"[split] '{leaf.title[:60]}' ({span}p): "
+                      f"only {len(heads)} sub-heading(s) found, leaving intact")
+            continue
+
+        children = build_hierarchy(heads, source="window", id_prefix=f"{leaf.node_id}s")
+        leaf.children = children
+        for c in children:
+            for d in iter_post_order(c):
+                d.accurate = None
+        assign_end_pages(leaf.children, leaf.end_page)
+        split_count += 1
+        if verbose:
+            print(f"[split] '{leaf.title[:60]}' ({span}p) -> "
+                  f"{len(heads)} sub-heading(s)")
+
+    return split_count
+
+
+def _leaf_summary_max_tokens(node: Node, config: Config) -> int:
+    """Scale max_tokens for a leaf's summary based on its page span.
+
+    A leaf within the normal range gets the default 4096 budget. Oversized
+    leaves (the ones the splitter couldn't subdivide) get a larger budget
+    proportional to span / window_size, so the summary has room to enumerate
+    the topics inside instead of being squeezed into 3-6 sentences.
+    """
+    span = node.end_page - node.start_page + 1
+    threshold = config.effective_large_leaf_pages
+    if span <= threshold:
+        return 4096
+    units = max(1, math.ceil(span / max(1, config.window_size)))
+    budget = config.oversized_leaf_summary_unit * units
+    return min(config.oversized_leaf_summary_max, max(4096, budget))
+
+
 def _uncovered_text(node: Node, pdf: PDFDocument) -> str:
     """Return PDF text from `node`'s page range NOT covered by any child.
 
@@ -391,7 +526,11 @@ def summarize_tree(root: Node, pdf: PDFDocument, config: Config, llm: LLMClient,
         if node.is_leaf():
             text = pdf.text_range(node.start_page, node.end_page)
             node.text = text
-            result = llm.complete_json(SUMMARY_SYS, leaf_summary_user(node, text, needs_title))
+            result = llm.complete_json(
+                SUMMARY_SYS,
+                leaf_summary_user(node, text, needs_title),
+                max_tokens=_leaf_summary_max_tokens(node, config),
+            )
         else:
             extra_text = _uncovered_text(node, pdf)
             node.text = extra_text
