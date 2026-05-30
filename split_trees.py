@@ -121,18 +121,16 @@ def _process_one(tree_path: Path, out_path: Path, pdf_dir: Path,
             and n.source not in ("preface", "toc", "front_matter")
             and (n.end_page - n.start_page + 1) > threshold
         ]
-        n_split = split_large_leaves(root, pdf, config, llm, verbose=verbose)
-        if n_split == 0:
-            # Window scan found no usable headings; the longer-summary
-            # fallback still applies to these leaves.
-            for leaf in targets:
-                _resummarize_subtree(leaf, pdf, config, llm, verbose=verbose)
-        else:
-            # Re-summarize each split subtree (the new children and the
-            # now-parent). Targets that didn't actually split (children
-            # empty) just get a fresh leaf summary with the larger budget.
-            for leaf in targets:
-                _resummarize_subtree(leaf, pdf, config, llm, verbose=verbose)
+        split_large_leaves(root, pdf, config, llm, verbose=verbose)
+        # Re-summarize every originally-oversized target's subtree post-order,
+        # regardless of which path it took inside split_large_leaves:
+        #   - window scan grafted semantic sub-headings as children, or
+        #   - fixed-size page chunks were grafted as children, or
+        #   - the leaf stayed intact (n_sub < 2 in the chunker).
+        # In all three cases _resummarize_subtree fills in text + summary for
+        # every node beneath (and including) `leaf`.
+        for leaf in targets:
+            _resummarize_subtree(leaf, pdf, config, llm, verbose=verbose)
     finally:
         pdf.close()
 

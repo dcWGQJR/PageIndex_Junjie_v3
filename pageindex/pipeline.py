@@ -80,8 +80,8 @@ class PageIndex:
             print(f"[time] build_tree: {self.timings['build']:.1f}s")
 
         t0 = time.perf_counter()
-        self.metrics = verify_and_repair(root, self._pdf, llm=self.llm,
-                                         verbose=verbose)
+        self.metrics = verify_and_repair(root, self._pdf, self.config,
+                                         self.llm, verbose=verbose)
         self.timings["verify"] = time.perf_counter() - t0
         if verbose:
             print(f"[time] verify_and_repair: {self.timings['verify']:.1f}s")

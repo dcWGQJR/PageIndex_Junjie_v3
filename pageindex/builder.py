@@ -419,57 +419,131 @@ def _scan_subheadings(pdf: PDFDocument, config: Config, llm: LLMClient,
     return collected
 
 
+def _round_half_up(value: float) -> int:
+    """Round-half-up (1.4 -> 1, 2.5 -> 3). Python's built-in round() uses
+    banker's rounding (2.5 -> 2), which is not what the chunking spec calls for."""
+    return math.floor(value + 0.5)
+
+
+def _fixed_chunk_leaf(leaf: Node, config: Config, verbose: bool) -> bool:
+    """Replace `leaf` with fixed-size page-chunk children. Returns True if
+    chunking was applied (>= 2 chunks), False if it was a no-op.
+
+    Spec:
+      1. N = pages / window_size                      (raw)
+      2. N_sub = round_half_up(N)                     (>= 1)
+      3. split_size = pages / N_sub                   (raw)
+      4. split_size = round_half_up(split_size)       (>= 1)
+      5. The LAST chunk takes all remaining pages even if larger than split_size.
+
+    New chunks carry source="window" so summarize_tree treats them like other
+    window-derived nodes (asks the LLM for a real title from the page text
+    rather than keeping the synthetic 'Pages X-Y' placeholder) and
+    `accurate=None` since they bypass verification.
+    """
+    pages = leaf.end_page - leaf.start_page + 1
+    n_sub = max(1, _round_half_up(pages / max(1, config.window_size)))
+    if n_sub < 2:
+        return False
+    split_size = max(1, _round_half_up(pages / n_sub))
+
+    children: List[Node] = []
+    cur = leaf.start_page
+    for i in range(n_sub):
+        is_last = (i == n_sub - 1)
+        end = leaf.end_page if is_last else min(leaf.end_page, cur + split_size - 1)
+        children.append(Node(
+            node_id=f"{leaf.node_id}c{i + 1}",
+            title=f"Pages {cur}-{end}",
+            level=leaf.level + 1,
+            start_page=cur,
+            end_page=end,
+            source="window",
+            accurate=None,
+        ))
+        cur = end + 1
+        if cur > leaf.end_page:
+            break
+
+    leaf.children = children
+    if verbose:
+        print(f"[split] fixed-chunk '{leaf.title[:60]}' ({pages}p) -> "
+              f"{len(children)} chunk(s) of ~{split_size}p")
+    return True
+
+
 def split_large_leaves(root: Node, pdf: PDFDocument, config: Config,
                        llm: LLMClient, verbose: bool = True) -> int:
     """Refine oversized leaves into parent + discovered children.
 
     A leaf qualifies for refinement when its page span exceeds
     `config.effective_large_leaf_pages` and it is not a front-matter node.
-    The sliding-window heading detector is run over the leaf's pages; if it
-    yields >= 2 distinct sub-headings, the leaf becomes their parent. If
-    fewer than 2 are found, the leaf is left intact (the longer-summary
-    fallback is applied later by summarize_tree based on page span alone).
+
+    Two passes:
+      1. Window heading detector runs over each oversized leaf. If it yields
+         >= 2 distinct sub-headings, the leaf becomes their parent.
+      2. Any leaf still over the threshold afterwards - either the window
+         scan produced < 2 headings, or a discovered child is itself still
+         oversized - is replaced by fixed-size page-chunk children per the
+         _fixed_chunk_leaf spec.
 
     New children have `accurate=None` (unverified) since the design skips a
-    verify pass on them. Returns the number of leaves actually split.
+    verify pass on them. Returns the total number of leaves that were split
+    (window-derived plus fixed-chunked).
     """
     threshold = config.effective_large_leaf_pages
-    split_count = 0
-    # Collect targets before mutating (iter_post_order yields each parent
-    # AFTER its children, so a leaf that we promote to a parent is not
-    # revisited by the iterator).
+
+    # Pass 1: window-scan oversized leaves into semantic sub-headings.
     leaves: List[Node] = [
         n for n in iter_post_order(root)
         if n.is_leaf()
         and not _is_front_matter_node(n)
         and (n.end_page - n.start_page + 1) > threshold
     ]
-
     if verbose and leaves:
-        print(f"[split] checking {len(leaves)} oversized leaf(s) "
+        print(f"[split] window-scanning {len(leaves)} oversized leaf(s) "
               f"(threshold={threshold}p)")
 
+    n_window = 0
     for leaf in leaves:
         span = leaf.end_page - leaf.start_page + 1
         heads = _scan_subheadings(pdf, config, llm, leaf, verbose)
         if len(heads) < 2:
             if verbose:
                 print(f"[split] '{leaf.title[:60]}' ({span}p): "
-                      f"only {len(heads)} sub-heading(s) found, leaving intact")
+                      f"{len(heads)} sub-heading(s) found, "
+                      f"will fall back to fixed chunking")
             continue
-
-        children = build_hierarchy(heads, source="window", id_prefix=f"{leaf.node_id}s")
+        children = build_hierarchy(heads, source="window",
+                                   id_prefix=f"{leaf.node_id}s")
         leaf.children = children
         for c in children:
             for d in iter_post_order(c):
                 d.accurate = None
         assign_end_pages(leaf.children, leaf.end_page)
-        split_count += 1
+        n_window += 1
         if verbose:
             print(f"[split] '{leaf.title[:60]}' ({span}p) -> "
                   f"{len(heads)} sub-heading(s)")
 
-    return split_count
+    # Pass 2: any leaf still over the threshold gets fixed-size page chunks.
+    # We capture the current leaves into a list to avoid mutating the
+    # iteration source; new children added in this pass are smaller than
+    # window_size by construction and never need further chunking.
+    n_fixed = 0
+    for n in list(iter_post_order(root)):
+        if not n.is_leaf():
+            continue
+        if _is_front_matter_node(n):
+            continue
+        if (n.end_page - n.start_page + 1) <= threshold:
+            continue
+        if _fixed_chunk_leaf(n, config, verbose):
+            n_fixed += 1
+
+    if verbose and (n_window or n_fixed):
+        print(f"[split] done: {n_window} window-split, {n_fixed} fixed-chunked")
+    return n_window + n_fixed
 
 
 def _leaf_summary_max_tokens(node: Node, config: Config) -> int:

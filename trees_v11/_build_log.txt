@@ -1,0 +1,137 @@
+
+--- batch run 2026-05-28 16:01:05 ---
+FAIL 3M_2018_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL 3M_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL 3M_2023Q2_10Q.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL ACTIVISIONBLIZZARD_2019_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL ADOBE_2015_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL ADOBE_2016_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL ADOBE_2017_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL ADOBE_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL AES_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL AMAZON_2017_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL AMAZON_2019_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL AMCOR_2020_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL AMCOR_2022_8K_dated-2022-07-01.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL AMCOR_2023_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL AMCOR_2023Q2_10Q.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL AMCOR_2023Q4_EARNINGS.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL AMD_2015_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL AMD_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL AMERICANEXPRESS_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL AMERICANWATERWORKS_2020_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL AMERICANWATERWORKS_2021_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL AMERICANWATERWORKS_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL BESTBUY_2017_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL BESTBUY_2019_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL BESTBUY_2023_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL BESTBUY_2024Q2_10Q.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL BLOCK_2016_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL BLOCK_2020_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL BOEING_2018_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL BOEING_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL COCACOLA_2017_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL COCACOLA_2021_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL COCACOLA_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL CORNING_2020_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL CORNING_2021_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL CORNING_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL COSTCO_2021_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL CVSHEALTH_2018_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL CVSHEALTH_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL FOOTLOCKER_2022_8K_dated-2022-05-20.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL FOOTLOCKER_2022_8K_dated_2022-08-19.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL GENERALMILLS_2019_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL GENERALMILLS_2020_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL GENERALMILLS_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL JOHNSON_JOHNSON_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL JOHNSON_JOHNSON_2022Q4_EARNINGS.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL JOHNSON_JOHNSON_2023_8K_dated-2023-08-30.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL JOHNSON_JOHNSON_2023Q2_EARNINGS.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL JPMORGAN_2021Q1_10Q.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL JPMORGAN_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL JPMORGAN_2022Q2_10Q.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL JPMORGAN_2023Q2_10Q.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL KRAFTHEINZ_2019_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL LOCKHEEDMARTIN_2020_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL LOCKHEEDMARTIN_2021_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL LOCKHEEDMARTIN_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL MGMRESORTS_2018_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL MGMRESORTS_2020_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL MGMRESORTS_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL MGMRESORTS_2022Q4_EARNINGS.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL MGMRESORTS_2023Q2_10Q.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL MICROSOFT_2016_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL MICROSOFT_2023_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL NETFLIX_2015_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL NETFLIX_2017_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL NIKE_2018_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL NIKE_2019_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL NIKE_2021_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL NIKE_2023_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL PAYPAL_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL PEPSICO_2021_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL PEPSICO_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL PEPSICO_2023_8K_dated-2023-05-05.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL PEPSICO_2023_8K_dated-2023-05-30.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL PEPSICO_2023Q1_EARNINGS.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL PFIZER_2021_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL Pfizer_2023Q2_10Q.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL ULTABEAUTY_2023_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL ULTABEAUTY_2023Q4_EARNINGS.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL VERIZON_2021_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL VERIZON_2022_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL WALMART_2018_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL WALMART_2019_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+FAIL WALMART_2020_10K.pdf  error=No API key found. Set OPENAI_API_KEY in the environment or in pageindex.env.
+
+--- batch run 2026-05-28 16:01:39 ---
+OK   3M_2018_10K.pdf  mode=printed_toc  pages=160  acc=100%  time=347.1s [build=36.8s verify=5.8s split=19.0s summarize=285.4s]  -> 3M_2018_10K.tree.json
+OK   3M_2022_10K.pdf  mode=printed_toc  pages=252  acc=100%  time=1077.8s [build=34.1s verify=11.2s split=94.1s summarize=938.4s]  -> 3M_2022_10K.tree.json
+OK   3M_2023Q2_10Q.pdf  mode=printed_toc  pages=92  acc=100%  time=181.0s [build=18.1s verify=0.0s split=11.5s summarize=151.3s]  -> 3M_2023Q2_10Q.tree.json
+OK   ACTIVISIONBLIZZARD_2019_10K.pdf  mode=printed_toc  pages=198  acc=100%  time=943.5s [build=7.1s verify=0.0s split=155.0s summarize=781.3s]  -> ACTIVISIONBLIZZARD_2019_10K.tree.json
+OK   ADOBE_2015_10K.pdf  mode=embedded_toc  pages=116  acc=100%  time=281.5s [build=0.3s verify=0.1s split=0.0s summarize=281.0s]  -> ADOBE_2015_10K.tree.json
+OK   ADOBE_2016_10K.pdf  mode=embedded_toc  pages=112  acc=100%  time=277.9s [build=0.2s verify=0.1s split=0.0s summarize=277.5s]  -> ADOBE_2016_10K.tree.json
+OK   ADOBE_2017_10K.pdf  mode=embedded_toc  pages=107  acc=98%  time=267.1s [build=0.2s verify=1.1s split=0.0s summarize=265.8s]  -> ADOBE_2017_10K.tree.json
+OK   ADOBE_2022_10K.pdf  mode=embedded_toc  pages=99  acc=97%  time=287.3s [build=0.2s verify=2.7s split=0.0s summarize=284.3s]  -> ADOBE_2022_10K.tree.json
+OK   AES_2022_10K.pdf  mode=printed_toc  pages=257  acc=69%  time=556.2s [build=22.6s verify=99.2s split=39.1s summarize=395.3s]  -> AES_2022_10K.tree.json
+OK   AMAZON_2017_10K.pdf  mode=printed_toc  pages=85  acc=100%  time=248.9s [build=12.5s verify=2.1s split=21.4s summarize=212.8s]  -> AMAZON_2017_10K.tree.json
+OK   AMAZON_2019_10K.pdf  mode=printed_toc  pages=83  acc=100%  time=158.3s [build=10.5s verify=0.9s split=12.2s summarize=134.7s]  -> AMAZON_2019_10K.tree.json
+OK   AMCOR_2020_10K.pdf  mode=printed_toc  pages=195  acc=100%  time=636.6s [build=9.0s verify=4.8s split=65.2s summarize=557.6s]  -> AMCOR_2020_10K.tree.json
+OK   AMCOR_2022_8K_dated-2022-07-01.pdf  mode=window  pages=9  acc=100%  time=48.8s [build=5.0s verify=0.0s split=0.0s summarize=43.8s]  -> AMCOR_2022_8K_dated-2022-07-01.tree.json
+OK   AMCOR_2023_10K.pdf  mode=printed_toc  pages=156  acc=97%  time=562.4s [build=9.5s verify=2.4s split=61.4s summarize=489.1s]  -> AMCOR_2023_10K.tree.json
+OK   AMCOR_2023Q2_10Q.pdf  mode=printed_toc  pages=57  acc=100%  time=162.8s [build=7.3s verify=0.1s split=9.1s summarize=146.3s]  -> AMCOR_2023Q2_10Q.tree.json
+OK   AMCOR_2023Q4_EARNINGS.pdf  mode=embedded_toc  pages=14  acc=36%  time=9.8s [build=0.2s verify=9.5s split=0.0s summarize=0.0s]  NOT SAVED (status=below_60)
+OK   AMD_2015_10K.pdf  mode=printed_toc  pages=215  acc=100%  time=840.2s [build=9.5s verify=2.0s split=106.0s summarize=722.4s]  -> AMD_2015_10K.tree.json
+FAIL AMD_2022_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMERICANEXPRESS_2022_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMERICANWATERWORKS_2020_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMERICANWATERWORKS_2021_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMERICANWATERWORKS_2022_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL BESTBUY_2017_10K.pdf  error=LLM JSON request failed: Connection error.
+
+--- batch run 2026-05-28 18:48:29 ---
+OK   AMCOR_2023Q4_EARNINGS.pdf  mode=embedded_toc  pages=14  acc=36%  time=11.1s [build=0.9s verify=10.1s split=0.0s summarize=0.0s]  NOT SAVED (status=below_60)
+OK   AMD_2022_10K.pdf  mode=printed_toc  pages=121  acc=100%  time=424.7s [build=6.0s verify=1.5s split=64.2s summarize=352.9s]  -> AMD_2022_10K.tree.json
+OK   AMERICANEXPRESS_2022_10K.pdf  mode=printed_toc  pages=260  acc=100%  time=1198.3s [build=6.8s verify=7.3s split=224.0s summarize=960.2s]  -> AMERICANEXPRESS_2022_10K.tree.json
+OK   AMERICANWATERWORKS_2020_10K.pdf  mode=printed_toc  pages=152  acc=100%  time=532.0s [build=11.8s verify=0.7s split=86.8s summarize=432.7s]  -> AMERICANWATERWORKS_2020_10K.tree.json
+FAIL AMERICANWATERWORKS_2021_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL AMERICANWATERWORKS_2022_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL BESTBUY_2017_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL BESTBUY_2019_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL BESTBUY_2023_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL BESTBUY_2024Q2_10Q.pdf  error=LLM JSON request failed: Connection error.
+FAIL BLOCK_2016_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL BLOCK_2020_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL BOEING_2018_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL BOEING_2022_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL COCACOLA_2017_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL COCACOLA_2021_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL COCACOLA_2022_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL CORNING_2020_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL CORNING_2021_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL CORNING_2022_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL COSTCO_2021_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL CVSHEALTH_2018_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL CVSHEALTH_2022_10K.pdf  error=LLM JSON request failed: Connection error.
+FAIL FOOTLOCKER_2022_8K_dated-2022-05-20.pdf  error=LLM JSON request failed: Connection error.
