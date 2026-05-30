@@ -153,23 +153,23 @@ def _detect_page_offset(pdf: PDFDocument, headings: List[Dict],
     return 0
 
 
-def build_from_printed_toc(pdf: PDFDocument, config: Config, llm: LLMClient,
-                           verbose: bool = True) -> Optional[List[Node]]:
-    """Scan early pages for a printed TOC, LLM-parse it, then build the hierarchy.
+# If the parsed TOC's last entry sits earlier than this fraction of the PDF,
+# look for an additional printed TOC block beyond the initial scan window.
+_LATE_TOC_COVERAGE = 2 / 3
 
-    Returns the list of root-level Nodes, or None if no usable printed TOC
-    could be extracted (caller falls back to the next mode).
+
+def _parse_printed_toc_block(pdf: PDFDocument, llm: LLMClient,
+                             toc_pages: List[int],
+                             verbose: bool) -> List[Dict]:
+    """LLM-parse one contiguous printed TOC block and return clean headings.
+
+    Drops bare-identifier and Part-only entries; clamps page numbers to the
+    document range. Page-offset correction is applied separately by the
+    caller using `_detect_page_offset`.
     """
-    toc_pages = pdf.find_printed_toc_pages()
-    if not toc_pages:
-        if verbose:
-            print("[build] no printed TOC page detected")
-        return None
-    if verbose:
-        print(f"[build] candidate printed TOC pages: {toc_pages}")
-
     text = pdf.text_range(toc_pages[0], toc_pages[-1])
-    result = llm.complete_json(PRINTED_TOC_SYS, printed_toc_user(text, pdf.page_count))
+    result = llm.complete_json(PRINTED_TOC_SYS,
+                               printed_toc_user(text, pdf.page_count))
     raw = result.get("entries", []) if isinstance(result, dict) else result
 
     headings: List[Dict] = []
@@ -195,9 +195,34 @@ def build_from_printed_toc(pdf: PDFDocument, config: Config, llm: LLMClient,
         headings.append({"level": level, "title": title, "page": page})
 
     if verbose and dropped_bare:
-        print(f"[build] dropped {dropped_bare} bare-identifier TOC entries (e.g. 'Item 1' with no description)")
+        print(f"[build] dropped {dropped_bare} bare-identifier TOC entries "
+              f"(e.g. 'Item 1' with no description)")
     if verbose and dropped_parts:
         print(f"[build] dropped {dropped_parts} organizational 'Part N' TOC entries")
+    return headings
+
+
+def build_from_printed_toc(pdf: PDFDocument, config: Config, llm: LLMClient,
+                           verbose: bool = True) -> Optional[List[Node]]:
+    """Scan early pages for a printed TOC, LLM-parse it, then build the hierarchy.
+
+    If the parsed TOC's last entry sits earlier than ~2/3 of the document,
+    scan beyond the initial window for an additional printed TOC block
+    (common in long filings that have a mid-document TOC). Both blocks'
+    headings are merged before the hierarchy is built.
+
+    Returns the list of root-level Nodes, or None if no usable printed TOC
+    could be extracted (caller falls back to the next mode).
+    """
+    toc_pages = pdf.find_printed_toc_pages()
+    if not toc_pages:
+        if verbose:
+            print("[build] no printed TOC page detected")
+        return None
+    if verbose:
+        print(f"[build] candidate printed TOC pages: {toc_pages}")
+
+    headings = _parse_printed_toc_block(pdf, llm, toc_pages, verbose)
 
     if len(headings) < config.toc_min_entries:
         if verbose:
@@ -210,6 +235,44 @@ def build_from_printed_toc(pdf: PDFDocument, config: Config, llm: LLMClient,
             print(f"[build] printed-to-physical page offset: {offset:+d}")
         for h in headings:
             h["page"] = min(pdf.page_count, max(1, h["page"] + offset))
+
+    # If the first TOC's coverage stops well before the end of the document,
+    # look for additional TOC pages beyond the initial scan window. This
+    # catches filings that have a separate mid-document TOC (e.g. an attached
+    # exhibit, a financial-statements TOC after the main 10-K body, etc.).
+    coverage_cutoff = int(pdf.page_count * _LATE_TOC_COVERAGE)
+    max_heading_page = max((h["page"] for h in headings), default=0)
+    if max_heading_page < coverage_cutoff:
+        scan_from = max(toc_pages) + 1
+        remaining = pdf.page_count - scan_from + 1
+        if remaining > 0:
+            if verbose:
+                print(f"[build] last TOC entry at p.{max_heading_page} < p.{coverage_cutoff} "
+                      f"({_LATE_TOC_COVERAGE:.0%} of {pdf.page_count}); "
+                      f"scanning p.{scan_from}-{pdf.page_count} for another TOC")
+            extra_pages = pdf.find_printed_toc_pages(
+                max_scan=remaining, start_page=scan_from,
+            )
+            if extra_pages:
+                if verbose:
+                    print(f"[build] additional printed TOC pages: {extra_pages}")
+                extra_headings = _parse_printed_toc_block(pdf, llm, extra_pages, verbose)
+                extra_offset = _detect_page_offset(pdf, extra_headings, extra_pages)
+                if extra_offset:
+                    if verbose:
+                        print(f"[build] extra-TOC page offset: {extra_offset:+d}")
+                    for h in extra_headings:
+                        h["page"] = min(pdf.page_count, max(1, h["page"] + extra_offset))
+                # Only keep extra headings whose corrected page falls AFTER
+                # the first TOC's coverage - same-section dupes would just
+                # produce overlapping levels.
+                extra_headings = [h for h in extra_headings if h["page"] > max_heading_page]
+                if extra_headings:
+                    if verbose:
+                        print(f"[build] merging {len(extra_headings)} late-TOC entries")
+                    headings.extend(extra_headings)
+            elif verbose:
+                print(f"[build] no additional TOC found beyond p.{scan_from}")
 
     headings.sort(key=lambda h: (h["page"], h["level"]))
     if verbose:

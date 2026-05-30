@@ -59,24 +59,32 @@ class PDFDocument:
             })
         return toc
 
-    def find_printed_toc_pages(self, max_scan: int = 25,
-                               max_pages: int = 3) -> List[int]:
+    def find_printed_toc_pages(self, max_scan: int = 25, max_pages: int = 3,
+                               start_page: int = 1) -> List[int]:
         """Locate the page(s) of a printed (in-body) table of contents.
 
-        A page is classified as TOC-like when it shows one of these structural
-        patterns (header phrases are deliberately ignored - "Table of Contents"
-        is often a running header on every page in financial filings):
+        Scans pages in [start_page, start_page + max_scan - 1] (clamped to the
+        document range). A page is classified as TOC-like when it shows one
+        of these structural patterns (header phrases are deliberately ignored -
+        "Table of Contents" is often a running header on every page in
+        financial filings):
           - several dot-leader lines like ".......... 12", or
           - many lines that are just a page-number cell (column-layout TOC)
             *and* a short median line length (rules out body prose).
 
-        We pick the first TOC-like page as the anchor and extend forward up to
-        `max_pages` total only while following pages are also TOC-like.
-        Returns the page numbers (1-indexed) or [] if no TOC page was found.
+        We pick the first TOC-like page in the scanned range as the anchor
+        and extend forward up to `max_pages` total only while following pages
+        are also TOC-like. Returns the page numbers (1-indexed) or [] if no
+        TOC page was found in the scanned range. The `start_page` parameter
+        lets callers search for additional TOC blocks beyond an initial scan
+        (e.g. mid-document TOCs in long filings).
         """
         is_toc: List[bool] = []
-        upper = min(max_scan, self.page_count)
-        for p in range(1, upper + 1):
+        first = max(1, start_page)
+        last = min(first + max_scan - 1, self.page_count)
+        if first > last:
+            return []
+        for p in range(first, last + 1):
             text = self.page_text(p)
             if not text.strip():
                 is_toc.append(False)
@@ -92,16 +100,17 @@ class PDFDocument:
             )
 
         try:
-            start = is_toc.index(True)
+            idx = is_toc.index(True)
         except ValueError:
             return []
 
-        pages = [start + 1]
+        anchor_page = first + idx
+        pages = [anchor_page]
         for step in range(1, max_pages):
-            i = start + step
+            i = idx + step
             if i >= len(is_toc) or not is_toc[i]:
                 break
-            pages.append(i + 1)
+            pages.append(first + i)
         return pages
 
     def close(self) -> None:
