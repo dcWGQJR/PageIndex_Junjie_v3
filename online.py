@@ -154,6 +154,72 @@ JUDGE_SYS = (
 )
 
 
+# Alternative JUDGE_SYS (procedural / step-by-step). Kept here for reference -
+# composes unit conversion + precision normalization + last-digit tolerance into
+# explicit ordered steps with worked examples. Swap with the active JUDGE_SYS
+# above to A/B-test which framing the model follows more reliably.
+#
+# JUDGE_SYS = (
+#     "You compare two answers to a financial question and decide whether they convey "
+#     "the same factual content. "
+#     "FIRST, extract the FINAL numeric or yes/no answer from the predicted reply - "
+#     "the prediction may include a long calculation walkthrough with many "
+#     "intermediate numbers; ignore those and compare only the final stated answer "
+#     "to the expected answer. "
+#     "\n\n"
+#     "PROCEDURE: apply the following steps IN ORDER. As soon as any step yields T, "
+#     "return T immediately. Otherwise continue to the next step. "
+#     "\n"
+#     "  Step 1 (normalize units). Convert both answers into the SAME representation: "
+#     "    - unit/scale: $1,577M, $1.58B, 1.2bn, 1,200M are all numbers in millions. "
+#     "    - fraction vs percentage: 0.163 and 16.3% are the SAME ratio; "
+#     "      0.01 and 1% are the SAME ratio. Convert one side so units match. "
+#     "    - signs: parentheses around a number mean negative. "
+#     "  Step 2 (last-digit rule at the same precision). After Step 1, if both "
+#     "    numbers are reported at the same precision and differ by AT MOST 1 in "
+#     "    the last digit, return T. This applies even when the question specifies "
+#     "    a required decimal place (e.g. 'round to one decimal place' does not "
+#     "    disable this rule). "
+#     "  Step 3 (precision normalization). If the two numbers are at different "
+#     "    precisions, round BOTH to the LOWER precision and re-apply Step 2. "
+#     "    They are equivalent if the rounded forms match OR differ by at most 1 "
+#     "    in the last digit of that lower precision. "
+#     "  Step 4 (relative tolerance). If neither side specifies precision and the "
+#     "    above did not resolve, return T when the relative error is <= 1% "
+#     "    (e.g. $1,577M vs $1,580M, 15.27% vs 15.3%). Do NOT apply this loose "
+#     "    rule when the question pins down precision. "
+#     "\n"
+#     "Worked examples (each MUST be judged T): "
+#     "    Expected 6.2%, predicted 6.3%   -> T  (Step 2: same 1dp precision, +1) "
+#     "    Expected 1,577, predicted 1,578 -> T  (Step 2) "
+#     "    Expected 0.01,  predicted 1.43% -> T  (Step 1 converts 1.43% -> 0.0143; "
+#     "                                            Step 3 rounds 0.0143 to 2dp -> "
+#     "                                            0.01, matches expected) "
+#     "    Expected 1%,    predicted 0.0143 -> T (Step 1 converts to same units; "
+#     "                                            Step 3 rounds to 1dp percent -> "
+#     "                                            1.0% vs 1.4%, differs by 4 ticks, "
+#     "                                            so FALL THROUGH to Step 4: "
+#     "                                            relative error 43%, NOT within 1%, "
+#     "                                            so this is actually F. The expected "
+#     "                                            with explicit 1dp implies Step 3 "
+#     "                                            governs. ONLY judge T here if the "
+#     "                                            expected is '0.01' (2dp), not '1%' "
+#     "                                            (no fractional digits)) "
+#     "Worked examples that MUST be judged F: "
+#     "    Expected 10.3%, predicted 11.3% -> F  (1.0pp gap = 10 ticks in last "
+#     "                                            digit at 1dp - NOT within +/-1) "
+#     "    Expected 20,    predicted 25    -> F  (5 ticks at same precision) "
+#     "\n\n"
+#     "Use your own financial-domain knowledge during Step 1 to recognize "
+#     "equivalent terminology (e.g. 'net sales' = 'revenue' in many filings, "
+#     "'EBIT' = 'operating income') and standard formulas (e.g. gross margin = "
+#     "gross profit / revenue). "
+#     "Yes/No answers must match direction. If the predicted answer says the "
+#     "document does not contain the information but the expected answer is a "
+#     "concrete fact, the verdict is F."
+# )
+
+
 def _judge_prompt(question: str, expected: str, predicted: str) -> str:
     return f"""QUESTION:
 {question}
@@ -271,22 +337,144 @@ def _path_excerpt(path: List[Node]) -> str:
     return "\n\n".join(pieces)
 
 
+VERIFY_ANSWER_SYS = (
+    "You are a verifier for financial-question answers. You receive (a) the "
+    "question, (b) the source excerpts the answerer was given, and (c) the "
+    "predicted answer including its calculation walkthrough. "
+    "Check three things AGAINST THE EXCERPTS ONLY, in order: "
+    "  1. Line-item lookups: every number the prediction claims to read from "
+    "     the document (e.g. 'Net sales: $519,926 million') must actually "
+    "     appear in the excerpts, on the cited page, under the named line "
+    "     item. Mismatched line items count as an issue. "
+    "  2. Derivation choice: when the prediction DERIVES a value (e.g. "
+    "     operating income = gross margin - SG&A - R&D), check that the same "
+    "     value isn't ALREADY printed as a single line item in the excerpts. "
+    "     Reading a line item directly is always preferred to a derived "
+    "     reconstruction. "
+    "  3. Arithmetic: every computation in the walkthrough (sums, averages, "
+    "     ratios, percentages) must be correct to within 1 in the last "
+    "     reported digit. Re-do the math step by step. "
+    "Be CONSERVATIVE: only flag issues you are sure about - a flagged "
+    "correct answer wastes a re-run and may degrade the final answer. If "
+    "you cannot pin down a problem to a specific line, do not flag it. "
+    "Return JSON: "
+    "{\"ok\": true|false, "
+    " \"issues\": [\"<one-line description per problem>\", ...], "
+    " \"corrected_final_answer\": \"<the corrected final number/string if "
+    "you are highly confident, otherwise empty string>\"}"
+)
+
+
+def _verify_answer_prompt(query: str, excerpts_block: str, predicted: str) -> str:
+    return f"""Question: {query}
+
+Source excerpts the answerer used:
+{excerpts_block}
+
+Predicted answer (including its calculation walkthrough):
+{predicted}
+
+Verify per the system instructions and return JSON.
+"""
+
+
+def _excerpts_block(paths: List[List[Node]], excerpts: List[str]) -> str:
+    blocks = []
+    for i, (path, excerpt) in enumerate(zip(paths, excerpts), start=1):
+        breadcrumb = " > ".join(n.title for n in path)
+        leaf = path[-1]
+        blocks.append(
+            f"### Excerpt {i}: {breadcrumb} (pages {leaf.start_page}-{leaf.end_page})\n"
+            f"{excerpt}"
+        )
+    return "\n\n".join(blocks)
+
+
+def _reanswer_with_feedback(query: str, paths: List[List[Node]],
+                            excerpts: List[str], prior_answer: str,
+                            issues: List[str], config: Config,
+                            answer_llm: LLMClient) -> str:
+    """Re-run the answer model with verifier feedback appended to the user prompt."""
+    base = _answer_user_multi(query, paths, excerpts)
+    issues_block = "\n".join(f"  - {s}" for s in issues if s)
+    feedback = (
+        "\n\nA verification step flagged the following issues with a previous "
+        "attempt at this question. Address each before producing your final "
+        "answer.\n\n"
+        f"PREVIOUS ANSWER:\n{prior_answer}\n\n"
+        f"VERIFIER ISSUES:\n{issues_block}\n"
+    )
+    return answer_llm.complete(
+        ANSWER_MULTI_SYS,
+        base + feedback,
+        max_tokens=config.answer_max_tokens,
+    )
+
+
+def verify_answer(query: str, paths: List[List[Node]], excerpts: List[str],
+                  predicted: str, answer_llm: LLMClient,
+                  verbose: bool = False) -> Dict[str, Any]:
+    """Run the verifier critic. Returns {ok, issues, corrected_final_answer}."""
+    try:
+        result = answer_llm.complete_json(
+            VERIFY_ANSWER_SYS,
+            _verify_answer_prompt(query, _excerpts_block(paths, excerpts), predicted),
+            max_tokens=1000,
+        )
+    except Exception as err:  # noqa: BLE001 - degrade to "ok" rather than block answer
+        if verbose:
+            print(f"[verify_answer] critic error (treating as OK): {err}")
+        return {"ok": True, "issues": [], "corrected_final_answer": ""}
+    if not isinstance(result, dict):
+        return {"ok": True, "issues": [], "corrected_final_answer": ""}
+    ok = bool(result.get("ok", True))
+    issues = result.get("issues") or []
+    if not isinstance(issues, list):
+        issues = []
+    corrected = str(result.get("corrected_final_answer", "")).strip()
+    return {"ok": ok, "issues": [str(s) for s in issues], "corrected_final_answer": corrected}
+
+
 def answer_multi(root: Node, query: str, config: Config,
                  llm: LLMClient, beam_size: int = 2, max_leaves: int = 100,
                  verbose: bool = False,
-                 answer_llm: Optional[LLMClient] = None) -> Dict[str, Any]:
+                 answer_llm: Optional[LLMClient] = None,
+                 verify: bool = True) -> Dict[str, Any]:
+    """Retrieve, answer, optionally verify-and-regenerate.
+
+    When `verify=True` and the verifier flags issues, one re-answer pass is
+    run with the verifier's issues appended to the user prompt. The re-answer
+    output replaces the original. Verifier failures (network/parse errors)
+    degrade to OK so a flaky critic never blocks an otherwise-fine answer.
+    """
     paths = retrieve_multi(root, query, config, llm, beam_size, max_leaves, verbose)
     excerpts = [_path_excerpt(p) for p in paths]
     breadcrumb = "  |  ".join(" > ".join(n.title for n in path) for path in paths)
-    answer = (answer_llm or llm).complete(
+    use_llm = answer_llm or llm
+    answer = use_llm.complete(
         ANSWER_MULTI_SYS,
         _answer_user_multi(query, paths, excerpts),
         max_tokens=config.answer_max_tokens,
-    )
+    ).strip()
+
+    verification: Optional[Dict[str, Any]] = None
+    if verify:
+        verification = verify_answer(query, paths, excerpts, answer, use_llm,
+                                     verbose=verbose)
+        if not verification["ok"] and verification["issues"]:
+            if verbose:
+                preview = "; ".join(verification["issues"])[:200]
+                print(f"[verify_answer] flagged: {preview}")
+            answer = _reanswer_with_feedback(
+                query, paths, excerpts, answer, verification["issues"],
+                config, use_llm,
+            ).strip()
+
     return {
-        "answer": answer.strip(),
+        "answer": answer,
         "breadcrumb": breadcrumb,
         "paths": paths,
+        "verification": verification,
     }
 
 
