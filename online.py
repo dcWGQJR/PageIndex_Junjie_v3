@@ -161,6 +161,68 @@ def _selected_excerpt(path: List[Node]) -> str:
 # --------------------------------------------------------------------------
 # Answer + verify
 # --------------------------------------------------------------------------
+# Input-token budget for the answer prompt. gpt-4o-2024-11-20 has a 128k
+# total-context window; we reserve ~8k for the response and tokenizer slop.
+# Claude has a 200k window but the same budget is conservative enough to
+# work for it too, so we keep one number.
+_ANSWER_INPUT_BUDGET = 120000
+
+# Lazy-loaded tiktoken encoder for token estimation. Falls back to a
+# character-based heuristic when tiktoken isn't installed.
+_TOKEN_ENCODER: Any = None
+
+
+def _estimate_tokens(text: str) -> int:
+    """Estimate token count of `text`.
+
+    Uses tiktoken's cl100k_base (GPT-4 / gpt-4o tokenizer) when available -
+    it's also a decent rough proxy for Claude's tokenizer for English text.
+    Falls back to `len(text) / 3` (conservative; dense numeric text averages
+    closer to 3 chars/token than the usual ~4).
+    """
+    global _TOKEN_ENCODER
+    if _TOKEN_ENCODER is None:
+        try:
+            import tiktoken
+            _TOKEN_ENCODER = tiktoken.get_encoding("cl100k_base")
+        except Exception:  # noqa: BLE001 - any failure -> use heuristic
+            _TOKEN_ENCODER = "fallback"
+    if _TOKEN_ENCODER == "fallback":
+        return len(text) // 3
+    return len(_TOKEN_ENCODER.encode(text))
+
+
+def _trim_to_budget(query: str, paths: List[List[Node]], excerpts: List[str],
+                    budget: int, verbose: bool = False
+                    ) -> Tuple[List[List[Node]], List[str]]:
+    """Drop trailing (least-relevant) picks until the answer prompt fits.
+
+    `select_nodes` returns paths ordered by relevance (most-relevant first),
+    so `paths[-1]` is the safest to drop. Estimates the rendered system +
+    user token count via `_estimate_tokens` and pops one pick at a time
+    until the total is within `budget` or only one pick is left.
+
+    If a single pick is itself oversized, this returns it unchanged - the
+    caller's LLM call will then error out and the row is recorded as ERROR.
+    Truncating a single excerpt is not attempted here.
+    """
+    sys_tokens = _estimate_tokens(ANSWER_MULTI_SYS)
+    while len(paths) > 1:
+        user = answer_user_multi(query, paths, excerpts)
+        total = sys_tokens + _estimate_tokens(user)
+        if total <= budget:
+            return paths, excerpts
+        if verbose:
+            dropped = paths[-1][-1].title
+            print(f"[trim] estimated {total} tokens > budget {budget}; "
+                  f"dropping least-relevant pick {dropped!r} "
+                  f"({len(paths) - 1} remaining)")
+        paths = paths[:-1]
+        excerpts = excerpts[:-1]
+    return paths, excerpts
+
+
+
 def _reanswer_with_feedback(query: str, paths: List[List[Node]],
                             excerpts: List[str], prior_answer: str,
                             issues: List[str], config: Config,
@@ -223,6 +285,9 @@ def answer_multi(root: Node, query: str, config: Config,
     """
     paths = select_nodes(root, query, llm, max_picks=max_picks, verbose=verbose)
     excerpts = [_selected_excerpt(p) for p in paths]
+    # Token-budget guard: drop least-relevant picks until the prompt fits.
+    paths, excerpts = _trim_to_budget(query, paths, excerpts,
+                                      _ANSWER_INPUT_BUDGET, verbose=verbose)
     breadcrumb = "  |  ".join(" > ".join(n.title for n in path) for path in paths)
     use_answer_llm = answer_llm or llm
     use_judge_llm = judge_llm or use_answer_llm
