@@ -270,6 +270,12 @@ def _parse_args() -> argparse.Namespace:
                         help="Persist the output xlsx every N rows.")
     parser.add_argument("--verbose", action="store_true",
                         help="Print every routing decision.")
+    parser.add_argument("--dump-false", action="store_true",
+                        help="Print the full diagnostic dump (question / expected / "
+                             "justification / evidence / predicted / retrieval path) "
+                             "for every row judged F. Off by default - the per-row "
+                             "verdict line still prints, the xlsx still records F, "
+                             "just no detailed dump.")
     return parser.parse_args()
 
 
@@ -305,21 +311,17 @@ def _make_output_workbook(header: List[str]) -> Tuple[Workbook, Any]:
 def _make_llm_clients(config: Config) -> Tuple[LLMClient, LLMClient, LLMClient]:
     """Build the (selection, answer, judge) LLM client triple.
 
-    - Selection: gpt-4o-2024-11-20 on OpenAI; Sonnet on Anthropic.
-    - Answer:    gpt-4o-2024-11-20 on OpenAI; Opus on Anthropic.
-    - Judge/verify: always gpt-4o-2024-11-20 (OpenAI), regardless of the
-      project's main provider, so verdicts stay comparable across runs that
-      vary the answer model. Requires OPENAI_API_KEY in the environment.
+    - Selection:    gpt-4o-2024-11-20 on OpenAI; Sonnet on Anthropic.
+    - Answer:       gpt-4o-2024-11-20 on OpenAI; Opus on Anthropic.
+    - Judge/verify: gpt-4o-2024-11-20 on OpenAI; Sonnet on Anthropic.
     """
     routing_model = "gpt-4o-2024-11-20" if config.provider == "openai" else "claude-sonnet-4-6"
-    llm = LLMClient(replace(config, model=routing_model))
+    routing_llm = LLMClient(replace(config, model=routing_model))
     answer_model = "gpt-4o-2024-11-20" if config.provider == "openai" else "claude-opus-4-7"
     answer_llm = LLMClient(replace(config, model=answer_model))
-    # Pinned to gpt-4o. Clearing api_key forces Config.__post_init__ to look
-    # up OPENAI_API_KEY from the environment.
-    judge_llm = LLMClient(replace(config, provider="openai",
-                                  model="gpt-4o-2024-11-20", api_key=""))
-    return llm, answer_llm, judge_llm
+    judge_model = "gpt-4o-2024-11-20" if config.provider == "openai" else "claude-sonnet-4-6"
+    judge_llm = LLMClient(replace(config, model=judge_model))
+    return routing_llm, answer_llm, judge_llm
 
 
 def _judge_one(judge_llm: LLMClient, question: str, expected: str,
@@ -337,7 +339,7 @@ def _judge_one(judge_llm: LLMClient, question: str, expected: str,
 
 def _process_row(r: int, n_total: int, row: tuple, col: Dict[str, int],
                  trees_dir: Path, tree_cache: Dict[str, Node],
-                 config: Config, llm: LLMClient, answer_llm: LLMClient,
+                 config: Config, routing_llm: LLMClient, answer_llm: LLMClient,
                  judge_llm: LLMClient,
                  args: argparse.Namespace) -> Dict[str, Any]:
     """Answer + judge one QA row.
@@ -366,7 +368,7 @@ def _process_row(r: int, n_total: int, row: tuple, col: Dict[str, int],
     t0 = time.time()
     try:
         result = answer_multi(
-            root, str(question), config, llm,
+            root, str(question), config, routing_llm,
             max_picks=args.max_picks, verbose=args.verbose,
             answer_llm=answer_llm, judge_llm=judge_llm,
         )
@@ -394,16 +396,16 @@ def _print_progress(r: int, n_total: int, row: tuple, col: Dict[str, int],
           f"({result['duration']:.1f}s)  [{running}]  q={q_preview!r}")
 
 
-def _print_first_f_dump(row: tuple, header: List[str], col: Dict[str, int],
-                        result: Dict[str, Any]) -> None:
-    """Print the diagnostic dump shown the first time a row is judged F."""
+def _print_f_dump(row: tuple, header: List[str], col: Dict[str, int],
+                  result: Dict[str, Any]) -> None:
+    """Print the full diagnostic dump for one F-verdict row."""
     question = row[col["question"]]
     expected = row[col["answer"]]
     expected_str = "" if expected is None else str(expected).strip()
     justification = row[header.index("justification")] if "justification" in header else ""
     evidence = row[header.index("evidence")] if "evidence" in header else ""
     print(f"\n{'=' * 60}")
-    print("First F detected - stopping.")
+    print("F verdict - dumping row:")
     print(f"{'=' * 60}")
     for field, value in [
         ("question", question),
@@ -441,29 +443,27 @@ def main() -> int:
 
     out_wb, out_ws = _make_output_workbook(header)
     config = Config()
-    llm, answer_llm, judge_llm = _make_llm_clients(config)
+    routing_llm, answer_llm, judge_llm = _make_llm_clients(config)
 
     n_total = ws.max_row - 1
     counters: Dict[str, int] = {"T": 0, "F": 0, "?": 0, "SKIP": 0, "ERROR": 0}
     tree_cache: Dict[str, Node] = {}
-    first_f_dumped = False
 
     for r, row in enumerate(ws.iter_rows(min_row=2, values_only=True), start=2):
         if args.limit and (r - 1) > args.limit:
             break
 
         result = _process_row(r, n_total, row, col, trees_dir, tree_cache,
-                              config, llm, answer_llm, judge_llm, args)
+                              config, routing_llm, answer_llm, judge_llm, args)
         verdict = result["verdict"]
         counters[verdict] += 1
         out_ws.append(list(row) + [result["predicted"], result["breadcrumb"], verdict])
 
         if verdict in ("T", "F", "?"):
             _print_progress(r, n_total, row, col, result, counters)
-        if verdict == "F" and not first_f_dumped:
+        if verdict == "F" and args.dump_false:
             out_wb.save(out_path)
-            _print_first_f_dump(row, header, col, result)
-            first_f_dumped = True
+            _print_f_dump(row, header, col, result)
 
         if (r - 1) % args.save_every == 0:
             out_wb.save(out_path)

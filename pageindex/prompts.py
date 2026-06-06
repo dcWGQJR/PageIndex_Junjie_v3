@@ -8,14 +8,8 @@ HEADING_SYS = (
     "You analyze a slice of a PDF and identify the section headings that begin "
     "within it. Lines that the extractor judged visually heading-like (bold "
     "or noticeably larger than body text) are prefixed with `# ` in the input "
-    "- treat these as strong candidate headings. "
-    "When the document has no explicit headings but the prose clearly shifts "
-    "topic - common in press-release-style filings, earnings reports, and "
-    "short 8-K exhibits - you MAY synthesize a concise descriptive heading "
-    "(4-10 words, Title Case) that names the new section. Synthesize "
-    "sparingly: only at genuine topic transitions, not at every paragraph or "
-    "table row. Prefer a phrase actually present on the page when one fits; "
-    "synthesize only when nothing on the page works as a label."
+    "- treat these as strong candidate headings. You are precise and never "
+    "invent headings that are not present."
 )
 
 
@@ -24,15 +18,14 @@ def heading_user(text: str, start: int, end: int) -> str:
 
 Identify every chapter / section / sub-section heading that STARTS within these pages.
 For each heading give:
-- "title": the heading text, cleaned of stray whitespace. If you synthesize a heading at a topic transition, write a concise Title Case label (4-10 words) that names the new section.
+- "title": the heading text, cleaned of stray whitespace
 - "level": hierarchy depth. 1 = top-level chapter or part, 2 = section, 3 = subsection, and so on. Be consistent across the whole document.
 - "page": the page number it appears on (read it from the nearest preceding `[page N]` marker)
-- "synthesized": true if you invented the title at a topic shift (no exact heading on the page), false if the title is taken verbatim from a line on the page.
 
 Ignore running headers/footers, page numbers, and figure/table captions.
-If the slice has neither visible headings nor clear topic shifts, return an empty list.
+If there are no headings in this slice, return an empty list.
 
-Return JSON: {{"headings": [{{"title": "...", "level": 1, "page": {start}, "synthesized": false}}]}}
+Return JSON: {{"headings": [{{"title": "...", "level": 1, "page": {start}}}]}}
 
 TEXT:
 {text}

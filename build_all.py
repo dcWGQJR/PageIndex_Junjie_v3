@@ -6,6 +6,9 @@ Usage
     # already-built trees are skipped automatically; pass --force to rebuild.
     python build_all.py FinanceBench --out-dir trees
 
+    # run 8 PDFs in parallel (default is 4)
+    python build_all.py FinanceBench --workers 8
+
     # only build PDFs that have an embedded TOC (no LLM fallback)
     python build_all.py FinanceBench --skip-on-no-toc
 
@@ -16,7 +19,10 @@ import argparse
 import json
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+from threading import Lock
+from typing import Any, Dict
 
 from openpyxl import Workbook, load_workbook
 
@@ -55,6 +61,45 @@ def _append_accuracy_row(xlsx_path: Path, row: list) -> None:
     wb.save(xlsx_path)
 
 
+def _build_one(pdf_path: Path, out_path: Path, config: Config,
+               effective_mode: str, verbose: bool) -> Dict[str, Any]:
+    """Worker: build the tree for one PDF. No file I/O on shared resources.
+
+    Returns a dict describing the outcome:
+      {status: "OK", saved: bool, metrics, mode, timings, duration, root_pages}
+      {status: "FAIL", error: str}
+    The caller (main thread) handles xlsx append, log write, and final
+    success/failure bookkeeping so those shared writes don't race.
+    """
+    t0 = time.time()
+    index = None
+    try:
+        index = PageIndex(config=config)
+        index.build_structure(str(pdf_path), mode=effective_mode, verbose=verbose)
+        metrics = index.metrics
+        saved = metrics["final_accuracy"] >= 0.60
+        if saved:
+            index.split_oversized(verbose=verbose)
+            index.summarize(verbose=verbose)
+            index.save(str(out_path))
+        else:
+            index.close()
+        return {
+            "status": "OK", "saved": saved, "metrics": metrics,
+            "mode": index.mode, "timings": index.timings or {},
+            "duration": time.time() - t0,
+            "root_pages": index.root.end_page if index.root else 0,
+        }
+    except Exception as err:  # noqa: BLE001 - keep batch alive across failures
+        if index is not None:
+            try:
+                index.close()
+            except Exception:  # noqa: BLE001 - already failing
+                pass
+        return {"status": "FAIL", "error": str(err),
+                "duration": time.time() - t0}
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Batch-build PageIndex trees.")
     parser.add_argument("input_dir", help="Directory containing PDFs (searched recursively).")
@@ -69,8 +114,14 @@ def main() -> int:
                         help="Use only the embedded TOC; skip PDFs that lack one.")
     parser.add_argument("--limit", type=int,
                         help="Process at most N PDFs (useful for a smoke test).")
+    parser.add_argument("--workers", type=int, default=4,
+                        help="Number of PDFs to build concurrently (default: 4). "
+                             "Each worker runs its own PageIndex/LLMClient; "
+                             "tune to your provider rate limits.")
     parser.add_argument("--verbose", action="store_true",
-                        help="Print per-node progress while building.")
+                        help="Print per-node progress while building. With "
+                             "concurrent workers the output from different "
+                             "PDFs may interleave.")
     args = parser.parse_args()
 
     in_dir = Path(args.input_dir)
@@ -98,74 +149,86 @@ def main() -> int:
     log_path = out_dir / "_build_log.txt"
     accuracy_path = out_dir / "tree_accuracy.xlsx"
 
+    # Decide upfront which PDFs need building so the skip count is deterministic
+    # and the workers only see fresh work.
+    to_build: list[Path] = []
+    for pdf_path in pdfs:
+        out_path = out_dir / (pdf_path.stem + ".tree.json")
+        if not args.force and _is_successful_tree(out_path):
+            skipped.append(pdf_path.name)
+            print(f"[skip] {pdf_path.name}: already built.")
+        else:
+            to_build.append(pdf_path)
+
+    if not to_build:
+        print(f"\nNothing to build. {len(skipped)} skipped.")
+        return 0
+
+    # Single lock guards every write to log + accuracy xlsx from worker
+    # callbacks (main thread runs them, but they share the file).
+    io_lock = Lock()
+
     with open(log_path, "a", encoding="utf-8") as log:
-        log.write(f"\n--- batch run {time.strftime('%Y-%m-%d %H:%M:%S')} ---\n")
-        for i, pdf_path in enumerate(pdfs, 1):
-            out_path = out_dir / (pdf_path.stem + ".tree.json")
-            tag = f"[{i}/{len(pdfs)}] {pdf_path.name}"
+        with io_lock:
+            log.write(f"\n--- batch run {time.strftime('%Y-%m-%d %H:%M:%S')} "
+                      f"(workers={args.workers}) ---\n")
 
-            if not args.force and _is_successful_tree(out_path):
-                print(f"{tag}: already built, skipping.")
-                skipped.append(pdf_path.name)
-                continue
+        print(f"\nBuilding {len(to_build)} PDF(s) with {args.workers} worker(s)...")
+        n_to_build = len(to_build)
 
-            print(f"\n{tag}: building (mode={effective_mode})...")
-            t0 = time.time()
-            try:
-                index = PageIndex(config=config)
-                index.build_structure(str(pdf_path), mode=effective_mode,
-                                      verbose=args.verbose)
-                metrics = index.metrics
-                saved = metrics["final_accuracy"] >= 0.60
+        with ThreadPoolExecutor(max_workers=args.workers) as executor:
+            future_to_pdf = {}
+            for pdf_path in to_build:
+                out_path = out_dir / (pdf_path.stem + ".tree.json")
+                fut = executor.submit(
+                    _build_one, pdf_path, out_path, config,
+                    effective_mode, args.verbose,
+                )
+                future_to_pdf[fut] = (pdf_path, out_path)
+
+            for i, fut in enumerate(as_completed(future_to_pdf), 1):
+                pdf_path, out_path = future_to_pdf[fut]
+                tag = f"[{i}/{n_to_build}] {pdf_path.name}"
+                result = fut.result()
+
+                if result["status"] == "FAIL":
+                    line = f"FAIL {pdf_path.name}  error={result['error']}"
+                    with io_lock:
+                        print(line, file=sys.stderr)
+                        log.write(line + "\n")
+                        log.flush()
+                    failures.append((pdf_path.name, result["error"]))
+                    continue
+
+                metrics = result["metrics"]
+                saved = result["saved"]
+                tm = result["timings"]
+                acc = metrics["final_accuracy"]
+                outcome = (f"-> {out_path.name}" if saved
+                           else f"NOT SAVED (status={metrics['status']})")
+                splits = (f" [build={tm.get('build', 0):.1f}s "
+                          f"verify={tm.get('verify', 0):.1f}s "
+                          f"split={tm.get('split', 0):.1f}s "
+                          f"summarize={tm.get('summarize', 0):.1f}s]")
+                line = (f"OK   {pdf_path.name}  mode={result['mode']}  "
+                        f"pages={result['root_pages']}  acc={acc:.0%}  "
+                        f"time={result['duration']:.1f}s{splits}  {outcome}")
+
+                with io_lock:
+                    print(f"{tag}: {line}")
+                    log.write(line + "\n")
+                    log.flush()
+                    _append_accuracy_row(accuracy_path, [
+                        pdf_path.name, result["mode"], metrics["verifiable"],
+                        round(metrics["initial_accuracy"], 4),
+                        round(metrics["final_accuracy"], 4),
+                        metrics["iterations"], metrics["status"], saved,
+                    ])
+
                 if saved:
-                    index.split_oversized(verbose=args.verbose)
-                    index.summarize(verbose=args.verbose)
+                    successes.append(pdf_path.name)
                 else:
-                    index.close()
-            except Exception as err:  # noqa: BLE001 - keep batch alive across failures
-                line = f"FAIL {pdf_path.name}  error={err}"
-                print(line, file=sys.stderr)
-                log.write(line + "\n")
-                log.flush()
-                failures.append((pdf_path.name, str(err)))
-                try:
-                    index.close()
-                except Exception:  # noqa: BLE001 - already failing
-                    pass
-                continue
-
-            if saved:
-                index.save(str(out_path))
-
-            _append_accuracy_row(accuracy_path, [
-                pdf_path.name,
-                index.mode,
-                metrics["verifiable"],
-                round(metrics["initial_accuracy"], 4),
-                round(metrics["final_accuracy"], 4),
-                metrics["iterations"],
-                metrics["status"],
-                saved,
-            ])
-
-            dt = time.time() - t0
-            acc = metrics["final_accuracy"]
-            outcome = f"-> {out_path.name}" if saved else f"NOT SAVED (status={metrics['status']})"
-            tm = index.timings or {}
-            splits = (f" [build={tm.get('build', 0):.1f}s "
-                      f"verify={tm.get('verify', 0):.1f}s "
-                      f"split={tm.get('split', 0):.1f}s "
-                      f"summarize={tm.get('summarize', 0):.1f}s]")
-            line = (f"OK   {pdf_path.name}  mode={index.mode}  "
-                    f"pages={index.root.end_page}  acc={acc:.0%}  "
-                    f"time={dt:.1f}s{splits}  {outcome}")
-            print(line)
-            log.write(line + "\n")
-            log.flush()
-            if saved:
-                successes.append(pdf_path.name)
-            else:
-                rejected.append((pdf_path.name, metrics["status"]))
+                    rejected.append((pdf_path.name, metrics["status"]))
 
     print(f"\nDone. {len(successes)} built, {len(skipped)} skipped, "
           f"{len(rejected)} rejected, {len(failures)} failed.")

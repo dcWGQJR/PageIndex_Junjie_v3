@@ -219,14 +219,14 @@ def main() -> int:
     trees_dir = Path(args.trees_dir)
 
     config = Config()
-    # Selection on gpt-4o, answer on the provider's top model, judge/verify
-    # pinned to gpt-4o regardless of provider (see online._make_llm_clients).
+    # Mirrors online._make_llm_clients: selection + judge/verify on Sonnet
+    # (or gpt-4o on OpenAI), answer on Opus (or gpt-4o on OpenAI).
     routing_model = "gpt-4o-2024-11-20" if config.provider == "openai" else "claude-sonnet-4-6"
     llm = LLMClient(replace(config, model=routing_model))
     answer_model = "gpt-4o-2024-11-20" if config.provider == "openai" else "claude-opus-4-7"
     answer_llm = LLMClient(replace(config, model=answer_model))
-    judge_llm = LLMClient(replace(config, provider="openai",
-                                  model="gpt-4o-2024-11-20", api_key=""))
+    judge_model = "gpt-4o-2024-11-20" if config.provider == "openai" else "claude-sonnet-4-6"
+    judge_llm = LLMClient(replace(config, model=judge_model))
 
     return retry_failed(args, out_path, trees_dir, config, llm, answer_llm, judge_llm)
 

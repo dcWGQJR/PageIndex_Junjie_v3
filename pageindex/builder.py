@@ -303,21 +303,37 @@ def _detect_headings(llm: LLMClient, text: str, start: int, end: int) -> List[Di
 
 
 def _chunk_nodes(pdf: PDFDocument, config: Config) -> List[Node]:
-    """Fallback when no headings can be found: flat fixed-size page chunks."""
+    """Fallback when no headings can be found: flat fixed-size page chunks.
+
+    Uses the same spec as `_fixed_chunk_leaf` (large-leaf division), so the
+    fallback in `build_from_windows` and the leaf-split path produce evenly
+    sized chunks via the same algorithm:
+      N_sub      = round_half_up(pages / window_size)   (>= 1)
+      split_size = round_half_up(pages / N_sub)         (>= 1)
+    Each chunk takes `split_size` pages except the last, which absorbs the
+    remainder. If the document is shorter than `window_size` the whole PDF
+    becomes a single chunk.
+    """
+    pages = pdf.page_count
+    n_sub = max(1, _round_half_up(pages / max(1, config.window_size)))
+    split_size = max(1, _round_half_up(pages / n_sub))
+
     nodes: List[Node] = []
-    page, i = 1, 0
-    while page <= pdf.page_count:
-        w_end = min(page + config.window_size - 1, pdf.page_count)
-        i += 1
+    cur = 1
+    for i in range(n_sub):
+        is_last = (i == n_sub - 1)
+        end = pages if is_last else min(pages, cur + split_size - 1)
         nodes.append(Node(
-            node_id=f"w{i}",
-            title=f"Pages {page}-{w_end}",
+            node_id=f"w{i + 1}",
+            title=f"Pages {cur}-{end}",
             level=1,
-            start_page=page,
-            end_page=w_end,
+            start_page=cur,
+            end_page=end,
             source="window",
         ))
-        page = w_end + 1
+        cur = end + 1
+        if cur > pages:
+            break
     return nodes
 
 
