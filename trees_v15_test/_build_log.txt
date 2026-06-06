@@ -1,0 +1,8 @@
+
+--- batch run 2026-06-05 23:56:45 ---
+OK   JOHNSON_JOHNSON_2022_10K.pdf  mode=printed_toc  pages=151  acc=64%  time=707.1s [build=13.7s verify=74.7s split=119.0s summarize=499.7s]  -> JOHNSON_JOHNSON_2022_10K.tree.json
+OK   JOHNSON_JOHNSON_2022Q4_EARNINGS.pdf  mode=window  pages=24  acc=98%  time=186.8s [build=32.9s verify=37.5s split=0.0s summarize=116.4s]  -> JOHNSON_JOHNSON_2022Q4_EARNINGS.tree.json
+OK   MGMRESORTS_2022Q4_EARNINGS.pdf  mode=window  pages=15  acc=100%  time=138.7s [build=27.7s verify=25.9s split=0.0s summarize=85.1s]  -> MGMRESORTS_2022Q4_EARNINGS.tree.json
+OK   ULTABEAUTY_2023Q4_EARNINGS.pdf  mode=window  pages=9  acc=86%  time=68.4s [build=12.0s verify=16.2s split=0.0s summarize=40.2s]  -> ULTABEAUTY_2023Q4_EARNINGS.tree.json
+
+--- batch run 2026-06-06 00:24:16 ---

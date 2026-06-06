@@ -330,7 +330,7 @@ def build_from_windows(pdf: PDFDocument, config: Config, llm: LLMClient,
         w_end = min(page + config.window_size - 1, pdf.page_count)
         if verbose:
             print(f"[window] analyzing pages {page}-{w_end}")
-        text = pdf.text_range(page, w_end, config.max_chars_per_block)
+        text = pdf.text_range_annotated(page, w_end, config.max_chars_per_block)
         for h in _detect_headings(llm, text, page, w_end):
             h["page"] = min(max(1, h["page"]), pdf.page_count)
             h["level"] = max(1, h["level"])
@@ -449,7 +449,7 @@ def _scan_subheadings(pdf: PDFDocument, config: Config, llm: LLMClient,
     while page <= leaf.end_page:
         w_end = min(page + config.window_size - 1, leaf.end_page)
         try:
-            text = pdf.text_range(page, w_end, config.max_chars_per_block)
+            text = pdf.text_range_annotated(page, w_end, config.max_chars_per_block)
             heads = _detect_headings(llm, text, page, w_end)
         except Exception as err:  # noqa: BLE001 - degrade to "no headings here"
             if verbose:

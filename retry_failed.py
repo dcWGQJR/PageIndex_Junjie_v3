@@ -22,11 +22,13 @@ from openpyxl import load_workbook
 from pageindex import Config, LLMClient
 from pageindex.tree import Node, load_tree
 
-from online import JUDGE_SYS, _judge_prompt, answer_multi
+from online import answer_multi
+from online_prompts import JUDGE_SYS, judge_prompt
 
 
 def _run_question(doc_name: str, question: str, expected_str: str,
                   args, config: Config, llm: LLMClient, answer_llm: LLMClient,
+                  judge_llm: LLMClient,
                   trees_dir: Path, tree_cache: Dict[str, Node]) -> Dict[str, Any]:
     """Answer one question and judge it.
 
@@ -51,8 +53,8 @@ def _run_question(doc_name: str, question: str, expected_str: str,
     try:
         result = answer_multi(
             root, question, config, llm,
-            beam_size=args.beam_size, max_leaves=args.max_leaves,
-            verbose=args.verbose, answer_llm=answer_llm,
+            max_picks=args.max_picks,
+            verbose=args.verbose, answer_llm=answer_llm, judge_llm=judge_llm,
         )
     except Exception as err:  # noqa: BLE001 - caller decides what to log
         return {"status": "ERROR", "predicted": "", "breadcrumb": "",
@@ -63,8 +65,8 @@ def _run_question(doc_name: str, question: str, expected_str: str,
     breadcrumb = result["breadcrumb"]
 
     try:
-        judged = answer_llm.complete_json(
-            JUDGE_SYS, _judge_prompt(question, expected_str, predicted)
+        judged = judge_llm.complete_json(
+            JUDGE_SYS, judge_prompt(question, expected_str, predicted)
         )
         verdict = str(judged.get("verdict", "")).strip().upper()
         if verdict not in ("T", "F"):
@@ -77,7 +79,8 @@ def _run_question(doc_name: str, question: str, expected_str: str,
 
 
 def retry_failed(args, out_path: Path, trees_dir: Path, config: Config,
-                 llm: LLMClient, answer_llm: LLMClient) -> int:
+                 llm: LLMClient, answer_llm: LLMClient,
+                 judge_llm: LLMClient) -> int:
     """Re-run only verdict=F rows in an existing results xlsx; update in place."""
     if not out_path.is_file():
         print(f"Error: no results file at {out_path}", file=sys.stderr)
@@ -131,7 +134,7 @@ def retry_failed(args, out_path: Path, trees_dir: Path, config: Config,
             str(doc_name) if doc_name else "",
             str(question) if question else "",
             expected_str,
-            args, config, llm, answer_llm, trees_dir, tree_cache,
+            args, config, llm, answer_llm, judge_llm, trees_dir, tree_cache,
         )
 
         if res["status"] == "SKIP":
@@ -204,10 +207,8 @@ def main() -> int:
     parser.add_argument("--trees-dir", default="trees")
     parser.add_argument("--limit", type=int,
                         help="Process at most N of the F rows.")
-    parser.add_argument("--beam-size", type=int, default=100,
-                        help="Max children to follow at each tree level (default: 100).")
-    parser.add_argument("--max-leaves", type=int, default=100,
-                        help="Max sections to feed into the answer (default: 100).")
+    parser.add_argument("--max-picks", type=int, default=10,
+                        help="Max nodes the selection agent may pick (default: 10).")
     parser.add_argument("--save-every", type=int, default=5,
                         help="Persist the output xlsx every N rows.")
     parser.add_argument("--verbose", action="store_true",
@@ -218,12 +219,16 @@ def main() -> int:
     trees_dir = Path(args.trees_dir)
 
     config = Config()
-    llm = LLMClient(config)
-    # Final answer uses a stronger model than routing/judge.
+    # Selection on gpt-4o, answer on the provider's top model, judge/verify
+    # pinned to gpt-4o regardless of provider (see online._make_llm_clients).
+    routing_model = "gpt-4o-2024-11-20" if config.provider == "openai" else "claude-sonnet-4-6"
+    llm = LLMClient(replace(config, model=routing_model))
     answer_model = "gpt-4o-2024-11-20" if config.provider == "openai" else "claude-opus-4-7"
     answer_llm = LLMClient(replace(config, model=answer_model))
+    judge_llm = LLMClient(replace(config, provider="openai",
+                                  model="gpt-4o-2024-11-20", api_key=""))
 
-    return retry_failed(args, out_path, trees_dir, config, llm, answer_llm)
+    return retry_failed(args, out_path, trees_dir, config, llm, answer_llm, judge_llm)
 
 
 if __name__ == "__main__":

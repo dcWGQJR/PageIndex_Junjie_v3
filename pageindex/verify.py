@@ -32,7 +32,7 @@ set (LLM-approved or front-matter-rule), it is treated as correct for the
 rest of the run and never re-verified or moved.
 """
 import re
-from typing import Dict, List, Optional, Set
+from typing import Dict, Iterable, List, Optional, Set
 
 from .builder import assign_end_pages, build_from_windows
 from .config import Config
@@ -159,6 +159,18 @@ def _build_parent_map(root: Node) -> Dict[int, Node]:
     return parent_map
 
 
+def _outward_pages(center: int, lower: int, upper: int,
+                   excluded: Set[int]) -> Iterable[int]:
+    """Yield pages in [lower, upper] excluding `excluded`, ordered by
+    distance from `center` (closest first). When two pages are equidistant
+    the lower one comes first, but the order at a given distance does not
+    affect correctness - the loop snaps to the first matching page."""
+    return sorted(
+        (p for p in range(lower, upper + 1) if p not in excluded),
+        key=lambda p: (abs(p - center), p),
+    )
+
+
 def repair_leaves(root: Node, pdf: PDFDocument, verification: Dict,
                   scope: str = "bounded", verbose: bool = True) -> int:
     """For every wrong leaf, scan a page range for a page containing the
@@ -174,6 +186,14 @@ def repair_leaves(root: Node, pdf: PDFDocument, verification: Dict,
         [1, pdf.page_count] (i.e. the whole document) since the root spans
         the entire PDF.
 
+    Within the candidate range, printed-TOC pages are excluded - every
+    section title appears on the TOC by construction, so without exclusion
+    a wrong leaf would always snap back to the TOC page rather than to its
+    real content page. Pages are visited in order of distance from the
+    leaf's current `start_page` (closest first), so a leaf that is only
+    slightly off lands on the nearest matching page rather than the first
+    one alphabetically reachable from page 1.
+
     After the pass, parents' children are re-sorted by start_page and
     `assign_end_pages` is rerun so the structural ranges stay consistent
     with the new positions.
@@ -184,6 +204,13 @@ def repair_leaves(root: Node, pdf: PDFDocument, verification: Dict,
     n = len(leaves)
     repairs = 0
     parent_map = _build_parent_map(root) if scope == "parent" else {}
+    # find_printed_toc_pages only scans the first 25 pages by default, so this
+    # picks up the front-matter TOC (the J&J case) but NOT mid-document TOCs
+    # like a separate Notes-to-Financial-Statements outline. The builder's
+    # late-TOC merge logic (build_from_printed_toc) handles those when
+    # constructing the tree; the repair pass excludes only the front-matter
+    # TOC here.
+    toc_pages: Set[int] = set(pdf.find_printed_toc_pages())
 
     for i, leaf in enumerate(leaves):
         if id(leaf) not in wrong_ids:
@@ -216,7 +243,7 @@ def repair_leaves(root: Node, pdf: PDFDocument, verification: Dict,
             if lower > upper:
                 continue
 
-        for p in range(lower, upper + 1):
+        for p in _outward_pages(leaf.start_page, lower, upper, toc_pages):
             if _page_contains(pdf, p, needle):
                 if p != leaf.start_page:
                     if verbose:

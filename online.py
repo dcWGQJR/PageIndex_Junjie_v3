@@ -1,14 +1,16 @@
 """Answer FinanceBench questions against pre-built PageIndex trees and grade them.
 
-Uses MULTI-BRANCH retrieval: at every level the router may pick up to `beam_size`
-relevant child branches (default 2). The final answer is generated from the
-combined text of every selected leaf, so a question whose answer lives in (for
-example) "Note 18. Business Segments" is not lost when the router also follows
-"Consolidated Statement of Cash Flows" - both excerpts reach the answer LLM.
+Uses FLAT-SELECTION retrieval: every node in the tree (parents + leaves) is
+listed in a single LLM prompt with its title, page range, and summary; the
+selection agent returns the indices of the nodes most likely to answer the
+query. The final answer is generated from the combined text of every selected
+node, so a question whose answer lives in (for example) "Note 18. Business
+Segments" is not lost when the answer also needs the "Consolidated Statement
+of Cash Flows" - both excerpts reach the answer LLM in one shot.
 
 For each row of `financebench_subset_QA.xlsx`:
 - Load the pre-built tree at `trees/<doc_name>.tree.json`.
-- Walk the tree via beam search; collect selected leaves with their paths.
+- Run one selection call over every node in the tree; collect picked nodes.
 - Concatenate the selected sections' text into one excerpt block; answer.
 - Use an LLM judge to compare the predicted answer to the benchmark answer.
 - Append a row to an output xlsx with: <all original columns> + predicted_answer
@@ -18,7 +20,7 @@ Usage
 -----
     python online.py
     python online.py --limit 5
-    python online.py --beam-size 3 --out results_beam3.xlsx
+    python online.py --max-picks 5 --out results_top5.xlsx
 """
 import argparse
 import sys
@@ -29,373 +31,142 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from openpyxl import Workbook, load_workbook
 
+from online_prompts import (
+    ANSWER_MULTI_SYS, JUDGE_SYS, SELECTION_SYS, VERIFY_ANSWER_SYS,
+    answer_user_multi, excerpts_block, judge_prompt, selection_user,
+    verify_answer_prompt,
+)
 from pageindex import Config, LLMClient
 from pageindex.tree import Node, load_tree
 
 
 # --------------------------------------------------------------------------
-# Multi-branch retrieval prompts
+# Retrieval: flat selection over every node in the tree
 # --------------------------------------------------------------------------
-MULTI_ROUTING_SYS = (
-    "You navigate a document tree to find the section(s) most likely to answer a "
-    "query. You may pick MULTIPLE children when the answer plausibly needs "
-    "information from more than one branch (e.g. the query references both a "
-    "financial statement AND a related note). If no children are relevant, or "
-    "the current node already best matches the query, choose to stop."
-)
+def _flatten_nodes(root: Node) -> List[Tuple[List[Node], Node]]:
+    """Walk the tree in document order and return (path, node) for every
+    non-root node. `path` is root -> ... -> node (inclusive of root and node)."""
+    out: List[Tuple[List[Node], Node]] = []
+
+    def walk(node: Node, path: List[Node]) -> None:
+        for c in node.children:
+            new_path = path + [c]
+            out.append((new_path, c))
+            walk(c, new_path)
+
+    walk(root, [root])
+    return out
 
 
-def _routing_user_multi(query: str, path: List[Node], children_block: str,
-                        max_picks: int) -> str:
-    """`path` is root -> ... -> current node. Every ancestor's title and
-    summary is included so the router has the full breadcrumb context, not
-    just the current node's summary."""
-    chain_lines = []
-    for depth, n in enumerate(path):
-        indent = "  " * depth
-        marker = " (current)" if depth == len(path) - 1 else ""
-        line = f'{indent}- "{n.title}" (pages {n.start_page}-{n.end_page}){marker}'
-        if n.summary:
-            line += f"\n{indent}    Summary: {n.summary}"
-        chain_lines.append(line)
-    chain_block = "\n".join(chain_lines)
+def _format_nodes_block(entries: List[Tuple[List[Node], Node]]) -> str:
+    """Render every (path, node) as an indented numbered block for the LLM.
 
-    return f"""Query: {query}
-
-Path from document root to the node you are currently at (every ancestor's
-title and summary is shown so you have the full context, not just the
-current node):
-{chain_block}
-
-Candidate child branches under the current node:
-{children_block}
-
-Pick up to {max_picks} child branches that look most likely to contain the
-answer (return fewer if only one or two are truly relevant - do not pad).
-If NONE of the children are relevant, return an empty list and action="stop".
-
-Return JSON:
-{{
-  "action": "descend" or "stop",
-  "child_indices": [<int>, ...],
-  "reasoning": "<one short sentence>"
-}}
-"""
-
-
-ANSWER_MULTI_SYS = (
-    "You answer financial questions. Prefer the provided document excerpts as "
-    "the source of truth and cite page numbers when you use them. Multiple "
-    "excerpts may be supplied from different sections of the same document - "
-    "integrate them. If the excerpts do not fully cover the question, you may "
-    "supplement with your own knowledge; clearly label any such content as "
-    "outside the document. "
-    "Pay particular attention to distinguishing similarly worded but different "
-    "financial terms (e.g. gross vs. net, revenue vs. income, operating vs. "
-    "free cash flow, total vs. long-term debt) - match the exact term in the "
-    "question, do not substitute a near-synonym. "
-    "Accounting convention: parentheses around a number indicate a negative "
-    "value (e.g. (1,234) means -1,234)."
-)
-
-
-def _answer_user_multi(query: str, paths: List[List[Node]], excerpts: List[str]) -> str:
-    blocks = []
-    for i, (path, excerpt) in enumerate(zip(paths, excerpts), start=1):
-        breadcrumb = " > ".join(n.title for n in path)
-        leaf = path[-1]
-        blocks.append(
-            f"### Excerpt {i}: {breadcrumb} (pages {leaf.start_page}-{leaf.end_page})\n"
-            f"{excerpt}"
-        )
-    sections_block = "\n\n".join(blocks)
-    return f"""Question: {query}
-
-The retrieval system selected {len(excerpts)} section(s) of the document.
-Use the excerpts below as your primary source and cite page numbers from the
-`[page N]` markers when drawing on them. If the excerpts do not cover the
-question, you may answer from your own knowledge - just flag that part as
-not coming from the document.
-
-{sections_block}
-"""
-
-
-JUDGE_SYS = (
-    "You compare two answers to a financial question and decide whether they convey "
-    "the same factual content. "
-    "FIRST, extract the FINAL numeric or yes/no answer from the predicted reply - "
-    "the prediction may include a long calculation walkthrough with many "
-    "intermediate numbers; ignore those and compare only the final stated answer "
-    "to the expected answer. "
-    "Use your own financial-domain knowledge to judge contextually: recognize "
-    "equivalent terminology (e.g. 'net sales' = 'revenue' in many filings, 'EBIT' "
-    "= 'operating income'), standard formulas (e.g. gross margin = gross profit / "
-    "revenue), and common units/derivations so a different phrasing of the same "
-    "underlying fact is judged correct. "
-    "Treat the following as equivalent: "
-    "(a) unit/scale differences (e.g. $1,577M vs $1.58B, 1.2bn vs 1,200M); "
-    "(b) fraction vs. percentage of the same ratio (e.g. 0.163 vs 16.3%, "
-    "0.5 vs 50%); "
-    "(c) a difference of +/-1 in the last reported digit at the same precision - "
-    "ALWAYS treat this as equivalent, even if the question specifies a required decimal "
-    "(d) rounding to different precisions when the question does NOT specify a "
-    "required decimal accuracy - in that case, normalize both answers to the "
-    "lower precision and treat them as equivalent if they match there, OR if "
-    "they differ by +/- 1 in the last digit after rounding (e.g. with no precision specified, "
-    "15.27% vs 15.3% vs 15% are all equivalent; 93.85 vs 93.9 vs 94 are all "
-    "equivalent; $1,577M vs $1,580M vs $1.6B are all equivalent). Different "
-    "decimal accuracies plus accumulated rounding from intermediate steps are "
-    "expected when the question is open-ended on precision, and must not by "
-    "themselves cause an F; "
-    "Yes/No answers must match direction. If the predicted answer says the "
-    "document does not contain the information but the expected answer is a "
-    "concrete fact, the verdict is F."
-)
-
-
-# Alternative JUDGE_SYS (procedural / step-by-step). Kept here for reference -
-# composes unit conversion + precision normalization + last-digit tolerance into
-# explicit ordered steps with worked examples. Swap with the active JUDGE_SYS
-# above to A/B-test which framing the model follows more reliably.
-#
-# JUDGE_SYS = (
-#     "You compare two answers to a financial question and decide whether they convey "
-#     "the same factual content. "
-#     "FIRST, extract the FINAL numeric or yes/no answer from the predicted reply - "
-#     "the prediction may include a long calculation walkthrough with many "
-#     "intermediate numbers; ignore those and compare only the final stated answer "
-#     "to the expected answer. "
-#     "\n\n"
-#     "PROCEDURE: apply the following steps IN ORDER. As soon as any step yields T, "
-#     "return T immediately. Otherwise continue to the next step. "
-#     "\n"
-#     "  Step 1 (normalize units). Convert both answers into the SAME representation: "
-#     "    - unit/scale: $1,577M, $1.58B, 1.2bn, 1,200M are all numbers in millions. "
-#     "    - fraction vs percentage: 0.163 and 16.3% are the SAME ratio; "
-#     "      0.01 and 1% are the SAME ratio. Convert one side so units match. "
-#     "    - signs: parentheses around a number mean negative. "
-#     "  Step 2 (last-digit rule at the same precision). After Step 1, if both "
-#     "    numbers are reported at the same precision and differ by AT MOST 1 in "
-#     "    the last digit, return T. This applies even when the question specifies "
-#     "    a required decimal place (e.g. 'round to one decimal place' does not "
-#     "    disable this rule). "
-#     "  Step 3 (precision normalization). If the two numbers are at different "
-#     "    precisions, round BOTH to the LOWER precision and re-apply Step 2. "
-#     "    They are equivalent if the rounded forms match OR differ by at most 1 "
-#     "    in the last digit of that lower precision. "
-#     "  Step 4 (relative tolerance). If neither side specifies precision and the "
-#     "    above did not resolve, return T when the relative error is <= 1% "
-#     "    (e.g. $1,577M vs $1,580M, 15.27% vs 15.3%). Do NOT apply this loose "
-#     "    rule when the question pins down precision. "
-#     "\n"
-#     "Worked examples (each MUST be judged T): "
-#     "    Expected 6.2%, predicted 6.3%   -> T  (Step 2: same 1dp precision, +1) "
-#     "    Expected 1,577, predicted 1,578 -> T  (Step 2) "
-#     "    Expected 0.01,  predicted 1.43% -> T  (Step 1 converts 1.43% -> 0.0143; "
-#     "                                            Step 3 rounds 0.0143 to 2dp -> "
-#     "                                            0.01, matches expected) "
-#     "    Expected 1%,    predicted 0.0143 -> T (Step 1 converts to same units; "
-#     "                                            Step 3 rounds to 1dp percent -> "
-#     "                                            1.0% vs 1.4%, differs by 4 ticks, "
-#     "                                            so FALL THROUGH to Step 4: "
-#     "                                            relative error 43%, NOT within 1%, "
-#     "                                            so this is actually F. The expected "
-#     "                                            with explicit 1dp implies Step 3 "
-#     "                                            governs. ONLY judge T here if the "
-#     "                                            expected is '0.01' (2dp), not '1%' "
-#     "                                            (no fractional digits)) "
-#     "Worked examples that MUST be judged F: "
-#     "    Expected 10.3%, predicted 11.3% -> F  (1.0pp gap = 10 ticks in last "
-#     "                                            digit at 1dp - NOT within +/-1) "
-#     "    Expected 20,    predicted 25    -> F  (5 ticks at same precision) "
-#     "\n\n"
-#     "Use your own financial-domain knowledge during Step 1 to recognize "
-#     "equivalent terminology (e.g. 'net sales' = 'revenue' in many filings, "
-#     "'EBIT' = 'operating income') and standard formulas (e.g. gross margin = "
-#     "gross profit / revenue). "
-#     "Yes/No answers must match direction. If the predicted answer says the "
-#     "document does not contain the information but the expected answer is a "
-#     "concrete fact, the verdict is F."
-# )
-
-
-def _judge_prompt(question: str, expected: str, predicted: str) -> str:
-    return f"""QUESTION:
-{question}
-
-EXPECTED ANSWER (ground truth):
-{expected}
-
-PREDICTED ANSWER:
-{predicted}
-
-Are these two answers substantively equivalent?
-Respond with JSON: {{"verdict": "T" or "F", "reason": "<one short sentence>"}}
-"""
-
-
-# --------------------------------------------------------------------------
-# Retrieval
-# --------------------------------------------------------------------------
-def _choose_children(llm: LLMClient, query: str, path: List[Node],
-                     max_picks: int) -> Tuple[str, List[int]]:
-    """Ask the LLM which children to descend into (or to stop).
-
-    `path` is the chain root -> ... -> current. Every ancestor's title and
-    summary feeds into the prompt so the router sees full breadcrumb context.
+    Indentation reflects depth so the LLM can read the parent/child structure
+    visually. Each entry shows index, title, page range, and summary.
     """
-    node = path[-1]
-    block = "\n".join(
-        f"[{i}] {c.title} (pages {c.start_page}-{c.end_page})\n    {c.summary}"
-        for i, c in enumerate(node.children)
-    )
+    lines: List[str] = []
+    for i, (path, node) in enumerate(entries):
+        # depth = number of ancestors above root (root itself is depth 0).
+        depth = len(path) - 2 if len(path) >= 2 else 0
+        indent = "  " * max(0, depth)
+        lines.append(
+            f'{indent}[{i}] "{node.title}" (pages {node.start_page}-{node.end_page})'
+        )
+        if node.summary:
+            lines.append(f"{indent}    Summary: {node.summary}")
+    return "\n".join(lines)
+
+
+def select_nodes(root: Node, query: str, llm: LLMClient, max_picks: int,
+                 verbose: bool = False) -> List[List[Node]]:
+    """Show every node (parents + leaves) to the LLM in one prompt and let it
+    pick which ones to use. Returns the path root -> ... -> selected node for
+    each selected node, in the LLM's order of relevance."""
+    entries = _flatten_nodes(root)
+    if not entries:
+        return []
+    nodes_block = _format_nodes_block(entries)
     result = llm.complete_json(
-        MULTI_ROUTING_SYS, _routing_user_multi(query, path, block, max_picks)
+        SELECTION_SYS, selection_user(query, nodes_block, max_picks),
     )
     result = result if isinstance(result, dict) else {}
-    action = str(result.get("action", "descend")).strip().lower()
-    if action not in ("descend", "stop"):
-        action = "descend"
-    raw = result.get("child_indices") or []
+    raw = result.get("node_indices") or []
     if not isinstance(raw, list):
         raw = []
-    indices: List[int] = []
-    for item in raw[:max_picks]:
+
+    picked: List[List[Node]] = []
+    seen_ids: set = set()
+    for item in raw:
         try:
             ix = int(item)
         except (TypeError, ValueError):
             continue
-        if 0 <= ix < len(node.children) and ix not in indices:
-            indices.append(ix)
-    return action, indices
-
-
-def retrieve_multi(root: Node, query: str, config: Config, llm: LLMClient,
-                   beam_size: int, max_leaves: int,
-                   verbose: bool = False) -> List[List[Node]]:
-    """Beam-style descent. Returns a list of paths from root to each selected node."""
-    frontier: List[List[Node]] = [[root]]
-    selected: List[List[Node]] = []
-    depth = 0
-
-    while frontier and depth < config.max_depth and len(selected) < max_leaves:
-        next_frontier: List[List[Node]] = []
-        for path in frontier:
-            node = path[-1]
-            if not node.children:
-                selected.append(path)
-                continue
-            action, indices = _choose_children(llm, query, path, max_picks=beam_size)
-            if verbose:
-                print(f"[retrieve] d={depth} '{node.title}': {action} children={indices}")
-            if action == "stop" or not indices:
-                selected.append(path)
-                continue
-            for idx in indices:
-                next_frontier.append(path + [node.children[idx]])
-        # Cap beam so the frontier doesn't explode.
-        frontier = next_frontier[:beam_size]
-        depth += 1
-
-    # Any unfinished frontier paths count as selected too.
-    for path in frontier:
-        if len(selected) >= max_leaves:
-            break
-        selected.append(path)
-
-    # Dedupe by final-node identity, keep order.
-    seen = set()
-    final: List[List[Node]] = []
-    for path in selected:
-        key = id(path[-1])
-        if key in seen:
+        if not (0 <= ix < len(entries)):
             continue
-        seen.add(key)
-        final.append(path)
-    return final[:max_leaves]
+        path, node = entries[ix]
+        if id(node) in seen_ids:
+            continue
+        seen_ids.add(id(node))
+        picked.append(path)
+        if len(picked) >= max_picks:
+            break
+
+    if verbose:
+        reasoning = str(result.get("reasoning", "")).strip()
+        titles = [p[-1].title for p in picked]
+        print(f"[select] picked {len(picked)} node(s): {titles}")
+        if reasoning:
+            print(f"[select] reasoning: {reasoning}")
+
+    return picked
 
 
-def _path_excerpt(path: List[Node]) -> str:
-    """Concatenate ancestor preamble text and the leaf's text along `path`.
+def _subtree_text(node: Node) -> str:
+    """Concatenate `node.text` plus every descendant's text in document order.
 
-    Parent nodes carry "preamble" text - paragraphs in the parent's page range
-    that no child covers, typically the introduction that precedes the first
-    subsection. The router selects a leaf, but that leaf's content often only
-    makes sense with the framing the parent set up (scope, definitions,
-    accounting basis...), so we prepend each ancestor's non-empty text. The
-    leaf comes last. Page markers (`[page N]`) inside each block are preserved
-    because both leaf.text and parent.text come from pdf.text_range.
+    Each node's stored `text` is its own non-overlapping slice (leaf.text is
+    the full page range; parent.text is the preamble paragraphs not covered
+    by any child). Walking the subtree pre-order and joining yields the full
+    text of the section, with no duplication.
     """
     pieces: List[str] = []
-    for node in path[:-1]:
-        if node.text and node.text.strip():
-            pieces.append(f'[Preamble from "{node.title}"]\n{node.text}')
-    leaf = path[-1]
-    if leaf.text:
-        pieces.append(leaf.text)
+    if node.text and node.text.strip():
+        pieces.append(node.text)
+    for c in node.children:
+        sub = _subtree_text(c)
+        if sub:
+            pieces.append(sub)
     return "\n\n".join(pieces)
 
 
-VERIFY_ANSWER_SYS = (
-    "You are a verifier for financial-question answers. You receive (a) the "
-    "question, (b) the source excerpts the answerer was given, and (c) the "
-    "predicted answer including its calculation walkthrough. "
-    "Check three things AGAINST THE EXCERPTS ONLY, in order: "
-    "  1. Line-item lookups: every number the prediction claims to read from "
-    "     the document (e.g. 'Net sales: $519,926 million') must actually "
-    "     appear in the excerpts, on the cited page, under the named line "
-    "     item. Mismatched line items count as an issue. "
-    "  2. Derivation choice: when the prediction DERIVES a value (e.g. "
-    "     operating income = gross margin - SG&A - R&D), check that the same "
-    "     value isn't ALREADY printed as a single line item in the excerpts. "
-    "     Reading a line item directly is always preferred to a derived "
-    "     reconstruction. "
-    "  3. Arithmetic: every computation in the walkthrough (sums, averages, "
-    "     ratios, percentages) must be correct to within 1 in the last "
-    "     reported digit. Re-do the math step by step. "
-    "Be CONSERVATIVE: only flag issues you are sure about - a flagged "
-    "correct answer wastes a re-run and may degrade the final answer. If "
-    "you cannot pin down a problem to a specific line, do not flag it. "
-    "Return JSON: "
-    "{\"ok\": true|false, "
-    " \"issues\": [\"<one-line description per problem>\", ...], "
-    " \"corrected_final_answer\": \"<the corrected final number/string if "
-    "you are highly confident, otherwise empty string>\"}"
-)
+def _selected_excerpt(path: List[Node]) -> str:
+    """Build the excerpt for a selected node: ancestor preambles + its subtree.
+
+    Ancestor `node.text` (the preamble before any child) is prepended so the
+    selected section is read with the framing the parent set up (scope,
+    definitions, accounting basis...). The selected node's full subtree
+    follows.
+    """
+    pieces: List[str] = []
+    for ancestor in path[:-1]:
+        if ancestor.text and ancestor.text.strip():
+            pieces.append(f'[Preamble from "{ancestor.title}"]\n{ancestor.text}')
+    target = path[-1]
+    sub = _subtree_text(target)
+    if sub:
+        pieces.append(sub)
+    return "\n\n".join(pieces)
 
 
-def _verify_answer_prompt(query: str, excerpts_block: str, predicted: str) -> str:
-    return f"""Question: {query}
-
-Source excerpts the answerer used:
-{excerpts_block}
-
-Predicted answer (including its calculation walkthrough):
-{predicted}
-
-Verify per the system instructions and return JSON.
-"""
-
-
-def _excerpts_block(paths: List[List[Node]], excerpts: List[str]) -> str:
-    blocks = []
-    for i, (path, excerpt) in enumerate(zip(paths, excerpts), start=1):
-        breadcrumb = " > ".join(n.title for n in path)
-        leaf = path[-1]
-        blocks.append(
-            f"### Excerpt {i}: {breadcrumb} (pages {leaf.start_page}-{leaf.end_page})\n"
-            f"{excerpt}"
-        )
-    return "\n\n".join(blocks)
-
-
+# --------------------------------------------------------------------------
+# Answer + verify
+# --------------------------------------------------------------------------
 def _reanswer_with_feedback(query: str, paths: List[List[Node]],
                             excerpts: List[str], prior_answer: str,
                             issues: List[str], config: Config,
                             answer_llm: LLMClient) -> str:
     """Re-run the answer model with verifier feedback appended to the user prompt."""
-    base = _answer_user_multi(query, paths, excerpts)
+    base = answer_user_multi(query, paths, excerpts)
     issues_block = "\n".join(f"  - {s}" for s in issues if s)
     feedback = (
         "\n\nA verification step flagged the following issues with a previous "
@@ -412,13 +183,13 @@ def _reanswer_with_feedback(query: str, paths: List[List[Node]],
 
 
 def verify_answer(query: str, paths: List[List[Node]], excerpts: List[str],
-                  predicted: str, answer_llm: LLMClient,
+                  predicted: str, judge_llm: LLMClient,
                   verbose: bool = False) -> Dict[str, Any]:
     """Run the verifier critic. Returns {ok, issues, corrected_final_answer}."""
     try:
-        result = answer_llm.complete_json(
+        result = judge_llm.complete_json(
             VERIFY_ANSWER_SYS,
-            _verify_answer_prompt(query, _excerpts_block(paths, excerpts), predicted),
+            verify_answer_prompt(query, excerpts_block(paths, excerpts), predicted),
             max_tokens=1000,
         )
     except Exception as err:  # noqa: BLE001 - degrade to "ok" rather than block answer
@@ -436,30 +207,34 @@ def verify_answer(query: str, paths: List[List[Node]], excerpts: List[str],
 
 
 def answer_multi(root: Node, query: str, config: Config,
-                 llm: LLMClient, beam_size: int = 2, max_leaves: int = 100,
+                 llm: LLMClient, max_picks: int = 100,
                  verbose: bool = False,
                  answer_llm: Optional[LLMClient] = None,
+                 judge_llm: Optional[LLMClient] = None,
                  verify: bool = True) -> Dict[str, Any]:
     """Retrieve, answer, optionally verify-and-regenerate.
 
-    When `verify=True` and the verifier flags issues, one re-answer pass is
-    run with the verifier's issues appended to the user prompt. The re-answer
-    output replaces the original. Verifier failures (network/parse errors)
-    degrade to OK so a flaky critic never blocks an otherwise-fine answer.
+    `judge_llm` runs the verifier critic and (separately) the T/F judge.
+    Falls back to `answer_llm` when not provided, so older callers keep
+    working. When `verify=True` and the verifier flags issues, one re-answer
+    pass is run with the verifier's issues appended to the user prompt.
+    Verifier failures (network/parse errors) degrade to OK so a flaky critic
+    never blocks an otherwise-fine answer.
     """
-    paths = retrieve_multi(root, query, config, llm, beam_size, max_leaves, verbose)
-    excerpts = [_path_excerpt(p) for p in paths]
+    paths = select_nodes(root, query, llm, max_picks=max_picks, verbose=verbose)
+    excerpts = [_selected_excerpt(p) for p in paths]
     breadcrumb = "  |  ".join(" > ".join(n.title for n in path) for path in paths)
-    use_llm = answer_llm or llm
-    answer = use_llm.complete(
+    use_answer_llm = answer_llm or llm
+    use_judge_llm = judge_llm or use_answer_llm
+    answer = use_answer_llm.complete(
         ANSWER_MULTI_SYS,
-        _answer_user_multi(query, paths, excerpts),
+        answer_user_multi(query, paths, excerpts),
         max_tokens=config.answer_max_tokens,
     ).strip()
 
     verification: Optional[Dict[str, Any]] = None
     if verify:
-        verification = verify_answer(query, paths, excerpts, answer, use_llm,
+        verification = verify_answer(query, paths, excerpts, answer, use_judge_llm,
                                      verbose=verbose)
         if not verification["ok"] and verification["issues"]:
             if verbose:
@@ -467,7 +242,7 @@ def answer_multi(root: Node, query: str, config: Config,
                 print(f"[verify_answer] flagged: {preview}")
             answer = _reanswer_with_feedback(
                 query, paths, excerpts, answer, verification["issues"],
-                config, use_llm,
+                config, use_answer_llm,
             ).strip()
 
     return {
@@ -479,9 +254,9 @@ def answer_multi(root: Node, query: str, config: Config,
 
 
 # --------------------------------------------------------------------------
-# Main runner
+# Main pipeline (CLI + per-row orchestration)
 # --------------------------------------------------------------------------
-def main() -> int:
+def _parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Answer FinanceBench questions against pre-built PageIndex trees."
     )
@@ -489,150 +264,212 @@ def main() -> int:
     parser.add_argument("--trees-dir", default="trees")
     parser.add_argument("--out", default="financebench_results.xlsx")
     parser.add_argument("--limit", type=int, help="Process at most N rows.")
-    parser.add_argument("--beam-size", type=int, default=100,
-                        help="Max children to follow at each tree level (default: 100).")
-    parser.add_argument("--max-leaves", type=int, default=100,
-                        help="Max sections to feed into the answer (default: 100).")
+    parser.add_argument("--max-picks", type=int, default=10,
+                        help="Max nodes the selection agent may pick (default: 10).")
     parser.add_argument("--save-every", type=int, default=5,
                         help="Persist the output xlsx every N rows.")
     parser.add_argument("--verbose", action="store_true",
                         help="Print every routing decision.")
-    args = parser.parse_args()
+    return parser.parse_args()
 
-    qa_path = Path(args.qa_file)
-    out_path = Path(args.out)
-    trees_dir = Path(args.trees_dir)
 
+def _load_qa(qa_path: Path):
+    """Open the QA workbook and validate required columns.
+
+    Returns `(ws, header, col)` where `col` maps each required name to its
+    0-indexed column. Raises ValueError with a printable message on a missing
+    file or missing columns.
+    """
     if not qa_path.is_file():
-        print(f"Error: QA file not found: {qa_path}", file=sys.stderr)
-        return 1
-
+        raise ValueError(f"QA file not found: {qa_path}")
     wb = load_workbook(qa_path, data_only=True)
     ws = wb.active
     header = [c.value for c in ws[1]]
     required = ["doc_name", "question", "answer"]
     missing = [c for c in required if c not in header]
     if missing:
-        print(f"Error: required columns missing from QA file: {missing}", file=sys.stderr)
-        return 1
+        raise ValueError(f"required columns missing from QA file: {missing}")
     col = {c: header.index(c) for c in required}
+    return ws, header, col
 
-    out_wb = Workbook()
-    out_ws = out_wb.active
-    out_ws.title = "results"
-    out_ws.append(header + ["predicted_answer", "retrieval_path", "verdict"])
 
-    config = Config()
-    llm = LLMClient(config)
-    # Final answer uses a stronger model than routing/judge.
+def _make_output_workbook(header: List[str]) -> Tuple[Workbook, Any]:
+    """Create the results workbook with the QA header + three extra columns."""
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "results"
+    ws.append(header + ["predicted_answer", "retrieval_path", "verdict"])
+    return wb, ws
+
+
+def _make_llm_clients(config: Config) -> Tuple[LLMClient, LLMClient, LLMClient]:
+    """Build the (selection, answer, judge) LLM client triple.
+
+    - Selection: gpt-4o-2024-11-20 on OpenAI; Sonnet on Anthropic.
+    - Answer:    gpt-4o-2024-11-20 on OpenAI; Opus on Anthropic.
+    - Judge/verify: always gpt-4o-2024-11-20 (OpenAI), regardless of the
+      project's main provider, so verdicts stay comparable across runs that
+      vary the answer model. Requires OPENAI_API_KEY in the environment.
+    """
+    routing_model = "gpt-4o-2024-11-20" if config.provider == "openai" else "claude-sonnet-4-6"
+    llm = LLMClient(replace(config, model=routing_model))
     answer_model = "gpt-4o-2024-11-20" if config.provider == "openai" else "claude-opus-4-7"
     answer_llm = LLMClient(replace(config, model=answer_model))
+    # Pinned to gpt-4o. Clearing api_key forces Config.__post_init__ to look
+    # up OPENAI_API_KEY from the environment.
+    judge_llm = LLMClient(replace(config, provider="openai",
+                                  model="gpt-4o-2024-11-20", api_key=""))
+    return llm, answer_llm, judge_llm
+
+
+def _judge_one(judge_llm: LLMClient, question: str, expected: str,
+               predicted: str) -> str:
+    """Return T / F / ? for one row. Falls back to ? on judge LLM errors."""
+    try:
+        judged = judge_llm.complete_json(
+            JUDGE_SYS, judge_prompt(question, expected, predicted)
+        )
+    except Exception:  # noqa: BLE001 - record judge failures as ?
+        return "?"
+    verdict = str(judged.get("verdict", "")).strip().upper()
+    return verdict if verdict in ("T", "F") else "?"
+
+
+def _process_row(r: int, n_total: int, row: tuple, col: Dict[str, int],
+                 trees_dir: Path, tree_cache: Dict[str, Node],
+                 config: Config, llm: LLMClient, answer_llm: LLMClient,
+                 judge_llm: LLMClient,
+                 args: argparse.Namespace) -> Dict[str, Any]:
+    """Answer + judge one QA row.
+
+    Returns a dict with keys `verdict` (one of T/F/?/SKIP/ERROR),
+    `predicted`, `breadcrumb`, `duration`. SKIP/ERROR rows have empty
+    `predicted`/`breadcrumb`; OK rows always carry a real verdict.
+    """
+    doc_name = row[col["doc_name"]]
+    question = row[col["question"]]
+    expected = row[col["answer"]]
+    expected_str = "" if expected is None else str(expected).strip()
+
+    if not doc_name or not question or not expected_str:
+        return {"verdict": "SKIP", "predicted": "", "breadcrumb": "", "duration": 0.0}
+
+    tree_path = trees_dir / f"{doc_name}.tree.json"
+    if not tree_path.exists():
+        print(f"[{r-1}/{n_total}] SKIP  {doc_name}  (no tree at {tree_path})")
+        return {"verdict": "SKIP", "predicted": "", "breadcrumb": "", "duration": 0.0}
+
+    if doc_name not in tree_cache:
+        tree_cache[doc_name] = load_tree(str(tree_path))
+    root = tree_cache[doc_name]
+
+    t0 = time.time()
+    try:
+        result = answer_multi(
+            root, str(question), config, llm,
+            max_picks=args.max_picks, verbose=args.verbose,
+            answer_llm=answer_llm, judge_llm=judge_llm,
+        )
+    except Exception as err:  # noqa: BLE001 - keep batch alive
+        print(f"[{r-1}/{n_total}] ERR   {doc_name}: {str(err)[:300]}")
+        return {"verdict": "ERROR", "predicted": "", "breadcrumb": "",
+                "duration": time.time() - t0}
+
+    predicted = result["answer"]
+    breadcrumb = result["breadcrumb"]
+    verdict = _judge_one(judge_llm, str(question), expected_str, predicted)
+    return {"verdict": verdict, "predicted": predicted, "breadcrumb": breadcrumb,
+            "duration": time.time() - t0}
+
+
+def _print_progress(r: int, n_total: int, row: tuple, col: Dict[str, int],
+                    result: Dict[str, Any], counters: Dict[str, int]) -> None:
+    """Print the one-line per-row progress message for an OK row."""
+    doc_name = row[col["doc_name"]]
+    q_text = str(row[col["question"]])
+    q_preview = (q_text[:60] + "...") if len(q_text) > 60 else q_text
+    judged_so_far = counters["T"] + counters["F"]
+    running = f"running {counters['T']}/{judged_so_far}" if judged_so_far else "running -"
+    print(f"[{r-1}/{n_total}] {result['verdict']}  {doc_name}  "
+          f"({result['duration']:.1f}s)  [{running}]  q={q_preview!r}")
+
+
+def _print_first_f_dump(row: tuple, header: List[str], col: Dict[str, int],
+                        result: Dict[str, Any]) -> None:
+    """Print the diagnostic dump shown the first time a row is judged F."""
+    question = row[col["question"]]
+    expected = row[col["answer"]]
+    expected_str = "" if expected is None else str(expected).strip()
+    justification = row[header.index("justification")] if "justification" in header else ""
+    evidence = row[header.index("evidence")] if "evidence" in header else ""
+    print(f"\n{'=' * 60}")
+    print("First F detected - stopping.")
+    print(f"{'=' * 60}")
+    for field, value in [
+        ("question", question),
+        ("answer", expected_str),
+        ("justification", justification),
+        ("evidence", evidence),
+        ("predicted_answer", result["predicted"]),
+        ("retrieval_path", result["breadcrumb"]),
+        ("verdict", result["verdict"]),
+    ]:
+        print(f"\n--- {field} ---\n{value}")
+
+
+def _print_summary(counters: Dict[str, int], out_path: Path) -> None:
+    n_t, n_f = counters["T"], counters["F"]
+    total_judged = n_t + n_f
+    print(f"\n{'=' * 60}")
+    print(f"Done.  T={n_t}  F={n_f}  ?={counters['?']}  "
+          f"skipped={counters['SKIP']}  errored={counters['ERROR']}")
+    if total_judged:
+        print(f"Accuracy (T / (T+F)) = {n_t}/{total_judged} = {n_t / total_judged:.1%}")
+    print(f"Results saved to {out_path}")
+
+
+def main() -> int:
+    args = _parse_args()
+    out_path = Path(args.out)
+    trees_dir = Path(args.trees_dir)
+
+    try:
+        ws, header, col = _load_qa(Path(args.qa_file))
+    except ValueError as err:
+        print(f"Error: {err}", file=sys.stderr)
+        return 1
+
+    out_wb, out_ws = _make_output_workbook(header)
+    config = Config()
+    llm, answer_llm, judge_llm = _make_llm_clients(config)
 
     n_total = ws.max_row - 1
-    n_t = n_f = n_unknown = n_skipped = n_errored = 0
+    counters: Dict[str, int] = {"T": 0, "F": 0, "?": 0, "SKIP": 0, "ERROR": 0}
     tree_cache: Dict[str, Node] = {}
+    first_f_dumped = False
 
     for r, row in enumerate(ws.iter_rows(min_row=2, values_only=True), start=2):
         if args.limit and (r - 1) > args.limit:
             break
 
-        row_data = list(row)
-        doc_name = row[col["doc_name"]]
-        question = row[col["question"]]
-        expected = row[col["answer"]]
-        expected_str = "" if expected is None else str(expected).strip()
+        result = _process_row(r, n_total, row, col, trees_dir, tree_cache,
+                              config, llm, answer_llm, judge_llm, args)
+        verdict = result["verdict"]
+        counters[verdict] += 1
+        out_ws.append(list(row) + [result["predicted"], result["breadcrumb"], verdict])
 
-        if not doc_name or not question or not expected_str:
-            n_skipped += 1
-            out_ws.append(row_data + ["", "", "SKIP"])
-            continue
-
-        tree_path = trees_dir / f"{doc_name}.tree.json"
-
-        if not tree_path.exists():
-            n_skipped += 1
-            reason = f"no tree at {tree_path}"
-            print(f"[{r-1}/{n_total}] SKIP  {doc_name}  ({reason})")
-            out_ws.append(row_data + ["", "", "SKIP"])
-            continue
-
-        if doc_name not in tree_cache:
-            tree_cache[doc_name] = load_tree(str(tree_path))
-        root = tree_cache[doc_name]
-
-        t0 = time.time()
-        try:
-            result = answer_multi(
-                root, str(question), config, llm,
-                beam_size=args.beam_size, max_leaves=args.max_leaves,
-                verbose=args.verbose, answer_llm=answer_llm,
-            )
-            predicted = result["answer"]
-            breadcrumb = result["breadcrumb"]
-        except Exception as err:  # noqa: BLE001 - keep batch alive
-            n_errored += 1
-            msg = str(err)[:300]
-            print(f"[{r-1}/{n_total}] ERR   {doc_name}: {msg}")
-            out_ws.append(row_data + ["", "", "ERROR"])
-            if (r - 1) % args.save_every == 0:
-                out_wb.save(out_path)
-            continue
-
-        try:
-            judged = answer_llm.complete_json(
-                JUDGE_SYS, _judge_prompt(str(question), expected_str, predicted)
-            )
-            verdict = str(judged.get("verdict", "")).strip().upper()
-            if verdict not in ("T", "F"):
-                verdict = "?"
-        except Exception:  # noqa: BLE001 - record judge failures
-            verdict = "?"
-
-        if verdict == "T":
-            n_t += 1
-        elif verdict == "F":
-            n_f += 1
-        else:
-            n_unknown += 1
-
-        dt = time.time() - t0
-        q_text = str(question)
-        q_preview = (q_text[:60] + "...") if len(q_text) > 60 else q_text
-        judged_so_far = n_t + n_f
-        running = f"running {n_t}/{judged_so_far}" if judged_so_far else "running -"
-        print(f"[{r-1}/{n_total}] {verdict}  {doc_name}  ({dt:.1f}s)  [{running}]  q={q_preview!r}")
-
-        out_ws.append(row_data + [predicted, breadcrumb, verdict])
-
-        if verdict == "F":
+        if verdict in ("T", "F", "?"):
+            _print_progress(r, n_total, row, col, result, counters)
+        if verdict == "F" and not first_f_dumped:
             out_wb.save(out_path)
-            justification = row[header.index("justification")] if "justification" in header else ""
-            evidence = row[header.index("evidence")] if "evidence" in header else ""
-            print(f"\n{'=' * 60}")
-            print("First F detected - stopping.")
-            print(f"{'=' * 60}")
-            for field, value in [
-                ("question", question),
-                ("answer", expected_str),
-                ("justification", justification),
-                ("evidence", evidence),
-                ("predicted_answer", predicted),
-                ("retrieval_path", breadcrumb),
-                ("verdict", verdict),
-            ]:
-                print(f"\n--- {field} ---\n{value}")
+            _print_first_f_dump(row, header, col, result)
+            first_f_dumped = True
 
         if (r - 1) % args.save_every == 0:
             out_wb.save(out_path)
 
     out_wb.save(out_path)
-
-    total_judged = n_t + n_f
-    print(f"\n{'=' * 60}")
-    print(f"Done.  T={n_t}  F={n_f}  ?={n_unknown}  skipped={n_skipped}  errored={n_errored}")
-    if total_judged:
-        print(f"Accuracy (T / (T+F)) = {n_t}/{total_judged} = {n_t / total_judged:.1%}")
-    print(f"Results saved to {out_path}")
+    _print_summary(counters, out_path)
     return 0
 
 

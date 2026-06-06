@@ -12,6 +12,62 @@ _LEADER_LINE = re.compile(r"\.{3,}\s*\d{1,4}\s*$")
 # separate columns. Body prose effectively never produces these.
 _PAGE_NUM_LINE = re.compile(r"^\s*\d{1,4}\s*$")
 
+# PyMuPDF span flag bit 4 (= 16) is set when the run is rendered bold.
+_FLAG_BOLD = 1 << 4
+# A line whose dominant span exceeds the page's median body font size by this
+# many points is treated as visually heading-like. Two points is a typical
+# step between body (10-11pt) and a heading (12-14pt) in financial filings.
+_HEADING_SIZE_DELTA = 2.0
+# Lines longer than this are paragraphs, not headings, even if bold.
+_HEADING_MAX_LEN = 200
+# Lines shorter than this are likely fragments (page numbers, footers).
+_HEADING_MIN_LEN = 3
+
+
+def _line_text(line: dict) -> str:
+    return "".join(s.get("text", "") for s in line.get("spans", []))
+
+
+def _dominant_span(line: dict) -> Optional[dict]:
+    """Span that contributes the most characters to a line - used so a stray
+    short bold span in a mostly-body line doesn't mis-classify it."""
+    spans = [s for s in line.get("spans", []) if s.get("text")]
+    if not spans:
+        return None
+    return max(spans, key=lambda s: len(s.get("text", "")))
+
+
+def _page_median_body_size(blocks: List[dict]) -> float:
+    """Character-weighted median font size on the page. Used as the body-text
+    baseline so heading detection is robust to docs that use 9pt or 12pt body."""
+    sizes: List[float] = []
+    for b in blocks:
+        if b.get("type", 0) != 0:
+            continue
+        for ln in b.get("lines", []):
+            for sp in ln.get("spans", []):
+                t = sp.get("text", "")
+                if not t.strip():
+                    continue
+                size = float(sp.get("size", 0))
+                sizes.extend([size] * len(t))
+    if not sizes:
+        return 0.0
+    sizes.sort()
+    return sizes[len(sizes) // 2]
+
+
+def _line_is_heading_like(line: dict, body_size: float) -> bool:
+    text = _line_text(line).strip()
+    if not (_HEADING_MIN_LEN <= len(text) <= _HEADING_MAX_LEN):
+        return False
+    dom = _dominant_span(line)
+    if dom is None:
+        return False
+    is_bold = bool(int(dom.get("flags", 0)) & _FLAG_BOLD)
+    is_large = body_size > 0 and float(dom.get("size", body_size)) >= body_size + _HEADING_SIZE_DELTA
+    return is_bold or is_large
+
 
 class PDFDocument:
     """Wraps a PyMuPDF document with cached, 1-indexed page access."""
@@ -21,6 +77,7 @@ class PDFDocument:
         self.doc = fitz.open(path)
         self.page_count: int = self.doc.page_count
         self._cache: Dict[int, str] = {}
+        self._annotated_cache: Dict[int, str] = {}
 
     def page_text(self, page_number: int) -> str:
         """Return the plain text of a 1-indexed page (cached)."""
@@ -32,11 +89,58 @@ class PDFDocument:
         self._cache[page_number] = text
         return text
 
+    def page_text_annotated(self, page_number: int) -> str:
+        """Page text with heading-like lines prefixed by `# `.
+
+        Uses PyMuPDF's `get_text("dict")` rich layout to recover font size
+        and bold flag information that plain `get_text("text")` loses. A line
+        is annotated when its dominant span is bold OR its font size exceeds
+        the page's median body size by at least 2 points. The marker gives
+        the sliding-window heading detector a strong visual signal even when
+        the prose itself doesn't read as a heading.
+        """
+        if page_number in self._annotated_cache:
+            return self._annotated_cache[page_number]
+        if page_number < 1 or page_number > self.page_count:
+            return ""
+        data = self.doc[page_number - 1].get_text("dict")
+        blocks = data.get("blocks", [])
+        body_size = _page_median_body_size(blocks)
+        out: List[str] = []
+        for b in blocks:
+            if b.get("type", 0) != 0:
+                continue
+            for ln in b.get("lines", []):
+                text = _line_text(ln).rstrip()
+                if not text.strip():
+                    continue
+                if _line_is_heading_like(ln, body_size):
+                    out.append(f"# {text.strip()}")
+                else:
+                    out.append(text)
+        result = "\n".join(out)
+        self._annotated_cache[page_number] = result
+        return result
+
     def text_range(self, start: int, end: int, max_chars: Optional[int] = None) -> str:
         """Concatenate pages `start..end` (inclusive) with `[page N]` markers."""
         start = max(1, start)
         end = min(self.page_count, end)
         parts = [f"[page {p}]\n{self.page_text(p)}" for p in range(start, end + 1)]
+        text = "\n\n".join(parts)
+        if max_chars and len(text) > max_chars:
+            text = text[:max_chars] + "\n...[truncated]..."
+        return text
+
+    def text_range_annotated(self, start: int, end: int,
+                             max_chars: Optional[int] = None) -> str:
+        """Like `text_range`, but each page's text is annotated with `# `
+        markers on heading-like lines (see `page_text_annotated`). Used by
+        the sliding-window heading detector so the LLM sees font/bold cues
+        that plain text extraction discards."""
+        start = max(1, start)
+        end = min(self.page_count, end)
+        parts = [f"[page {p}]\n{self.page_text_annotated(p)}" for p in range(start, end + 1)]
         text = "\n\n".join(parts)
         if max_chars and len(text) > max_chars:
             text = text[:max_chars] + "\n...[truncated]..."
