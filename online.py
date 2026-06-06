@@ -25,8 +25,10 @@ Usage
 import argparse
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import replace
 from pathlib import Path
+from threading import Lock
 from typing import Any, Dict, List, Optional, Tuple
 
 from openpyxl import Workbook, load_workbook
@@ -333,8 +335,16 @@ def _parse_args() -> argparse.Namespace:
                         help="Max nodes the selection agent may pick (default: 10).")
     parser.add_argument("--save-every", type=int, default=5,
                         help="Persist the output xlsx every N rows.")
+    parser.add_argument("--workers", type=int, default=4,
+                        help="Number of QA rows to process concurrently "
+                             "(default: 4). Each worker runs its own row "
+                             "end-to-end (select + answer + verify + judge); "
+                             "rows complete out of order. Tune to your "
+                             "provider rate limits.")
     parser.add_argument("--verbose", action="store_true",
-                        help="Print every routing decision.")
+                        help="Print every routing decision. With multiple "
+                             "workers, verbose output from different rows "
+                             "may interleave.")
     parser.add_argument("--dump-false", action="store_true",
                         help="Print the full diagnostic dump (question / expected / "
                              "justification / evidence / predicted / retrieval path) "
@@ -404,14 +414,17 @@ def _judge_one(judge_llm: LLMClient, question: str, expected: str,
 
 def _process_row(r: int, n_total: int, row: tuple, col: Dict[str, int],
                  trees_dir: Path, tree_cache: Dict[str, Node],
+                 tree_cache_lock: Lock,
                  config: Config, routing_llm: LLMClient, answer_llm: LLMClient,
                  judge_llm: LLMClient,
                  args: argparse.Namespace) -> Dict[str, Any]:
-    """Answer + judge one QA row.
+    """Answer + judge one QA row. Safe to run from a worker thread.
 
     Returns a dict with keys `verdict` (one of T/F/?/SKIP/ERROR),
-    `predicted`, `breadcrumb`, `duration`. SKIP/ERROR rows have empty
-    `predicted`/`breadcrumb`; OK rows always carry a real verdict.
+    `predicted`, `breadcrumb`, `duration`, plus an optional `log_line` the
+    main thread should print (used for SKIP/ERR cases that previously
+    printed inline). OK rows return `log_line=None`; the main thread prints
+    them via `_print_progress` once the counter is updated.
     """
     doc_name = row[col["doc_name"]]
     question = row[col["question"]]
@@ -419,16 +432,21 @@ def _process_row(r: int, n_total: int, row: tuple, col: Dict[str, int],
     expected_str = "" if expected is None else str(expected).strip()
 
     if not doc_name or not question or not expected_str:
-        return {"verdict": "SKIP", "predicted": "", "breadcrumb": "", "duration": 0.0}
+        return {"verdict": "SKIP", "predicted": "", "breadcrumb": "",
+                "duration": 0.0, "log_line": None}
 
     tree_path = trees_dir / f"{doc_name}.tree.json"
     if not tree_path.exists():
-        print(f"[{r-1}/{n_total}] SKIP  {doc_name}  (no tree at {tree_path})")
-        return {"verdict": "SKIP", "predicted": "", "breadcrumb": "", "duration": 0.0}
+        return {"verdict": "SKIP", "predicted": "", "breadcrumb": "",
+                "duration": 0.0,
+                "log_line": f"[{r-1}/{n_total}] SKIP  {doc_name}  (no tree at {tree_path})"}
 
-    if doc_name not in tree_cache:
-        tree_cache[doc_name] = load_tree(str(tree_path))
-    root = tree_cache[doc_name]
+    # Lock the cache: cheap check + (rare) JSON parse. Holding the lock
+    # during load is fine - load_tree is fast vs. an LLM call.
+    with tree_cache_lock:
+        if doc_name not in tree_cache:
+            tree_cache[doc_name] = load_tree(str(tree_path))
+        root = tree_cache[doc_name]
 
     t0 = time.time()
     try:
@@ -438,15 +456,15 @@ def _process_row(r: int, n_total: int, row: tuple, col: Dict[str, int],
             answer_llm=answer_llm, judge_llm=judge_llm,
         )
     except Exception as err:  # noqa: BLE001 - keep batch alive
-        print(f"[{r-1}/{n_total}] ERR   {doc_name}: {str(err)[:300]}")
         return {"verdict": "ERROR", "predicted": "", "breadcrumb": "",
-                "duration": time.time() - t0}
+                "duration": time.time() - t0,
+                "log_line": f"[{r-1}/{n_total}] ERR   {doc_name}: {str(err)[:300]}"}
 
     predicted = result["answer"]
     breadcrumb = result["breadcrumb"]
     verdict = _judge_one(judge_llm, str(question), expected_str, predicted)
     return {"verdict": verdict, "predicted": predicted, "breadcrumb": breadcrumb,
-            "duration": time.time() - t0}
+            "duration": time.time() - t0, "log_line": None}
 
 
 def _print_progress(r: int, n_total: int, row: tuple, col: Dict[str, int],
@@ -510,28 +528,54 @@ def main() -> int:
     config = Config()
     routing_llm, answer_llm, judge_llm = _make_llm_clients(config)
 
-    n_total = ws.max_row - 1
-    counters: Dict[str, int] = {"T": 0, "F": 0, "?": 0, "SKIP": 0, "ERROR": 0}
-    tree_cache: Dict[str, Node] = {}
-
+    # Collect rows up front; with concurrent workers we submit them all to
+    # the executor and write results in completion order.
+    rows: List[Tuple[int, tuple]] = []
     for r, row in enumerate(ws.iter_rows(min_row=2, values_only=True), start=2):
         if args.limit and (r - 1) > args.limit:
             break
+        rows.append((r, row))
+    n_total = ws.max_row - 1
 
-        result = _process_row(r, n_total, row, col, trees_dir, tree_cache,
-                              config, routing_llm, answer_llm, judge_llm, args)
-        verdict = result["verdict"]
-        counters[verdict] += 1
-        out_ws.append(list(row) + [result["predicted"], result["breadcrumb"], verdict])
+    counters: Dict[str, int] = {"T": 0, "F": 0, "?": 0, "SKIP": 0, "ERROR": 0}
+    tree_cache: Dict[str, Node] = {}
+    tree_cache_lock = Lock()
+    io_lock = Lock()
 
-        if verdict in ("T", "F", "?"):
-            _print_progress(r, n_total, row, col, result, counters)
-        if verdict == "F" and args.dump_false:
-            out_wb.save(out_path)
-            _print_f_dump(row, header, col, result)
+    print(f"Processing {len(rows)} row(s) with {args.workers} worker(s)...")
 
-        if (r - 1) % args.save_every == 0:
-            out_wb.save(out_path)
+    with ThreadPoolExecutor(max_workers=args.workers) as executor:
+        future_to_row = {
+            executor.submit(
+                _process_row, r, n_total, row, col, trees_dir, tree_cache,
+                tree_cache_lock, config, routing_llm, answer_llm, judge_llm, args,
+            ): (r, row)
+            for r, row in rows
+        }
+
+        completed = 0
+        for fut in as_completed(future_to_row):
+            r, row = future_to_row[fut]
+            result = fut.result()
+            verdict = result["verdict"]
+
+            with io_lock:
+                counters[verdict] += 1
+                out_ws.append(list(row) + [result["predicted"],
+                                           result["breadcrumb"], verdict])
+
+                if result.get("log_line"):
+                    # SKIP / ERROR rows carry their own pre-formatted log line.
+                    print(result["log_line"])
+                if verdict in ("T", "F", "?"):
+                    _print_progress(r, n_total, row, col, result, counters)
+                if verdict == "F" and args.dump_false:
+                    out_wb.save(out_path)
+                    _print_f_dump(row, header, col, result)
+
+                completed += 1
+                if completed % args.save_every == 0:
+                    out_wb.save(out_path)
 
     out_wb.save(out_path)
     _print_summary(counters, out_path)
