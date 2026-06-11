@@ -72,7 +72,7 @@ def _format_nodes_block(entries: List[Tuple[List[Node], Node]]) -> str:
         depth = len(path) - 2 if len(path) >= 2 else 0
         indent = "  " * max(0, depth)
         lines.append(
-            f'{indent}[{i}] "{node.title}" (pages {node.start_page}-{node.end_page})'
+            f'{indent}[{i}] Title: "{node.title}" (pages {node.start_page}-{node.end_page})'
         )
         if node.summary:
             lines.append(f"{indent}    Summary: {node.summary}")

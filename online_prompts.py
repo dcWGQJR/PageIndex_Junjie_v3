@@ -15,17 +15,19 @@ from pageindex.tree import Node
 # --------------------------------------------------------------------------
 SELECTION_SYS = (
     "You select the node(s) of a document tree most likely to contain the "
-    "answer to a query. You are shown EVERY node in the tree at once - "
-    "both parents (sections) and leaves (subsections) - with their titles, "
-    "page ranges, and summaries. Pick whichever nodes are relevant; you may "
-    "pick multiple when the answer plausibly draws on different sections "
-    "(e.g. a financial statement AND a related note). "
+    "answer to a query based on both Summary and Title. If a node's title "
+    "clearly names a term from the query but its summary describes a "
+    "narrower or unrelated scope, still pick it - summaries can be "
+    "incomplete. You are shown EVERY node in the tree at once - both "
+    "parents (sections) and leaves (subsections) - with their titles, "
+    "page ranges, and summaries. Pick whichever nodes are relevant; you "
+    "may pick multiple when the answer plausibly draws on different "
+    "sections (e.g. a financial statement AND a related note). "
     "Prefer the most specific node that still covers the answer: pick a "
     "child leaf rather than its parent when the leaf clearly contains the "
-    "answer. Pick a parent only when the answer is spread across several of "
-    "its children, or when the parent's own preamble is what's relevant. "
-    "Do NOT pick both a parent and its descendant - the parent already "
-    "covers the descendant's content."
+    "answer. Pick a parent only when the parent's own preamble is what's "
+    "relevant. When the answer is spread across several of its children, "
+    "pick the children one by one."
 )
 
 
