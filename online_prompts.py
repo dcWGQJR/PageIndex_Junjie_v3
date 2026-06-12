@@ -11,6 +11,43 @@ from pageindex.tree import Node
 
 
 # --------------------------------------------------------------------------
+# Planner agent: decompose the question into formula + needed sections
+# before the selection agent sees the tree. The plan is appended to the
+# selection user prompt as a hint, not a constraint.
+# --------------------------------------------------------------------------
+PLANNER_SYS = (
+    "You decompose a financial question into the document sections needed "
+    "to answer it. Output a short plan with: the kind of question "
+    "(direct lookup vs derived metric); for derived metrics, the formula "
+    "in line-item form (e.g. 'Inventory Turnover = COGS / Average "
+    "Inventory'); the financial statements or notes whose line items are "
+    "needed (e.g. Balance Sheet for Inventory, Income Statement for "
+    "COGS); and the specific line items to look for. "
+    "Be conservative: if you are not sure of the standard formula, leave "
+    "it empty rather than guess - the selection agent will fall back to "
+    "its own judgement. Use conventional section names (Balance Sheet, "
+    "Income Statement, Cash Flow Statement, Statement of Equity, Notes "
+    "to Financial Statements). "
+    "For a direct lookup (e.g. 'What was 2022 revenue?'), set "
+    "kind='direct_lookup', leave the formula empty, and list just the "
+    "section and line item."
+)
+
+
+def planner_user(query: str) -> str:
+    return f"""Question: {query}
+
+Return JSON:
+{{
+  "kind": "direct_lookup" or "derived",
+  "formula": "<line-item-level formula if derived, else empty string>",
+  "needed_sections": ["<section name>", ...],
+  "needed_line_items": ["<line item>", ...]
+}}
+"""
+
+
+# --------------------------------------------------------------------------
 # Selection agent: pick which tree nodes to feed into the answer prompt.
 # --------------------------------------------------------------------------
 SELECTION_SYS = (
@@ -31,10 +68,19 @@ SELECTION_SYS = (
 )
 
 
-def selection_user(query: str, nodes_block: str, max_picks: int) -> str:
+def selection_user(query: str, nodes_block: str, max_picks: int,
+                   plan: str = "") -> str:
+    plan_block = ""
+    if plan:
+        plan_block = (
+            "A prior planning agent decomposed the question. Use it as "
+            "guidance for which sections / line items to look for, but you "
+            "may deviate if you see a clearly better fit in the tree.\n"
+            f"{plan}\n\n"
+        )
     return f"""Query: {query}
 
-Every node in the document tree is listed below. Indentation reflects the
+{plan_block}Every node in the document tree is listed below. Indentation reflects the
 parent/child hierarchy. Each entry shows its index, title, page range, and
 summary. Pick the nodes whose content is most likely to answer the query.
 

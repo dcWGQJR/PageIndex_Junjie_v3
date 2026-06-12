@@ -34,9 +34,9 @@ from typing import Any, Dict, List, Optional, Tuple
 from openpyxl import Workbook, load_workbook
 
 from online_prompts import (
-    ANSWER_MULTI_SYS, JUDGE_SYS, SELECTION_SYS, VERIFY_ANSWER_SYS,
-    answer_user_multi, excerpts_block, judge_prompt, selection_user,
-    verify_answer_prompt,
+    ANSWER_MULTI_SYS, JUDGE_SYS, PLANNER_SYS, SELECTION_SYS,
+    VERIFY_ANSWER_SYS, answer_user_multi, excerpts_block, judge_prompt,
+    planner_user, selection_user, verify_answer_prompt,
 )
 from pageindex import Config, LLMClient
 from pageindex.tree import Node, load_tree
@@ -79,8 +79,39 @@ def _format_nodes_block(entries: List[Tuple[List[Node], Node]]) -> str:
     return "\n".join(lines)
 
 
+def plan_query(query: str, llm: LLMClient, verbose: bool = False) -> str:
+    """Run the planner agent on the query and render its plan as a string
+    to embed in the selection prompt. Returns an empty string on any failure
+    so selection degrades to its prior behaviour."""
+    try:
+        result = llm.complete_json(PLANNER_SYS, planner_user(query))
+    except Exception as err:  # noqa: BLE001 - planner is advisory, never block
+        if verbose:
+            print(f"[plan] planner error (skipping plan): {err}")
+        return ""
+    if not isinstance(result, dict):
+        return ""
+    kind = str(result.get("kind", "")).strip()
+    formula = str(result.get("formula", "")).strip()
+    sections = result.get("needed_sections") or []
+    items = result.get("needed_line_items") or []
+    lines: List[str] = []
+    if kind:
+        lines.append(f"Kind: {kind}")
+    if formula:
+        lines.append(f"Formula: {formula}")
+    if isinstance(sections, list) and sections:
+        lines.append("Likely sections: " + ", ".join(str(s) for s in sections))
+    if isinstance(items, list) and items:
+        lines.append("Likely line items: " + ", ".join(str(s) for s in items))
+    plan = "\n".join(lines)
+    if verbose and plan:
+        print(f"[plan]\n{plan}")
+    return plan
+
+
 def select_nodes(root: Node, query: str, llm: LLMClient, max_picks: int,
-                 verbose: bool = False) -> List[List[Node]]:
+                 verbose: bool = False, plan: str = "") -> List[List[Node]]:
     """Show every node (parents + leaves) to the LLM in one prompt and let it
     pick which ones to use. Returns the path root -> ... -> selected node for
     each selected node, in the LLM's order of relevance."""
@@ -89,7 +120,7 @@ def select_nodes(root: Node, query: str, llm: LLMClient, max_picks: int,
         return []
     nodes_block = _format_nodes_block(entries)
     result = llm.complete_json(
-        SELECTION_SYS, selection_user(query, nodes_block, max_picks),
+        SELECTION_SYS, selection_user(query, nodes_block, max_picks, plan),
     )
     result = result if isinstance(result, dict) else {}
     raw = result.get("node_indices") or []
@@ -285,7 +316,9 @@ def answer_multi(root: Node, query: str, config: Config,
     Verifier failures (network/parse errors) degrade to OK so a flaky critic
     never blocks an otherwise-fine answer.
     """
-    paths = select_nodes(root, query, llm, max_picks=max_picks, verbose=verbose)
+    plan = plan_query(query, llm, verbose=verbose)
+    paths = select_nodes(root, query, llm, max_picks=max_picks,
+                         verbose=verbose, plan=plan)
     excerpts = [_selected_excerpt(p) for p in paths]
     # Token-budget guard: drop least-relevant picks until the prompt fits.
     paths, excerpts = _trim_to_budget(query, paths, excerpts,
